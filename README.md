@@ -1,4 +1,4 @@
-[Imgur](https://i.imgur.com/mecHwat.png)
+![Imgur](https://i.imgur.com/mecHwatt.png)
 
 ### Hola, soy José Luis 👋
 
