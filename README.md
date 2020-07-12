@@ -4,7 +4,8 @@
 
 Soy Dr. en Informática me he especialidado en desarrollo de aplicaciones web y móviles, además de videojuegos y experiencia de usuario.
 Trabajo como profesor de secundaria impartiendo clases en los ciclos de DAM/DAW/ASIR. 
-Disfruto praticando tenis, tocando la guitarra, jugando a videojuegos o con la música rock en general y compartiendo buenos momentos.
+Disfruto con la música y la música rock en general, praticando tenis, tocando la guitarra, jugando a videojuegos, leyendo, series, anime y compartiendo buenos momentos.
+
 Cualquier cosa que necesites házmelo saber 💬 y por si puedo ayudarte.
 
 ### Contacto
