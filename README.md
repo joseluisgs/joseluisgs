@@ -1,4 +1,11 @@
-### Hi there 👋
+### Hola, soy José Luis 👋
+
+Soy Dr. en Informática me he especialidado en desarrollo de aplicaciones web y móviles, además de videojuegos y experiencia de usuario.
+Trabajo como profesor de secundaria impartiendo clases en los ciclos de DAM/DAW/ASIR. 
+Disfruto prañticando tenis, tocando la guitarra, y compartiendo buenos momentos.
+Cualquier cosa que necesites házmelo saber y por si puedo ayudarte.
+
+
 
 <!--
 **joseluisgs/joseluisgs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
