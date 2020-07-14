@@ -2,7 +2,7 @@
 
 ## Hola, soy José Luis 👋 :computer:
 
-Soy Dr. en Informática me he especialidado en desarrollo de aplicaciones web y móviles, además de videojuegos y experiencia de usuario.
+Soy Dr. en Informática. Me he especialidado en desarrollo de aplicaciones web y móviles, además de videojuegos, sistemas interactivos y experiencia de usuario.
 
 Trabajo como profesor de secundaria impartiendo clases en los ciclos de DAM/DAW/ASIR. A nivel profesional colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de apliaciones web o móviles siempre centradas el usuario. Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos.
 
