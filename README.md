@@ -1,4 +1,4 @@
-![GitHub](https://i.imgur.com/qTkCP1B.png)
+![GitHub](https://i.imgur.com/WhOtwQl.png)
 
 ## Hola, soy José Luis 👋 :computer:
 
