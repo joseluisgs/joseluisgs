@@ -1,6 +1,6 @@
 ![GitHub](https://i.imgur.com/840eJrp.png)
 
-## Hola, soy José Luis 👋 :computer:
+# Hola, soy José Luis 👋 :computer:
 
 Soy Dr. en Informática. Me he especialidado en desarrollo de aplicaciones web y móviles, además de videojuegos, sistemas interactivos y experiencia de usuario.
 
@@ -12,14 +12,23 @@ Este es mi repositorio personal, úsalo como quieras. En ellos subo cosas que ap
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
-### Contacto
+## Contacto
 
 Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
-
-[![twitter](https://user-images.githubusercontent.com/25087769/87172407-de83e180-c2dc-11ea-9479-a894758266c3.png)](https://twitter.com/joseluisgonsan) &nbsp;&nbsp;
-[![github](https://user-images.githubusercontent.com/25087769/87176037-2c4f1880-c2e2-11ea-8a13-41c90b711b9f.png)](https://github.com/joseluisgs) &nbsp;&nbsp;
-[![linkedin](https://user-images.githubusercontent.com/25087769/87172072-530a5080-c2dc-11ea-8e2c-8ee4dbf3394b.png)](https://www.linkedin.com/in/joseluisgonsan/) &nbsp;&nbsp;
-
+<p align="left">
+    <a href="https://twitter.com/joseluisgonsan" target="_blank">
+        <img src="https://pitlochryfestivaltheatre.com/wp-content/uploads/2020/04/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" 
+    height="35">
+    </a> &nbsp;&nbsp;
+    <a href="https://github.com/joseluisgs" target="_blank">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
+    height="35">
+    </a> &nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
+    height="35">
+    </a>
+</p>
 
 ### Mi actividad
 ![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=highcontrast)
@@ -50,6 +59,8 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" height="30">
   <img src="https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png" 
   height="30">
+  <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
+  height="30">
   <img src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" 
   height="30">
   <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" 
@@ -59,6 +70,8 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
   <img src="https://cdn.worldvectorlogo.com/logos/unity-69.svg" 
   height="30">
   <img src="https://image.flaticon.com/icons/png/512/873/873120.png" 
+  height="30">
+  <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" 
   height="30">
 </p>
 
