@@ -19,6 +19,8 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 * 🔭 [GitHub](https://github.com/joseluisgs) ![GitHub](https://img.shields.io/github/followers/joseluisgs?style=social)
 
 
+![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=merko)
+
 <!--
 **joseluisgs/joseluisgs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
