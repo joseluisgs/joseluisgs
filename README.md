@@ -2,7 +2,7 @@
 
 # Hola, soy José Luis 👋 :computer:
 
-Soy Dr. en Informática. A lo largo de mi formación y experiencia profesional me he especialidado en desarrollo de software y sistemas interactivos y de ocio en general. Actualmente trabajo en aplicaciones web y móviles, además de videojuegos, siempre manteniendo la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.
+Soy Dr. en Informática. A lo largo de mi formación y experiencia profesional me he especialidado en desarrollo de software, sistemas interactivos y de ocio en general. Actualmente trabajo en aplicaciones web y móviles, además de videojuegos, siempre manteniendo la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.
 
 Trabajo como profesor de secundaria impartiendo clases en los ciclos de DAM/DAW/ASIR. A nivel profesional colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de apliaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos.
 
