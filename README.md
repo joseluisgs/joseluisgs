@@ -67,6 +67,8 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
   height="30">
   <img src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
   height="30">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png" 
+  height="30">
   <img src="https://cdn.worldvectorlogo.com/logos/unity-69.svg" 
   height="30">
   <img src="https://image.flaticon.com/icons/png/512/873/873120.png" 
