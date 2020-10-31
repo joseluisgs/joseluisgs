@@ -69,7 +69,7 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
   height="30">
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png" 
   height="30">
-  <img src="https://www.42.us.org/wp-content/uploads/2019/04/gitkraken-logo-dark-sq-1.png" 
+  <img src="https://user-images.githubusercontent.com/17736615/30980083-f7f8a860-a43c-11e7-939e-f6717a2210fe.png" 
   height="30">
   <img src="https://cdn.worldvectorlogo.com/logos/unity-69.svg" 
   height="30">
