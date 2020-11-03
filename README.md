@@ -1,6 +1,6 @@
 ![GitHub](https://i.imgur.com/840eJrp.png)
 
-# Hola, soy José Luis 👋 :computer:
+<h1 align="center">Hola, soy José Luis 👋 :computer:</h1>
 
 Soy Dr. en Informática. A lo largo de mi formación y experiencia profesional me he especialidado en desarrollo de software, sistemas interactivos y de ocio en general. Actualmente trabajo en aplicaciones web y móviles, además de videojuegos, siempre manteniendo la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.
 
@@ -31,7 +31,10 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
 
 ### Mi actividad
+![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue)
+<!-- 
 ![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=highcontrast)
+-->
 
 ### Lenguajes, frameworks y herramientas favoritas
 <p align="left">
@@ -79,7 +82,13 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
   height="30">
 </p>
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&layout=compact&theme=vue)
+<!--
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&layout=compact&theme=highcontrast)
+-->
+
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" /></a> </p>
 
 <!--
 **joseluisgs/joseluisgs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
