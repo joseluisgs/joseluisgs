@@ -79,7 +79,7 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
   height="30">
 </p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&layout=compact&theme=highcontrast)
 
 <!--
 **joseluisgs/joseluisgs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
