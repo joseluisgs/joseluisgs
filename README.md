@@ -91,6 +91,8 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" /></a> </p>
 
 <!--
+Recursos
+https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 **joseluisgs/joseluisgs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
