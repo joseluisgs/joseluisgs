@@ -82,17 +82,15 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
   height="30">
 </p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&layout=compact&theme=vue)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact)
 <!--
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&layout=compact&theme=highcontrast)
 -->
 
 <p align="center">
- <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" /></a> 
+ <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" /></a> </p>
 
-![](https://komarev.com/ghpvc/?username=joseluisgs&color=42b983)
-
-</p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=joseluisgs&label=Profile%20views&color=42b983&style=flat" alt="joseluisgs" /> </p>
 
 
 <!--
