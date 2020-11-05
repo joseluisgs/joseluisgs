@@ -87,12 +87,12 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&layout=compact&theme=highcontrast)
 -->
 
-<div style="text-align:center">
+<p align="center">
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" /></a> 
 
 ![](https://komarev.com/ghpvc/?username=joseluisgs&color=42b983)
 
-</div>
+</p>
 
 
 <!--
