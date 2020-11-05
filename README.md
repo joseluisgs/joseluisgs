@@ -19,15 +19,15 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 <p align="center">
     <a href="https://twitter.com/joseluisgonsan" target="_blank">
         <img src="https://pitlochryfestivaltheatre.com/wp-content/uploads/2020/04/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" 
-    height="50">
+    height="60">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
         <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
-    height="50">
+    height="60">
     </a> &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
-    height="50">
+    height="60">
     </a>
 </p>
 
