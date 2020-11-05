@@ -12,32 +12,25 @@ Este es mi repositorio personal, úsalo como quieras. En ellos subo proyectos qu
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
-## Contacto
-
+<h2 align="center">Contacto</h2>
 Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
-<p align="left">
+<p align="center">
     <a href="https://twitter.com/joseluisgonsan" target="_blank">
         <img src="https://pitlochryfestivaltheatre.com/wp-content/uploads/2020/04/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" 
-    height="35">
+    height="50">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
         <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
-    height="35">
+    height="50">
     </a> &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
-    height="35">
+    height="50">
     </a>
 </p>
 
-### Mi actividad
-![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue)
-<!-- 
-![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=highcontrast)
--->
-
-### Lenguajes, frameworks y herramientas favoritas
-<p align="left">
+<h2 align="center">Lenguajes, frameworks y herramientas favoritas</h2>
+<p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" 
   height="30">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" 
@@ -82,17 +75,24 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
   height="30">
 </p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact)
-<!--
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&layout=compact&theme=highcontrast)
--->
+<h2 align="center">Mi Actividad</h2>
+<p align="center">
+<a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue"><img src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" alt="joseluisgs" /></a> 
+</p>
+<p align="center">
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact" /></a> 
+</p>
 
-<p align="left">
+<p align="center">
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" /></a> </p>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=joseluisgs&label=Profile%20views&color=42b983&style=flat" alt="joseluisgs" /> </p>
 
-
+<!-- 
+![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue)
+![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=highcontrast)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact)
+-->
 <!--
 Recursos
 https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
