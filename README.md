@@ -1,6 +1,6 @@
 ![GitHub](https://i.imgur.com/yiroLCW.png)
 
-<h1 align="center">Hola, soy José Luis 👋 :computer:</h1>
+<h1 align="center">👋 Hola, soy José Luis :computer:</h1>
 
 Soy Dr. en Informática. A lo largo de mi formación y experiencia profesional me he especialidado en desarrollo de software, sistemas interactivos y de ocio en general. Actualmente trabajo en aplicaciones web y móviles, además de videojuegos, siempre manteniendo la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.
 
