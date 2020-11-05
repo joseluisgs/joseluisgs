@@ -2,13 +2,13 @@
 
 <h1 align="center">👋 Hola, soy José Luis :computer:</h1>
 
-Soy Dr. en Informática. A lo largo de mi formación y experiencia profesional me he especialidado en desarrollo de software, sistemas interactivos y de ocio en general. Actualmente trabajo en aplicaciones web y móviles, además de videojuegos, siempre manteniendo la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.
+<p style='text-align: justify;'>Soy Dr. en Informática. A lo largo de mi formación y experiencia profesional me he especialidado en desarrollo de software, sistemas interactivos y de ocio en general. Actualmente trabajo en aplicaciones web y móviles, además de videojuegos, siempre manteniendo la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.</p>
 
-Trabajo como profesor de secundaria impartiendo clases en los ciclos de DAM/DAW/ASIR. A nivel profesional colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de apliaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos.
+<p style='text-align: justify;'>Trabajo como profesor de secundaria impartiendo clases en los ciclos de DAM/DAW/ASIR. A nivel profesional colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de apliaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos.</p>
 
-Personalmente disfruto con la música, especialmente todo tipo de música rock :musical_note: , me canta el tenis :tennis:, tocar la guitarra :guitar:, jugar a videojuegos :video_game:, leer :book:, ver series/películas :tv:, anime y compartir buenos momentos (¿una caña y una buena charla?:beers:). Me encanta seguir aprendiendo y seguir avanzando.
+<p style='text-align: justify;'>Personalmente disfruto con la música, especialmente todo tipo de música rock :musical_note: , me canta el tenis :tennis:, tocar la guitarra :guitar:, jugar a videojuegos :video_game:, leer :book:, ver series/películas :tv:, anime y compartir buenos momentos (¿una caña y una buena charla?:beers:). Me encanta seguir aprendiendo y seguir avanzando.</p>
 
-Este es mi repositorio personal, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.
+<p style='text-align: justify;'>Este es mi repositorio personal, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.</p>
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
