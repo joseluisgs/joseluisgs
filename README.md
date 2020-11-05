@@ -90,7 +90,7 @@ Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" /></a> </p>
 
-<p align="center">![](https://komarev.com/ghpvc/?username=joseluisgs&color=42b983)</p>
+![](https://komarev.com/ghpvc/?username=joseluisgs&color=42b983)
 
 
 <!--
