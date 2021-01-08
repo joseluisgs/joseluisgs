@@ -37,7 +37,7 @@
 
 <h2 align="center">Tecnologías favoritas</h2>
 <p align="center">
-Estas son algunas de las tecnologías que más suelo usar y trabajar personal y profesionalmente :computer:. 
+Estas son algunas de las tecnologías que más suelo usar/trabajar personal y profesionalmente :computer:. 
   <br>Ni son todas las que están, ni están todas las que son 🤔
 </p>
 <p align="center">
