@@ -12,6 +12,10 @@
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
+<p align="center">
+  <img src="https://media.bitdegree.org/storage/media/images/2018/11/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg">
+</p>
+
 <h2 align="center">Contacto</h2>
 <p align="center">
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
