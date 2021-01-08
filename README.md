@@ -43,6 +43,8 @@ Estas son algunas de las tecnologías que más suelo usar y trabajar personal y 
     height="45">
   <img src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" 
   height="45">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" 
+  height="45">
   <img src="https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png" 
   height="45">
   <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
@@ -57,7 +59,11 @@ Estas son algunas de las tecnologías que más suelo usar y trabajar personal y 
   height="45">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" 
   height="45">
-    <img src="https://user-images.githubusercontent.com/17736615/30980083-f7f8a860-a43c-11e7-939e-f6717a2210fe.png" 
+   <img src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
+  height="45">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" 
+  height="45">
+    <img src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="45">
   </p>
   <p align="center">
@@ -66,6 +72,8 @@ Estas son algunas de las tecnologías que más suelo usar y trabajar personal y 
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png" 
   height="45">
   <img src="https://image.flaticon.com/icons/png/512/873/873120.png" 
+  height="45">
+  <img src="https://cdn.worldvectorlogo.com/logos/netlify.svg" 
   height="45">
   <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" 
   height="45">
