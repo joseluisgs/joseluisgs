@@ -10,12 +10,14 @@
 
 <p style='text-align: justify;'>Mi tesis doctoral está titulada como Jugabilidad. Caracterización de la experiencia del jugador en videojuegos. Prinicpalmente tiene como objetivo caracterizar la Experiencia del Jugador mediante la Jugabilidad (formalizando este concepto), mostrando una serie de atributos y propiedades que faciliten su análisis a lo largo de todo el proceso de producción de un videojuego. Puedes leer sobre ello en Wikipedia (<a href="https://en.wikipedia.org/wiki/Gameplay#Playability" target="_blank">🇬🇧</a>, <a href="https://es.wikipedia.org/wiki/Jugabilidad" target="_blank">🇪🇸</a>) y está disponible para su lectura desde la  <a href="https://digibug.ugr.es/handle/10481/5671" target="_blank">Universidad de Granada</a>.</p>
 
-<p style='text-align: justify;'>Este es mi repositorio personal, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.</p>
+<p style='text-align: justify;'>Este es mi repositorio personal, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados y a veces no realizado de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.</p>
+
+<p style='text-align: justify;'>También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">página web</a> donde poco a poco podrás conocerme un poco más :mag:
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
 <p align="center">
-  <img src="./images/fullstack.jpg">
+  <a href="https://joseluisgs.github.io/" target="_blank"><img src="./images/fullstack.jpg"></a>
 </p>
 
 <h2 align="center">Contacto</h2>
@@ -33,6 +35,10 @@
     </a> &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
+    height="60">
+    </a>  &nbsp;&nbsp;
+    <a href="https://joseluisgs.github.io/" target="_blank">
+        <img src="https://image.flaticon.com/icons/png/512/216/216220.png" 
     height="60">
     </a>
 </p>
