@@ -1,19 +1,21 @@
 ![GitHub](https://i.imgur.com/2vft9UB.png)
 
-<h1 align="center">👋 Hola, soy José Luis :computer:</h1>
+<h1 align="center">👋 Hola, soy José Luis 💻 </h1>
 
-<p style='text-align: justify;'>Soy Dr. en Informática. A lo largo de mi formación y experiencia profesional me he especialidado en desarrollo de software, sistemas interactivos y de ocio en general. Actualmente trabajo en aplicaciones web y móviles, además de videojuegos, siempre manteniendo la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.</p>
+<p style='text-align: justify;'>Soy Dr. en Informática en la especialidado de desarrollo de software y sistemas interactivos por la Universidad de Granada. Actualmente trabajo en aplicaciones web y móviles, además de videojuegos, gamificación y ocio interactivo, con el objetivo de conseguir la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.</p>
 
-<p style='text-align: justify;'>Trabajo como profesor de secundaria impartiendo clases en los ciclos de DAM/DAW/ASIR. A nivel profesional colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de apliaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos.</p>
+<p style='text-align: justify;'>Trabajo como profesor de secundaria impartiendo clases en los ciclos de formación profesional de grado superior de DAM/DAW/ASIR. Además imparto docencia en distintos programas de máster, doctorado y cursos de especialización ya sea en diseño y evaluación de experiencia de usuario y productos interactivos, gamificación, usabilidad y sobre todo jugabilidad. Además colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de apliaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.</p>
 
-<p style='text-align: justify;'>Personalmente disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis :tennis:, tocar la guitarra :guitar:, jugar a videojuegos :video_game:, leer :book:, ver series/películas :tv:, anime y compartir buenos momentos (¿una caña y una buena charla?:beers:). Me encanta seguir aprendiendo y seguir avanzando.</p>
+<p style='text-align: justify;'>Personalmente disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas 📺, anime y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.</p>
+
+<p style='text-align: justify;'>Mi tesis doctoral está titulada como Jugabilidad. Caracterización de la experiencia del jugador en videojuegos. Prinicpalmente tiene como objetivo caracterizar la Experiencia del Jugador mediante la Jugabilidad (formalizando este concepto), mostrando una serie de atributos y propiedades que faciliten su análisis a lo largo de todo el proceso de producción de un videojuego. Puedes leer sobre ello en Wikipedia ([en(https://en.wikipedia.org/wiki/Gameplay#Playability)], [es](https://es.wikipedia.org/wiki/Jugabilidad)) y está disponible para su lectura desde la [Universidad de Granada](https://digibug.ugr.es/handle/10481/5671).</p>
 
 <p style='text-align: justify;'>Este es mi repositorio personal, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.</p>
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
 <p align="center">
-  <img src="https://media.bitdegree.org/storage/media/images/2018/11/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg">
+  <img src="./images/fullstack.jpg">
 </p>
 
 <h2 align="center">Contacto</h2>
