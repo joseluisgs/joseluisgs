@@ -12,7 +12,7 @@
 
 <p style='text-align: justify;'>Este es mi repositorio personal, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados y a veces no realizado de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.</p>
 
-<p style='text-align: justify;'>También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">página web</a> donde poco a poco podrás conocerme un poco más :mag:
+<p style='text-align: justify;'>También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">página web</a> donde poco a poco podrás conocerme un poco más :mag:.
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
