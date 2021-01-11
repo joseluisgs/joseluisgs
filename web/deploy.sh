@@ -14,7 +14,8 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m "deploy"
+date=`date +%Y-%m-%d_%H:%M:%S`
+git commit -m "deploy ${date}"
 git branch -M main
 git remote add origin https://github.com/joseluisgs/joseluisgs.github.io.git
 git push -u origin main

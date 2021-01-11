@@ -24,5 +24,8 @@
   "homepage": "https://github.com/joseluisgs/joseluisgs.github.io#readme",
   "devDependencies": {
     "vuepress": "^1.8.0"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.1"
   }
 }
