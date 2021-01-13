@@ -17,7 +17,8 @@
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
 <p align="center">
-  <a href="https://joseluisgs.github.io/" target="_blank"><img src="./images/fullstack.jpg"></a>
+  <a href="https://joseluisgs.github.io/" target="_blank"><img src="./images/fullstack.jpg" 
+  width='600px' borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'></a>
 </p>
 
 <h2 align="center">Contacto</h2>
@@ -38,7 +39,7 @@
     height="60">
     </a>  &nbsp;&nbsp;
     <a href="https://joseluisgs.github.io/" target="_blank">
-        <img src="https://image.flaticon.com/icons/png/512/216/216220.png" 
+        <img src="https://www.lazaroamor.es/img/develop.png" 
     height="60">
     </a>
 </p>
@@ -80,6 +81,10 @@ Estas son algunas de las tecnologías que más suelo usar/trabajar personal y pr
   <img src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
   height="45">
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Kotlin-logo.png" 
+  height="45">
+  <img src="https://nuxtjs.org/logos/nuxt.svg" 
+  height="45">
+  <img src="https://docs.nativescript.org/img/vue/nativescript-vue.png" 
   height="45">
   <img src="https://image.flaticon.com/icons/png/512/873/873120.png" 
   height="45">

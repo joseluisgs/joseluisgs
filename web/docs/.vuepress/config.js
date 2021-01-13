@@ -1,11 +1,20 @@
 module.exports = {
+  // Metadatos
   title: 'José Luis González',
   description: 'Web Personal de José Luis González',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
+  // Tema
   theme: 'reco',
+  locales: {
+    '/': {
+      lang: 'es-ES'
+    },
+  },
+
+  // Configuración del tem
   themeConfig: {
     // Tipo de pagna, si no pones nada es documentación
     type: 'blog',
@@ -14,18 +23,18 @@ module.exports = {
     noFoundPageByTencent: false,
     // Barra de navegacion
     logo: '/favicon.png',
+    // iconos: https://vuepress-theme-reco.recoluan.com/en/views/1.x/configJs.html#icon
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
       { text: 'Info', link: '/info/', icon: 'reco-account' },
-      { text: 'Docencia', link: '/docencia/', icon: 'reco-document' },
+      { text: 'Docencia', link: '/docencia/', icon: 'reco-suggestion' }, // reco-blog reco-other 
       { text: 'Proyectos', link: '/proyectos/', icon: 'reco-api' },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      { text: 'sidebar', link: '/sidebar/' },
-      { text: 'sidebar', link: '/sidebargroup/' },
 
-      { text: 'Contacto',
+      {
+        text: 'Contacto', icon: 'reco-message',
         items: [
-          { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'reco-github'},
+          { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'reco-github' },
           { text: 'Twitter', link: 'https://twitter.com/joseluisgonsan', icon: 'reco-twitter' },
           { text: 'LinkedIn', link: 'https://www.linkedin.com/in/joseluisgonsan', icon: 'reco-linkedin' },
         ]
@@ -37,7 +46,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: 'Actualizado',
-    
+
     // autopr
     authorAvatar: 'https://avatars0.githubusercontent.com/u/47913953?s=460&u=225a157fde1cb059c0541fd76f8230682b5cf130&v=4',
     author: 'José Luis González Sánchez',
@@ -47,11 +56,11 @@ module.exports = {
     // Blog configuration
     blogConfig: {
       category: {
-        location: 2,     // The position occupied in the navigation bar menu, default to 2
+        location: 5,     // The position occupied in the navigation bar menu, default to 2
         text: 'Category' // Text default to "Category"
       },
       tag: {
-        location: 3,     // The position occupied in the navigation bar menu, default to 3
+        location: 6,     // The position occupied in the navigation bar menu, default to 3
         text: 'Tag'      // Text default to "Tag"
       },
       socialLinks: [     // Information bar displays social information
@@ -67,33 +76,67 @@ module.exports = {
       {
         title: 'CIFP Virgen de Gracia',
         desc: 'Centro Integrado de Formación Profesional Virgen de Gracia, Puertollano.',
-        email: '1156743527@qq.com',
+        email: 'info@cifpvirgendegracia.com',
         link: 'https://cifpvirgendegracia.com'
       },
     ],
     sidebar: {
-      '/sidebar/': [
+      '/info/': [
         '',
-        'bar1',
-        'bar2'
+        'tecnologias',
+        'formacion',
       ],
-      '/sidebargroup/': [
-        {
-          title: '基础',
-          collapsable: true,
-          children: [
-            '',
-            'bar1'
-          ]
-        },
-        {
-          title: '进阶',
-          collapsable: true,
-          children: [
-            'bar2'
-          ]
-        },
-      ]
+      // '/sidebargroup/': [
+      //   {
+      //     title: '基础',
+      //     collapsable: true,
+      //     children: [
+      //       '',
+      //       'bar1'
+      //     ]
+      //   },
+      //   {
+      //     title: '进阶',
+      //     collapsable: true,
+      //     children: [
+      //       'bar2'
+      //     ]
+      //   },
+      // ]
     },
   },
+
+  // Plugins
+  // plugins: [
+  //  '@vuepress-reco/vuepress-plugin-screenfull',
+  //  '@vuepress-reco/vuepress-plugin-extract-code',
+  //  '@vuepress-reco/vuepress-plugin-bulletin-popover', {
+  //    body: [
+  //      {
+  //        type: 'title',
+  //        content: 'Bienvenidos/as',
+  //        style: 'text-aligin: center;'
+  //      },
+  //      {
+  //        type: 'image',
+  //        src: 'qr-code.png'
+  //      }
+  //    ],
+  //    footer: [
+  //      {
+  //        type: 'button',
+  //        text: 'Aceptar',
+  //        link: '/info'
+  //      },
+  //      {
+  //        type: 'button',
+  //        text: 'Cancelar',
+  //        link: '/info'
+  //      }
+  //    ]
+  //  },
+  //  '@vuepress-reco/vuepress-plugin-kan-ban-niang', {
+  //    theme: ['miku', 'z16'] ,
+  //  },
+  //],
 }

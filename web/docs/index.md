@@ -4,14 +4,15 @@ heroImage: /img/fullstack.jpg
 heroText: José Luis González
 tagline: Página web personal
 heroImageStyle: {
-   maxWidth: '600px',
-   width: '100%',
-   display: block,
-   margin: '3rem auto 3rem',
-   background: '#fff',
-   borderRadius: '1rem',
+  maxWidth: '600px',
+  width: '100%',
+  display: block,
+  margin: '3rem auto 3rem',
+  borderRadius: '1rem',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.3)'
 }
-isShowTitleInHome: true
+
+# isShowTitleInHome: true
 actionText: Guide
 actionLink: /views/other/guide
 features:

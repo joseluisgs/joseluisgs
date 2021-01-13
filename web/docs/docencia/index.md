@@ -1,20 +1,4 @@
----
-title: The Practice of Roast Duck
-date: 2019-08-08
-sidebar: 'auto'
-categories:
- - cooking
- - hobbies
-tags:
- - barbecue
- - duck
-publish: true
-updated: 2019-08-08
----
+# Actividad docente
 
-## Docencia
-
-Hablemos sobre docencia
-
-Escribimos mas
-
+Pronto hablaré de mi actividad docente y de formación. Mientras tanto puedes consultar mi actual centro 
+[CIFP Virgen de Gracia](https://cifpvirgendegracia.com), en Puertollano (Ciudad Real).
