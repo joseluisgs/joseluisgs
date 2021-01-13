@@ -107,36 +107,58 @@ module.exports = {
   },
 
   // Plugins
-  // plugins: [
-  //  '@vuepress-reco/vuepress-plugin-screenfull',
-  //  '@vuepress-reco/vuepress-plugin-extract-code',
-  //  '@vuepress-reco/vuepress-plugin-bulletin-popover', {
-  //    body: [
-  //      {
-  //        type: 'title',
-  //        content: 'Bienvenidos/as',
-  //        style: 'text-aligin: center;'
-  //      },
-  //      {
-  //        type: 'image',
-  //        src: 'qr-code.png'
-  //      }
-  //    ],
-  //    footer: [
-  //      {
-  //        type: 'button',
-  //        text: 'Aceptar',
-  //        link: '/info'
-  //      },
-  //      {
-  //        type: 'button',
-  //        text: 'Cancelar',
-  //        link: '/info'
-  //      }
-  //    ]
-  //  },
-  //  '@vuepress-reco/vuepress-plugin-kan-ban-niang', {
-  //    theme: ['miku', 'z16'] ,
-  //  },
-  //],
+  plugins: [
+    ['@vuepress/google-analytics',
+      {
+        'ga': 'G-103H05W8P8' // UA-00000000-0
+      }
+    ],
+    // ['@vuepress-reco/vuepress-plugin-screenfull'],
+    // ['@vuepress-reco/vuepress-plugin-extract-code'],
+    // ['@vuepress-reco/vuepress-plugin-bulletin-popover',
+    //   {
+    //     body: [
+    //       {
+    //         type: 'title',
+    //         content: 'Hola',
+    //         style: 'text-aligin: center;'
+    //       },
+    //       {
+    //         type: 'image',
+    //         src: 'img/qr-code.png',
+    //       }
+    //     ],
+    //     footer: [
+    //       {
+    //         type: 'button',
+    //         text: '打赏',
+    //         link: '/donate'
+    //       },
+    //       {
+    //         type: 'button',
+    //         text: '打赏',
+    //         link: '/donate'
+    //       }
+    //     ]
+    //   }
+    // ],
+    ['@vuepress-reco/vuepress-plugin-kan-ban-niang',
+      {
+        theme: ['wanko'],
+        clean: true,
+        messages: {
+          welcome: 'Hola Bienvenid@ a mi web',
+          home: 'Hola, ¿qué tal?',
+          theme: 'Espero que estés bien',
+          close: '¡Nos vemos!'
+        },
+        modelStyle: {
+          right: '50px',
+          bottom: '-50px',
+          opacity: '0.9'
+        }
+      }
+    ],
+  
+  ],
 }

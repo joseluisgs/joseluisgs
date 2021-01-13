@@ -1,6 +1,6 @@
 ---
 title: Sobre mi
-date: 2021-01-12
+date: '2021-01-12'
 sidebar: 'auto'
 subSidebar: true
 categories:

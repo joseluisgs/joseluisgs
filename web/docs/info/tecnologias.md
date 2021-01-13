@@ -1,6 +1,6 @@
 ---
-title: Tecnologias preferidas
-date: 2021-01-13
+title: 'Tecnologías preferidas'
+date: '2021-01-13'
 sidebar: 'auto'
 subSidebar: false
 categories:
