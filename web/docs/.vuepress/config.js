@@ -108,7 +108,7 @@ module.exports = {
 
   // Plugins
   plugins: [
-    ['minimal-analytics', { ga: 'G-103H05W8P8' }]
+    ['minimal-analytics', { ga: 'G-103H05W8P8' }],
     // ['@vuepress/google-analytics',
     //   {
     //     'ga': 'G-103H05W8P8' // UA-00000000-0
