@@ -14,7 +14,7 @@ module.exports = {
     },
   },
 
-  // Configuración del tem
+  // Configuración del tema: https://vuepress-theme-reco.recoluan.com/en/
   themeConfig: {
     // Tipo de pagna, si no pones nada es documentación
     type: 'blog',
@@ -108,11 +108,12 @@ module.exports = {
 
   // Plugins
   plugins: [
-    ['@vuepress/google-analytics',
-      {
-        'ga': 'G-103H05W8P8' // UA-00000000-0
-      }
-    ],
+    ['minimal-analytics', { ga: 'G-103H05W8P8' }]
+    // ['@vuepress/google-analytics',
+    //   {
+    //     'ga': 'G-103H05W8P8' // UA-00000000-0
+    //   }
+    // ],
     // ['@vuepress-reco/vuepress-plugin-screenfull'],
     // ['@vuepress-reco/vuepress-plugin-extract-code'],
     // ['@vuepress-reco/vuepress-plugin-bulletin-popover',
@@ -146,12 +147,12 @@ module.exports = {
       {
         theme: ['wanko'],
         clean: true,
-        messages: {
-          welcome: 'Hola Bienvenid@ a mi web',
-          home: 'Hola, ¿qué tal?',
-          theme: 'Espero que estés bien',
-          close: '¡Nos vemos!'
-        },
+        // messages: {
+        //   welcome: 'Hola Bienvenid@ a mi web',
+        //   home: 'Hola, ¿qué tal?',
+        //   theme: 'Espero que estés bien',
+        //   close: '¡Nos vemos!'
+        // },
         modelStyle: {
           right: '50px',
           bottom: '-50px',

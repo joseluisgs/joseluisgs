@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/fullstack.jpg
+heroImage: /img/banner.png
 heroText: José Luis González
 tagline: Página web personal
 heroImageStyle: {

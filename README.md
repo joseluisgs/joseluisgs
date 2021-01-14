@@ -17,7 +17,7 @@
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
 <p align="center">
-  <a href="https://joseluisgs.github.io/" target="_blank"><img src="./images/fullstack.jpg" 
+  <a href="https://joseluisgs.github.io/" target="_blank"><img src="./images/banner.png" 
   width='600px' borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'></a>
 </p>
 
