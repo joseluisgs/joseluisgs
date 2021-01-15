@@ -4,10 +4,10 @@ heroImage: /img/banner.png
 heroText: José Luis González
 tagline: Página web personal
 heroImageStyle: {
-  maxWidth: '600px',
+  maxWidth: '775px',
   width: '100%',
   display: block,
-  margin: '3rem auto 3rem',
+  margin: '2rem auto 2rem',
   borderRadius: '1rem',
   boxShadow: '0 5px 18px rgba(0,0,0,0.3)'
 }
