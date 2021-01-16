@@ -5,11 +5,11 @@ heroText: José Luis González
 tagline: Página web personal
 heroImageStyle: {
   maxWidth: '775px',
-  width: '100%',
+  # width: '100%',
   display: block,
   margin: '2rem auto 2rem',
   borderRadius: '1rem',
-  boxShadow: '0 5px 18px rgba(0,0,0,0.3)'
+  boxShadow: '0 5px 18px rgba(0,0,0,0.5)'
 }
 
 # isShowTitleInHome: true

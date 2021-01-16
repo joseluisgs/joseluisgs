@@ -4,7 +4,8 @@ module.exports = {
   description: 'Web Personal de José Luis González',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+    ['meta', { name: 'google-site-verification', content: '6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90' }]
   ],
   // Tema
   theme: 'reco',
