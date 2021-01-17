@@ -10,7 +10,6 @@ tags:
  - personal
 publish: true
 image: 'https://www.lopingsolutions.com/wp-content/uploads/2020/02/dise%C3%B1o-desarrollo-web.png'
-# 
 ---
 ## Tecnologías
 <p style='text-align: justify;'>
