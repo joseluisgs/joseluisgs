@@ -1,3 +1,0 @@
-# bar test
-
-bar1

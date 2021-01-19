@@ -173,7 +173,7 @@ module.exports = {
 
   // Plugins
   plugins: [
-    ['@vuepress/last-updated'],
+    // ['@vuepress/last-updated'],
     // share
     ['social-share',
       {
