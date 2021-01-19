@@ -24,7 +24,8 @@
   "homepage": "https://github.com/joseluisgs/joseluisgs.github.io#readme",
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
-    "vuepress": "^1.8.0"
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-social-share": "^1.0.0"
   },
   "dependencies": {
     "vuepress-theme-reco": "^1.6.1"

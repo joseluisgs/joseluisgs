@@ -16,8 +16,6 @@ image: 'http://d3h051auklfox5.cloudfront.net/uploads/asset/file/20/Estudios_y_fo
 Intentaré resumir mi formación y estudios realizados 👨‍🎓 
 
 <!-- more -->
-![imagen](http://d3h051auklfox5.cloudfront.net/uploads/asset/file/20/Estudios_y_formaci_n.jpg)
-
 ## Formación académica
 Mi formación principal a nivel académico es:
 - Ingeniería Informática. [Universidad de Granada](https://etsiit.ugr.es/).

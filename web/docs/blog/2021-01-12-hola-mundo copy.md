@@ -19,8 +19,6 @@ Espero vaya bien. Comenzamos con ... 🙂
 
 <!-- more -->
 
-![imagen](http://elfarolillorojo.es/wp-content/uploads/2020/08/hello-world-1024x544.png)
-
 Hace mucho que tenía ganas de tener una web. Una vez la tuve, cuando trabajaba dentro del [Departamento de Lenguajes y Sistemas Informáticos](https://lsi.ugr.es/lsi/) de la [Universidad de Granada](https://ugr.es). 
 
 Ahora, creo que es el momento de recuperarla poniendo en práticas distintas tecnologías y usarla como ejemplo con mi alumnado para tratar distintos temas: 

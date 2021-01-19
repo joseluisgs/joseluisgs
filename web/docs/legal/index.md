@@ -1,8 +1,9 @@
 ---
 title: 'Política de cookies'
-date: '2021-01-17' 
+date: '2021-01-17'
+noSocialShare: true
+image: 'https://ecdisis.com/wp-content/uploads/2020/08/1a014c29d912babb7256823b0f38c2eb56ea7cd1.png'
 ---
-![imagen](https://ecdisis.com/wp-content/uploads/2020/08/1a014c29d912babb7256823b0f38c2eb56ea7cd1.png)
 
 La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan een esta págia web.
 

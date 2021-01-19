@@ -22,4 +22,5 @@ features:
   details: Soy Dr. en Informática en la especialidado de desarrollo de software y sistemas interactivos por la Universidad de Granada.
 - title: Formador
   details: Colaboro en distintos cursos, masteres, doctordos y programas especializados sobre desarrollo de software y sistemas interactivos.
+
 ---
