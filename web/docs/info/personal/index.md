@@ -17,7 +17,7 @@ Me llamo José Luis González Sánchez, soy Dr. en Informática 💻 en la espec
 
 <!-- more -->
 
-Trabajo como profesor de secundaria impartiendo clases en los ciclos de formación profesional de grado superior de DAM/DAW/ASIR. Además imparto docencia en distintos programas de máster, doctorado y cursos de especialización ya sea en diseño y evaluación de experiencia de usuario y productos interactivos, gamificación, usabilidad y sobre todo jugabilidad. Además colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de apliaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.
+Trabajo como profesor de secundaria impartiendo clases en los ciclos de formación profesional de grado superior de DAM/DAW/ASIR. Además imparto docencia en distintos programas de máster, doctorado y cursos de especialización ya sea en diseño y evaluación de experiencia de usuario y productos interactivos, gamificación, usabilidad y sobre todo jugabilidad. Además colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de aplicaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.
 
 Estas página web podrás conocer un poco más de mi.
 
