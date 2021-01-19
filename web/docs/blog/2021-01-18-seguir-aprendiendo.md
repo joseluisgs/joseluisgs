@@ -4,7 +4,6 @@ date: '2021-01-18'
 # sidebar: 'auto'
 subSidebar: true
 categories:
- - blog
  - profesional
 tags:
  - dev

@@ -4,7 +4,7 @@ date: '2021-01-12'
 # sidebar: 'auto'
 subSidebar: true
 categories:
- - blog
+ - personal
 tags:
  - dev
  - vue

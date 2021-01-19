@@ -3,8 +3,6 @@ const extendsNetworks = {
   linkedin: {
     sharer:
       'http://www.linkedin.com/shareArticle?mini=true&url=@url&title=@title&summary=@description',
-      //'https://www.linkedin.com/shareArticle?mini=true&url=@url&title=@title&summary=@description',
-    // http://localhost:8080/blog/2021-01-18-seguir-aprendiendo.html
     type: 'popup',
     color: '#1786b1',
     icon:
@@ -175,6 +173,7 @@ module.exports = {
 
   // Plugins
   plugins: [
+    ['@vuepress/last-updated'],
     // share
     ['social-share',
       {
