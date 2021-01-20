@@ -12,14 +12,14 @@ publish: true
 image: 'https://www.lopingsolutions.com/wp-content/uploads/2020/02/dise%C3%B1o-desarrollo-web.png'
 ---
 ## Tecnologías
-<p style='text-align: justify;'>
 Son muchas las tecnologías que uso o he usado y complicado indicar todas. Pero intentaré hacerlo 🙂
 
 <!-- more -->
 
 Estas son algunas de las tecnologías que más suelo usar/trabajar personal y profesionalmente actualmente 💻. 
-  <br>Ni son todas las que están, ni están todas las que son... 🤔
-</p>
+
+Ni son todas las que están, ni están todas las que son... 🤔
+
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" 
   height="45">

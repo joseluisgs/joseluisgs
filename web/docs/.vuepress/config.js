@@ -147,8 +147,8 @@ module.exports = {
       ],
       '/info/investigacion/': [
         '',
-        // 'formacion',
-        // 'tecnologias',
+        //'formacion',
+        'tesis',
       ],
       
       // '/sidebargroup/': [

@@ -6,7 +6,7 @@ subSidebar: true
 categories:
  - personal
 tags:
- - cursos
+ - formación
  - personal
 publish: true
 image: 'http://d3h051auklfox5.cloudfront.net/uploads/asset/file/20/Estudios_y_formaci_n.jpg'
