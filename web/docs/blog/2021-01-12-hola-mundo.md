@@ -4,11 +4,12 @@ date: '2021-01-12'
 # sidebar: 'auto'
 subSidebar: true
 categories:
- - personal
+ - Blog
+ - Personal
 tags:
- - dev
- - vue
- - vuepress
+ - Desarrollo
+ - Vue.js
+ - Vuepress
 publish: true
 image: 'http://elfarolillorojo.es/wp-content/uploads/2020/08/hello-world-1024x544.png'
 # sticky: 1

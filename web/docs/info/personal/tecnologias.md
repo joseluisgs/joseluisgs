@@ -4,10 +4,11 @@ date: '2021-01-13'
 sidebar: 'auto'
 subSidebar: false
 categories:
- - personal
+ - Personal
 tags:
- - dev
- - personal
+ - Desarrollo
+ - Personal
+ - - Tecnologías
 publish: true
 image: 'https://www.lopingsolutions.com/wp-content/uploads/2020/02/dise%C3%B1o-desarrollo-web.png'
 ---

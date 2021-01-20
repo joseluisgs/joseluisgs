@@ -4,11 +4,11 @@ date: '2021-01-18'
 # sidebar: 'auto'
 subSidebar: true
 categories:
- - profesional
+ - Blog
 tags:
- - dev
- - profesional
- - competencias
+ - Desarrollo
+ - Profesional
+ - Competencias
 publish: true
 image: 'https://www.x-cart.com/wp-content/uploads/2017/09/how-to-become-a-web-developer.png'
 # sticky: 1

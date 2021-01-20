@@ -4,10 +4,11 @@ date: '2021-01-13'
 sidebar: 'auto'
 subSidebar: true
 categories:
- - personal
+ - Personal
 tags:
- - formación
- - personal
+ - Formación
+ - Personal
+ - Cursos
 publish: true
 image: 'http://d3h051auklfox5.cloudfront.net/uploads/asset/file/20/Estudios_y_formaci_n.jpg'
 # 
