@@ -13,13 +13,14 @@ tags:
 publish: true
 image: 'https://i.imgur.com/lafghys.png'
 ---
-## Objetivo
 El objetivo marcado con la tesis doctoral fue formalizar, unificar el concepto de Jugabilidad, creando un modelo para su análisis y medición con el objetivo de caracterizar la experiencia del jugador en sistemas de ocio electrónico o videojuegos y ser aplicable al proceso de producción de videojuegos.
 
-## ¿Por qué? 
+<!-- more -->
+
+## Objetivos
 La Jugabilidad es un concepto abstracto y difícil de definir debido a que posee características tanto funcionales, inherentes a todo sistema interactivo, como no funcionales, relacionadas con  las experiencias que obtiene el jugador al jugar. Así pues, definimos la Jugabilidad como el conjunto de propiedades que describen la experiencia del jugador ante un sistema de juego determinado, cuyo principal objetivo es divertir y entretener “de forma satisfactoria y creíble” ya sea solo o en compañía.
 
-## Evaluación
+## Valoración
 La tesis fue [presentada/defendida](https://dialnet.unirioja.es/servlet/tesis?codigo=20914) en la Universidad de Granada obteniendo una calificación de "Sobresaliente Cum laude". Mi tesis fue dirigida por [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr).
 
 ## Impacto
