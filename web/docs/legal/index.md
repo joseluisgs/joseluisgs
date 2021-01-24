@@ -5,7 +5,7 @@ noSocialShare: true
 image: 'https://ecdisis.com/wp-content/uploads/2020/08/1a014c29d912babb7256823b0f38c2eb56ea7cd1.png'
 ---
 
-La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan een esta págia web.
+La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan een esta página web.
 
 ## ¿Qué son las cookies?
 Una cookie es un pequeño fragmento de texto que los sitios web que visita envían al navegador y que permite que el sitio web recuerde información sobre su visita, como su idioma preferido y otras opciones, con el fin de facilitar su próxima visita y hacer que el sitio le resulte más útil. Las cookies desempeñan un papel muy importante y contribuyen a tener una mejor experiencia de navegación para el usuario.

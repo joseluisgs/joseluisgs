@@ -7,7 +7,7 @@ categories:
  - Blog
  - Personal
 tags:
- - Desarrollo
+ - Proyectos
  - Vue.js
  - Vuepress
 publish: true

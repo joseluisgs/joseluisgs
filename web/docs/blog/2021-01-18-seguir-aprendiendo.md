@@ -6,7 +6,7 @@ subSidebar: true
 categories:
  - Blog
 tags:
- - Desarrollo
+ - Proyectos
  - Profesional
  - Competencias
 publish: true

@@ -13,10 +13,10 @@ publish: true
 image: 'http://d3h051auklfox5.cloudfront.net/uploads/asset/file/20/Estudios_y_formaci_n.jpg'
 # 
 ---
-## Mi formación
 Intentaré resumir mi formación y estudios realizados 👨‍🎓 
 
 <!-- more -->
+
 ## Formación académica
 Mi formación principal a nivel académico es:
 - Doctorado en Tecnologías de la Información y la Comunicación. [Universidad de Granada](http://doctorados.ugr.es/tic/).

@@ -6,13 +6,12 @@ subSidebar: false
 categories:
  - Personal
 tags:
- - Desarrollo
+ - Proyectos
  - Personal
- - - Tecnologías
+ - Tecnologías
 publish: true
-image: 'https://www.lopingsolutions.com/wp-content/uploads/2020/02/dise%C3%B1o-desarrollo-web.png'
+image: 'https://www.veracode.com/sites/default/files/styles/blog_post_resize_960/public/developer-guide-blog-2.png'
 ---
-## Tecnologías
 Son muchas las tecnologías que uso o he usado y complicado indicar todas. Pero intentaré hacerlo 🙂
 
 <!-- more -->
@@ -82,5 +81,7 @@ Ni son todas las que están, ni están todas las que son... 🤔
 
 ::: tip
 Prometo hablar de ellas poco a poco en esta web y por qué las uso y para qué 👍 
+
+Puedes consultar mis proyectos y desarrollos [aquí](../../categories/Proyectos/).
 :::
 
