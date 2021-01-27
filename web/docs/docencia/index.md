@@ -1,6 +1,6 @@
 ---
 title: Actividad Docente
-date: '2021-01-28'
+date: '2021-01-27'
 sidebar: 'auto'
 subSidebar: true
 categories:
@@ -43,24 +43,24 @@ Actualmente colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Int
 ## Docencia anterior
 A continuación resumiré docencia/formación realizada en anteriores años:
 
-- [IES Trassierra](https://www.iestrassierra.com/), Córdoba. Profesor de Secundaria. 2018/2019
+- [IES Trassierra](https://www.iestrassierra.com/), Córdoba. Profesor de Secundaria. 2018/2019.
   - Programación de Servicios y Procesos. 2º DAM.
   - Sistemas de Gestión Empresarial. 2º DAM
   - Desarrollo Web en Entorno Servidor. 2º DAW.
   - Tecnología de la Información y de la Comunicación. 2º Bach.
 
-- [IES Estados del Duque](http://ies-estadosdelduque.centros.castillalamancha.es/), Malagón (Ciudad Real). Profesor de Secundaria. 2015/2016
+- [IES Estados del Duque](http://ies-estadosdelduque.centros.castillalamancha.es/), Malagón (Ciudad Real). Profesor de Secundaria. 2015/2016.
   - Sistemas Operativos Monopuesto. 1º SMR.
   - Operaciones auxiliares para la configuración y la explotación. 1º FPB.
   - Tecnología de la Información y de la Comunicación. 1º Bach.
   - Informática. 4º ESO.
 
-- [Escuela Superior de Comunicación Audiovisual, ESCAV](https://escav.es/), Granada. Profesor de Secundaria. 2013 a 2015. En la titulación de [Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos](https://escav.es/estudios/animaciones-3d-juegos-y-entornos-interactivos/)
+- [Escuela Superior de Comunicación Audiovisual, ESCAV](https://escav.es/), Granada. Profesor de Secundaria. 2013 a 2015. En la titulación de [Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos](https://escav.es/estudios/animaciones-3d-juegos-y-entornos-interactivos/).
   - Proyecto de juegos y entornos interactivos. 2º Curso.
   - Desarrollo de entornos interactivos multidispositivo. 2º Curso.
   - Realización de proyectos multimedia interactivos. 1º Curso.
 
-- [Universitat de Lleida](http://www.udl.es/ca/es/), Lleida. Profesor Doctor (Visitante). 2010 a 2012
+- [Universitat de Lleida](http://www.udl.es/ca/es/), Lleida. Profesor Doctor (Visitante). 2010 a 2012.
   - Fundamentos de Accesibilidad I. Master Interacción Persona-Ordenador.
   - Especilización en Accesibilidad. Master Interacción Persona-ordenador.
   - Iniciación a la Ingeniería del Software. Grado en Informática. 
@@ -68,7 +68,7 @@ A continuación resumiré docencia/formación realizada en anteriores años:
   - Interacción Persona.Ordenador. Grado en Informática.
   - Programación II. Grado en Informática. 
 
-- [Universitat de Granada](http://www.ugr.es), Granada. Profesor Doctor (Visitante). 2007 a 2009
+- [Universitat de Granada](http://www.ugr.es), Granada. Profesor Doctor (Visitante). 2007 a 2009.
   - Ingeniería del Software I. Ingeniería en Informática.
   - Ingeniería del Software II. Ingeniería en Informática.
   - Programación Dirigida a Objetos. Ingeniería Informática.
