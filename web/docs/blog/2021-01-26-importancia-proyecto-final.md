@@ -45,7 +45,7 @@ Como ves, tus prácticas y proyecto pueden ser algo más si tú quieres. De hech
 Finalmente te dejo unos consejos útiles para tu proyecto: 
 - Usa repositorio como [Git](https://git-scm.com/) y uno remoto como [GitHub](https://github.com/).
 - Sigue un flujo de trabajo como [GitFlow.](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
-- Planifica usando [Kanvan](https://kanbanize.com/es/recursos-de-kanban/primeros-pasos/que-es-kanban) y herramientas propias de GitHub o [Trello](https://trello.com/es).
+- Planifica usando [Kanban](https://kanbanize.com/es/recursos-de-kanban/primeros-pasos/que-es-kanban) y herramientas propias de GitHub o [Trello](https://trello.com/es).
 - Escribe el [código más limpio](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/clean-code-que-es-el-codigo-limpio/) posible: usa [patrones](https://refactoring.guru/es/design-patterns), refactoriza, etc.
 - Documenta bien, pon empeño, puedes usar [GitHub Pages](https://pages.github.com/) para presentar tu proyecto.
 - [Testea](https://es.wikipedia.org/wiki/Prueba_unitaria), no se trata de presentar cualquier cosa.

@@ -88,10 +88,10 @@ module.exports = {
       {
         text: 'Contacto', icon: 'reco-message',
         items: [
+          { text: 'Ayuda', link: 'https://forms.gle/V2m42qiW1s6X4oNt8', icon: 'reco-faq' },
           { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'reco-github' },
           { text: 'Twitter', link: 'https://twitter.com/joseluisgonsan', icon: 'reco-twitter' },
           { text: 'LinkedIn', link: 'https://www.linkedin.com/in/joseluisgonsan', icon: 'reco-linkedin' },
-          // { text: 'Docker Hub', link: 'https://hub.docker.com/u/joseluisgs', icon: 'reco-juejin' },
         ],
       },
     ],
