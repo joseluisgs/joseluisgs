@@ -26,6 +26,8 @@ Es aquí donde muestro mi agradecimiento por su apuesta y por los materiales y c
 
 Quiero destacar que su labor ha sido genial en tiempo de COVID porque incluso las becas las abrieron a alumnado de primer curso, lo cual supuso poder utilizar estos materiales en tiempos complicados para el alumnado y profesorado. 
 
+<p style="text-align:center;"><img loading="lazy" src="https://sasr.es/wp-content/uploads/2019/05/BecasOW-300x174.png" alt="Logo"></p>
+
 Pero no es solo un recurso para el alumnado, si no que sirve al profesorado para aprender nuevas tecnologías, actualizarse o simplemente ampliar sus horizontes profesionales o particulares.
 
 ## ¿Cómo lo utilizo?

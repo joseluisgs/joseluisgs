@@ -174,7 +174,7 @@ module.exports = {
   // Plugins
   plugins: [
     // Lazy lading para imagenes
-    ['img-lazy'],
+    ['image'],
     // share
     ['social-share',
       {
