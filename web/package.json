@@ -25,6 +25,7 @@
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vuepress": "^1.8.0",
+    "vuepress-plugin-img-lazy": "^1.0.4",
     "vuepress-plugin-social-share": "^1.0.0"
   },
   "dependencies": {

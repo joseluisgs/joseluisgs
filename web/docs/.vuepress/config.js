@@ -173,7 +173,8 @@ module.exports = {
 
   // Plugins
   plugins: [
-    // ['@vuepress/last-updated'],
+    // Lazy lading para imagenes
+    ['img-lazy'],
     // share
     ['social-share',
       {
