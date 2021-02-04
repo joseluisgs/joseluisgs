@@ -22,8 +22,6 @@ Quiero seguir haciendo un repaso de las herramientas o entidades que colaboran c
 
 Una de las ventajas importantes de OpenWebinars es su apuesta por el ámbito educativo gracias a las [BecasOW](https://recursos.openwebinars.net/becasow/), un programa de formación gratuita dirigida a profesores y alumnos de Ciclos Formativos de Grado Superior para ampliar sus conocimientos en programación, desarrollo, administración de sistemas, ciberseguridad y big data, algunos de los perfiles más demandados en el mercado laboral.
 
-![imagen](http://www.cuatrovientos.org/wp-content/uploads/2020/02/logo-becasow-800x213-1.jpg)
-
 Es aquí donde muestro mi agradecimiento por su apuesta y por los materiales y cursos que ofrecen. Primero porque sirven de complemento a lo que vemos en clase, o para que el alumnado conozca nuevas tecnologías y/o pueda formarse en ellas fuera de las aulas, lo que amplía el proceso de enseñanza-aprendizaje a mucho más allá de las aulas. Con ello se consigue que el alumnado tenga unos conocimientos mayores o puedan adquirirlos con distintos puntos de vista lo cual enriquece mucho, más de lo que pensamos. Por otro lado otorga diplomas una vez pasas los cuestionarios y pruebas de cada curso.
 
 Quiero destacar que su labor ha sido genial en tiempo de COVID porque incluso las becas las abrieron a alumnado de primer curso, lo cual supuso poder utilizar estos materiales en tiempos complicados para el alumnado y profesorado. 
