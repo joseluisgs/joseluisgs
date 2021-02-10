@@ -173,7 +173,7 @@ module.exports = {
 
   // Plugins
   plugins: [
-    // Lazy lading para imagenes
+    // Lazy lading para imagenes y formas de usar la imagenes con loading: https://z3by.github.io/vuepress-tools/plugins/vuepress-plugin-image.html
     ['image'],
     // share
     ['social-share',

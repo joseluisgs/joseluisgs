@@ -4,6 +4,8 @@
   "description": "Página web personal de José Luis González Sánchez",
   "main": "index.js",
   "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
