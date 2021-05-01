@@ -11,6 +11,8 @@ tags:
  - Tecnologías
 publish: true
 image: 'https://www.veracode.com/sites/default/files/styles/blog_post_resize_960/public/developer-guide-blog-2.png'
+twitter_creator: joseluisgonsan
+twitter_site: joseluisgonsan
 ---
 Son muchas las tecnologías que uso o he usado y complicado indicar todas. Pero intentaré hacerlo 🙂
 

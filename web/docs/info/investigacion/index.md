@@ -11,6 +11,8 @@ tags:
  - Personal
 publish: true
 image: 'https://carnaudmetalboxengineering.co.uk/wp-content/uploads/2018/08/shutterstock_464359976-1170x325.jpg'
+twitter_creator: joseluisgonsan
+twitter_site: joseluisgonsan
 ---
 
 Siempre me he considerado una persona inquieta y con gran curiosidad, por lo que he la investigación en tecnologías y metodologías forma ya parte de mi forma de ser. Siempre me ha gustado una investigación aplicada y que pueda ayudar a los demás. Aquí puedes saber más de mi en esta faceta.

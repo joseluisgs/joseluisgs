@@ -210,8 +210,6 @@ module.exports = {
       default_image: '/favicon.png',
       root_url: 'https://joseluisgs.github.io/',
       default_site_name: 'José Luis González',
-      default_twitter_creator: '@joseluisgonzan',
-      default_twitter_site: '@joseluisgonzan',
     }],
   
     // ['@vuepress-reco/vuepress-plugin-screenfull'],

@@ -9,6 +9,8 @@ tags:
  - Proyectos
 publish: true
 image: 'https://miro.medium.com/max/2676/1*YueCwWOQuh-yqtujQrp5uA.png'
+twitter_creator: joseluisgonsan
+twitter_site: joseluisgonsan
 ---
 En este apartado conocerás los proyectos que voy realizando, ya sea para fines docentes, personales o profesionales.
 

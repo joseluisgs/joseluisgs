@@ -10,6 +10,8 @@ tags:
 publish: true
 image: 'https://camo.githubusercontent.com/7ca313c09e192b589af1a96a01077048e600ae42548c6b44c59050c684d89f65/68747470733a2f2f692e696d6775722e636f6d2f327666743955422e706e67'
 sticky: 1
+twitter_creator: joseluisgonsan
+twitter_site: joseluisgonsan
 ---
 ## 👋 Hola, soy José Luis
 

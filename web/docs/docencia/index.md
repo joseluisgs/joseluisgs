@@ -12,6 +12,8 @@ tags:
  - Docencia
 publish: true
 image: 'https://cuatrocento.es/wp-content/uploads/2015/01/Top-5-Tendencias-de-Dise%C3%B1o-Web-Para-El-2015-WebStudio316-e1414553151203.jpg'
+twitter_creator: joseluisgonsan
+twitter_site: joseluisgonsan
 
 ---
 En este apartado resumiré brevemente mi actividad docente y con ello sepas cómo puedo ayudarte en tu formación si se da el caso 🧐. No está todo, pero creo que así puedes conocerme un poco más con lo más relevante.
