@@ -21,7 +21,7 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática. 
 
 ### Mi centro
-Mi actual centro donde imparto docencia desde el 2016 es el [Centro Integrado de Formación Profesional Virgen de Gracia](https://cifpvirgendegracia.com), en Puertollano (Ciudad Real). Además soy el jefe de departamento de Informática y Comunicación en este presente curso académico y coordino distintos grupos de trabajo y formación.
+Mi actual centro donde imparto docencia desde el 2016 es el [Centro Integrado de Formación Profesional Virgen de Gracia](https://cifpvirgendegracia.com), en Puertollano (Ciudad Real). Además soy el jefe de [departamento de Informática y Comunicación](https://informaticacifpvg.netlify.app/) en este presente curso académico y coordino distintos grupos de trabajo y formación.
 
 ### Docencia
 En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR en su modalidad Dual y E-Learning: 
@@ -30,6 +30,7 @@ En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR en su modalidad
 - Lenguajes de marcas y sistemas de gestión de información de 1º de [Técnico Superior en Administración de Sistemas Informáticos en Red](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html).
 - Proyectos de 2º DAM.
 - Formación en Centro de Trabajo de 2º DAM.
+- FP DUAL de 2º DAM.
 
 Además suelo impartir o impartido en otras ocasiones:
 - Programación de 1º de DAM/DAW.
