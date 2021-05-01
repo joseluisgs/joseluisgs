@@ -8,7 +8,7 @@ Actualmente estoy interesado en aplicaciones web y móviles, además de videojue
 
 Disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
-Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados y a veces no realizado de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.</p>
+Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.</p>
 
 <p style='text-align: justify;'>También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">página web</a> donde poco a poco podrás conocerme un poco más :mag:.
 
