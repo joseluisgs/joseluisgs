@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# quitaos los errores
+# quitamos los errores
 set -e
 
 # borramos
