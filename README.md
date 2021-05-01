@@ -2,7 +2,7 @@
 
 <h1 align="center">👋 Hola, soy José Luis 💻 </h1>
 
-Soy [Dr. en Informática especializado en desarrollo de software y sistemas interactivos](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [Profesor de Secundaria](https://informaticacifpvg.netlify.app/) impartiendo clases en los ciclos de formación profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Adiconalmente, imparto docencia en distintos programas de máster, doctorado y cursos de especialización/formación ya sea en diseño y evaluación de experiencia de usuario y productos interactivos
+Soy [Dr. en Informática especializado en desarrollo de software y sistemas interactivos](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [Profesor de Secundaria](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Adiconalmente, imparto docencia en distintos programas de máster, doctorado y cursos de especialización/formación ya sea en diseño y evaluación de experiencia de usuario y productos interactivos
 
 Actualmente estoy interesado en aplicaciones web y móviles, además de videojuegos, gamificación y ocio interactivo, con el objetivo de conseguir la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo. Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.
 
@@ -44,9 +44,11 @@ Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyecto
 
 <h2 align="center">Tecnologías favoritas</h2>
 <p align="center">
-Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabora a nivel personal/ profesional, sin orden ni preferenicas (solo algunas 😉). 
+Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabora a nivel personal/ profesional, sin orden ni preferencias (solo algunas 😉). 
   <br>Ni son todas las que están, ni están todas las que son 🤔
 </p>
+
+
 <p align="center">
 <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
   height="45">
@@ -148,7 +150,7 @@ https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 https://rahuldkjain.github.io/gh-profile-readme-generator/
 **joseluisgs/joseluisgs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+Here are some ideas to get you started: a tener en cuenta
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
