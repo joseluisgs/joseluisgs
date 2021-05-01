@@ -1,5 +1,6 @@
 ---
 title: Formación y estudios
+description: 'Conoce mi formación y como me preparo día a día'
 date: '2021-01-13'
 sidebar: 'auto'
 subSidebar: true

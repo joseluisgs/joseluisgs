@@ -1,5 +1,6 @@
 ---
 title: Google for Education
+description: 'Mi experiencia con Google Education'
 date: '2021-02-01'
 # sidebar: 'auto'
 subSidebar: true

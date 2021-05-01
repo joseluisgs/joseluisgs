@@ -1,5 +1,6 @@
 ---
 title: 'Actividad investigadora'
+description: 'Conoce mi actividad investigadora y los temas que me gustan tratar'
 date: '2021-01-20'
 sidebar: 'auto'
 subSidebar: true

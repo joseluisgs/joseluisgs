@@ -136,6 +136,12 @@ module.exports = {
         email: 'info@cifpvirgendegracia.com',
         link: 'https://cifpvirgendegracia.com'
       },
+      {
+        title: 'Dpto. Informática y Comunicaciones',
+        desc: 'Dpto. Inormática y Comunicaciones. CIFP Virgen de Gracia, Puertollano.',
+        email: 'informatica@cifpvirgendegracia.com',
+        link: 'https://informaticacifpvg.netlify.app/'
+      },
     ],
 
     // Sidebars propios ya sean simples o en grupo

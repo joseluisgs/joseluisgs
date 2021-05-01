@@ -1,5 +1,6 @@
 ---
 title: Actividad Docente
+description: 'Conoce mi actividad a nivel docente y formativa'
 date: '2021-01-27'
 sidebar: 'auto'
 subSidebar: true

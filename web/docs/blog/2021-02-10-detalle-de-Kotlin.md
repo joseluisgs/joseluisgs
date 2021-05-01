@@ -1,5 +1,6 @@
 ---
 title: Bonito detalle de Jetbrains y Kotlin
+description: 'JetBrains y Kotlin has tenido un detalle conmigo como profe'
 date: '2021-02-10'
 # sidebar: 'auto'
 subSidebar: true

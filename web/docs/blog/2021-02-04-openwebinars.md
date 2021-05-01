@@ -1,5 +1,6 @@
 ---
 title: OpenWebinars
+description: 'Las ventajas de usar OpenWebinars en el aula'
 date: '2021-02-04'
 # sidebar: 'auto'
 subSidebar: true

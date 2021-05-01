@@ -1,5 +1,6 @@
 ---
 title: Sobre mi
+description: 'Soy José Luis, y aquí podrás conocer un poco más de mi'
 date: '2021-01-12'
 sidebar: 'auto'
 subSidebar: true

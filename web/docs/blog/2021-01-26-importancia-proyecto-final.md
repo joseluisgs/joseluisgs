@@ -1,5 +1,6 @@
 ---
 title: La importancia de tu proyecto final
+description: 'Tu proyecto FCT o de fin de grado es más importante de lo que piensas'
 date: '2021-01-26'
 # sidebar: 'auto'
 subSidebar: true

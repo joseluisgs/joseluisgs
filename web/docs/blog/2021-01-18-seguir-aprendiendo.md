@@ -1,5 +1,6 @@
 ---
 title: El secreto para seguir aprendiendo
+description: 'Aprender es el camino, que nunca has de dejar de recorrer'
 date: '2021-01-18'
 # sidebar: 'auto'
 subSidebar: true

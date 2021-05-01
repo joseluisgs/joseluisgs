@@ -1,5 +1,6 @@
 ---
 title: 'Proyectos'
+description: 'Te presento algunos de mis proyectos en los que trabajo'
 date: '2021-01-24'
 sidebar: 'auto'
 subSidebar: true

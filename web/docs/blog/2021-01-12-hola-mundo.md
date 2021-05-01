@@ -1,5 +1,6 @@
 ---
 title: ¡Hola mundo!
+description: 'Comienza la aventura'
 date: '2021-01-12'
 # sidebar: 'auto'
 subSidebar: true
@@ -16,7 +17,7 @@ twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1
 ---
-Este es mi primer mensaje del foro y de mi web. Poco a poco la iré completando.
+Este es mi primer mensaje del blog y de mi web. Poco a poco la iré completando.
 
 Espero vaya bien. Comenzamos con ... 🙂 
 

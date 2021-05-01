@@ -1,5 +1,6 @@
 ---
 title: 'Tecnologías preferidas'
+description: 'Te presento un poco de mis tecnologías preferidas'
 date: '2021-01-13'
 sidebar: 'auto'
 subSidebar: false

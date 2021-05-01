@@ -1,5 +1,6 @@
 ---
 title: 'Tesis Doctoral'
+description: 'Sobre mi tesis doctoral en Jugabilidad y experiencia del jugador'
 date: '2021-01-22'
 sidebar: 'auto'
 subSidebar: true
