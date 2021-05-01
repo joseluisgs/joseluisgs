@@ -1,6 +1,6 @@
 # Página web personal 💻 
 
-En este proyecto para ir realizando mi propia página web personal y profesional.
+En este proyecto voy realizando mi propia página web personal y profesional con distintas tecnologías que uso en clase para mostrar un poco de lo que hago en mi día a día.
 
 [![Vue Ready](https://img.shields.io/badge/Vue.js-%20Ready-%2342b983)](https://es.vuejs.org/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-%20Ready-blueviolet)](https://joseluisgs.github.io/)
@@ -9,7 +9,7 @@ En este proyecto para ir realizando mi propia página web personal y profesional
 
 ## Acerca de
 
-Web de ejemplo con el objetivo de poner en práticas distintas tecnologías y usarla como ejemplo con mi alumnado para tratar distintos temas: 
+Web de ejemplo con el objetivo de poner en práctica distintas tecnologías y usarla como ejemplo con mi alumnado para tratar distintos temas: 
 - [VueJS](https://vuejs.org/) y desarrollo frontend con Javascript.
 - Uso de [Markdown](https://markdown.es/) como lenguaje para escribir contenido.
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [CSS](https://developer.mozilla.org/es/docs/Web/CSS) y [Sass](https://sass-lang.com/).
