@@ -7,6 +7,11 @@ En este proyecto voy realizando mi propia página web personal y profesional con
 [![Netlify](https://img.shields.io/badge/Netlify-Ready-blue)](https://joseluisgs.netlify.app/)
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/joseluisgs.github.io)
 
+<p align="center">
+  <a href="https://joseluisgs.github.io/" target="_blank"><img src="https://i.imgur.com/VeY0WQr.png" 
+  width='600px' borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'></a>
+</p>
+
 ## Acerca de
 
 Web de ejemplo con el objetivo de poner en práctica distintas tecnologías y usarla como ejemplo con mi alumnado para tratar distintos temas: 
@@ -32,6 +37,30 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
 
 [![Twitter](https://img.shields.io/twitter/follow/joseluisgonsan?style=social)](https://twitter.com/joseluisgonsan)
 [![GitHub](https://img.shields.io/github/followers/joseluisgs?style=social)](https://github.com/joseluisgs)
+
+<h2>Contacto</h2>
+<p>
+  Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
+</p>
+<p>
+    <a href="https://twitter.com/joseluisgonsan" target="_blank">
+        <img src="https://pitlochryfestivaltheatre.com/wp-content/uploads/2020/04/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" 
+    height="40">
+    </a> &nbsp;&nbsp;
+    <a href="https://github.com/joseluisgs" target="_blank">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
+    height="40">
+    </a> &nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
+    height="40">
+    </a>  &nbsp;&nbsp;
+    <a href="https://joseluisgs.github.io/" target="_blank">
+        <img src="https://www.lazaroamor.es/img/develop.png" 
+    height="40">
+    </a>
+</p>
+
 
 ## Licencia
 
