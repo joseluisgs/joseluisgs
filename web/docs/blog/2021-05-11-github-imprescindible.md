@@ -10,6 +10,8 @@ categories:
 tags:
   - Docencia
   - Tecnologías
+  - Git
+  - GitHub
 publish: true
 image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--Nrzp31zz--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kml9j34p9taplrnqtcez.jpg'
 # sticky: 1
