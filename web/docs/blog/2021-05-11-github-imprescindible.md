@@ -21,9 +21,9 @@ Sí, soy un enamorado de las tecnologías de mi amigo Octocat. De hecho, se han 
 
 ## Octocat y yo
 
-Usar un sistema de control de versiones tiene muchas ventajas. No voy a entrar en explicarlo con mucho detalle, pero si eso lo unimos con las ventajas que nos ofrece GitHub como herramienta de apoyo docente, la cosa puede ser espectacular.
+Me encanta empezar por GitHub. Es una herramienta tan importante, que nos aporta tanto, que se merece estar en el lugar que le corresponde. 
 
-Desde hace dos cursos uso Git y GitHub como pilar en todos los mis módulos. Primero, porque lo considero imprescindible para impartir módulos y cursos de desarrollo de software. Segundo, porque me ha tocado módulos donde entra en el temario. Tercero, y más importante, porque no imagino salir al mercado laboral si un mínimo de soltura manejándolo.
+Usar un sistema de control de versiones tiene muchas ventajas. No voy a entrar en explicarlo con mucho detalle, pero si eso lo unimos con las ventajas que nos ofrece GitHub como herramienta de apoyo docente, la cosa puede ser espectacular. Desde hace dos cursos uso Git y GitHub como pilar en todos los mis módulos. Primero, porque lo considero imprescindible para impartir módulos y cursos de desarrollo de software. Segundo, porque me ha tocado módulos donde entra en el temario. Tercero, y más importante, porque no imagino salir al mercado laboral si un mínimo de soltura manejándolo.
 
 GitHub me ofrece tantas ventajas que poco a poco las iré enumerando y confirmaréis como Octocat es uno más de mis clases, y muchas veces, mucho más importante que el propio profesor 🤨. ¿Despegamos?
 
