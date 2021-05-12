@@ -20,7 +20,7 @@ image: 'https://3.bp.blogspot.com/-E_61ZBmBlwo/XaeWvxlFvWI/AAAAAAAAMqQ/7Zc_eiWh2
 # sticky: 1
 ---
 
-[Mis Lugares](https://github.com/joseluisgs/MisLugares) es la App que resume todo lo trabajado en Programación Multimedia y Dispositivos Móviles. EL objetivo principal es tener un app que cubra la mayoría de la funcionalidad y contenidos que se ven en este módulo de DAM, donde simulamos ser una empresa desarrollando un producto real. A continuación te comento los aspectos más importantes.
+[Mis Lugares](https://github.com/joseluisgs/MisLugares) es la App que resume todo lo trabajado en Programación Multimedia y Dispositivos Móviles. El objetivo principal es tener un app que cubra la mayoría de la funcionalidad y contenidos que se ven en este módulo de DAM, donde simulamos ser una empresa desarrollando un producto real. A continuación te comento los aspectos más importantes.
 
 <!-- more -->
 
