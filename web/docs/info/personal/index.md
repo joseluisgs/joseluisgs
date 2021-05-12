@@ -16,14 +16,12 @@ twitter_site: joseluisgonsan
 ---
 ## 👋 Hola, soy José Luis
 
-Me llamo José Luis González Sánchez, soy [Dr. en Informática](../investigacion/tesis/) 💻 en la especialidad de desarrollo de software y sistemas interactivos👨‍🎓. 
-
-Trabajo como profesor de secundaria [impartiendo clases](../../docencia/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. 
+Me llamo José Luis González Sánchez, soy [Dr. en Informática](../investigacion/tesis/) 💻 en la especialidad de desarrollo de software y sistemas interactivos👨‍🎓.  Trabajo como profesor de secundaria [impartiendo clases](../../docencia/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. 
 
 Mis intereses son el desarrollo de aplicaciones web y móviles, además de videojuegos, gamificación y ocio interactivo, con el objetivo de conseguir la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo.
 
 <!-- more -->
-Adicionalmente, imparto formación en cursos de máster/doctorado y programas de especialización/grupos de trabajo. Mi especializad es el diseño y evaluación de experiencia de usuario y productos interactivos, gamificación, usabilidad y sobre todo jugabilidad. Además colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de aplicaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.
+Imparto formación en cursos de máster/doctorado y programas de especialización/grupos de trabajo. Mi especializad es el diseño y evaluación de experiencia de usuario y productos interactivos, gamificación, usabilidad y sobre todo jugabilidad. Además colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de aplicaciones web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.
 
 Personalmente he sido galardonado con distintos premios y distinciones a lo largo de mi carrera profesional, que podrás conocer en en la sección de [Investigación](../investigacion/). 
 

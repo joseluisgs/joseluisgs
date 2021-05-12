@@ -24,6 +24,10 @@ Actualmente todos los [proyectos](../../categories/Proyectos/) que voy realizand
 Generalmente las tecnologías que uso son las aplicadas al ámbito docente y otras tantas que uso a nivel personal y profesional. Si quieres ver con qué tecnologías suelo trabajar/usar, echa un ojo [aquí](../info/personal/tecnologias/).
 
 ## Destacados
-A continuación muestro proyectos destacados en estos momentos ya sea porque se están usando a nivel docente, o porque trabajo actualmente en ellos:
+A continuación muestro proyectos destacados en estos momentos ya sea porque se están usando a nivel docente, o porque trabajo actualmente en ellos.
+
+:::tip Repositorio
+<i class="iconfont reco-github"></i> [JoseluisGS en GitHub](https://github.com/joseluisgs).
+:::
 
 <ReposPinned/>
