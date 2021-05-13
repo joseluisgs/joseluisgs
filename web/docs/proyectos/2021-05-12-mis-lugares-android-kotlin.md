@@ -35,7 +35,6 @@ Por otro lado se ha usado GitHub/Git con el objetivo de control de código, diar
 Finalmente se ha ido aplicando distintas tecnologías con el objetivo de abrir la puertas en el desarrollo móvil al alumnado y con ello sean capaces de dominar los aspectos más destacados de las mismas para después desarrollar sus propias app.
 
 :::tip Mis lugares
-
 - Apuntes
 - Ejemplo real
 - Código para experimentar
