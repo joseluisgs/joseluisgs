@@ -17,6 +17,8 @@ tags:
   - REST
 publish: true
 image: 'https://3.bp.blogspot.com/-E_61ZBmBlwo/XaeWvxlFvWI/AAAAAAAAMqQ/7Zc_eiWh25kznrDFwwpEvHvRHSby-P2XwCLcBGAsYHQ/s1600/Introducing_LTS_Android_NDK_r21.png'
+twitter_creator: joseluisgonsan
+twitter_site: joseluisgonsan
 # sticky: 1
 ---
 

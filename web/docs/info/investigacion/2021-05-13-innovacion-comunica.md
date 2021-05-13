@@ -14,6 +14,8 @@ tags:
   - Innovación
 publish: true
 image: 'https://informaticacifpvg.netlify.app/assets/img/proyectos/comunica.jpg'
+twitter_creator: joseluisgonsan
+twitter_site: joseluisgonsan
 # sticky: 1
 ---
 

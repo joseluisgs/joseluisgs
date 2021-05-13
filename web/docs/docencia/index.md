@@ -1,6 +1,6 @@
 ---
 title: Actividad Docente
-description: 'Conoce mi actividad a nivel docente y formativa'
+description: 'Conoce mi actividad docente y formativa'
 date: '2021-01-27'
 sidebar: 'auto'
 subSidebar: true
@@ -24,7 +24,7 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática. 
 
 ### Mi centro
-Mi actual centro donde imparto docencia desde el 2016 es el [Centro Integrado de Formación Profesional Virgen de Gracia](https://cifpvirgendegracia.com), en Puertollano (Ciudad Real). Además soy el jefe de [departamento de Informática y Comunicación](https://informaticacifpvg.netlify.app/) en este presente curso académico y coordino distintos grupos de trabajo y formación.
+Mi actual centro donde imparto docencia desde el 2016 es el [Centro Integrado de Formación Profesional Virgen de Gracia](https://cifpvirgendegracia.com), en Puertollano (Ciudad Real). Además soy el jefe de [departamento de Informática y Comunicación](https://informaticacifpvg.netlify.app/) y coordino distintos grupos de trabajo y formación dicho centro.
 
 ### Docencia
 En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR en su modalidad Dual y E-Learning: 
@@ -64,7 +64,7 @@ A continuación resumiré docencia/formación realizada en anteriores años:
   - Desarrollo de entornos interactivos multidispositivo. 2º Curso.
   - Realización de proyectos multimedia interactivos. 1º Curso.
 
-- [Universitat de Lleida](http://www.udl.es/ca/es/), Lleida. Profesor Doctor (Visitante). 2010 a 2012.
+- [Universitat de Lleida](http://www.udl.es/ca/es/), Lleida. Profesor Doctor. 2010 a 2012.
   - Fundamentos de Accesibilidad I. Master Interacción Persona-Ordenador.
   - Especilización en Accesibilidad. Master Interacción Persona-ordenador.
   - Iniciación a la Ingeniería del Software. Grado en Informática. 
@@ -72,7 +72,7 @@ A continuación resumiré docencia/formación realizada en anteriores años:
   - Interacción Persona.Ordenador. Grado en Informática.
   - Programación II. Grado en Informática. 
 
-- [Universitat de Granada](http://www.ugr.es), Granada. Profesor Doctor (Visitante). 2007 a 2009.
+- [Universitat de Granada](http://www.ugr.es), Granada. Profesor. 2007 a 2009.
   - Ingeniería del Software I. Ingeniería en Informática.
   - Ingeniería del Software II. Ingeniería en Informática.
   - Programación Dirigida a Objetos. Ingeniería Informática.
