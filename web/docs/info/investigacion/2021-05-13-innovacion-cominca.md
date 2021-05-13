@@ -7,6 +7,7 @@ subSidebar: true
 categories:
   - Proyectos
   - Docencia
+  - Investigación
 tags:
   - Docencia
   - Tecnologías
