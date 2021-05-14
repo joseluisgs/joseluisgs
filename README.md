@@ -67,6 +67,8 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   height="45">
   <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" 
   height="45">
+  <img src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png" 
+  height="45">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
   height="45">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" 
@@ -92,7 +94,7 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   height="45">
   <img src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png?hl=es-419" 
   height="45">
-  <img src="https://victorpastor.com/wp-content/uploads/2020/11/logo.png" 
+  <img src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-vertical.svg" 
   height="45">
   <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
   height="45">
