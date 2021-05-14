@@ -72,6 +72,8 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
   height="45">
+  <img src="https://ionicframework.com/img/meta/logo.png" 
+  height="45">
   </p>
 
   <p style="text-align:center;">

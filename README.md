@@ -96,6 +96,8 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   height="45">
   <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
   height="45">
+  <img src="https://ionicframework.com/img/meta/logo.png" 
+  height="45">
   </p>
 
   <p align="center">
