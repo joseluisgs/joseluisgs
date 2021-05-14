@@ -24,7 +24,7 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 
 Ni son todas las que están, ni están todas las que son 🤔
 
-<p align="center">
+<p style="text-align:center;">
 <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
   height="45">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" 
@@ -51,7 +51,7 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   </p>
 
-  <p align="center">
+  <p style="text-align:center;">
   <img src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
   height="45">
    <img src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
@@ -74,7 +74,7 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   </p>
 
-  <p align="center">
+  <p style="text-align:center;">
   <img src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
   height="45">
   <img src="https://www.enperezzeledon.com/wp-content/uploads/2019/10/1200px-Kotlin-logo.svg_.png" 
