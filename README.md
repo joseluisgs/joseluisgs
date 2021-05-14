@@ -92,7 +92,7 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   height="45">
   <img src="https://cdn.worldvectorlogo.com/logos/netlify.svg" 
   height="45">
-  <img src="http://assets.stickpng.com/thumbs/5847f40ecef1014c0b5e488a.png" 
+  <img src="https://img.icons8.com/color/452/google-firebase-console.png" 
   height="45">
   <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
   height="45">
