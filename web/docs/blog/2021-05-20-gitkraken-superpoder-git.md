@@ -1,5 +1,5 @@
 ---
-title: GitKraken superpoder para tu código
+title: GitKraken superpoder para tus proyectos
 description: 'Vitaminando nuestro trabajo de desarrollo con la mejor herramienta existente'
 date: '2021-05-20'
 # sidebar: 'auto'
@@ -20,7 +20,7 @@ twitter_site: joseluisgonsan
 # sticky: 1
 ---
 
-[GitKraken](https://www.gitkraken.com/invite/wdJ7HntT) es para mi el mejor complemento existente para trabajar con Git y GitHub. Nos ayuda a mejorar nuestra productividad diaria con los repositorios y además a nivel docente es insuperable con muchas ventajas. Nos ofrece todo aquello para hacer tu trabajo más fácil, intuitivo y divertido. ¡Superpoder para tu código 🦸‍♂️! 
+[GitKraken](https://www.gitkraken.com/invite/wdJ7HntT) es para mi el mejor complemento existente para trabajar con Git y GitHub. Nos ayuda a mejorar nuestra productividad diaria con los repositorios y además a nivel docente es insuperable con muchas ventajas. Nos ofrece todo aquello para hacer tu trabajo más fácil, intuitivo y divertido. ¡Superpoder para tus proyectos 🦸‍♂️! 
 
 <!-- more -->
 
