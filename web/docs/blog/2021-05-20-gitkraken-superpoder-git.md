@@ -133,7 +133,7 @@ Una de las cosas más divertidas en clases es usar [Timeline](https://www.gitkra
   />
 </p>
 
-A nivel educativo supone una gran herramienta docente junto a Boards, pues podemos analizar cómo ha sido el proceso de enseñanza aprendizaje. De hecho no lo uso solo para proyectos, si no para mostrar como hemos desarrollado distintas unidades o temas, el tiempo que nos ha llevado. Además me sirve como retrospectiva para sacar conclusiones, reflexionar y tomar nota para futuros proyectos o cursos y se integra con Boards. Puedes tener un cuaderno de profesor bastante completo con ambas herramientas.
+A nivel educativo, supone una gran herramienta docente junto a Boards, pues podemos analizar cómo ha sido el proceso de enseñanza aprendizaje. De hecho no lo uso solo para proyectos, si no para mostrar como hemos desarrollado distintas unidades o temas, el tiempo que nos ha llevado. Además me sirve como retrospectiva para sacar conclusiones, reflexionar y tomar nota para futuros proyectos o cursos y se integra con Boards. Puedes tener un cuaderno de profesor bastante completo con ambas herramientas.
 
 <p style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/3jTuGXzhd5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
@@ -149,6 +149,10 @@ Posiblemente por separado existan muchas herramientas mejores, pero tener todo i
 - Boards, para planificar tu proyecto o clases con Kanvan, lista de tareas o calendario.
 - Timelines para ver "la vida" de tus proyectos, clases, temas, etc.
 :::
+::: tip ¡Obtén tu superpoder!
+¿Quieres GitKraken gratis? [Haz clic aquí](https://www.gitkraken.com/invite/wdJ7HntT).
+:::
+
 <p style="text-align:center;">
   <img loading="lazy" style="border-radius: 0.25rem;" 
     src="https://www.gitkraken.com/downloads/gk-desktops/axosoft-gitkraken-star-wars-landscape.jpg" alt="Educación"
@@ -156,7 +160,4 @@ Posiblemente por separado existan muchas herramientas mejores, pero tener todo i
 </p>
 
 
-::: tip ¡Obtén tu superpoder!
-¿Quieres GitKraken gratis? [Haz clic aquí](https://www.gitkraken.com/invite/wdJ7HntT).
-:::
 
