@@ -14,9 +14,12 @@ Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyecto
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
-<p align="center">
-  <a href="https://joseluisgs.github.io/" target="_blank"><img src="./images/banner.png" 
-  width='600px' borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'></a>
+<p style="text-align:center;">
+  <a href="https://joseluisgs.github.io/" target="_blank">
+    <img loading="lazy" style="border-radius: 0.25rem;" 
+      src="./images/banner.png" alt="Logo"  width='600px' 
+      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
+  </a>
 </p>
 
 <h2 align="center">Contacto</h2>
