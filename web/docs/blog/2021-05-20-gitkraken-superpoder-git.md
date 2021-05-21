@@ -43,7 +43,7 @@ Pero sin duda, su mayor atractivo es la parte central donde siempre tenemos a la
 
 ¿Quieres proponer un cambio o hacer un ***cherry pick***? Bueno, también puedes hacerlo arrastrando y soltando 🤯. ¿La has cagado con un commit o un merge? Tranquilidad, con GitKraken no hay problema, pues mientras en consola son algunos comandos los que debes aplicar, aquí tienes el típico botón de deshacer y rehacer 😁. ¿Un perfil para cada proyecto? También lo tienes 😉. Finalmente, su sistema de resolución de conflictos es de lo mejor que he visto: visual y fácil de usar. 
 
-<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://support.gitkraken.com/img/documentation/getting-started/interface.png" alt="Logo"></p>
+<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://i.imgur.com/gs571xU.png" alt="Logo"></p>
 
 
 ::: tip Ventajas
