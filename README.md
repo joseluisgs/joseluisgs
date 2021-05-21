@@ -14,7 +14,7 @@ Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyecto
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
-<p style="text-align:center;">
+<p align="center">
   <a href="https://joseluisgs.github.io/" target="_blank">
     <img loading="lazy" style="border-radius: 0.25rem;" 
       src="./images/banner.png" alt="Logo"  width='600px' 
