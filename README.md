@@ -1,4 +1,4 @@
-![GitHub](https://i.imgur.com/2vft9UB.png)
+![GitHub](./images/GitHub.png)
 
 <h1 align="center">👋 Hola, soy José Luis 💻 </h1>
 
