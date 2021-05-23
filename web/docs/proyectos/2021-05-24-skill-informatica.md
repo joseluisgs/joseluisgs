@@ -47,6 +47,13 @@ La skill se ha desarrollado dentro de los programas de formación de Desarrollo 
 
 ## Desarrollando para Alexa
 
+Antes de nada, quiero presentarte el [tutorial](https://github.com/joseluisgs/alexa-skill-tutorial) que hicimos en el grupo de trabajo del [Dpto. de Informática de Virgen de Gracia](https://informaticacifpvg.netlify.app/proyectos/departamento_skill_alexa/), donde se muestra los pasos para hacer una skill de manera mas detallada y que resumo en esta entrada de la web.
+
+::: tip ¿Cómo hacer una skill?
+- [Tutorial disponible en repositorio 💻](https://github.com/joseluisgs/alexa-skill-tutorial)
+:::
+
+
 ### ¿Qué es una Skill de Alexa?
 Alexa es el servicio de voz ubicado en la nube de Amazon disponible en los dispositivos de Amazon y dispositivos tercios con Alexa integrada. Además, cuenta con funcionalidades, o lo que Amazon llama «Skills», que permiten a los consumidores crear una experiencia más personalizada.
 
@@ -192,3 +199,7 @@ Puedes ver el estado actual de todas las Skills de Alexa que has creado en la vi
 * “Live”: tu Skill está disponible para los usuarios a través de la Alexa Skills Store.
 
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://cdn.outsource2india.com/software/images/alexa-skill-development-services.jpg" alt="Logo"></p>
+
+::: tip ¿Cómo hacer una skill?
+- [Tutorial disponible en repositorio 💻](https://github.com/joseluisgs/alexa-skill-tutorial)
+:::
