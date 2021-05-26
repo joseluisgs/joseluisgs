@@ -1,26 +1,35 @@
-![GitHub](./images/GitHub.png)
+<p align="center">
+  <a href="https://joseluisgs.github.io/" target="_blank">
+    <img loading="lazy" style="border-radius: 0.25rem;" 
+      src="./images/GitHub.png" alt="Logo" 
+      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
+  </a>
+</p>
 
 <h1 align="center">👋 Hola, soy José Luis 💻 </h1>
 
-Soy [Dr. en Informática especializado en desarrollo de software y sistemas interactivos](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [Profesor de Secundaria](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Adicionalmente, imparto docencia en distintos programas de máster, doctorado y cursos de especialización/formación ya sea en diseño y evaluación de experiencia de usuario y productos interactivos
+Soy [Dr. en Informática especializado en desarrollo de software y sistemas interactivos](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [Profesor de Secundaria](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy embajador de [GitKraken](https://www.gitkraken.com/invite/wdJ7HntT). 
 
-Actualmente estoy interesado en aplicaciones web y móviles, además de videojuegos, gamificación y ocio interactivo, con el objetivo de conseguir la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo. Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.
+ Estoy interesado en aplicaciones web y móviles, además de videojuegos, gamificación y ocio interactivo, con el objetivo de conseguir la mejor experiencia de usuario/a y la calidad a través de las distintas fases del desarrollo. Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂. Imparto docencia en distintos programas de máster, doctorado y cursos de especialización/formación ya sea en diseño y evaluación de experiencia de usuario y productos interactivos.
 
 Disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
-Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.</p>
+Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.
+
+Me siento orgulloso de ser embajador de [GitKraken](https://www.gitkraken.com/invite/wdJ7HntT) y ayudar a mostrar cómo usar esta suite que nos ofrece super poderes para desarrollar nuestro código usando Git/GitHub. Será un placer poder echaros un cable con ello. ¡Cuenta conmigo! 💪
+
+<p align="center">
+  <a href="https://gitkraken.link/joseluisgs" target="_blank"> 
+    <img loading="lazy" style="border-radius: 0.25rem;" 
+      src="https://i.imgur.com/sTDaBTu.png" alt="Logo"
+      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
+  </a>
+</p>
+
 
 <p style='text-align: justify;'>También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">página web</a> donde poco a poco podrás conocerme un poco más :mag:.
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
-
-<p align="center">
-  <a href="https://joseluisgs.github.io/" target="_blank">
-    <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="./images/banner.png" alt="Logo"  width='600px' 
-      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
-  </a>
-</p>
 
 <h2 align="center">Contacto</h2>
 <p align="center">
