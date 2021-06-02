@@ -16,17 +16,17 @@ Disfruto con la música, especialmente todo tipo de música rock :musical_note: 
 
 Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento :stuck_out_tongue_winking_eye:. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar.
 
-Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**embajador de GitKraken**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar a cómo usar y aplicar estas herramientas que nos ofrecen super poderes para desarrollar nuestro código usando Git/GitHub y o cómo aplicarlas a la docencia. Será un placer poder echaros un cable con ello. ¡Cuenta conmigo! 💪
+Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**embajador de GitKraken**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar a cómo usar y aplicar estas herramientas que nos ofrecen super poderes para desarrollar nuestro código usando Git/GitHub y o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
 
 <p align="center">
  <a href="https://education.github.com/teachers/advisors" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Logo" height="175"
+      src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Log1" height="150"
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
   </a>
   <a href="https://gitkraken.link/joseluisgs" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.imgur.com/sTDaBTu.png" alt="Logo" height="175"
+      src="https://i.imgur.com/sTDaBTu.png" alt="Logo2" height="150"
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
   </a>
 </p>
