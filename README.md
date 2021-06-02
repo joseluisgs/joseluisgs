@@ -18,7 +18,7 @@ Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyecto
 
 Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**embajador de GitKraken**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar a cómo usar y aplicar estas herramientas que nos ofrecen super poderes para desarrollar nuestro código usando Git/GitHub y o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
 
-<p align="center">
+<p align="center"></p>
  <a href="https://education.github.com/teachers/advisors" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
       src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Log1" height="150"
