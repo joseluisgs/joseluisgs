@@ -21,12 +21,12 @@ Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.
 <p align="center">
  <a href="https://education.github.com/teachers/advisors" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Logo" height="150"
+      src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Logo" height="175"
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
   </a>
   <a href="https://gitkraken.link/joseluisgs" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.imgur.com/sTDaBTu.png" alt="Logo" height="150"
+      src="https://i.imgur.com/sTDaBTu.png" alt="Logo" height="175"
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
   </a>
 </p>
