@@ -1,5 +1,5 @@
 ---
-title: Set de detalles GitHub Campus Advisor
+title: Set GitHub Campus Advisor
 description: 'Me encanta ser un Octogato más'
 date: '2021-06-10'
 # sidebar: 'auto'
@@ -18,16 +18,15 @@ twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1
 ---
-Os comenté no hace mucho que soy Embajador de [GitKraken](./2021-05-26-gitkraken-embajador.md). La gente de GitKraken ha tenido a bien mandarme como detalle una serie de regalitos super chulos 🎁. Te presento mi "uniforme" de embajador 🧐. 
+Os comenté que soy Campus Advisor de [GitHub](./2021-06-02-github-advisor.md) y con ello tengo un set de bienvenida y detalles que mola un montón. ¿Quieres verlo? 😎. 
 
 <!-- more -->
 
-## Kit de Embajador GitKraken
-<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://i.imgur.com/qMDxOZj.jpg" alt="Logo"></p>
+## Kit de Campus Advisor de GitHub
+¡Mola mucho! 😁 Y la verdad es que me encanta ser un Octogato más. Así que con mucha ilusión espero corresponder con la confianza mostrada para ayudar y promocionar el el uso de tecnologías de GitHub en la docencia 💪. 
 
-¡Mola! 😁 Ya me estoy imaginado lo bien que me quedarán esos calcetines. De hecho, estoy pensando en una falda escocesa a juego y dar mis ponencias, talleres y tutoriales en chanclas. La verdad es que me ha gustado y lo más importante es la confianza hacia mi labor y por supuesto mis calcetines 😎. 
-
-
-::: tip ¡Obtén tu superpoder!
-¿Quieres GitKraken gratis? [Haz clic aquí](https://www.gitkraken.com/invite/wdJ7HntT).
-:::
+<p style="text-align:center;">
+<img loading="lazy" style="border-radius: 0.25rem;" src="https://i.imgur.com/rqB8ghn.jpg" alt="Logo">
+<img loading="lazy" style="border-radius: 0.25rem;" src="https://i.imgur.com/AoMhO05.jpg" alt="Logo">
+<img loading="lazy" style="border-radius: 0.25rem;" src="https://i.imgur.com/q2ZBrAK.jpg" alt="Logo">
+</p>
