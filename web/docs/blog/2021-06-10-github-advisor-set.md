@@ -1,6 +1,6 @@
 ---
-title: Uniforme de embajador GitKraken
-description: 'O lo que molan mis calcetines oficiales de embajador'
+title: Set de detalles GitHub Campus Advisor
+description: 'Me encanta ser un Octogato más'
 date: '2021-06-10'
 # sidebar: 'auto'
 subSidebar: true
@@ -11,9 +11,9 @@ tags:
   - Docencia
   - Tecnologías
   - Git
-  - GitKraken
+  - GitHub
 publish: true
-image: 'https://miro.medium.com/max/1200/1*ooLsaroMXlzi0OwBYCiFSA.jpeg'
+image: 'https://github.blog/wp-content/uploads/2014/11/3b7c54c6-73c4-11e4-9fa7-305e8f655685.jpg'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1

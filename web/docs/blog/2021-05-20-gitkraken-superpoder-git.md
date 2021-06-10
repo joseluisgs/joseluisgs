@@ -14,7 +14,7 @@ tags:
   - GitHub
   - Gitkraken
 publish: true
-image: 'https://www.gitkraken.com/img/og/og-image.jpg'
+image: 'https://www.dovesco.com/sites/default/files/2020-09/axosoft.jpg'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1
@@ -102,7 +102,7 @@ Y destaco mucho sus especiales de [buenas prácticas](https://www.gitkraken.com/
 Pero si queremos el superpoder completo, lo ideal es trabajar con la Suite que nos ofrece GitKraken. Está formada además por Boards y Timelines.
 <p style="text-align:center;">
   <img loading="lazy" style="border-radius: 0.25rem;" 
-    src="https://www.gitkraken.com/downloads/gk-desktops/gitkraken-suite-desktop-landscape.png" alt="Educación"
+    src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/gitkraken-suite-desktop-landscape.png" alt="Educación"
   />
 </p>
 
@@ -111,7 +111,7 @@ Pero si queremos el superpoder completo, lo ideal es trabajar con la Suite que n
 
 <p style="text-align:center;">
   <img loading="lazy" style="border-radius: 0.25rem;" 
-    src="https://www.gitkraken.com/img/index/boards-product.png" alt="Educación"
+    src="https://support.gitkraken.com/img/documentation/glo/start-glo-ing/glo-full.png" alt="Educación"
   />
 </p>
 
@@ -129,7 +129,7 @@ No solo la uso para proyectos. Me ayuda bastante como base para el cuaderno de p
 Una de las cosas más divertidas en clases es usar [Timeline](https://www.gitkraken.com/timelines) para mostrar el desarrollo de las prácticas o proyectos que realizamos. De esta manera visualmente podemos ver su estado, evolución, versiones.
 <p style="text-align:center;">
   <img loading="lazy" style="border-radius: 0.25rem;" 
-    src="https://www.gitkraken.com/img/index/timelines-product.png" alt="Educación"
+    src="https://support.gitkraken.com/img/documentation/timelines/overview/timelines-add.gif" alt="Educación"
   />
 </p>
 
@@ -155,7 +155,7 @@ Posiblemente por separado existan muchas herramientas mejores, pero tener todo i
 
 <p style="text-align:center;">
   <img loading="lazy" style="border-radius: 0.25rem;" 
-    src="https://www.gitkraken.com/downloads/gk-desktops/axosoft-gitkraken-star-wars-landscape.jpg" alt="Educación"
+    src="https://blog.axosoft.com/wp-content/uploads/2018/03/v3.5_Thumbnail-01-450x253.png" alt="Educación"
   />
 </p>
 
