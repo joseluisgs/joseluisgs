@@ -68,7 +68,7 @@ Ejemplo de [API REST](https://nodemonrest.herokuapp.com/) en NodeJS, usando Mong
 
 ### Descripción
 Este proyecto tiene nombre de Pokemon :). El objetivo principal docente es aplicar distintas técnicas para construir un esqueleto de API REST usable en distintos proyectos. La idea es hacer un esqueleto lo suficientemente genérico, adaptable y extensible en módulos para ser aplicado en distintos problemas y con él resolver cuestiones que se nos pueden presentar genéricas en cada uno de ellos, con el objetivo de mostrar para el ámbito docente como poder realizarlo. Es una aplicación puramente docente. Entre las distintas técnicas usadas:
-* Distribución de los elementos del sistema. Tenemos distribuídos en distintos nodos cada uno de los componentes cruciales del sistema: codigo, información y almacenamiento de ficheros.
+* Distribución de los elementos del sistema. Tenemos distribuídos en distintos nodos cada uno de los componentes cruciales del sistema: código, información y almacenamiento de ficheros.
 * Patrón [MVC](https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador). La vista será cualquier cliente que consuma nuestra API.
 * [Asíncronía](https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono) y respuesta a Eventos. Uso de promesas e interacción basada en eventos que es uno de los aspectos más fuertes de Node.js.
 * Acceso a bases de datos NoSQL usando Mongo DB.
@@ -83,18 +83,23 @@ Este proyecto tiene nombre de Pokemon :). El objetivo principal docente es aplic
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://danielpecos.com/assets/2017/09/swaggerfornodejs.jpg" alt="Logo"></p>
 
 ### Tecnologías y librerías usadas
+
+::: warning Atención
+Este proyecto tiene algo de antigüedad y puede que las librerías estén desuso. Te recomiendo eches un ojo en [este proyecto](#typescrip-api-rest) porque siguiendo esta misma filosofía puedes ver una versión más moderna en el uso de librerías, organización de código y distintas versiones de persistencia de la información
+:::
+
 * [NodeJS](https://nodejs.org/es/). JS en Servidor.
 * [Mongo DB](https://www.mongodb.com/es). He usado su versión en la nube [Atlas](https://www.mongodb.com/cloud/atlas)
 * [Express](https://expressjs.com/es/). Framework de aplicaciones web para la API. Con ellos creo y gestiono las rutas. Además nos permite fácilmente crear middlewares, con lo cual podremos aplicar logs específicos, filtrar para autorizaciones y autenticaciones y ampliar mediante middleware. Es lo que más me gusta de esta librería. Te recomiendo mirar el código de los ficheros route y middleware para ver como realizo estas acciones. Una de las cosas importantes es como he creado el servidor para que pueda ser levantado como instancia en cada una de las pruebas.
 * [Mongoose](https://mongoosejs.com/). Conjunto de librerías para operar con bases de dato MongoDB. He implementado el acceso usando singletón.
 * [JWT-Simple](https://www.npmjs.com/package/jwt-simple). Para implementar la atenticación basada en JWT. Esta librería actúa en base a middleware con Express. Los propios tokens que caducan dependiendo del valor de .env TOKEN_LIFE en minutos. Para la parte de autorización, también los hemos encapsulado en ellos los permisos de usuario que tengan. También hemos usado el [refresco de tokens](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/), en base a UUID almacenando los tokens de refresco en MongoDB con un índice TTL de la colección en base al valor de .env TOKEN_REFRESH en minutos. De esta manera se autodestruyen pasado ese tiempo y libera el tokens de refresco asociado al token de usuario, dando un poco de seguridad extra. El objetivo de implementar este tipo de token de refresco es que si el access token tiene fecha de expiración, una vez que caduca, el usuario tendría que autenticarse de nuevo para obtener un access token. Con el refresh token, este paso se puede saltar y con una petición al API obtener un nuevo access token que permita al usuario seguir accediendo a los recursos de la aplicación, hasta que el refresh token caduque. Se debe tener en cuenta que el TTL del Token de autentificación debe ser menor que el de refresco.
 * [BCrypt](https://www.npmjs.com/package/bcrypt). Librería de criptografía para manejar las contraseñas de los usuarios.
-* [Body Parser](https://www.npmjs.com/package/body-parser). Middleware que parsea los body como objetos.
+* [Body Parser](https://www.npmjs.com/package/body-parser). Middleware que parsea los body como objetos (ya no se utilza pero cuando hice este proyecto sí, puedes mirar [el ejemplo con Typescript](#typescrip-api-rest) siguiente para ver otras opciones).
 * [Cors](https://www.npmjs.com/package/cors). Middleware para manejo de [CORS](https://developer.mozilla.org/es/docs/Web/HTTP/Access_control_CORS).
 * [Dotenv](https://www.npmjs.com/package/dotenv). Para leer las variables de entorno del fichero .env
 * [Morgan](https://www.npmjs.com/package/morgan). Middleware Request logger el cual nos permitirá sacar logs de nuestras peticiones HTTP.
 * [UUID](https://www.npmjs.com/package/uuid). Implementa el RFC4122 UUIDs para los tokens de refresco.
-* [Express-fileupload](https://www.npmjs.com/package/express-fileupload). Es un middleware para Express el cual nos ayuda a procesar peticiones multipart o subida de imágenes. Se ha puesto que el tamaño máximo por umagen sea 2MB aunque se puede cambiar el el fichero .env. Los directorios para almacenar imágenes o ficheros están en .env, puedes poner el mismo o lo que quieras, pues se crean dinámicamente dentro de public/uploads (FILES_PATH) y accesible directamente por la ruta url/files (FILES_URL). Puedes ponerle el mismo si quieres.
+* [Express-fileupload](https://www.npmjs.com/package/express-fileupload). Es un middleware para Express el cual nos ayuda a procesar peticiones multipart o subida de imágenes. Se ha puesto que el tamaño máximo por imagen sea 2MB aunque se puede cambiar el el fichero .env. Los directorios para almacenar imágenes o ficheros están en .env, puedes poner el mismo o lo que quieras, pues se crean dinámicamente dentro de public/uploads (FILES_PATH) y accesible directamente por la ruta url/files (FILES_URL). Puedes ponerle el mismo si quieres.
 * [AWS](https://aws.amazon.com/es/) Se ha implementado el sistema de almacenamiento en a nube para no depender localmente del servidor. Si quieres la versión en el servidor revisa [esta rama](https://github.com/joseluisgs/NodeMonRest/tree/Ficheros_Locales). La idea de usar este tipo de tecnologías es aprender a usar almacenamiento en la nube siguiendo la folosofía de distribución de cada uno de los elementos del sistema: código, bases de datos y ficheros.
 * [Joi](https://www.npmjs.com/package/@hapi/joi). Nos sirve para validar los datos de entrada en base a un esquema de validación, por si no lo usamos en los propios esquemas de mongo la validación. Es importante que el back valide todos los datos por si se ha escapado algo del Front. No podemos dejar nada a la surte. ¡Luke, somos la última esperanza!
 * [Mongoose-unique-validator](https://www.npmjs.com/package/mongoose-unique-validator). Nos sirve para validar los campos unique. Actúa como middleware.
@@ -134,7 +139,7 @@ Ejemplo de un API REST realizada con TypeScript. Autenticación, CRUD, transfere
 ### Descripción
 El proyecto consiste en que tengas un ejemplo de API REST pero realizada con TypeScript con el objetivo de mejorar con tipos tus desarrollos. Además propone el uso de ficheros, autenticación y autorización mediante JWT. Tiene tres modos de uso Memoria, con MongoDB (NoSQL) y MariaDB (SQL). Acceso desde: http://localhost:8000.
 
-<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/432918/1-331d350d67cb0fbf52807f12b1f7efa4.png" alt="Logo"></p>
+<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://res.cloudinary.com/practicaldev/image/fetch/s--06ezZhc0--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/cosh3nee9nkfwnsmpn9p.png" alt="Logo"></p>
 
 ### Arquitectura y diseño
 El diseño de esta API REST se corresponde con el patrón Servidor->Enrutador->Controlador->Modelo. 
