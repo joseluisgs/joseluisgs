@@ -1,6 +1,6 @@
 ---
 title: Desarrolla tu API REST en Node.js
-description: 'Distintos Ejemplos de como crear tu propia API REST'
+description: 'Distintos ejemplos de como crear tu propia API REST'
 date: '2021-06-16'
 # sidebar: 'auto'
 subSidebar: true
