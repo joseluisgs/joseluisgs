@@ -85,7 +85,7 @@ Este proyecto tiene nombre de Pokemon :). El objetivo principal docente es aplic
 ### Tecnologías y librerías usadas
 
 ::: warning Atención
-Este proyecto tiene algo de antigüedad y puede que las librerías estén desuso. Te recomiendo eches un ojo en [este proyecto](#typescrip-api-rest) porque siguiendo esta misma filosofía puedes ver una versión más moderna en el uso de librerías, organización de código y distintas versiones de persistencia de la información
+Este proyecto tiene algo de antigüedad y puede que las librerías estén desuso. Te recomiendo eches un ojo en [TypeScrip API REST](#typescrip-api-rest) porque siguiendo esta misma filosofía puedes ver una versión más moderna en el uso de librerías, organización de código y distintas versiones de persistencia de la información
 :::
 
 * [NodeJS](https://nodejs.org/es/). JS en Servidor.
