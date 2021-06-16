@@ -25,7 +25,7 @@ Una de las cosas con las que más cómo me siento es con la facilidad con la que
 
 ## Tu API REST
 
-Cuando creamos una API REST tenemos muchas tecnologías y opciones para poder realizarla con éxito. Hay tantas, que dependerá de la naturaleza del problema cuál debas elegir. Ya sea con Typescript o Javascript sobre Node.js debes pensar cómo y de qué manera estructurar tu código. Ya uses MongDB, Amazon, MaríaDB o Firebase, hacerte tu propio Back te va a dar el control de cómo y de qué manera acceden a tus recursos desde cualquier dispositivo.
+Cuando creamos una API REST tenemos muchas tecnologías y opciones para poder realizarla con éxito. Hay tantas, que dependerá de la naturaleza del problema cuál debas elegir. Ya sea con Typescript o Javascript sobre Node.js debes pensar cómo y de qué manera estructurar tu código. Ya uses MongDB, Amazon, MariaDB o Firebase, hacerte tu propio Back te va a dar el control de cómo y de qué manera acceden a tus recursos desde cualquier dispositivo.
 
 En esta entrada te mostraré distintas tecnologías y proyectos usados de ejemplos con el alumnado o a nivel personal donde se integran distintas opciones. Algunas, ya verás se irán repitiendo en ellos como un patrón base a seguir 
 
