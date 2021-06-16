@@ -13,7 +13,7 @@ tags:
   - Tecnologías
   - Innovación
 publish: true
-image: 'https://informaticacifpvg.netlify.app/assets/img/proyectos/comunica.jpg'
+image: 'https://i.imgur.com/LukNdoZ.jpg'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1
@@ -78,7 +78,7 @@ El comunicador muestra una estructura de plantillas o redes hipermedia con imág
 
 Esta “navegación” entre elementos de la red hipermedia y una gramática BNF o red semántica permite construir frases o hacer selecciones en las que se categoricen los objetos que se eligen como podemos ver en el ejemplo de boceto de interfaz.
 
-<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://informaticacifpvg.netlify.app/assets/img/proyectos/comunica_1.jpg" alt="Logo"></p>
+<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://i.imgur.com/iXDFWVH.jpg" alt="Logo"></p>
 
 Además, el sistema permite:
 
@@ -92,7 +92,7 @@ Además, el sistema permite:
 - **Interacción accesible**. Los modos de interacción serán táctil, reconocimiento de voz y seguimiento ocular
 - **Despliegue**. Para un despliegue rápido se utilizará la tecnología Docker, que permite crear contenedores de software, de forma que la aplicación pueda rápidamente transportarse al servidor. Además la aplicación estará disponible en un servidor web y en las tienda de aplicaciones móviles.
 
-<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://informaticacifpvg.netlify.app/assets/img/proyectos/comunica_2.jpg" alt="Logo"></p>
+<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://i.imgur.com/v7DCGef.jpg" alt="Logo"></p>
 
 ## Conclusiones
 Como se ha explicado en los puntos anteriores el objetivo del proyecto de innovación educativa **COMUNICA** es doble 
@@ -101,7 +101,7 @@ Como se ha explicado en los puntos anteriores el objetivo del proyecto de innova
 
 Todos los puntos se esperas conseguir no solo creando un entorno favorable, sino con la participación y colaboración de todos los profesores implicados en el proyecto.
 
-<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://informaticacifpvg.netlify.app/assets/img/proyectos/comunica_3.jpg" alt="Logo"></p>
+<p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://i.imgur.com/ekQ3K1I.jpg" alt="Logo"></p>
 
 De la misma manera me gusta pensar que no sólo creamos un producto al uso en clase, si no que trasmitimos unos valores y que ayudamos a las personas que lo pueden necesitar lo que hace que el grado de implicación y motivación del alumnado aumente. Es solo por eso, por lo que me hace sentir orgulloso poder hacer cosas como estas.
 
@@ -119,7 +119,7 @@ Destaco sobre todo lo conseguido:
   * *Entrevistarse* con clientes, guiarlos y obtener información clave para el desarrollo.
   * *Integrarse* en equipos de desarrollo y comunicarse de forma fluida y efectiva.
   * *Responsabilizarse* de los compromisos adquiridos en un proyecto con el cliente.
-  * Ser capaz de realizar mediante técnicas colaborativas d*esarrollar un producto software descentralizado.*
+  * Ser capaz de realizar mediante técnicas colaborativas *desarrollar un producto software descentralizado.*
   * Ser capaz de *evaluar el trabajo realizado*, platear propuestas de mejora y saber realizarlas.
 - ***Fomentar el desarrollo de productos de software de calidad*** aplicando el último estándar ISO/IEC 25000 con el objetivo de fomentar una experiencia de usuario óptima en todas las situaciones.
 - ***Completar el Trabajo de fin de Ciclo con proyectos reales***.
