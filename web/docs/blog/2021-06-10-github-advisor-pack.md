@@ -1,5 +1,5 @@
 ---
-title: Set GitHub Campus Advisor
+title: Pack de GitHub Campus Advisor
 description: 'Me encanta ser un Octogato más'
 date: '2021-06-10'
 # sidebar: 'auto'
@@ -18,11 +18,11 @@ twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1
 ---
-Os comenté que soy Campus Advisor de [GitHub](./2021-06-02-github-advisor.md) y con ello tengo un set de bienvenida y detalles que mola un montón. ¿Quieres verlo? 😎. 
+Os comenté que soy Campus Advisor de [GitHub](./2021-06-02-github-advisor.md) y con ello tengo un pack de bienvenida y detalles que mola un montón. ¿Quieres verlo? 😎. 
 
 <!-- more -->
 
-## Kit de Campus Advisor de GitHub
+## Contenido del pack Campus Advisor de GitHub
 ¡Mola mucho! 😁 Y la verdad es que me encanta ser un Octogato más. Así que con mucha ilusión espero corresponder con la confianza mostrada para ayudar y promocionar el el uso de tecnologías de GitHub en la docencia 💪. 
 
 <p style="text-align:center;">
