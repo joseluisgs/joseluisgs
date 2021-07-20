@@ -15,12 +15,15 @@ module.exports = {
   // Configuraciṕn general del módulo
   // Metadatos
   title: 'José Luis González',
-  description: 'Web Personal de José Luis González',
+  description: 'Web personal de José Luis González Sánchez. Dr. en Informática. Profesor de Secundaria en FP de DAM/DAW/ASIR. GitHub Campus Advisor y embajador de GitKraken',
 
   // Head y metadatos
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+    ['meta', { name: 'author', content: 'José Luis González Sánchez' }],
+    ['meta', { name: 'application-name', content: 'José Luis González Sánchez. Web Personal' }],
+    ['meta', { name: 'keywords', content: 'José Luis González Sánchez, Profesor, Formador, Investigador, Desarrollo de Apliaciones, Web, Multiplataforma, FP, Formación Profesional, Embajador, GIT, GitKraken, vuejs, vue, móvil, docker, mongodb, nodejs, node, kotlin, java, spring, springboot, Luis Vives, Virgen de Gracia, Universidad de Granada, Jugabilidad, Videojuegos' }],
 
     // FontAwasome
     // ['script', {
@@ -30,7 +33,7 @@ module.exports = {
 
     // Google Search
     ['meta', { name: 'google-site-verification', content: '6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90' }],
-    
+
     // Google analytics
     ['script', {
       async: true,
@@ -66,7 +69,7 @@ module.exports = {
     noFoundPageByTencent: false,
     // Barra de navegacion
     logo: '/favicon.png',
-    
+
     // iconos: https://vuepress-theme-reco.recoluan.com/en/views/1.x/configJs.html#icon
 
     // Navegacion
@@ -156,7 +159,7 @@ module.exports = {
         //'formacion',
         'tesis',
       ],
-      
+
       // '/sidebargroup/': [
       //   {
       //     title: '基础',
@@ -217,7 +220,7 @@ module.exports = {
       root_url: 'https://joseluisgs.github.io/',
       default_site_name: 'José Luis González',
     }],
-  
+
     // ['@vuepress-reco/vuepress-plugin-screenfull'],
     // ['@vuepress-reco/vuepress-plugin-extract-code'],
     // ['@vuepress-reco/vuepress-plugin-bulletin-popover',
@@ -247,9 +250,8 @@ module.exports = {
     //     ]
     //   }
     // ],
-  
+
   ],
 
-  
-};
 
+};
