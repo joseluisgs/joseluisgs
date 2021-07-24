@@ -42,7 +42,7 @@ Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.
 </p>
 <p align="center">
     <a href="https://twitter.com/joseluisgonsan" target="_blank">
-        <img src="https://pitlochryfestivaltheatre.com/wp-content/uploads/2020/04/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" 
+        <img src="https://i.imgur.com/U4Uiaef.png" 
     height="60">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">

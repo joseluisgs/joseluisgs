@@ -44,7 +44,7 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
 </p>
 <p>
     <a href="https://twitter.com/joseluisgonsan" target="_blank">
-        <img src="https://pitlochryfestivaltheatre.com/wp-content/uploads/2020/04/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" 
+        <img src="https://i.imgur.com/U4Uiaef.png" 
     height="40">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
