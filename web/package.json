@@ -29,7 +29,7 @@
   "devDependencies": {
     "@limdongjin/vuepress-plugin-simple-seo": "*",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
-    "vuepress": "^1.8.0",
+    "vuepress": "^1.8.2",
     "vuepress-plugin-image": "^1.0.4",
     "vuepress-plugin-social-share": "^1.0.0"
   },
