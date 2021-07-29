@@ -19,8 +19,8 @@ features:
 - title: Profesor
   details: Profesor de Especialidad de Secundaria en Informática. Imparto docencia en los ciclos DAM/DAW y ASIR, en asignaturas de programación y desarrollo.
 - title: Investigador
-  details: Soy Dr. en Informática en la especialidado de desarrollo de software y sistemas interactivos por la Universidad de Granada.
+  details: Soy Dr. en Informática en la especializado de desarrollo de software y sistemas interactivos por la Universidad de Granada.
 - title: Formador
-  details: Colaboro en distintos cursos, masteres, doctordos y programas especializados sobre desarrollo de software y sistemas interactivos.
+  details: Colaboro en distintos cursos, másteres, doctorados y programas especializados sobre desarrollo de software y sistemas interactivos.
 
 ---
