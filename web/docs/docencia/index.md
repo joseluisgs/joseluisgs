@@ -17,7 +17,7 @@ twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 
 ---
-En este apartado resumiré brevemente mi actividad docente y con ello sepas cómo puedo ayudarte en tu formación si se da el caso 🧐. No está todo, pero creo que así puedes conocerme un poco más con lo más relevante.
+En este apartado resumiré brevemente mi actividad docente y con ello sepas cómo puedo ayudarte en tu formación si se da el caso. No está todo, pero creo que así puedes conocerme un poco más con lo más relevante.
 
 <!-- more -->
 ## Actualidad
