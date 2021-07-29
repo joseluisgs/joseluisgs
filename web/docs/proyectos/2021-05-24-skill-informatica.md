@@ -121,7 +121,7 @@ Importante:
 * const Alexa = require('ask-sdk-core’) -> Librería a usar
 * Tantos RequestHandler como necesitemos para manejar los intents que vengan del skill. mismo RequestHandler puede manejar más de un intent.
 
-El método canHandle se usa para checkear si el handler puede manejar la petición que llega. Aquí la lógica básica que se suele hacer es mirar el
+El método canHandle se usa para chequear si el handler puede manejar la petición que llega. Aquí la lógica básica que se suele hacer es mirar el
 nombre del intent de la request.
 El método handle es el encargado de recibir el input y construir la respuesta para el usuario a partir de su request. Es el método donde irá el código más interesante del handler. En el caso del ejemplo me gustaría destacar tres cosas:
 * speak, le estamos dando a la respuesta el texto que Alexa dirá de voz al usuario.

@@ -20,7 +20,7 @@ twitter_site: joseluisgonsan
 # sticky: 1
 ---
 
-[GitKraken](https://www.gitkraken.com/invite/wdJ7HntT) es para mi el mejor complemento existente para trabajar con Git y GitHub. Nos ayuda a mejorar nuestra productividad diaria con los repositorios y además a nivel docente es insuperable con muchas ventajas. Nos ofrece todo aquello para hacer tu trabajo más fácil, intuitivo y divertido. ¡Superpoder para tus proyectos 🦸‍♂️! 
+[GitKraken](https://www.gitkraken.com/invite/wdJ7HntT) es para mi el mejor complemento existente para trabajar con Git y GitHub. Nos ayuda a mejorar nuestra productividad diaria con los repositorios y además a nivel docente es insuperable con muchas ventajas. Nos ofrece todo aquello para hacer tu trabajo más fácil, intuitivo y divertido. ¡Superpoder para tus proyectos! 
 
 <!-- more -->
 
@@ -141,7 +141,7 @@ A nivel educativo, supone una gran herramienta docente junto a Boards, pues pode
 No te lo voy a negar, GitKraken Suite es vitamina pura para dar clases de desarrollo o simplemente para mejorar tu productividad diaria como desarrollador, ya sea solo o en equipo. Además con Boards y Timelines puedes gestionar un cuaderno de profesor muy completo. No todas las ventajas son para desarrollar o gestionar código.
 
 Posiblemente por separado existan muchas herramientas mejores, pero tener todo integrado en el mismo flujo de trabajo es una ventaja fundamental. A nivel de clase nos sirve para unificar en un un solo lugar una serie de herramientas que ayuda al trabajo diario de cómo enseñar y aprender a desarrollar software.
-::: tip Mi Superpoder 🦸‍♂️
+::: tip Mi Superpoder
 - Cliente de Git visual e interactivo.
 - Integración con GitHub (y GitLab, BitBucket).
 - Facilidad de Pull Request, conflictos, cambios y "resolver cagadas".

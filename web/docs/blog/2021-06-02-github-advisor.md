@@ -18,7 +18,7 @@ twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1
 ---
-Hace un tiempo comenté como GitHub se había convertido en mi [herramienta imprescindible](https://joseluisgs.github.io/blog/2021-05-11-github-imprescindible.html#github-educativo). Desde hace unos días, soy GitHub Campus Advisor y con ello se me presenta otro nuevo reto: ayudar a profesores y alumnos/as a cómo usar GitHub para el desarrollo de software y aprovecharlo a nivel docente 🧐
+Hace un tiempo comenté como GitHub se había convertido en mi [herramienta imprescindible](https://joseluisgs.github.io/blog/2021-05-11-github-imprescindible.html#github-educativo). Desde hace unos días, soy GitHub Campus Advisor y con ello se me presenta otro nuevo reto: ayudar a profesores y alumnos/as a cómo usar GitHub para el desarrollo de software y aprovecharlo a nivel docente.
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ Hace un tiempo comenté como GitHub se había convertido en mi [herramienta impr
 
 Al día de hoy, considero fundamentales las tecnologías de [GitHub](https://joseluisgs.github.io/blog/2021-05-11-github-imprescindible.html#github-educativo), y su paquete educativo. Ahora me han nombrado GitHub Campus Advisor. Me encanta la idea de poder ayudar a profesorado y alumnado a desarrollar nuestro código usando GitHub. A la misma vez, me hace sentir muy feliz por mi centro, compañeros/as y alumnado que se beneficiarán de ello, así como cualquier persona que necesite mi ayuda. Y sobre todo, me ilusiona poder ayudar y responder dudas que la comunidad me haga. Es un honor que GitHub confíe en mi para ello.
 
-### ¿Qué haré? 🤨
+### ¿Qué haré?
 Seguiré con mi rutina diaría, pues ya hemos demostrado en cursos como DAW que integrar GitHub en todo el proceso de enseñanza-aprendizaje es posible en todos los módulos de segundo. Podéis ver la experiencia en nuestros [proyectos de innovación](https://informaticacifpvg.netlify.app/proyectos/innovacion/). 
 
 <p style="text-align:center;">

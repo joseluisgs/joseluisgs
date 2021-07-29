@@ -18,7 +18,7 @@ twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1
 ---
-Os comenté no hace mucho que soy Embajador de [GitKraken](./2021-05-26-gitkraken-embajador.md). La gente de GitKraken ha tenido a bien mandarme como detalle una serie de regalitos super chulos 🎁. Te presento mi "uniforme" de embajador 🧐. 
+Os comenté no hace mucho que soy Embajador de [GitKraken](./2021-05-26-gitkraken-embajador.md). La gente de GitKraken ha tenido a bien mandarme como detalle una serie de regalitos super chulos 🎁. Te presento mi "uniforme" de embajador. 
 
 <!-- more -->
 
