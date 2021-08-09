@@ -8,6 +8,8 @@
     "build": "vuepress build docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "postbuild": "vuepress-sitemap -H https://joseluisgs.github.io -d docs/.vuepress/dist",
+    "docs:map": "vuepress-sitemap -H https://joseluisgs.github.io -d docs/.vuepress/dist",
     "deploy": "sh ./deploy.sh",
     "docs:deploy": "sh ./deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,11 +31,13 @@
   "devDependencies": {
     "@limdongjin/vuepress-plugin-simple-seo": "*",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "esm": "^3.2.25",
     "vuepress": "^1.8.2",
     "vuepress-plugin-image": "^1.0.4",
     "vuepress-plugin-social-share": "^1.0.0"
   },
   "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-reco": "^1.6.1"
   }
 }

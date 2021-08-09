@@ -221,6 +221,14 @@ module.exports = {
       default_site_name: 'José Luis González',
     }],
 
+    // Plugin SiteMap
+    // https://github.com/ekoeryanto/vuepress-plugin-sitemap
+    ['sitemap',
+      {
+        hostname: 'https://joseluisgs.github.io/',
+      }
+    ],
+
     // ['@vuepress-reco/vuepress-plugin-screenfull'],
     // ['@vuepress-reco/vuepress-plugin-extract-code'],
     // ['@vuepress-reco/vuepress-plugin-bulletin-popover',

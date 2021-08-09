@@ -7,7 +7,7 @@ set -e
 rm -rf docs/.vuepress/dist
 
 # build
-npm run docs:build
+npm run build
 
 # copiamos readme y license
 cp README.md docs/.vuepress/dist
