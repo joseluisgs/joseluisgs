@@ -6,6 +6,7 @@ En este proyecto voy realizando mi propia página web personal y profesional con
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-%20Ready-blueviolet)](https://joseluisgs.github.io/)
 [![Netlify](https://img.shields.io/badge/Netlify-Ready-blue)](https://joseluisgs.netlify.app/)
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/joseluisgs.github.io)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d7762340-8fb6-4969-bcb1-7df846aa8a9c/deploy-status)](https://app.netlify.com/sites/joseluisgs/deploys)
 
 <p align="center">
   <a href="https://joseluisgs.github.io/" target="_blank"><img src="https://i.imgur.com/VeY0WQr.png" 
@@ -56,7 +57,7 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
     height="40">
     </a>  &nbsp;&nbsp;
     <a href="https://joseluisgs.github.io/" target="_blank">
-        <img src="https://www.lazaroamor.es/img/develop.png" 
+        <img src="https://joseluisgs.github.io/favicon.png" 
     height="40">
     </a>
 </p>
