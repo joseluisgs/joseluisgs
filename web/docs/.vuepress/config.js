@@ -25,12 +25,6 @@ module.exports = {
     ['meta', { name: 'application-name', content: 'José Luis González Sánchez. Web Personal' }],
     ['meta', { name: 'keywords', content: 'José Luis González Sánchez, Profesor, Formador, Investigador, Desarrollo de Apliaciones, Web, Multiplataforma, FP, Formación Profesional, Embajador, GIT, GitKraken, vuejs, vue, móvil, docker, mongodb, nodejs, node, kotlin, java, spring, springboot, Luis Vives, Virgen de Gracia, Universidad de Granada, Jugabilidad, Videojuegos' }],
 
-    // FontAwasome
-    // ['script', {
-    //   src: 'https://kit.fontawesome.com/46f8ac5714.js',
-    //   crossorigin:'anonymous'
-    // }],
-
     // Google Search
     ['meta', { name: 'google-site-verification', content: '6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90' }],
 
@@ -47,6 +41,12 @@ module.exports = {
       
           gtag('config', 'G-103H05W8P8');
     `],
+
+    // Iconify
+    ['script', {
+      async: true,
+      src: 'https://code.iconify.design/2/2.0.4/iconify.min.js'
+    }],
   ],
 
   // Tema
