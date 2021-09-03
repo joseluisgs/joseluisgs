@@ -132,6 +132,8 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   height="45">
   <img src="https://vuepress.vuejs.org/hero.png" 
   height="45">
+  <img src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" 
+  height="45">
 </p>
 
 <p align="center">
