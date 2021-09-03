@@ -25,7 +25,7 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 Ni son todas las que están, ni están todas las que son 🤔
 
 <p style="text-align:center;">
-<img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
+  <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
   height="45">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" 
   height="45">
@@ -39,22 +39,22 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   <img src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" 
   height="45">
-   <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" 
+  <img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" 
   height="45">
   <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" 
   height="45">
   <img src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png" 
   height="45">
+</p>
+
+<p style="text-align:center;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
   height="45">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" 
   height="45">
-  </p>
-
-  <p style="text-align:center;">
-  <img src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
+  <img src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="45">
-   <img src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
+  <img src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
   height="45">
   <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
   height="45">
@@ -68,21 +68,34 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   <img src="https://cdn.worldvectorlogo.com/logos/netlify.svg" 
   height="45">
+</p>
+
+<p style="text-align:center;">
   <img src="https://img.icons8.com/color/452/google-firebase-console.png" 
   height="45">
   <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
   height="45">
   <img src="https://ionicframework.com/img/meta/logo.png" 
   height="45">
-  </p>
-
-  <p style="text-align:center;">
+  <img src="https://v0-17.quasar-framework.org/images/quasar-logo-big.png" 
+  height="45">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/2048px-Electron_Software_Framework_Logo.svg.png" 
+  height="45">
+  <img src="https://d33wubrfki0l68.cloudfront.net/ddd72aa8248a5c2f77429b9496e6e3e4da2a4e26/8afc0/logo.svg" 
+  height="45">
   <img src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
   height="45">
   <img src="https://www.enperezzeledon.com/wp-content/uploads/2019/10/1200px-Kotlin-logo.svg_.png" 
   height="45">
   <img src="https://nuxtjs.org/logos/nuxt.svg" 
   height="45">
+  <img src="https://vuepress.vuejs.org/hero.png" 
+  height="45">
+  <img src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" 
+  height="45">
+</p>
+
+<p style="text-align:center;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/NativeScript_logo.png" 
   height="45">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/800px-PHP-logo.svg.png" 
@@ -97,7 +110,11 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   <img src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" 
   height="45">
-    <img src="https://cdn.worldvectorlogo.com/logos/unity-69.svg" 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1776px-Apache_NetBeans_Logo.svg.png" 
+  height="45">
+  <img src="https://cdn.worldvectorlogo.com/logos/unity-69.svg" 
+  height="45">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DBeaver_logo.svg/1024px-DBeaver_logo.svg.png" 
   height="45">
 </p>
 
