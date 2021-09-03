@@ -60,7 +60,7 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   <img src="https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png" 
   height="45">
-  <img src="https://pics.freeicons.io/uploads/icons/png/3556671901536211770-512.png" 
+  <img src="https://i.imgur.com/4yUfcBm.png" 
   height="45">
   <img src="https://pbs.twimg.com/profile_images/1376544345080401922/-xDfgN_X_400x400.jpg" 
   height="45">
