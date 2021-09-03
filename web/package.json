@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "vuepress dev docs",
+    "serve": "vuepress dev docs",
     "build": "vuepress build docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "postbuild": "vuepress-sitemap -H https://joseluisgs.github.io -d docs/.vuepress/dist",
     "docs:map": "vuepress-sitemap -H https://joseluisgs.github.io -d docs/.vuepress/dist",
+    "map": "vuepress-sitemap -H https://joseluisgs.github.io -d docs/.vuepress/dist",
     "deploy": "sh ./deploy.sh",
     "docs:deploy": "sh ./deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
