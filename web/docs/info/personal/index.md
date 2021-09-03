@@ -63,7 +63,7 @@ Personalmente disfruto con la música, especialmente todo tipo de música rock :
     height="60">
     </a>  &nbsp;&nbsp;
     <a href="https://joseluisgs.github.io/" target="_blank">
-        <img src="https://www.lazaroamor.es/img/develop.png" 
+        <img src="https://joseluisgs.github.io/favicon.png" 
     height="60">
     </a>
 </p>
