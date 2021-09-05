@@ -21,19 +21,17 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 
 <!-- more -->
 ## Actualidad
-Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática. 
+Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. En Informática en Desarrollo de Software. Además como GitHyb Campus Advisor y Embajador de GitKraken imparto cursos, seminarios y tutoriales sobre Git y GitHub.
 
 ### Mi centro
-Mi actual centro donde imparto docencia desde el 2016 es el [Centro Integrado de Formación Profesional Virgen de Gracia](https://cifpvirgendegracia.com), en Puertollano (Ciudad Real). Además soy el jefe de [departamento de Informática y Comunicación](https://informaticacifpvg.netlify.app/) y coordino distintos grupos de trabajo y formación dicho centro.
+Mi actual centro donde imparto docencia desde el 2021 es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid) donde realizo además otras funciones para el centro y el departamento de Informática.
 
-### Docencia
-En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR en su modalidad Dual y E-Learning: 
-- Programación Multimedia y Dispositivos Móviles de 2º curso de [Técnico Superior en Desarrollo de Aplicaciones Multiplataforma](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html).
-- Despliegue de Aplicaciones Web de 2º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html).
-- Lenguajes de marcas y sistemas de gestión de información de 1º de [Técnico Superior en Administración de Sistemas Informáticos en Red](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html).
-- Proyectos de 2º DAM.
-- Formación en Centro de Trabajo de 2º DAM.
-- FP DUAL de 2º DAM.
+### Docencia en Centro
+En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialmente en DAM donde imparto la mayoría de la docencia. 
+- Programación. 1º curso de [Técnico Superior en Desarrollo de Aplicaciones Multiplataforma](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html).
+- Entornos de Desarrollo. 1º curso de [Técnico Superior en Desarrollo de Aplicaciones Multiplataforma](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html).
+- Programación de Servicios y Procesos. 2º curso de [Técnico Superior en Desarrollo de Aplicaciones Multiplataforma](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html).
+- Acceso a Datos. 2º curso de [Técnico Superior en Desarrollo de Aplicaciones Multiplataforma](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html).
 
 Además suelo impartir o impartido en otras ocasiones:
 - Programación de 1º de DAM/DAW.
@@ -41,11 +39,23 @@ Además suelo impartir o impartido en otras ocasiones:
 - Servicios de Red e Internet 2º de ASIR.
 - Implantación de Aplicaciones Web 2º de ASIR.
 
-### Docencia Másteres y Doctorado
+### Docencia en Másteres y Doctorado
 Actualmente colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) englobada en dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).
 
 ## Docencia anterior
 A continuación resumiré docencia/formación realizada en anteriores años:
+
+- [CIFP Virgen de Gracia](https://cifpvirgendegracia.com/), Puertollano (Ciudad Real) Profesor de Secundaria. 2016/2018 y 2019/2021. Siendo jefe de departamento y coordinando distintos proyectos de innovación.
+  - Programación Multimedia y Dispositivos Móviles. 2º DAM.
+  - Despliegue de Aplicaciones Web. 2º DAW
+  - Lenguajes de marcas y sistemas de gestión de información. 1º ASIR.
+  - Programación. 1º DAM.
+  - Entornos de Desarrollo de 1º DAM.
+  - Servicios de Red e Internet 2º SMR.
+  - Implantación de Aplicaciones Web. 2º ASIR.
+  - Proyectos de 2º DAM.
+  - Formación en Centro de Trabajo de 2º DAM.
+  - FP DUAL de 2º DAM.
 
 - [IES Trassierra](https://www.iestrassierra.com/), Córdoba. Profesor de Secundaria. 2018/2019.
   - Programación de Servicios y Procesos. 2º DAM.

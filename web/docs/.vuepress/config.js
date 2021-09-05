@@ -23,7 +23,7 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['meta', { name: 'author', content: 'José Luis González Sánchez' }],
     ['meta', { name: 'application-name', content: 'José Luis González Sánchez. Web Personal' }],
-    ['meta', { name: 'keywords', content: 'José Luis González Sánchez, Profesor, Formador, Investigador, Desarrollo de Apliaciones, Web, Multiplataforma, FP, Formación Profesional, Embajador, GIT, GitKraken, vuejs, vue, móvil, docker, mongodb, nodejs, node, kotlin, java, spring, springboot, Luis Vives, Virgen de Gracia, Universidad de Granada, Jugabilidad, Videojuegos' }],
+    ['meta', { name: 'keywords', content: 'José Luis González Sánchez, Profesor, Formador, Investigador, Desarrollo de Apliaciones, Web, Multiplataforma, FP, Formación Profesional, Embajador, GIT, GitKraken, vuejs, vue, móvil, docker, mongodb, nodejs, node, kotlin, java, spring, springboot, Luis Vives, Leganes, Madrid, Universidad de Granada, Jugabilidad, Videojuegos' }],
 
     // Google Search
     ['meta', { name: 'google-site-verification', content: '6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90' }],
