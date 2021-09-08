@@ -42,19 +42,19 @@ Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.
 </p>
 <p align="center">
     <a href="https://twitter.com/joseluisgonsan" target="_blank">
-        <img src="https://i.imgur.com/U4Uiaef.png" 
+        <img loading="lazy" src="https://i.imgur.com/U4Uiaef.png" 
     height="60">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
-        <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
+        <img loading="lazy" src="https://distreau.com/github.svg" 
     height="60">
     </a> &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
     height="60">
     </a>  &nbsp;&nbsp;
     <a href="https://joseluisgs.github.io/" target="_blank">
-        <img src="https://joseluisgs.github.io/favicon.png" 
+        <img loading="lazy" src="https://joseluisgs.github.io/favicon.png" 
     height="60">
     </a>
 </p>
@@ -163,12 +163,12 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 <h2 align="center">Mi Actividad</h2>
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue">
-    <img src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" alt="joseluisgs" />
+    <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" alt="joseluisgs" />
   </a> 
 </p>
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact" />
+    <img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact" />
   </a> 
 </p>
 
