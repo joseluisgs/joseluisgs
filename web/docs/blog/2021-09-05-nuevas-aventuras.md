@@ -53,8 +53,9 @@ Una cosa tengo clara, confío en mi trabajo y en lo aprendido a lo largo de mi v
 
 De paso, como ya he dicho, espero ademas crecer personalmente juntos aquellos/as que me han apoyado y darme oportunidades a nivel personal y poco a poco hacer mi propio camino y ver donde este me lleva.
 
-::: tip
-  Cada uno de nosotros está en la tierra para descubrir su propio camino, y jamás seremos felices si seguimos el de otro. James van Praagh 
-  
-  <span class="iconify" data-icon="carbon:user-military" style="color: #1fedce;" data-width="48" data-height="48"></span>
-:::
+
+> "Cada uno de nosotros está en la tierra para descubrir su propio camino, y jamás seremos felices si seguimos el de otro". 
+> 
+> James van Praagh 
+>  
+>  <span class="iconify" data-icon="carbon:user-military" style="color: #1fedce;" data-width="48" data-height="48"></span>
