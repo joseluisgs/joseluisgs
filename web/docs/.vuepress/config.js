@@ -223,11 +223,15 @@ module.exports = {
 
     // Plugin SiteMap
     // https://github.com/ekoeryanto/vuepress-plugin-sitemap
-    ['sitemap',
-      {
-        hostname: 'https://joseluisgs.github.io/',
-      }
-    ],
+    // Añade esto al package.json scripts
+    //  "postbuild": "vuepress-sitemap -H https://joseluisgs.github.io -d docs/.vuepress/dist",
+    // "docs:map": "vuepress-sitemap -H https://joseluisgs.github.io -d docs/.vuepress/dist",
+    // "map": "vuepress-sitemap -H https://joseluisgs.github.io -d docs/.vuepress/dist",
+    // ['sitemap',
+    //   {
+    //     hostname: 'https://joseluisgs.github.io/',
+    //   }
+    // ],
 
     // ['@vuepress-reco/vuepress-plugin-screenfull'],
     // ['@vuepress-reco/vuepress-plugin-extract-code'],
