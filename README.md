@@ -128,7 +128,7 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   height="45">
   <img loading="lazy" src="https://www.enperezzeledon.com/wp-content/uploads/2019/10/1200px-Kotlin-logo.svg_.png" 
   height="45">
-  <img loading="lazy" src="https://nuxtjs.org/logos/nuxt.svg" 
+  <img loading="lazy" src="https://nuxtjs.org/design-kit/colored-logo.svg" 
   height="45">
   <img loading="lazy" src="https://vuepress.vuejs.org/hero.png" 
   height="45">
