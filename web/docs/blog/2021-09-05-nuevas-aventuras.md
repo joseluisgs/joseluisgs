@@ -9,7 +9,7 @@ categories:
 tags:
   - Docencia
 publish: true
-image: 'https://www.salud.mapfre.es/media/2017/07/zona-confort-destacado-1100x408.jpg'
+image: 'https://www.irishtimes.com/polopoly_fs/1.2904309.1482173186!/image/image.jpg_gen/derivatives/box_620_330/image.jpg'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 # sticky: 1
