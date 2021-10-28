@@ -161,8 +161,12 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 
 
 <h2 align="center">Mi Actividad</h2>
+<p align="center">
+
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+</p>
+
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue">
     <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" alt="joseluisgs" />
