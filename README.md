@@ -164,10 +164,8 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 <p align="center">
 
 <!--START_SECTION:waka-->
-```text
-No Activity tracked this Week
-```
 <!--END_SECTION:waka-->
+
 </p>
 
 <p align="center">
