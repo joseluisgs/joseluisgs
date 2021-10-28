@@ -32,7 +32,7 @@ Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.
 </p>
 
 
-< style='text-align: justify;'>También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">página web</a> donde poco a poco podrás conocerme un poco más :mag:.
+<p style='text-align: justify;'>También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">página web</a> donde poco a poco podrás conocerme un poco más :mag:.
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
@@ -161,10 +161,12 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 
 
 <h2 align="center">Mi Actividad</h2>
+<p align="center">
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
+</p>
 
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue">
