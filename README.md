@@ -176,9 +176,9 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 </p>
 
 <p align="center">
-  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/fee25fd1-97ab-4d16-ad06-7da9e612adb3.svg" height= 200></img>
-  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/71cb70c1-65f1-444c-ad0c-0a149202edb8.svg"height= 200></img>
-  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/500e3925-7a9a-4b00-afed-a867410bea12.svg" height= 200></img>
+  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/71cb70c1-65f1-444c-ad0c-0a149202edb8.svg"height= 350></img>
+  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/500e3925-7a9a-4b00-afed-a867410bea12.svg" height= 350></img>
+  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/fee25fd1-97ab-4d16-ad06-7da9e612adb3.svg" height= 450></img>
 
 <!--START_SECTION:waka-->
 ```text
