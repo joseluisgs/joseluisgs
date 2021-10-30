@@ -191,6 +191,10 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 <p align="center">
 
 <!--START_SECTION:waka-->
+```text
+TypeScript   5 mins          █████████████▓░░░░░░░░░░░   54.25 % 
+Markdown     4 mins          ███████████▒░░░░░░░░░░░░░   45.75 % 
+```
 <!--END_SECTION:waka-->
 
 </p>
