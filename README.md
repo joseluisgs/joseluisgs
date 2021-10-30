@@ -18,6 +18,29 @@ Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyecto
 
 Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**embajador de GitKraken**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar a cómo usar y aplicar estas herramientas que nos ofrecen super poderes para desarrollar nuestro código usando Git/GitHub y o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
 
+<div style="column-count: 3;">
+    <div style="display: inline-block;">
+        <p>Hola</p>
+    </div>
+    <div style="display: inline-block;">
+        <p>Disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.</p>
+    </div>
+    <div style="display: inline-block;">
+       <p align="center">
+ <a href="https://education.github.com/teachers/advisors" target="_blank"> 
+    <img loading="lazy" style="border-radius: 0.25rem;" 
+      src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Log1" height="150"
+      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
+  </a>
+  <a href="https://gitkraken.link/joseluisgs" target="_blank"> 
+    <img loading="lazy" style="border-radius: 0.25rem;" 
+      src="https://i.imgur.com/sTDaBTu.png" alt="Logo2" height="150"
+      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
+  </a>
+</p>
+    </div>
+</div>
+
 <p align="center">
  <a href="https://education.github.com/teachers/advisors" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
