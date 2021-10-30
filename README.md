@@ -95,6 +95,8 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   height="45">
   <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="45">
+   <img loading="lazy" src="https://windicss.org/assets/logo.svg" 
+  height="45">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
   height="45">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
@@ -119,6 +121,8 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   <img loading="lazy" src="https://ionicframework.com/img/meta/logo.png" 
   height="45">
   <img loading="lazy" src="https://v0-17.quasar-framework.org/images/quasar-logo-big.png" 
+  height="45">
+  <img loading="lazy" src="https://oruga.io/logo.png" 
   height="45">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/2048px-Electron_Software_Framework_Logo.svg.png" 
   height="45">
