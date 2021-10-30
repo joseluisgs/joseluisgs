@@ -18,29 +18,6 @@ Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyecto
 
 Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**embajador de GitKraken**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar a cómo usar y aplicar estas herramientas que nos ofrecen super poderes para desarrollar nuestro código usando Git/GitHub y o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
 
-<div style="column-count: 3;">
-    <div style="display: inline-block;">
-        <p>Hola</p>
-    </div>
-    <div style="display: inline-block;">
-        <p>Disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.</p>
-    </div>
-    <div style="display: inline-block;">
-       <p align="center">
- <a href="https://education.github.com/teachers/advisors" target="_blank"> 
-    <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Log1" height="150"
-      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
-  </a>
-  <a href="https://gitkraken.link/joseluisgs" target="_blank"> 
-    <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.imgur.com/sTDaBTu.png" alt="Logo2" height="150"
-      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
-  </a>
-</p>
-    </div>
-</div>
-
 <p align="center">
  <a href="https://education.github.com/teachers/advisors" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
@@ -188,7 +165,20 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 
 
 <h2 align="center">Mi Actividad</h2>
+
 <p align="center">
+  <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue">
+    <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" height="150" alt="joseluisgs"/>
+  </a> 
+   <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact">
+    <img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact" height="150"/>
+  </a> 
+</p>
+
+<p align="center">
+  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/fee25fd1-97ab-4d16-ad06-7da9e612adb3.svg" height= 300></img>
+  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/71cb70c1-65f1-444c-ad0c-0a149202edb8.svg"height= 300></img>
+  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/500e3925-7a9a-4b00-afed-a867410bea12.svg" height= 300></img>
 
 <!--START_SECTION:waka-->
 ```text
@@ -200,18 +190,7 @@ Markdown     4 mins          ███████████▒░░░░░
 </p>
 
 <p align="center">
-  <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue">
-    <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" alt="joseluisgs" />
-  </a> 
-</p>
-<p align="center">
-  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact">
-    <img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact" />
-  </a> 
-</p>
-
-<p align="center">
- <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" /></a>
+ <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" height= 175/></a>
 </p>
 
 <p align="center"> 
