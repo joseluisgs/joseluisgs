@@ -10,10 +10,9 @@
   <img src="https://komarev.com/ghpvc/?username=joseluisgs&label=Profile%20views&color=42b983&style=flat" alt="joseluisgs" />
 </p>
 
-
 <h1 align="center">👋 Hola, soy José Luis 💻 </h1>
 
-Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Secundaria**](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**embajador de GitKraken**](https://www.gitkraken.com/invite/wdJ7HntT). 
+Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Secundaria**](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**embajador de GitKraken**](https://www.gitkraken.com/invite/wdJ7HntT).
 
 <img align="right" src="./images/octogato.png" width=200 />
 
@@ -40,7 +39,6 @@ Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.
   </a>
 </p>
 
-
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
 <h2 align="center">Contacto</h2>
@@ -48,22 +46,22 @@ Me siento orgulloso de ser [**GitHub Campus Advisor**](https://education.github.
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
 <p align="center">
-    <a href="https://twitter.com/joseluisgonsan" target="_blank">
-        <img loading="lazy" src="https://i.imgur.com/U4Uiaef.png" 
+    <a href="https://joseluisgs.github.io/" target="_blank">
+        <img loading="lazy" src="https://joseluisgs.github.io/favicon.png" 
     height="60">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
         <img loading="lazy" src="https://distreau.com/github.svg" 
     height="60">
     </a> &nbsp;&nbsp;
+    <a href="https://twitter.com/joseluisgonsan" target="_blank">
+        <img loading="lazy" src="https://i.imgur.com/U4Uiaef.png" 
+    height="60">
+    </a> &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
         <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
     height="60">
-    </a>  &nbsp;&nbsp;
-    <a href="https://joseluisgs.github.io/" target="_blank">
-        <img loading="lazy" src="https://joseluisgs.github.io/favicon.png" 
-    height="60">
-    </a>
+    </a>  
 </p>
 
 <h2 align="center">Tecnologías favoritas</h2>
@@ -170,7 +168,6 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   height="45">
 </p>
 
-
 <h2 align="center">Mi Actividad</h2>
 
 <p align="center">
@@ -187,12 +184,14 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
   <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/500e3925-7a9a-4b00-afed-a867410bea12.svg" height= 300></img>
 
 <!--START_SECTION:waka-->
+
 ```text
-Java         47 mins         ███████████████████▓░░░░░   79.06 % 
-TypeScript   5 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.81 % 
-Markdown     5 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.20 % 
-Properties   1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
+Java         47 mins         ███████████████████▓░░░░░   79.06 %
+TypeScript   5 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.81 %
+Markdown     5 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.20 %
+Properties   1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.69 %
 ```
+
 <!--END_SECTION:waka-->
 
 </p>
@@ -200,7 +199,6 @@ Properties   1 min           ▒░░░░░░░░░░░░░░░░
 <p align="center">
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" height= 175/></a>
 </p>
-
 
 <!--
 ![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue)
