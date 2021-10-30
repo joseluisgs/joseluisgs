@@ -168,10 +168,10 @@ Estas son algunas de las tecnologías 💻 que más suelo usar/trabajar o colabo
 
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue">
-    <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" height="150" alt="joseluisgs"/>
+    <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" height="175" alt="joseluisgs"/>
   </a> 
    <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact">
-    <img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact" height="150"/>
+    <img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact" height="175"/>
   </a> 
 </p>
 
