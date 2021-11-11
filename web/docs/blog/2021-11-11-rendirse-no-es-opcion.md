@@ -54,6 +54,8 @@ Quizás esa educación de jugar al tenis, de fallar y olvidarse, de ir a por el 
 ## La solución parte de ti
 Una buena actitud proactiva te va a ayudar mucho. No te lances mensajes negativos, pero tampoco vayas con un exceso de confianza. La peor de las batallas son las que no nos atrevemos a luchar y las que nos rendimos antes de hacerlo. Para recoger la cosecha antes hay que sembrar y te vas a ensuciar las manos. Esto es un viaje. Si aprendes estos hábitos, poco a poco lo conseguirás. Es verdad que no todo el mundo madura y crece como programador al mismo ritmo. Pero no te voy a engañar. Hay cosas que no conseguirás y deberás aceptar dicha derrota para poder seguir avanzando. Uno no se ahoga por caer en el mar, si no por quedarte sumergido en él. 
 
+Tampoco busques excusas, ni eches balones fuera. Nunca has tenido tantos medios para aprender. El profesor no es tu enemigo. Piensa también en lo que aportas tú en este proceso de formación en el que te encuentras.
+
 
 No será la primera vez que Son Goku debe entrenar para salvar el universo y la tierra. No era el más talentoso, ni el más listo, pero se dejaba la piel y aceptaba el reto.
 
