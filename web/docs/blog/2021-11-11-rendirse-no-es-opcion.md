@@ -37,7 +37,7 @@ Cuando desarrollamos, debemos aprender a lidiar con la frustración y con aquell
 Por otro lado, siempre habrá el alumno/a que antes nuevos contenidos, técnicas o herramientas se vea reacio/a aplicarlos. Total, si ya sabe resolverlos para que complicarse. Bueno, pues porque hay que avanzar, aceptar el reto, y cuantas más herramientas técnicas resolvamos mejor podremos afrontar nuevos problemas. No todo se resuelve con un martillo o destornillador, a veces necesitaremos un bisturí. El problema, es que no gestionan bien la salida de su zona de confort. Pero retarnos, seguir avanzando y auto-aprender, es una obligación.
 
 ## Fallar está permitido
-Al día de hoy, nunca le he dicho a mi alumnado que no se puede fallar. Y tampoco conozco a nadie que nunca ha fallado. De hecho yo mismo he aprendido mucho más solucionando un error o bug de dos horas que si me hubiese salido todo a la primera. Gracias a ese bug he investigado varias soluciones alternativas o he comprendido cómo funciona una librería determinada. Me ha hecho crecer. Seguiré fallando, lo sé, me lo permito. Fallaré nuevamente y fallaré mejor. Leeré el error que me lance el IDE y aceptaré dicho reto. Como pone el tatuaje de unos de mis tenistas favoritos Stan Wawrinka:
+Al día de hoy, nunca le he dicho a mi alumnado que no se puede fallar. Y tampoco conozco a nadie que nunca ha fallado. De hecho yo mismo he aprendido mucho más solucionando un error o bug de dos horas que si me hubiese salido todo a la primera. Gracias a ese bug he investigado varias soluciones alternativas o he comprendido cómo funciona una librería determinada. Me ha hecho crecer. Seguiré fallando, lo sé, me lo permito. Fallaré nuevamente y fallaré mejor. Seré constante. Leeré el error que me lance el IDE y aceptaré dicho reto. Como pone el tatuaje de unos de mis tenistas favoritos Stan Wawrinka:
 
 > "Always tried, always failed, no matter, try again, fail again, fail better". 
 > 
@@ -74,5 +74,7 @@ Gestiona la frustración, permitete fallar, comprende que hay que seguir avanzan
 
 Para terminar te dejo un ejemplo de superación de adversiodades. Como me gusta mucho la guitarra y le rock, Tommy Iommi es ejemplo de no darse por vencido y buscar soluciones para llegar a tu meta, y de paso convertirse un pionero. Tr invito a que conozcas su historia.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aLREOFqlBrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align:center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aLREOFqlBrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
