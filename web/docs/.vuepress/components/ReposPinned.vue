@@ -1,6 +1,6 @@
 <template>
   <div class="github-row">
-    <div v-for="repo in repositorios" class="github-pinner ">
+    <div v-for="repo in repositorios" class="github-pinner" :key=repo.link>
       <div id="gp-container-repo">
         <i class="iconfont reco-github gp-icon"></i><a class="gp-title" :href="'https://github.com/joseluisgs/'+ repo.repo" target="_blank">{{repo.repo}}</a>
         <p class="gp-desc">{{repo.description}}</p>
@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   name: 'ReposPinned',
   data: () => ({
@@ -35,9 +36,27 @@ export default {
   // Mounted por SSR
   async mounted() {
     // https://gh-pinned-repos.now.sh/
-    const response = await fetch("https://gh-pinned-repos.now.sh/?username=joseluisgs");
-    const data = await response.json();
-    this.repositorios = data;
+    
+    const url = 'https://gh-pinned-repos.now.sh/?username=joseluisgs';
+    const config =  {
+      method: 'GET',
+      mode: 'no-cors',
+    };
+    try {
+      const response = await axios.get(url, config);
+      console.log(response.data);
+    } catch (error) {
+      console.error(error);
+    }
+	  
+
+	  // const myRequest = new Request(url, config);
+	  // const response = await fetch(myRequest);
+    // const data = await response.json();
+    // console.log(data);
+    
+    //this.repositorios = data;
+    //console.log(repositorios);
   },
 }
 </script>

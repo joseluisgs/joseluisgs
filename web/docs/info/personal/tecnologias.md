@@ -54,6 +54,8 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="45">
+   <img loading="lazy" src="https://windicss.org/assets/logo.svg" 
+  height="45">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
   height="45">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
@@ -79,13 +81,15 @@ Ni son todas las que están, ni están todas las que son 🤔
   height="45">
   <img loading="lazy" src="https://v0-17.quasar-framework.org/images/quasar-logo-big.png" 
   height="45">
+  <img loading="lazy" src="https://oruga.io/logo.png" 
+  height="45">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/2048px-Electron_Software_Framework_Logo.svg.png" 
   height="45">
   <img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/ddd72aa8248a5c2f77429b9496e6e3e4da2a4e26/8afc0/logo.svg" 
   height="45">
   <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
   height="45">
-  <img loading="lazy" src="https://www.enperezzeledon.com/wp-content/uploads/2019/10/1200px-Kotlin-logo.svg_.png" 
+  <img loading="lazy" src="https://www.jetbrains.com/academy/img/icon-kotlin-new.svg" 
   height="45">
   <img loading="lazy" src="https://nuxtjs.org/design-kit/colored-logo.svg" 
   height="45">

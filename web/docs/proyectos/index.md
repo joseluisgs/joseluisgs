@@ -23,6 +23,8 @@ Actualmente todos los [proyectos](../../categories/Proyectos/) que voy realizand
 ## Tecnologías
 Generalmente las tecnologías que uso son las aplicadas al ámbito docente y otras tantas que uso a nivel personal y profesional. Si quieres ver con qué tecnologías suelo trabajar/usar, echa un ojo [aquí](../info/personal/tecnologias/).
 
+
+
 ## Destacados
 A continuación muestro proyectos destacados en estos momentos ya sea porque se están usando a nivel docente, o porque trabajo actualmente en ellos.
 
@@ -31,3 +33,20 @@ A continuación muestro proyectos destacados en estos momentos ya sea porque se 
 :::
 
 <ReposPinned/>
+
+
+## Resumen de actividad
+
+<p align="center">
+  <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue">
+    <img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue" height="175" alt="joseluisgs"/>
+  </a> 
+   <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact">
+    <img loading="lazy" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact" height="175"/>
+  </a> 
+</p>
+
+<p align="center">
+  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/71cb70c1-65f1-444c-ad0c-0a149202edb8.svg"height= 300></img>
+  <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/500e3925-7a9a-4b00-afed-a867410bea12.svg" height= 300></img>
+</p>
