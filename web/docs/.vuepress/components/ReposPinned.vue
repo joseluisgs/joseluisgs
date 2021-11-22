@@ -35,29 +35,16 @@ export default {
   // Utilizo la api fecth que es nativa y me ahorro instalar axios, pues solo es un GET
   // Mounted por SSR
   async mounted() {
-    // https://gh-pinned-repos.now.sh/
+    // gh-pinned-repos.egoist.sh/
     
-    const url = 'https://gh-pinned-repos.now.sh/?username=joseluisgs';
-    const config =  {
-      method: 'GET',
-      mode: 'no-cors',
-    };
+    const url = 'https://gh-pinned-repos.egoist.sh/?username=joseluisgs';
     try {
-      const response = await axios.get(url, config);
-      console.log(response.data);
+      const response = await axios.get(url);
+      this.repositorios = response.data;
     } catch (error) {
       console.error(error);
     }
-	  
-
-	  // const myRequest = new Request(url, config);
-	  // const response = await fetch(myRequest);
-    // const data = await response.json();
-    // console.log(data);
-    
-    //this.repositorios = data;
-    //console.log(repositorios);
-  },
+  }
 }
 </script>
 
