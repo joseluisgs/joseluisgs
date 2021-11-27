@@ -24,7 +24,7 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. En Informática en Desarrollo de Software. Además como GitHyb Campus Advisor y Embajador de GitKraken imparto cursos, seminarios y tutoriales sobre Git y GitHub.
 
 ### Mi centro
-Mi actual centro donde imparto docencia desde el 2021 es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid) donde realizo además otras funciones para el centro y el departamento de Informática.
+Mi actual centro donde imparto docencia desde el curso 2021/2022 es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid) donde realizo además otras funciones para el centro y el departamento de Informática.
 
 ### Docencia en Centro
 En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialmente en DAM donde imparto la mayoría de la docencia. 
@@ -36,6 +36,8 @@ En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialme
 Además suelo impartir o impartido en otras ocasiones:
 - Programación de 1º de DAM/DAW.
 - Entornos de Desarrollo de 1º de DAM/DAW.
+- Programación Multimedia y Dispositivos Móviles de 2º de DAM.
+- Despliegue de Aplicaciones Web de 2º de DAW.
 - Servicios de Red e Internet 2º de ASIR.
 - Implantación de Aplicaciones Web 2º de ASIR.
 
