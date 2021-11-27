@@ -13,7 +13,7 @@ tags:
  - Kotlin
  - Android
 publish: true
-image: 'https://geographica.com/wp-content/uploads/2019/03/kotlin_Mesa-de-trabajo-1.png'
+image: 'https://content.techgig.com/photo/82324241/5-reasons-why-you-should-learn-kotlin-in-2021.jpg'
 # sticky: 1
 ---
 Hace ya unos días que recibí un pequeño pero valioso detalle por parte de Jetbrains y el equipo de Kotlin por mi labor docente este año aplicando sus tecnologías en el desarrollo móvil. En esta entrada te comento detalles al respecto 🙂.
