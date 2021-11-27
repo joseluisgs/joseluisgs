@@ -32,7 +32,6 @@ export default {
     repositorios: null,
   }),
 
-  // Utilizo la api fecth que es nativa y me ahorro instalar axios, pues solo es un GET
   // Mounted por SSR
   async mounted() {
     // gh-pinned-repos.egoist.sh/
