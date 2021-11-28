@@ -1,6 +1,6 @@
 ---
 title: Kotlin siempre en mi equipo
-description: 'Una de mis lenguajes multiusos preferidos'
+description: 'Uno de mis lenguajes multiusos preferidos'
 date: '2021-11-28'
 # sidebar: 'auto'
 subSidebar: true
