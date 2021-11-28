@@ -23,6 +23,8 @@ Actualmente todos los [proyectos](../../categories/Proyectos/) que voy realizand
 ## Tecnologías
 Generalmente las tecnologías que uso son las aplicadas al ámbito docente y otras tantas que uso a nivel personal y profesional. Si quieres ver con qué tecnologías suelo trabajar/usar, echa un ojo [aquí](../info/personal/tecnologias/).
 
+## Proyectos en la web
+Algunos proyectos que hago los muestro en esta web, en la que puedes ver una descripción de cada uno de ellos y una explicación de cómo lo hice y por qué lo hice. Puedes consultar la categoría [Proyectos](../../categories/Proyectos/) para ver todos los proyectos que he realizado.
 
 
 ## Destacados
