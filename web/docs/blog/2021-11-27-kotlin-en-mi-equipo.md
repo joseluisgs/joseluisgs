@@ -278,7 +278,7 @@ Si tu problema es el escepticismo del rendimiento sobre JVM, también puedes [de
 
 Kotlin puede ser una gran alternativa para la [ciencia de los datos](https://kotlinlang.org/docs/data-science-overview.html). Puedes usar sus librerías e integración por ejemplo con terceros.
 
-### DSL Y Kotlin
+### DSL y Kotlin
 
 Kotlin puede ser usado como [lenguaje de dominio específico](https://www.jetbrains.com/es-es/mps/concepts/domain-specific-languages/) para [resolver determinadas tareas](https://proandroiddev.com/writing-dsls-in-kotlin-part-1-7f5d2193f277) de una[ manera rápida y muy legible](https://medium.com/kotlin-en-android/kotlin-dsl-introduccion-f112557f5662).
 
@@ -326,7 +326,7 @@ Quizás te guste Node.js y su consola. Si ejecutamos el compilador sin parámetr
 
 Además, podemos usar Kotlin como lenguaje de scripting, con ficheros .kts. Un ejemplo:
 
-Ejemplo de escript llamado
+Ejemplo de script llamado
 
 ```kotlin
 import java.io.File
