@@ -10,7 +10,7 @@
   <img src="https://komarev.com/ghpvc/?username=joseluisgs&label=Profile%20views&color=42b983&style=flat" alt="joseluisgs" />
 </p>
 
-<h1 align="center">👋 Hola, soy José Luis 💻 </h1>
+<h1 align="center">👋 Hola, soy José Luis González 💻 </h1>
 
 Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Secundaria**](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**embajador de GitKraken**](https://www.gitkraken.com/invite/wdJ7HntT).
 
