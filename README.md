@@ -154,9 +154,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="45">
 </p>
 
-<p align="center">
- 
-</p>
 
 <h2 align="center">📈 Mi Actividad</h2>
 
