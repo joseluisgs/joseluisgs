@@ -140,11 +140,11 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="45">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
   height="45">
-  <img loading="lazy" src="https://v0-17.quasar-framework.org/images/quasar-logo-big.png" 
+  <img loading="lazy" src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" 
   height="45">
-  <img loading="lazy" src="https://oruga.io/logo.png" 
+  <img loading="lazy" src="https://vitest.dev/logo-shadow.svg" 
   height="45">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/2048px-Electron_Software_Framework_Logo.svg.png" 
+  <img loading="lazy" src="https://iconape.com/wp-content/files/gj/370774/svg/370774.svg" 
   height="45">
   <img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/ddd72aa8248a5c2f77429b9496e6e3e4da2a4e26/8afc0/logo.svg" 
   height="45">
