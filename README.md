@@ -130,7 +130,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 </p>
 
 <p align="center">
-  <img loading="lazy" src="https://iconape.com/wp-content/png_logo_vector/cib-jetbrains.png" 
+  <img loading="lazy" src="https://developer.android.com/events/dev-challenge/images/dev-challenge_jetpack-compose-asset.svg" 
   height="45">
   <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
   height="45">
