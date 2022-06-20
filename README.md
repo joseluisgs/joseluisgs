@@ -46,7 +46,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
-<h2 align="center">Contacto</h2>
+<h2 align="center">📫 Contacto</h2>
 <p align="center">
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
@@ -73,7 +73,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
     </a>    
 </p>
 
-<h2 align="center">Tecnologías favoritas</h2>
+<h2 align="center">⚡ Tecnologías favoritas</h2>
 <p align="center">
 Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o colaboran conmigo a nivel personal/ profesional y forman parte de mi stack personal.
   <br>Ni son todas las que están, ni están todas las que son 🤔
@@ -117,7 +117,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="45">
   <img loading="lazy" src="https://miro.medium.com/max/300/1*J9d-VtiLfN9APIQgWTP9ow.png" 
   height="45">
-  <img loading="lazy" src="https://plugins.jetbrains.com/files/16008/124940/icon/pluginIcon.png" 
+  <img loading="lazy" src="https://avatars.githubusercontent.com/u/28214161?s=200&v=4" 
   height="45">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
   height="45">
@@ -156,7 +156,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
  
 </p>
 
-<h2 align="center">Mi Actividad</h2>
+<h2 align="center">📈 Mi Actividad</h2>
 
 <p align="center">
   <a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true" alt="joseluisgs's GitHub stats" height="150"/></a>
