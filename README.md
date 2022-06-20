@@ -12,7 +12,7 @@
   <img src ="https://img.shields.io/github/followers/joseluisgs?style=social" />
 </p>
 
-# <img src="./images/octogato.png" width=10% align=right /> 👋 Hola, soy José Luis González 💻 
+# <img src="./images/octogato.png" width=15% align=right /> 👋 Hola, soy José Luis González 💻 
 
 Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Secundaria**](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT) 👨‍💻.
 
