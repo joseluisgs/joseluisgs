@@ -40,6 +40,9 @@ module.exports = {
 
   "themeConfig": {
 
+    // iconos: https://vuepress-theme-reco.recoluan.com/en/views/1.x/configJs.html#icon
+
+
     // Navegación
     "nav": [
       { text: 'Home', link: '/', icon: 'reco-home' },
@@ -47,13 +50,13 @@ module.exports = {
       {
         text: 'Info', icon: 'reco-account',
         items: [
-          { text: 'Personal', link: '/info/personal/', icon: 'reco-theme' },
-          { text: 'Investigación', link: '/info/investigacion/', icon: 'reco-blog' }
+          { text: 'Personal', link: '/docs/info/personal/', icon: 'reco-theme' },
+          { text: 'Investigación', link: '/docs/info/investigacion/', icon: 'reco-blog' }
         ],
       },
 
-      { text: 'Docencia', link: '/docencia/', icon: 'reco-suggestion' }, // reco-blog reco-other 
-      { text: 'Proyectos', link: '/proyectos/', icon: 'reco-api' },
+      { text: 'Docencia', link: '/docs/docencia/', icon: 'reco-suggestion' }, // reco-blog reco-other 
+      { text: 'Proyectos', link: '/docs/proyectos/', icon: 'reco-api' },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
 
       {
@@ -63,6 +66,7 @@ module.exports = {
           { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'reco-github' },
           { text: 'Twitter', link: 'https://twitter.com/joseluisgonsan', icon: 'reco-twitter' },
           { text: 'LinkedIn', link: 'https://www.linkedin.com/in/joseluisgonsan', icon: 'reco-linkedin' },
+          { text: 'Discord', link: 'https://discordapp.com/users/joseluisgs#3560', icon: 'reco-wechat' },
         ],
       },
     ],
@@ -97,7 +101,7 @@ module.exports = {
         { icon: 'reco-github', link: 'https://github.com/joseluisgs' },
         { icon: 'reco-twitter', link: 'https://twitter.com/joseluisgonsan' },
         { icon: 'reco-linkedin', link: 'https://www.linkedin.com/in/joseluisgonsan' },
-        // { icon: 'reco-juejin', link: 'https://hub.docker.com/u/joseluisgs' },
+        { icon: 'reco-wechat', link: 'https://discordapp.com/users/joseluisgs#3560' },
       ]
     },
 
@@ -126,13 +130,14 @@ module.exports = {
     "logo": "/img/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
+    "noFoundPageByTencent": false,
     "lastUpdated": "Last Updated",
     "subSidebar": 'auto',
-    "author": "JoseLuisGS",
+    "author": "Jose Luis González",
     "authorAvatar": "/img/avatar.jpeg",
     "record": "v1.5",
     "startYear": "2021",
-    "jobs": 'Profesor | Formador | Investigador',
+    "jobs": 'Profesor | Formador | Investigador | Desarrollador'
   },
   "markdown": {
     "lineNumbers": true
