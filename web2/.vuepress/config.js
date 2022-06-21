@@ -8,7 +8,7 @@ module.exports = {
   "description": 'Web personal de José Luis González Sánchez',
   "dest": "public",
   // Head y metadatos
-  head: [
+  "head": [
     ['link', { rel: 'icon', href: '/img/favicon.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['meta', { name: 'author', content: 'José Luis González Sánchez' }],
@@ -184,5 +184,16 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+
+  // Plugins
+  "plugins": [
+    // Plugin SEO
+    // https://github.com/limdongjin/vuepress-plugin-simple-seo
+    ['@limdongjin/vuepress-plugin-simple-seo', {
+      default_image: '/favicon.png',
+      root_url: 'https://joseluisgs.github.io/',
+      default_site_name: 'José Luis González',
+    }],
+  ]
 }

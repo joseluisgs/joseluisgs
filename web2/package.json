@@ -8,6 +8,7 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
+    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.10"
   },
