@@ -66,7 +66,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
         <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
     height="60">
-    </a>
+    </a> &nbsp;&nbsp;
     <a href="https://discordapp.com/users/joseluisgs#3560" target="_blank">
         <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png" 
     height="60">
