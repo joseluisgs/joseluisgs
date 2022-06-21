@@ -30,3 +30,4 @@ Mi formación principal a nivel académico es:
 Intento seguir aprendiendo todos los días y son muchos los cursos que hago oficial y extraoficialmente. Como es complicado resumirlos todos os dejo los que más sigo en este último año y de paso os lo recomiendo:
 - [LinkedIn](https://www.linkedin.com/in/joseluisgonsan/details/certifications/). Formación adicional expuesta LinkedIn y certificaciones.
 - [Openwebinars]((https://openwebinars.net/@gvq25aDx/). Puedes consultar mi perfil de cursos y carreras realizadas.
+- Otra formación contínua abarca el desarrollo de software, dispositivos móviles, cibersegurdad, etc.
