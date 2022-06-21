@@ -21,7 +21,7 @@ Son muchas las tecnologías que uso o he usado y complicado indicar todas. Pero 
 <!-- more -->
 
 Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o colaboran conmigo a nivel personal/profesional y a las cuales les agradezco su confianza y apoyo.
-<br>Nota: Ni son todas las que están, ni están todas las que son 🤔
+<br>👉 Ni son todas las que están, ni están todas las que son 🤔
 
 <p align="center">
   <img loading="lazy" src="https://www.jetbrains.com/academy/img/icon-kotlin-new.svg" 

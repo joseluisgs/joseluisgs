@@ -76,7 +76,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 <h2 align="center">⚡ Tecnologías favoritas</h2>
 <p align="center">
 Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o colaboran conmigo a nivel personal/profesional y a las cuales les agradezco su confianza y apoyo.
-<br>Nota: Ni son todas las que están, ni están todas las que son 🤔
+<br>👉 Ni son todas las que están, ni están todas las que son 🤔
 </p>
 
 <p align="center">
