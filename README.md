@@ -7,9 +7,9 @@
 </p>
 
 <p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=joseluisgs&label=Profile%20views&color=42b983&style=flat" alt="joseluisgs" />
-  <img src="https://img.shields.io/twitter/follow/joseluisgonsan?style=social"/>
-  <img src ="https://img.shields.io/github/followers/joseluisgs?style=social" />
+  <img src="https://komarev.com/ghpvc/?username=joseluisgs&label=Profile%20views&color=42b983&style=flat" alt="joseluisgs-github" />
+  <img src="https://img.shields.io/github/followers/joseluisgs?style=social" alt="joseluisgs-github" />
+  <img src="https://img.shields.io/twitter/follow/joseluisgonsan?style=social" alt="joseluisgs-twitter" />
 </p>
 
 # <img src="./images/octogato.png" width=15% align=right /> 👋 Hola, soy José Luis González 💻 
