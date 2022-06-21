@@ -18,7 +18,7 @@ Soy [**Dr. en Informática especializado en desarrollo de software y sistemas in
 
 Estoy interesado en aplicaciones multiplataforma, web y móviles desde el servidor ⚙️ hasta el cliente 📱. Imparto docencia en distintos programas de máster, doctorado y cursos de especialización/formación ya sea de diseño, desarrollo y evaluación de productos software. Me encanta el ecosistema de Kotlin y Vue.js 💓.
 
-Disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
+A parte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
 Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar 💪.
 
@@ -29,7 +29,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 <p align="center">
   <a href="https://www.jetbrains.com/es-es/company/partners/kotlin/" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="./images/kotlin.png" alt="Log1" height="100"
+      src="https://i.imgur.com/7QKlCED.png" alt="Log1" height="100"
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
   </a>
  <a href="https://education.github.com/teachers/advisors" target="_blank"> 
@@ -75,8 +75,8 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 
 <h2 align="center">⚡ Tecnologías favoritas</h2>
 <p align="center">
-Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o colaboran conmigo a nivel personal/profesional.
-  <br>Ni son todas las que están, ni están todas las que son 🤔
+Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o colaboran conmigo a nivel personal/profesional y a las cuales les agradezco su confianza y apoyo.
+<br>Nota: Ni son todas las que están, ni están todas las que son 🤔
 </p>
 
 <p align="center">
