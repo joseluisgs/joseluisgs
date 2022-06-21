@@ -128,6 +128,46 @@ module.exports = {
         email: 'informatica@cifpvirgendegracia.com',
         link: 'https://informaticacifpvg.netlify.app/'
       },
+      {
+        title: 'Kotlin',
+        desc: 'Página web de Kotlin by Jetbrains ',
+        link: 'https://kotlinlang.org/'
+      },
+      {
+        title: 'GitHub',
+        desc: 'Página web de GitHub',
+        link: 'https://github.com'
+      },
+      {
+        title: 'GitKraken',
+        desc: 'El mejor cliente para Git y GitHub',
+        link: 'https://www.gitkraken.com/'
+      },
+      {
+        title: 'Tabnine',
+        desc: 'Mejora la productividad en tu código.',
+        link: 'https://www.tabnine.com/'
+      },
+      {
+        title: 'DevExperto',
+        desc: 'El mejor lugar para aprender.',
+        link: 'https://devexperto.com/'
+      },
+      {
+        title: 'DevExperto',
+        desc: 'El mejor lugar para aprender Android.',
+        link: 'https://devexperto.com/'
+      },
+      {
+        title: 'KotlinExpert',
+        desc: 'El mejor lugar para aprender Kotlin.',
+        link: 'https://kotlinexpert.com/'
+      },
+      {
+        title: 'Escuela Vue',
+        desc: 'El mejor lugar para aprender Vue.js.',
+        link: 'https://escuelavue.es/'
+      },
     ],
 
     "logo": "/img/logo.png",
