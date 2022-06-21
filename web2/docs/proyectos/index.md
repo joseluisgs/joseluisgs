@@ -52,7 +52,3 @@ A continuación muestro proyectos destacados en estos momentos ya sea porque se 
   <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/71cb70c1-65f1-444c-ad0c-0a149202edb8.svg"height= 300></img>
   <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/500e3925-7a9a-4b00-afed-a867410bea12.svg" height= 300></img>
  </p>
-
-  <p align="center">
-   <img src="https://github.com/joseluisgs/joseluisgs/blob/output/github-contribution-grid-snake.svg" alt="snake">
-</p>

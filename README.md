@@ -182,6 +182,12 @@ Markdown         24 mins         █▒░░░░░░░░░░░░░�
 </p>
 
 <p align="center">
+<!--SNAKE-->
+   <img src="https://github.com/joseluisgs/joseluisgs/blob/output/github-contribution-grid-snake.svg" alt="snake">
+</p>
+
+
+<p align="center">
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" height= 175/></a>
 </p>
 
