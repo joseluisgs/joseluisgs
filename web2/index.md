@@ -2,26 +2,33 @@
 home: true
 heroText: José Luis González
 tagline: Enseñando el arte del desarrollo de software día a día
-# heroImage: /hero.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
-bgImageStyle: {
-  height: '450px'
+
+# Banner
+heroImage: /img/hero.png
+heroImageStyle: {
+  maxWidth: '75%',
+  width: '100%',
+  display: block,
+  margin: '2rem auto 2rem',
+  borderRadius: '1rem',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.5)'
 }
+
+# Fondo
+bgImage: '/img/bg.svg'
+bgImageStyle: {
+  # padding: '2rem auto 2rem',
+  # height: '100%'
+}
+
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
 features:
-- title: Yesterday
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
-- title: Today
-  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
-- title: Tomorrow
-  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
+- title: Profesor
+  details: Profesor de Especialidad de Secundaria en Informática. Imparto docencia en los ciclos DAM/DAW y ASIR, en asignaturas de programación y desarrollo.
+- title: Investigador
+  details: Soy Dr. en Informática en la especializado de desarrollo de software y sistemas interactivos por la Universidad de Granada.
+- title: Formador
+  details: Colaboro en distintos cursos, másteres, doctorados y programas especializados sobre desarrollo de software y sistemas interactivos.
 ---

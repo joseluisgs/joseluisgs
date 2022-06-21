@@ -1,3 +1,7 @@
+// web del tema
+// https://vuepress-theme-reco.recoluan.com/en/
+// iconos: https://vuepress-theme-reco.recoluan.com/en/views/1.x/configJs.html#icon
+
 module.exports = {
   // Datos del sitio web
   "title": 'José Luis González',
@@ -40,7 +44,6 @@ module.exports = {
 
   "themeConfig": {
 
-    // iconos: https://vuepress-theme-reco.recoluan.com/en/views/1.x/configJs.html#icon
 
 
     // Navegación
