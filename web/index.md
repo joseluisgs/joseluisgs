@@ -4,7 +4,7 @@ heroText: José Luis González
 tagline: Enseñando el arte del desarrollo de software día a día
 
 # Banner
-heroImage: /img/hero.png
+heroImage: /img/web01.svg
 heroImageStyle: {
   maxWidth: '75%',
   width: '100%',

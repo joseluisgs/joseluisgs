@@ -23,6 +23,7 @@ module.exports = {
       async: true,
       src: 'https://www.googletagmanager.com/gtag/js?id=G-103H05W8P8'
     }],
+
     // Se pone la ` para poder escribir en varias líenas
     ['script', {}, `
           window.dataLayer = window.dataLayer || [];
