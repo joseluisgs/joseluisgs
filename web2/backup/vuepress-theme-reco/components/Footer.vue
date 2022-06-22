@@ -20,11 +20,7 @@
           $themeConfig.author || $site.title
         }}</span>
         &nbsp;&nbsp;
-        <span
-          v-if="
-            $themeConfig.startYear &&
-            $themeConfig.startYear != new Date().getFullYear()
-          "
+        <span v-if="$themeConfig.startYear && $themeConfig.startYear != new Date().getFullYear()"
           >{{ $themeConfig.startYear }} -
         </span>
         {{ new Date().getFullYear() }}
@@ -32,8 +28,15 @@
     </span>
     <span>
       <a target="blank" href="https://github.com/joseluisgs"><reco-icon icon="reco-github" /></a>
-      <a target="blank" href="https://twitter.com/joseluisgonsan"><reco-icon icon="reco-twitter" /></a>
-      <a target="blank" href="https://linkedin.com/in/joseluisgonsan"><reco-icon icon="reco-linkedin" /></a>
+      <a target="blank" href="https://twitter.com/joseluisgonsan"
+        ><reco-icon icon="reco-twitter"
+      /></a>
+      <a target="blank" href="https://linkedin.com/in/joseluisgonsan"
+        ><reco-icon icon="reco-linkedin"
+      /></a>
+      <a target="blank" href="https://discordapp.com/users/joseluisgs#3560"
+        ><reco-icon icon="reco-wechat"
+      /></a>
     </span>
     <span v-if="$frontmatter.home">
       <reco-icon icon="reco-document" />
@@ -44,78 +47,79 @@
       <AccessNumber idVal="/" />
     </span>
     <p class="cyber-security" v-if="$themeConfig.cyberSecurityRecord">
-      <img
-        src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png"
-        alt=""
-      />
-      <a :href="$themeConfig.cyberSecurityLink || '#'">{{
-        $themeConfig.cyberSecurityRecord
-      }}</a>
+      <img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" alt="" />
+      <a :href="$themeConfig.cyberSecurityLink || '#'">{{ $themeConfig.cyberSecurityRecord }}</a>
     </p>
     <Comments :isShowComments="false" />
   </div>
 </template>
 
 <script>
-import { defineComponent, computed } from 'vue-demi'
-import { RecoIcon } from '@vuepress-reco/core/lib/components'
-import { version } from '../package.json'
-import { useInstance } from '@theme/helpers/composable'
+import { defineComponent, computed } from 'vue-demi';
+import { RecoIcon } from '@vuepress-reco/core/lib/components';
+import { version } from '../package.json';
+import { useInstance } from '@theme/helpers/composable';
 
 export default defineComponent({
   components: { RecoIcon },
-  setup (props, ctx) {
-    const instance = useInstance()
+  setup(props, ctx) {
+    const instance = useInstance();
     const showAccessNumber = computed(() => {
       const {
         $themeConfig: { valineConfig },
-        $themeLocaleConfig: { valineConfig: valineLocalConfig }
-      } = instance
+        $themeLocaleConfig: { valineConfig: valineLocalConfig },
+      } = instance;
 
-      const vc = valineLocalConfig || valineConfig
+      const vc = valineLocalConfig || valineConfig;
 
-      return vc && vc.visitor != false
-    })
-    return { version, showAccessNumber }
-  }
-})
+      return vc && vc.visitor != false;
+    });
+    return { version, showAccessNumber };
+  },
+});
 </script>
 
 <style lang="stylus" scoped>
-  .footer-wrapper {
-    padding: 1.5rem 2.5rem;
-    border-top: 1px solid var(--border-color);
-    text-align: center;
-    color: lighten($textColor, 25%);
-    a {
-      font-size 14px
-    }
-    > span {
-      margin-left 1rem
-      > i {
-        margin-right .5rem
-      }
-    }
-    .cyber-security {
-      img {
-        margin-right .5rem
-        width 20px
-        height 20px
-        vertical-align middle
-      }
-      a {
-        vertical-align middle
-      }
+.footer-wrapper {
+  padding: 1.5rem 2.5rem;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: lighten($textColor, 25%);
+
+  a {
+    font-size: 14px;
+  }
+
+  > span {
+    margin-left: 1rem;
+
+    > i {
+      margin-right: 0.5rem;
     }
   }
 
+  .cyber-security {
+    img {
+      margin-right: 0.5rem;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+
+    a {
+      vertical-align: middle;
+    }
+  }
+}
+
 @media (max-width: $MQMobile) {
   .footer {
-    text-align: left!important;
+    text-align: left !important;
+
     > span {
-      display block
-      margin-left 0
-      line-height 2rem
+      display: block;
+      margin-left: 0;
+      line-height: 2rem;
     }
   }
 }
