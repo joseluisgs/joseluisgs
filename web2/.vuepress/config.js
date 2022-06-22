@@ -96,6 +96,8 @@ module.exports = {
 
     // Configuración del blog, si no se pone que es del tipo blog, por defecto es doc
     "type": "blog",
+    // Muestra la barra de navegación al lado de las entradas que las necesiten
+    "subSidebar": 'auto',
     // Blog configuration
     "blogConfig": {
       category: {
@@ -175,13 +177,25 @@ module.exports = {
         link: 'https://escuelavue.es/'
       },
     ],
+    // Sidebars propios ya sean simples o en grupo
+    sidebar: {
+      '/docs/info/personal/': [
+        '',
+        'formacion',
+        'tecnologias',
+      ],
+      '/docs/info/investigacion/': [
+        '',
+        //'formacion',
+        'tesis',
+      ],
+    },
 
     "logo": "/img/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "noFoundPageByTencent": false,
     "lastUpdated": "Actualizado",
-    "subSidebar": 'auto',
     "author": "Jose Luis González",
     "authorAvatar": "/img/avatar.jpeg",
     "record": "v1.5",
