@@ -31,12 +31,12 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
     <img loading="lazy" style="border-radius: 0.25rem;" 
       src="https://i.imgur.com/7QKlCED.png" alt="Log1" height="100"
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
-  </a>
+  </a> &nbsp;
  <a href="https://education.github.com/teachers/advisors" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
       src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Log2" height="100"
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
-  </a>
+  </a> &nbsp;
   <a href="https://gitkraken.link/joseluisgs" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
       src="https://i.imgur.com/sTDaBTu.png" alt="Logo3" height="100"
@@ -52,7 +52,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 </p>
 <p align="center">
     <a href="https://joseluisgs.github.io/" target="_blank">
-        <img loading="lazy" src="https://joseluisgs.github.io/favicon.png" 
+        <img loading="lazy" src="https://joseluisgs.github.io/img/favicon.png" 
     height="60">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
