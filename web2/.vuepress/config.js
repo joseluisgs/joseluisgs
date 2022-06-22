@@ -180,7 +180,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "noFoundPageByTencent": false,
-    "lastUpdated": "Last Updated",
+    "lastUpdated": "Actualizado",
     "subSidebar": 'auto',
     "author": "Jose Luis González",
     "authorAvatar": "/img/avatar.jpeg",
