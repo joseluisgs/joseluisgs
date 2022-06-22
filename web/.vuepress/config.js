@@ -204,6 +204,9 @@ module.exports = {
     "jobs": 'Profesor - Formador - Investigador - Desarrollador',
     "jobsLine1": 'Profesor - Formador',
     "jobsLine2": 'Investigador - Desarrollador',
+    "kotlin": 'Kotlin Trainer certified by Jetbrains',
+    "github": 'Github Campus Advisor',
+    "gitkraken": 'GitKraken Ambassador'
   },
   "markdown": {
     "lineNumbers": true
