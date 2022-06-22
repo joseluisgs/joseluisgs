@@ -214,8 +214,8 @@ module.exports = {
     // Plugin SEO
     // https://github.com/limdongjin/vuepress-plugin-simple-seo
     ['@limdongjin/vuepress-plugin-simple-seo', {
-      default_image: '/favicon.png',
-      root_url: 'https://joseluisgs.github.io/',
+      default_image: 'img/web01.png',
+      root_url: 'https://joseluisgs.github.io',
       default_site_name: 'José Luis González',
     }],
   ]
