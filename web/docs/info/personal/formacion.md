@@ -22,11 +22,12 @@ Intentaré resumir mi formación y estudios realizados 👨‍🎓
 
 ## Formación académica
 Mi formación principal a nivel académico es:
-- Doctorado en Tecnologías de la Información y la Comunicación. [Universidad de Granada](http://doctorados.ugr.es/tic/).
+- Doctorado en Tecnologías de la Información y la Comunicación. Especialidad en Desarrollo de Software. [Universidad de Granada](http://doctorados.ugr.es/tic/).
 - Master en Desarrollo de Software. [Universidad de Granada](https://masteres.ugr.es/master-desarrollo-software/).
 - Ingeniería Informática. [Universidad de Granada](https://etsiit.ugr.es/).
 
 ## Otra formación
 Intento seguir aprendiendo todos los días y son muchos los cursos que hago oficial y extraoficialmente. Como es complicado resumirlos todos os dejo los que más sigo en este último año y de paso os lo recomiendo:
-- [Openwebinars](https://openwebinars.net/). Puedes consultar mi [perfil de cursos y carreras](https://openwebinars.net/@gvq25aDx/).
-- [Escuela Vue](https://escuelavue.es/). El mejor lugar para desarrollarte como programador JS y Vue (ya sabes lo que me gusta 😉).
+- [LinkedIn](https://www.linkedin.com/in/joseluisgonsan/details/certifications/). Formación adicional expuesta LinkedIn y certificaciones.
+- [Openwebinars]((https://openwebinars.net/@gvq25aDx/). Puedes consultar mi perfil de cursos y carreras realizadas.
+- Otra formación contínua abarca el desarrollo de software, dispositivos móviles, cibersegurdad, etc.

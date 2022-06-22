@@ -4,17 +4,17 @@
 set -e
 
 # borramos
-rm -rf docs/.vuepress/dist
+rm -rf public
 
 # build
 npm run build
 
 # copiamos readme y license
-cp README.md docs/.vuepress/dist
-cp LICENSE docs/.vuepress/dist
+cp README.md public
+cp LICENSE public
 
 # cambiamos al directorio
-cd docs/.vuepress/dist
+cd public
 
 # Inicializamos el reposotorio
 git init
@@ -30,4 +30,7 @@ git remote add origin https://github.com/joseluisgs/joseluisgs.github.io.git
 git push -u -f origin main
 # git push -u origin main
 
+# Eliminamos los cambios
+rm -rf .git
 cd -
+rm -rf public

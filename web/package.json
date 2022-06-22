@@ -1,17 +1,16 @@
 {
-  "name": "joseluisgs",
+  "name": "JoseLuisGS",
   "version": "1.0.0",
   "description": "Página web personal de José Luis González Sánchez",
   "main": "index.js",
   "scripts": {
-    "start": "vuepress dev docs",
-    "serve": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "start": "vuepress dev . --open --host \"localhost\"",
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build .",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "sh ./deploy.sh",
-    "docs:deploy": "sh ./deploy.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:deploy": "sh ./deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -28,16 +27,9 @@
   },
   "homepage": "https://github.com/joseluisgs/joseluisgs.github.io#readme",
   "devDependencies": {
-    "@limdongjin/vuepress-plugin-simple-seo": "*",
-    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
-    "esm": "^3.2.25",
-    "vuepress": "^1.8.2",
-    "vuepress-plugin-image": "^1.0.4",
-    "vuepress-plugin-social-share": "^1.0.0"
+    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
   },
-  "dependencies": {
-    "axios": "^0.24.0",
-    "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-theme-reco": "^1.6.1"
-  }
+  "description": "JoseLuisGS Website"
 }

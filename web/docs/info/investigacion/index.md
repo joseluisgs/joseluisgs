@@ -25,7 +25,7 @@ A nivel investigador mi especialidad es el campo [Interacción Persona Ordenador
 
 
 ## Tesis Doctoral
-Uno de los principales logros personales fue mi [tesis doctoral](./tesis/) 👨‍🎓. En ella abordo y formalizo el concepto de Jugabilidad y como caracterizar la experiencia lde jugador en sistemas interactivos de ocio electrónico (videojuegos y derivados). Mi tesis fue dirigida por [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) y presentada y realizada en la [Universidad de Granada](https://digibug.ugr.es/handle/10481/5671) en 2010, calificada con "Sobresaliente Cum laude". Profundizaré en ella en el apartado de [Tesis Doctoral](./tesis/). Es importante remarcar que esta tesis sirvió para formalizar, por primera vez, el concepto de jugabilidad, creando un modelo del mismo con sus atributos y propiedades, así como una serie de facetas para su evaluación y análisis. Además de este trabajo se han derivados otros como el análisis de la colaboración en juegos, mejoras en la gamificación de productos o su impacto para mejorar juegos educativos.
+Uno de los principales logros personales fue mi [tesis doctoral](tesis.md) 👨‍🎓. En ella abordo y formalizo el concepto de Jugabilidad y como caracterizar la experiencia lde jugador en sistemas interactivos de ocio electrónico (videojuegos y derivados). Mi tesis fue dirigida por [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) y presentada y realizada en la [Universidad de Granada](https://digibug.ugr.es/handle/10481/5671) en 2010, calificada con "Sobresaliente Cum laude". Profundizaré en ella en el apartado de [Tesis Doctoral](tesis.md). Es importante remarcar que esta tesis sirvió para formalizar, por primera vez, el concepto de jugabilidad, creando un modelo del mismo con sus atributos y propiedades, así como una serie de facetas para su evaluación y análisis. Además de este trabajo se han derivados otros como el análisis de la colaboración en juegos, mejoras en la gamificación de productos o su impacto para mejorar juegos educativos.
 
 ### Proyecto de máster
 Mi proyecto realizado dentro del [Master en Desarrollo de Software](https://masteres.ugr.es/master-desarrollo-software/) de la Universidad de Granada, fue la creación de una serie de videojuegos educativos para [Nintendo DS](https://es.wikipedia.org/wiki/Nintendo_DS) para niños/as afectados de autismo o parálisis cerebral para mejorar la [lectoescritura](https://es.wikipedia.org/wiki/Lectoescritura_en_educaci%C3%B3n_b%C3%A1sica). Usando las dos pantallas, una de ellas táctil, se consigue la asociación de pictograma con el sonido indicando, de esta manera mientras juega se puede reforzar el concepto comunicativo y realizar distintas frases uniendo pictogramas con los retos del juego.
@@ -41,10 +41,10 @@ Puedes consultar la producción científica: artículos, libros, participación 
 Muchos de los proyectos de investigación donde he colaborado puedes consultarlos [aquí](https://gedes.ugr.es/proyectos/).
 
 ### Docencia
-Se ha impartido docencia específica en distintos programas, puedes consultarlos [aquí](../../docencia/).
+Se ha impartido docencia específica en distintos programas, puedes consultarlos [aquí](./../../docencia/index.md).
 
 ### Organismos
-He pertenecido a los siguientes organismos: 
+He pertenecido a los siguientes organismos y asociaciones de investigación: 
 - [Asociación Española de Interacción Persona Ordenador - AIPO](https://aipo.es/). 
 
 ### Premios y distinciones
