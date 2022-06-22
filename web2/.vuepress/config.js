@@ -41,6 +41,12 @@ module.exports = {
 
   // Configuración del tema
   "theme": "reco",
+  // Idioma
+  locales: {
+    '/': {
+      lang: 'es-ES'
+    },
+  },
 
   "themeConfig": {
 
@@ -94,11 +100,11 @@ module.exports = {
     "blogConfig": {
       category: {
         location: 5,     // The position occupied in the navigation bar menu, default to 2
-        text: 'Category' // Text default to "Category"
+        text: 'Categorías' // Text default to "Category"
       },
       tag: {
         location: 6,     // The position occupied in the navigation bar menu, default to 3
-        text: 'Tag'      // Text default to "Tag"
+        text: 'Etiquetas'      // Text default to "Tag"
       },
       socialLinks: [     // Information bar displays social information
         { icon: 'reco-github', link: 'https://github.com/joseluisgs' },
