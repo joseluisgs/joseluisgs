@@ -200,7 +200,9 @@ module.exports = {
     "authorAvatar": "/img/avatar.jpeg",
     "record": "v1.5",
     "startYear": "2021",
-    "jobs": 'Profesor - Formador - Investigador - Desarrollador'
+    "jobs": 'Profesor - Formador - Investigador - Desarrollador',
+    "jobsLine1": 'Profesor - Formador',
+    "jobsLine2": 'Investigador - Desarrollador',
   },
   "markdown": {
     "lineNumbers": true
