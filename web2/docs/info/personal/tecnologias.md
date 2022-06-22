@@ -101,5 +101,5 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 ::: tip
 Prometo hablar de ellas poco a poco en esta web y por qué las uso y para qué 👍
 
-Puedes consultar mis proyectos y desarrollos [aquí](../../categories/Proyectos/).
+Puedes consultar mis proyectos y desarrollos [aquí](../../../categories/Proyectos/).
 :::
