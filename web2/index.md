@@ -9,7 +9,7 @@ heroImageStyle: {
   maxWidth: '75%',
   width: '100%',
   display: block,
-  margin: '2rem auto 2rem',
+  margin: '1rem auto 1rem',
   borderRadius: '1rem',
   boxShadow: '0 5px 18px rgba(0,0,0,0.5)'
 }
