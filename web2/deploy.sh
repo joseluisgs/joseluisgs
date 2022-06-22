@@ -33,3 +33,4 @@ git push -u -f origin main
 # Eliminamos los cambios
 rm -rf .git
 cd -
+rm -rf public
