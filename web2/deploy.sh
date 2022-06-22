@@ -10,8 +10,8 @@ rm -rf public
 npm run build
 
 # copiamos readme y license
-# cp README.md docs/.vuepress/dist
-# cp LICENSE docs/.vuepress/dist
+cp README.md public
+cp LICENSE public
 
 # cambiamos al directorio
 cd public
