@@ -45,7 +45,7 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
 </p>
 <p>
  <a href="https://joseluisgs.github.io/" target="_blank">
-        <img src="https://joseluisgs.github.io/favicon.png" 
+        <img src="https://joseluisgs.github.io/img/favicon.png" 
     height="30">
     </a>  &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
