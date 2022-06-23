@@ -12,12 +12,14 @@
             <h1 class="name">👋 Hola, soy <span>José Luis González</span></h1>
             <h2 class="subname">Enseñando el arte del desarrollo de software día a día 👨🏻‍💻</h2>
             <p>
-              Soy doctor en desarrollo de software, profesor de secundaria, formador, investigador y
-              desarrollador.<br />
-              Me siento orgulloso de ser Kotlin Trainer certified by Jetbrains, Github Campus
-              Advisor y Gitkraken Ambassador.</br>
-              Me puedes encontrar en el IES Luis Vives de Leganés (Madrid).
+              🎓 Soy doctor en desarrollo de software, profesor de secundaria, formador,
+              investigador y desarrollador.
             </p>
+            <p>
+              ⚡ Me siento orgulloso de ser Kotlin Trainer certified by Jetbrains, Github Campus
+              Advisor y Gitkraken Ambassador.
+            </p>
+            <p>📌 Me puedes encontrar en el IES Luis Vives de Leganés (Madrid).</p>
             <!-- chevron -->
             <a href="#homeBlog">
               <div class="chevron-container">
@@ -248,7 +250,7 @@ export default defineComponent({
 }
 
 .header-content .right-header p {
-  margin: 0.75rem 0;
+  margin: 0.5rem 0;
   line-height: 1.75rem;
   text-align: left;
   font-size: 1.2rem;
@@ -474,9 +476,9 @@ export default defineComponent({
   }
 
   .header-content .right-header p {
-    margin: 0rem 0;
+    margin: 0.25rem;
     line-height: 1.2rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .home-blog {
