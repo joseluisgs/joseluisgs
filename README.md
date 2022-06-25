@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://joseluisgs.github.io/" target="_blank">
     <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="./images/GitHub.png" alt="Logo" 
+      src="./images/banner.png" alt="Logo" 
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
   </a>
 </p>
