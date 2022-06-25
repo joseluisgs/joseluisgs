@@ -259,6 +259,7 @@ function flatten(items, res) {
       width: 100%;
       margin: 0.5rem auto;
       border-radius: $borderRadius;
+      box-shadow: var(--box-shadow-img);
     }
   }
 

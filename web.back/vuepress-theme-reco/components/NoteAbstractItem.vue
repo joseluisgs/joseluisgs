@@ -55,12 +55,13 @@ export default defineComponent({
   .title {
     position: relative;
     font-size: 1.28rem;
-    line-height: 46px;
+    line-height: 1.5;
 
     img {
       width: 100%;
       margin: 0.5rem auto;
       border-radius: $borderRadius;
+      box-shadow: var(--box-shadow-img);
     }
 
     display: inline-block;

@@ -20,6 +20,7 @@ const modeOptions = {
     '--mask-color': '#888',
     '--text-color-nombre': '#396b8f',
     '--text-color-frase': '#608689',
+    '--box-shadow-img': '2px 4px 10px -3px rgba(0, 0, 0, 0.5)',
   },
   dark: {
     '--default-color-10': 'rgba(0, 0, 0, 1)',
@@ -43,6 +44,7 @@ const modeOptions = {
     '--mask-color': '#000',
     '--text-color-nombre': '#87f9ff',
     '--text-color-frase': '#718b8d',
+    '--box-shadow-img': '2px 4px 10px -3px rgba(0, 0, 0, 0.8)',
   }
 }
 
