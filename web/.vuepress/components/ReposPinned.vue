@@ -34,7 +34,6 @@ export default {
   // Utilizo la api fecth que es nativa y me ahorro instalar axios, pues solo es un GET
   // Mounted por SSR
   async mounted() {
-    // https://gh-pinned-repos.now.sh/
     const response = await fetch("https://gh-pinned-repos.egoist.sh/?username=joseluisgs");
     const data = await response.json();
     this.repositorios = data;
