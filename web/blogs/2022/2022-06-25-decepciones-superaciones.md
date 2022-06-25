@@ -1,5 +1,5 @@
 ---
-title: Como mejoré en Kotlin como profesor por una decepción
+title: Mejorando en Kotlin como profesor gracias a una decepción
 description: 'Circunstancias inesperadas que te hacen mejorar y dar un paso más'
 date: '2022-06-25'
 # sidebar: 'auto'
