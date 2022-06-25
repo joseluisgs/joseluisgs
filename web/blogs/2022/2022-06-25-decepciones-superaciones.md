@@ -1,6 +1,6 @@
 ---
 title: Como mejoré en Kotlin como profesor por una decepción
-description: 'Libertad y potencia en mi Framework preferido para Front-end'
+description: 'Circunstancias inesperadas que te hacen mejorar y dar un paso más'
 date: '2022-06-25'
 # sidebar: 'auto'
 subSidebar: true
