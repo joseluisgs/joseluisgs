@@ -12,8 +12,7 @@
             <h1 class="name">👋 Hola, soy <span>José Luis González</span></h1>
             <h2 class="subname">Enseñando el arte del desarrollo de software día a día 👨🏻‍💻</h2>
             <p>
-              🎓 Soy doctor en desarrollo de software, profesor de secundaria, formador,
-              investigador y desarrollador.
+              🎓 Soy doctor en desarrollo de software, profesor, investigador y desarrollador.
             </p>
             <p>
               ⚡ Me siento orgulloso de ser Kotlin Trainer certified by Jetbrains, Github Campus
