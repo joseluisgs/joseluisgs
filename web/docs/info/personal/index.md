@@ -1,5 +1,5 @@
 ---
-title: Sobre mi
+title: José Luis González, PhD.
 description: 'Soy José Luis, y aquí podrás conocer un poco más de mi'
 date: '2021-01-12'
 sidebar: 'auto'
@@ -9,13 +9,12 @@ categories:
 tags:
  - Personal
 publish: true
-image: 'https://github.com/joseluisgs/joseluisgs/raw/master/images/GitHub.png'
+image: 'https://github.com/joseluisgs/joseluisgs/raw/master/images/banner.png'
 sticky: 1
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
 ---
-## 👋 Hola, soy José Luis
-Me llamo **José Luis González Sánchez**, Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Secundaria**](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT) 👨‍💻.
+👋 Me llamo **José Luis González Sánchez**, Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Secundaria**](https://informaticacifpvg.netlify.app/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT) 👨‍💻.
 
 Estoy interesado en aplicaciones multiplataforma, web y móviles desde el servidor ⚙️ hasta el cliente 📱. Imparto docencia en distintos programas de máster, doctorado y cursos de especialización/formación ya sea de diseño, desarrollo y evaluación de productos software. Me encanta el ecosistema de Kotlin y Vue.js 💓.
 
