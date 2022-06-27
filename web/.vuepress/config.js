@@ -221,5 +221,12 @@ module.exports = {
       root_url: 'https://joseluisgs.github.io',
       default_site_name: 'José Luis González',
     }],
+    // Plugin SiteMap
+    // https://github.com/ekoeryanto/vuepress-plugin-sitemap
+    ["sitemap",
+      {
+        "hostname": 'https://joseluisgs.github.io/'
+      }
+    ],
   ]
 }

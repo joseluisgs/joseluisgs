@@ -1,7 +1,7 @@
 {
   "name": "JoseLuisGS",
   "version": "1.0.0",
-  "description": "Página web personal de José Luis González Sánchez",
+  "description": "JoseLuisGS Website",
   "main": "index.js",
   "scripts": {
     "start": "vuepress dev . --open --host \"localhost\"",
@@ -10,7 +10,10 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "sh ./deploy.sh",
-    "docs:deploy": "sh ./deploy.sh"
+    "docs:deploy": "sh ./deploy.sh",
+    "postbuild": "vuepress-sitemap -H https://joseluisgs.github.io -d public",
+    "docs:map": "vuepress-sitemap -H https://joseluisgs.github.io -d public",
+    "map": "vuepress-sitemap -H https://joseluisgs.github.io -d public"
   },
   "repository": {
     "type": "git",
@@ -28,8 +31,9 @@
   "homepage": "https://github.com/joseluisgs/joseluisgs.github.io#readme",
   "devDependencies": {
     "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
+    "esm": "^3.2.25",
     "vuepress": "1.8.2",
+    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-reco": "1.6.10"
-  },
-  "description": "JoseLuisGS Website"
+  }
 }
