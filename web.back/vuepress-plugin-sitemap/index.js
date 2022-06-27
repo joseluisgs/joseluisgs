@@ -12,7 +12,7 @@ function stripLocalePrefix (path, localePathPrefixes) {
 }
 
 module.exports = (options, context) => {
-  console.log('options', options)
+ // console.log('options', options)
   const {
     urls = [],
     hostname,
