@@ -43,7 +43,7 @@ Además, gracias a [Compose Multiplatform](https://www.jetbrains.com/es-es/lp/co
   alt="Imagen">
 </p>
 
-::: tip  <span class="iconify" data-icon="logos:kotlin-icon"></span> Kotlin es para todos y para todos
+::: tip  <span class="iconify" data-icon="logos:kotlin-icon"></span> Kotlin es para todo y para tod@s
 De muchas bondades de <span class="iconify" data-icon="logos:kotlin"></span> hablé en mi siguiente entrada: [Kotlin siempre estaba en mi equipo](../2021/2021-11-28-kotlin-en-mi-equipo.md).
 :::
 
