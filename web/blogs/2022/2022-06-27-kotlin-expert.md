@@ -78,7 +78,7 @@ De acuerdo al plan de estudios inicial de la formación, los contenidos a domina
 - Extra 2 - Compatibilidad con Spring y otros entornos backend
 
 ## Opinión personal
-Desde hace poco soy Certificador en tecnologías Kotlin por parte de Jetbrains. La formación que ofrece Antonio es de muchísima calidad y te centra en un solo curso lo que te supondría horas y meses de trabajo y formación. Creo que al día de hoy no hay nada más completo y mejor trabajado y por lo tanto te lo recomiendo encarecidamente.
+Desde hace poco soy Certificador en tecnologías Kotlin por parte de Jetbrains, además tengo el título de Kotlin Developer por Jetbrains Academy y desde mayo soy formador de la misma. ¿Qué intento decirte con esto? Sinceramente desde mi experiencia profesional, docente y personal te puedo garantizar que la formación que ofrece Antonio es de muchísima calidad y te centra en un solo curso lo que te supondría horas y meses de trabajo y formación. Creo que al día de hoy no hay nada más completo y mejor trabajado y por lo tanto te lo recomiendo encarecidamente.
 
 Conozco la forma de enseñar y trabajar de Antonio. Muchos de sus materiales son parte de mi día a día y recomendados para mi alumnado. Por lo que todo lo que hace tiene un valor importante y de inmediata aplicación para el que cursa y aprende con él en algunas de sus formaciones. De hecho, [Architect Coders](https://architectcoders.com/) y [Compose Expert](https://compose.expert/) son formaciones de referencia en el sector.
 
