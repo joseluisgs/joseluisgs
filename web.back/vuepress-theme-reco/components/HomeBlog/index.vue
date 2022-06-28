@@ -11,9 +11,7 @@
           <div class="right-header">
             <h1 class="name">👋 Hola, soy <span>José Luis González</span></h1>
             <h2 class="subname">Enseñando el arte del desarrollo de software día a día 👨🏻‍💻</h2>
-            <p>
-              🎓 Soy doctor en desarrollo de software, profesor, investigador y desarrollador.
-            </p>
+            <p>🎓 Soy doctor en desarrollo de software, profesor, investigador y desarrollador.</p>
             <p>
               ⚡ Me siento orgulloso de ser Kotlin Trainer certified by Jetbrains, Github Campus
               Advisor y Gitkraken Ambassador.
@@ -245,7 +243,12 @@ export default defineComponent({
 }
 
 .header-content .right-header .name span {
-  color: var(--text-color-nombre);
+  /* color: var(--text-color-nombre); */
+  background: var(--text-color-nombre-bg)
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
 }
 
 .header-content .right-header p {
@@ -523,6 +526,26 @@ export default defineComponent({
         }
       }
     }
+  }
+}
+
+@media (min-width: 2000px) {
+  .header-content .right-header .name {
+    font-size: 4.75rem;
+    font-weight: bold;
+  }
+
+  .header-content .right-header .subname {
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin: 0.75rem 0;
+  }
+
+  .header-content .right-header p {
+    margin: 1.5rem 0;
+    line-height: 2.75rem;
+    text-align: left;
+    font-size: 2.2rem;
   }
 }
 </style>

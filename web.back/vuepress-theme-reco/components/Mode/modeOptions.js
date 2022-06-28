@@ -19,8 +19,9 @@ const modeOptions = {
     '--code-color': 'rgba(27, 31, 35, 0.05)',
     '--mask-color': '#888',
     '--text-color-nombre': '#396b8f',
-    '--text-color-frase': '#608689',
+    '--text-color-frase': '#75989b',
     '--box-shadow-img': '2px 4px 10px -3px rgba(0, 0, 0, 0.5)',
+    '--text-color-nombre-bg': '-webkit-linear-gradient(300deg, #76add6 20%,#a77bf3 70%)',
   },
   dark: {
     '--default-color-10': 'rgba(0, 0, 0, 1)',
@@ -43,8 +44,9 @@ const modeOptions = {
     '--code-color': 'rgba(0, 0, 0, .3)',
     '--mask-color': '#000',
     '--text-color-nombre': '#87f9ff',
-    '--text-color-frase': '#718b8d',
+    '--text-color-frase': '#93b5b8',
     '--box-shadow-img': '2px 4px 10px -3px rgba(0, 0, 0, 0.8)',
+    '--text-color-nombre-bg': '-webkit-linear-gradient(300deg, #7db3db 20%, #57dec5 70%)',
   }
 }
 
