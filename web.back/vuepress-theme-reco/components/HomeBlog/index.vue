@@ -202,7 +202,7 @@ export default defineComponent({
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   min-height: 100vh;
-  max-width: 2500px;
+  max-width: 2560px;
 }
 
 .header-content .left-header {
