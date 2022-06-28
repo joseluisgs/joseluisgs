@@ -7,9 +7,10 @@ module.exports = {
   "title": 'José Luis González',
   "description": 'Web personal de José Luis González Sánchez',
   "dest": "public",
+
   // Head y metadatos
   "head": [
-    ['link', { rel: 'icon', href: '/img/favicon.png' }],
+    ['link', { rel: 'icon', href: 'favicon.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['meta', { name: 'author', content: 'José Luis González Sánchez' }],
     ['meta', { name: 'application-name', content: 'José Luis González Sánchez. Web Personal' }],
