@@ -202,6 +202,7 @@ export default defineComponent({
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   min-height: 100vh;
+  max-width: 2500px;
 }
 
 .header-content .left-header {
@@ -244,7 +245,7 @@ export default defineComponent({
 
 .header-content .right-header .name span {
   /* color: var(--text-color-nombre); */
-  background: var(--text-color-nombre-bg)
+  background: var(--text-color-nombre-bg);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -265,7 +266,6 @@ export default defineComponent({
   #homeBlog {
     left: 0;
     bottom: 0px;
-    width: 100%;
     position: absolute;
   }
 
