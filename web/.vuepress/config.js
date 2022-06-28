@@ -220,7 +220,9 @@ module.exports = {
     ['@limdongjin/vuepress-plugin-simple-seo', {
       default_image: '/img/web-social.png',
       root_url: 'https://joseluisgs.github.io',
-      //default_site_name: 'José Luis González',
+      default_site_name: 'José Luis González - Web',
+      default_title: 'José Luis González - Web',
+      default_description: 'Web personal de José Luis González Sánchez',
       default_image_type: 'image/png',
       default_twitter_card: 'summary_large_image',
       default_twitter_creator: '@joseluisgonsan',
