@@ -49,7 +49,7 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
     height="30">
     </a>  &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
-        <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" 
+        <img src="https://distreau.com/github.svg" 
     height="30">
     </a> &nbsp;&nbsp;
         <a href="https://twitter.com/joseluisgonsan" target="_blank">
@@ -63,7 +63,11 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
     <a href="https://discordapp.com/users/joseluisgs#3560" target="_blank">
         <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png" 
     height="30">
-    </a>
+    </a> &nbsp;&nbsp;
+    <a href="https://g.dev/joseluisgs" target="_blank">
+        <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
+    height="30">
+    </a>    
 </p>
 
 ## Licencia
