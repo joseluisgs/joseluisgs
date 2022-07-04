@@ -26,7 +26,7 @@ export default {
   name: 'CookiesBanner',
   data: () => ({
     texto: 'Mundo Vuepress',
-    url: '/legal/',
+    url: '/docs/legal/',
     visible: false,
   }),
 
