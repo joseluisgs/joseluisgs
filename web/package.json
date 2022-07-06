@@ -11,8 +11,6 @@
     "docs:build": "vuepress build docs",
     "deploy": "sh ./deploy.sh",
     "docs:deploy": "sh ./deploy.sh",
-    "postbuild": "vuepress-sitemap -H https://joseluisgs.github.io -d public",
-    "docs:map": "vuepress-sitemap -H https://joseluisgs.github.io -d public",
     "map": "vuepress-sitemap -H https://joseluisgs.github.io -d public"
   },
   "repository": {
