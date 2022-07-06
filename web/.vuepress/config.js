@@ -160,11 +160,6 @@ module.exports = {
       },
       {
         title: 'DevExperto',
-        desc: 'El mejor lugar para aprender.',
-        link: 'https://devexperto.com/'
-      },
-      {
-        title: 'DevExperto',
         desc: 'El mejor lugar para aprender Android.',
         link: 'https://devexperto.com/'
       },
