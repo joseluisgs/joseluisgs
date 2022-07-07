@@ -52,8 +52,6 @@ module.exports = {
 
   "themeConfig": {
 
-
-
     // Navegación
     "nav": [
       { text: 'Home', link: '/', icon: 'reco-home' },

@@ -29,7 +29,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 <p align="center">
   <a href="https://www.jetbrains.com/es-es/company/partners/kotlin/" target="_blank"> 
     <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.imgur.com/7QKlCED.png" alt="Log1" height="100"
+      src="https://i.imgur.com/Ca7Yu1B.png" alt="Log1" height="100"
       borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
   </a> &nbsp;
  <a href="https://education.github.com/teachers/advisors" target="_blank"> 
