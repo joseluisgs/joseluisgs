@@ -20,6 +20,7 @@
         </div>
 
         <div class="last-updated" v-if="lastUpdated">
+          <span class="prefix iconify" data-icon="clarity:note-edit-line"></span>
           <span class="prefix">{{ lastUpdatedText }}: </span>
           <span class="time">{{ lastUpdated }}. </span>
           <!-- <span class="time">{{ $page.lastUpdated }}.  </span> -->
@@ -27,7 +28,10 @@
           <!--  <span class="time">Algún error -- hazme un pull request https://github.com/joseluisgs/joseluisgs.github.io/blob/main{{$page.regularPath}}</span> -->
           <!-- <span class="time"><a :href="'https://github.com/joseluisgs/joseluisgs/blob/master/web/docs/'+ $page.relativePath" target="_blank">¿Algún error?</a></span> -->
           <span class="time"
-            ><a href="https://forms.gle/V2m42qiW1s6X4oNt8" target="_blank">¿Algún error?</a></span
+            ><a href="https://forms.gle/V2m42qiW1s6X4oNt8" target="_blank">
+              <span class="iconify" data-icon="fluent:comment-error-16-regular"></span> ¿Algún
+              error?</a
+            ></span
           >
         </div>
       </footer>
@@ -67,16 +71,16 @@
 </template>
 
 <script>
-import PageInfo from '@theme/components/PageInfo';
-import { resolvePage, outboundRE, endingSlashRE } from '@theme/helpers/utils';
-import { ModuleTransition } from '@vuepress-reco/core/lib/components';
-import SubSidebar from '@theme/components/SubSidebar';
-import Footer from '@theme/components/Footer';
+import PageInfo from "@theme/components/PageInfo";
+import { resolvePage, outboundRE, endingSlashRE } from "@theme/helpers/utils";
+import { ModuleTransition } from "@vuepress-reco/core/lib/components";
+import SubSidebar from "@theme/components/SubSidebar";
+import Footer from "@theme/components/Footer";
 
 export default {
   components: { PageInfo, ModuleTransition, SubSidebar, Footer },
 
-  props: ['sidebarItems'],
+  props: ["sidebarItems"],
 
   data() {
     return {
@@ -114,13 +118,13 @@ export default {
       // return new Date(this.$page.lastUpdated).toLocaleString()
     },
     lastUpdatedText() {
-      if (typeof this.$themeLocaleConfig.lastUpdated === 'string') {
+      if (typeof this.$themeLocaleConfig.lastUpdated === "string") {
         return this.$themeLocaleConfig.lastUpdated;
       }
-      if (typeof this.$themeConfig.lastUpdated === 'string') {
+      if (typeof this.$themeConfig.lastUpdated === "string") {
         return this.$themeConfig.lastUpdated;
       }
-      return 'Last Updated';
+      return "Last Updated";
     },
     prev() {
       const prev = this.$frontmatter.prev;
@@ -149,15 +153,15 @@ export default {
       const {
         repo,
         editLinks,
-        docsDir = '',
-        docsBranch = 'master',
+        docsDir = "",
+        docsBranch = "master",
         docsRepo = repo,
       } = this.$themeConfig;
 
       if (docsRepo && editLinks && this.$page.relativePath) {
         return this.createEditLink(repo, docsRepo, docsDir, docsBranch, this.$page.relativePath);
       }
-      return '';
+      return "";
     },
     editLinkText() {
       return (
@@ -165,7 +169,7 @@ export default {
       );
     },
     pageStyle() {
-      return this.$showSubSideBar ? {} : { paddingRight: '0' };
+      return this.$showSubSideBar ? {} : { paddingRight: "0" };
     },
   },
 
@@ -175,10 +179,10 @@ export default {
       if (bitbucket.test(repo)) {
         const base = outboundRE.test(docsRepo) ? docsRepo : repo;
         return (
-          base.replace(endingSlashRE, '') +
+          base.replace(endingSlashRE, "") +
           `/src` +
           `/${docsBranch}/` +
-          (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '') +
+          (docsDir ? docsDir.replace(endingSlashRE, "") + "/" : "") +
           path +
           `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
         );
@@ -186,10 +190,10 @@ export default {
 
       const base = outboundRE.test(docsRepo) ? docsRepo : `https://github.com/${docsRepo}`;
       return (
-        base.replace(endingSlashRE, '') +
+        base.replace(endingSlashRE, "") +
         `/edit` +
         `/${docsBranch}/` +
-        (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '') +
+        (docsDir ? docsDir.replace(endingSlashRE, "") + "/" : "") +
         path
       );
     },
@@ -209,7 +213,7 @@ function find(page, items, offset) {
   flatten(items, res);
   for (let i = 0; i < res.length; i++) {
     const cur = res[i];
-    if (cur.type === 'page' && cur.path === decodeURIComponent(page.path)) {
+    if (cur.type === "page" && cur.path === decodeURIComponent(page.path)) {
       return res[i + offset];
     }
   }
@@ -217,7 +221,7 @@ function find(page, items, offset) {
 
 function flatten(items, res) {
   for (let i = 0, l = items.length; i < l; i++) {
-    if (items[i].type === 'group') {
+    if (items[i].type === "group") {
       flatten(items[i].children || [], res);
     } else {
       res.push(items[i]);
