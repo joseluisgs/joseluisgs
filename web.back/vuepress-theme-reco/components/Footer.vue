@@ -41,11 +41,11 @@
       <a target="blank" href="https://linkedin.com/in/joseluisgonsan"
         ><span class="iconify-inline iconfont" data-icon="mdi:linkedin"></span
       ></a>
-      <a target="blank" href="https://discordapp.com/users/joseluisgs#3560"
-        ><span class="iconify-inline iconfont" data-icon="ic:baseline-discord"></span
-      ></a>
       <a target="blank" href="https://g.dev/joseluisgs"
         ><span class="iconify-inline iconfont" data-icon="raphael:code"></span
+      ></a>
+      <a target="blank" href="https://discordapp.com/users/joseluisgs#3560"
+        ><span class="iconify-inline iconfont" data-icon="ic:baseline-discord"></span
       ></a>
     </span>
     <span v-if="$frontmatter.home">

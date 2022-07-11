@@ -124,10 +124,11 @@ module.exports = {
       },
       socialLinks: [
         // Information bar displays social information
-        { icon: 'reco-github', link: 'https://github.com/joseluisgs' },
-        { icon: 'reco-twitter', link: 'https://twitter.com/joseluisgonsan' },
-        { icon: 'reco-linkedin', link: 'https://www.linkedin.com/in/joseluisgonsan' },
-        { icon: 'reco-wechat', link: 'https://discordapp.com/users/joseluisgs#3560' },
+        { icon: 'mdi:github', link: 'https://github.com/joseluisgs', color: '#fffff' },
+        { icon: 'mdi:twitter', link: 'https://twitter.com/joseluisgonsan', color: '#1DA1F2' },
+        { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/joseluisgonsan', color: '#0077B5' },
+        { icon: 'raphael:code', link: 'https://g.dev/joseluisgs', color: '#e81055' },
+        { icon: 'ic:baseline-discord', link: 'https://discordapp.com/users/joseluisgs#3560', color: '#7289DA' },
       ],
     },
 

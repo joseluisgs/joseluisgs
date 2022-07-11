@@ -18,7 +18,7 @@
     </h5>
     <ul class="social-links">
       <li class="social-item" v-for="(item, index) in socialLinks" :key="index">
-        <reco-icon :icon="item.icon" :link="item.link" :style="{ color: item.color }" />
+        <i class="iconify-inline social-icon" :data-icon="item.icon" :link="item.link" :style="{ color: item.color }" />
       </li>
     </ul>
     <div class="num">
@@ -36,10 +36,10 @@
 </template>
 
 <script>
-import { defineComponent, computed } from 'vue-demi';
-import { RecoIcon } from '@vuepress-reco/core/lib/components';
-import { getOneColor } from '@theme/helpers/other';
-import { useInstance } from '@theme/helpers/composable';
+import { defineComponent, computed } from "vue-demi";
+import { RecoIcon } from "@vuepress-reco/core/lib/components";
+import { getOneColor } from "@theme/helpers/other";
+import { useInstance } from "@theme/helpers/composable";
 
 export default defineComponent({
   components: { RecoIcon },
@@ -61,6 +61,11 @@ export default defineComponent({
 </script>
 
 <style lang="stylus" scoped>
+.social-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
 .personal-info-wrapper {
   .personal-img {
     display: block;
