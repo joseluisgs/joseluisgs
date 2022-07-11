@@ -5,39 +5,51 @@
       <a target="blank" href="https://vuepress-theme-reco.recoluan.com">{{`vuepress-theme-reco@${version}`}}</a>
     </span> -->
     <span v-if="$frontmatter.home">
-      <reco-icon icon="reco-api" />
-      <a target="blank" href="https://vuejs.org/">Vue.js</a> &
-      <a target="blank" href="https://vuepress.vuejs.org/">VuePress</a>
+      <!-- <reco-icon icon="reco-api" /> -->
+      <a target="blank" href="https://vuejs.org/"
+        ><span class="iconify-inline iconfont" data-icon="mdi:vuejs"></span
+      ></a>
+      /
+      <a target="blank" href="https://vuepress.vuejs.org/"
+        ><span class="iconify-inline iconfont" data-icon="mdi:language-markdown"></span
+      ></a>
     </span>
     <span v-if="$themeConfig.record && $frontmatter.home">
-      <reco-icon icon="reco-beian" />
+      <span class="iconify-inline iconfont" data-icon="wpf:security-checked"></span>
       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
     </span>
     <span>
-      <reco-icon icon="reco-copyright" />
+      <span class="iconify-inline iconfont" data-icon="fa-solid:copyright"></span>
       <a href="/docs/info/personal/">
         <span v-if="$themeConfig.author || $site.title">{{
           $themeConfig.author || $site.title
         }}</span>
         &nbsp;&nbsp;
-        <span
-          v-if="
-            $themeConfig.startYear &&
-            $themeConfig.startYear != new Date().getFullYear()
-          "
+        <span v-if="$themeConfig.startYear && $themeConfig.startYear != new Date().getFullYear()"
           >{{ $themeConfig.startYear }} -
         </span>
         {{ new Date().getFullYear() }}
       </a>
     </span>
     <span>
-      <a target="blank" href="https://github.com/joseluisgs"><reco-icon icon="reco-github" /></a>
-      <a target="blank" href="https://twitter.com/joseluisgonsan"><reco-icon icon="reco-twitter" /></a>
-      <a target="blank" href="https://linkedin.com/in/joseluisgonsan"><reco-icon icon="reco-linkedin" /></a>
-      <a target="blank" href="https://discordapp.com/users/joseluisgs#3560"><reco-icon icon="reco-wechat" /></a>
+      <a target="blank" href="https://github.com/joseluisgs"
+        ><span class="iconify-inline iconfont" data-icon="mdi:github"></span
+      ></a>
+      <a target="blank" href="https://twitter.com/joseluisgonsan"
+        ><span class="iconify-inline iconfont" data-icon="mdi:twitter"></span
+      ></a>
+      <a target="blank" href="https://linkedin.com/in/joseluisgonsan"
+        ><span class="iconify-inline iconfont" data-icon="mdi:linkedin"></span
+      ></a>
+      <a target="blank" href="https://discordapp.com/users/joseluisgs#3560"
+        ><span class="iconify-inline iconfont" data-icon="ic:baseline-discord"></span
+      ></a>
+      <a target="blank" href="https://g.dev/joseluisgs"
+        ><span class="iconify-inline iconfont" data-icon="raphael:code"></span
+      ></a>
     </span>
     <span v-if="$frontmatter.home">
-      <reco-icon icon="reco-document" />
+      <span class="iconify-inline iconfont" data-icon="fluent:cookies-20-filled"></span>
       <a href="/docs/legal/">Cookies</a>
     </span>
     <span v-show="showAccessNumber">
@@ -45,78 +57,83 @@
       <AccessNumber idVal="/" />
     </span>
     <p class="cyber-security" v-if="$themeConfig.cyberSecurityRecord">
-      <img
-        src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png"
-        alt=""
-      />
-      <a :href="$themeConfig.cyberSecurityLink || '#'">{{
-        $themeConfig.cyberSecurityRecord
-      }}</a>
+      <img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" alt="" />
+      <a :href="$themeConfig.cyberSecurityLink || '#'">{{ $themeConfig.cyberSecurityRecord }}</a>
     </p>
     <Comments :isShowComments="false" />
   </div>
 </template>
 
 <script>
-import { defineComponent, computed } from 'vue-demi'
-import { RecoIcon } from '@vuepress-reco/core/lib/components'
-import { version } from '../package.json'
-import { useInstance } from '@theme/helpers/composable'
+import { defineComponent, computed } from "vue-demi";
+import { RecoIcon } from "@vuepress-reco/core/lib/components";
+import { version } from "../package.json";
+import { useInstance } from "@theme/helpers/composable";
 
 export default defineComponent({
   components: { RecoIcon },
-  setup (props, ctx) {
-    const instance = useInstance()
+  setup(props, ctx) {
+    const instance = useInstance();
     const showAccessNumber = computed(() => {
       const {
         $themeConfig: { valineConfig },
-        $themeLocaleConfig: { valineConfig: valineLocalConfig }
-      } = instance
+        $themeLocaleConfig: { valineConfig: valineLocalConfig },
+      } = instance;
 
-      const vc = valineLocalConfig || valineConfig
+      const vc = valineLocalConfig || valineConfig;
 
-      return vc && vc.visitor != false
-    })
-    return { version, showAccessNumber }
-  }
-})
+      return vc && vc.visitor != false;
+    });
+    return { version, showAccessNumber };
+  },
+});
 </script>
 
 <style lang="stylus" scoped>
-  .footer-wrapper {
-    padding: 1.5rem 2.5rem;
-    border-top: 1px solid var(--border-color);
-    text-align: center;
-    color: lighten($textColor, 25%);
-    a {
-      font-size 14px
-    }
-    > span {
-      margin-left 1rem
-      > i {
-        margin-right .5rem
-      }
-    }
-    .cyber-security {
-      img {
-        margin-right .5rem
-        width 20px
-        height 20px
-        vertical-align middle
-      }
-      a {
-        vertical-align middle
-      }
+.footer-wrapper {
+  padding: 1.5rem 2.5rem;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: lighten($textColor, 25%);
+
+  .iconfont {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+
+  > span {
+    margin-left: 1rem;
+
+    > i {
+      margin-right: 0.5rem;
     }
   }
 
+  .cyber-security {
+    img {
+      margin-right: 0.5rem;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+
+    a {
+      vertical-align: middle;
+    }
+  }
+}
+
 @media (max-width: $MQMobile) {
   .footer {
-    text-align: left!important;
+    text-align: left !important;
+
     > span {
-      display block
-      margin-left 0
-      line-height 2rem
+      display: block;
+      margin-left: 0;
+      line-height: 2rem;
     }
   }
 }
