@@ -7,6 +7,8 @@ module.exports = (options = {}, context) => ({
             path
         } = $page;
 
+        //console.log('frontmatter: ', frontmatter);
+
         let root_url = options.root_url || "";
         if (frontmatter.root_url) {
             root_url = frontmatter.root_url
@@ -79,26 +81,17 @@ module.exports = (options = {}, context) => ({
             }
         };
 
-
+        // Descripción
         const description_seo = () => {
             const {
                 description
             } = frontmatter
+            
             let meta_description = find_meta_description(frontmatter);
 
             const { default_description } = options
 
-            if (default_description) {
-                if (!is_duplicate_og('og:description'))
-                    push_og('og:description', default_description);
-                if (!is_duplicate_tw('twitter:description'))
-                    push_twit('twitter:description', default_description);
-                if (!meta_description)
-                    frontmatter.meta.push({ 'name': 'description', 'content': default_description });
-                if (!is_duplicate_ite('description'))
-                    frontmatter.meta.push(itemprop_template('description', default_description))
-            }
-
+            // Campo descripción de la noticia en el frontmatter
             if (description) {
                 if (!is_duplicate_og('og:description'))
                     push_og('og:description', description);
@@ -108,10 +101,12 @@ module.exports = (options = {}, context) => ({
                     frontmatter.meta.push({ 'name': 'description', 'content': description });
                 if (!is_duplicate_ite('description'))
                     frontmatter.meta.push(itemprop_template('description', description))
+                
+                return 
             }
 
             meta_description = find_meta_description(frontmatter);
-
+            // Si no busco la meta description en el frontmatter
             if (meta_description) {
                 if (!is_duplicate_og('og:description')) {
                     push_og('og:description', meta_description);
@@ -120,7 +115,25 @@ module.exports = (options = {}, context) => ({
                     push_twit('twitter:description', meta_description);
                 if (!is_duplicate_ite('description'))
                     frontmatter.meta.push(itemprop_template('description', meta_description))
+                
+                return 
             }
+
+            // Si no el default de configuración de la web
+            if (default_description) {
+                if (!is_duplicate_og('og:description'))
+                    push_og('og:description', default_description);
+                if (!is_duplicate_tw('twitter:description'))
+                    push_twit('twitter:description', default_description);
+                if (!meta_description)
+                    frontmatter.meta.push({ 'name': 'description', 'content': default_description });
+                if (!is_duplicate_ite('description'))
+                    frontmatter.meta.push(itemprop_template('description', default_description))
+                
+                return
+            }
+        
+
         };
 
         const url_seo = () => {
@@ -134,6 +147,16 @@ module.exports = (options = {}, context) => ({
             const { title } = $page
             const { default_title } = options
 
+            if (frontmatter.title) {
+                if (!is_duplicate_og('og:title'))
+                    push_og('og:title', frontmatter.title);
+                if (!is_duplicate_tw('twitter:title'))
+                    push_twit('twitter:title', frontmatter.title);
+                if (!is_duplicate_ite('name'))
+                    frontmatter.meta.push(itemprop_template('name', frontmatter.title))
+                return
+            }
+
             if (default_title) {
                 if (!is_duplicate_og('og:title'))
                     push_og('og:title', default_title);
@@ -144,22 +167,6 @@ module.exports = (options = {}, context) => ({
                 return
             }
 
-            if (frontmatter.title) {
-                if (!is_duplicate_og('og:title'))
-                    push_og('og:title', frontmatter.title);
-                if (!is_duplicate_tw('twitter:title'))
-                    push_twit('twitter:title', frontmatter.title);
-                if (!is_duplicate_ite('name'))
-                    frontmatter.meta.push(itemprop_template('name', frontmatter.title))
-                return
-            }
-    
-            if (!is_duplicate_og('og:title'))
-                push_og('og:title', title);
-            if (!is_duplicate_tw('twitter:title'))
-                push_twit('twitter:title', title);
-            if (!is_duplicate_ite('name'))
-                frontmatter.meta.push(itemprop_template('name', title))
         };
 
         const twitter_creator_seo = () => {
@@ -270,9 +277,9 @@ const find_meta_description = frontmatter => {
     let flag = false;
     let description = "";
 
-    for (const elem of frontmatter.meta) if (elem.hasOwnProperty('name') && elem.name === 'description') {
+    for (const elem of frontmatter.meta) if (elem.hasOwnProperty('name') && elem.name === 'name') {
         flag = true;
-        description = elem.content
+        description = elem.description
     }
 
     if (flag) return description

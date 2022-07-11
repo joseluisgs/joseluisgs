@@ -14,8 +14,6 @@ tags:
 
 publish: true
 image: 'https://i0.wp.com/wanderin.dev/wp-content/uploads/2019/12/crop-0-0-1170-390-0-about-cover.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 # sticky: 1
 ---
 Ya estamos de vacaciones. Dos meses para desconectar y descansar. Pero también una oportunidad para seguir avanzando y prepararse para lo que viene. Con casi 35º en la sombra y sabiendo que hay tiempo para todo 🏖️ 🍻 🌄, quiero compartir contigo una serie de reflexiones.
