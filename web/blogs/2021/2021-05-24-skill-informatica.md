@@ -9,7 +9,7 @@ categories:
 tags:
   - Tecnologías
   - Alexa
-  - Javascript
+  - JavaScript
   - Node.js
 publish: true
 image: 'https://m.media-amazon.com/images/G/01/DeveloperBlogs/AlexaBlogs/default/ACK_blog._CB483519732_.png'
