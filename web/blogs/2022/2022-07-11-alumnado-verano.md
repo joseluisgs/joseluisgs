@@ -49,6 +49,7 @@ De cara al curso que viene te recomiendo:
 - No digas me han suspendido y me han aprobado. Alguna vez si preguntas con sinceridad quizás te lleves una sorpresa. Nunca se lo digas con soberbia a un profesor o a un compañero. Creo que la misma voluntad y buen trato y objetividad que tú dices tener, es la que tenemos todos/as.
 - Todos sabemos que en tu casa funciona. Pero mejor que lo haga en todas partes.
 - Si te sientes inseguro/a o frustrado/a, recuerda que esto es parte del aprendizaje y salir a lo desconocido. Crear de la nada un software a veces es un poco difícil.
+- Y lo más importante. **Estoy para ayudarte siempre que quieras ser ayudado** . Daré mi tiempo y mis recursos por ello.
 
 ## Despedidas 
 Sé que estás en el camino de seguir caminando. A los que se van de 2º solo les puedo dar las gracias, desearle suerte y mucha fortuna a nivel profesional y personal. Espero que coincidamos y me cuentes cómo te va y que sea yo el que aprenda de ti.
