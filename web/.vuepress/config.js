@@ -5,7 +5,7 @@
 module.exports = {
   // Datos del sitio web
   title: 'José Luis González',
-  description: 'Web personal de José Luis González Sánchez, PhD',
+  description: 'Web personal de José Luis González Sánchez',
   dest: 'public',
 
   // Head y metadatos
