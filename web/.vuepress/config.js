@@ -5,7 +5,7 @@
 module.exports = {
   // Datos del sitio web
   title: 'José Luis González',
-  description: 'Web personal de José Luis González Sánchez',
+  description: 'Web personal de José Luis González Sánchez, PhD',
   dest: 'public',
 
   // Head y metadatos
@@ -53,7 +53,7 @@ module.exports = {
       'script',
       {
         async: true,
-        src: 'https://code.iconify.design/2/2.0.4/iconify.min.js',
+        src: 'https://code.iconify.design/2/2.2.1/iconify.min.js',
       },
     ],
   ],

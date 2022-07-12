@@ -4,34 +4,24 @@
       <reco-icon icon="reco-theme" />
       <a target="blank" href="https://vuepress-theme-reco.recoluan.com">{{`vuepress-theme-reco@${version}`}}</a>
     </span> -->
-    <span v-if="$frontmatter.home">
-      <!-- <reco-icon icon="reco-api" /> -->
-      <a target="blank" href="https://vuejs.org/"
-        ><span class="iconify-inline iconfont" data-icon="mdi:vuejs"></span
-      ></a>
-      /
-      <a target="blank" href="https://vuepress.vuejs.org/"
-        ><span class="iconify-inline iconfont" data-icon="mdi:language-markdown"></span
-      ></a>
-    </span>
-    <span v-if="$themeConfig.record && $frontmatter.home">
-      <span class="iconify-inline iconfont" data-icon="wpf:security-checked"></span>
-      <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
-    </span>
+    <!-- autor -->
     <span>
-      <span class="iconify-inline iconfont" data-icon="fa-solid:copyright"></span>
+      <span class="iconify-inline iconfont" data-icon="fluent:code-circle-20-filled"></span>
       <a href="/docs/info/personal/">
-        <span v-if="$themeConfig.author || $site.title">{{
-          $themeConfig.author || $site.title
-        }}</span>
-        &nbsp;&nbsp;
-        <span v-if="$themeConfig.startYear && $themeConfig.startYear != new Date().getFullYear()"
+        <span v-if="$themeConfig.author || $site.title"
+          >{{ $themeConfig.author || $site.title }}
+          <!-- <span v-if="$themeConfig.startYear && $themeConfig.startYear != new Date().getFullYear()"
           >{{ $themeConfig.startYear }} -
+        </span> --> </span
+        >&nbsp;
+        <span>
+          {{ new Date().getFullYear() }}
         </span>
-        {{ new Date().getFullYear() }}
       </a>
     </span>
+
     <span>
+      <!-- Redes sociales -->
       <a target="blank" href="https://github.com/joseluisgs"
         ><span class="iconify-inline iconfont" data-icon="mdi:github"></span
       ></a>
@@ -48,11 +38,32 @@
         ><span class="iconify-inline iconfont" data-icon="ic:baseline-discord"></span
       ></a>
     </span>
-    <span v-if="$frontmatter.home">
-      <span class="iconify-inline iconfont" data-icon="fluent:cookies-20-filled"></span>
-      <a href="/docs/legal/">Cookies</a>
+
+    <!-- tecnologias y cookies -->
+    <span>
+      <span v-if="$frontmatter.home">
+        <!-- <reco-icon icon="reco-api" /> -->
+        <a target="blank" href="https://vuejs.org/">
+          <span class="iconify-inline iconfont" data-icon="mdi:vuejs"></span
+        ></a>
+        /
+        <a target="blank" href="https://vuepress.vuejs.org/"
+          ><span class="iconify-inline iconfont" data-icon="mdi:language-markdown"></span
+        ></a>
+      </span>
+      &nbsp;&nbsp;&nbsp;
+      <span v-if="$frontmatter.home">
+        <a href="/docs/legal/"
+          ><span class="iconify-inline iconfont" data-icon="fluent:cookies-20-filled"></span
+        ></a>
+      </span>
+      <!-- Versión dela web -->
+      <!-- <span v-if="$themeConfig.record && $frontmatter.home">
+        <span class="iconify-inline iconfont" data-icon="wpf:security-checked"></span>
+        <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
+      </span> -->
     </span>
-    <span v-show="showAccessNumber">
+    <!-- <span v-show="showAccessNumber">
       <reco-icon icon="reco-eye" />
       <AccessNumber idVal="/" />
     </span>
@@ -60,7 +71,7 @@
       <img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" alt="" />
       <a :href="$themeConfig.cyberSecurityLink || '#'">{{ $themeConfig.cyberSecurityRecord }}</a>
     </p>
-    <Comments :isShowComments="false" />
+    <Comments :isShowComments="false" /> -->
   </div>
 </template>
 
