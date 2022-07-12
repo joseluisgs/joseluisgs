@@ -18,7 +18,9 @@
     </h5>
     <ul class="social-links">
       <li class="social-item" v-for="(item, index) in socialLinks" :key="index">
-        <i class="iconify-inline social-icon" :data-icon="item.icon" :link="item.link" :style="{ color: item.color }" />
+      <a class="social-link" :href="item.link" target="_blank">
+        <i class="iconify-inline social-icon" :data-icon="item.icon" :style="{ color: item.color }" />
+        </a>
       </li>
     </ul>
     <div class="num">
@@ -61,6 +63,11 @@ export default defineComponent({
 </script>
 
 <style lang="stylus" scoped>
+.social-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .social-icon {
   cursor: pointer;
   font-size: 1.5rem;
