@@ -160,13 +160,18 @@ module.exports = {
       },
       {
         title: 'GitHub',
-        desc: 'Página web de GitHub',
+        desc: 'Página web de GitHub. ',
         link: 'https://github.com',
       },
       {
         title: 'GitKraken',
-        desc: 'El mejor cliente para Git y GitHub',
+        desc: 'El mejor cliente para Git y GitHub.',
         link: 'https://www.gitkraken.com/',
+      },
+      {
+        title: 'Jetbrains Academy',
+        desc: 'El mejor lugar para aprender programación.',
+        link: 'https://www.jetbrains.com/es-es/academy/',
       },
       {
         title: 'Tabnine',
