@@ -26,7 +26,7 @@ Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informá
 ### Mi centro
 Mi actual centro donde imparto docencia desde el curso 2021/2022 es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid) donde realizo además otras funciones para el centro y el departamento de Informática.
 
-### Docencia en Centro
+### Docencia actual en Centro
 En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialmente en DAM, Desarrollo de Aplicaciones Multiplataforma, donde imparto la mayoría de la docencia. 
 - Programación. 1º curso de [Técnico Superior en Desarrollo de Aplicaciones Multiplataforma](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html).
 - Entornos de Desarrollo. 1º curso de [Técnico Superior en Desarrollo de Aplicaciones Multiplataforma](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html).
@@ -46,7 +46,11 @@ Además suelo impartir o impartido en otras ocasiones:
 ### Docencia en Másteres y Doctorado
 Actualmente colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) englobada en dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).
 
-## Docencia anterior
+### Otra Formación en la que participo
+Actualmente imparto diversas formaciones complementarias o de especialización. También, he impartido bastante a lo largo de mi carrera. Resaltaré aquí las realizadas en el último año.
+- [Jetbrains Academy](https://www.jetbrains.com/es-es/academy/) Docente y preparador de diferentes temas y ejercicios prácticos para el aprendizaje de Kotlin.
+
+## Docencia oficial anterior
 A continuación resumiré docencia/formación realizada en anteriores años:
 
 - [CIFP Virgen de Gracia](https://cifpvirgendegracia.com/), Puertollano (Ciudad Real) Profesor de Secundaria. 2016/2018 y 2019/2021. Siendo jefe de departamento y coordinando distintos proyectos de innovación.
@@ -61,11 +65,15 @@ A continuación resumiré docencia/formación realizada en anteriores años:
   - Formación en Centro de Trabajo de 2º DAM.
   - FP DUAL de 2º DAM.
 
+<p></p>
+
 - [IES Trassierra](https://www.iestrassierra.com/), Córdoba. Profesor de Secundaria. 2018/2019.
   - Programación de Servicios y Procesos. 2º DAM.
   - Sistemas de Gestión Empresarial. 2º DAM
   - Desarrollo Web en Entorno Servidor. 2º DAW.
   - Tecnología de la Información y de la Comunicación. 2º Bach.
+
+<p></p>
 
 - [IES Estados del Duque](http://ies-estadosdelduque.centros.castillalamancha.es/), Malagón (Ciudad Real). Profesor de Secundaria. 2015/2016.
   - Sistemas Operativos Monopuesto. 1º SMR.
@@ -73,10 +81,26 @@ A continuación resumiré docencia/formación realizada en anteriores años:
   - Tecnología de la Información y de la Comunicación. 1º Bach.
   - Informática. 4º ESO.
 
+<p></p>
+
 - [Escuela Superior de Comunicación Audiovisual, ESCAV](https://escav.es/), Granada. Profesor de Secundaria. 2013 a 2015. En la titulación de [Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos](https://escav.es/estudios/animaciones-3d-juegos-y-entornos-interactivos/).
   - Proyecto de juegos y entornos interactivos. 2º Curso.
   - Desarrollo de entornos interactivos multidispositivo. 2º Curso.
   - Realización de proyectos multimedia interactivos. 1º Curso.
+
+<p></p>
+
+- Jugabilidad y Diseño de Experiencias Interactivas. Máster interuniversitario en Creación de Videojuegos de 2009 a 2012. Universidad de La Laguna, Tenerife.
+
+<p></p>
+
+- Jugabilidad y Experiencia del Jugador. [Experto en desarrollo de Videojuegos](https://www.uclm.es/conocimiento/cursos/cursoexpertodesarrollovideojuegos). Universidad de Castilla-La Mancha, 2011/2012.
+
+<p></p>
+
+- Usabilidad en Videojuegos. Máster en Gestión de Contenidos Digitales, Universitat de Barcelona. 2008.
+
+<p></p>
 
 - [Universitat de Lleida](http://www.udl.es/ca/es/), Lleida. Profesor Doctor. 2010 a 2012.
   - Fundamentos de Accesibilidad I. Master Interacción Persona-Ordenador.
@@ -86,6 +110,8 @@ A continuación resumiré docencia/formación realizada en anteriores años:
   - Interacción Persona.Ordenador. Grado en Informática.
   - Programación II. Grado en Informática. 
 
+<p></p>
+
 - [Universitat de Granada](http://www.ugr.es), Granada. Profesor. 2007 a 2009.
   - Ingeniería del Software I. Ingeniería en Informática.
   - Ingeniería del Software II. Ingeniería en Informática.
@@ -93,7 +119,4 @@ A continuación resumiré docencia/formación realizada en anteriores años:
   - Diseño de Interfaces de Usuario. Ingeniería Técnica en Informática de Gestión.
   - Ingeniería del Software II. Ingeniería Técnica en Informática de Gestión.
 
-### Otra Formación
-- Jugabilidad y Diseño de Experiencias Interactivas. Máster interuniversitario en Creación de Videojuegos de 2009 a 2012. Universidad de La Laguna, Tenerife.
-- Jugabilidad y Experiencia del Jugador. [Experto en desarrollo de Videojuegos](https://www.uclm.es/conocimiento/cursos/cursoexpertodesarrollovideojuegos). Universidad de Castilla-La Mancha, 2011/2012.
-- Usabilidad en Videojuegos. Máster en Gestión de Contenidos Digitales, Universitat de Barcelona. 2008.
+
