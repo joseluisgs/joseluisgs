@@ -70,7 +70,7 @@ export default defineComponent({
 
 .social-icon {
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .personal-info-wrapper {
