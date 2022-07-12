@@ -1,7 +1,7 @@
 ---
 title: José Luis González, PhD.
 description: 'Soy José Luis, y aquí podrás conocer un poco más de mi'
-date: '2021-01-12'
+date: '2022-06-01'
 sidebar: 'auto'
 subSidebar: true
 categories:
