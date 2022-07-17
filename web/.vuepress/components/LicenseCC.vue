@@ -41,7 +41,7 @@
     </p>
     <p>
       Te pido que respetes las horas de trabajo que he tenido como autor citándome en la fuente donde hagas
-        uso de estos proyectos, apuntes, contenidos o códigos. Si tienes dudas puedes contactar conmigo. 
+        uso de estos proyectos, apuntes, contenidos o códigos. Si tienes dudas puedes contactar conmigo.
     </p>
     <p>¡Muchas Gracias!</p>
     <p>

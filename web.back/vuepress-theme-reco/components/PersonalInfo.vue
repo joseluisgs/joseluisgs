@@ -23,6 +23,11 @@
         </a>
       </li>
     </ul>
+    <div class="social-coffe">
+      <a href="https://www.buymeacoffee.com/joseluisgs" target="_blank">
+        <img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="joseluisgs" />
+      </a>
+    </div>
     <div class="num">
       <div>
         <h3>{{ $recoPosts.length }}</h3>
@@ -63,6 +68,18 @@ export default defineComponent({
 </script>
 
 <style lang="stylus" scoped>
+.social-coffe {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 2rem;
+    }
+}
+
 .social-link {
   text-decoration: none;
   color: inherit;
@@ -97,7 +114,7 @@ export default defineComponent({
 
   .num {
     display: flex;
-    margin: 0 auto 1rem;
+    margin: 1rem auto 1rem;
     width: 80%;
 
     > div {
@@ -126,12 +143,12 @@ export default defineComponent({
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
+    /* padding: 10px; */
     align-items: center;
     justify-content: center;
 
     .social-item {
-      width: 39px;
+      width: 36px;
       height: 36px;
       line-height: 36px;
       text-align: center;

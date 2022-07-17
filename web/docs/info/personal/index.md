@@ -79,6 +79,16 @@ A parte de enseñar y desarrollar, disfruto con la música, especialmente todo t
     </a>    
 </p>
 
+## ¿Un café?
+<p align="center">
+  Si te gusta o te ha sido útil el contenido de mi web o proyectos, puedes invitarme a un café ☕.
+</p>
+<p align="center">
+    <a href="https://www.buymeacoffee.com/joseluisgs" target="_blank"> 
+      <img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" />
+    </a>
+  </p>
+
 ## Una cita
 > "Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives". 
 > 
