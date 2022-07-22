@@ -208,7 +208,7 @@ Other            24 mins         ▒░░░░░░░░░░░░░░�
 
 ### ⚙ Otros movimientos en GitHub
   <!--START_SECTION:activity-->
-  
+1. ❌ Closed PR [#24](https://github.com/joseluisgs/joseluisgs/pull/24) in [joseluisgs/joseluisgs](https://github.com/joseluisgs/joseluisgs)
   <!--END_SECTION:activity-->
 
 <p align="center">
