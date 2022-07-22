@@ -171,6 +171,11 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi blog </h2>
 
 <!-- BLOG-POST-LIST:START -->
+- [Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos.](https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html)
+- [Kotlin Expert](https://joseluisgs.github.io/blogs/2022/2022-06-27-kotlin-expert.html)
+- [Mejorando en Kotlin como profesor gracias a una decepción](https://joseluisgs.github.io/blogs/2022/2022-06-25-decepciones-superaciones.html)
+- [José Luis González, PhD.](https://joseluisgs.github.io/docs/info/personal/)
+- [Soy un Vue Lover](https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html)
 <!-- BLOG-POST-LIST:END -->
 ➡️ [Leer más...][blog]
 
