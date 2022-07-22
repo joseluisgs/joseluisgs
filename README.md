@@ -214,7 +214,7 @@ Other            24 mins         ▒░░░░░░░░░░░░░░�
 
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#24](https://github.com/joseluisgs/joseluisgs/pull/24) in [joseluisgs/joseluisgs](https://github.com/joseluisgs/joseluisgs)
+1. ❗️ Opened issue [#1390](https://github.com/InsertKoinIO/koin/issues/1390) in [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin)
   <!--END_SECTION:activity-->
 
 
