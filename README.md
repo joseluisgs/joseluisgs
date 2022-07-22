@@ -206,15 +206,17 @@ Other            24 mins         ▒░░░░░░░░░░░░░░�
 
 </p>
 
-### ⚙ Otros movimientos en GitHub
-  <!--START_SECTION:activity-->
-1. ❌ Closed PR [#24](https://github.com/joseluisgs/joseluisgs/pull/24) in [joseluisgs/joseluisgs](https://github.com/joseluisgs/joseluisgs)
-  <!--END_SECTION:activity-->
-
+ 
 <p align="center">
 <!--SNAKE-->
    <img src="https://github.com/joseluisgs/joseluisgs/blob/output/github-contribution-grid-snake.svg" alt="snake">
 </p>
+
+
+  <!--START_SECTION:activity-->
+1. ❌ Closed PR [#24](https://github.com/joseluisgs/joseluisgs/pull/24) in [joseluisgs/joseluisgs](https://github.com/joseluisgs/joseluisgs)
+  <!--END_SECTION:activity-->
+
 
 
 <p align="center">
