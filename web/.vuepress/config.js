@@ -255,5 +255,15 @@ module.exports = {
         hostname: 'https://joseluisgs.github.io/',
       },
     ],
+
+    // Feed
+    [
+      '@vuepress-reco/vuepress-plugin-rss',
+      {
+        site_url: 'https://joseluisgs.github.io',
+        copyright: `Copyright © ${new Date().getFullYear()} José Luis González`,
+        count: 10,
+      },
+    ],
   ],
 };

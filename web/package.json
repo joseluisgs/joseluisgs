@@ -29,6 +29,7 @@
   "homepage": "https://github.com/joseluisgs/joseluisgs.github.io#readme",
   "devDependencies": {
     "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
+    "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
     "esm": "^3.2.25",
     "vuepress": "1.8.2",
     "vuepress-plugin-sitemap": "^2.3.1",
