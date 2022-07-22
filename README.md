@@ -46,7 +46,6 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
----
 
 <h2 align="center">📫 Contacto</h2>
 <p align="center">
@@ -86,7 +85,6 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
     </a>
   </p>
 
----
 
 <h2 align="center">⚡ Tecnologías favoritas</h2>
 <p align="center">
@@ -169,14 +167,13 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="45">
 </p>
 
----
+
 <h2 align="center">📕 Mi blog </h2>
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 ➡️ [Leer más...][blog]
 
----
 
 <h2 align="center">📈 Mi Actividad</h2>
 
