@@ -208,6 +208,7 @@ Other            24 mins         ▒░░░░░░░░░░░░░░�
 
 ### ⚙ Otros movimientos en GitHub
   <!--START_SECTION:activity-->
+  
   <!--END_SECTION:activity-->
 
 <p align="center">
