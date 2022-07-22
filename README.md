@@ -46,6 +46,8 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
+---
+
 <h2 align="center">📫 Contacto</h2>
 <p align="center">
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
@@ -83,6 +85,8 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
       <img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" />
     </a>
   </p>
+
+---
 
 <h2 align="center">⚡ Tecnologías favoritas</h2>
 <p align="center">
@@ -165,12 +169,24 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="45">
 </p>
 
+---
+<h2 align="center">📕 Mi blog </h2>
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+➡️ [Leer más...][blog]
+
+---
+
 <h2 align="center">📈 Mi Actividad</h2>
 
 <p align="center">
   <a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true" alt="joseluisgs's GitHub stats" height="150"/></a>
 <a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://activity-graph.herokuapp.com/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
 </p>
+
+  <!--START_SECTION:activity-->
+  <!--END_SECTION:activity-->
 
 <p align="center">
   <img src="https://wakatime.com/share/@32eb50dd-eea7-4883-8349-298accb92677/71cb70c1-65f1-444c-ad0c-0a149202edb8.svg"height= 300></img>
