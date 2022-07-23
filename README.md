@@ -206,7 +206,7 @@ Other            24 mins         ▒░░░░░░░░░░░░░░�
 
 </p>
 
-🔎 [Ver más...](https://wakatime.com/@josejuisgs)
+🔎 [Ver más...](https://wakatime.com/@JoseLuisGS)
 
  
 <p align="center">
