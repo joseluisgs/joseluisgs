@@ -206,6 +206,8 @@ Other            24 mins         ▒░░░░░░░░░░░░░░�
 
 </p>
 
+🔎 [Ver más...](https://wakatime.com/@josejuisgs)
+
  
 <p align="center">
 <!--SNAKE-->
