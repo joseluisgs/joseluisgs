@@ -174,15 +174,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
-<!-- BLOG-POST-LIST:START --><table><tr><td><a href="https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html"><img width="140px" src="https://i.ytimg.com/vi/$videoId/mqdefault.jpg"></a></td>
+<!-- BLOG-POST-LIST:START --><table><tr><td><a href="https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html"><img width="140px" src="https://joseluisgs.github.io/img/web-social.png"></a></td>
 <td><a href="https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html">Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos.</a><br/>11, Jul 2022</td></tr></table>
-<table><tr><td><a href="https://joseluisgs.github.io/blogs/2022/2022-06-27-kotlin-expert.html"><img width="140px" src="https://i.ytimg.com/vi/$videoId/mqdefault.jpg"></a></td>
+<table><tr><td><a href="https://joseluisgs.github.io/blogs/2022/2022-06-27-kotlin-expert.html"><img width="140px" src="https://joseluisgs.github.io/img/web-social.png"></a></td>
 <td><a href="https://joseluisgs.github.io/blogs/2022/2022-06-27-kotlin-expert.html">Kotlin Expert</a><br/>27, Jun 2022</td></tr></table>
-<table><tr><td><a href="https://joseluisgs.github.io/blogs/2022/2022-06-25-decepciones-superaciones.html"><img width="140px" src="https://i.ytimg.com/vi/$videoId/mqdefault.jpg"></a></td>
+<table><tr><td><a href="https://joseluisgs.github.io/blogs/2022/2022-06-25-decepciones-superaciones.html"><img width="140px" src="https://joseluisgs.github.io/img/web-social.png"></a></td>
 <td><a href="https://joseluisgs.github.io/blogs/2022/2022-06-25-decepciones-superaciones.html">Mejorando en Kotlin como profesor gracias a una decepción</a><br/>25, Jun 2022</td></tr></table>
-<table><tr><td><a href="https://joseluisgs.github.io/docs/info/personal/"><img width="140px" src="https://i.ytimg.com/vi/$videoId/mqdefault.jpg"></a></td>
+<table><tr><td><a href="https://joseluisgs.github.io/docs/info/personal/"><img width="140px" src="https://joseluisgs.github.io/img/web-social.png"></a></td>
 <td><a href="https://joseluisgs.github.io/docs/info/personal/">José Luis González, PhD.</a><br/>1, Jun 2022</td></tr></table>
-<table><tr><td><a href="https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html"><img width="140px" src="https://i.ytimg.com/vi/$videoId/mqdefault.jpg"></a></td>
+<table><tr><td><a href="https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html"><img width="140px" src="https://joseluisgs.github.io/img/web-social.png"></a></td>
 <td><a href="https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html">Soy un Vue Lover</a><br/>8, Dec 2021</td></tr></table>
 <!-- BLOG-POST-LIST:END -->
 
