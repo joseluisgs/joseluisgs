@@ -192,8 +192,8 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 </p>
 
 <p align="center">
-<figure><embed src="https://wakatime.com/share/@joseluisgs/45cc2bdb-c806-4d3e-a598-2f3454c18b02.svg" height= 300></embed></figure>
-<figure><embed src="https://wakatime.com/share/@joseluisgs/9aa02193-ceea-457f-b2be-eca356bf8ba8.svg" height= 300></embed></figure>
+<img src="https://wakatime.com/share/@joseluisgs/4f507445-a5b9-4915-82d0-f61d7119dcc0.svg" height= 300></img>
+ <img src="https://wakatime.com/share/@joseluisgs/ebacae7f-9326-49be-944a-e5b5729d6d74.svg" height= 300></img>
 <a href="https://wakatime.com/@32eb50dd-eea7-4883-8349-298accb92677"><img src="https://wakatime.com/badge/user/32eb50dd-eea7-4883-8349-298accb92677.svg" alt="Coding time" /></a>
  </p>
 
