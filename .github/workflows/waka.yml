@@ -2,19 +2,15 @@ name: Waka Readme
 
 on:
   schedule:
-    # Runs at 12am UTC
-    - cron: '0 0 * * *' # runs at every 12AM UTC
-  
-  # This command allows us to run the Action automatically from the Actions tab.
+    # Runs at 12am IST
+    - cron: '30 18 * * *'
   workflow_dispatch:
-
 jobs:
   update-readme:
-    name: Update this repo's README
+    name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          SHOW_TOTAL: true
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
