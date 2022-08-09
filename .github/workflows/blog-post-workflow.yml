@@ -17,4 +17,4 @@ jobs:
         with:
           feed_list: 'https://joseluisgs.github.io/rss'
           date_format: 'd, mmm de yyyy'
-          template: '<table><tr><td><a href="$url"><img width="140px" src="https://joseluisgs.github.io/img/web-social.png"></a></td>$newline<td><a href="$url">$title</a><br/>$date</td></tr></table>$newline'
+          template: '<table><tr><td><a href="$url"><img width="80px" src="https://joseluisgs.github.io/img/web-social.png"></a></td>$newline<td><a href="$url">$title</a><br/>$date</td></tr></table>$newline'
