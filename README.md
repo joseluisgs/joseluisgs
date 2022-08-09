@@ -185,6 +185,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <table><tr><td><a href="https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html"><img width="140px" src="https://i.ytimg.com/vi/$videoId/mqdefault.jpg"></a></td>
 <td><a href="https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html">Soy un Vue Lover</a><br/>8, Dec 2021</td></tr></table>
 <!-- BLOG-POST-LIST:END -->
+
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
 
 
