@@ -17,5 +17,5 @@ jobs:
         with:
           feed_list: 'https://joseluisgs.github.io/rss'
           date_format: 'd mmm yyyy'
-          template: '$newline - ✏️ [**$title**]($url) 🗓 *$date* $newline'
+          template: '$newline - ✏️ [**$title**]($url) *$date* $newline'
           # template: '<table><tr><td><a href="$url"><img width="60px" src="https://joseluisgs.github.io/img/web-social.png"></a></td>$newline<td><a href="$url">$title</a><br/>$date</td></tr></table>$newline'
