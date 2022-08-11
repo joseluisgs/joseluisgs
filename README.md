@@ -232,7 +232,7 @@ Kotlin           1 hr            ▒░░░░░░░░░░░░░░�
 
 
   <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#1390](https://github.com/InsertKoinIO/koin/issues/1390) in [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin)
+1. ❗️ Opened issue [#1689](https://github.com/johnsoncodehk/volar/issues/1689) in [johnsoncodehk/volar](https://github.com/johnsoncodehk/volar)
   <!--END_SECTION:activity-->
 
 
