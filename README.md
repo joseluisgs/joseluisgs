@@ -205,7 +205,14 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+From: 11 August 2022 - To: 18 August 2022
+
+Total Time: 4 hrs 3 mins
+
+Vue.js       5 hrs 2 mins    ███████████████▓░░░░░░░░░   62.22 %
+JavaScript   2 hrs 44 mins   ████████▒░░░░░░░░░░░░░░░░   33.89 %
+JSON         15 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.22 %
+Markdown     3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.67 %
 ```
 
 <!--END_SECTION:waka-->
