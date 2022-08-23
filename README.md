@@ -231,7 +231,7 @@ Other        1 min           ░░░░░░░░░░░░░░░░░
 
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1689](https://github.com/johnsoncodehk/volar/issues/1689) in [johnsoncodehk/volar](https://github.com/johnsoncodehk/volar)
+1. 🗣 Commented on [#1](https://github.com/joseluisgs/Programacion-AlumnosClase/issues/1) in [joseluisgs/Programacion-AlumnosClase](https://github.com/joseluisgs/Programacion-AlumnosClase)
   <!--END_SECTION:activity-->
 
 
