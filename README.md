@@ -230,7 +230,7 @@ Other            36 mins         ▓░░░░░░░░░░░░░░�
 
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/joseluisgs/Programacion-AlumnosClase/issues/1) in [joseluisgs/Programacion-AlumnosClase](https://github.com/joseluisgs/Programacion-AlumnosClase)
+1. 🎉 Merged PR [#1](https://github.com/joseluisgs/AccesoDatos-01-2022-2023/pull/1) in [joseluisgs/AccesoDatos-01-2022-2023](https://github.com/joseluisgs/AccesoDatos-01-2022-2023)
   <!--END_SECTION:activity-->
 
 
