@@ -231,7 +231,7 @@ Other            49 mins         ▓░░░░░░░░░░░░░░�
 
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/joseluisgs/AccesoDatos-01-2022-2023/pull/1) in [joseluisgs/AccesoDatos-01-2022-2023](https://github.com/joseluisgs/AccesoDatos-01-2022-2023)
+1. ❗️ Opened issue [#1](https://github.com/IvanAzagraTroya/Kotlin/issues/1) in [IvanAzagraTroya/Kotlin](https://github.com/IvanAzagraTroya/Kotlin)
   <!--END_SECTION:activity-->
 
 
