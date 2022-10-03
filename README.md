@@ -232,7 +232,7 @@ Properties       43 mins         ▓░░░░░░░░░░░░░░�
 
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#24](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023/pull/24) in [joseluisgs/PullRequestEntornos1DAM-2022-2023](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023)
+1. ❌ Closed PR [#23](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023/pull/23) in [joseluisgs/PullRequestEntornos1DAM-2022-2023](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023)
   <!--END_SECTION:activity-->
 
 
