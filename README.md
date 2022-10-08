@@ -232,7 +232,7 @@ XML              53 mins         ▓░░░░░░░░░░░░░░�
 
 
   <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#102](https://github.com/pdvrieze/xmlutil/issues/102) in [pdvrieze/xmlutil](https://github.com/pdvrieze/xmlutil)
+1. 🗣 Commented on [#102](https://github.com/pdvrieze/xmlutil/issues/102) in [pdvrieze/xmlutil](https://github.com/pdvrieze/xmlutil)
   <!--END_SECTION:activity-->
 
 
