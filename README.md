@@ -223,16 +223,11 @@ HTML             1 hr 59 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@32eb50dd-eea7-4883-8349-298accb92677"><img src="https://wakatime.com/badge/user/32eb50dd-eea7-4883-8349-298accb92677.svg" alt="Coding time" /></a>
 </p>
 
-
-
-
- 
 <p align="center">
+<img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/profile-3d-contrib/profile-night-rainbow.svg" alt="graficas">
 <!--SNAKE-->
    <img src="https://github.com/joseluisgs/joseluisgs/blob/output/github-contribution-grid-snake.svg" alt="snake">
 </p>
-
-![](./profile-3d-contrib/profile-night-rainbow.svg)
 
   <!--START_SECTION:activity-->
 1. 🗣 Commented on [#102](https://github.com/pdvrieze/xmlutil/issues/102) in [pdvrieze/xmlutil](https://github.com/pdvrieze/xmlutil)
