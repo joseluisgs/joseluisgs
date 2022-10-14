@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs at 12am UTC
     - cron: '0 0 * * *' # runs at every 12AM UTC
-  
+
   # This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
 
@@ -18,3 +18,5 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
           SHOW_TOTAL: true
+          TIME_RANGE: last_30_days
+          BLOCKS: '⬜🟨🟩'
