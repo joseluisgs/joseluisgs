@@ -50,7 +50,11 @@ A continuación muestro proyectos destacados en estos momentos ya sea porque se 
 
 <p align="center">
 <img src="https://wakatime.com/share/@joseluisgs/45920ff5-102f-4c99-98bf-66020c1985e2.svg" height= 300></img>
- <img src="https://wakatime.com/share/@joseluisgs/58cd2496-6b0d-426d-bc34-add12de917ad.svg" height= 300></img>
+<img src="https://wakatime.com/share/@joseluisgs/58cd2496-6b0d-426d-bc34-add12de917ad.svg" height= 300></img>
+<img src="https://wakatime.com/share/@joseluisgs/7e64efc7-8b7e-482a-aa05-fa6341ee13e1.svg" alt="Coding time" />
 <a href="https://wakatime.com/@32eb50dd-eea7-4883-8349-298accb92677"><img src="https://wakatime.com/badge/user/32eb50dd-eea7-4883-8349-298accb92677.svg" alt="Coding time" /></a>
+<img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Coding time" />
  </p>
+
+
  
