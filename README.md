@@ -230,7 +230,7 @@ JavaScript       1 hr 34 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#102](https://github.com/pdvrieze/xmlutil/issues/102) in [pdvrieze/xmlutil](https://github.com/pdvrieze/xmlutil)
+1. ❗️ Closed issue [#268](https://github.com/timothycrosley/streamdeck-ui/issues/268) in [timothycrosley/streamdeck-ui](https://github.com/timothycrosley/streamdeck-ui)
   <!--END_SECTION:activity-->
 
 
