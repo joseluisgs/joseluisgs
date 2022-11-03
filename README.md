@@ -175,6 +175,8 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Nuevo curso, nuevos retos.**](https://joseluisgs.github.io/blogs/2022/2022-11-02-nuevo-curso-nuevos-retos.html) *2 Nov 2022* 
+
  - ✏️ [**Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos.**](https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html) *11 Jul 2022* 
 
  - ✏️ [**Kotlin Expert**](https://joseluisgs.github.io/blogs/2022/2022-06-27-kotlin-expert.html) *27 Jun 2022* 
@@ -182,8 +184,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
  - ✏️ [**Mejorando en Kotlin como profesor gracias a una decepción**](https://joseluisgs.github.io/blogs/2022/2022-06-25-decepciones-superaciones.html) *25 Jun 2022* 
 
  - ✏️ [**José Luis González, PhD.**](https://joseluisgs.github.io/docs/info/personal/) *1 Jun 2022* 
-
- - ✏️ [**Soy un Vue Lover**](https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html) *8 Dec 2021* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
