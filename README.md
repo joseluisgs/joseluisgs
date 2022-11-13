@@ -175,6 +175,8 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Nuevo curso, nuevos retos.**](https://joseluisgs.github.io/blogs/2022/2022-11-02-nuevo-curso-nuevos-retos.html) *2 Nov 2022* 
+
  - ✏️ [**Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos.**](https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html) *11 Jul 2022* 
 
  - ✏️ [**Kotlin Expert**](https://joseluisgs.github.io/blogs/2022/2022-06-27-kotlin-expert.html) *27 Jun 2022* 
@@ -182,8 +184,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
  - ✏️ [**Mejorando en Kotlin como profesor gracias a una decepción**](https://joseluisgs.github.io/blogs/2022/2022-06-25-decepciones-superaciones.html) *25 Jun 2022* 
 
  - ✏️ [**José Luis González, PhD.**](https://joseluisgs.github.io/docs/info/personal/) *1 Jun 2022* 
-
- - ✏️ [**Soy un Vue Lover**](https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html) *8 Dec 2021* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
@@ -204,16 +204,16 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```text
-From: 01 October 2022 - To: 31 October 2022
+From: 12 October 2022 - To: 11 November 2022
 
-Total Time: 99 hrs 6 mins
+Total Time: 122 hrs 29 mins
 
-Kotlin           64 hrs 31 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜   64.76 %
-Vue.js           11 hrs          🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.04 %
-Java             9 hrs 2 mins    🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   09.07 %
-Markdown         8 hrs 52 mins   🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.90 %
-JavaScript       1 hr 15 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.26 %
-XML              1 hr 11 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.19 %
+Kotlin           88 hrs 55 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜   72.39 %
+Vue.js           11 hrs 39 mins  🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   09.49 %
+Markdown         9 hrs 29 mins   🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.72 %
+Java             5 hrs 27 mins   🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.44 %
+JavaScript       2 hrs 21 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.92 %
+XML              47 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.65 %
 ```
 
 <!--END_SECTION:waka-->
