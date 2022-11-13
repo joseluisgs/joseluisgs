@@ -44,7 +44,11 @@ Además suelo impartir o impartido en otras ocasiones:
 - Implantación de Aplicaciones Web 2º de ASIR.
 
 ### Docencia en Másteres y Doctorado
-Actualmente colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) englobada en dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).
+Colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) englobada en dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).
+
+### Docencia en Formación del profesorado
+Imparto formación a profesorado de Secundaria y Formación del Profesorado en temas relacionados con el desarrollo de software y sistemas interactivos.
+- [Desarrollo Web en entorno Cliente con Vue.js. IFC02CM22_23 (A-0046)](https://innovacionyformacion.educa.madrid.org/node/85493). Curso de Formación en desarrollo de Aplicaciones Web con Vue.js. ISMIE Instituto Superior Madrileño de Innovación Educativa. Programas de Innovación y Formación del Profesorado. Curso 2022/2023.
 
 ### Otra Formación en la que participo
 Actualmente imparto diversas formaciones complementarias o de especialización. También, he impartido bastante a lo largo de mi carrera. Resaltaré aquí las realizadas en el último año.
