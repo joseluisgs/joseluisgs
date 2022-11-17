@@ -230,7 +230,7 @@ XML              47 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#268](https://github.com/timothycrosley/streamdeck-ui/issues/268) in [timothycrosley/streamdeck-ui](https://github.com/timothycrosley/streamdeck-ui)
+1. 🗣 Commented on [#110](https://github.com/ufoss-org/kotysa/issues/110) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
   <!--END_SECTION:activity-->
 
 
