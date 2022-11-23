@@ -230,7 +230,7 @@ SQL              1 hr 34 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#110](https://github.com/ufoss-org/kotysa/issues/110) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
+1. 🗣 Commented on [#49](https://github.com/jrandiny/yoga-slim7-ubuntu/issues/49) in [jrandiny/yoga-slim7-ubuntu](https://github.com/jrandiny/yoga-slim7-ubuntu)
   <!--END_SECTION:activity-->
 
 
