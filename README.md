@@ -230,7 +230,7 @@ SQL              1 hr 45 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#49](https://github.com/jrandiny/yoga-slim7-ubuntu/issues/49) in [jrandiny/yoga-slim7-ubuntu](https://github.com/jrandiny/yoga-slim7-ubuntu)
+1. 🗣 Commented on [#17](https://github.com/egoist/gh-pinned-repos/issues/17) in [egoist/gh-pinned-repos](https://github.com/egoist/gh-pinned-repos)
   <!--END_SECTION:activity-->
 
 
