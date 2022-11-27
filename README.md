@@ -230,7 +230,7 @@ SQL              1 hr 31 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#17](https://github.com/egoist/gh-pinned-repos/issues/17) in [egoist/gh-pinned-repos](https://github.com/egoist/gh-pinned-repos)
+1. ❗️ Closed issue [#91](https://github.com/Foso/Ktorfit/issues/91) in [Foso/Ktorfit](https://github.com/Foso/Ktorfit)
   <!--END_SECTION:activity-->
 
 
