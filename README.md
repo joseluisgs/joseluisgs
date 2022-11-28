@@ -230,7 +230,7 @@ SQL              1 hr 30 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#91](https://github.com/Foso/Ktorfit/issues/91) in [Foso/Ktorfit](https://github.com/Foso/Ktorfit)
+1. 🗣 Commented on [#6](https://github.com/UstadMobile/door/issues/6) in [UstadMobile/door](https://github.com/UstadMobile/door)
   <!--END_SECTION:activity-->
 
 
