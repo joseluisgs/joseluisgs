@@ -198,7 +198,7 @@ Yo ya había trabajado con las corrutinas en desarrollo móvil, pero ha sido est
 
 Sin duda, las corrutinas son una herramienta muy potente y que nos permite hacer código más limpio y mantenible y legible y nos abre las puertas a que fácilmente programemos siguiendo otras filosofías sin necesidad de instalar librerías externas pues nos ofrecen todo para ello.
 
-Como he dicho, no es un artículo para explicarte cómo funcionan, pero sí para mostrarte sus ventajas a nivel docente y en el back.
+Como he dicho, no es un artículo para explicarte cómo funcionan, pero sí para mostrarte sus ventajas a nivel docente y en el back. También te recomiendo que le eches un vistazo al blog de [Roman Elizarov, Project Lead for the Kotlin Programming Language de JetBrains](https://elizarov.medium.com/) donde comenta muchos aspectos interesantes de cómo está hecho Kotlin por dentro y las Corrutinas.
 
 ::: tip  <span class="iconify" data-icon="logos:kotlin-icon" />Pon una corrutina en tu vida y verás como todo cambia
 Bienvenido/a al mundo de las suspensión, de la concurrencia y de la programación reactiva. Bienvenido/a al mundo de las corrutinas.
