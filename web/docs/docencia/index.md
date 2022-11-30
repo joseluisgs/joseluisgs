@@ -49,6 +49,7 @@ Colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](h
 ### Docencia en Formación del profesorado
 Imparto formación a profesorado de Secundaria y Formación del Profesorado en temas relacionados con el desarrollo de software y sistemas interactivos.
 - [Desarrollo Web en entorno Cliente con Vue.js. IFC02CM22_23 (A-0046)](https://innovacionyformacion.educa.madrid.org/node/85493). Curso de Formación en desarrollo de Aplicaciones Web con Vue.js. ISMIE Instituto Superior Madrileño de Innovación Educativa. Programas de Innovación y Formación del Profesorado. Curso 2022/2023.
+- [FP-NextGen](https://github.com/joseluisgs/FP-NextGen-AccesoDatos). Elaborador de contenidos del módulo de Acceso a Datos y Programación de Servicios y Procesos. Corrector de Programación Multimedia y Dispositivos Móviles y Entornos de Desarrollo. Curso 2021/2022-2022/2023.
 
 ### Otra Formación en la que participo
 Actualmente imparto diversas formaciones complementarias o de especialización. También, he impartido bastante a lo largo de mi carrera. Resaltaré aquí las realizadas en el último año.
