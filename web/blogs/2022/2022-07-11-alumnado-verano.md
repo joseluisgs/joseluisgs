@@ -1,5 +1,5 @@
 ---
-title: Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos.
+title: Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos
 description: 'Algunas reflexiones de fin de curso con el calor de protagonista'
 date: '2022-07-11'
 # sidebar: 'auto'

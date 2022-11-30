@@ -1,5 +1,5 @@
 ---
-title: Nuevo curso, nuevos retos.
+title: Nuevo curso, nuevos retos
 description: 'Asentando y mejorando lo que tenemos en nuestro día a día'
 date: '2022-11-02'
 # sidebar: 'auto'
@@ -11,6 +11,7 @@ categories:
 tags:
   - Competencias
   - Formación
+  - Docencia
 
 publish: true
 image: 'https://www.besthrcertification.org/Images/New-trends-to-tackle-new-challenges.jpg'

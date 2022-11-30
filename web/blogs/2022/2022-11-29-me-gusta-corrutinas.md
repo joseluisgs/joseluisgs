@@ -11,6 +11,8 @@ categories:
 tags:
   - Competencias
   - Formación
+  - Kotlin
+  - Docencia
 
 publish: true
 image: 'https://kotlin.desarrollador-android.com/wp-content/uploads/2019/04/coroutines-kotlin.jpg'
@@ -202,5 +204,7 @@ Como he dicho, no es un artículo para explicarte cómo funcionan, pero sí para
 
 ::: tip  <span class="iconify" data-icon="logos:kotlin-icon" />Pon una corrutina en tu vida y verás como todo cambia
 Bienvenido/a al mundo de las suspensión, de la concurrencia y de la programación reactiva. Bienvenido/a al mundo de las corrutinas.
+
+Puedes ver distintos ejemplos de su uso en los apuntes de mis módulos y prácticas disponibles en <span class="iconify" data-icon="logos:github-icon" /> [Github](https://github.com/joseluisgs)
 :::
 
