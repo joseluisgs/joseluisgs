@@ -193,7 +193,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 
 <p align="center">
   <a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true" alt="joseluisgs's GitHub stats" height="150"/></a>
-<a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://activity-graph.herokuapp.com/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
+<a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://github-readme-activity-graph.cyclic.app/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
 </p>
 
 <p align="center">
