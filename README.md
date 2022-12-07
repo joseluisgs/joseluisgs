@@ -175,6 +175,8 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Ya no sé programar si no es reactivo**](https://joseluisgs.github.io/blogs/2022/2022-12-06-ya-no-se-programar-sin-reactividad.html) *6 Dec 2022* 
+
  - ✏️ [**El día que diga basta**](https://joseluisgs.github.io/blogs/2022/2022-11-30-dia-diga-basta.html) *30 Nov 2022* 
 
  - ✏️ [**Me encantan las Corrutinas**](https://joseluisgs.github.io/blogs/2022/2022-11-29-me-gusta-corrutinas.html) *29 Nov 2022* 
@@ -182,8 +184,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
  - ✏️ [**Nuevo curso, nuevos retos**](https://joseluisgs.github.io/blogs/2022/2022-11-02-nuevo-curso-nuevos-retos.html) *2 Nov 2022* 
 
  - ✏️ [**Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos**](https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html) *11 Jul 2022* 
-
- - ✏️ [**Kotlin Expert**](https://joseluisgs.github.io/blogs/2022/2022-06-27-kotlin-expert.html) *27 Jun 2022* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
