@@ -230,7 +230,7 @@ Java             2 hrs 59 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#6](https://github.com/UstadMobile/door/issues/6) in [UstadMobile/door](https://github.com/UstadMobile/door)
+1. ❌ Closed PR [#28](https://github.com/joseluisgs/joseluisgs/pull/28) in [joseluisgs/joseluisgs](https://github.com/joseluisgs/joseluisgs)
   <!--END_SECTION:activity-->
 
 
