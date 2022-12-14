@@ -230,7 +230,7 @@ JavaScript       2 hrs 28 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#28](https://github.com/joseluisgs/joseluisgs/pull/28) in [joseluisgs/joseluisgs](https://github.com/joseluisgs/joseluisgs)
+1. 🗣 Commented on [#1390](https://github.com/InsertKoinIO/koin/issues/1390) in [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin)
   <!--END_SECTION:activity-->
 
 
