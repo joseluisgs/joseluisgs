@@ -15,7 +15,13 @@ publish: true
 image: 'https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/616614/0405_Building_a_Node.js-TypeScript_REST_API_Zara_Newsletter___blog-1507ad3436895bfe7cc6cf35e4efb17f.png'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 
 Una de las cosas con las que más cómo me siento es con la facilidad con la que usando Javascript y Typescript puedo desarrollar cualquier tipo de producto, desde el back hasta el front hasta pasando por dispositivos móviles o aplicaciones de Alexa. En este entrada te comento a nivel didáctico distintos proyectos usados y librerías para aprender a montarte tu propio back-end para que consuman tu API REST.

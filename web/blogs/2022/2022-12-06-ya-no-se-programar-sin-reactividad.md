@@ -16,8 +16,12 @@ tags:
 
 publish: true
 image: 'https://www.kiebot.com/wp-content/uploads/2021/01/1_yXA_eIsmABYZ1GHZJTVJIQ.png'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
-giscus: true
+
+# si quieres que se muestre en la portada
+giscus: true 
 
 ---
 La frase no es mía, es de del gran [Antonio Leiva](https://devexperto.com/) 👈, en una de las charlas que tenemos a menudo. Pero me ha dado pie a escribir esta entrada, que no es más que una reflexión sobre la programación reactiva y su uso en determinadas aplicaciones y cómo llevarla al terreno de la docencia para explicar sus beneficios al alumnado. ¡Ya somos dos, mi admirado DevExperto! 💪

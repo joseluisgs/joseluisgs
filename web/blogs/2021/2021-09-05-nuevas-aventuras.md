@@ -12,7 +12,13 @@ publish: true
 image: 'https://www.irishtimes.com/polopoly_fs/1.2904309.1482173186!/image/image.jpg_gen/derivatives/box_620_330/image.jpg'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 A veces la vida te va empujando por caminos que nunca tenías pensando e incluso tener que poner un paréntesis a uno de los mejores puestos de trabajo que uno puede tener. Pero, es bueno salir de la zona de confort y empezar a explorar nuevas aventuras. Hay que crecer y avanzar, siempre agradeciendo lo vivido y aprendido.
 Te comento mi nuevo camino. 

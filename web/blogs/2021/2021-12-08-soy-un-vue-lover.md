@@ -17,7 +17,13 @@ publish: true
 image: 'https://mindwrackindia.com/wp-content/uploads/2018/06/vuesplash.3e416f3.png'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 
 Confieso, soy un Vue Lover y estoy orgulloso de serlo. Hace poco os hablé como [Kotlin siempre estaba en mi equipo](2021-11-28-kotlin-en-mi-equipo.md). Hoy me toca una de las entradas que mas deseaba escribir. Vue.js es imprescindible para mi. Aunque lo he ido adelantando a lo largo de esta web y distintas entradas y proyectos. Creo que no queda dudas de que me canta Vue.js y poco a poco te voy a mostrar a qué es debido que sea parte fundamental de mi [stack como desarrollador y profesor](2021-11-27-mi-stack.md).

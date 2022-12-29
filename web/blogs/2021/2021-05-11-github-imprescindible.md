@@ -16,7 +16,13 @@ publish: true
 image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--Nrzp31zz--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kml9j34p9taplrnqtcez.jpg'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 
 Sí, soy un enamorado de las tecnologías de mi amigo Octocat. De hecho, se han convertido en estos dos últimos cursos en mi pilar centrar en el que desarrollo mi docencia y donde concentro [apuntes y prácticas](https://github.com/joseluisgs) y proyectos personales. Me ofrece tantas ventajas, que voy a iniciar mi especial sobre tecnologías favoritas explicándo como uso GitHub en mi día a día.

@@ -15,7 +15,13 @@ tags:
 
 publish: true
 image: 'https://www.besthrcertification.org/Images/New-trends-to-tackle-new-challenges.jpg'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 He tardado en volver a escribir, pero los principios de curso suelen algo vertiginosos. En este curso hay nuevos retos, nuevos proyectos, nuevo alumnado y nuevos compañeros/as. Te comento mis apreciaciones y reflexiones, asi como mis objetivos para este curso.
 

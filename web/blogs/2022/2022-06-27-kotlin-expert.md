@@ -18,7 +18,13 @@ publish: true
 image: 'https://i.imgur.com/kXUCPP1.png'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Hoy te vengo a presentar una formación que seguro que te gustará: [Kotlin Expert](https://kotlinexpert.com/). A mi me ha encantado la idea y me está encantando el curso. Sí, lo estoy cursando. No suelo hacer recomendaciones vacías, si no basadas en mi propia experiencia. Creo que deberías conocer este curso si quieres ser un programador 100% Kotlin en todos los frentes. Es tu paso para ser fullstack e ir más allá en el desarrollo de Kotlin multiplataforma. Te comento sobre ello.
 

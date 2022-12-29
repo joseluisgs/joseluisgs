@@ -12,7 +12,13 @@ tags:
  - Competencias
 publish: true
 image: 'https://www.x-cart.com/wp-content/uploads/2017/09/how-to-become-a-web-developer.png'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Muchas veces nos paramos a pensar si en el mundo del desarrollo software alguna vez dejamos de aprender. La respuesta es sencilla: No.
 

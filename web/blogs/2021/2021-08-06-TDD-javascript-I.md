@@ -17,7 +17,13 @@ publish: true
 image: 'https://cdn-media-1.freecodecamp.org/images/1*0jCUKud4CkbbmNrFDzIQZw.png'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Estos días quiero presentaros una serie de proyectos y mini apuntes que realicé con mayor o menor acierto para explicar el despliegue seguro de las aplicaciones web. En estos mini proyectos hablaré del TDD y BDD de cómo realizar pruebas unitarias, de integración o E2E. Además mostraré en esta serie de entradas cómo manejar librerías específicas para ello como puede ser Jest o Cypress. En esta primera parte nos centraremos en el uso de Jest, especialmente para test unitarios y de integración y cómo usarlo en proyectos Node.js o de Vue.js.
 <!-- more -->

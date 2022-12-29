@@ -13,7 +13,13 @@ tags:
 
 publish: true
 image: 'https://img.freepik.com/premium-photo/broken-chain-with-red-weak-link_147644-166.jpg'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Este curso está siendo un poco atípico, por muchas circunstancias. A veces es bueno reflexionar que esta pasando con el sistema donde te mueves y realizas tu labor diaria y saber qué puedes cambiar y qué no.
 

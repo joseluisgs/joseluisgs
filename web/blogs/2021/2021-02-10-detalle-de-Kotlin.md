@@ -14,7 +14,13 @@ tags:
  - Android
 publish: true
 image: 'https://content.techgig.com/photo/82324241/5-reasons-why-you-should-learn-kotlin-in-2021.jpg'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Hace ya unos días que recibí un pequeño pero valioso detalle por parte de Jetbrains y el equipo de Kotlin por mi labor docente este año aplicando sus tecnologías en el desarrollo móvil. En esta entrada te comento detalles al respecto 🙂.
 

@@ -16,7 +16,13 @@ publish: true
 image: 'https://i.imgur.com/1Dnghu1.png'
 twitter_creator: joseluisgonsan
 twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Como ya habréis visto en mi banner y redes sociales, aparece un nuevo icono conmigo. Es un orgullo, placer y responsabilidad comunicar que he sido nombrado este mes de mayo embajador de [GitKraken](https://www.gitkraken.com/invite/wdJ7HntT). Para mi es una alegría inmensa que confíen para esta labor y así reconozcan el trabajo que se ha realizado estos dos últimos años aplicando GitKraken Suite en la enseñanza del desarrollo de software. 
 

@@ -16,7 +16,13 @@ tags:
 
 publish: true
 image: 'https://kotlin.desarrollador-android.com/wp-content/uploads/2019/04/coroutines-kotlin.jpg'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Si hay algo de lo que he disfrutado desde hace mucho tiempo es del uso de las Corrutinas en Kotlin. Este año he decidido explotar su uso en el backend y no puedo estar más satisfecho: rapidez, sencillez y nuevas filosofías de programación fácilmente aplicables sin recurrir a otros recursos.
 
