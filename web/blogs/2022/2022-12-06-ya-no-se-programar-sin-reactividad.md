@@ -168,7 +168,7 @@ Los que me conocen saben muy pro Kotlin, por lo que te dejo una sencilla impleme
 fun main() = runBlocking<Unit> {
     measureTimeMillis {
         println("Obteniendo noticias")
-        val noticiasFlow = getNoticiasSequence("https://www.20minutos.es/rss/")
+        val noticiasFlow = getNoticiasAsFlow("https://www.20minutos.es/rss/")
 
         launch {
             // en una parte de la interfaz podemos actualizar las noticias cada 3 segundos

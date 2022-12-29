@@ -24,7 +24,10 @@ module.exports = {
     ],
 
     // Google Search
-    ['meta', { name: 'google-site-verification', content: '6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90' }],
+    [
+      'meta',
+      { name: 'google-site-verification', content: '6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90' },
+    ],
 
     // Google analytics
     [
@@ -92,9 +95,17 @@ module.exports = {
           { text: 'Ayuda', link: 'https://forms.gle/V2m42qiW1s6X4oNt8', icon: 'mdi:help-circle' },
           { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'mdi:github' },
           { text: 'Twitter', link: 'https://twitter.com/joseluisgonsan', icon: 'mdi:twitter' },
-          { text: 'LinkedIn', link: 'https://www.linkedin.com/in/joseluisgonsan', icon: 'mdi:linkedin' },
+          {
+            text: 'LinkedIn',
+            link: 'https://www.linkedin.com/in/joseluisgonsan',
+            icon: 'mdi:linkedin',
+          },
           { text: 'Google Dev', link: 'https://g.dev/joseluisgs', icon: 'raphael:code' },
-          { text: 'Discord', link: 'https://discordapp.com/users/joseluisgs#3560', icon: 'ic:baseline-discord' },
+          {
+            text: 'Discord',
+            link: 'https://discordapp.com/users/joseluisgs#3560',
+            icon: 'ic:baseline-discord',
+          },
         ],
       },
     ],
@@ -127,9 +138,17 @@ module.exports = {
         // Information bar displays social information
         { icon: 'mdi:github', link: 'https://github.com/joseluisgs', color: '#fffff' },
         { icon: 'mdi:twitter', link: 'https://twitter.com/joseluisgonsan', color: '#1DA1F2' },
-        { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/joseluisgonsan', color: '#0077B5' },
+        {
+          icon: 'mdi:linkedin',
+          link: 'https://www.linkedin.com/in/joseluisgonsan',
+          color: '#0077B5',
+        },
         { icon: 'raphael:code', link: 'https://g.dev/joseluisgs', color: '#e81055' },
-        { icon: 'ic:baseline-discord', link: 'https://discordapp.com/users/joseluisgs#3560', color: '#7289DA' },
+        {
+          icon: 'ic:baseline-discord',
+          link: 'https://discordapp.com/users/joseluisgs#3560',
+          color: '#7289DA',
+        },
       ],
     },
 
@@ -265,5 +284,8 @@ module.exports = {
         count: 10,
       },
     ],
+
+    // Reading Time
+    ['vuepress-plugin-reading-time'],
   ],
 };
