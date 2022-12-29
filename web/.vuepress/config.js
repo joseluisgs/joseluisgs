@@ -106,6 +106,11 @@ module.exports = {
             link: 'https://discordapp.com/users/joseluisgs#3560',
             icon: 'ic:baseline-discord',
           },
+          {
+            text: 'YouTube',
+            link: 'https://www.youtube.com/@joseluisgs',
+            icon: 'mdi:youtube',
+          },
         ],
       },
     ],
@@ -148,6 +153,11 @@ module.exports = {
           icon: 'ic:baseline-discord',
           link: 'https://discordapp.com/users/joseluisgs#3560',
           color: '#7289DA',
+        },
+        {
+          icon: 'mdi:youtube',
+          link: 'https://www.youtube.com/@joseluisgs',
+          color: '#FF0000',
         },
       ],
     },
