@@ -157,7 +157,7 @@ module.exports = {
         {
           icon: 'mdi:youtube',
           link: 'https://www.youtube.com/@joseluisgs',
-          color: '#FF0000',
+          color: '#E62117',
         },
       ],
     },

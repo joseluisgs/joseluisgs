@@ -75,8 +75,12 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
     </a> &nbsp;&nbsp;
     <a href="https://g.dev/joseluisgs" target="_blank">
         <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
+    height="30"> &nbsp;&nbsp;
+    </a>
+    <a href="https://www.youtube.com/@joseluisgs" target="_blank">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
     height="30">
-    </a>    
+    </a>      
 </p>
 
 ### ¿Un café?
