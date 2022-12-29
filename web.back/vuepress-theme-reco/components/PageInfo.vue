@@ -119,6 +119,8 @@ export default defineComponent({
     
 .page-info
   display inline-block
+  &:not(:last-child)
+    margin-right 1rem
 
 
 @media (max-width: $MQMobile)
