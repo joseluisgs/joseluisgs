@@ -7,6 +7,7 @@
       <span>{{ pageInfo.frontmatter.author || $themeConfig.author }}</span>
     </reco-icon>
 
+    <div class="page-info">
     <reco-icon
       v-if="pageInfo.frontmatter.date"
       icon="reco-date"
@@ -21,6 +22,9 @@
       <span>{{ readingTime }}</span>
     </reco-icon>
 
+    </div>
+
+   
     <!-- <reco-icon
       v-if="showAccessNumber === true"
       icon="reco-eye"
@@ -103,6 +107,7 @@ export default defineComponent({
     margin-right 1rem
   span
     margin-left 0.5rem
+  
 .tags
   .tag-item
     font-family Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
@@ -111,8 +116,17 @@ export default defineComponent({
       color $accentColor
     &:hover
       color $accentColor
+    
+.page-info
+  display inline-block
+
+
 @media (max-width: $MQMobile)
   .tags
+    display block
+    margin-left 0 !important
+
+  .page-info
     display block
     margin-left 0 !important
 </style>
