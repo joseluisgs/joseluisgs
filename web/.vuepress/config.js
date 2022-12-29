@@ -59,6 +59,16 @@ module.exports = {
         src: 'https://code.iconify.design/2/2.2.1/iconify.min.js',
       },
     ],
+
+    // Giscus
+    [
+      'script',
+      {
+        type: 'module',
+        async: true,
+        src: 'https://unpkg.com/giscus?module',
+      },
+    ],
   ],
 
   // Configuración del tema

@@ -34,6 +34,21 @@
             ></span
           >
         </div>
+        <giscus-widget v-if="showGiscus"
+          id="comentarios"
+          repo="joseluisgs/joseluisgs.github.io"
+          repoid="MDEwOlJlcG9zaXRvcnkzMjg3NzQ4OTU="
+          category="General"
+          categoryid="DIC_kwDOE5i0784CTUPm"
+          mapping="title"
+          reactionsenabled="1"
+          emitmetadata="0"
+          inputposition="bottom"
+          :theme="giscusTheme"
+          lang="es"
+          crossorigin="anonymous"
+          loading="lazy"
+        ></giscus-widget>
       </footer>
     </ModuleTransition>
 
@@ -85,13 +100,31 @@ export default {
   data() {
     return {
       isHasKey: true,
+      giscusTheme: 'light',
     };
+  },
+
+  mounted() {
+    // console.log(this.$page.frontmatter);
+    const currentMode = localStorage.getItem('mode') || 'auto';
+    if (currentMode === 'dark') {
+      this.giscusTheme = 'dark';
+    } else {
+      this.giscusTheme = 'light';
+    }
   },
 
   computed: {
     recoShowModule() {
       return this.$parent.recoShowModule;
     },
+
+    showGiscus() {
+      return this.$page.frontmatter.giscus || false;
+    },
+
+
+
     // 是否显示评论
     shouldShowComments() {
       const { isShowComments } = this.$frontmatter;
