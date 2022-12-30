@@ -12,6 +12,7 @@ npm run build
 # copiamos readme y license
 cp README.md public
 cp LICENSE public
+cp CNAME public
 
 # cambiamos al directorio
 cd public
