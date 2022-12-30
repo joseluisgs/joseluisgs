@@ -10,8 +10,6 @@ tags:
   - Docencia
 publish: true
 image: 'https://www.irishtimes.com/polopoly_fs/1.2904309.1482173186!/image/image.jpg_gen/derivatives/box_620_330/image.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

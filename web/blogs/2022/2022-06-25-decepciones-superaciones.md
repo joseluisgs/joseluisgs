@@ -15,8 +15,6 @@ tags:
 
 publish: true
 image: 'https://kotlinlang.org/assets/images/twitter/general.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

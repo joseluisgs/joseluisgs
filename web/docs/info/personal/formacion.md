@@ -12,8 +12,7 @@ tags:
  - Cursos
 publish: true
 image: 'http://d3h051auklfox5.cloudfront.net/uploads/asset/file/20/Estudios_y_formaci_n.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
 
 ---
 Intentaré resumir mi formación y estudios realizados 👨‍🎓 

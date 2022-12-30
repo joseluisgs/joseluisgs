@@ -11,8 +11,6 @@ tags:
   - Competencias
 publish: true
 image: 'https://buenavibra.es/wp-content/uploads/2018/04/mito22.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

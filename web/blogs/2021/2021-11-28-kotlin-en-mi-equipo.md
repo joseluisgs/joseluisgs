@@ -15,8 +15,6 @@ tags:
 
 publish: true
 image: 'https://content.techgig.com/photo/82324241/5-reasons-why-you-should-learn-kotlin-in-2021.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

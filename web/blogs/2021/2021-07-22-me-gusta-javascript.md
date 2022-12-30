@@ -15,8 +15,6 @@ tags:
   - Node.js
 publish: true
 image: 'https://i.pinimg.com/originals/71/ee/32/71ee32577432648f9e45fbd63b2cf261.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

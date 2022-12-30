@@ -16,8 +16,6 @@ tags:
 
 publish: true
 image: 'https://i.imgur.com/kXUCPP1.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

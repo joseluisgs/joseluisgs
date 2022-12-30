@@ -14,8 +14,6 @@ tags:
   - GitKraken
 publish: true
 image: 'https://29l9ru1qvjub3321dj2ypylt-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/og-store.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

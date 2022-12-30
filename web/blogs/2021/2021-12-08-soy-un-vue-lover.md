@@ -15,8 +15,6 @@ tags:
 
 publish: true
 image: 'https://mindwrackindia.com/wp-content/uploads/2018/06/vuesplash.3e416f3.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

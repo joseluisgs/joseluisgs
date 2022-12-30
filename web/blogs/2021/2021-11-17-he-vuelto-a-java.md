@@ -11,8 +11,6 @@ tags:
   - Competencias
 publish: true
 image: 'https://www.teahub.io/photos/full/22-220143_java-java-wallpaper-hd.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

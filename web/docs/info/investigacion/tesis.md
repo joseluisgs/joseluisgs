@@ -13,8 +13,7 @@ tags:
  - Tesis
 publish: true
 image: 'https://i.imgur.com/lafghys.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
 ---
 El objetivo marcado con la tesis doctoral fue formalizar, unificar el concepto de Jugabilidad, creando un modelo para su análisis y medición con el objetivo de caracterizar la experiencia del jugador en sistemas de ocio electrónico o videojuegos y ser aplicable al proceso de producción de videojuegos.
 

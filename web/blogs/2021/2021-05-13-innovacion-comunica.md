@@ -14,8 +14,6 @@ tags:
   - Innovación
 publish: true
 image: 'https://i.imgur.com/LukNdoZ.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

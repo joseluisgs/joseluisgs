@@ -15,8 +15,6 @@ tags:
   - Gitkraken
 publish: true
 image: 'https://www.dovesco.com/sites/default/files/2020-09/axosoft.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

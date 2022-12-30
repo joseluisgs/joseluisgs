@@ -15,8 +15,6 @@ tags:
   - Cypress
 publish: true
 image: 'https://i.ytimg.com/vi/pJ349YntoIs/maxresdefault.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

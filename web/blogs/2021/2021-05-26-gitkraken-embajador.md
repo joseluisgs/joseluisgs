@@ -14,8 +14,6 @@ tags:
   - Gitkraken
 publish: true
 image: 'https://i.imgur.com/1Dnghu1.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 # si quieres que se muestre en la portada fija
 # sticky: 1
