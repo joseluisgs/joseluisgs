@@ -1,5 +1,5 @@
 ---
-title: Al alumno que copió su proyecto
+title: Al alumno que copió en su proyecto
 description: 'Seguro que al mirarte te sientes satisfecho'
 date: '2022-12-30'
 # sidebar: 'auto'
@@ -54,5 +54,4 @@ También te doy las gracias, por otros motivos que no vienen al caso, pero que m
 
 Y como soy muy agradecido por lo que he aprendido gracias a ti, te voy a dar una última lección/consejo: El mundo del desarrollo es muy pequeño. Espero que tu jefe actual no me pregunte por ti, o salgas en un tema de conversación, quizás se sorprenda de que ese trabajo que tan "hábilmente" saques salga de repositorios como el mío, por lo que se puede llevar una sorpresa si usas código con [licencia](https://joseluisgs.dev/docs/license/). ¿Te imaginas que le llega ese informe? Espero que nadie me pida referencias, o colabore con una empresa en la que estés o puedas estar, porque objetivamente no puedo decir otra cosa de ti que la expuesta aquí. Y espero que ta vida académica o formativa no te cruce conmigo. Y si lo haces, espero que seas otra persona tanto profesional, como a nivel de valores y ética. Porque si no, te aseguro que no te va a ir bien. Y te prometo, y nunca voy de farol, que no habrá una tercera oportunidad. Quien no cambia con la vida, no cambia nunca. Ahora todo dependerá de ti. Creo que nuestro sistema de valores nos hace incompatibles y amor por el desarrollo de software nos hace incompatibles.
 
-Muchas gracias por todo, y espero que aprendas de tus errores. Yo ya lo he hecho como te  he comentado, y todos/as nos beneficiaremos de tus acciones. Se puede decir que finalmente sí has sido un "ejemplo". Seguiré pensando que tuviste una gran oportunidad y la desperdiciaste.
-
+Muchas gracias por todo, y espero que aprendas de tus errores. Yo ya lo he hecho como te  he comentado, y todos/as nos beneficiaremos de tus acciones. Se puede decir que finalmente sí has sido un "ejemplo". Seguiré pensando que tuviste una gran oportunidad y la has desperdiciado.
