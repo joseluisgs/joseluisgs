@@ -28,7 +28,7 @@ Estimado alumno, he estado pensando mucho, pero mucho, si escribir esta entrada.
 ## El camino al final del grado
 
 ::: warning
-Antes de proseguir, estimado alumno, quiero que coste que esta opinión es puramente personal y no tiene nada que ver con la institución en la que has estudiado, ni con el profesorado que te ha formado. Es una opinión personal y la de nadie más.
+Antes de proseguir, estimado alumno, quiero que coste que esta opinión es puramente personal y no tiene nada que ver con la institución en la que has estudiado, ni con el profesorado que te ha formado. Es una opinión personal mía y de nadie más.
 :::
 
 Todos sabemos que un ciclo de grado superior es complicado y más uno de desarrollo de software. Son muchas horas y sacrificio aguantando a profesores como yo, que quizás no te hemos aportado nada, o quizás sí, a saber... Pero en esta vida ante todo hay que ser honrado y profesional. Lo primero se aprende desde la infancia, y lo segundo entre todos tus profesores te los hemos intentando inculcar. Y si no lo aprendes en tu centro con nosotros, lo aprendes en la vida. Y si no lo aprendes en la vida, pues no lo aprendes nunca. Pero entiendo que no te preocupe eso ahora.
