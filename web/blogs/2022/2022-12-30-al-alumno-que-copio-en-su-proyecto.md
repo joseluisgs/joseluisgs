@@ -26,6 +26,11 @@ Estimado alumno, he estado pensando mucho, pero mucho, si escribir esta entrada.
 <!-- more -->
 
 ## El camino al final del grado
+
+::: warning
+Antes de proseguir, estimado alumno, quiero que coste que esta opinión es puramente personal y no tiene nada que ver con la institución en la que has estudiado, ni con el profesorado que te ha formado. Es una opinión personal y la de nadie más.
+:::
+
 Todos sabemos que un ciclo de grado superior es complicado y más uno de desarrollo de software. Son muchas horas y sacrificio aguantando a profesores como yo, que quizás no te hemos aportado nada, o quizás sí, a saber... Pero en esta vida ante todo hay que ser honrado y profesional. Lo primero se aprende desde la infancia, y lo segundo entre todos tus profesores te los hemos intentando inculcar. Y si no lo aprendes en tu centro con nosotros, lo aprendes en la vida. Y si no lo aprendes en la vida, pues no lo aprendes nunca. Pero entiendo que no te preocupe eso ahora.
 
 Que coste que soy muy consciente de las presiones o situaciones personales y familiares que puede tener cada alumno/a, y que quizás podría haber sido tu caso, y que siempre valoramos esos aspectos ante la rigidez de un sistema que a veces es inflexible con determinadas circunstancias. Pero estas cosas, hacen que personas como tú, se aprovechen de la situación y no sepan valorar lo que tienen y la oportunidad para cambiar que se les ofrece. Y no es que no lo sepan valorar, es que no les importa. Y eso es lo que duele.
@@ -35,7 +40,7 @@ Al copiar no nos has engañado, te has engañado a ti mismo y tu mismo te has co
 ## Tu proyecto, tu gran oportunidad perdida
 Vamos a ser sinceros, no eras un alumno brillante. Nada que no se supla con trabajo. Te vendías como un crack de SMR, pero apenas rozabas la media de ese ciclo y que nunca llegó a destacar en DAM ni con el trabajo realizado. Seamos francos, por mucho escritorio remoto que uses, si te pillan copiando en varios módulos es que hay un problema y es que prefieres humillarte a ti mismo antes de que sea tu trabajo el que hable de ti. El resultado no es tan importante como los medios para lograrlo.
 
-Se te aprobó, te lo recuerdo, cosas del sistema y equipo docente. Eso no quiere decir que lo comparta, pero se hizo. Aún copiando, aún si saber manejar un puñetero hilo o servicio en Spring, con tus lágrimas de cocodrilo ante copia tras copia o problemas con tu "Remote Desktop", no solo conmigo si no en otros módulos. Personalmente pense "total, tampoco lo usará", ya que como te vendías como un crack de Python, la vida profesional te llevaría a donde tú quisieras aprender o desarrollarte. 
+Aprobaste, te lo recuerdo, son cosas del sistema y de las evaluaciones (y no voy a entrar en detalles sobre eso que tú ya conoces). En mis módulos aún copiando, aún si saber manejar un puñetero hilo o servicio en Spring, o una consulta en condiciones con JPA. A veces ante copia tras copia o problemas con tu "Remote Desktop", no solo conmigo si no en otros módulos, nos ofrecías lágrimas de cocodrilo. Por cierto, si tanto lo sentías, ¿por qué lo repetías? Personalmente pensé: "total, tampoco lo usará, la vida profesional le llevará a donde él quiera aprender o desarrollarse o si no ya lo aprenderá a la fuerza o se motivará más con Python". Error que me has demostrado que cometí y por el que te doy las gracias como leerás mas adelante.
 
 En el proyecto tuviste la oportunidad de hacer eso de lo que tanto presumías, y de nuevo abrazaste la auto-mediocridad ante la auto-superación. Este proyecto era tuyo, tuya era la idea, tuya la elección de tecnologías. No era algo impuesto por un docente. ¿Y que pasó? Pues cambiaste de tecnología, quizás fruto de tu limitada experiencia o competencias adquiridas. Lo vendiste, como siempre haces, agachando la cabeza manera compungida. Tenías la oportunidad de demostrar lo que puedes ofrecer como desarrollador, pero no, prefieres seguir con tu mentira. Quizás lo único que te ha definido.
 
