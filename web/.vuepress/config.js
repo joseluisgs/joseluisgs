@@ -104,7 +104,7 @@ module.exports = {
         items: [
           { text: 'Ayuda', link: 'https://forms.gle/V2m42qiW1s6X4oNt8', icon: 'mdi:help-circle' },
           { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'mdi:github' },
-          { text: 'Twitter', link: 'https://twitter.com/joseluisgonsan', icon: 'mdi:twitter' },
+          { text: 'Twitter', link: 'https://twitter.com/JoseLuisGS_', icon: 'mdi:twitter' },
           {
             text: 'LinkedIn',
             link: 'https://www.linkedin.com/in/joseluisgonsan',
@@ -152,7 +152,7 @@ module.exports = {
       socialLinks: [
         // Information bar displays social information
         { icon: 'mdi:github', link: 'https://github.com/joseluisgs', color: '#fffff' },
-        { icon: 'mdi:twitter', link: 'https://twitter.com/joseluisgonsan', color: '#1DA1F2' },
+        { icon: 'mdi:twitter', link: 'https://twitter.com/JoseLuisGS_', color: '#1DA1F2' },
         {
           icon: 'mdi:linkedin',
           link: 'https://www.linkedin.com/in/joseluisgonsan',
@@ -282,8 +282,8 @@ module.exports = {
         default_description: 'Página web de José Luis González Sánchez, PhD.',
         default_image_type: 'image/png',
         default_twitter_card: 'summary_large_image',
-        default_twitter_creator: '@joseluisgonsan',
-        twitter_site: '@joseluisgonsan',
+        default_twitter_creator: '@JoseLuisGS_',
+        twitter_site: '@JoseLuisGS_',
       },
     ],
 

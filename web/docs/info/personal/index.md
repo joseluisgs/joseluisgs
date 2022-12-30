@@ -61,7 +61,7 @@ A parte de enseñar y desarrollar, disfruto con la música, especialmente todo t
         <img loading="lazy" src="https://distreau.com/github.svg" 
     height="40">
     </a> &nbsp;&nbsp;
-    <a href="https://twitter.com/joseluisgonsan" target="_blank">
+    <a href="https://twitter.com/JoseLuisGS_" target="_blank">
         <img loading="lazy" src="https://i.imgur.com/U4Uiaef.png" 
     height="40">
     </a> &nbsp;&nbsp;
