@@ -4,6 +4,7 @@
       <!-- <h1>404</h1> -->
       <!-- <blockquote>{{ getMsg() }}</blockquote> -->
       <router-link to="/"><img src="/img/404.gif"></router-link>
+      <br/>
       <router-link to="/">Volver a inicio.</router-link>
     </article>
   </section>
@@ -48,9 +49,14 @@ export default {
 
 <style lang="stylus">
 .content {
-  margin: 4rem auto 0;
-  max-width: 800px;
+  text-align: center;
+  margin: 2rem auto 0;
+  height: 55%;
   padding: 0 2rem;
+}
+
+img {
+  width: 55%;
 }
 
 .mod_404 {
@@ -78,6 +84,7 @@ export default {
       padding-top: 20px;
     }
   }
+
 }
 </style>
 
