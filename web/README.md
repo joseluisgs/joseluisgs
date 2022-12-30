@@ -38,6 +38,7 @@ Web de ejemplo con el objetivo de poner en práctica distintas tecnologías y us
 Como se puede ver, a parte de una web personal, es un ejemplo de diversas tecnologías que uso a nivel docente o a nivel particular y que se pueden usar como ejemplos. Este ha sido mi verdadero objetivo con esta web. De hecho, todo el código siempre estará disponible en mi [repositorio](https://github.com/joseluisgs).
 
 ## Despliegue en
+- Dominio: https://joseluisgs.dev/
 - GitHub Pages: https://joseluisgs.github.io/
 - Netlify: https://joseluisgs.netlify.app/
 
@@ -53,7 +54,7 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
 <p>
- <a href="https://joseluisgs.github.io/" target="_blank">
+ <a href="https://joseluisgs.dev/" target="_blank">
         <img src="https://joseluisgs.github.io/img/favicon.png" 
     height="30">
     </a>  &nbsp;&nbsp;

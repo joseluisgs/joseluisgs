@@ -52,7 +52,7 @@ A parte de enseñar y desarrollar, disfruto con la música, especialmente todo t
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
 <p align="center">
-    <a href="https://joseluisgs.github.io/" target="_blank">
+    <a href="https://joseluisgs.dev/" target="_blank">
         <img loading="lazy" src="https://joseluisgs.github.io/img/favicon.png" 
     height="40">
     </a> &nbsp;&nbsp;

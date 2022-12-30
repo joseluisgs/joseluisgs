@@ -276,7 +276,7 @@ module.exports = {
       '@limdongjin/vuepress-plugin-simple-seo',
       {
         default_image: '/img/web-social.png',
-        root_url: 'https://joseluisgs.github.io',
+        root_url: 'https://joseluisgs.dev',
         default_site_name: 'José Luis González - Web',
         default_title: 'José Luis González - Web',
         default_description: 'Página web de José Luis González Sánchez, PhD.',
@@ -292,7 +292,7 @@ module.exports = {
     [
       'sitemap',
       {
-        hostname: 'https://joseluisgs.github.io/',
+        hostname: 'https://joseluisgs.dev/',
       },
     ],
 
@@ -300,7 +300,7 @@ module.exports = {
     [
       '@vuepress-reco/vuepress-plugin-rss',
       {
-        site_url: 'https://joseluisgs.github.io',
+        site_url: 'https://joseluisgs.dev',
         copyright: `Copyright © ${new Date().getFullYear()} José Luis González`,
         count: 10,
       },
