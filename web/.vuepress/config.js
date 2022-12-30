@@ -19,7 +19,7 @@ module.exports = {
       {
         name: 'keywords',
         content:
-          'José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Apliaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, Embajador, GIT, GitKraken, vuejs, vue, móvil, docker, mongodb, nodejs, node, kotlin, java, spring, springboot, Luis Vives, Leganes, Madrid, Universidad de Granada, Jugabilidad, Videojuegos',
+          'José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Aplicaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, Embajador, GIT, GitKraken, vuejs, vue, móvil, docker, mongodb, nodejs, node, android, compose, backend, java, spring, springboot, instituto, test, pruebas, calidad, Luis Vives, Leganes, Madrid, Universidad de Granada, Jugabilidad, Videojuegos',
       },
     ],
 
@@ -254,7 +254,8 @@ module.exports = {
     lastUpdated: 'Actualizado',
     author: 'Jose Luis González',
     authorAvatar: '/img/avatar.jpeg',
-    record: 'v1.5',
+    titlePage: 'JoseLuisGS',
+    record: 'v2.0',
     startYear: '2021',
     jobs: 'PhD - Profesor - Investigador - Desarrollador',
     jobsLine1: 'PhD - Profesor',
