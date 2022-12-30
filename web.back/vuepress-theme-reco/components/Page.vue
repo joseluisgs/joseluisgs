@@ -34,22 +34,23 @@
             ></span
           >
         </div>
-        <giscus-widget
-          v-if="showGiscus"
-          id="comentarios"
-          repo="joseluisgs/joseluisgs.github.io"
-          repoid="MDEwOlJlcG9zaXRvcnkzMjg3NzQ4OTU="
-          category="General"
-          categoryid="DIC_kwDOE5i0784CTUPm"
-          mapping="og:title"
-          reactionsenabled="1"
-          emitmetadata="0"
-          inputposition="bottom"
-          :theme="giscusTheme"
-          lang="es"
-          crossorigin="anonymous"
-          loading="lazy"
-        ></giscus-widget>
+        <div class="giscus" v-if="showGiscus">
+          <giscus-widget
+            id="comentarios"
+            repo="joseluisgs/joseluisgs.github.io"
+            repoid="MDEwOlJlcG9zaXRvcnkzMjg3NzQ4OTU="
+            category="General"
+            categoryid="DIC_kwDOE5i0784CTUPm"
+            mapping="og:title"
+            reactionsenabled="1"
+            emitmetadata="0"
+            inputposition="bottom"
+            :theme="giscusTheme"
+            lang="es"
+            crossorigin="anonymous"
+            loading="lazy"
+          ></giscus-widget>
+        </div>
       </footer>
     </ModuleTransition>
 
@@ -106,7 +107,7 @@
     },
 
     mounted() {
-      // console.log(this.$page.frontmatter);
+      //console.log(this.$page.frontmatter);
       const currentMode = localStorage.getItem('mode') || 'auto';
       if (currentMode === 'dark') {
         this.giscusTheme = 'dark';
@@ -367,6 +368,10 @@
     .next {
       float: right;
     }
+  }
+
+  .giscus {
+    margin-top: 2rem;
   }
 
   @media (max-width: $MQMobile) {
