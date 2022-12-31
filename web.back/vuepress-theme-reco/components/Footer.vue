@@ -25,7 +25,7 @@
       <a target="blank" href="https://github.com/joseluisgs"
         ><span class="iconify-inline iconfont" data-icon="mdi:github"></span
       ></a>
-      <a target="blank" href="https://twitter.com/joseluisgonsan"
+      <a target="blank" href="https://twitter.com/JoseLuisGS_"
         ><span class="iconify-inline iconfont" data-icon="mdi:twitter"></span
       ></a>
       <a target="blank" href="https://linkedin.com/in/joseluisgonsan"
@@ -36,6 +36,9 @@
       ></a>
       <a target="blank" href="https://discordapp.com/users/joseluisgs#3560"
         ><span class="iconify-inline iconfont" data-icon="ic:baseline-discord"></span
+      ></a>
+      <a target="blank" href="https://www.youtube.com/@joseluisgs"
+        ><span class="iconify-inline iconfont" data-icon="mdi:youtube"></span
       ></a>
     </span>
 
