@@ -2,8 +2,6 @@
 title: Al alumno que copió en su proyecto
 description: 'Seguro que al mirarte te sientes satisfecho'
 date: '2022-12-30'
-# sidebar: 'auto'
-subSidebar: true
 
 categories:
   - Blog
