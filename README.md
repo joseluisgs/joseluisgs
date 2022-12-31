@@ -179,15 +179,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
- - ✏️ [**Ya no sé programar si no es reactivo**](https://joseluisgs.github.io/blogs/2022/2022-12-06-ya-no-se-programar-sin-reactividad.html) *6 Dec 2022* 
+ - ✏️ [**Al alumno que copió en su proyecto**](https://joseluisgs.dev/blogs/2022/2022-12-30-al-alumno-que-copio-en-su-proyecto.html) *30 Dec 2022* 
 
- - ✏️ [**El día que diga basta**](https://joseluisgs.github.io/blogs/2022/2022-11-30-dia-diga-basta.html) *30 Nov 2022* 
+ - ✏️ [**Ya no sé programar si no es reactivo**](https://joseluisgs.dev/blogs/2022/2022-12-06-ya-no-se-programar-sin-reactividad.html) *6 Dec 2022* 
 
- - ✏️ [**Me encantan las Corrutinas**](https://joseluisgs.github.io/blogs/2022/2022-11-29-me-gusta-corrutinas.html) *29 Nov 2022* 
+ - ✏️ [**El día que diga basta**](https://joseluisgs.dev/blogs/2022/2022-11-30-dia-diga-basta.html) *30 Nov 2022* 
 
- - ✏️ [**Nuevo curso, nuevos retos**](https://joseluisgs.github.io/blogs/2022/2022-11-02-nuevo-curso-nuevos-retos.html) *2 Nov 2022* 
+ - ✏️ [**Me encantan las Corrutinas**](https://joseluisgs.dev/blogs/2022/2022-11-29-me-gusta-corrutinas.html) *29 Nov 2022* 
 
- - ✏️ [**Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos**](https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html) *11 Jul 2022* 
+ - ✏️ [**Nuevo curso, nuevos retos**](https://joseluisgs.dev/blogs/2022/2022-11-02-nuevo-curso-nuevos-retos.html) *2 Nov 2022* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
@@ -208,16 +208,16 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```text
-From: 28 November 2022 - To: 28 December 2022
+From: 29 November 2022 - To: 29 December 2022
 
-Total Time: 85 hrs 15 mins
+Total Time: 84 hrs 41 mins
 
-Kotlin           37 hrs 36 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   43.95 %
-Vue.js           16 hrs 49 mins  🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   19.66 %
-JavaScript       9 hrs 41 mins   🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.34 %
-Markdown         8 hrs 35 mins   🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   10.05 %
-TypeScript       3 hrs 39 mins   🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.28 %
-Java             3 hrs 26 mins   🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.03 %
+Kotlin           32 hrs 8 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   37.80 %
+Vue.js           20 hrs 53 mins  🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   24.57 %
+JavaScript       10 hrs 24 mins  🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.23 %
+Markdown         9 hrs 14 mins   🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   10.87 %
+TypeScript       3 hrs 39 mins   🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.31 %
+Java             2 hrs 54 mins   🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.41 %
 ```
 
 <!--END_SECTION:waka-->
