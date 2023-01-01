@@ -71,7 +71,7 @@ Por otro lado debo desprenderme de formas de trabajar anteriores. Estoy muy agra
 
 Me gustaría involucrarme en algún proyecto de innovación y colaborar en algo que en parte llene esa parte mía acostumbrada a investigar o buscar nuevas formas. Pero si eso implica tirar de personas, no sé si ahora estaré preparado. Pero como siempre aceptaré el reto. Sobre todo me atrae la idea de colaborar con otros departamentos y aprender de su forma de trabajar en otras especialidades. 
 
-Mejorar como docente en la comunicación de contenidos es esencial. Al día de hoy, sé que mi alumnado es lo más importante. Voy a seguir intentado darles un valor añadido a los contenidos del día a día para su futura etapa profesional e intentar poner de mi parte para que solventen sus problemas. De hecho voy a aplicar la máxima Dr. Max Goodwin en New Amsterdam y contestar siempre con **"¿cómo puedo ayudar?"** con cualquier persona que me rodee sobre todo dentro del aula.
+Mejorar como docente en la comunicación de contenidos es esencial. Al día de hoy, sé que mi alumnado es lo más importante. Voy a seguir intentado darles un valor añadido a los contenidos del día a día para su futura etapa profesional e intentar poner de mi parte para que solventen sus problemas. De hecho voy a aplicar la máxima Dr. Max Goodwin en New Amsterdam (una de las series con la que más estoy aprendiendo en distintos sentidos) y contestar siempre con **"¿cómo puedo ayudar?"** a cualquier persona que me rodee sobre todo dentro del aula.
 
 <p style="text-align:center;">
 <img loading="lazy" style="border-radius: 0.25rem;"
@@ -95,10 +95,12 @@ Si sigo en DAM, cosa que también dudo ahora, me gustaría replantear su enseña
 
 Me gustaría que entre el alumnado, centro y profesores implicados, empezando por mi, hacer un **club de desarrollo de software** para plasmar algunas ideas suyas, trabajar en proyectos  y sobre todo demos riendas sueltas a su creatividad e ideas. Yo me apunto a ello y con ello traer a distintos profesionales para que den su visión, aprendan de su experiencia.
 
+Voy a hacer un **libro gratis (o libros)** siguiendo los recursos, contenidos, prácticas que ya tengo disponibles en mi [GitHub](https://github.com/joseluisgs) para el aprendizaje de distintos módulos de DAM/DAW usando tecnologías como Kotlin, Vue.js o GitHub, siguiendo lo aprendido a lo largo de este tiempo. Y de paso mostrar dichos contenidos y prácticas en mi canal de [YouTube](https://www.youtube.com/@joseluisgs). Además potenciaré mi [web](https://joseluisgs.dev/) siguiendo ese camino. Quien quiera colaborar es bienvenido/a. 
+
 ## A nivel personal
 No de lo profesional vivo. Pero claro, si falla esa pata que es muy importante para desarrollarse interiormente pues uno siente un vacío importante. Siempre lo digo y siempre me pasa. Necesito separar e intentar que lo profesional de lo profesional y que no los compañeros/as tiene que ser amigos/as como en el pasado y limitarme solo a eso.
 
-Espero tener algún amigo más para salir y compartir. Tengo una buena base de gente con del club de tenis. Pero espero construir un grupo de amigos más amplio de tenis y de otras inquietudes. Que mola mucho echarse unas risas, unas cervezas y hablar de cualquier cosa pasando un buen rato.
+Leganés y Madrid es mi lugar (por ahora). Espero tener algún amigo más para salir y compartir. Tengo una buena base de gente con del club de tenis. Pero espero construir un grupo de amigos más amplio de tenis y de otras inquietudes. Que mola mucho echarse unas risas, unas cervezas y hablar de cualquier cosa pasando un buen rato. Debo aprender a sacar lo mejor o lo que más me aporte del lugar donde vivo.
 
 Espero avanzar más con la guitarra y volver a disfrutar de ello. Otra cosa que se me quitan las ganas o que la motivación no ha sido la adecuada. Pero espero que este año sea diferente y adquiera nuevas rutinas.
 
@@ -109,11 +111,15 @@ Y por supuesto, y lo más importante, **espero devolver todo el apoyo, cariño y
 :::tip Cosas a mejorar e intentar este año
 - Intenta y cuando todo falle, vuelve a intentar, pero analiza tus limitaciones, no puedes hacerlo todo solo, quizás solo una parte.
 - Descubre los talentos de tu alumnado y gente que te rodea e invítalos a dar lo mejor de sí. No todos pueden hacer todo, pero pueden ser lo mejor en algo.
-- Asimila que no podrás enseñar ni ayudar a todo el mundo y que la gente es mayor para tomar sus propias decisiones. Y si no quieren estar o no pueden superar los objetivos concretos no va  a ser por tu culpa.
+- Asimila que no podrás enseñar ni ayudar a todo el mundo y que la gente es mayor para tomar sus propias decisiones. Y si no quieren estar o no pueden superar los objetivos concretos no va a ser por tu culpa.
 - Tolerancia cero a la mediocridad. No te dejes engañar por la apariencia ni perdones a los que engañan o hagan trampas. Si no tienen respeto por lo que hacen, no merecen tu respeto.
+- El que da todo lo que tiene nunca podrá ser reprochado por lo que hace.
 - Siempre hay una manera mejor y más fácil de hacer las cosas. Que el confort y la rutina no te cieguen pero entiende que a otros les de el vértigo el cambio.
 - Facilita, empodera y apoya.
 - Siempre rodéate de las personas más inteligentes para aprender. Si tú eres el más inteligente (en mi caso lo dudo), quizás debas cambiar algo.
+- Si no crees en algo o no compartes una idea o visión. No te quedes callado. Y si no hay acuerdo, no te involucres.
+- No te quedes nunca con la duda.
+- Hay batallas que no merece la pena pelear. Asúmelos y deja que la vida siga su curso.
 - El cambio no es malo. Lo malo es no querer cambiar.
 - Si no es tu lugar, tu centro o titulación, recuerda el punto anterior.
 - Sigue caminado y no te pares. Si te paras, te quedas atrás.
