@@ -243,6 +243,8 @@ YAML             1 hr 31 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" height= 175/></a>
 </p>
 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=88d4bc&height=120&section=footer"/>
+
 <!--
 ![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue)
 ![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=highcontrast)
