@@ -20,9 +20,9 @@ Estoy interesado en aplicaciones multiplataforma, web y móviles desde el servid
 
 A parte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
-Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar 💪.
+Este es mi **repositorio personal**, úsalo como quieras siempre que respetes su [licencia CC](https://joseluisgs.dev/docs/license/). En ellos subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar 💪.
 
-También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">🚀 página web</a> donde poco a poco podrás conocerme un poco más 🔍.
+También puedes acceder a mi <a href="https://joseluisgs.dev/" target="_blank">🚀 página web</a> donde poco a poco podrás conocerme un poco más 🔍.
 
 Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar  a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
 

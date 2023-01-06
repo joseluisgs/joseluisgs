@@ -3,7 +3,7 @@
 En este proyecto voy realizando mi propia página web personal y profesional con distintas tecnologías que uso en clase para mostrar un poco de lo que hago en mi día a día.
 
 [![Vue Ready](https://img.shields.io/badge/Vue.js-%20Ready-%2342b983)](https://es.vuejs.org/)
-[![LICENSE](https://img.shields.io/badge/License-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
+[![LICENSE](https://img.shields.io/badge/License-CC-%23e64545)](https://joseluisgs.dev/docs/license/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-%20Ready-blueviolet)](https://joseluisgs.github.io/)
 [![Netlify](https://img.shields.io/badge/Netlify-Ready-blue)](https://joseluisgs.netlify.app/)
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/joseluisgs.github.io)
