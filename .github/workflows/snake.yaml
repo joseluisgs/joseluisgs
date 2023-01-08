@@ -19,10 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v2
-
+    steps:- uses: actions/checkout@v2
       # Generates the snake
       - uses: Platane/snk@v2
         id: snake-gif
