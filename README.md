@@ -234,7 +234,7 @@ YAML             1 hr 45 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1390](https://github.com/InsertKoinIO/koin/issues/1390) in [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin)
+1. 🗣 Commented on [#110](https://github.com/ufoss-org/kotysa/issues/110) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
   <!--END_SECTION:activity-->
 
 
