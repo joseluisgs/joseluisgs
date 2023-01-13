@@ -234,7 +234,7 @@ YAML             1 hr 45 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#110](https://github.com/ufoss-org/kotysa/issues/110) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
+1. ❗️ Opened issue [#125](https://github.com/ufoss-org/kotysa/issues/125) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
   <!--END_SECTION:activity-->
 
 
