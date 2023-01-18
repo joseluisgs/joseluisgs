@@ -235,7 +235,7 @@ JSON             23 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#125](https://github.com/ufoss-org/kotysa/issues/125) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
+1. 🗣 Commented on [#4](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios/issues/4) in [joseluisgs/Programacion-04-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
