@@ -235,7 +235,7 @@ SmartyConfig     54 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#14](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios/pull/14) in [joseluisgs/Programacion-04-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios)
+1. 🎉 Merged PR [#18](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios/pull/18) in [joseluisgs/Programacion-04-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
