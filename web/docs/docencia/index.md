@@ -19,7 +19,7 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 
 <!-- more -->
 ## Actualidad
-Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. En Informática en Desarrollo de Software. Además como formador oficial en tecnologías Kotlin certificado por Jetbrains, GitHub Campus Advisor y Embajador de GitKraken imparto cursos, seminarios y tutoriales sobre Git y GitHub.
+Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. En Informática en Desarrollo de Software. Además como formador oficial en tecnologías Kotlin certificado por Jetbrains, GitHub Campus Advisor y Embajador de GitKraken.
 
 ### Mi centro
 Mi actual centro donde imparto docencia desde el curso 2021/2022 es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid) donde realizo además otras funciones para el centro y el departamento de Informática.
@@ -51,7 +51,7 @@ Imparto formación a profesorado de Secundaria y Formación del Profesorado en t
 
 ### Otra Formación en la que participo
 Actualmente imparto diversas formaciones complementarias o de especialización. También, he impartido bastante a lo largo de mi carrera. Resaltaré aquí las realizadas en el último año.
-- [Jetbrains Academy](https://www.jetbrains.com/es-es/academy/) Docente y preparador de diferentes temas y ejercicios prácticos para el aprendizaje de Kotlin.
+- [Jetbrains Academy](https://www.jetbrains.com/es-es/academy/). Responsable de contenidos y revisión del track de Kotlin. Docente y preparador de diferentes temas y ejercicios prácticos para el aprendizaje de Kotlin. 
 
 ## Docencia oficial anterior
 A continuación resumiré docencia/formación realizada en anteriores años:
