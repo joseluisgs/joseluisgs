@@ -115,7 +115,7 @@ A continuación resumiré docencia/formación realizada en anteriores años:
 
 <p></p>
 
-- [Universitat de Granada](http://www.ugr.es), Granada. Profesor. 2007 a 2009.
+- [Universidad de Granada](http://www.ugr.es), Granada. Profesor. 2007 a 2009.
   - Ingeniería del Software I. Ingeniería en Informática.
   - Ingeniería del Software II. Ingeniería en Informática.
   - Programación Dirigida a Objetos. Ingeniería Informática.
