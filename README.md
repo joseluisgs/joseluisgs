@@ -235,7 +235,7 @@ SmartyConfig     1 hr 15 mins    ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#33](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios/issues/33) in [joseluisgs/Programacion-04-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios)
+1. 🎉 Merged PR [#34](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios/pull/34) in [joseluisgs/Programacion-04-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
