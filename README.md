@@ -235,7 +235,7 @@ YAML             1 hr 13 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/joseluisgs/AccesoDatos-02-2022-2023/issues/1) in [joseluisgs/AccesoDatos-02-2022-2023](https://github.com/joseluisgs/AccesoDatos-02-2022-2023)
+1. 🎉 Merged PR [#5](https://github.com/joseluisgs/ProgServiciosProcesos-06-2022-2023-Ejercicios/pull/5) in [joseluisgs/ProgServiciosProcesos-06-2022-2023-Ejercicios](https://github.com/joseluisgs/ProgServiciosProcesos-06-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
