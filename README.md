@@ -235,7 +235,7 @@ SQL              37 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/joseluisgs/AccesoDatos-05-2022-2023-Ejercicios/pull/2) in [joseluisgs/AccesoDatos-05-2022-2023-Ejercicios](https://github.com/joseluisgs/AccesoDatos-05-2022-2023-Ejercicios)
+1. 🎉 Merged PR [#9](https://github.com/joseluisgs/AccesoDatos-05-2022-2023-Ejercicios/pull/9) in [joseluisgs/AccesoDatos-05-2022-2023-Ejercicios](https://github.com/joseluisgs/AccesoDatos-05-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
