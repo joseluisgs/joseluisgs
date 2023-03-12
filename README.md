@@ -234,7 +234,7 @@ Other            18 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#23](https://github.com/joseluisgs/Programacion-05-06-2022-2023-Ejercicios/pull/23) in [joseluisgs/Programacion-05-06-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-05-06-2022-2023-Ejercicios)
+1. 🎉 Merged PR [#24](https://github.com/joseluisgs/Programacion-05-06-2022-2023-Ejercicios/pull/24) in [joseluisgs/Programacion-05-06-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-05-06-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
