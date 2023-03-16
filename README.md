@@ -234,7 +234,7 @@ Other            23 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#24](https://github.com/joseluisgs/Programacion-05-06-2022-2023-Ejercicios/pull/24) in [joseluisgs/Programacion-05-06-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-05-06-2022-2023-Ejercicios)
+1. ❗️ Opened issue [#1](https://github.com/mjovanc/awesome-ktor/issues/1) in [mjovanc/awesome-ktor](https://github.com/mjovanc/awesome-ktor)
   <!--END_SECTION:activity-->
 
 
