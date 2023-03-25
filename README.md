@@ -234,7 +234,7 @@ Other            23 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#1](https://github.com/mjovanc/awesome-ktor/issues/1) in [mjovanc/awesome-ktor](https://github.com/mjovanc/awesome-ktor)
+1. ❌ Closed PR [#1](https://github.com/joseluisgs/Programacion-07-2022-2023/pull/1) in [joseluisgs/Programacion-07-2022-2023](https://github.com/joseluisgs/Programacion-07-2022-2023)
   <!--END_SECTION:activity-->
 
 
