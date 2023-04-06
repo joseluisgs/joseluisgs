@@ -235,7 +235,7 @@ XML              59 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](https://github.com/joseluisgs/Programacion-07-2022-2023/pull/1) in [joseluisgs/Programacion-07-2022-2023](https://github.com/joseluisgs/Programacion-07-2022-2023)
+1. 🗣 Commented on [#3](https://github.com/GetStream/stream-result/issues/3) in [GetStream/stream-result](https://github.com/GetStream/stream-result)
   <!--END_SECTION:activity-->
 
 
