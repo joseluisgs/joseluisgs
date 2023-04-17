@@ -235,7 +235,7 @@ JSON             1 hr 10 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#16](https://github.com/joseluisgs/Programacion-07-2022-2023-Ejercicios/pull/16) in [joseluisgs/Programacion-07-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-07-2022-2023-Ejercicios)
+1. 🎉 Merged PR [#17](https://github.com/joseluisgs/Programacion-07-2022-2023-Ejercicios/pull/17) in [joseluisgs/Programacion-07-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-07-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
