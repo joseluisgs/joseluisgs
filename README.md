@@ -154,8 +154,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <p align="center">
  <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="40">
-  <img loading="lazy" src="https://windicss.org/assets/logo.svg" 
-  height="40">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
   height="40">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
