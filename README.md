@@ -233,7 +233,7 @@ Properties          1 hr 14 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#20](https://github.com/joseluisgs/Programacion-07-2022-2023-Ejercicios/pull/20) in [joseluisgs/Programacion-07-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-07-2022-2023-Ejercicios)
+1. 🗣 Commented on [#22](https://github.com/joseluisgs/Programacion-07-2022-2023-Ejercicios/issues/22) in [joseluisgs/Programacion-07-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-07-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
