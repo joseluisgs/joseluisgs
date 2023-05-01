@@ -233,7 +233,7 @@ Groovy              1 hr 30 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#9](https://github.com/joseluisgs/Programacion-08-2022-2023-Ejercicios/pull/9) in [joseluisgs/Programacion-08-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-08-2022-2023-Ejercicios)
+1. 🗣 Commented on [#518](https://github.com/codota/tabnine-intellij/issues/518) in [codota/tabnine-intellij](https://github.com/codota/tabnine-intellij)
   <!--END_SECTION:activity-->
 
 
