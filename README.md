@@ -233,7 +233,7 @@ Groovy              1 hr 33 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/joseluisgs/tenistas-rest-springboot-2022-2023/pull/1) in [joseluisgs/tenistas-rest-springboot-2022-2023](https://github.com/joseluisgs/tenistas-rest-springboot-2022-2023)
+1. 🎉 Merged PR [#2](https://github.com/joseluisgs/tenistas-rest-springboot-2022-2023/pull/2) in [joseluisgs/tenistas-rest-springboot-2022-2023](https://github.com/joseluisgs/tenistas-rest-springboot-2022-2023)
   <!--END_SECTION:activity-->
 
 
