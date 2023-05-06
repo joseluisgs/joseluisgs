@@ -233,7 +233,7 @@ Groovy              1 hr 33 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/joseluisgs/tenistas-rest-springboot-2022-2023/pull/2) in [joseluisgs/tenistas-rest-springboot-2022-2023](https://github.com/joseluisgs/tenistas-rest-springboot-2022-2023)
+1. 🗣 Commented on [#518](https://github.com/codota/tabnine-intellij/issues/518) in [codota/tabnine-intellij](https://github.com/codota/tabnine-intellij)
   <!--END_SECTION:activity-->
 
 
