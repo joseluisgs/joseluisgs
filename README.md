@@ -207,7 +207,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```text
-From: 05 April 2023 - To: 05 May 2023
+From: 06 April 2023 - To: 06 May 2023
 
 Total Time: 120 hrs 35 mins
 
