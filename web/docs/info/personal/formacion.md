@@ -25,7 +25,7 @@ Mi formación principal a nivel académico es:
 - Master en Desarrollo de Software. [Universidad de Granada](https://masteres.ugr.es/master-desarrollo-software/).
 - Ingeniería Informática. [Universidad de Granada](https://etsiit.ugr.es/).
 
-## Formación contínua
+## Formación continua
 Debido a mi especialidad docente siempre me estoy formando, especialmente en el área de desarrollo de software , desarrollo multiplataforma, móvil y web. También he realizado cursos en Ciberseguridad (Ministerio, INCIBE y Comunidad de Castilla-La Mancha) en la especialidad de hacking ético e incidentes de ciberseguridad. Tampoco dejo pasar formación que tenga un impacto positivo como docente, ya sea en nuevas metodologías didácticas o técnicas para aplicar en mis clases.
 ## Otra formación
 Intento seguir aprendiendo todos los días y son muchos los cursos que hago oficial y extraoficialmente. Como es complicado resumirlos todos os dejo los que más sigo en este último año y de paso os lo recomiendo:

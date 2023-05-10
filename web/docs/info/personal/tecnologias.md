@@ -43,33 +43,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" 
   height="40">
-   <img loading="lazy" src="https://pbs.twimg.com/profile_images/1376544345080401922/-xDfgN_X_400x400.jpg" 
-  height="40">
-  <img loading="lazy" src="https://developer.android.com/events/dev-challenge/images/dev-challenge_jetpack-compose-asset.svg" 
-  height="40">
-</p>
-
-<p align="center">
-  <img loading="lazy" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" 
-  height="40">
-  <img loading="lazy" src="https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png" 
-  height="40">
-  <img loading="lazy" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" 
-  height="40">
-   <img loading="lazy" src="https://www.sommelierdecafe.com/2019/wp-content/uploads/2009/06/java-logo1-1.png" 
-  height="40">
-  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mariadb.svg" 
-  height="40">
-  <img loading="lazy" src="https://miro.medium.com/max/300/1*J9d-VtiLfN9APIQgWTP9ow.png" 
-  height="40">
-  <img loading="lazy" src="https://avatars.githubusercontent.com/u/28214161?s=200&v=4" 
-  height="40">
-  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
-  height="40">
-  <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
-  height="40">
-  <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
-  height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" 
@@ -77,6 +50,35 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 </p>
 
 <p align="center">
+ <img loading="lazy" src="https://developer.android.com/events/dev-challenge/images/dev-challenge_jetpack-compose-asset.svg" 
+  height="40">
+  <img loading="lazy" src="https://avatars.githubusercontent.com/u/28214161?s=200&v=4" 
+  height="40">
+  <img loading="lazy" src="https://insert-koin.io/img/koin_new_logo.png" 
+  height="40">
+    <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
+  height="40">
+  <img loading="lazy" src="https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png" 
+  height="40">
+  <img loading="lazy" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" 
+  height="40">
+   <img loading="lazy" src="https://www.sommelierdecafe.com/2019/wp-content/uploads/2009/06/java-logo1-1.png" 
+  height="40">
+  <img loading="lazy" src="https://miro.medium.com/max/300/1*J9d-VtiLfN9APIQgWTP9ow.png" 
+  height="40">
+  <img loading="lazy" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" 
+  height="40">
+  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mariadb.svg" 
+  height="40">
+  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
+  height="40">
+  <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png" 
+  height="40">
+</p>
+
+<p align="center">
+ <img loading="lazy" src="https://pbs.twimg.com/profile_images/1376544345080401922/-xDfgN_X_400x400.jpg" 
+  height="40">
  <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="40">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
@@ -91,11 +93,11 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/ddd72aa8248a5c2f77429b9496e6e3e4da2a4e26/8afc0/logo.svg" 
   height="40">
+   <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
+  height="40">
   <img loading="lazy" src="https://nuxtjs.org/design-kit/colored-logo.svg" 
   height="40">
   <img loading="lazy" src="https://vuepress.vuejs.org/hero.png" 
-  height="40">
-  <img loading="lazy" src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" 
   height="40">
 </p>
 
