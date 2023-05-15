@@ -234,7 +234,7 @@ Groovy              1 hr 50 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#518](https://github.com/codota/tabnine-intellij/issues/518) in [codota/tabnine-intellij](https://github.com/codota/tabnine-intellij)
+1. ❗️ Opened issue [#136](https://github.com/ufoss-org/kotysa/issues/136) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
   <!--END_SECTION:activity-->
 
 
