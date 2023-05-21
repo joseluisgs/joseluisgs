@@ -234,7 +234,7 @@ Groovy              1 hr 30 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#144](https://github.com/AAkira/Kotlin-Multiplatform-Libraries/issues/144) in [AAkira/Kotlin-Multiplatform-Libraries](https://github.com/AAkira/Kotlin-Multiplatform-Libraries)
+1. 🎉 Merged PR [#22](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios/pull/22) in [joseluisgs/Programacion-09-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
