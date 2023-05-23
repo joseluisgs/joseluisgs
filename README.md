@@ -234,7 +234,7 @@ Groovy              1 hr 30 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#22](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios/pull/22) in [joseluisgs/Programacion-09-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios)
+1. 🎉 Merged PR [#27](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios/pull/27) in [joseluisgs/Programacion-09-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios)
   <!--END_SECTION:activity-->
 
 
