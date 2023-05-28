@@ -9,7 +9,7 @@ categories:
 tags:
   - Docencia
 
-publish: true
+publish: false
 image: 'https://cdn.setapp.com/blog/images/how-to-fix-copy-and-paste-not-working-1920-646.png'
 
 # si quieres que se muestre en la portada fija
