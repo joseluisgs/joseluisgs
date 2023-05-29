@@ -1,7 +1,7 @@
 ---
 title: Crea tu API REST reactiva con Kotlin y Ktor Parte I
 description: Cómo crear un servicio REST aplicando reactividad y consideraciones a tener en cuenta para ello
-date: '2023-05-90'
+date: '2023-05-29'
 # sidebar: 'auto'
 subSidebar: true
 
