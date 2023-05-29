@@ -182,13 +182,13 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!-- BLOG-POST-LIST:START -->
  - ✏️ [**¿Cómo puedo ayudar en 2023?**](https://joseluisgs.dev/blogs/2023/2023-01-01-como-puedo-ayudar.html) *1 Jan 2023* 
 
- - ✏️ [**Al alumno que copió en su proyecto**](https://joseluisgs.dev/blogs/2022/2022-12-30-al-alumno-que-copio-en-su-proyecto.html) *30 Dec 2022* 
-
  - ✏️ [**Ya no sé programar si no es reactivo**](https://joseluisgs.dev/blogs/2022/2022-12-06-ya-no-se-programar-sin-reactividad.html) *6 Dec 2022* 
 
  - ✏️ [**El día que diga basta**](https://joseluisgs.dev/blogs/2022/2022-11-30-dia-diga-basta.html) *30 Nov 2022* 
 
  - ✏️ [**Me encantan las Corrutinas**](https://joseluisgs.dev/blogs/2022/2022-11-29-me-gusta-corrutinas.html) *29 Nov 2022* 
+
+ - ✏️ [**Nuevo curso, nuevos retos**](https://joseluisgs.dev/blogs/2022/2022-11-02-nuevo-curso-nuevos-retos.html) *2 Nov 2022* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
@@ -209,15 +209,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```text
-From: 26 April 2023 - To: 26 May 2023
+From: 27 April 2023 - To: 27 May 2023
 
-Total Time: 132 hrs 36 mins
+Total Time: 125 hrs 22 mins
 
-Kotlin              99 hrs 30 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜   74.13 %
-Java                16 hrs 49 mins  🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.54 %
-Markdown            7 hrs 33 mins   🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   05.64 %
-XML                 2 hrs 45 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.05 %
-Other               1 hr 38 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.23 %
+Kotlin              94 hrs 52 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜   74.69 %
+Java                16 hrs 24 mins  🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.91 %
+Markdown            7 hrs 33 mins   🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   05.96 %
+XML                 2 hrs 37 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.07 %
+Other               1 hr 38 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.30 %
 ```
 
 <!--END_SECTION:waka-->
