@@ -234,7 +234,7 @@ Other               1 hr 38 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#27](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios/pull/27) in [joseluisgs/Programacion-09-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios)
+1. 🚀 Published release [Creating your first Reactive Api Rest with Ktor Pt II: Reactive Database, DTOs, Validation and Test](https://github.com/Creating your first Reactive Api Rest with Ktor Pt II: Reactive Database, DTOs, Validation and Test) in [joseluisgs/ktor-reactive-rest-hyperskill](https://github.com/joseluisgs/ktor-reactive-rest-hyperskill)
   <!--END_SECTION:activity-->
 
 
