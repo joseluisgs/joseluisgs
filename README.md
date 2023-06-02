@@ -180,6 +180,8 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte I**](https://joseluisgs.dev/blogs/2023/2023-05-29-reactive-api-rest-pt-i.html) *29 May 2023* 
+
  - ✏️ [**¿Cómo puedo ayudar en 2023?**](https://joseluisgs.dev/blogs/2023/2023-01-01-como-puedo-ayudar.html) *1 Jan 2023* 
 
  - ✏️ [**Ya no sé programar si no es reactivo**](https://joseluisgs.dev/blogs/2022/2022-12-06-ya-no-se-programar-sin-reactividad.html) *6 Dec 2022* 
@@ -187,8 +189,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
  - ✏️ [**El día que diga basta**](https://joseluisgs.dev/blogs/2022/2022-11-30-dia-diga-basta.html) *30 Nov 2022* 
 
  - ✏️ [**Me encantan las Corrutinas**](https://joseluisgs.dev/blogs/2022/2022-11-29-me-gusta-corrutinas.html) *29 Nov 2022* 
-
- - ✏️ [**Nuevo curso, nuevos retos**](https://joseluisgs.dev/blogs/2022/2022-11-02-nuevo-curso-nuevos-retos.html) *2 Nov 2022* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
@@ -209,15 +209,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```text
-From: 27 April 2023 - To: 27 May 2023
+From: 01 May 2023 - To: 31 May 2023
 
-Total Time: 125 hrs 22 mins
+Total Time: 122 hrs 33 mins
 
-Kotlin              94 hrs 52 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜   74.69 %
-Java                16 hrs 24 mins  🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.91 %
-Markdown            7 hrs 33 mins   🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   05.96 %
-XML                 2 hrs 37 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.07 %
-Other               1 hr 38 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.30 %
+Kotlin              91 hrs 21 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜   73.60 %
+Java                17 hrs 6 mins   🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.79 %
+Markdown            7 hrs 40 mins   🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   06.18 %
+XML                 2 hrs 14 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.80 %
+Other               1 hr 33 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.26 %
 ```
 
 <!--END_SECTION:waka-->
@@ -234,7 +234,7 @@ Other               1 hr 38 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#27](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios/pull/27) in [joseluisgs/Programacion-09-2022-2023-Ejercicios](https://github.com/joseluisgs/Programacion-09-2022-2023-Ejercicios)
+1. 🚀 Published release [Creating your first Reactive Api Rest with Ktor Pt II: Reactive Database, DTOs, Validation and Test](https://github.com/Creating your first Reactive Api Rest with Ktor Pt II: Reactive Database, DTOs, Validation and Test) in [joseluisgs/ktor-reactive-rest-hyperskill](https://github.com/joseluisgs/ktor-reactive-rest-hyperskill)
   <!--END_SECTION:activity-->
 
 
