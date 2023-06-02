@@ -33,7 +33,7 @@ Algunos proyectos que hago los muestro en esta web, en la que puedes ver una des
 ## Destacados
 A continuación muestro proyectos destacados en estos momentos ya sea porque se están usando a nivel docente, o porque trabajo actualmente en ellos.
 
-:::tip Repositorio
+:::tip Repositorio Github
 <i class="iconfont reco-github"></i> [JoseluisGS en GitHub](https://github.com/joseluisgs).
 :::
 

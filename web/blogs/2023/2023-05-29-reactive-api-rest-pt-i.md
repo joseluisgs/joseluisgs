@@ -23,7 +23,7 @@ image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6sqcDNSinKG2uQb
 giscus: true 
 
 ---
-La programación reactiva tiene muchas aplicaciones, una de ella es poder aplicarse en cualquier parte del front y back para aprovecharse de algunas de sus ventajas. Como uno de los responsables del track de Kotlin Developer estoy escribiendo una serie de tutoriales para [Hyperskill](https://hyperskill.org/) de [Jetbrains Academy](https://lp.jetbrains.com/jba-students/), donde se explica como crear una API REST reactiva con Kotlin y Ktor y repaso una serie de conceptos en la que se basa. Os lo dejo traducido, pero recomiendo que leáis el original en inglés y votéis para que sigan saliendo más partes: [Creating Your Reactive REST API with Kotlin and Ktor Part I](https://medium.com/p/f217be55c0bf).
+La programación reactiva tiene muchas aplicaciones, una de ella es poder aplicarse en cualquier parte del front y back para aprovecharse de algunas de sus ventajas. Este año también la hemos trabajado en clase. Como uno de los responsables del track de Kotlin Developer estoy escribiendo una serie de tutoriales para [Hyperskill](https://hyperskill.org/) de [Jetbrains Academy](https://lp.jetbrains.com/jba-students/), donde se explica como crear una API REST reactiva con Kotlin y Ktor y repaso una serie de conceptos en la que se basa. Os lo dejo traducido, pero recomiendo que leáis el original en inglés y votéis para que sigan saliendo más partes: [Creating Your Reactive REST API with Kotlin and Ktor Part I](https://medium.com/p/f217be55c0bf).
 
 <!-- more -->
 
