@@ -77,8 +77,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 </p>
 
 <p align="center">
- <img loading="lazy" src="https://pbs.twimg.com/profile_images/1376544345080401922/-xDfgN_X_400x400.jpg" 
-  height="40">
  <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="40">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
@@ -98,6 +96,8 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   <img loading="lazy" src="https://nuxtjs.org/design-kit/colored-logo.svg" 
   height="40">
   <img loading="lazy" src="https://vuepress.vuejs.org/hero.png" 
+  height="40">
+   <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_quasar_icon_130213.png" 
   height="40">
 </p>
 
