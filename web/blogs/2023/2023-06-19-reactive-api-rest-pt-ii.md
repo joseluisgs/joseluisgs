@@ -28,7 +28,7 @@ Continuamos con nuestro tutorial de cómo  crear una API REST Reactiva y cómo a
 <!-- more -->
 
 ::: warning Sobre la traducción
-Lamentablemente no tengo tiempo para traducir todos los artículos que escribo, para continuar con la primera parte he usado ChatGPT y pulido los errores que me he encontrado. De nuevo te recomiendo la lectura del original en inglés si buscas el 100% de exactitud: [Creating Your Reactive REST API with Kotlin and Ktor Part I](https://medium.com/p/7b6b087f61e7).
+Lamentablemente no tengo tiempo para traducir todos los artículos que escribo, para continuar con la primera parte he usado ChatGPT y pulido los errores que me he encontrado. De nuevo te recomiendo la lectura del original en inglés si buscas el 100% de exactitud: [Creating Your Reactive REST API with Kotlin and Ktor Part II](https://medium.com/p/7b6b087f61e7).
 :::
 
 ## Introducción
