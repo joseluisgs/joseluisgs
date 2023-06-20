@@ -180,6 +180,8 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte II**](https://joseluisgs.dev/blogs/2023/2023-06-19-reactive-api-rest-pt-ii.html) *19 Jun 2023* 
+
  - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte I**](https://joseluisgs.dev/blogs/2023/2023-05-29-reactive-api-rest-pt-i.html) *29 May 2023* 
 
  - ✏️ [**¿Cómo puedo ayudar en 2023?**](https://joseluisgs.dev/blogs/2023/2023-01-01-como-puedo-ayudar.html) *1 Jan 2023* 
@@ -187,8 +189,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
  - ✏️ [**Ya no sé programar si no es reactivo**](https://joseluisgs.dev/blogs/2022/2022-12-06-ya-no-se-programar-sin-reactividad.html) *6 Dec 2022* 
 
  - ✏️ [**El día que diga basta**](https://joseluisgs.dev/blogs/2022/2022-11-30-dia-diga-basta.html) *30 Nov 2022* 
-
- - ✏️ [**Me encantan las Corrutinas**](https://joseluisgs.dev/blogs/2022/2022-11-29-me-gusta-corrutinas.html) *29 Nov 2022* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
