@@ -234,7 +234,7 @@ Properties       46 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🚀 Published release [Creating your first Reactive Api Rest with Ktor Pt II: Reactive Database, DTOs, Validation and Test](https://github.com/Creating your first Reactive Api Rest with Ktor Pt II: Reactive Database, DTOs, Validation and Test) in [joseluisgs/ktor-reactive-rest-hyperskill](https://github.com/joseluisgs/ktor-reactive-rest-hyperskill)
+1. ❌ Closed PR [#34](https://github.com/joseluisgs/joseluisgs/pull/34) in [joseluisgs/joseluisgs](https://github.com/joseluisgs/joseluisgs)
   <!--END_SECTION:activity-->
 
 
