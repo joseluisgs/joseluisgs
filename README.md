@@ -234,7 +234,7 @@ SmartyConfig     32 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#34](https://github.com/joseluisgs/joseluisgs/pull/34) in [joseluisgs/joseluisgs](https://github.com/joseluisgs/joseluisgs)
+1. 🚀 Published release [Creating your first Reactive Api Rest with Ktor Pt III: Koin, JWT, Swagger, Test and Deploy with Docker](https://github.com/Creating your first Reactive Api Rest with Ktor Pt III: Koin, JWT, Swagger, Test and Deploy with Docker) in [joseluisgs/ktor-reactive-rest-hyperskill](https://github.com/joseluisgs/ktor-reactive-rest-hyperskill)
   <!--END_SECTION:activity-->
 
 
