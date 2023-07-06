@@ -234,7 +234,7 @@ Bash             26 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🚀 Published release [Creating your first Reactive Api Rest with Ktor Pt III: Koin, JWT, Swagger, Test and Deploy with Docker](https://github.com/Creating your first Reactive Api Rest with Ktor Pt III: Koin, JWT, Swagger, Test and Deploy with Docker) in [joseluisgs/ktor-reactive-rest-hyperskill](https://github.com/joseluisgs/ktor-reactive-rest-hyperskill)
+1. 🗣 Commented on [#14](https://github.com/LighthouseGames/KmLogging/issues/14) in [LighthouseGames/KmLogging](https://github.com/LighthouseGames/KmLogging)
   <!--END_SECTION:activity-->
 
 
