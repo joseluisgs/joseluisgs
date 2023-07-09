@@ -12,6 +12,8 @@ tags:
   - Proyectos
   - Blog
   - Docencia
+  - Kotlin
+  - Ktor
 
 publish: true
 image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6sqcDNSinKG2uQb7UrJB7A.png'
