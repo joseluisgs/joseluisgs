@@ -1,7 +1,7 @@
 ---
 title: Entrevista y podcast en Disco Duro de Roer
 description: Podcast donde hablo un poco de mi y de mi trabajo con Disco Duro de Roer
-date: '2023-07-19'
+date: '2023-07-09'
 # sidebar: 'auto'
 subSidebar: true
 
