@@ -234,7 +234,7 @@ TOML             45 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#14](https://github.com/LighthouseGames/KmLogging/issues/14#issuecomment-1621215001) in [LighthouseGames/KmLogging](https://github.com/LighthouseGames/KmLogging)
+1. ❌ Closed PR [#27](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023/pull/27) in [joseluisgs/PullRequestEntornos1DAM-2022-2023](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023)
   <!--END_SECTION:activity-->
 
 
