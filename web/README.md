@@ -19,7 +19,6 @@ En este proyecto voy realizando mi propia página web personal y profesional con
   - [Despliegue en](#despliegue-en)
   - [Autor](#autor)
     - [Contacto](#contacto)
-    - [¿Un café?](#un-café)
   - [Licencia de uso](#licencia-de-uso)
 
 ## Acerca de
@@ -70,10 +69,6 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
     height="30">
     </a>  &nbsp;&nbsp;
-    <a href="https://discordapp.com/users/joseluisgs#3560" target="_blank">
-        <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png" 
-    height="30">
-    </a> &nbsp;&nbsp;
     <a href="https://g.dev/joseluisgs" target="_blank">
         <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
     height="30"> &nbsp;&nbsp;
@@ -83,9 +78,6 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
     height="30">
     </a>      
 </p>
-
-### ¿Un café?
-<p><a href="https://www.buymeacoffee.com/joseluisgs"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" /></a></p><br><br><br>
 
 ## Licencia de uso
 

@@ -68,10 +68,6 @@ A parte de enseñar y desarrollar, disfruto con la música, especialmente todo t
         <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
     height="40">
     </a> &nbsp;&nbsp;
-    <a href="https://discordapp.com/users/joseluisgs#3560" target="_blank">
-        <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png" 
-    height="40"> &nbsp;&nbsp;
-    </a>
     <a href="https://g.dev/joseluisgs" target="_blank">
         <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
     height="40"> &nbsp;&nbsp;
@@ -81,16 +77,6 @@ A parte de enseñar y desarrollar, disfruto con la música, especialmente todo t
     height="40">
     </a>      
 </p>
-
-## ¿Un café?
-<p align="center">
-  Si te gusta o te ha sido útil el contenido de mi web o proyectos, puedes invitarme a un café ☕.
-</p>
-<p align="center">
-    <a href="https://www.buymeacoffee.com/joseluisgs" target="_blank"> 
-      <img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" />
-    </a>
-  </p>
 
 ## Una cita
 > "Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives". 

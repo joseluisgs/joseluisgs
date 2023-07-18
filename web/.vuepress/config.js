@@ -19,7 +19,7 @@ module.exports = {
       {
         name: 'keywords',
         content:
-          'José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Aplicaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, Embajador, GIT, GitKraken, Vuejs, móvil, docker, mongodb, nodejs, node, android, compose, backend, java, spring, springboot, instituto, test, pruebas, calidad, Luis Vives, Leganés, Madrid, Universidad de Granada, Jugabilidad, Videojuegos',
+          'José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Aplicaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, Embajador, GIT, GitKraken, Vuejs, móvil, jetbrains, intellij, hyperskill, docker, mongodb, nodejs, node, android, compose, backend, java, spring, springboot, instituto, test, pruebas, calidad, Luis Vives, Leganés, Madrid, Universidad de Granada, Jugabilidad, Videojuegos',
       },
     ],
 
@@ -112,11 +112,6 @@ module.exports = {
           },
           { text: 'Google Dev', link: 'https://g.dev/joseluisgs', icon: 'raphael:code' },
           {
-            text: 'Discord',
-            link: 'https://discordapp.com/users/joseluisgs#3560',
-            icon: 'ic:baseline-discord',
-          },
-          {
             text: 'YouTube',
             link: 'https://www.youtube.com/@joseluisgs',
             icon: 'mdi:youtube',
@@ -159,11 +154,6 @@ module.exports = {
           color: '#0077B5',
         },
         { icon: 'raphael:code', link: 'https://g.dev/joseluisgs', color: '#e81055' },
-        {
-          icon: 'ic:baseline-discord',
-          link: 'https://discordapp.com/users/joseluisgs#3560',
-          color: '#7289DA',
-        },
         {
           icon: 'mdi:youtube',
           link: 'https://www.youtube.com/@joseluisgs',
@@ -213,10 +203,16 @@ module.exports = {
         logo: 'https://cdn.worldvectorlogo.com/logos/jetbrains-1.svg',
       },
       {
+        title: 'Hyperskill',
+        desc: 'Todo lo que necesitea aprender está aquí.',
+        link: 'https://hyperskill.org/tracks/',
+        logo: 'https://styles.redditmedia.com/t5_16kxt3/styles/communityIcon_whsnivfzm6ha1.png',
+      },
+      {
         title: 'Tabnine',
         desc: 'Mejora la productividad en tu código.',
         link: 'https://www.tabnine.com/',
-        logo: 'https://pbs.twimg.com/profile_images/1517933952484401155/fT6oqKp-_400x400.jpg',
+        logo: 'https://avatars.githubusercontent.com/u/73937337?s=280&v=4',
       },
       {
         title: 'DevExperto',
