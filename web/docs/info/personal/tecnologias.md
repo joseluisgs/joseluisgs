@@ -62,7 +62,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" 
   height="40">
-   <img loading="lazy" src="https://assets.stickpng.com/images/58480979cef1014c0b5e4901.png" 
+   <img loading="lazy" src="https://cdn-icons-png.flaticon.com/256/226/226777.png" 
   height="40">
   <img loading="lazy" src="https://miro.medium.com/max/300/1*J9d-VtiLfN9APIQgWTP9ow.png" 
   height="40">
