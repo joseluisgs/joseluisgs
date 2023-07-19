@@ -79,14 +79,6 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
     </a>  
 </p>
 
-<h2 align="center">☕ ¿Un café?</h2>
-<p align="center">
-    <a href="https://www.buymeacoffee.com/joseluisgs" target="_blank"> 
-      <img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" />
-    </a>
-  </p>
-
-
 <h2 align="center">⚡ Tecnologías favoritas</h2>
 <p align="center">
 Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o colaboran conmigo a nivel personal/profesional y a las cuales les agradezco su confianza y apoyo.
