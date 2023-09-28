@@ -222,7 +222,7 @@ Kotlin            1 hr 21 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#27](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023/pull/27) in [joseluisgs/PullRequestEntornos1DAM-2022-2023](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023)
+1. 🗣 Commented on [#1](https://github.com/joseluisgs/DesarrolloWebEntornosServidor-PR01-Funkos-2023-2024/pull/1#issuecomment-1738076062) in [joseluisgs/DesarrolloWebEntornosServidor-PR01-Funkos-2023-2024](https://github.com/joseluisgs/DesarrolloWebEntornosServidor-PR01-Funkos-2023-2024)
   <!--END_SECTION:activity-->
 
 
