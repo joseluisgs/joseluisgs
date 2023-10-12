@@ -222,7 +222,7 @@ JSON                2 hrs 8 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/joseluisgs/nestjs-laboratorios/pull/1) in [joseluisgs/nestjs-laboratorios](https://github.com/joseluisgs/nestjs-laboratorios)
+1. ❗ Opened issue [#1](https://github.com/AlejandroZaragoza1/AlejandroZaragoza1/issues/1) in [AlejandroZaragoza1/AlejandroZaragoza1](https://github.com/AlejandroZaragoza1/AlejandroZaragoza1)
   <!--END_SECTION:activity-->
 
 
