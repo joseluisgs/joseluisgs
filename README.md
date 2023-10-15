@@ -222,7 +222,7 @@ JSON                1 hr 42 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❗ Opened issue [#1](https://github.com/AlejandroZaragoza1/AlejandroZaragoza1/issues/1) in [AlejandroZaragoza1/AlejandroZaragoza1](https://github.com/AlejandroZaragoza1/AlejandroZaragoza1)
+1. 🗣 Commented on [#7](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024/pull/7#issuecomment-1762957566) in [joseluisgs/PullRequestEntornos1DAW-2023-2024](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024)
   <!--END_SECTION:activity-->
 
 
