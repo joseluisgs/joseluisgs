@@ -222,7 +222,7 @@ YAML                1 hr 55 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#48](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024/pull/48) in [joseluisgs/PullRequestEntornos1DAW-2023-2024](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024)
+1. 🗣 Commented on [#67](https://github.com/ajalt/mordant/issues/67#issuecomment-1769207468) in [ajalt/mordant](https://github.com/ajalt/mordant)
   <!--END_SECTION:activity-->
 
 
