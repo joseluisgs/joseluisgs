@@ -27,8 +27,8 @@ Estos días he tenido la inmensa fortuna de que la gente de [Disco Duro de Roer]
 
 <!-- more -->
 
-Te dejo en enlace a su vídeo en [YouTube](https://www.youtube.com/watch?v=2SKSkd2cgH0) y te invito a que te suscribas a su canal y a su podcast. Además, en su web puedes encontrar un montón de información interesante sobre tecnología y sobre el mundo de la informática y resolución de prácticas de DAM/DAW. Yo que tú no dejaría pasar la oportunidad de echarle un vistazo y estar al tanto de sus publicaciones.
+Te dejo en enlace a su vídeo en [YouTube](https://www.youtube.com/watch?v=uyACMK9G0RQ) y te invito a que te suscribas a su canal y a su podcast. Además, en su web puedes encontrar un montón de información interesante sobre tecnología y sobre el mundo de la informática y resolución de prácticas de DAM/DAW. Yo que tú no dejaría pasar la oportunidad de echarle un vistazo y estar al tanto de sus publicaciones.
 
 <p style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2SKSkd2cgH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uyACMK9G0RQ?si=WnsDocQcBHA_AN8Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>

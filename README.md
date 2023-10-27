@@ -197,15 +197,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```txt
-From: 18 July 2023 - To: 17 August 2023
+From: 25 September 2023 - To: 25 October 2023
 
-Total Time: 8 hrs 6 mins
+Total Time: 127 hrs 58 mins
 
-Kotlin           7 hrs 8 mins    🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜   87.89 %
-Markdown         18 mins         🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.81 %
-Properties       18 mins         🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.72 %
-SqlDelight       15 mins         🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.15 %
-HTML             2 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.52 %
+Java                61 hrs 42 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   48.16 %
+TypeScript          19 hrs 16 mins  🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.04 %
+Markdown            17 hrs 3 mins   🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.31 %
+Kotlin              16 hrs 13 mins  🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.66 %
+HTML                3 hrs 26 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.69 %
 ```
 
 <!--END_SECTION:waka-->
@@ -222,7 +222,7 @@ HTML             2 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#27](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023/pull/27) in [joseluisgs/PullRequestEntornos1DAM-2022-2023](https://github.com/joseluisgs/PullRequestEntornos1DAM-2022-2023)
+1. 🗣 Commented on [#67](https://github.com/ajalt/mordant/issues/67#issuecomment-1769207468) in [ajalt/mordant](https://github.com/ajalt/mordant)
   <!--END_SECTION:activity-->
 
 
