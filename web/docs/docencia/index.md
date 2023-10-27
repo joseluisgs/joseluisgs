@@ -13,15 +13,13 @@ tags:
  - Docencia
 publish: true
 image: 'https://cuatrocento.es/wp-content/uploads/2015/01/Top-5-Tendencias-de-Dise%C3%B1o-Web-Para-El-2015-WebStudio316-e1414553151203.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
 
 ---
 En este apartado resumiré brevemente mi actividad docente y con ello sepas cómo puedo ayudarte en tu formación si se da el caso. No está todo, pero creo que así puedes conocerme un poco más con lo más relevante.
 
 <!-- more -->
 ## Actualidad
-Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. En Informática en Desarrollo de Software. Además como formador oficial en tecnologías Kotlin certificado por Jetbrains, GitHyb Campus Advisor y Embajador de GitKraken imparto cursos, seminarios y tutoriales sobre Git y GitHub.
+Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. En Informática en Desarrollo de Software. Además como formador oficial en tecnologías Kotlin certificado por Jetbrains, GitHub Campus Advisor y Embajador de GitKraken.
 
 ### Mi centro
 Mi actual centro donde imparto docencia desde el curso 2021/2022 es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid) donde realizo además otras funciones para el centro y el departamento de Informática.
@@ -44,11 +42,16 @@ Además suelo impartir o impartido en otras ocasiones:
 - Implantación de Aplicaciones Web 2º de ASIR.
 
 ### Docencia en Másteres y Doctorado
-Actualmente colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) englobada en dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).
+Colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) englobada en dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).
+
+### Docencia en Formación del profesorado
+Imparto formación a profesorado de Secundaria y Formación del Profesorado en temas relacionados con el desarrollo de software y sistemas interactivos.
+- [Desarrollo Web en entorno Cliente con Vue.js. IFC02CM22_23 (A-0046)](https://innovacionyformacion.educa.madrid.org/node/85493). Curso de Formación en desarrollo de Aplicaciones Web con Vue.js. ISMIE Instituto Superior Madrileño de Innovación Educativa. Programas de Innovación y Formación del Profesorado. Curso 2022/2023.
+- [FP-NextGen](https://github.com/joseluisgs/FP-NextGen-AccesoDatos). Elaborador de contenidos del módulo de Acceso a Datos y Programación de Servicios y Procesos. Corrector de Programación Multimedia y Dispositivos Móviles y Entornos de Desarrollo. Curso 2021/2022-2022/2023.
 
 ### Otra Formación en la que participo
 Actualmente imparto diversas formaciones complementarias o de especialización. También, he impartido bastante a lo largo de mi carrera. Resaltaré aquí las realizadas en el último año.
-- [Jetbrains Academy](https://www.jetbrains.com/es-es/academy/) Docente y preparador de diferentes temas y ejercicios prácticos para el aprendizaje de Kotlin.
+- [Jetbrains Academy](https://www.jetbrains.com/es-es/academy/). Responsable de contenidos y revisión del track de Kotlin. Docente y preparador de diferentes temas y ejercicios prácticos para el aprendizaje de Kotlin. 
 
 ## Docencia oficial anterior
 A continuación resumiré docencia/formación realizada en anteriores años:
@@ -112,7 +115,7 @@ A continuación resumiré docencia/formación realizada en anteriores años:
 
 <p></p>
 
-- [Universitat de Granada](http://www.ugr.es), Granada. Profesor. 2007 a 2009.
+- [Universidad de Granada](http://www.ugr.es), Granada. Profesor. 2007 a 2009.
   - Ingeniería del Software I. Ingeniería en Informática.
   - Ingeniería del Software II. Ingeniería en Informática.
   - Programación Dirigida a Objetos. Ingeniería Informática.

@@ -13,9 +13,13 @@ tags:
   - Cypress
 publish: true
 image: 'https://i.imgur.com/gV4LZJZ.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 
 Cuando desarrollamos cualquier aplicación es fundamental que aseguramos que todo funciona de la mejor manera posible. Para ello, debemos probar nuestra aplicación en un entorno de pruebas. En este proyecto mostramos como usar Vue Test Utils en una aplicación para consultar el tiempo usando Vue.js y OpenWeatherMap API y mostrar distintos mecanismos de la testeo bajo TDD usando Jest y Cypress dentro de Vue Test Utils. 

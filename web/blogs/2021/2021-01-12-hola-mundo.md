@@ -13,8 +13,7 @@ tags:
  - Vuepress
 publish: true
 image: 'http://elfarolillorojo.es/wp-content/uploads/2020/08/hello-world-1024x544.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
 # sticky: 1
 ---
 Este es mi primer mensaje del blog y de mi web. Poco a poco la iré completando.

@@ -12,7 +12,13 @@ tags:
  - Tecnologías
 publish: true
 image: 'https://iescomercio.com/informatica/wp-content/uploads/2020/06/logo-openwebinars-colabora.png'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Quiero seguir haciendo un repaso de las herramientas o entidades que colaboran con el departamento y nos ayudan en la formación del alumnado. Hoy quiero dar mi opinión de [Openwebinars](https://openwebinars.net/).
 

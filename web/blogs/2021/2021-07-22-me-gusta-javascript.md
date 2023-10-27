@@ -15,9 +15,13 @@ tags:
   - Node.js
 publish: true
 image: 'https://i.pinimg.com/originals/71/ee/32/71ee32577432648f9e45fbd63b2cf261.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 No os voy a engañar. Yo era el tipo de personas que no soportaba JavaScript en sus comienzos y solo le veía utilidad para mejorar determinados aspectos de la web. Era un apasionado de las apps móviles y del back-end. Pero desde el cambio de filosofía del 2015 unido a Node.js y a frameworks actuales, JavaScript (ES6 y versiones posteriores) y su mundo cada día me lo ponen más fácil. Ahora te cuento mis motivos.
 

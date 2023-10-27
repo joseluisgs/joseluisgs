@@ -19,12 +19,15 @@ module.exports = {
       {
         name: 'keywords',
         content:
-          'José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Apliaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, Embajador, GIT, GitKraken, vuejs, vue, móvil, docker, mongodb, nodejs, node, kotlin, java, spring, springboot, Luis Vives, Leganes, Madrid, Universidad de Granada, Jugabilidad, Videojuegos',
+          'José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Aplicaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, Embajador, GIT, GitKraken, Vuejs, móvil, jetbrains, intellij, hyperskill, docker, mongodb, nodejs, node, android, compose, backend, java, spring, springboot, instituto, test, pruebas, calidad, Luis Vives, Leganés, Madrid, Universidad de Granada, Jugabilidad, Videojuegos',
       },
     ],
 
     // Google Search
-    ['meta', { name: 'google-site-verification', content: '6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90' }],
+    [
+      'meta',
+      { name: 'google-site-verification', content: '6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90' },
+    ],
 
     // Google analytics
     [
@@ -54,6 +57,16 @@ module.exports = {
       {
         async: true,
         src: 'https://code.iconify.design/2/2.2.1/iconify.min.js',
+      },
+    ],
+
+    // Giscus
+    [
+      'script',
+      {
+        type: 'module',
+        async: true,
+        src: 'https://unpkg.com/giscus?module',
       },
     ],
   ],
@@ -91,10 +104,18 @@ module.exports = {
         items: [
           { text: 'Ayuda', link: 'https://forms.gle/V2m42qiW1s6X4oNt8', icon: 'mdi:help-circle' },
           { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'mdi:github' },
-          { text: 'Twitter', link: 'https://twitter.com/joseluisgonsan', icon: 'mdi:twitter' },
-          { text: 'LinkedIn', link: 'https://www.linkedin.com/in/joseluisgonsan', icon: 'mdi:linkedin' },
+          { text: 'Twitter', link: 'https://twitter.com/JoseLuisGS_', icon: 'mdi:twitter' },
+          {
+            text: 'LinkedIn',
+            link: 'https://www.linkedin.com/in/joseluisgonsan',
+            icon: 'mdi:linkedin',
+          },
           { text: 'Google Dev', link: 'https://g.dev/joseluisgs', icon: 'raphael:code' },
-          { text: 'Discord', link: 'https://discordapp.com/users/joseluisgs#3560', icon: 'ic:baseline-discord' },
+          {
+            text: 'YouTube',
+            link: 'https://www.youtube.com/@joseluisgs',
+            icon: 'mdi:youtube',
+          },
         ],
       },
     ],
@@ -126,10 +147,18 @@ module.exports = {
       socialLinks: [
         // Information bar displays social information
         { icon: 'mdi:github', link: 'https://github.com/joseluisgs', color: '#fffff' },
-        { icon: 'mdi:twitter', link: 'https://twitter.com/joseluisgonsan', color: '#1DA1F2' },
-        { icon: 'mdi:linkedin', link: 'https://www.linkedin.com/in/joseluisgonsan', color: '#0077B5' },
+        { icon: 'mdi:twitter', link: 'https://twitter.com/JoseLuisGS_', color: '#1DA1F2' },
+        {
+          icon: 'mdi:linkedin',
+          link: 'https://www.linkedin.com/in/joseluisgonsan',
+          color: '#0077B5',
+        },
         { icon: 'raphael:code', link: 'https://g.dev/joseluisgs', color: '#e81055' },
-        { icon: 'ic:baseline-discord', link: 'https://discordapp.com/users/joseluisgs#3560', color: '#7289DA' },
+        {
+          icon: 'mdi:youtube',
+          link: 'https://www.youtube.com/@joseluisgs',
+          color: '#E62117',
+        },
       ],
     },
 
@@ -174,10 +203,16 @@ module.exports = {
         logo: 'https://cdn.worldvectorlogo.com/logos/jetbrains-1.svg',
       },
       {
+        title: 'Hyperskill',
+        desc: 'Todo lo que necesitea aprender está aquí.',
+        link: 'https://hyperskill.org/tracks/',
+        logo: 'https://styles.redditmedia.com/t5_16kxt3/styles/communityIcon_whsnivfzm6ha1.png',
+      },
+      {
         title: 'Tabnine',
         desc: 'Mejora la productividad en tu código.',
         link: 'https://www.tabnine.com/',
-        logo: 'https://pbs.twimg.com/profile_images/1517933952484401155/fT6oqKp-_400x400.jpg',
+        logo: 'https://avatars.githubusercontent.com/u/73937337?s=280&v=4',
       },
       {
         title: 'DevExperto',
@@ -213,9 +248,10 @@ module.exports = {
     searchMaxSuggestions: 10,
     noFoundPageByTencent: false,
     lastUpdated: 'Actualizado',
-    author: 'Jose Luis González',
+    author: 'José Luis González',
     authorAvatar: '/img/avatar.jpeg',
-    record: 'v1.5',
+    titlePage: 'José Luis GS',
+    record: 'v2.0',
     startYear: '2021',
     jobs: 'PhD - Profesor - Investigador - Desarrollador',
     jobsLine1: 'PhD - Profesor',
@@ -236,14 +272,14 @@ module.exports = {
       '@limdongjin/vuepress-plugin-simple-seo',
       {
         default_image: '/img/web-social.png',
-        root_url: 'https://joseluisgs.github.io',
+        root_url: 'https://joseluisgs.dev',
         default_site_name: 'José Luis González - Web',
         default_title: 'José Luis González - Web',
         default_description: 'Página web de José Luis González Sánchez, PhD.',
         default_image_type: 'image/png',
         default_twitter_card: 'summary_large_image',
-        default_twitter_creator: '@joseluisgonsan',
-        twitter_site: '@joseluisgonsan',
+        default_twitter_creator: '@JoseLuisGS_',
+        twitter_site: '@JoseLuisGS_',
       },
     ],
 
@@ -252,7 +288,7 @@ module.exports = {
     [
       'sitemap',
       {
-        hostname: 'https://joseluisgs.github.io/',
+        hostname: 'https://joseluisgs.dev/',
       },
     ],
 
@@ -260,10 +296,13 @@ module.exports = {
     [
       '@vuepress-reco/vuepress-plugin-rss',
       {
-        site_url: 'https://joseluisgs.github.io',
+        site_url: 'https://joseluisgs.dev',
         copyright: `Copyright © ${new Date().getFullYear()} José Luis González`,
         count: 10,
       },
     ],
+
+    // Reading Time
+    ['vuepress-plugin-reading-time'],
   ],
 };

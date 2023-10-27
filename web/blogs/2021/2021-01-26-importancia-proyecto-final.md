@@ -13,7 +13,13 @@ tags:
  - Tecnologías
 publish: true
 image: 'https://img.freepik.com/vector-gratis/asamblea-innovacion-portatil_82574-972.jpg'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Esta semana han expuesto parte de mi alumnado de 2DAM sus proyectos finales. En esta entrada quiero mostrar mis reflexiones de la importancia de este proyecto para proyectarte profesionalmente.
 

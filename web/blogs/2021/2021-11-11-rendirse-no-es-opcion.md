@@ -11,9 +11,13 @@ tags:
   - Competencias
 publish: true
 image: 'https://buenavibra.es/wp-content/uploads/2018/04/mito22.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 En en esta nueva etapa estoy experimentando muchas cosas nuevas, y otras no tan nuevas, como las que se repiten con el alumnado en los primeros meses: frustración, rendición o simplemente asimilar que no todo sale a la primera. A continuación te cuento lo que pienso de esta situación.
 <!-- more -->

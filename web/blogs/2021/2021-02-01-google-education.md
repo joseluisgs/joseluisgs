@@ -11,7 +11,13 @@ tags:
  - Tecnologías
 publish: true
 image: 'https://i2.wp.com/carmensallessantafe.es/wp-content/uploads/2019/12/978B9053-E936-461B-B048-47FEFCC0842E.png'
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Como adelanté en mi [Twitter](https://twitter.com/joseluisgonsan/status/1355951733944557574), estos días voy a comenzar una serie de publicaciones sobre distintas tecnologías que uso en clase y que han confiado en nosotros para ayudarnos en esta labor y cómo las aplico en el día a día.
 

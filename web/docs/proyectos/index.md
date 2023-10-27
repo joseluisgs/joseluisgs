@@ -10,8 +10,7 @@ tags:
  - Proyectos
 publish: true
 image: 'https://miro.medium.com/max/2676/1*YueCwWOQuh-yqtujQrp5uA.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
 ---
 En este apartado conocerás los proyectos que voy realizando, ya sea para fines docentes, personales o profesionales.
 
@@ -34,7 +33,7 @@ Algunos proyectos que hago los muestro en esta web, en la que puedes ver una des
 ## Destacados
 A continuación muestro proyectos destacados en estos momentos ya sea porque se están usando a nivel docente, o porque trabajo actualmente en ellos.
 
-:::tip Repositorio
+:::tip Repositorio Github
 <i class="iconfont reco-github"></i> [JoseluisGS en GitHub](https://github.com/joseluisgs).
 :::
 
@@ -44,13 +43,17 @@ A continuación muestro proyectos destacados en estos momentos ya sea porque se 
 ## Resumen de actividad
 
 <p align="center">
-  <a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true" alt="joseluisgs's GitHub stats" height="150"/></a>
-<a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://activity-graph.herokuapp.com/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
+  <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=github_dark&show_icons=true&rank_icon=github"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true&rank_icon=github" alt="joseluisgs's GitHub stats" height="150"/></a>
+<a href="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&theme=react-dark"><img loading="lazy" src="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=JoseLuisGS%20GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
 </p>
 
 <p align="center">
 <img src="https://wakatime.com/share/@joseluisgs/45920ff5-102f-4c99-98bf-66020c1985e2.svg" height= 300></img>
- <img src="https://wakatime.com/share/@joseluisgs/58cd2496-6b0d-426d-bc34-add12de917ad.svg" height= 300></img>
+<img src="https://wakatime.com/share/@joseluisgs/58cd2496-6b0d-426d-bc34-add12de917ad.svg" height= 300></img>
+<img src="https://wakatime.com/share/@joseluisgs/7e64efc7-8b7e-482a-aa05-fa6341ee13e1.svg" alt="Coding time" />
 <a href="https://wakatime.com/@32eb50dd-eea7-4883-8349-298accb92677"><img src="https://wakatime.com/badge/user/32eb50dd-eea7-4883-8349-298accb92677.svg" alt="Coding time" /></a>
+<img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Coding time" />
  </p>
+
+
  

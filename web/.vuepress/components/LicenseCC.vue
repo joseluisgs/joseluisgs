@@ -28,6 +28,10 @@
         ><span class="iconify" data-icon="mdi:dev-to"></span
       ></a>
       &nbsp;
+      <a href="https://www.youtube.com/@joseluisgs" target="_blank"
+        ><span class="iconify" data-icon="fa-brands:youtube"></span
+      ></a>
+      &nbsp;
     </p>
     <p>
       Dicen que es de bien nacido ser agradecido. Es por ello que puedes usar estos contenidos

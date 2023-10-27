@@ -14,9 +14,13 @@ tags:
   - Innovación
 publish: true
 image: 'https://i.imgur.com/LukNdoZ.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 
 Una de las cosas que más me gusta de mi profesión es la parte de Innovación. No sólo se trata de dar clase, si no de crear nuevos mecanísmos para impartirlas y con ellos intentar resolver problemas que existen a en la sociedad. Te comento uno de los proyectos que tengo la suerte de coordinar este año.

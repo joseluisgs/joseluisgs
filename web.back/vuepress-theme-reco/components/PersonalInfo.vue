@@ -10,11 +10,11 @@
       {{ $themeConfig.author }}
     </h3>
     <h5 class="trabajo">
-      {{ $themeConfig.jobsLine1 }}</br>
-      {{ $themeConfig.jobsLine2 }}</br>
-      {{ $themeConfig.kotlin }}</br>
-      {{ $themeConfig.github}}</br>
-      {{ $themeConfig.gitkraken }}</br>
+      {{ $themeConfig.jobsLine1 }}<br>
+      {{ $themeConfig.jobsLine2 }}<br>
+      {{ $themeConfig.kotlin }}<br>
+      {{ $themeConfig.github}}<br>
+      {{ $themeConfig.gitkraken }}<br>
     </h5>
     <ul class="social-links">
       <li class="social-item" v-for="(item, index) in socialLinks" :key="index">
@@ -23,11 +23,13 @@
         </a>
       </li>
     </ul>
+    <!-- 
     <div class="social-coffe">
       <a href="https://www.buymeacoffee.com/joseluisgs" target="_blank">
         <img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="joseluisgs" />
       </a>
     </div>
+    -->
     <div class="num">
       <div>
         <h3>{{ $recoPosts.length }}</h3>

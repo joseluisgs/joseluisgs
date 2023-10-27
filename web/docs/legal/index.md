@@ -4,8 +4,7 @@ description: 'Política legal'
 date: '2021-01-17'
 noSocialShare: true
 image: 'https://hangar.digital/blog/site/uploads/2021/06/cookies-1.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
 ---
 
 La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan een esta página web.

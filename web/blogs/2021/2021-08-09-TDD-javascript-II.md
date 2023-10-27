@@ -15,9 +15,13 @@ tags:
   - Cypress
 publish: true
 image: 'https://i.ytimg.com/vi/pJ349YntoIs/maxresdefault.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Como ya comenzamos en [anteriores publicaciones](2021-08-06.TDD-javascript-I.md) vamos a seguir con una serie de apuntes y mini proyectos para iniciarse en TDD y BDD para realizar pruebas unitarias, de integración o E2E. En esta segunda parte nos centraremos en el uso de Cypress, para usarla en los test E2E, usándola en todo tipo de aplicaciones web, remarcando, por supuesto su uso en Vue.js.
 <!-- more -->

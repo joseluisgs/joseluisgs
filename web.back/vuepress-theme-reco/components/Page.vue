@@ -34,6 +34,23 @@
             ></span
           >
         </div>
+        <div class="giscus" v-if="showGiscus">
+          <giscus-widget
+            id="comentarios"
+            repo="joseluisgs/joseluisgs.github.io"
+            repoid="MDEwOlJlcG9zaXRvcnkzMjg3NzQ4OTU="
+            category="General"
+            categoryid="DIC_kwDOE5i0784CTUPm"
+            mapping="og:title"
+            reactionsenabled="1"
+            emitmetadata="0"
+            inputposition="bottom"
+            :theme="giscusTheme"
+            lang="es"
+            crossorigin="anonymous"
+            loading="lazy"
+          ></giscus-widget>
+        </div>
       </footer>
     </ModuleTransition>
 
@@ -71,295 +88,315 @@
 </template>
 
 <script>
-import PageInfo from "@theme/components/PageInfo";
-import { resolvePage, outboundRE, endingSlashRE } from "@theme/helpers/utils";
-import { ModuleTransition } from "@vuepress-reco/core/lib/components";
-import SubSidebar from "@theme/components/SubSidebar";
-import Footer from "@theme/components/Footer";
+  import PageInfo from '@theme/components/PageInfo';
+  import { resolvePage, outboundRE, endingSlashRE } from '@theme/helpers/utils';
+  import { ModuleTransition } from '@vuepress-reco/core/lib/components';
+  import SubSidebar from '@theme/components/SubSidebar';
+  import Footer from '@theme/components/Footer';
 
-export default {
-  components: { PageInfo, ModuleTransition, SubSidebar, Footer },
+  export default {
+    components: { PageInfo, ModuleTransition, SubSidebar, Footer },
 
-  props: ["sidebarItems"],
+    props: ['sidebarItems'],
 
-  data() {
-    return {
-      isHasKey: true,
-    };
-  },
+    data() {
+      return {
+        isHasKey: true,
+        giscusTheme: 'light',
+      };
+    },
 
-  computed: {
-    recoShowModule() {
-      return this.$parent.recoShowModule;
-    },
-    // 是否显示评论
-    shouldShowComments() {
-      const { isShowComments } = this.$frontmatter;
-      const { showComment } = this.$themeConfig.valineConfig || { showComment: true };
-      return (
-        (showComment !== false && isShowComments !== false) ||
-        (showComment === false && isShowComments === true)
-      );
-    },
-    showAccessNumber() {
-      const {
-        $themeConfig: { valineConfig },
-        $themeLocaleConfig: { valineConfig: valineLocalConfig },
-      } = this;
-
-      const vc = valineLocalConfig || valineConfig;
-      if (vc && vc.visitor != false) {
-        return true;
-      }
-      return false;
-    },
-    lastUpdated() {
-      return this.$page.lastUpdated;
-      // return new Date(this.$page.lastUpdated).toLocaleString()
-    },
-    lastUpdatedText() {
-      if (typeof this.$themeLocaleConfig.lastUpdated === "string") {
-        return this.$themeLocaleConfig.lastUpdated;
-      }
-      if (typeof this.$themeConfig.lastUpdated === "string") {
-        return this.$themeConfig.lastUpdated;
-      }
-      return "Last Updated";
-    },
-    prev() {
-      const prev = this.$frontmatter.prev;
-      if (prev === false) {
-        return;
-      } else if (prev) {
-        return resolvePage(this.$site.pages, prev, this.$route.path);
+    mounted() {
+      //console.log(this.$page.frontmatter);
+      const currentMode = localStorage.getItem('mode') || 'auto';
+      if (currentMode === 'dark') {
+        this.giscusTheme = 'dark';
       } else {
-        return resolvePrev(this.$page, this.sidebarItems);
+        this.giscusTheme = 'light';
       }
     },
-    next() {
-      const next = this.$frontmatter.next;
-      if (next === false) {
-        return;
-      } else if (next) {
-        return resolvePage(this.$site.pages, next, this.$route.path);
-      } else {
-        return resolveNext(this.$page, this.sidebarItems);
-      }
-    },
-    editLink() {
-      if (this.$frontmatter.editLink === false) {
-        return false;
-      }
-      const {
-        repo,
-        editLinks,
-        docsDir = "",
-        docsBranch = "master",
-        docsRepo = repo,
-      } = this.$themeConfig;
 
-      if (docsRepo && editLinks && this.$page.relativePath) {
-        return this.createEditLink(repo, docsRepo, docsDir, docsBranch, this.$page.relativePath);
-      }
-      return "";
-    },
-    editLinkText() {
-      return (
-        this.$themeLocaleConfig.editLinkText || this.$themeConfig.editLinkText || `Edit this page`
-      );
-    },
-    pageStyle() {
-      return this.$showSubSideBar ? {} : { paddingRight: "0" };
-    },
-  },
+    computed: {
+      recoShowModule() {
+        return this.$parent.recoShowModule;
+      },
 
-  methods: {
-    createEditLink(repo, docsRepo, docsDir, docsBranch, path) {
-      const bitbucket = /bitbucket.org/;
-      if (bitbucket.test(repo)) {
-        const base = outboundRE.test(docsRepo) ? docsRepo : repo;
+      showGiscus() {
+        return this.$page.frontmatter.giscus || false;
+      },
+
+      // 是否显示评论
+      shouldShowComments() {
+        const { isShowComments } = this.$frontmatter;
+        const { showComment } = this.$themeConfig.valineConfig || { showComment: true };
         return (
-          base.replace(endingSlashRE, "") +
-          `/src` +
-          `/${docsBranch}/` +
-          (docsDir ? docsDir.replace(endingSlashRE, "") + "/" : "") +
-          path +
-          `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
+          (showComment !== false && isShowComments !== false) ||
+          (showComment === false && isShowComments === true)
         );
-      }
+      },
+      showAccessNumber() {
+        const {
+          $themeConfig: { valineConfig },
+          $themeLocaleConfig: { valineConfig: valineLocalConfig },
+        } = this;
 
-      const base = outboundRE.test(docsRepo) ? docsRepo : `https://github.com/${docsRepo}`;
-      return (
-        base.replace(endingSlashRE, "") +
-        `/edit` +
-        `/${docsBranch}/` +
-        (docsDir ? docsDir.replace(endingSlashRE, "") + "/" : "") +
-        path
-      );
+        const vc = valineLocalConfig || valineConfig;
+        if (vc && vc.visitor != false) {
+          return true;
+        }
+        return false;
+      },
+      lastUpdated() {
+        return this.$page.lastUpdated;
+        // return new Date(this.$page.lastUpdated).toLocaleString()
+      },
+      lastUpdatedText() {
+        if (typeof this.$themeLocaleConfig.lastUpdated === 'string') {
+          return this.$themeLocaleConfig.lastUpdated;
+        }
+        if (typeof this.$themeConfig.lastUpdated === 'string') {
+          return this.$themeConfig.lastUpdated;
+        }
+        return 'Last Updated';
+      },
+      prev() {
+        const prev = this.$frontmatter.prev;
+        if (prev === false) {
+          return;
+        } else if (prev) {
+          return resolvePage(this.$site.pages, prev, this.$route.path);
+        } else {
+          return resolvePrev(this.$page, this.sidebarItems);
+        }
+      },
+      next() {
+        const next = this.$frontmatter.next;
+        if (next === false) {
+          return;
+        } else if (next) {
+          return resolvePage(this.$site.pages, next, this.$route.path);
+        } else {
+          return resolveNext(this.$page, this.sidebarItems);
+        }
+      },
+      editLink() {
+        if (this.$frontmatter.editLink === false) {
+          return false;
+        }
+        const {
+          repo,
+          editLinks,
+          docsDir = '',
+          docsBranch = 'master',
+          docsRepo = repo,
+        } = this.$themeConfig;
+
+        if (docsRepo && editLinks && this.$page.relativePath) {
+          return this.createEditLink(repo, docsRepo, docsDir, docsBranch, this.$page.relativePath);
+        }
+        return '';
+      },
+      editLinkText() {
+        return (
+          this.$themeLocaleConfig.editLinkText || this.$themeConfig.editLinkText || `Edit this page`
+        );
+      },
+      pageStyle() {
+        return this.$showSubSideBar ? {} : { paddingRight: '0' };
+      },
     },
-  },
-};
 
-function resolvePrev(page, items) {
-  return find(page, items, -1);
-}
+    methods: {
+      createEditLink(repo, docsRepo, docsDir, docsBranch, path) {
+        const bitbucket = /bitbucket.org/;
+        if (bitbucket.test(repo)) {
+          const base = outboundRE.test(docsRepo) ? docsRepo : repo;
+          return (
+            base.replace(endingSlashRE, '') +
+            `/src` +
+            `/${docsBranch}/` +
+            (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '') +
+            path +
+            `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
+          );
+        }
 
-function resolveNext(page, items) {
-  return find(page, items, 1);
-}
+        const base = outboundRE.test(docsRepo) ? docsRepo : `https://github.com/${docsRepo}`;
+        return (
+          base.replace(endingSlashRE, '') +
+          `/edit` +
+          `/${docsBranch}/` +
+          (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '') +
+          path
+        );
+      },
+    },
+  };
 
-function find(page, items, offset) {
-  const res = [];
-  flatten(items, res);
-  for (let i = 0; i < res.length; i++) {
-    const cur = res[i];
-    if (cur.type === "page" && cur.path === decodeURIComponent(page.path)) {
-      return res[i + offset];
+  function resolvePrev(page, items) {
+    return find(page, items, -1);
+  }
+
+  function resolveNext(page, items) {
+    return find(page, items, 1);
+  }
+
+  function find(page, items, offset) {
+    const res = [];
+    flatten(items, res);
+    for (let i = 0; i < res.length; i++) {
+      const cur = res[i];
+      if (cur.type === 'page' && cur.path === decodeURIComponent(page.path)) {
+        return res[i + offset];
+      }
     }
   }
-}
 
-function flatten(items, res) {
-  for (let i = 0, l = items.length; i < l; i++) {
-    if (items[i].type === "group") {
-      flatten(items[i].children || [], res);
-    } else {
-      res.push(items[i]);
+  function flatten(items, res) {
+    for (let i = 0, l = items.length; i < l; i++) {
+      if (items[i].type === 'group') {
+        flatten(items[i].children || [], res);
+      } else {
+        res.push(items[i]);
+      }
     }
   }
-}
 </script>
 
 <style lang="stylus">
-@require '../styles/wrapper.styl';
+  @require '../styles/wrapper.styl';
 
-.page {
-  position: relative;
-  padding-top: 5rem;
-  // padding-bottom 2rem
-  padding-right: 14rem;
-  display: block;
-
-  .side-bar {
-    position: fixed;
-    top: 10rem;
-    bottom: 10rem;
-    right: 2rem;
-    overflow-y: scroll;
-
-    &::-webkit-scrollbar {
-      width: 0;
-      height: 0;
-    }
-  }
-
-  .page-title {
-    max-width: $contentWidth;
-    margin: 0 auto;
-    padding: 1rem 2.5rem;
-    color: var(--text-color);
-
-    img {
-      width: 100%;
-      margin: 0.5rem auto;
-      border-radius: $borderRadius;
-      box-shadow: var(--box-shadow-img);
-    }
-  }
-
-  .theme-reco-content h2 {
-    position: relative;
-    padding-left: 0.8rem;
-
-    &::before {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      display: block;
-      height: 1.8rem;
-      content: '';
-      border-left: 5px solid $accentColor;
-    }
-  }
-
-  .page-edit {
-    @extend $wrapper;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    overflow: auto;
-    text-align: right;
-
-    .edit-link {
-      display: inline-block;
-
-      a {
-        color: $accentColor;
-        margin-right: 0.25rem;
-      }
-    }
-
-    .last-updated {
-      float: right;
-      font-size: 0.9em;
-
-      .prefix {
-        font-weight: 500;
-        color: $accentColor;
-      }
-
-      .time {
-        font-weight: 400;
-        color: #aaa;
-      }
-    }
-  }
-
-  .comments-wrapper {
-    @extend $wrapper;
-  }
-}
-
-.page-nav {
-  @extend $wrapper;
-  padding-top: 1rem;
-  padding-bottom: 0;
-
-  .inner {
-    min-height: 2rem;
-    margin-top: 0;
-    border-top: 1px solid var(--border-color);
-    padding-top: 1rem;
-    overflow: auto; // clear float
-  }
-
-  .next {
-    float: right;
-  }
-}
-
-@media (max-width: $MQMobile) {
   .page {
-    padding-right: 0;
+    position: relative;
+    padding-top: 5rem;
+    // padding-bottom 2rem
+    padding-right: 14rem;
+    display: block;
 
     .side-bar {
-      display: none;
+      position: fixed;
+      top: 10rem;
+      bottom: 10rem;
+      right: 2rem;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
     }
 
     .page-title {
-      padding: 0 1rem;
+      max-width: $contentWidth;
+      margin: 0 auto;
+      padding: 1rem 2.5rem;
+      color: var(--text-color);
+
+      img {
+        width: 100%;
+        margin: 0.5rem auto;
+        border-radius: $borderRadius;
+        box-shadow: var(--box-shadow-img);
+      }
+    }
+
+    .theme-reco-content h2 {
+      position: relative;
+      padding-left: 0.8rem;
+
+      &::before {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        height: 1.8rem;
+        content: '';
+        border-left: 5px solid $accentColor;
+      }
     }
 
     .page-edit {
+      @extend $wrapper;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      overflow: auto;
+      text-align: right;
+
       .edit-link {
-        margin-bottom: 0.5rem;
+        display: inline-block;
+
+        a {
+          color: $accentColor;
+          margin-right: 0.25rem;
+        }
       }
 
       .last-updated {
-        font-size: 0.8em;
-        float: none;
-        text-align: left;
+        float: right;
+        font-size: 0.9em;
+
+        .prefix {
+          font-weight: 500;
+          color: $accentColor;
+        }
+
+        .time {
+          font-weight: 400;
+          color: #aaa;
+        }
+      }
+    }
+
+    .comments-wrapper {
+      @extend $wrapper;
+    }
+  }
+
+  .page-nav {
+    @extend $wrapper;
+    padding-top: 1rem;
+    padding-bottom: 0;
+
+    .inner {
+      min-height: 2rem;
+      margin-top: 0;
+      border-top: 1px solid var(--border-color);
+      padding-top: 1rem;
+      overflow: auto; // clear float
+    }
+
+    .next {
+      float: right;
+    }
+  }
+
+  .giscus {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: $MQMobile) {
+    .page {
+      padding-right: 0;
+
+      .side-bar {
+        display: none;
+      }
+
+      .page-title {
+        padding: 0 1rem;
+      }
+
+      .page-edit {
+        .edit-link {
+          margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+          font-size: 0.8em;
+          float: none;
+          text-align: right;
+        }
       }
     }
   }
-}
 </style>

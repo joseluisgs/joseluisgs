@@ -9,7 +9,8 @@
 <p align="center"> 
   <img src="https://komarev.com/ghpvc/?username=joseluisgs&label=Profile%20views&color=42b983&style=flat" alt="joseluisgs-github" />
   <img src="https://img.shields.io/github/followers/joseluisgs?style=social" alt="joseluisgs-github" />
-  <img src="https://img.shields.io/twitter/follow/joseluisgonsan?style=social" alt="joseluisgs-twitter" />
+  <img src="https://img.shields.io/github/stars/joseluisgs?style=social" alt="joseluisgs-github" />
+  <img src="https://img.shields.io/twitter/follow/JoseLuisGS_?style=social" alt="joseluisgs-twitter" />
 </p>
 
 # <img src="./images/octogato.png" width=15% align=right /> 👋 Hola, soy José Luis González 💻 
@@ -20,11 +21,11 @@ Estoy interesado en aplicaciones multiplataforma, web y móviles desde el servid
 
 A parte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
-Este es mi **repositorio personal**, úsalo como quieras. En ellos subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar 💪.
+Este es mi **repositorio personal**, úsalo como quieras siempre que respetes su [licencia CC](https://joseluisgs.dev/docs/license/). En ellos subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar 💪.
 
-También puedes acceder a mi <a href="https://joseluisgs.github.io/" target="_blank">🚀 página web</a> donde poco a poco podrás conocerme un poco más 🔍.
+También puedes acceder a mi <a href="https://joseluisgs.dev/" target="_blank">🚀 página web</a> donde poco a poco podrás conocerme un poco más 🔍.
 
-Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar  a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
+Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT). Actualmente soy uno de los responsables de contenidos en [**Hyperskill**](https://hyperskill.org/)/[**Jetbrains Academy**](https://www.jetbrains.com/academy/) para tecnologías relacionadas con Kotlin. Te puedo ayudar  a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
 
 <p align="center">
   <a href="https://www.jetbrains.com/es-es/company/partners/kotlin/" target="_blank"> 
@@ -52,39 +53,31 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
 <p align="center">
-    <a href="https://joseluisgs.github.io/" target="_blank">
+    <a href="https://joseluisgs.dev/" target="_blank">
         <img loading="lazy" src="https://joseluisgs.github.io/img/favicon.png" 
-    height="50">
+    height="40">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
         <img loading="lazy" src="https://distreau.com/github.svg" 
-    height="50">
+    height="40">
     </a> &nbsp;&nbsp;
-    <a href="https://twitter.com/joseluisgonsan" target="_blank">
+    <a href="https://twitter.com/JoseLuisGS_" target="_blank">
         <img loading="lazy" src="https://i.imgur.com/U4Uiaef.png" 
-    height="50">
+    height="40">
     </a> &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
         <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
-    height="50">
+    height="40">
     </a> &nbsp;&nbsp;
-    <a href="https://discordapp.com/users/joseluisgs#3560" target="_blank">
-        <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png" 
-    height="50"> &nbsp;&nbsp;
-    </a>
-    <a href="https://g.dev/joseluisgs" target="_blank">
+     <a href="https://g.dev/joseluisgs" target="_blank">
         <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
-    height="50">
-    </a>    
-</p>
-
-<h2 align="center">☕ ¿Un café?</h2>
-<p align="center">
-    <a href="https://www.buymeacoffee.com/joseluisgs" target="_blank"> 
-      <img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" />
+    height="40"> &nbsp;&nbsp;
     </a>
-  </p>
-
+    <a href="https://www.youtube.com/@joseluisgs" target="_blank">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
+    height="40">
+    </a>  
+</p>
 
 <h2 align="center">⚡ Tecnologías favoritas</h2>
 <p align="center">
@@ -94,96 +87,96 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 
 <p align="center">
   <img loading="lazy" src="https://www.jetbrains.com/academy/img/icon-kotlin-new.svg" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://distreau.com/github.svg" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png"
-  height="45">
+  height="40">
   <img loading="lazy" src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/vqtv5cx7zkngd7heywck" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" 
-  height="45">
-   <img loading="lazy" src="https://pbs.twimg.com/profile_images/1376544345080401922/-xDfgN_X_400x400.jpg" 
-  height="45">
-  <img loading="lazy" src="https://developer.android.com/events/dev-challenge/images/dev-challenge_jetpack-compose-asset.svg" 
-  height="45">
+  height="40">
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
+  height="40">
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" 
+  height="40">
 </p>
 
 <p align="center">
-  <img loading="lazy" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" 
-  height="45">
-  <img loading="lazy" src="https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png" 
-  height="45">
-  <img loading="lazy" src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" 
-  height="45">
-   <img loading="lazy" src="https://www.sommelierdecafe.com/2019/wp-content/uploads/2009/06/java-logo1-1.png" 
-  height="45">
-  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mariadb.svg" 
-  height="45">
-  <img loading="lazy" src="https://miro.medium.com/max/300/1*J9d-VtiLfN9APIQgWTP9ow.png" 
-  height="45">
+ <img loading="lazy" src="https://developer.android.com/events/dev-challenge/images/dev-challenge_jetpack-compose-asset.svg" 
+  height="40">
   <img loading="lazy" src="https://avatars.githubusercontent.com/u/28214161?s=200&v=4" 
-  height="45">
+  height="40">
+  <img loading="lazy" src="https://insert-koin.io/img/koin_new_logo.png" 
+  height="40">
+    <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
+  height="40">
+  <img loading="lazy" src="https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png" 
+  height="40">
+  <img loading="lazy" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" 
+  height="40">
+   <img loading="lazy" src="https://cdn-icons-png.flaticon.com/256/226/226777.png" 
+  height="40">
+  <img loading="lazy" src="https://miro.medium.com/max/300/1*J9d-VtiLfN9APIQgWTP9ow.png" 
+  height="40">
+  <img loading="lazy" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" 
+  height="40">
+  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mariadb.svg" 
+  height="40">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
-  height="45">
-  <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
-  height="45">
-  <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
-  height="45">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
-  height="45">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" 
-  height="45">
+  height="40">
+  <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png" 
+  height="40">
 </p>
 
 <p align="center">
  <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
-  height="45">
-  <img loading="lazy" src="https://windicss.org/assets/logo.svg" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://vitest.dev/logo-shadow.svg" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://iconape.com/wp-content/files/gj/370774/svg/370774.svg" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/ddd72aa8248a5c2f77429b9496e6e3e4da2a4e26/8afc0/logo.svg" 
-  height="45">
+  height="40">
+   <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
+  height="40">
   <img loading="lazy" src="https://nuxtjs.org/design-kit/colored-logo.svg" 
-  height="45">
+  height="40">
   <img loading="lazy" src="https://vuepress.vuejs.org/hero.png" 
-  height="45">
-  <img loading="lazy" src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" 
-  height="45">
+  height="40">
+   <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_quasar_icon_130213.png" 
+  height="40">
 </p>
 
 
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
- - ✏️ [**Vacaciones para el alumnado. Reflexiones, despedidas y hasta luegos.**](https://joseluisgs.github.io/blogs/2022/2022-07-11-alumnado-verano.html) 🗓 *11 Jul 2022* 
+ - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte III**](https://joseluisgs.dev/blogs/2023/2023-07-10-reactive-api-rest-pt-iii.html) *10 Jul 2023* 
 
- - ✏️ [**Kotlin Expert**](https://joseluisgs.github.io/blogs/2022/2022-06-27-kotlin-expert.html) 🗓 *27 Jun 2022* 
+ - ✏️ [**Entrevista y podcast en Disco Duro de Roer**](https://joseluisgs.dev/blogs/2023/2023-07-09-entrevista-disco-duro.roer.html) *9 Jul 2023* 
 
- - ✏️ [**Mejorando en Kotlin como profesor gracias a una decepción**](https://joseluisgs.github.io/blogs/2022/2022-06-25-decepciones-superaciones.html) 🗓 *25 Jun 2022* 
+ - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte II**](https://joseluisgs.dev/blogs/2023/2023-06-19-reactive-api-rest-pt-ii.html) *19 Jun 2023* 
 
- - ✏️ [**José Luis González, PhD.**](https://joseluisgs.github.io/docs/info/personal/) 🗓 *1 Jun 2022* 
+ - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte I**](https://joseluisgs.dev/blogs/2023/2023-05-29-reactive-api-rest-pt-i.html) *29 May 2023* 
 
- - ✏️ [**Soy un Vue Lover**](https://joseluisgs.github.io/blogs/2021/2021-12-08-soy-un-vue-lover.html) 🗓 *8 Dec 2021* 
+ - ✏️ [**¿Cómo puedo ayudar en 2023?**](https://joseluisgs.dev/blogs/2023/2023-01-01-como-puedo-ayudar.html) *1 Jan 2023* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
@@ -192,47 +185,44 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📈 Mi Actividad</h2>
 
 <p align="center">
-  <a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true" alt="joseluisgs's GitHub stats" height="150"/></a>
-<a href="http://www.github.com/joseluisgs"><img loading="lazy" src="https://activity-graph.herokuapp.com/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
+  <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=github_dark&show_icons=true&rank_icon=github"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true&rank_icon=github" alt="joseluisgs's GitHub stats" height="150"/></a>
+<a href="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&theme=react-dark"><img loading="lazy" src="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=JoseLuisGS%20GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
 </p>
 
 <p align="center">
 <img src="https://wakatime.com/share/@joseluisgs/45920ff5-102f-4c99-98bf-66020c1985e2.svg" height= 300></img>
  <img src="https://wakatime.com/share/@joseluisgs/58cd2496-6b0d-426d-bc34-add12de917ad.svg" height= 300></img>
-
  </p>
 
 <!--START_SECTION:waka-->
 
-```text
-From: 02 August 2022 - To: 09 August 2022
+```txt
+From: 25 September 2023 - To: 25 October 2023
 
-Total Time: 45 hrs 30 mins
+Total Time: 127 hrs 58 mins
 
-Vue.js           21 hrs 24 mins  █████████▓░░░░░░░░░░░░░░░   38.37 %
-JavaScript       17 hrs 57 mins  ████████░░░░░░░░░░░░░░░░░   32.17 %
-Markdown         10 hrs 26 mins  ████▓░░░░░░░░░░░░░░░░░░░░   18.71 %
-SCSS             1 hr 15 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.26 %
-HTML             1 hr 5 mins     ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.95 %
-Kotlin           1 hr            ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.81 %
+Java                61 hrs 42 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   48.16 %
+TypeScript          19 hrs 16 mins  🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.04 %
+Markdown            17 hrs 3 mins   🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.31 %
+Kotlin              16 hrs 13 mins  🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.66 %
+HTML                3 hrs 26 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.69 %
 ```
 
 <!--END_SECTION:waka-->
 
 <p align="center">
+<a href="https://wakatime.com/@32eb50dd-eea7-4883-8349-298accb92677"><img src="https://wakatime.com/share/@joseluisgs/7e64efc7-8b7e-482a-aa05-fa6341ee13e1.svg" alt="Coding time" /></a>
 <a href="https://wakatime.com/@32eb50dd-eea7-4883-8349-298accb92677"><img src="https://wakatime.com/badge/user/32eb50dd-eea7-4883-8349-298accb92677.svg" alt="Coding time" /></a>
 </p>
 
-
- 
 <p align="center">
+<img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/profile-3d-contrib/profile-night-rainbow.svg" alt="graficas">
 <!--SNAKE-->
    <img src="https://github.com/joseluisgs/joseluisgs/blob/output/github-contribution-grid-snake.svg" alt="snake">
 </p>
 
-
   <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#1390](https://github.com/InsertKoinIO/koin/issues/1390) in [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin)
+1. 🗣 Commented on [#67](https://github.com/ajalt/mordant/issues/67#issuecomment-1769207468) in [ajalt/mordant](https://github.com/ajalt/mordant)
   <!--END_SECTION:activity-->
 
 
@@ -240,6 +230,8 @@ Kotlin           1 hr            ▒░░░░░░░░░░░░░░�
 <p align="center">
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" height= 175/></a>
 </p>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=88d4bc&height=120&section=footer"/>
 
 <!--
 ![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue)

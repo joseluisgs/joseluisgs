@@ -11,8 +11,7 @@ tags:
 publish: true
 image: 'https://github.com/joseluisgs/joseluisgs/raw/master/images/banner.png'
 sticky: 1
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
 ---
 👋 Me llamo **José Luis González Sánchez**, Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Secundaria**](https://www.iesluisvives.es/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT) 👨‍💻.
 
@@ -23,7 +22,7 @@ A parte de mi docencia diaria, imparto formación en cursos de máster/doctorado
 
 Personalmente he sido galardonado con distintos premios y distinciones a lo largo de mi carrera profesional, que podrás conocer en en la sección de [Investigación](../investigacion/). 
 
-Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar  a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
+Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT). Te puedo ayudar  a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Actualmente soy uno de los responsables de contenidos en [**Hyperskill**](https://hyperskill.org/)/[**Jetbrains Academy**](https://www.jetbrains.com/academy/) para tecnologías relacionadas con Kotlin. Te puedo ayudar  a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
 
 <p align="center">
   <a href="https://www.jetbrains.com/es-es/company/partners/kotlin/" target="_blank"> 
@@ -53,41 +52,31 @@ A parte de enseñar y desarrollar, disfruto con la música, especialmente todo t
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
 <p align="center">
-    <a href="https://joseluisgs.github.io/" target="_blank">
+    <a href="https://joseluisgs.dev/" target="_blank">
         <img loading="lazy" src="https://joseluisgs.github.io/img/favicon.png" 
-    height="50">
+    height="40">
     </a> &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
         <img loading="lazy" src="https://distreau.com/github.svg" 
-    height="50">
+    height="40">
     </a> &nbsp;&nbsp;
-    <a href="https://twitter.com/joseluisgonsan" target="_blank">
+    <a href="https://twitter.com/JoseLuisGS_" target="_blank">
         <img loading="lazy" src="https://i.imgur.com/U4Uiaef.png" 
-    height="50">
+    height="40">
     </a> &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
         <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
-    height="50">
+    height="40">
     </a> &nbsp;&nbsp;
-    <a href="https://discordapp.com/users/joseluisgs#3560" target="_blank">
-        <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png" 
-    height="50"> &nbsp;&nbsp;
-    </a>
     <a href="https://g.dev/joseluisgs" target="_blank">
         <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
-    height="50">
-    </a>    
-</p>
-
-## ¿Un café?
-<p align="center">
-  Si te gusta o te ha sido útil el contenido de mi web o proyectos, puedes invitarme a un café ☕.
-</p>
-<p align="center">
-    <a href="https://www.buymeacoffee.com/joseluisgs" target="_blank"> 
-      <img loading="lazy" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" />
+    height="40"> &nbsp;&nbsp;
     </a>
-  </p>
+    <a href="https://www.youtube.com/@joseluisgs" target="_blank">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
+    height="40">
+    </a>      
+</p>
 
 ## Una cita
 > "Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives". 

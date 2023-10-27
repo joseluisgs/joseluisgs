@@ -14,9 +14,13 @@ tags:
   - GitKraken
 publish: true
 image: 'https://29l9ru1qvjub3321dj2ypylt-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/og-store.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Os comenté no hace mucho que soy Embajador de [GitKraken](./2021-05-26-gitkraken-embajador.md). La gente de GitKraken ha tenido a bien mandarme como detalle una serie de regalitos super chulos 🎁. Te presento mi "uniforme" de embajador. 
 

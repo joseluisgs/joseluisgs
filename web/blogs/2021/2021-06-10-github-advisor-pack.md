@@ -14,9 +14,13 @@ tags:
   - GitHub
 publish: true
 image: 'https://github.blog/wp-content/uploads/2014/11/3b7c54c6-73c4-11e4-9fa7-305e8f655685.jpg'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 Os comenté que soy Campus Advisor de [GitHub](./2021-06-02-github-advisor.md) y con ello tengo un pack de bienvenida y detalles que mola un montón. ¿Quieres verlo? 😎. 
 

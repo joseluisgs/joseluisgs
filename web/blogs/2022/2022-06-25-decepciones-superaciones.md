@@ -15,9 +15,13 @@ tags:
 
 publish: true
 image: 'https://kotlinlang.org/assets/images/twitter/general.png'
-twitter_creator: joseluisgonsan
-twitter_site: joseluisgonsan
+
+# si quieres que se muestre en la portada fija
 # sticky: 1
+
+# si quieres que se muestre en la portada
+giscus: true 
+
 ---
 No todas las buenas noticias o avances personales llegan solos, algunos de ellos surgen por determinadas decepciones o casualidades de la vida. Hace un tiempo escribí como  como [Kotlin siempre estaba en mi equipo](../2021/2021-11-28-kotlin-en-mi-equipo.md). En esta entrada, después de mucho escribir, contaré mi experiencia de cómo como profesor y docente avancé para mejorar y poder ofrecer lo mejor a mi alumnado y la gente que me rodea profesionalmente a partir de una decepción que se transformó en inspiración.
 

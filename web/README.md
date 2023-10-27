@@ -3,7 +3,7 @@
 En este proyecto voy realizando mi propia página web personal y profesional con distintas tecnologías que uso en clase para mostrar un poco de lo que hago en mi día a día.
 
 [![Vue Ready](https://img.shields.io/badge/Vue.js-%20Ready-%2342b983)](https://es.vuejs.org/)
-[![LISENCE](https://img.shields.io/badge/Lisence-MIT-%23e64545)](https://joseluisgs.github.io/docs/license/)
+[![LICENSE](https://img.shields.io/badge/License-CC-%23e64545)](https://joseluisgs.dev/docs/license/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-%20Ready-blueviolet)](https://joseluisgs.github.io/)
 [![Netlify](https://img.shields.io/badge/Netlify-Ready-blue)](https://joseluisgs.netlify.app/)
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/joseluisgs.github.io)
@@ -19,7 +19,6 @@ En este proyecto voy realizando mi propia página web personal y profesional con
   - [Despliegue en](#despliegue-en)
   - [Autor](#autor)
     - [Contacto](#contacto)
-    - [¿Un café?](#un-café)
   - [Licencia de uso](#licencia-de-uso)
 
 ## Acerca de
@@ -38,6 +37,7 @@ Web de ejemplo con el objetivo de poner en práctica distintas tecnologías y us
 Como se puede ver, a parte de una web personal, es un ejemplo de diversas tecnologías que uso a nivel docente o a nivel particular y que se pueden usar como ejemplos. Este ha sido mi verdadero objetivo con esta web. De hecho, todo el código siempre estará disponible en mi [repositorio](https://github.com/joseluisgs).
 
 ## Despliegue en
+- Dominio: https://joseluisgs.dev/
 - GitHub Pages: https://joseluisgs.github.io/
 - Netlify: https://joseluisgs.netlify.app/
 
@@ -53,7 +53,7 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
 <p>
- <a href="https://joseluisgs.github.io/" target="_blank">
+ <a href="https://joseluisgs.dev/" target="_blank">
         <img src="https://joseluisgs.github.io/img/favicon.png" 
     height="30">
     </a>  &nbsp;&nbsp;
@@ -61,7 +61,7 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
         <img src="https://distreau.com/github.svg" 
     height="30">
     </a> &nbsp;&nbsp;
-        <a href="https://twitter.com/joseluisgonsan" target="_blank">
+        <a href="https://twitter.com/JoseLuisGS_" target="_blank">
         <img src="https://i.imgur.com/U4Uiaef.png" 
     height="30">
     </a> &nbsp;&nbsp;
@@ -69,18 +69,15 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
     height="30">
     </a>  &nbsp;&nbsp;
-    <a href="https://discordapp.com/users/joseluisgs#3560" target="_blank">
-        <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png" 
-    height="30">
-    </a> &nbsp;&nbsp;
     <a href="https://g.dev/joseluisgs" target="_blank">
         <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
+    height="30"> &nbsp;&nbsp;
+    </a>
+    <a href="https://www.youtube.com/@joseluisgs" target="_blank">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
     height="30">
-    </a>    
+    </a>      
 </p>
-
-### ¿Un café?
-<p><a href="https://www.buymeacoffee.com/joseluisgs"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" height="48" alt="joseluisgs" /></a></p><br><br><br>
 
 ## Licencia de uso
 
