@@ -45,4 +45,6 @@ Estos meses también me han hecho lo desengañado con determinados aspectos de l
 
 Finalmente, si no fuera tantos cambios suficientes, he tenido que comprar un nuevo portátil. Lo siento mucho, pero para mi es imposible dar clase en los ordenadores congelados, donde día sí, día también me tengo que traer el código, probar librerías, ajustar los dockers, etc. Somos el único gremio que debe poner su propio material para dar clase. Espero que esto cambie. El año pasado, al menos tenía un portátil del departamento, este año no. Quizás porque este año ni lo he pedido. En cualquier caso tenía uno, pero no daba la talla con el IntellIj y otro software corriendo a la vez. 
 
+No quiero olvidarme de mi "gran vecino o empresa de limpieza" que me ha rallado el coche, otro cambio más. 
+
 En fin, muchos cambios y ajustes que espero que merezcan la pena.
