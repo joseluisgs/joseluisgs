@@ -11,7 +11,7 @@ tags:
  - Personal
  - Cursos
 publish: true
-image: 'http://d3h051auklfox5.cloudfront.net/uploads/asset/file/20/Estudios_y_formaci_n.jpg'
+image: 'https://i.imgur.com/crOemwO.jpg'
 
 
 ---
