@@ -222,7 +222,7 @@ Blade Template   3 hrs 8 mins    🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#16](https://github.com/joseluisgs/Programacion-Retos-2023-2024/pull/16) in [joseluisgs/Programacion-Retos-2023-2024](https://github.com/joseluisgs/Programacion-Retos-2023-2024)
+1. 🎉 Merged PR [#25](https://github.com/joseluisgs/Programacion-Retos-2023-2024/pull/25) in [joseluisgs/Programacion-Retos-2023-2024](https://github.com/joseluisgs/Programacion-Retos-2023-2024)
   <!--END_SECTION:activity-->
 
 
