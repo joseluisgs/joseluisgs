@@ -222,7 +222,7 @@ JSON              32 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#37](https://github.com/joseluisgs/Programacion-Retos-2023-2024/pull/37) in [joseluisgs/Programacion-Retos-2023-2024](https://github.com/joseluisgs/Programacion-Retos-2023-2024)
+1. 🎉 Merged PR [#42](https://github.com/joseluisgs/Programacion-Retos-2023-2024/pull/42) in [joseluisgs/Programacion-Retos-2023-2024](https://github.com/joseluisgs/Programacion-Retos-2023-2024)
   <!--END_SECTION:activity-->
 
 
