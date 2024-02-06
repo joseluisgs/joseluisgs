@@ -222,7 +222,7 @@ JSON              21 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#42](https://github.com/joseluisgs/Programacion-Retos-2023-2024/pull/42) in [joseluisgs/Programacion-Retos-2023-2024](https://github.com/joseluisgs/Programacion-Retos-2023-2024)
+1. 🗣 Commented on [#136](https://github.com/ufoss-org/kotysa/issues/136#issuecomment-1926555777) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
   <!--END_SECTION:activity-->
 
 
