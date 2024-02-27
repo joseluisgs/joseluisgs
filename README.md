@@ -222,7 +222,7 @@ Blade Template    26 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#136](https://github.com/ufoss-org/kotysa/issues/136#issuecomment-1926555777) in [ufoss-org/kotysa](https://github.com/ufoss-org/kotysa)
+1. 🎉 Merged PR [#52](https://github.com/joseluisgs/Programacion-Retos-2023-2024/pull/52) in [joseluisgs/Programacion-Retos-2023-2024](https://github.com/joseluisgs/Programacion-Retos-2023-2024)
   <!--END_SECTION:activity-->
 
 
