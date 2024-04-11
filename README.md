@@ -222,7 +222,7 @@ CSV/TSV           12 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#62](https://github.com/joseluisgs/Programacion-Retos-2023-2024/pull/62) in [joseluisgs/Programacion-Retos-2023-2024](https://github.com/joseluisgs/Programacion-Retos-2023-2024)
+1. 🎉 Merged PR [#75](https://github.com/joseluisgs/Programacion-Retos-2023-2024/pull/75) in [joseluisgs/Programacion-Retos-2023-2024](https://github.com/joseluisgs/Programacion-Retos-2023-2024)
   <!--END_SECTION:activity-->
 
 
