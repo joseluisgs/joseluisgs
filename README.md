@@ -176,15 +176,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Ajustando biorritmos y cosas del día a día**](https://joseluisgs.dev/blogs/2024/2024-01-04-ajustando-biorritmos.html) *4 Jan 2024* 
+
+ - ✏️ [**Podcast en Devexpert.io**](https://joseluisgs.dev/blogs/2024/2024-01-03-podcast-devexpert.html) *3 Jan 2024* 
+
+ - ✏️ [**Vista de Antonio Leiva y DevExpert.io al IES Luis Vives**](https://joseluisgs.dev/blogs/2024/2024-01-03-vista-devexpert-luisvives.html) *3 Jan 2024* 
+
  - ✏️ [**Curso nuevo, y nuevos objetivos**](https://joseluisgs.dev/blogs/2023/2023-10-27-curso-nuevo.html) *27 Oct 2023* 
 
  - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte III**](https://joseluisgs.dev/blogs/2023/2023-07-10-reactive-api-rest-pt-iii.html) *10 Jul 2023* 
-
- - ✏️ [**Entrevista y podcast en Disco Duro de Roer**](https://joseluisgs.dev/blogs/2023/2023-07-09-entrevista-disco-duro.roer.html) *9 Jul 2023* 
-
- - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte II**](https://joseluisgs.dev/blogs/2023/2023-06-19-reactive-api-rest-pt-ii.html) *19 Jun 2023* 
-
- - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte I**](https://joseluisgs.dev/blogs/2023/2023-05-29-reactive-api-rest-pt-i.html) *29 May 2023* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
@@ -205,15 +205,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```txt
-From: 28 September 2023 - To: 28 October 2023
+From: 09 June 2024 - To: 09 July 2024
 
-Total Time: 113 hrs 8 mins
+Total Time: 69 hrs 24 mins
 
-Java              51 hrs 2 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   45.06 %
-TypeScript        18 hrs 20 mins  🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   16.19 %
-Markdown          15 hrs 29 mins  🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.67 %
-Kotlin            15 hrs 10 mins  🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.40 %
-HTML              4 hrs 5 mins    🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.62 %
+Kotlin                    27 hrs 5 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   38.97 %
+Java                      20 hrs 28 mins  🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   29.46 %
+C#                        14 hrs 11 mins  🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   20.41 %
+Markdown                  3 hrs 23 mins   🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.87 %
+JSON                      1 hr 28 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.13 %
 ```
 
 <!--END_SECTION:waka-->
@@ -230,7 +230,7 @@ HTML              4 hrs 5 mins    🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#67](https://github.com/ajalt/mordant/issues/67#issuecomment-1769207468) in [ajalt/mordant](https://github.com/ajalt/mordant)
+1. ❌ Closed PR [#52](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024/pull/52) in [joseluisgs/PullRequestEntornos1DAW-2023-2024](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024)
   <!--END_SECTION:activity-->
 
 
