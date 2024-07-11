@@ -92,9 +92,9 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png"
   height="40">
-  <img loading="lazy" src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" 
+  <img loading="lazy" src="https://seeklogo.com/images/J/jetbrains-logo-EAE3B1C662-seeklogo.com.png" 
   height="40">
-  <img loading="lazy" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/vqtv5cx7zkngd7heywck" 
+  <img loading="lazy" src="https://pic.vsixhub.com/89/84/75da638c-c45a-44ea-aa3b-8570a3559810-logo-20230429.webp" 
   height="40">
   <img loading="lazy" src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" 
   height="40">
@@ -110,37 +110,49 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" 
   height="40">
+  <img loading="lazy" src="https://insert-koin.io/img/koin_new_logo.png" 
+  height="40">
 </p>
 
 <p align="center">
  <img loading="lazy" src="https://developer.android.com/events/dev-challenge/images/dev-challenge_jetpack-compose-asset.svg" 
   height="40">
-  <img loading="lazy" src="https://avatars.githubusercontent.com/u/28214161?s=200&v=4" 
-  height="40">
-  <img loading="lazy" src="https://insert-koin.io/img/koin_new_logo.png" 
-  height="40">
-    <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
+  <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
   height="40">
   <img loading="lazy" src="https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png" 
   height="40">
   <img loading="lazy" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" 
   height="40">
-   <img loading="lazy" src="https://cdn-icons-png.flaticon.com/256/226/226777.png" 
+  <img loading="lazy" src="https://cdn-icons-png.flaticon.com/256/226/226777.png" 
   height="40">
   <img loading="lazy" src="https://miro.medium.com/max/300/1*J9d-VtiLfN9APIQgWTP9ow.png" 
   height="40">
-  <img loading="lazy" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" 
+   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" 
   height="40">
-  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mariadb.svg" 
+   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" 
+  height="40">
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png" 
   height="40">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
   height="40">
   <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png" 
   height="40">
+  <img loading="lazy" src="https://static-00.iconduck.com/assets.00/php-icon-256x256-oq5bc0bt.png" 
+  height="40">
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" 
+  height="40">
 </p>
 
 <p align="center">
- <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
+ <img loading="lazy" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" 
+  height="40">
+ <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mariadb.svg" 
+  height="40">
+   <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
+  height="40">
+  <img loading="lazy" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png" 
+  height="40">
+  <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="40">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
   height="40">
@@ -154,13 +166,9 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/ddd72aa8248a5c2f77429b9496e6e3e4da2a4e26/8afc0/logo.svg" 
   height="40">
-   <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
-  height="40">
   <img loading="lazy" src="https://nuxtjs.org/design-kit/colored-logo.svg" 
   height="40">
-  <img loading="lazy" src="https://vuepress.vuejs.org/hero.png" 
-  height="40">
-   <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_quasar_icon_130213.png" 
+  <img loading="lazy" src="https://vuepress.vuejs.org/images/hero.png" 
   height="40">
 </p>
 
