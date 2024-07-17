@@ -226,7 +226,7 @@ JSON                      1 hr 31 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <p align="center">
 <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/profile-3d-contrib/profile-night-rainbow.svg" alt="graficas">
 <!--SNAKE-->
-   <img src="https://github.com/joseluisgs/joseluisgs/blob/output/github-contribution-grid-snake.svg" alt="snake">
+   <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/github-contribution-grid-snake.svg" alt="snake">
 </p>
 
   <!--START_SECTION:activity-->
