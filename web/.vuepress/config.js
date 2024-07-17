@@ -250,7 +250,7 @@ module.exports = {
     lastUpdated: 'Actualizado',
     author: 'José Luis González',
     authorAvatar: '/img/avatar.jpeg',
-    titlePage: 'José Luis GS',
+    titlePage: 'JoseLuisGS',
     record: 'v2.0',
     startYear: '2021',
     jobs: 'PhD - Profesor - Investigador - Desarrollador',
