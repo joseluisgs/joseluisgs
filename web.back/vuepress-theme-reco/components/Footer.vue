@@ -25,11 +25,14 @@
       <a target="blank" href="https://github.com/joseluisgs"
         ><span class="iconify-inline iconfont" data-icon="mdi:github"></span
       ></a>
-      <a target="blank" href="https://twitter.com/JoseLuisGS_"
-        ><span class="iconify-inline iconfont" data-icon="mdi:twitter"></span
+      <a target="blank" href="https://x.com/JoseLuisGS_"
+        ><span class="iconify-inline iconfont" data-icon="fa6-brands:x-twitter"></span
       ></a>
       <a target="blank" href="https://linkedin.com/in/joseluisgonsan"
         ><span class="iconify-inline iconfont" data-icon="mdi:linkedin"></span
+      ></a>
+      <a target="blank" href="https://www.instagram.com/joseluisgs.dev"
+        ><span class="iconify-inline iconfont" data-icon="mdi:instagram"></span
       ></a>
       <a target="blank" href="https://g.dev/joseluisgs"
         ><span class="iconify-inline iconfont" data-icon="raphael:code"></span

@@ -151,12 +151,17 @@ module.exports = {
       },
       socialLinks: [
         // Information bar displays social information
-        { icon: 'mdi:github', link: 'https://github.com/joseluisgs', color: '#fffff' },
-        { icon: 'mdi:twitter', link: 'https://twitter.com/JoseLuisGS_', color: '#1DA1F2' },
+        { icon: 'mdi:github', link: 'https://github.com/joseluisgs', color: '#AAA' },
+        { icon: 'fa6-brands:x-twitter', link: 'https://x.com/JoseLuisGS_', color: '#888' },
         {
           icon: 'mdi:linkedin',
           link: 'https://www.linkedin.com/in/joseluisgonsan',
           color: '#0077B5',
+        },
+        {
+          icon: 'mdi:instagram',
+          link: 'https://www.instagram.com/joseluisgs.dev',
+          color: '#e56969',
         },
         { icon: 'raphael:code', link: 'https://g.dev/joseluisgs', color: '#e81055' },
         {
