@@ -112,7 +112,7 @@ module.exports = {
           },
           {
             text: 'Instagram',
-            link: 'https://www.instagram.com/joseluisgs.dev/',
+            link: 'https://www.instagram.com/joseluisgs.dev',
             icon: 'mdi:instagram',
           },
           { text: 'Google Dev', link: 'https://g.dev/joseluisgs', icon: 'raphael:code' },
