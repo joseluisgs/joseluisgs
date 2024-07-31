@@ -104,11 +104,16 @@ module.exports = {
         items: [
           { text: 'Ayuda', link: 'https://forms.gle/V2m42qiW1s6X4oNt8', icon: 'mdi:help-circle' },
           { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'mdi:github' },
-          { text: 'Twitter', link: 'https://twitter.com/JoseLuisGS_', icon: 'mdi:twitter' },
+          { text: 'X-Twitter', link: 'https://x.com/JoseLuisGS_', icon: 'fa6-brands:x-twitter' },
           {
             text: 'LinkedIn',
             link: 'https://www.linkedin.com/in/joseluisgonsan',
             icon: 'mdi:linkedin',
+          },
+          {
+            text: 'Instagram',
+            link: 'https://www.instagram.com/joseluisgs.dev/',
+            icon: 'mdi:instagram',
           },
           { text: 'Google Dev', link: 'https://g.dev/joseluisgs', icon: 'raphael:code' },
           {

@@ -61,7 +61,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
         <img loading="lazy" src="https://distreau.com/github.svg" 
     height="40">
     </a> &nbsp;&nbsp;
-    <a href="https://twitter.com/JoseLuisGS_" target="_blank">
+    <a href="https://x.com/JoseLuisGS_" target="_blank">
         <img loading="lazy" src="https://freepnglogo.com/images/all_img/1691832581twitter-x-icon-png.png" 
     height="40">
     </a> &nbsp;&nbsp;
