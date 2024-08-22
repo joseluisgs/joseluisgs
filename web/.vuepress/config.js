@@ -104,11 +104,16 @@ module.exports = {
         items: [
           { text: 'Ayuda', link: 'https://forms.gle/V2m42qiW1s6X4oNt8', icon: 'mdi:help-circle' },
           { text: 'GitHub', link: 'https://github.com/joseluisgs', icon: 'mdi:github' },
-          { text: 'Twitter', link: 'https://twitter.com/JoseLuisGS_', icon: 'mdi:twitter' },
+          { text: 'X-Twitter', link: 'https://x.com/JoseLuisGS_', icon: 'fa6-brands:x-twitter' },
           {
             text: 'LinkedIn',
             link: 'https://www.linkedin.com/in/joseluisgonsan',
             icon: 'mdi:linkedin',
+          },
+          {
+            text: 'Instagram',
+            link: 'https://www.instagram.com/joseluisgs.dev',
+            icon: 'mdi:instagram',
           },
           { text: 'Google Dev', link: 'https://g.dev/joseluisgs', icon: 'raphael:code' },
           {
@@ -146,12 +151,17 @@ module.exports = {
       },
       socialLinks: [
         // Information bar displays social information
-        { icon: 'mdi:github', link: 'https://github.com/joseluisgs', color: '#fffff' },
-        { icon: 'mdi:twitter', link: 'https://twitter.com/JoseLuisGS_', color: '#1DA1F2' },
+        { icon: 'mdi:github', link: 'https://github.com/joseluisgs', color: '#AAA' },
+        { icon: 'fa6-brands:x-twitter', link: 'https://x.com/JoseLuisGS_', color: '#888' },
         {
           icon: 'mdi:linkedin',
           link: 'https://www.linkedin.com/in/joseluisgonsan',
           color: '#0077B5',
+        },
+        {
+          icon: 'mdi:instagram',
+          link: 'https://www.instagram.com/joseluisgs.dev',
+          color: '#e56969',
         },
         { icon: 'raphael:code', link: 'https://g.dev/joseluisgs', color: '#e81055' },
         {
@@ -250,7 +260,7 @@ module.exports = {
     lastUpdated: 'Actualizado',
     author: 'José Luis González',
     authorAvatar: '/img/avatar.jpeg',
-    titlePage: 'José Luis GS',
+    titlePage: 'JoseLuisGS',
     record: 'v2.0',
     startYear: '2021',
     jobs: 'PhD - Profesor - Investigador - Desarrollador',
