@@ -90,13 +90,13 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 </p>
 
 <p align="center">
-  <img loading="lazy" src="https://www.jetbrains.com/academy/img/icon-kotlin-new.svg" 
+  <img loading="lazy" src="https://resources.jetbrains.com/storage/products/company/brand/logos/Kotlin_icon.png" 
   height="40">
   <img loading="lazy" src="https://distreau.com/github.svg" 
   height="40">
   <img loading="lazy" src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png"
   height="40">
-  <img loading="lazy" src="https://seeklogo.com/images/J/jetbrains-logo-EAE3B1C662-seeklogo.com.png" 
+  <img loading="lazy" src="https://i.imgur.com/Ox9hu1N.png" 
   height="40">
   <img loading="lazy" src="https://pic.vsixhub.com/89/84/75da638c-c45a-44ea-aa3b-8570a3559810-logo-20230429.webp" 
   height="40">
@@ -154,7 +154,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
    <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
   height="40">
-  <img loading="lazy" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png" 
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/932px-NestJS.svg.png" 
   height="40">
   <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
   height="40">
