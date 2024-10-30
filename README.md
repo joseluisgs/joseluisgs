@@ -209,11 +209,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```txt
-From: 09 August 2024 - To: 08 September 2024
+From: 28 September 2024 - To: 28 October 2024
 
-Total Time: 11 mins
+Total Time: 44 hrs 30 mins
 
-Markdown   11 mins         🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩   100.00 %
+Kotlin                     14 hrs 41 mins  🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   30.48 %
+Java                       13 hrs 29 mins  🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   27.98 %
+YAML                       5 hrs 24 mins   🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.21 %
+Markdown                   4 hrs 16 mins   🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.88 %
+Other                      3 hrs 41 mins   🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.66 %
 ```
 
 <!--END_SECTION:waka-->
@@ -230,7 +234,7 @@ Markdown   11 mins         🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#52](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024/pull/52) in [joseluisgs/PullRequestEntornos1DAW-2023-2024](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024)
+1. 🎉 Merged PR [#18](https://github.com/joseluisgs/practica-bienvenida-dwes-daw-2024-2025/pull/18) in [joseluisgs/practica-bienvenida-dwes-daw-2024-2025](https://github.com/joseluisgs/practica-bienvenida-dwes-daw-2024-2025)
   <!--END_SECTION:activity-->
 
 
