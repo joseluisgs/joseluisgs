@@ -234,7 +234,7 @@ JSON             9 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#18](https://github.com/joseluisgs/practica-bienvenida-dwes-daw-2024-2025/pull/18) in [joseluisgs/practica-bienvenida-dwes-daw-2024-2025](https://github.com/joseluisgs/practica-bienvenida-dwes-daw-2024-2025)
+1. 🎉 Merged PR [#1](https://github.com/joseluisgs/caca/pull/1) in [joseluisgs/caca](https://github.com/joseluisgs/caca)
   <!--END_SECTION:activity-->
 
 
