@@ -234,7 +234,7 @@ JSON             9 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/joseluisgs/caca/pull/1) in [joseluisgs/caca](https://github.com/joseluisgs/caca)
+1. 🎉 Merged PR [#3](https://github.com/joseluisgs/Compartido-1DAW-2024-2025/pull/3) in [joseluisgs/Compartido-1DAW-2024-2025](https://github.com/joseluisgs/Compartido-1DAW-2024-2025)
   <!--END_SECTION:activity-->
 
 
