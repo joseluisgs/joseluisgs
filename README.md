@@ -234,7 +234,7 @@ JSON              9 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#13](https://github.com/joseluisgs/Compartido-1DAW-2024-2025/pull/13) in [joseluisgs/Compartido-1DAW-2024-2025](https://github.com/joseluisgs/Compartido-1DAW-2024-2025)
+1. 🎉 Merged PR [#28](https://github.com/joseluisgs/Compartido-1DAW-2024-2025/pull/28) in [joseluisgs/Compartido-1DAW-2024-2025](https://github.com/joseluisgs/Compartido-1DAW-2024-2025)
   <!--END_SECTION:activity-->
 
 
