@@ -234,7 +234,7 @@ HTML                19 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#31](https://github.com/joseluisgs/Compartido-1DAW-2024-2025/pull/31#issuecomment-2634489932) in [joseluisgs/Compartido-1DAW-2024-2025](https://github.com/joseluisgs/Compartido-1DAW-2024-2025)
+1. ❗ Opened issue [#1512](https://github.com/yzhang-gh/vscode-markdown/issues/1512) in [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown)
   <!--END_SECTION:activity-->
 
 
