@@ -234,7 +234,7 @@ Java Properties     10 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❗ Opened issue [#1512](https://github.com/yzhang-gh/vscode-markdown/issues/1512) in [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown)
+1. 🗣 Commented on [#1512](https://github.com/yzhang-gh/vscode-markdown/issues/1512#issuecomment-2922691208) in [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown)
   <!--END_SECTION:activity-->
 
 
