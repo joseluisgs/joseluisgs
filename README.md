@@ -96,11 +96,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png"
   height="40">
-<<<<<<< HEAD
   <img loading="lazy" src="https://cdn.creazilla.com/icons/3254217/postman-icon-lg.png" 
-=======
-  <img loading="lazy" src="https://i.imgur.com/Ox9hu1N.png" 
->>>>>>> origin/master
   height="40">
   <img loading="lazy" src="https://pic.vsixhub.com/89/84/75da638c-c45a-44ea-aa3b-8570a3559810-logo-20230429.webp" 
   height="40">
