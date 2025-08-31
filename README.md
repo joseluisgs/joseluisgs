@@ -90,7 +90,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 </p>
 
 <p align="center">
-  <img loading="lazy" src="https://www.jetbrains.com/academy/img/icon-kotlin-new.svg" 
+  <img loading="lazy" src="https://resources.jetbrains.com/storage/products/company/brand/logos/Kotlin_icon.png" 
   height="40">
   <img loading="lazy" src="https://distreau.com/github.svg" 
   height="40">
