@@ -94,7 +94,7 @@ module.exports = {
         ],
       },
 
-      { text: 'Hola', link: '/docs/docencia/', icon: 'reco-suggestion' }, // reco-blog reco-other
+      { text: 'Docencia', link: '/docs/docencia/', icon: 'reco-suggestion' }, // reco-blog reco-other
       { text: 'Proyectos', link: '/docs/proyectos/', icon: 'reco-api' },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
 

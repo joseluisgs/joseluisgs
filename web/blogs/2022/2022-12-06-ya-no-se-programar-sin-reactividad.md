@@ -15,7 +15,7 @@ tags:
   - Docencia
 
 publish: true
-image: 'https://www.kiebot.com/wp-content/uploads/2021/01/1_yXA_eIsmABYZ1GHZJTVJIQ.png'
+image: 'https://reactiveweb.org/wp-content/uploads/2024/11/Reactive-Programming-vs-Asynchronous-%E2%80%93-A-Comparison.jpg'
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

@@ -62,7 +62,7 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
     height="40">
     </a>&nbsp;
     <a href="https://x.com/JoseLuisGS_" target="_blank">
-        <img loading="lazy" src="https://freepnglogo.com/images/all_img/1691832581twitter-x-icon-png.png" 
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" 
     height="40">
     </a>&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
@@ -108,7 +108,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" 
   height="40">
-  <img loading="lazy" src="https://cdn.creazilla.com/icons/3254217/postman-icon-lg.png" 
+  <img loading="lazy" src="https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-svg-png-download-2945092.png" 
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
   height="40">

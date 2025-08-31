@@ -13,7 +13,7 @@ tags:
   - Git
   - GitKraken
 publish: true
-image: 'https://29l9ru1qvjub3321dj2ypylt-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/og-store.jpg'
+image: 'https://branchcreation.com/one-page/images/portfolio/mixed/gitkraken.png'
 
 # si quieres que se muestre en la portada fija
 # sticky: 1

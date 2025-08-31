@@ -11,7 +11,7 @@ tags:
   - Personal
   - Tecnologías
 publish: true
-image: 'https://www.veracode.com/sites/default/files/styles/blog_post_resize_960/public/developer-guide-blog-2.png'
+image: 'https://veloxsoftech.com/blog/wp-content/uploads/2021/04/Software-developer.jpg'
 ---
 
 Son muchas las tecnologías que uso o he usado y complicado indicar todas. Pero intentaré hacerlo 🙂
@@ -40,7 +40,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" 
   height="40">
-  <img loading="lazy" src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" 
+  <img loading="lazy" src="https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-svg-png-download-2945092.png" 
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
   height="40">
@@ -73,7 +73,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png" 
   height="40">
-  <img loading="lazy" src="https://static-00.iconduck.com/assets.00/php-icon-256x256-oq5bc0bt.png" 
+  <img loading="lazy" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" 
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" 
   height="40">
@@ -88,13 +88,13 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/932px-NestJS.svg.png" 
   height="40">
-  <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png" 
   height="40">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
   height="40">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
   height="40">
-  <img loading="lazy" src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" 
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/410px-Vitejs-logo.svg.png" 
   height="40">
   <img loading="lazy" src="https://vitest.dev/logo-shadow.svg" 
   height="40">

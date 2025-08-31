@@ -14,7 +14,7 @@ tags:
   - Vue.js
 
 publish: true
-image: 'https://mindwrackindia.com/wp-content/uploads/2018/06/vuesplash.3e416f3.png'
+image: 'https://media.publit.io/file/n0pLqGsm.png'
 
 # si quieres que se muestre en la portada fija
 # sticky: 1
