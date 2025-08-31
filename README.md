@@ -154,7 +154,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
    <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
   height="40">
-  <img loading="lazy" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png" 
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/932px-NestJS.svg.png" 
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png" 
   height="40">
