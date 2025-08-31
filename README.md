@@ -96,7 +96,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png"
   height="40">
-  <img loading="lazy" src="https://seeklogo.com/images/J/jetbrains-logo-EAE3B1C662-seeklogo.com.png" 
+  <img loading="lazy" src="https://cdn.creazilla.com/icons/3254217/postman-icon-lg.png" 
   height="40">
   <img loading="lazy" src="https://pic.vsixhub.com/89/84/75da638c-c45a-44ea-aa3b-8570a3559810-logo-20230429.webp" 
   height="40">
@@ -141,7 +141,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png" 
   height="40">
-  <img loading="lazy" src="https://static-00.iconduck.com/assets.00/php-icon-256x256-oq5bc0bt.png" 
+  <img loading="lazy" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" 
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" 
   height="40">
@@ -156,13 +156,13 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png" 
   height="40">
-  <img loading="lazy" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png" 
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png" 
   height="40">
   <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
   height="40">
   <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
   height="40">
-  <img loading="lazy" src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" 
+  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/410px-Vitejs-logo.svg.png" 
   height="40">
   <img loading="lazy" src="https://vitest.dev/logo-shadow.svg" 
   height="40">
