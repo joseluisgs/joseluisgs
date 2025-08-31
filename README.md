@@ -90,13 +90,13 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 </p>
 
 <p align="center">
-  <img loading="lazy" src="https://resources.jetbrains.com/storage/products/company/brand/logos/Kotlin_icon.png" 
+  <img loading="lazy" src="https://www.jetbrains.com/academy/img/icon-kotlin-new.svg" 
   height="40">
   <img loading="lazy" src="https://distreau.com/github.svg" 
   height="40">
   <img loading="lazy" src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png"
   height="40">
-  <img loading="lazy" src="https://cdn.creazilla.com/icons/3254217/postman-icon-lg.png" 
+  <img loading="lazy" src="https://i.imgur.com/Ox9hu1N.png" 
   height="40">
   <img loading="lazy" src="https://pic.vsixhub.com/89/84/75da638c-c45a-44ea-aa3b-8570a3559810-logo-20230429.webp" 
   height="40">
@@ -108,7 +108,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" 
   height="40">
-  <img loading="lazy" src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" 
+  <img loading="lazy" src="https://cdn.creazilla.com/icons/3254217/postman-icon-lg.png" 
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
   height="40">
@@ -154,7 +154,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
   height="40">
    <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
   height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/932px-NestJS.svg.png" 
+  <img loading="lazy" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png" 
   height="40">
   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png" 
   height="40">
@@ -180,8 +180,6 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
- - ✏️ [**Podcast en Algoritmo Salvaje**](https://joseluisgs.dev/blogs/2024/2024-07-31-podcast-algoritmo-salvaje.html) *31 Jul 2024* 
-
  - ✏️ [**Ajustando biorritmos y cosas del día a día**](https://joseluisgs.dev/blogs/2024/2024-01-04-ajustando-biorritmos.html) *4 Jan 2024* 
 
  - ✏️ [**Podcast en Devexpert.io**](https://joseluisgs.dev/blogs/2024/2024-01-03-podcast-devexpert.html) *3 Jan 2024* 
@@ -189,6 +187,8 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
  - ✏️ [**Vista de Antonio Leiva y DevExpert.io al IES Luis Vives**](https://joseluisgs.dev/blogs/2024/2024-01-03-vista-devexpert-luisvives.html) *3 Jan 2024* 
 
  - ✏️ [**Curso nuevo, y nuevos objetivos**](https://joseluisgs.dev/blogs/2023/2023-10-27-curso-nuevo.html) *27 Oct 2023* 
+
+ - ✏️ [**Crea tu API REST reactiva con Kotlin y Ktor Parte III**](https://joseluisgs.dev/blogs/2023/2023-07-10-reactive-api-rest-pt-iii.html) *10 Jul 2023* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
@@ -209,11 +209,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```txt
-From: 30 July 2025 - To: 29 August 2025
+From: 29 June 2024 - To: 29 July 2024
 
-Total Time: 0 secs
+Total Time: 62 hrs 33 mins
 
-No activity tracked
+C#                        25 hrs 58 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   41.48 %
+Java                      21 hrs 39 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   34.60 %
+Kotlin                    8 hrs 12 mins   🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.10 %
+Markdown                  3 hrs 50 mins   🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   06.14 %
+JSON                      48 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.30 %
 ```
 
 <!--END_SECTION:waka-->
@@ -230,7 +234,7 @@ No activity tracked
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1512](https://github.com/yzhang-gh/vscode-markdown/issues/1512#issuecomment-2922691208) in [yzhang-gh/vscode-markdown](https://github.com/yzhang-gh/vscode-markdown)
+1. ❌ Closed PR [#52](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024/pull/52) in [joseluisgs/PullRequestEntornos1DAW-2023-2024](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024)
   <!--END_SECTION:activity-->
 
 
