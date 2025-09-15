@@ -59,7 +59,13 @@ Finalmente, se presentan las **herramientas de apoyo**, como los **IDE** (Entorn
 Puedes ver el vídeo introductorio del tema en el siguiente enlace y consultar el código de ejemplo en el repositorio de GitHub:
 
 <p style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=GDCJGR5XERA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GDCJGR5XERA" frameborder="0" allowfullscreen></iframe>
+</p>
+
+El podcast del tema en el siguiente enlace:
+
+<p style="text-align:center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KybhDIWZj44?si=nOQNzSV6uCXPr24u" frameborder="0" allowfullscreen></iframe>
 </p>
 
 **Link al repositorio del módulo:** [https://github.com/joseluisgs/EntornosDesarrollo-01-2025-2026](https://github.com/joseluisgs/EntornosDesarrollo-01-2025-2026)

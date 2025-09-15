@@ -44,6 +44,12 @@ Puedes ver un resumen en video de este tema en el canal del profesor y encontrar
 <iframe width="560" height="315" src="https://www.youtube.com/embed/55elQsN0mF4" frameborder="0" allowfullscreen></iframe>
 </p>
 
+El podcast del tema en el siguiente enlace:
+
+<p style="text-align:center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V1btrIVQvyw?si=oZ5Ww4eT93aqgjAz" frameborder="0" allowfullscreen></iframe>
+</p>
+
 **Link al repositorio del módulo:** [https://github.com/joseluisgs/Programacion-01-2025-2026](https://github.com/joseluisgs/Programacion-01-2025-2026)
 
 

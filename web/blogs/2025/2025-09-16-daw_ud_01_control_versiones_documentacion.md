@@ -42,8 +42,15 @@ El tema destaca que el control de versiones es un sistema esencial que registra 
 Este tema es crucial para que los estudiantes adquieran las herramientas necesarias para trabajar en un entorno profesional, asegurando que el código no solo sea funcional, sino también colaborativo y bien documentado.
 
 Tienes un vídeo introductorio del tema en el siguiente enlace:
+
 <p style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=c7h95IZX46Q" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c7h95IZX46Q" frameborder="0" allowfullscreen></iframe>
+</p>
+
+El podcast del tema en el siguiente enlace:
+
+<p style="text-align:center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HX2gSuX0oow?si=IREAw7yYbvHjSxdZ" frameborder="0" allowfullscreen></iframe>
 </p>
 
 Puedes encontrar todos los materiales y ejemplos de código relacionados con esta unidad en el siguiente repositorio de GitHub:
