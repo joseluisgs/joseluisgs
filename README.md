@@ -180,15 +180,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
- - ✏️ [**Podcast en Algoritmo Salvaje**](https://joseluisgs.dev/blogs/2024/2024-07-31-podcast-algoritmo-salvaje.html) *31 Jul 2024* 
+ - ✏️ [**Despliegue de Aplicaciones Web - 01 Control de Versiones y Documentación**](https://joseluisgs.dev/blogs/2025/2025-09-16-daw_ud_01_control_versiones_documentacion.html) *16 Sep 2025* 
 
- - ✏️ [**Ajustando biorritmos y cosas del día a día**](https://joseluisgs.dev/blogs/2024/2024-01-04-ajustando-biorritmos.html) *4 Jan 2024* 
+ - ✏️ [**Programación 01 - Introducción a la Programación Software**](https://joseluisgs.dev/blogs/2025/2025-09-16-prog_ud_01_introduccion_programacion.html) *16 Sep 2025* 
 
- - ✏️ [**Podcast en Devexpert.io**](https://joseluisgs.dev/blogs/2024/2024-01-03-podcast-devexpert.html) *3 Jan 2024* 
+ - ✏️ [**Entornos de Desarrollo - 01 Desarrollo de Software**](https://joseluisgs.dev/blogs/2025/2025-09-16-ed_ud_01_desarrollo_software.html) *16 Sep 2025* 
 
- - ✏️ [**Vista de Antonio Leiva y DevExpert.io al IES Luis Vives**](https://joseluisgs.dev/blogs/2024/2024-01-03-vista-devexpert-luisvives.html) *3 Jan 2024* 
+ - ✏️ [**Desarrollo Web en Entorno Servidor 01 - Introducción a la Programación de Software en Servidor**](https://joseluisgs.dev/blogs/2025/2025-09-16-dwes_ud_01_introduccion_programacion_servidor.html) *16 Sep 2025* 
 
- - ✏️ [**Curso nuevo, y nuevos objetivos**](https://joseluisgs.dev/blogs/2023/2023-10-27-curso-nuevo.html) *27 Oct 2023* 
+ - ✏️ [**Arranca el curso de Despliegue de Aplicaciones Web 2025-2026**](https://joseluisgs.dev/blogs/2025/2025-09-15-arranca_depliegue_web.html) *15 Sep 2025* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
