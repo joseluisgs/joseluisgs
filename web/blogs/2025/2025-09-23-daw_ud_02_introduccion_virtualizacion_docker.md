@@ -13,7 +13,7 @@ tags:
   - Docencia
 
 publish: true
-image: 'https://www.nextgencodingcompany.com/_next/image/?url=%2Fresearch%2Fdocker.png'
+image: 'https://www.nextgencodingcompany.com/research/docker.png'
 
 # si quieres que se muestre en la portada fija
 # sticky: 1
