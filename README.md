@@ -180,15 +180,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
- - ✏️ [**Despliegue de Aplicaciones Web - 01 Control de Versiones y Documentación**](https://joseluisgs.dev/blogs/2025/2025-09-16-daw_ud_01_control_versiones_documentacion.html) *16 Sep 2025* 
+ - ✏️ [**Despliegue de Aplicaciones Web 02 - Introducción a la virtualización**](https://joseluisgs.dev/blogs/2025/2025-09-23-daw_ud_02_introduccion_virtualizacion_docker.html) *23 Sep 2025* 
 
- - ✏️ [**Programación 01 - Introducción a la Programación Software**](https://joseluisgs.dev/blogs/2025/2025-09-16-prog_ud_01_introduccion_programacion.html) *16 Sep 2025* 
+ - ✏️ [**Programación 02 - Programación Estructurada y Modular**](https://joseluisgs.dev/blogs/2025/2025-09-23-prog_ud_02_programacion_estructurada_modular.html) *23 Sep 2025* 
 
  - ✏️ [**Entornos de Desarrollo - 01 Desarrollo de Software**](https://joseluisgs.dev/blogs/2025/2025-09-16-ed_ud_01_desarrollo_software.html) *16 Sep 2025* 
 
  - ✏️ [**Desarrollo Web en Entorno Servidor 01 - Introducción a la Programación de Software en Servidor**](https://joseluisgs.dev/blogs/2025/2025-09-16-dwes_ud_01_introduccion_programacion_servidor.html) *16 Sep 2025* 
 
- - ✏️ [**Arranca el curso de Despliegue de Aplicaciones Web 2025-2026**](https://joseluisgs.dev/blogs/2025/2025-09-15-arranca_depliegue_web.html) *15 Sep 2025* 
+ - ✏️ [**Despliegue de Aplicaciones Web - 01 Control de Versiones y Documentación**](https://joseluisgs.dev/blogs/2025/2025-09-16-daw_ud_01_control_versiones_documentacion.html) *16 Sep 2025* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
