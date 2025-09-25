@@ -209,15 +209,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```txt
-From: 23 August 2025 - To: 22 September 2025
+From: 24 August 2025 - To: 23 September 2025
 
-Total Time: 38 hrs 38 mins
+Total Time: 40 hrs 13 mins
 
-Markdown            23 hrs 20 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   59.96 %
-Java                10 hrs 20 mins  🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   26.57 %
-JSON                1 hr 2 mins     🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.68 %
-Git Config          51 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.19 %
-Groovy              29 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.27 %
+Markdown            23 hrs 55 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   59.07 %
+Java                11 hrs 3 mins   🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   27.32 %
+JSON                1 hr 3 mins     🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.60 %
+Git Config          58 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.39 %
+Groovy              30 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.26 %
 ```
 
 <!--END_SECTION:waka-->
