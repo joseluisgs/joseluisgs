@@ -180,15 +180,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Entornos de Desarrollo 02 - Entornos de Desarrollo &lpar;IDEs&rpar;**](https://joseluisgs.dev/blogs/2025/2025-09-25-ed_ud_02_entornos_desarrollo.html) *25 Sep 2025* 
+
  - ✏️ [**Despliegue de Aplicaciones Web 02 - Introducción a la virtualización**](https://joseluisgs.dev/blogs/2025/2025-09-23-daw_ud_02_introduccion_virtualizacion_docker.html) *23 Sep 2025* 
 
  - ✏️ [**Programación 02 - Programación Estructurada y Modular**](https://joseluisgs.dev/blogs/2025/2025-09-23-prog_ud_02_programacion_estructurada_modular.html) *23 Sep 2025* 
 
- - ✏️ [**Entornos de Desarrollo - 01 Desarrollo de Software**](https://joseluisgs.dev/blogs/2025/2025-09-16-ed_ud_01_desarrollo_software.html) *16 Sep 2025* 
+ - ✏️ [**Despliegue de Aplicaciones Web - 01 Control de Versiones y Documentación**](https://joseluisgs.dev/blogs/2025/2025-09-16-daw_ud_01_control_versiones_documentacion.html) *16 Sep 2025* 
 
  - ✏️ [**Desarrollo Web en Entorno Servidor 01 - Introducción a la Programación de Software en Servidor**](https://joseluisgs.dev/blogs/2025/2025-09-16-dwes_ud_01_introduccion_programacion_servidor.html) *16 Sep 2025* 
-
- - ✏️ [**Despliegue de Aplicaciones Web - 01 Control de Versiones y Documentación**](https://joseluisgs.dev/blogs/2025/2025-09-16-daw_ud_01_control_versiones_documentacion.html) *16 Sep 2025* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
@@ -209,15 +209,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <!--START_SECTION:waka-->
 
 ```txt
-From: 24 August 2025 - To: 23 September 2025
+From: 01 September 2025 - To: 01 October 2025
 
-Total Time: 40 hrs 13 mins
+Total Time: 51 hrs 30 mins
 
-Markdown            23 hrs 55 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   59.07 %
-Java                11 hrs 3 mins   🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   27.32 %
-JSON                1 hr 3 mins     🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.60 %
-Git Config          58 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.39 %
-Groovy              30 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.26 %
+Markdown            28 hrs 7 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   54.12 %
+Java                16 hrs 11 mins  🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   31.15 %
+C#                  1 hr 25 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.75 %
+Git Config          1 hr 2 mins     🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.02 %
+JSON                57 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.85 %
 ```
 
 <!--END_SECTION:waka-->
