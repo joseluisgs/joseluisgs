@@ -35,3 +35,7 @@ git push -u -f origin main
 rm -rf .git
 cd -
 rm -rf public
+
+echo "Deploy realizado correctamente 👍"
+echo "Visita: https://joseluisgs.github.io 🚀"
+
