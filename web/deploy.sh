@@ -3,6 +3,8 @@
 # quitamos los errores
 set -e
 
+echo "Ejecutando deploy...🚀"
+
 # borramos
 rm -rf public
 
