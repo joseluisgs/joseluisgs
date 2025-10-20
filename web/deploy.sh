@@ -39,5 +39,6 @@ cd -
 rm -rf public
 
 echo "Deploy realizado correctamente 👍"
-echo "Visita: https://joseluisgs.github.io 🚀"
+echo "Visita: https://joseluisgs.dev 🚀"
+echo "Fin del proceso de despliegue. 🎉"
 
