@@ -234,7 +234,7 @@ Kotlin                56 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#52](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024/pull/52) in [joseluisgs/PullRequestEntornos1DAW-2023-2024](https://github.com/joseluisgs/PullRequestEntornos1DAW-2023-2024)
+1. 💪 Opened PR [#1](undefined) in [joseluisgs/DesarrolloWebEntornosServidor-02-Proyecto-SpringBoot](https://github.com/joseluisgs/DesarrolloWebEntornosServidor-02-Proyecto-SpringBoot)
   <!--END_SECTION:activity-->
 
 
