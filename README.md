@@ -234,7 +234,7 @@ YAML                       1 hr 40 mins    🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. 💪 Opened PR [#3](undefined) in [joseluisgs/DesarrolloWebEntornosServidor-02-Proyecto-SpringBoot](https://github.com/joseluisgs/DesarrolloWebEntornosServidor-02-Proyecto-SpringBoot)
+1. 🗣 Commented on [#16](https://github.com/joseluisgs/PullRequestEntornos1DAW-2025-2026/pull/16#issuecomment-3478144608) in [joseluisgs/PullRequestEntornos1DAW-2025-2026](https://github.com/joseluisgs/PullRequestEntornos1DAW-2025-2026)
   <!--END_SECTION:activity-->
 
 
