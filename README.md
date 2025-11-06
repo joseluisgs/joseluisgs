@@ -234,7 +234,7 @@ YAML                       1 hr 40 mins    🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#41](undefined) in [joseluisgs/PullRequestEntornos1DAW-2025-2026](https://github.com/joseluisgs/PullRequestEntornos1DAW-2025-2026)
+1. 🗣 Commented on [#56](https://github.com/joseluisgs/PullRequestEntornos1DAW-2025-2026/pull/56#issuecomment-3491738855) in [joseluisgs/PullRequestEntornos1DAW-2025-2026](https://github.com/joseluisgs/PullRequestEntornos1DAW-2025-2026)
   <!--END_SECTION:activity-->
 
 
