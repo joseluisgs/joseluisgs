@@ -234,7 +234,7 @@ Other                              1 hr 34 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#103](https://github.com/joseluisgs/PullRequestEntornos1DAW-2025-2026/pull/103#issuecomment-3499191351) in [joseluisgs/PullRequestEntornos1DAW-2025-2026](https://github.com/joseluisgs/PullRequestEntornos1DAW-2025-2026)
+1. ❌ Closed PR [#1](undefined) in [joseluisgs/PruebaWalaSpringBoot](https://github.com/joseluisgs/PruebaWalaSpringBoot)
   <!--END_SECTION:activity-->
 
 
