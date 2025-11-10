@@ -234,7 +234,7 @@ Kotlin                             1 hr 32 mins    🟨⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](undefined) in [joseluisgs/PruebaWalaSpringBoot](https://github.com/joseluisgs/PruebaWalaSpringBoot)
+1. ❌ Closed PR [#1](undefined) in [joseluisgs/WalaDaw-SpringBoot-Web](https://github.com/joseluisgs/WalaDaw-SpringBoot-Web)
   <!--END_SECTION:activity-->
 
 
