@@ -234,7 +234,7 @@ Kotlin                             13 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](undefined) in [joseluisgs/WalaDaw-SpringBoot-Web](https://github.com/joseluisgs/WalaDaw-SpringBoot-Web)
+1. 🗣 Commented on [#4](https://github.com/joseluisgs/Programacion-06-2025-2026/pull/4#issuecomment-3688285592) in [joseluisgs/Programacion-06-2025-2026](https://github.com/joseluisgs/Programacion-06-2025-2026)
   <!--END_SECTION:activity-->
 
 
