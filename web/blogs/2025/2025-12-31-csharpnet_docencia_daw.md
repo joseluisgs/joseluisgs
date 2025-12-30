@@ -1,5 +1,5 @@
 ---
-title: De Kotlin a .NET. El giro pragmático de un docente de DAW a C#
+title: Regreso a .NET en DAW. 20 razones para el cambio
 description: Reflexiones sobre la transición en el contexto de la nueva Formación Profesional de DAW y el auge de la IA.
 date: '2025-12-31'
 # sidebar: 'auto'
