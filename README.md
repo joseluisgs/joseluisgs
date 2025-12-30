@@ -234,7 +234,7 @@ Other                  16 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. 🗣 Commented on [#4](https://github.com/joseluisgs/Programacion-06-2025-2026/pull/4#issuecomment-3688285592) in [joseluisgs/Programacion-06-2025-2026](https://github.com/joseluisgs/Programacion-06-2025-2026)
+1. ❌ Closed PR [#2](undefined) in [joseluisgs/TiendaDawApi-NetCore](https://github.com/joseluisgs/TiendaDawApi-NetCore)
   <!--END_SECTION:activity-->
 
 
