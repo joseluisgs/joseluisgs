@@ -541,7 +541,7 @@ Este es el punto donde Java (Spring Boot) pierde por goleada.
 
 * **Razor:** Los motores de plantillas de Java son "ciegos". En Razor, si cambias una propiedad en el modelo, **el HTML no compila**. Tienes tipado fuerte en la vista. Si tienes un modelo `Alumno` con una propiedad `Nombre`, y en la vista intentas acceder a `NombreCompleto`, el compilador te avisará de que esa propiedad no existe. Esto evita errores en tiempo de ejecución y mejora la calidad del código. Es el motor de plantillas oficial de ASP.NET Core y está profundamente integrado con el framework. 
 
-```csharp
+```razor
 // Vista Razor con tipado fuerte
 // Importamos el modelo
 @model Alumno
@@ -558,7 +558,7 @@ Este es el punto donde Java (Spring Boot) pierde por goleada.
 
 **Ejemplo de Blazor (Reactividad pura):**
 
-```csharp
+```cshtml
 @page "/counter"
 @inject IServicioContadores Servicio // Inyección del servicio de BD
 
