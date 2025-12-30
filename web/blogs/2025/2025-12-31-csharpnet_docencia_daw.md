@@ -43,7 +43,7 @@ Debido a que yo no puedo asegurar la formación, ni horas ni a las empresas dond
 
 Os va a sorprender, pero **C# y .NET** ofrecen un equilibrio perfecto entre **modernidad, robustez y demanda laboral**. Permiten a los alumnos aprender conceptos fundamentales de programación mientras se preparan para un mercado que valora estas habilidades. 
 
-Además yo venía de C# y .NET, de hecho gané un premio con C# junto a mi equipo, Microsoft Imagine Cup España 2007 en lae especialidad de "Software Design" [ver](https://www.eleconomista.es/empresas-finanzas/noticias/196598/04/07/Estudiantes-granadinos-representaran-a-Espana-en-la-Imagine-Cup-Microsoft.html), pasé a Kotlin porque es la leche, y soy formador con JetBrains a nivel de mundial y ahora vuelvo a C#. He visto la evolución de ambos lenguajes y plataformas, y creo que .NET ha madurado de una manera que lo hace ideal para la enseñanza en DAW. Creo que mi experiencia me permite hacer esta afirmación con fundamento y objetividad.
+Quiero destacar que no soy un novato de C# y .NET, de hecho gané un premio con C# junto a mi equipo, Microsoft Imagine Cup España 2007 en lae especialidad de "Software Design" [ver](https://www.eleconomista.es/empresas-finanzas/noticias/196598/04/07/Estudiantes-granadinos-representaran-a-Espana-en-la-Imagine-Cup-Microsoft.html), pasé a Kotlin porque es la leche, y soy formador con JetBrains a nivel de mundial y ahora vuelvo a C#. He visto la evolución de ambos lenguajes y plataformas, y creo que .NET ha madurado de una manera que lo hace ideal para la enseñanza en DAW. Creo que mi experiencia me permite hacer esta afirmación con fundamento y objetividad.
 
 # Ventajas clave de C# y .NET para 1º DAW
 
@@ -51,8 +51,8 @@ Además yo venía de C# y .NET, de hecho gané un premio con C# junto a mi equip
 
 Sabemos que Java es poderoso, pero que le cuesta evolucionar y que otros lenguajes han tomado la delantera en términos de características modernas. Sin embargo,uno de los mayores errores de Java ha sido su incapacidad para adaptarse a una enseñanza gradual, para ir conociendo todos los paradigmas y fundamentos algorítmicos. Para que un alumno escriba su primera línea de código en Java, tiene que realizar un "acto de fe" masivo. Tiene que escribir una clase, un método estático y entender qué es un array de strings.
 
-**Java (Incluso en versiones recientes):**
-Para explicar esto, tengo que adelantar conceptos de Programación Orientada a Objetos (clases), Visibilidad (`public`) y Contexto Estático (`static`) cuando el alumno aún no sabe qué es una variable y solo quiere escribir su primera línea de código.
+**Java (El peso de la herencia):**
+Para explicar esto, tengo que adelantar conceptos de Programación Orientada a Objetos (clases), Visibilidad (`public`) y Contexto Estático (`static`) y ver que hay un array de strings (`String[] args`) cuando el alumno aún no sabe qué es una variable y solo quiere escribir su primera línea de código.
 
 ```java
 public class Main {
@@ -63,7 +63,7 @@ public class Main {
 
 ```
 
-Es verdad, y por fin Java 25 ha introducido que se pueda escribir código fuera de una clase, pero sigue siendo un parche.
+Incluso con las mejoras recientes (JEP 445), Java lucha por ocultar su complejidad, pero la estructura subyacente sigue asomando de forma prematura, enseñando lo que es un método `main` antes de que el alumno entienda la lógica básica.
 
 ```java
 void main() {
@@ -82,9 +82,35 @@ Console.WriteLine("Aquí empieza la lógica, no la burocracia");
 
 ```
 
-Aunque Java está intentando esto con JEPs recientes (Java 21/25), C# lo tiene integrado y maduro, permitiendo una transición suave hacia la modularidad.
+### Modularidad sin redundancia
 
----
+Mientras Java intenta simplificar su sintaxis, C# ya ofrece un ecosistema maduro donde la modularidad es limpia y potente. Un ejemplo claro es la gestión de parámetros: en lugar de obligar al alumno a aprender la **sobrecarga de métodos** (escribir el mismo método varias veces con distintos argumentos), C# utiliza **parámetros opcionales y nombrados**.
+
+Esto no solo es más fácil de enseñar, sino que es más eficiente en el mundo real.
+
+```csharp
+// Una sola definición cubre múltiples escenarios
+void Saludar(string nombre = "Mundo", int veces = 1) 
+{
+    for (int i = 0; i < veces; i++) 
+    {
+        Console.WriteLine($"Hola, {nombre}!");
+    }
+}
+
+// Flexibilidad total en la llamada:
+Saludar();                         // Usa valores por defecto
+Saludar("Ana", 3);                 // Argumentos posicionales
+Saludar(veces: 5, nombre: "Luis"); // Argumentos nombrados: claridad absoluta
+
+```
+
+Además, C# permite un control granular de la memoria y la intención mediante modificadores de parámetros que Java no posee de forma equivalente:
+
+* `out`: Para devolver múltiples valores de forma explícita.
+* `ref`: Para paso por referencia real (no solo de la referencia al objeto).
+* `in`: Para asegurar que un parámetro es de solo lectura, optimizando el rendimiento en estructuras grandes.
+
 
 ## 3. Tipado fuerte y explícito desde el principio
 C# es un lenguaje fuertemente tipado, lo que significa que los tipos de datos son explícitos y claros desde el principio. Esto ayuda a los alumnos a comprender mejor cómo funcionan los datos y las operaciones en programación, así como a evitar errores comunes relacionados con tipos de datos y conversiones implícitas.
@@ -123,6 +149,8 @@ string resultado = nombre?.ToUpper() ?? "SIN NOMBRE"; // El compilador me proteg
 ## 5. Propiedades: Encapsulamiento sin el ruido
 En Java, el encapsulamiento requiere escribir métodos `get` y `set`, lo que añade ruido y complejidad innecesaria, salvo que uses librerías de terceros como Lombok. C# introduce **propiedades** que permiten un acceso limpio y controlado a los campos, manteniendo el encapsulamiento sin la verbosidad, muy similar a Kotlin.
 
+
+
 **Java (Verbosidad):**
 
 ```java
@@ -145,8 +173,38 @@ public class Alumno {
 }
 ```
 
-## 6. Estructuras, Clases y Registros: Elección según la necesidad
-C# ofrece **estructuras (structs)** para datos ligeros y **clases** para objetos complejos, además de **registros (records)** para inmutabilidad y comparación por valor. Esto permite enseñar a los alumnos a elegir la herramienta adecuada según el caso, fomentando un diseño de software más consciente. Lo mejor de Clases y Data Classes de Kotlin juntos.
+Podemos indicar que si una Propiedad es de solo lectura o escritura, usando `get;` o `set;` según convenga, o si es inmutable usando `init;` o la visibilidad, por ejemplo que no se pueda modificar desde fuera de la clase `private set;
+
+```csharp
+public class Alumno {
+    public string Nombre { get; private set; } // Solo lectura desde fuera
+    public int Edad { get; init; } // Inmutable después de la inicialización
+}
+
+var alumno = new Alumno { Nombre = "Luis", Edad = 20 };
+```
+Finalmente , con las Backing Fields, podemos tener lógica adicional en las propiedades sin perder la simplicidad, o usar campos calculados si es necesario.
+
+```csharp
+public class Alumno {
+    public string Nombre { get; private set; } // Solo lectura desde fuera
+    public int Edad { 
+        get => field;
+        // Podemos usar init para inmutabilidad después de la inicialización, pero lo dejamos con set para este ejemplo
+        set {
+            if (value < 0) throw new ArgumentException("La edad no puede ser negativa");
+            field = value;
+        }
+    }
+}
+```
+
+
+
+## 6. Tuplas, Estructuras, Clases y Registros: Elección según la necesidad
+C# ofrece **estructuras (structs)** para datos ligeros (en el stack) y **clases** para objetos complejos, además de **registros (records)** para inmutabilidad y comparación por valor. Esto permite enseñar a los alumnos a elegir la herramienta adecuada según el caso, fomentando un diseño de software más consciente. Lo mejor de Clases y Data Classes de Kotlin juntos. Y además, los registros son inmutables por defecto, lo que fomenta buenas prácticas de programación funcional.
+
+Si no, tienes las tuplas para datos temporales y ligeros, ideal para devolver múltiples valores sin crear una clase específica.
 
 ```csharp
 public struct Punto {
@@ -159,10 +217,19 @@ public record Alumno(string Nombre, int Edad); // Inmutable y por valor
 var punto = new Punto { X = 10, Y = 20 };
 var alumno = new Alumno("Juan", 20);
 var otroAlumno = alumno with { Edad = 21 }; // Nuevo objeto con cambio
+
+// Tuplas para múltiples valores
+(int suma, int producto) Calcular(int a, int b) {
+    return (a + b, a * b);
+}
+
+// Usamos desestructuración
+var (suma, producto) = Calcular(3, 4);
+
 ```
 
-## 7. Inicializadores de con Propiedades: Código más limpio
-C# permite inicializar objetos usando inicializadores de propiedades, lo que hace que el código sea más limpio y fácil de leer, similar a los data classes de Kotlin.
+## 7. Inicializadores de con Propiedades o constructores con parámetros nombrados y valores por defecto
+C# permite inicializar objetos usando inicializadores de propiedades, lo que hace que el código sea más limpio y fácil de leer, similar a los data classes de Kotlin. 
 ```csharp
 var alumno = new Alumno {
     Nombre = "Ana",
@@ -170,6 +237,31 @@ var alumno = new Alumno {
 };
 ```
 
+Además, los constructores en C# pueden tener parámetros nombrados y valores por defecto, lo que facilita la creación de objetos sin necesidad de múltiples sobrecargas de constructores, cosa que ya hemos visto antes.
+
+```csharp
+public class Alumno {
+    public string Nombre { get; set; }
+    public int Edad { get; set; }
+
+    public Alumno(string nombre = "Desconocido", int edad = 18) {
+        Nombre = nombre;
+        Edad = edad;
+    }
+}
+
+var alumno = new Alumno(edad: 22); // Nombre por defecto, Edad especificada
+```
+
+Finalmente, tenemos constructores primarios, ideales para ir al grano cuando queremos definir clases inmutables o registros.
+
+```csharp
+public class Alumno(string nombre, int edad) {
+    public string Nombre { get; } = nombre;
+    public int Edad { get; } = edad;
+}
+var alumno = new Alumno("Luis", 20);
+```
 
 ## 8. LINQ: El lenguaje de las colecciones que habla SQL
 
@@ -207,9 +299,9 @@ Java mete la programación funcional con calzador. Es demasiado verboso y poco i
 
 C# la abraza, ofreciendo características que hacen que el código sea más expresivo y limpio como pasaba con Kotlin.
 
-* **Funciones de extensión:** Me permiten "limpiar" el código de utilidades horribles.
-* **Pattern Matching:** Es infinitamente superior al `switch` tradicional de Java.
-* **Sobrecarga de operadores:** Permite que tipos complejos se comporten de forma natural.
+* **Funciones de extensión:** Me permiten "limpiar" el código, y extender sin heredar. De lo que más usaba en Kotlin.
+* **Pattern Matching:** Permite descomponer y analizar datos de forma clara y concisa.
+* **Sobrecarga de operadores:** Permite definir cómo se comportan los operadores para tipos personalizados, haciendo el código más intuitivo.
 
 **C# (Poder expresivo):**
 
@@ -314,9 +406,9 @@ public class AlumnoServiceTests {
 
 # Ventajas clave de C# y .NET para 2º DAW
 
-Aquí viene el gran cambio, pues uno de mis objetivos eran enseñar tres entornos: JVM (SpringBoot), .NET (ASP.NET Core) y PHP (Laravel). Este será el último año que lo haga de hecho ya ha desaparecido PHP. El motivo, es que no hay tiempo, puedes tener alumnos que no han hecho la fase de formación en empresas de primero y se le suman las horas a segundo. Un caos que de nuevo me obliga a priorizar. Más vale poco bien hecho que mucho mal hecho. Además, no salir de .NET me permite profundizar más y mejor en un solo ecosistema.
+Aquí viene el gran cambio, pues uno de mis objetivos eran enseñar tres entornos: JVM (SpringBoot), .NET (ASP.NET Core) y PHP (Laravel). Y así fue hasta el año pasado, Este será el último año que lo haga de hecho ya ha desaparecido PHP. Por lo que solo me centraré en JVM y .NET a nivel de servicios y páginas web dinámicas. El motivo, es que no hay tiempo, puedes tener alumnos que no han hecho la fase de formación en empresas de primero y se le suman las horas a segundo. Un caos que de nuevo me obliga a priorizar. Más vale poco bien hecho que mucho mal hecho. Además, no salir de .NET me permite profundizar más y mejor en un solo ecosistema.
 
-## 15. Asincronía, Reactividad y ROP: La trifuerza del backend moderno
+## 15. Asincronía, Reactividad y ROP: La bases del backend moderno
 
 Enseñarle a un alumno `CompletableFuture` en Java es invitarle a dejar la programación (sé que he exagerado), pero debes unirle lo que es el ExecutorService. En C#, el modelo `async/await` es tan transparente que la programación asíncrona deja de ser un "muro" para ser una herramienta más. Muy similar a lo que pueden encontrar en JavaScript/TypeScript.
 
@@ -403,26 +495,56 @@ Podemos crear controladores REST de manera sencilla y clara, con inyección de d
 
 ```csharp
 [ApiController]
-[Route("[controller]")]
-public class AlumnosController : ControllerBase {
-    private readonly IService _service;
-    
-    // Inyección nativa
-    public AlumnosController(IService service) => _service = service;
-
-    [HttpGet("{id}")]
-    public async Task<IActionResult> Get(int id) {
-        var res = await _service.GetById(id);
-        return res != null ? Ok(res) : NotFound();
+[Route("api/[controller]")]
+// Usamos Primary Constructor para una inyección de dependencias ultra limpia
+public class AlumnosController(IService service) : ControllerBase 
+{
+    [HttpGet("{id:int}")]
+    public async Task<IActionResult> Get(int id) 
+    {
+        // Uso de pattern matching para un retorno elegante
+        return await service.GetById(id) is { } res 
+            ? Ok(res) 
+            : NotFound();
     }
 
     [HttpPost]
-    public async Task<IActionResult> Post([FromBody] AlumnoRequest req) {
-        if (!ModelState.IsValid) return BadRequest(); // Validación automática
-        return Ok(await _service.Save(req));
+    public async Task<IActionResult> Post(AlumnoRequest req) 
+    {
+        // En C#, el [ApiController] ya maneja el BadRequest automático 
+        var resultado = await service.Save(req);
+        return CreatedAtAction(nameof(Get), new { id = resultado.Id }, resultado);
     }
 }
 
+```
+
+#### Minimal APIs con Minimal APIs
+ASP.NET Core permite crear APIs mínimas con una sintaxis muy concisa, ideal para microservicios o prototipos rápidos. El paso de Controladores a Minimal APIs representa la evolución final de C# hacia un lenguaje que prioriza la lógica de negocio sobre la infraestructura. Si el controlador era "ordenado", la Minimal API es "eficiente". En lugar de inyectar los servicios en un constructor global de clase, los pasamos directamente como parámetros en la expresión lambda (IService service). Esto hace que cada endpoint sea una función pura, más fácil de testear y de entender: "Para ejecutar esta acción, necesito este servicio". Con `MapGroup`, mantenemos la organización del código sin necesidad de decoradores como [Route]. La estructura de la API se vuelve visual y secuencial, eliminando la necesidad de saltar entre archivos de controladores para entender cómo está mapeada nuestra aplicación. Al eliminar el motor de controladores, el pipeline de ASP.NET Core tiene menos capas que atravesar. El resultado es un menor consumo de memoria y un tiempo de respuesta más rápido (menor latencia), ideal para arquitecturas modernas de microservicios o aplicaciones de alto rendimiento.
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<IService, AlumnoService>();
+
+var app = builder.Build();
+
+// Agrupamos las rutas para mayor limpieza
+var alumnosApi = app.MapGroup("/api/alumnos");
+
+// GET: Obtener por ID con validación de tipo en ruta
+alumnosApi.MapGet("/{id:int}", async (int id, IService service) =>
+    await service.GetById(id) is { } res 
+        ? Results.Ok(res) 
+        : Results.NotFound());
+
+// POST: Crear nuevo alumno
+alumnosApi.MapPost("/", async (AlumnoRequest req, IService service) =>
+{
+    var resultado = await service.Save(req);
+    return Results.Created($"/api/alumnos/{resultado.Id}", resultado);
+});
+
+app.Run();
 ```
 
 ### Seguridad con Identity y JWT
