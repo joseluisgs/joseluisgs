@@ -581,7 +581,7 @@ Este es el punto donde Java (Spring Boot) pierde por goleada.
 
 ---
 
-## 18. Más allá de la Web: Machine Learning y DataFrames
+## 18. Más allá de la Web: Análisis de Datos con DataFrames
 
 Incluso para el análisis de datos, .NET ha dado un paso al frente con `Microsoft.Data.Analysis`. Podemos enseñar fundamentos de procesamiento masivo de datos demandados en el lado del servidor sin salir del ecosistema .NET. Al igual que en Kotlin, son DataFrames tipados y optimizados e incluidos en el ecosistema oficial.
 ```csharp
