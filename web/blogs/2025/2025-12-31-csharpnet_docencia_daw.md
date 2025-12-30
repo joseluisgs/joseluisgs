@@ -45,7 +45,7 @@ Os va a sorprender, pero **C# y .NET** ofrecen un equilibrio perfecto entre **mo
 
 Además yo venía de C# y .NET, de hecho gané un premio con C# junto a mi equipo, Microsoft Imagine Cup España 2007 en lae especialidad de "Software Design" [ver](https://www.eleconomista.es/empresas-finanzas/noticias/196598/04/07/Estudiantes-granadinos-representaran-a-Espana-en-la-Imagine-Cup-Microsoft.html), pasé a Kotlin porque es la leche, y soy formador con JetBrains a nivel de mundial y ahora vuelvo a C#. He visto la evolución de ambos lenguajes y plataformas, y creo que .NET ha madurado de una manera que lo hace ideal para la enseñanza en DAW. Creo que mi experiencia me permite hacer esta afirmación con fundamento y objetividad.
 
-**Ventajas clave de C# y .NET para 1º DAW:**
+# Ventajas clave de C# y .NET para 1º DAW
 
 ## 2. El "Muro de Entrada": La pedagogía del punto de entrada
 
@@ -57,7 +57,7 @@ Para explicar esto, tengo que adelantar conceptos de Programación Orientada a O
 ```java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("¿Por qué tengo que escribir todo esto?");
+        System.out.println("¿Por qué tengo que escribir todo esto y para qué sirve?");
     }
 }
 
@@ -67,7 +67,7 @@ Es verdad, y por fin Java 25 ha introducido que se pueda escribir código fuera 
 
 ```java
 void main() {
-    System.out.println("Aquí empieza la lógica, no la burocracia");
+    System.out.println("Pero sigo necesitando un método main y no lo he visto antes");
 }
 ```
 
@@ -93,6 +93,10 @@ C# es un lenguaje fuertemente tipado, lo que significa que los tipos de datos so
 int numero = 10; // Tipo explícito
 string texto = "Hola, Mundo"; // Tipo explícito
 double decimalNumero = 15.5; // Tipo explícito
+
+// Inferencia de tipos con 'var'
+var otroNumero = 20; // El compilador infiere que es int
+var otroTexto = "Adiós, Mundo"; // El compilador infiere que es string
 ```
 
 ## 4. Seguridad ante nulos: Compilación vs. Runtime
@@ -253,7 +257,33 @@ var alumnoRecuperado = JsonSerializer.Deserialize<Alumno>(json);
 ## 12. Bases de Datos
 Podemos usar las ventajas de ADO.NET para conexiones directas o **Entity Framework Core** para un ORM potente y moderno. EF Core permite trabajar con bases de datos relacionales usando LINQ, lo que facilita la enseñanza de conceptos de bases de datos y programación al mismo tiempo.
 
+**Ejemplo con ADO.NET:**
+
 ```csharp
+using (var conexion = new SqlConnection(cadenaConexion)) {
+    conexion.Open();
+    var comando = new SqlCommand("SELECT * FROM Alumnos WHERE Edad > @edad", conexion);
+    comando.Parameters.AddWithValue("@edad", 18);
+    using (var lector = comando.ExecuteReader()) {
+        while (lector.Read()) {
+            Console.WriteLine($"{lector["Nombre"]} - {lector["Edad"]}");
+        }
+    }
+}
+```
+
+**Ejemplo con Entity Framework Core:**
+
+```csharp
+public class Alumno {
+    [Key]
+    public int Id { get; set; }
+    [Required]
+    public string Nombre { get; set; }
+    [Range(0, 120)]
+    public int Edad { get; set; }
+}
+
 public class EscuelaContext : DbContext {
     public DbSet<Alumno> Alumnos { get; set; }
 }
@@ -282,13 +312,13 @@ public class AlumnoServiceTests {
 }
 ```
 
-**Ventajas clave de C# y .NET para 2º DAW:**
+# Ventajas clave de C# y .NET para 2º DAW
 
 Aquí viene el gran cambio, pues uno de mis objetivos eran enseñar tres entornos: JVM (SpringBoot), .NET (ASP.NET Core) y PHP (Laravel). Este será el último año que lo haga de hecho ya ha desaparecido PHP. El motivo, es que no hay tiempo, puedes tener alumnos que no han hecho la fase de formación en empresas de primero y se le suman las horas a segundo. Un caos que de nuevo me obliga a priorizar. Más vale poco bien hecho que mucho mal hecho. Además, no salir de .NET me permite profundizar más y mejor en un solo ecosistema.
 
 ## 15. Asincronía, Reactividad y ROP: La trifuerza del backend moderno
 
-Enseñarle a un alumno `CompletableFuture` en Java es invitarle a dejar la programación (sé que he exagerado), pero debes unirle lo que es el ExecutrService. En C#, el modelo `async/await` es tan transparente que la programación asíncrona deja de ser un "muro" para ser una herramienta más. Muy similar a lo que pueden encontrar en JavaScript/TypeScript.
+Enseñarle a un alumno `CompletableFuture` en Java es invitarle a dejar la programación (sé que he exagerado), pero debes unirle lo que es el ExecutorService. En C#, el modelo `async/await` es tan transparente que la programación asíncrona deja de ser un "muro" para ser una herramienta más. Muy similar a lo que pueden encontrar en JavaScript/TypeScript.
 
 **Asincronía limpia:**
 
@@ -301,7 +331,7 @@ public async Task<Alumno> GetAlumnoAsync(int id)
 
 ```
 
-**Reactividad con IObservable y LINQ:**
+**Reactividad y LINQ:**
 Podemos usar colecciones Asíncronas o Reactivas dependiendo si queremos un patrón "pull" u "push". Además, con LINQ podemos transformar flujos de datos de manera declarativa.
 
 ```csharp
@@ -625,7 +655,7 @@ No os voy a engañar: este cambio lo he hecho con una sonrisa. Yo venía de .NET
 
 Deseo que este cambio sirva para que, tanto alumnos como otros docentes, entendáis que la programación no va de subirse al carro del último lenguaje "de moda". Va de **fundamentos sólidos, de criterio técnico y de respeto por la profesión**. Hoy por hoy, para mí, no existe mejor alternativa que .NET y C# para lograr este objetivo en el complejo contexto de DAW. ¿Mañana? Quién sabe. La tecnología evoluciona, y nosotros, como docentes, debemos evolucionar con ella, siempre con la mirada puesta en lo que realmente importa: **la formación integral y crítica de nuestros alumnos.** ¿y tú, qué opinas?
 
-**No formamos gente que pica código; formamos a los profesionales que diseñarán el software del mañana. Y eso, pese a quien pese, se decide en el aula.**
+>**No formamos gente que pica código; formamos a los profesionales que diseñarán el software del mañana. Y eso, pese a quien pese, se decide en el aula.**
 
 
 
