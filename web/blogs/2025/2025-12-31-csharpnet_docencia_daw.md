@@ -34,7 +34,7 @@ Antes de terminar este año 2025 y comenzar el 2026, quiero compartir con vosotr
 Te voy a dejar mis 20 razones para este cambio de paradigma en la docencia de DAW.
 
 
-## 1. ¿Por que Kotlin ya no es suficiente?
+## 1. Nueva FP ¿Por que Kotlin ya no es suficiente?
 Aunque Kotlin es un lenguaje moderno y expresivo, capaz de tocar de manera clara todos los paradigmas y conceptos de la programación, su ecosistema. Un lenguaje que ha experimentado un crecimiento significativo en los últimos años, especialmente en el desarrollo de aplicaciones Android y backend con Ktor o Spring Boot en todo el mundo. Sin embargo, su adopción en el mercado laboral español, especialmente en el ámbito empresarial, sigue siendo limitada en comparación con otras tecnologías más establecidas como .NET y JVM.
 
 Antes, sin la fase de formación en empresas en primero, podía permitirme el lujo de enseñar Kotlin, centrándome en los conceptos fundamentales de la programación y dejando que los alumnos se adaptaran a las tecnologías específicas del mercado en segundo o durante sus prácticas. Kotlin es el mejor lenguaje puente para luego saltar a Java, C#, TypeScript, Swift o incluso Python.El objetivo era claro, enseñar a pensar en código, no en tecnologías específicas y en segundo espacializarnos en las tecnologías más demandadas con una base sólida y trabajada en primero.
