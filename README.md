@@ -180,15 +180,15 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Regreso a .NET en DAW. 20 razones para el cambio**](https://joseluisgs.dev/blogs/2025/2025-12-31-csharpnet_docencia_daw.html) *31 Dec 2025* 
+
  - ✏️ [**Desarrollo Web en Entornos Servidor 02 - Servicios Web con JVM y Spring Boot**](https://joseluisgs.dev/blogs/2025/2025-10-24-dwes_ud_02_servicios_jvm_springboot.html) *24 Oct 2025* 
+
+ - ✏️ [**Entornos de Desarrollo 03 - Sistema de Control de Versiones con Git y GitHub**](https://joseluisgs.dev/blogs/2025/2025-10-20-ed_ud_03_sistemas_control_versiones.html) *20 Oct 2025* 
 
  - ✏️ [**Despliegue de Aplicaciones Web 03 - Arquitectura Web y Fundamentos**](https://joseluisgs.dev/blogs/2025/2025-10-20-daw_ud_03_arquitectura_web_despliegue.html) *20 Oct 2025* 
 
  - ✏️ [**Programación 03 - Aplicación de Estructuras de Almacenamiento Estáticas**](https://joseluisgs.dev/blogs/2025/2025-10-20-prog_ud_03_estrecturas_estaticas.html) *20 Oct 2025* 
-
- - ✏️ [**Entornos de Desarrollo 03 - Sistema de Control de Versiones con Git y GitHub**](https://joseluisgs.dev/blogs/2025/2025-10-20-ed_ud_03_sistemas_control_versiones.html) *20 Oct 2025* 
-
- - ✏️ [**Entornos de Desarrollo 02 - Entornos de Desarrollo &lpar;IDEs&rpar;**](https://joseluisgs.dev/blogs/2025/2025-09-25-ed_ud_02_entornos_desarrollo.html) *25 Sep 2025* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
