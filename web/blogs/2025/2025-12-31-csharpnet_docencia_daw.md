@@ -23,9 +23,9 @@ giscus: true
 
 ---
 
-En noviembre de 2021, escribí un artículo que muchos de vosotros recordáis: **["Kotlin siempre en mi equipo"](https://joseluisgs.dev/blogs/2021/2021-11-28-kotlin-en-mi-equipo.html)**. En aquel entonces, defendía a Kotlin como la herramienta pedagógica definitiva. Sigo pensando que su diseño es magistral, pero los tiempos han cambiado. La **Nueva Ley de FP**, la presión por enviar alumnos a la empresa en primero y la realidad de un mercado backend en España que sigue anclado en tecnologías de "gran empresa", me han obligado a evolucionar.
+En noviembre de 2021, escribí un artículo que muchos de vosotros recordáis: **["Kotlin siempre en mi equipo"](https://joseluisgs.dev/blogs/2021/2021-11-28-kotlin-en-mi-equipo.html)**. En aquel entonces, defendía a Kotlin como la herramienta pedagógica definitiva (y lo sigue siendo). Sigo pensando que su diseño es magistral para su uso en la docencia, pero los tiempos han cambiado. La **Nueva Ley de FP**, la presión por enviar alumnos a la empresa en primero (quien pueda) y la realidad de un mercado backend en España que sigue anclado en tecnologías de "gran empresa", me han obligado realizar este cambio, con el objetivo de adaptar la enseñanza a las necesidades de esta nueva ley y su impacto en la docencia de primero (y segundo) de DAW donde tenemos que buscar el equilibrio entre la enseñanza de conceptos fundamentales (mi principal objetivo) y la preparación para el mercado laboral y la Fase de Formación en Empresas.
 
-Este curso, he decidido pasarme a la **plataforma .NET con C#**. No es una decisión tomada a la ligera. Es una respuesta crítica y meditada a los retos de la enseñanza moderna. 
+Este curso, he decidido pasarme a la **plataforma .NET con C#**. No es una decisión tomada a la ligera. Es una respuesta crítica y meditada a los retos que tenemos como docentes en este nuevo panorama educativo y profesional.
 
 <!-- more -->
 
@@ -35,15 +35,17 @@ Te voy a dejar mis 20 razones para este cambio de paradigma en la docencia de DA
 
 
 ## 1. ¿Por que Kotlin ya no es suficiente?
-Aunque Kotlin es un lenguaje moderno y expresivo, su ecosistema en el ámbito empresarial español sigue siendo limitado. La mayoría de las grandes empresas utilizan tecnologías basadas en .NET o Java. Esto significa que, aunque Kotlin es excelente para aprender conceptos de programación, no prepara adecuadamente a los alumnos para el mercado laboral actual.
+Aunque Kotlin es un lenguaje moderno y expresivo, capaz de tocar de manera clara todos los paradigmas y conceptos de la programación, su ecosistema. Un lenguaje que ha experimentado un crecimiento significativo en los últimos años, especialmente en el desarrollo de aplicaciones Android y backend con Ktor o Spring Boot en todo el mundo. Sin embargo, su adopción en el mercado laboral español, especialmente en el ámbito empresarial, sigue siendo limitada en comparación con otras tecnologías más establecidas como .NET y JVM.
 
-El nuevo calendario de FP exige que los alumnos estén listos para formarse en empresas desde el primer año. De hecho, ya no formamos tanto se cede parte de esa formación a las empresas (y perdonad que siga sin creérmelo, por lo menos en esta especialidad y en estos días, ojalá en el futuro cambie). 
+Antes, sin la fase de formación en empresas en primero, podía permitirme el lujo de enseñar Kotlin, centrándome en los conceptos fundamentales de la programación y dejando que los alumnos se adaptaran a las tecnologías específicas del mercado en segundo o durante sus prácticas. Kotlin es el mejor lenguaje puente para luego saltar a Java, C#, TypeScript, Swift o incluso Python.El objetivo era claro, enseñar a pensar en código, no en tecnologías específicas y en segundo espacializarnos en las tecnologías más demandadas con una base sólida y trabajada en primero.
 
-Debido a que yo no puedo asegurar la formación, ni horas ni a las empresas donde van a ir los alumnos, debo asegurarme de que los conocimientos que adquieran en el aula sean directamente aplicables en el entorno laboral. Y ahí es donde .NET brilla sobre Kotlin, por lo menos en España.
+El nuevo calendario de FP exige que los alumnos estén listos para formarse en empresas desde el primer año, con suerte. De hecho, ya no formamos tanto se cede parte de esa formación a las empresas (y perdonad que siga sin creérmelo, por lo menos en esta especialidad y en estos días, ojalá en el futuro cambie). A parte, tenemos el problema de las horas y si van todos los alumnos, si no van, a dónde van, etc. Un caos didáctico que me obliga a priorizar y buscar el equilibrio entre seguir trasmitiendo una base sólida de programación y preparar a los alumnos para que al menos puedan desenvolverse en la Fase de Formación en Empresas. Pero ya tenemos menos horas en primero y segundo, por lo que debo priorizar.
 
-Os va a sorprender, pero **C# y .NET** ofrecen un equilibrio perfecto entre **modernidad, robustez y demanda laboral**. Permiten a los alumnos aprender conceptos fundamentales de programación mientras se preparan para un mercado que valora estas habilidades. 
+Debido a que yo no puedo asegurar la formación, ni horas ni a las empresas donde van a ir los alumnos o simplemente saber qué contenidos trabajaran en la empresa (y si los van a trabar realmente) debo asegurarme de que los conocimientos que adquieran en el aula sean directamente aplicables en el entorno laboral de una forma más directa. Y ahí es donde .NET brilla sobre Kotlin, por lo menos en España.
 
-Quiero destacar que no soy un novato de C# y .NET, de hecho gané un premio con C# junto a mi equipo, Microsoft Imagine Cup España 2007 en lae especialidad de "Software Design" [ver](https://www.eleconomista.es/empresas-finanzas/noticias/196598/04/07/Estudiantes-granadinos-representaran-a-Espana-en-la-Imagine-Cup-Microsoft.html), pasé a Kotlin porque es la leche, y soy formador con JetBrains a nivel de mundial y ahora vuelvo a C#. He visto la evolución de ambos lenguajes y plataformas, y creo que .NET ha madurado de una manera que lo hace ideal para la enseñanza en DAW. Creo que mi experiencia me permite hacer esta afirmación con fundamento y objetividad.
+**C# y .NET** ofrecen un equilibrio perfecto entre **modernidad, robustez y demanda laboral**. Permiten a los alumnos aprender conceptos fundamentales de programación (según mi punto de vista) mientras se preparan para un mercado que valora estas habilidades. 
+
+Quiero destacar que no soy un novato de C# y .NET, de hecho gané un premio con C# junto a mi equipo, Microsoft Imagine Cup España 2007 en lae especialidad de "Software Design" [ver](https://www.eleconomista.es/empresas-finanzas/noticias/196598/04/07/Estudiantes-granadinos-representaran-a-Espana-en-la-Imagine-Cup-Microsoft.html), pasé a Kotlin porque es la leche, y soy formador/certificador con JetBrains a nivel de mundial y ahora vuelvo a C#. He visto la evolución de ambos lenguajes y plataformas, y creo que .NET ha madurado de una manera que lo hace ideal para la enseñanza en DAW actual, bajo mi filosofía de aprendizaje. Creo que mi experiencia me permite hacer esta afirmación con fundamento y objetividad.
 
 # Ventajas clave de C# y .NET para 1º DAW
 
@@ -72,7 +74,7 @@ void main() {
 ```
 
 
-En cambio, **C# con Top-Level Statements** permite seguir el orden lógico del razonamiento humano: **Estructurada -> Modular -> Objetos**. Empezamos con la lógica, y la ceremonia viene después, cuando el alumno está preparado. Sin duda es más eficiente pedagógicamente, no necesitas ni un método `main`.
+En cambio, **C# con Top-Level Statements** permite seguir el orden lógico del razonamiento humano: **Estructurada -> Modular -> Objetos -> Funcional**. Empezamos con la lógica, y el resto viene después, cuando el alumno está preparado. Sin duda es más eficiente pedagógicamente, no necesitas ni un método `main`.
 
 **C# (Moderno):**
 
@@ -489,7 +491,7 @@ var resultado = servicio.Registrar(req)
 
 ASP.NET Core no es solo un framework; es un ecosistema coherente para DAW. Permite crear APIs RESTful robustas y escalables con una curva de aprendizaje suave. Su integración nativa con Entity Framework Core, Identity para seguridad y Middleware para gestión de peticiones lo convierten en una opción completa para el desarrollo backend. Además lo podemos usar no solo para servicios sino también para aplicaciones web completas con Razor Pages o Blazor.
 
-### Controlador REST
+### Controladores REST con ASP.NET Core MVC
 
 Podemos crear controladores REST de manera sencilla y clara, con inyección de dependencias nativa y soporte completo para asincronía.
 
@@ -519,8 +521,8 @@ public class AlumnosController(IService service) : ControllerBase
 
 ```
 
-#### Minimal APIs con Minimal APIs
-ASP.NET Core permite crear APIs mínimas con una sintaxis muy concisa, ideal para microservicios o prototipos rápidos. El paso de Controladores a Minimal APIs representa la evolución final de C# hacia un lenguaje que prioriza la lógica de negocio sobre la infraestructura. Si el controlador era "ordenado", la Minimal API es "eficiente". En lugar de inyectar los servicios en un constructor global de clase, los pasamos directamente como parámetros en la expresión lambda (IService service). Esto hace que cada endpoint sea una función pura, más fácil de testear y de entender: "Para ejecutar esta acción, necesito este servicio". Con `MapGroup`, mantenemos la organización del código sin necesidad de decoradores como [Route]. La estructura de la API se vuelve visual y secuencial, eliminando la necesidad de saltar entre archivos de controladores para entender cómo está mapeada nuestra aplicación. Al eliminar el motor de controladores, el pipeline de ASP.NET Core tiene menos capas que atravesar. El resultado es un menor consumo de memoria y un tiempo de respuesta más rápido (menor latencia), ideal para arquitecturas modernas de microservicios o aplicaciones de alto rendimiento.
+### Minimal APIs con Minimal APIs
+ASP.NET Core permite crear APIs mínimas con una sintaxis muy concisa, ideal para microservicios o prototipos rápidos. Con `MapGroup`, mantenemos la organización del código sin necesidad de decoradores como [Route]. Al eliminar el motor de controladores, el pipeline de ASP.NET Core tiene menos capas que atravesar. El resultado es un menor consumo de memoria y un tiempo de respuesta más rápido (menor latencia), ideal para arquitecturas modernas de microservicios o aplicaciones de alto rendimiento.
 
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
@@ -545,6 +547,52 @@ alumnosApi.MapPost("/", async (AlumnoRequest req, IService service) =>
 });
 
 app.Run();
+```
+
+### Leer configuración desde appsettings.json de forma sencilla
+ASP.NET Core facilita la gestión de configuraciones mediante el archivo `appsettings.json`. Podemos mapear configuraciones directamente a clases fuertemente tipadas, lo que mejora la seguridad y la claridad del código. Entre ellas para producción, desarrollo, testing, etc.
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=myServer;Database=myDB;User Id=myUser;Password=myPass;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  }
+}
+```
+
+```csharp
+public class AppSettings {
+    public ConnectionStrings ConnectionStrings { get; set; }
+    public Logging Logging { get; set; }
+}
+
+public class ConnectionStrings {
+    public string DefaultConnection { get; set; }
+}
+
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.Configure<AppSettings>(builder.Configuration);
+var app = builder.Build();
+```
+
+### Inyección de Dependencias nativa y potente
+ASP.NET Core tiene un sistema de inyección de dependencias integrado que facilita la gestión de servicios y repositorios, promoviendo un diseño desacoplado y testeable.
+
+Tenemos varias opciones de ciclo de vida para los servicios:
+* `Transient`: Una nueva instancia cada vez que se solicita. Para servicios ligeros.
+* `Scoped`: Una instancia por solicitud HTTP. Ideal para servicios que manejan datos de usuario.
+* `Singleton`: Una única instancia durante toda la vida de la aplicación. Útil para servicios que mantienen estado global.
+
+```csharp
+services.AddTransient<ITransientService, TransientService>();
+services.AddScoped<IScopedService, ScopedService>();
+services.AddSingleton<ISingletonService, SingletonService>();
 ```
 
 ### Seguridad con Identity y JWT
@@ -640,8 +688,8 @@ public class LoggingMiddleware {
 }
 ```
 
-### NoSQL con MongoDB
-ASP.NET Core se integra fácilmente con MongoDB usando librerías como MongoDB.Driver, permitiendo trabajar con bases de datos NoSQL de manera eficiente.
+### NoSQL, más allá de SQL: MongoDB y Redis
+ASP.NET Core se integra fácilmente con MongoDB usando librerías como MongoDB.Driver, permitiendo trabajar con bases de datos NoSQL de manera eficiente, similar a su filosofía y con integración en LINQ.
 
 ```csharp
 public class AlumnoService {
@@ -653,7 +701,33 @@ public class AlumnoService {
 }
 ```
 
----
+Por otro lado, Redis puede usarse tanto como base de datos en memoria como sistema de caché distribuido, ideal para mejorar el rendimiento de aplicaciones web.
+
+```csharp
+services.AddStackExchangeRedisCache(options => {
+    options.Configuration = "localhost:6379";
+    options.InstanceName = "SampleInstance";
+});
+
+// Uso de Redis Cache
+public class AlumnoService {
+    private readonly IDistributedCache _cache;
+    public AlumnoService(IDistributedCache cache) {
+        _cache = cache;
+    }
+
+    public async Task<Alumno> GetAlumnoAsync(int id) {
+        var cachedAlumno = await _cache.GetStringAsync($"alumno_{id}");
+        if (cachedAlumno != null) {
+            return JsonSerializer.Deserialize<Alumno>(cachedAlumno);
+        }
+        // Lógica para obtener el alumno de la base de datos
+        var alumno = await ObtenerAlumnoDeBD(id);
+        await _cache.SetStringAsync($"alumno_{id}", JsonSerializer.Serialize(alumno));
+        return alumno;
+    }
+}
+```
 
 ## 17. El adiós a la "Ceguera de Plantillas": Razor y Blazor
 
@@ -716,17 +790,17 @@ Console.WriteLine(filtrado.Description());
 
 ## 19. Fundamentos o muerte: El rol del programador en la era de la IA
 
-Hoy en día, la sintaxis ha pasado a ser una *commodity*. Es barata, casi gratuita. Si un alumno quiere un bucle que recorra un array y filtre los pares, la IA se lo da en milisegundos. Como profesor, soy plenamente consciente de que mis alumnos usan estas herramientas, y es precisamente por eso que **la exigencia en los fundamentos debe ser más feroz que nunca.**
+Hoy en día, la sintaxis ha pasado a ser una *commodity*. Es barata, casi gratuita. Si un alumno quiere un bucle que recorra un array y filtre los pares, la IA se lo da en segundos (si sabes escribir el prompt adecuado). Como profesor, soy plenamente consciente de que mis alumnos usan estas herramientas, y es precisamente por eso que **la exigencia en los fundamentos debe ser más feroz que nunca.**
 
 ### El espejismo de la productividad
 
-El gran peligro de la IA en el aula es el "programador Frankenstein": aquel que pega trozos de código que funcionan por puro azar, pero que no entiende la arquitectura que los sostiene. Sin una base sólida, el alumno es un rehén de la IA. Si no conoces los fundamentos, **¿cómo vas a auditar lo que la máquina te entrega?** ¿Cómo vas a saber si ese código es eficiente, seguro o si está introduciendo una deuda técnica inasumible?
+El gran peligro de la IA en el aula es el "programador Frankenstein": aquel que pega trozos de código que funcionan por puro azar, pero que no entiende la arquitectura que los sostiene. Sin una base sólida, el alumno es un rehén de la IA. Si no conoces los fundamentos, **¿cómo vas a auditar lo que la máquina te entrega?** ¿Cómo vas a saber si ese código es eficiente, seguro o si está introduciendo una deuda técnica inasumible? Esto siemprelo hemos defendido incluso antes de este "boom" de la IA, pero ahora es más crítico que nunca saber el porqué detrás del qué.
 
-Si no sabes qué es una **Inyección de Dependencias**, no sabrás por qué la IA te está sugiriendo un constructor con cinco interfaces. Si no entiendes el **Contexto de Asincronía**, no sabrás por qué tu aplicación se bloquea a pesar de que el código "parece" correcto o cuando es mejor ser asíncrono frente a reactivo o las ventajas de algunos patrones de diseño.
+Si no sabes qué es una **Inyección de Dependencias**, no sabrás por qué la IA te está sugiriendo un constructor con cinco interfaces. Si no entiendes el **Contexto de Asincronía**, no sabrás por qué tu aplicación se bloquea a pesar de que el código "parece" correcto o cuando es mejor ser asíncrono frente a reactivo o las ventajas de algunos patrones de diseño. Si no sabes qué es un **ORM** y cómo funciona, no entenderás las implicaciones de usar Entity Framework Core frente a ADO.NET puro. Y así con todo.
 
 ### .NET como laboratorio pedagógico
 
-He elegido .NET y C# no por capricho, sino porque es un ecosistema "total". Toca todos los palos que un analista-programador debe dominar para sobrevivir al cambio tecnológico constante y que lo tenía Kotlin, pero con un enfoque más industrial y pragmático:
+He elegido .NET y C# no por capricho, sino porque es un ecosistema "total". Toca todos los palos que un analista-programador debe dominar para sobrevivir al cambio tecnológico constante y que lo tenía con Kotlin, pero con un enfoque más industrial y pragmático:
 
 * **Gestión de memoria y tipado:** Desde punteros y memoria no administrada hasta el recolector de basura.
 * **Multiparadigma real:** Te obliga a entender desde la Programación Orientada a Objetos más pura hasta el funcionalismo moderno.
@@ -738,12 +812,10 @@ He elegido .NET y C# no por capricho, sino porque es un ecosistema "total". Toca
 
 ### El lenguaje como medio, el fundamento como fin
 
-La IA nos permite algo maravilloso: **la capacidad de migrar.** Si un alumno sale de mis clases con una base sólida en C#, mañana podrá usar la IA para saltar a Java, Rust, Go o Swift en una semana. ¿Por qué? Porque ya conoce los conceptos subyacentes. La IA le traducirá la sintaxis, pero el alumno pondrá el criterio, la estructura y el juicio crítico. Eso es parte de lo que intento enseñar y fomento en las partes de autoaprendizaje y proyectos.
+La IA nos permite algo maravilloso: **la capacidad de migrar.** Si un alumno sale de mis clases con una base sólida en C#, mañana podrá usar la IA para saltar a Java, Kotlin, TypeScript, C++, Rust, Go o Swift en una semana. ¿Por qué? Porque ya conoce los conceptos subyacentes. La IA le traducirá la sintaxis, pero el alumno pondrá el criterio, la estructura y el juicio crítico. Eso es parte de lo que intento enseñar y fomento en las partes de autoaprendizaje y proyectos.
 
-Mi objetivo no es formar "picacodigos" de C# (tampoco lo era antes con Kotlin) Mi objetivo es formar **analistas** que usen C# como el laboratorio perfecto para entender cómo se construye software profesional. En un mundo lleno de ruido generado por código automatizado, el valor diferencial del humano es su capacidad de comprender los pilares. Si sabes cómo funciona el motor, no importa qué coche te den mañana: sabrás conducirlo.
+Mi objetivo no es formar "picacodigos" de C# (tampoco lo era antes con Kotlin) Mi objetivo es formar un perfil de **analistas/programadores** que usen C# como el laboratorio perfecto para entender cómo se construye software profesional. En un mundo lleno de ruido generado por código automatizado, el valor diferencial del humano es su capacidad de comprender los pilares. Si sabes cómo funciona el motor, no importa qué coche te den mañana: sabrás conducirlo. Recuerda, la tecnología cambia, pero los fundamentos permanecen.
 
-
-Esta es la versión definitiva y extendida de las conclusiones. He endurecido el tono crítico hacia el sistema y he reforzado tu postura ética como docente, integrando la problemática de la empresa y la desconexión legislativa.
 
 ---
 
@@ -757,21 +829,21 @@ La nueva ley nos vende la "Dualidad" como la panacea, pero la realidad a pie de 
 
 En segundo es más de lo mismo, pero siempre tiene el objetivo de tener alumnos productivos. Reducir el proceso de aprendizaje para tener alumnos que produzcan cual trabajadores. Es un error saltarse algunas etapas del aprendizaje. por suerte eso no pasa en este ciclo, y nuestros alumnos están bien valorados en las empresas por la formación que reciben en el aula en todos los módulos de DAW.
 
-Como docente, **no puedo permitir que el azar decida la calidad profesional de mis alumnos**. No puedo garantizar que la empresa los forme, porque muchas carecen de la capacidad, el tiempo o la estructura para hacerlo. Por eso, mi responsabilidad es "mover ficha" en el aula. He elegido **.NET y C#** como mi "muro de contención": un ecosistema tan completo que me permite asegurar que, independientemente de si la empresa les enseña o no, ellos saldrán con un mínimo de fundamentos sólidos de la manera más unificada (integrados en el mismo ecosistema), pragmática y alineada con el mercado laboral español.
+Como docente, **no puedo permitir que el azar decida la calidad profesional de mis alumnos**. No puedo garantizar que la empresa los forme (y en qué tecnología lo haga o en qué profundicen más), porque muchas carecen de la capacidad, el tiempo o la estructura para hacerlo (de manera efectiva a nivel formativo). Por eso, mi responsabilidad es "mover ficha" en el aula. He elegido **.NET y C#** como mi "muro de contención": un ecosistema tan completo que me permite asegurar que, independientemente de si la empresa les enseña o no, ellos saldrán con un mínimo de fundamentos sólidos de la manera más unificada (integrados en el mismo ecosistema), pragmática y alineada con el mercado laboral actual.
 
 ### Un compromiso ético: No somos una fábrica de títulos
 
-Podría limitarme a seguir el currículo, poner parches en varios lenguajes, hacer la vista gorda con la IA y expedir títulos que, en el fondo, serían papel mojado. Pero **mi ética profesional me lo impide**. No quiero ser parte de una maquinaria que regala diplomas sin sentido; quiero asegurar que cuando un alumno mío sale al mercado laboral, lo hace con garantías reales de competencia y de capacidad de adaptación y autoaprendizaje.
+Podría limitarme a seguir el currículo, poner parches en varios lenguajes o entornos, hacer la vista gorda con la IA y expedir títulos que, en el fondo, serían papel mojado. Pero **mi ética profesional me lo impide**. No quiero ser parte de una maquinaria que regala diplomas sin sentido; quiero asegurar que cuando un alumno mío sale al mercado laboral, lo hace con garantías reales de competencia, de capacidad de adaptación y autoaprendizaje.
 
-El cambio a **Full Stack C#** es, en esencia, una decisión ética y práctica en el aula. Es un reto reescribir apuntes, prácticas y proyectos, pero es un sacrificio necesario para garantizar que mis alumnos no solo sobrevivan, sino que prosperen en un entorno profesional cada vez más exigente y automatizado. Les ofrezco:
+El cambio a **Full Stack C#** es, en esencia, una decisión ética y práctica en el aula. Es un reto reescribir apuntes, prácticas y proyectos, pero es un "sacrificio" (hecho con mucho gusto) necesario para garantizar que mis alumnos no solo sobrevivan, sino que prosperen en un entorno profesional cada vez más exigente y automatizado. Les ofrezco:
 
 * Un **bisturí pedagógico** para entender los fundamentos de la programación y el desarrollo de software.
 * Un **mapa completo del ecosistema profesional** que les permitirá adaptarse a cualquier entorno tecnológico.
-* Un **seguro de empleabilidad** en un mercado laboral que valora la experiencia en .NET y C#.
+* Un **seguro de empleabilidad** en un mercado laboral que valora la experiencia en .NET y C#, siendo uno de los pilares tecnológicos más demandados y seguros.
 
 ### Volver a casa con una mirada nueva
 
-No os voy a engañar: este cambio lo he hecho con una sonrisa. Yo venía de .NET y C# (en proyectos gordos e importantes),y volver a este ecosistema me hace sentir "en casa". Pero no vuelvo igual; vuelvo con la experiencia de haber explorado otros mundos como Kotlin y con la capacidad de importar lo mejor de ellos para aplicarlo en mi docencia.
+No os voy a engañar: este cambio lo he hecho con una sonrisa. Yo venía de .NET y C# (en proyectos gordos e importantes),y volver a este ecosistema me hace sentir "en casa". Pero no vuelvo igual; vuelvo con la experiencia de haber explorado otros mundos de una manera bastante profunda y con la capacidad de importar lo mejor de ellos para aplicarlo en mi docencia.
 
 ¿Qué pasará con Kotlin? Seguiré usándolo en proyectos personales y de investigación. Sigo colaborando con JetBrains en iniciativas educativas y asesorando a otros profesionales en distintos cursos y actividades formativas por todo el mundo.
 
