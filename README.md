@@ -234,7 +234,7 @@ Bash                               19 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
   <!--START_SECTION:activity-->
-1. ❌ Closed PR [#2](undefined) in [joseluisgs/TiendaDawApi-NetCore](https://github.com/joseluisgs/TiendaDawApi-NetCore)
+1. ❌ Closed PR [#31](https://github.com/joseluisgs/TiendaDawWeb-SpringBoot/pull/31) in [joseluisgs/TiendaDawWeb-SpringBoot](https://github.com/joseluisgs/TiendaDawWeb-SpringBoot)
   <!--END_SECTION:activity-->
 
 
