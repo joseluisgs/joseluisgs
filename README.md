@@ -21,10 +21,10 @@ Mi foco principal es el desarrollo de **aplicaciones web y multiplataforma**, de
 A parte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
 ### 🏛️ Proyectos como Apuntes y Recursos Didácticos 🛠️
-Bienvenido a mi repositorio personal. Estos proyectos nacen de mi labor docente y profesional y están diseñados para funcionar como **apuntes de clase** para las asignaturas y módulos que imparto: extensamente comentados, legibles y **pedagógicos según lo que vemos en clase (no solo en la teoría, sino también en la práctica)**. Mi objetivo es que puedas entender la arquitectura y la lógica simplemente leyendo el código, sin necesidad de ejecutarlo, ya seas un **alumno** en formación o un **docente** buscando materiales. **No es código de producción, sino material didáctico creado para facilitar el aprendizaje.** Si algún ejemplo te ayuda en tus clases o aprendizaje, ¡una ⭐️ es la mejor forma de apoyarlo!
+Bienvenido a mi repositorio personal. Estos proyectos nacen de mi labor docente y profesional y están diseñados para funcionar como **apuntes de clase** para las asignaturas y módulos que imparto: extensamente comentados, legibles y **pedagógicos según lo que vemos en clase (no solo en la teoría, sino también en la práctica)**. **No es código de producción, sino material didáctico creado para facilitar el aprendizaje.** Mi objetivo es que puedas entender la arquitectura y la lógica simplemente leyendo el código, sin necesidad de ejecutarlo, ya seas un **alumno** en formación o un **docente** buscando materiales. **Si algún ejemplo te ayuda en tus clases o aprendizaje, ¡una ⭐️ es la mejor forma de apoyarlo!**
 
 ### 🎓 Colaboración con JetBrains & GitHub
-Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me apasiona ayudar a otros a potenciar su carrera como desarrolladores o a innovar en la docencia. Actualmente soy responsable de contenidos en **Hyperskill / JetBrains Academy** para el ecosistema Kotlin. Si necesitas un cable para aplicar "superpoderes" a tu código o quieres integrar estas herramientas y metodologías modernas en tus clases, **¡cuenta conmigo! 💪**
+Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me apasiona ayudar a otros a potenciar su carrera como desarrolladores o a innovar en la docencia. Actualmente soy responsable de contenidos en **JetBrains Academy/Hyperskill** para el ecosistema Kotlin. Si necesitas un cable para aplicar "superpoderes" a tu código o quieres integrar estas herramientas y metodologías modernas en tus clases, **¡cuenta conmigo! 💪**
 
 🚀 **También puedes conocerme un poco más en mi página web:** [**joseluisgs.dev**](https://joseluisgs.dev/)
 
@@ -114,7 +114,7 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 
  - ✏️ [**Despliegue de Aplicaciones Web 03 - Arquitectura Web y Fundamentos**](https://joseluisgs.dev/blogs/2025/2025-10-20-daw_ud_03_arquitectura_web_despliegue.html) *20 Oct 2025* 
 
- - ✏️ [**Programación 03 - Aplicación de Estructuras de Almacenamiento Estáticas**](https://joseluisgs.dev/blogs/2025/2025-10-20-prog_ud_03_estrecturas_estaticas.html) *20 Oct 2025* 
+ - ✏️ [**Programación 03 - Aplicación de Estructuras de Almacenamiento Estáticas**](https://joseluisgs.dev/blogs/2025/2025-10-20-prog_ud_03_estructuras_estaticas.html) *20 Oct 2025* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
