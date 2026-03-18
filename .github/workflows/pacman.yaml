@@ -7,6 +7,11 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - '**.md'
+      - 'images/**'
+      - '.github/workflows/**'
+      - '!.github/workflows/pacman.yaml'
 
 jobs:
   generate:
@@ -21,7 +26,6 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Usamos un nombre específico para evitar conflictos
           svg_out_path: dist/pacman-contribution-graph.svg
 
       - name: push pacman-contribution-graph.svg to the output branch
@@ -29,6 +33,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          keep_history: true # IMPORTANTE: para no borrar lo que haya (como la serpiente)
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
