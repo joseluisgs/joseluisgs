@@ -25,7 +25,8 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/pacman-contribution-graph.svg
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096'
 
       - name: generate snake-contribution-graph.svg
         uses: Platane/snk/svg-only@v3
