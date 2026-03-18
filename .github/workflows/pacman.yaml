@@ -1,14 +1,9 @@
 name: Generate Pac-Man
 
 on:
-  # Ejecución cada 12 horas
   schedule:
     - cron: '0 0 * * *'
-  
-  # Permite ejecución manual
   workflow_dispatch:
-  
-  # Ejecución en cada push a la rama master
   push:
     branches:
     - master
@@ -19,15 +14,15 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Genera la animación de Pac-Man de las contribuciones del usuario
+      # Genera la animación de Pac-Man usando la acción de Platane con paleta personalizada
       - name: generate github-contribution-grid-pacman.svg
-        uses: Hon9g/gh-action-pacman@master
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # El archivo se guardará en la rama 'output'
-          svg_out_path: dist/github-contribution-grid-pacman.svg
+          outputs: |
+            dist/github-contribution-grid-pacman.svg?palette=github-light&color_snake=#f5e050&color_dots=#ebedf0,#ffc414,#f2f2f2,#71306e,#231d1d
+            dist/github-contribution-grid-pacman-dark.svg?palette=github-dark&color_snake=#f5e050&color_dots=#161b22,#ffc414,#f2f2f2,#71306e,#231d1d
 
-      # Sube el archivo generado a la rama 'output'
       - name: push github-contribution-grid-pacman.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
