@@ -65,6 +65,9 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 </p>
 
 <h2 align="center">⚡ Mi Stack Tecnológico Actual 🦾</h2>
+<p align="center">
+  Actualmente lo que más uso en mi día a día 🚀
+</p>
 
 <div align="center">
 <table>
@@ -134,7 +137,7 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 
 <!-- PAC-MAN (Comecocos) -->
 <p align="center">
-   <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/github-contribution-grid-pacman.svg" alt="pacman">
+   <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/pacman-contribution-graph.svg" alt="pacman">
 </p>
 
 <!-- SNAKE (Serpiente - Comentado)
