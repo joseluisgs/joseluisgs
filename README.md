@@ -135,9 +135,13 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 
 
 
-<!-- PAC-MAN (Comecocos) -->
+<!-- PAC-MAN (Comecocos) con soporte Modo Oscuro -->
 <p align="center">
-   <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/pacman-contribution-graph.svg" alt="pacman">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/pacman-contribution-graph.svg">
+    <img alt="pacman" src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/pacman-contribution-graph.svg">
+  </picture>
 </p>
 
 <!-- SNAKE (Serpiente - Comentado)
@@ -145,6 +149,8 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
    <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/github-contribution-grid-snake.svg" alt="snake">
 </p>
 -->
+
+
 
 
 
