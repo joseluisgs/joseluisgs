@@ -69,35 +69,37 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
   Actualmente lo que más uso en mi día a día 🚀
 </p>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-  <div style="min-width: 280px;">
-    <b>🚀 Desarrollo Backend & Ecosistemas</b><br>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" height="32" title="C#">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" height="32" title=".NET Core">
-    <img src="https://www.rlogical.com/wp-content/uploads/2023/03/1-1-1.webp" height="32" title="ASP.NET Core">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" height="32" title="Kotlin">
-  </div>
-  <div style="min-width: 280px;">
-    <b>🌐 Tecnologías Frontend & UI</b><br>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" height="32" title="Vue.js">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="32" title="TypeScript">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" height="32" title="Tailwind CSS">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" height="32" title="Vite">
-  </div>
-  <div style="min-width: 280px;">
-    <b>🗄️ Persistencia & Infraestructura</b><br>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="32" title="PostgreSQL">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" height="32" title="MongoDB">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" height="32" title="Redis">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="32" title="Docker">
-  </div>
-  <div style="min-width: 280px;">
-    <b>🛠️ Entornos de Desarrollo & Productividad</b><br>
-    <img src="https://distreau.com/github.svg" height="32" title="GitHub">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" height="32" title="JetBrains">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="32" title="VS Code">
-    <img src="./images/bruno.png" height="32" title="Bruno">
-  </div>
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><b>🚀 Desarrollo Backend & Ecosistemas</b><br>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" height="32" title="C#">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" height="32" title=".NET Core">
+      <img src="https://www.rlogical.com/wp-content/uploads/2023/03/1-1-1.webp" height="32" title="ASP.NET Core">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" height="32" title="Kotlin">
+    </td>
+    <td align="center"><b>🌐 Tecnologías Frontend & UI</b><br>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" height="32" title="Vue.js">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="32" title="TypeScript">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" height="32" title="Tailwind CSS">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" height="32" title="Vite">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🗄️ Persistencia & Infraestructura</b><br>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="32" title="PostgreSQL">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" height="32" title="MongoDB">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" height="32" title="Redis">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="32" title="Docker">
+    </td>
+    <td align="center"><b>🛠️ Entornos de Desarrollo & Productividad</b><br>
+      <img src="https://distreau.com/github.svg" height="32" title="GitHub">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" height="32" title="JetBrains">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="32" title="VS Code">
+      <img src="./images/bruno.png" height="32" title="Bruno">
+    </td>
+  </tr>
+</table>
 </div>
 
 
