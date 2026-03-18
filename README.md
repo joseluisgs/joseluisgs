@@ -10,40 +10,25 @@
   <img src="https://komarev.com/ghpvc/?username=joseluisgs&label=Profile%20views&color=42b983&style=flat" alt="joseluisgs-github" />
   <img src="https://img.shields.io/github/followers/joseluisgs?style=social" alt="joseluisgs-github" />
   <img src="https://img.shields.io/github/stars/joseluisgs?style=social" alt="joseluisgs-github" />
-  <img src="https://img.shields.io/twitter/follow/JoseLuisGS_?style=social" alt="joseluisgs-twitter" />
 </p>
 
-# <img src="./images/octogato.png" width=15% align=right /> 👋 Hola, soy José Luis González 💻 
+# 👋 Hola, soy José Luis González 💻 
 
-Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Secundaria**](https://www.iesluisvives.es/) en Formación Profesional de grado superior de [DAM](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)/[DAW](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-web.html)/[ASIR](https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/admin-sist-informaticos-red.html) 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT) 👨‍💻.
+Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Formación Profesional**](https://www.iesluisvives.es/) especializado en **Desarrollo de Software** 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/) y [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) 👨‍💻.
 
-Estoy interesado en aplicaciones multiplataforma, web y móviles desde el servidor ⚙️ hasta el cliente 📱. Imparto docencia en distintos programas de máster, doctorado y cursos de especialización/formación ya sea de diseño, desarrollo y evaluación de productos software. Me encanta el ecosistema de Kotlin y Vue.js 💓.
+Mi foco principal es el desarrollo de **aplicaciones web y multiplataforma**, desde el servidor ⚙️ hasta el cliente 📱. Imparto docencia en máster, doctorado y cursos de especialización en diseño, desarrollo y evaluación de productos software. Me apasiona el ecosistema de **Kotlin**, **.NET** y **Vue.js** 💓.
 
 A parte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
-Este es mi **repositorio personal**, úsalo como quieras siempre que respetes su [licencia CC](https://joseluisgs.dev/docs/license/). En ellos subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y a veces no realizados de la manea más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos ... o eso intento. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo dame ideas para mejorar 💪.
+### 🏛️ Proyectos como Apuntes y Recursos Didácticos 🛠️
+Bienvenido a mi repositorio personal. Estos proyectos nacen de mi labor docente y profesional y están diseñados para funcionar como **apuntes de código** para las asignaturas y módulos que imparto: extensamente comentados, legibles y **pedagógicos por diseño según mi forma de entender la docencia**. Mi objetivo es que puedas entender la arquitectura y la lógica simplemente leyendo el código, sin necesidad de ejecutarlo, ya seas un **alumno** en formación o un **docente** buscando materiales. Si algún ejemplo te ayuda en tus clases o aprendizaje, ¡una ⭐️ es la mejor forma de apoyarlo!
 
-También puedes acceder a mi <a href="https://joseluisgs.dev/" target="_blank">🚀 página web</a> donde poco a poco podrás conocerme un poco más 🔍.
+### 🎓 Colaboración con JetBrains & GitHub
+Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me apasiona ayudar a otros a potenciar su carrera como desarrolladores o a innovar en la docencia. Actualmente soy responsable de contenidos en **Hyperskill / JetBrains Academy** para el ecosistema Kotlin. Si necesitas un cable para aplicar "superpoderes" a tu código o quieres integrar estas herramientas y metodologías modernas en tus clases, **¡cuenta conmigo! 💪**
 
-Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) y [**GitKraken Ambassador**](https://www.gitkraken.com/invite/wdJ7HntT). Actualmente soy uno de los responsables de contenidos en [**Hyperskill**](https://hyperskill.org/)/[**Jetbrains Academy**](https://www.jetbrains.com/academy/) para tecnologías relacionadas con Kotlin. Te puedo ayudar  a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
+🚀 **También puedes conocerme un poco más en mi página web:** [**joseluisgs.dev**](https://joseluisgs.dev/)
 
-<p align="center">
-  <a href="https://www.jetbrains.com/es-es/company/partners/kotlin/" target="_blank"> 
-    <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.imgur.com/Ca7Yu1B.png" alt="Log1" height="100"
-      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
-  </a> &nbsp;
- <a href="https://education.github.com/teachers/advisors" target="_blank"> 
-    <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg" alt="Log2" height="100"
-      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
-  </a> &nbsp;
-  <a href="https://gitkraken.link/joseluisgs" target="_blank"> 
-    <img loading="lazy" style="border-radius: 0.25rem;" 
-      src="https://i.imgur.com/sTDaBTu.png" alt="Logo3" height="100"
-      borderRadius='1rem' boxShadow = '0 5px 18px rgba(0,0,0,0.3)'>
-  </a>
-</p>
+
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
@@ -55,126 +40,64 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
 <p align="center">
     <a href="https://joseluisgs.dev/" target="_blank">
         <img loading="lazy" src="https://joseluisgs.github.io/img/favicon.png" 
-    height="40">
+    height="32">
     </a>&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
         <img loading="lazy" src="https://distreau.com/github.svg" 
-    height="40">
-    </a>&nbsp;
-    <a href="https://x.com/JoseLuisGS_" target="_blank">
-        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" 
-    height="40">
+    height="32">
     </a>&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
         <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
-    height="40">
+    height="32">
+    </a>&nbsp;
+    <a href="https://www.youtube.com/@joseluisgs" target="_blank">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
+    height="32">
+    </a>&nbsp;
+    <a href="https://x.com/JoseLuisGS_" target="_blank">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" 
+    height="32">
     </a>&nbsp;
     <a href="https://www.instagram.com/joseluisgs.dev/" target="_blank">
         <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png" 
-    height="40">
-    </a>&nbsp;
-     <a href="https://g.dev/joseluisgs" target="_blank">
-        <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
-    height="40">&nbsp;
+    height="32">
     </a>
-    <a href="https://www.youtube.com/@joseluisgs" target="_blank">
-        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
-    height="40">
-    </a>  
 </p>
 
-<h2 align="center">⚡ Tecnologías favoritas</h2>
-<p align="center">
-Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o colaboran conmigo a nivel personal/profesional y a las cuales les agradezco su confianza y apoyo.
-<br>👉 Ni son todas las que están, ni están todas las que son 🤔
-</p>
+<h2 align="center">⚡ Mi Stack Tecnológico Actual 🦾</h2>
 
-<p align="center">
-  <img loading="lazy" src="https://resources.jetbrains.com/storage/products/company/brand/logos/Kotlin_icon.png" 
-  height="40">
-  <img loading="lazy" src="https://distreau.com/github.svg" 
-  height="40">
-  <img loading="lazy" src="https://materiageek.com/wp-content/uploads/2020/10/GitKraken-7.4.0-Descargar-gratis.png"
-  height="40">
-  <img loading="lazy" src="https://i.imgur.com/Ox9hu1N.png" 
-  height="40">
-  <img loading="lazy" src="https://pic.vsixhub.com/89/84/75da638c-c45a-44ea-aa3b-8570a3559810-logo-20230429.webp" 
-  height="40">
-  <img loading="lazy" src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-svg-png-download-2945092.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://insert-koin.io/img/koin_new_logo.png" 
-  height="40">
-</p>
-
-<p align="center">
- <img loading="lazy" src="https://developer.android.com/events/dev-challenge/images/dev-challenge_jetpack-compose-asset.svg" 
-  height="40">
-  <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2015/05/android-logo-7-1.png" 
-  height="40">
-  <img loading="lazy" src="https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png" 
-  height="40">
-  <img loading="lazy" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" 
-  height="40">
-  <img loading="lazy" src="https://cdn-icons-png.flaticon.com/256/226/226777.png" 
-  height="40">
-  <img loading="lazy" src="https://miro.medium.com/max/300/1*J9d-VtiLfN9APIQgWTP9ow.png" 
-  height="40">
-   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" 
-  height="40">
-   <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" 
-  height="40">
-  <img loading="lazy" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png" 
-  height="40">
-  <img loading="lazy" src="https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" 
-  height="40">
-</p>
-
-<p align="center">
- <img loading="lazy" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" 
-  height="40">
- <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/mariadb.svg" 
-  height="40">
-   <img loading="lazy" src="https://img.icons8.com/color/452/google-firebase-console.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/932px-NestJS.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://39ntbr6g.media.zestyio.com/bulma-logo.d4899f96e1858d7c1e61787a9f72ea96.png" 
-  height="40">
-  <img loading="lazy" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" 
-  height="40">
-  <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/410px-Vitejs-logo.svg.png" 
-  height="40">
-  <img loading="lazy" src="https://vitest.dev/logo-shadow.svg" 
-  height="40">
-  <img loading="lazy" src="https://iconape.com/wp-content/files/gj/370774/svg/370774.svg" 
-  height="40">
-  <img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/ddd72aa8248a5c2f77429b9496e6e3e4da2a4e26/8afc0/logo.svg" 
-  height="40">
-  <img loading="lazy" src="https://nuxtjs.org/design-kit/colored-logo.svg" 
-  height="40">
-  <img loading="lazy" src="https://vuepress.vuejs.org/images/hero.png" 
-  height="40">
-</p>
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><b>🚀 Desarrollo Backend & Ecosistemas</b><br>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" height="32" title="C#">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" height="32" title=".NET Core">
+      <img src="https://www.rlogical.com/wp-content/uploads/2023/03/1-1-1.webp" height="32" title="ASP.NET Core">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" height="32" title="Kotlin">
+    </td>
+    <td align="center"><b>🌐 Tecnologías Frontend & UI</b><br>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" height="32" title="Vue.js">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="32" title="TypeScript">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" height="32" title="Tailwind CSS">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" height="32" title="Vite">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🗄️ Persistencia & Infraestructura</b><br>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="32" title="PostgreSQL">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" height="32" title="MongoDB">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" height="32" title="Redis">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="32" title="Docker">
+    </td>
+    <td align="center"><b>🛠️ Entornos de Desarrollo & Productividad</b><br>
+      <img src="https://distreau.com/github.svg" height="32" title="GitHub">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" height="32" title="JetBrains">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="32" title="VS Code">
+      <img src="https://usebruno.com/logo.png" height="32" title="Bruno (API Client)">
+    </td>
+  </tr>
+</table>
+</div>
 
 
 <h2 align="center">📕 Mi web: últimas entradas </h2>
@@ -196,74 +119,34 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 
 <h2 align="center">📈 Mi Actividad</h2>
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=github_dark&show_icons=true&rank_icon=github"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true&rank_icon=github" alt="joseluisgs's GitHub stats" height="150"/></a></td>
+    <td align="center"><a href="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&theme=react-dark"><img loading="lazy" src="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=JoseLuisGS%20GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a></td>
+  </tr>
+</table>
+</div>
+
+
+
+
+
+<!-- PAC-MAN (Comecocos) -->
 <p align="center">
-  <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=github_dark&show_icons=true&rank_icon=github"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true&rank_icon=github" alt="joseluisgs's GitHub stats" height="150"/></a>
-<a href="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&theme=react-dark"><img loading="lazy" src="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=JoseLuisGS%20GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
+   <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/github-contribution-grid-pacman.svg" alt="pacman">
 </p>
 
+<!-- SNAKE (Serpiente - Comentado)
 <p align="center">
-<img src="https://wakatime.com/share/@joseluisgs/45920ff5-102f-4c99-98bf-66020c1985e2.svg" height= 300></img>
- <img src="https://wakatime.com/share/@joseluisgs/58cd2496-6b0d-426d-bc34-add12de917ad.svg" height= 300></img>
- </p>
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 14 February 2026 - To: 16 March 2026
-
-Total Time: 49 hrs 10 mins
-
-C#                  35 hrs 2 mins         🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜   70.97 %
-Markdown            9 hrs 48 mins         🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   19.86 %
-JSON                1 hr 43 mins          🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.50 %
-Kotlin              41 mins               🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.41 %
-XML                 37 mins               🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.28 %
-```
-
-<!--END_SECTION:waka-->
-
-<p align="center">
-<a href="https://wakatime.com/@32eb50dd-eea7-4883-8349-298accb92677"><img src="https://wakatime.com/share/@joseluisgs/7e64efc7-8b7e-482a-aa05-fa6341ee13e1.svg" alt="Coding time" /></a>
-<a href="https://wakatime.com/@32eb50dd-eea7-4883-8349-298accb92677"><img src="https://wakatime.com/badge/user/32eb50dd-eea7-4883-8349-298accb92677.svg" alt="Coding time" /></a>
-</p>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/profile-3d-contrib/profile-night-rainbow.svg" alt="graficas">
-<!--SNAKE-->
    <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/github-contribution-grid-snake.svg" alt="snake">
 </p>
-
-  <!--START_SECTION:activity-->
-1. ❌ Closed PR [#31](https://github.com/joseluisgs/TiendaDawWeb-SpringBoot/pull/31) in [joseluisgs/TiendaDawWeb-SpringBoot](https://github.com/joseluisgs/TiendaDawWeb-SpringBoot)
-  <!--END_SECTION:activity-->
+-->
 
 
 
-<p align="center">
- <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joseluisgs" alt="joseluisgs" height= 175/></a>
-</p>
+
+
+
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=88d4bc&height=120&section=footer"/>
-
-<!--
-![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=vue)
-![Estadisticas](https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=highcontrast)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisgs&theme=vue&layout=compact)
--->
-<!--
-Recursos
-https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-https://rahuldkjain.github.io/gh-profile-readme-generator/
-**joseluisgs/joseluisgs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started: a tener en cuenta
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->

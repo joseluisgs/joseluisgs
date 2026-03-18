@@ -1,0 +1,37 @@
+name: Generate Pac-Man
+
+on:
+  # Ejecución cada 12 horas
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # Permite ejecución manual
+  workflow_dispatch:
+  
+  # Ejecución en cada push a la rama master
+  push:
+    branches:
+    - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      # Genera la animación de Pac-Man de las contribuciones del usuario
+      - name: generate github-contribution-grid-pacman.svg
+        uses: Hon9g/gh-action-pacman@master
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # El archivo se guardará en la rama 'output'
+          svg_out_path: dist/github-contribution-grid-pacman.svg
+
+      # Sube el archivo generado a la rama 'output'
+      - name: push github-contribution-grid-pacman.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
