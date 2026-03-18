@@ -125,8 +125,8 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <div align="center">
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/anuraghazra/github-readme-stats"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="joseluisgs's GitHub stats" /></a></td>
-    <td align="center"><a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img loading="lazy" src="https://github-readme-streak-stats.herokuapp.com/?user=joseluisgs&theme=tokyonight&hide_border=true" alt="joseluisgs's GitHub streak" /></a></td>
+    <td align="center"><a href="https://github.com/anuraghazra/github-readme-stats"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=github_dark_dimmed&hide_border=true&count_private=true" alt="joseluisgs's GitHub stats" /></a></td>
+    <td align="center"><a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img loading="lazy" src="https://github-readme-streak-stats.herokuapp.com/?user=joseluisgs&theme=github-dark-dimmed&hide_border=true" alt="joseluisgs's GitHub streak" /></a></td>
   </tr>
 </table>
 </div>
