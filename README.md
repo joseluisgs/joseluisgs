@@ -96,7 +96,7 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
       <img src="https://distreau.com/github.svg" height="32" title="GitHub">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" height="32" title="JetBrains">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="32" title="VS Code">
-      <img src="https://docs.usebruno.com/favicon.png" height="32" title="Bruno (API Client)">
+      <img src="https://i.imgur.com/Etv26tp.png" height="32" title="Bruno (API Client)">
     </td>
   </tr>
 </table>
