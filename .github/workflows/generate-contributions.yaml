@@ -1,4 +1,4 @@
-name: Generate Pacman Game
+name: Generate Contribution Graphs
 
 on:
   schedule:
@@ -11,7 +11,6 @@ on:
       - '**.md'
       - 'images/**'
       - '.github/workflows/**'
-      - '!.github/workflows/pacman.yaml'
 
 jobs:
   generate:
@@ -28,7 +27,15 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/pacman-contribution-graph.svg
 
-      - name: push pacman-contribution-graph.svg to the output branch
+      - name: generate snake-contribution-graph.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
