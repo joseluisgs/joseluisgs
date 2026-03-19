@@ -20,8 +20,8 @@ Mi foco principal es el desarrollo de **aplicaciones web y multiplataforma**, de
 
 A parte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
-### 🏛️ Proyectos como Apuntes y Recursos Didácticos 🛠️
-Bienvenido a mi repositorio personal. Estos proyectos nacen de mi labor docente y profesional y están diseñados para funcionar como **apuntes de clase** para las asignaturas y módulos que imparto: extensamente comentados, legibles y **pedagógicos según lo que vemos en clase (no solo en la teoría, sino también en la práctica)**. **No es código de producción, sino material didáctico creado para facilitar el aprendizaje.** Mi objetivo es que puedas entender la arquitectura y la lógica simplemente leyendo el código, sin necesidad de ejecutarlo, ya seas un **alumno** en formación o un **docente** buscando materiales. **Si algún ejemplo te ayuda en tus clases o aprendizaje, ¡una ⭐️ es la mejor forma de apoyarlo!**
+### 🛠️ Proyectos como Apuntes y Recursos Didácticos 
+Bienvenido a mi repositorio personal. Estos proyectos nacen principalmente de mi labor docente: apuntes de clase extensamente comentados y legibles, pensados para que puedas entender la arquitectura y la lógica sin ejecutar el código. No intenta ser código de producción. Ya seas un alumno o docente, si te ayuda, ¡una ⭐️ es la mejor forma de apoyarlo!
 
 ### 🎓 Colaboración con JetBrains & GitHub
 Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me apasiona ayudar a otros a potenciar su carrera como desarrolladores o a innovar en la docencia. Actualmente soy responsable de contenidos en **JetBrains Academy/Hyperskill** para el ecosistema Kotlin. Si necesitas un cable para aplicar "superpoderes" a tu código o quieres integrar estas herramientas y metodologías modernas en tus clases, **¡cuenta conmigo! 💪**
@@ -73,10 +73,10 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <table>
   <tr>
     <td align="center"><b>🚀 Desarrollo Backend & Ecosistemas</b><br>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" height="32" title="Kotlin">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" height="32" title="C#">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" height="32" title=".NET Core">
       <img src="https://www.rlogical.com/wp-content/uploads/2023/03/1-1-1.webp" height="32" title="ASP.NET Core">
-
     </td>
     <td align="center"><b>🌐 Tecnologías Frontend & UI</b><br>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" height="32" title="Vue.js">
