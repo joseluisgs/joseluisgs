@@ -58,7 +58,7 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
     </a>
 </p>
 
-<h2 align="center">⚡ Mi Stack Tecnológico Actual 🦾</h2>
+<h2 align="center">🦾 Mi Stack Tecnológico</h2>
 <p align="center">
   Actualmente lo que más uso en mi día a día 🚀
 </p>
