@@ -39,28 +39,22 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 </p>
 <p align="center">
     <a href="https://joseluisgs.dev/" target="_blank">
-        <img loading="lazy" src="https://joseluisgs.github.io/img/favicon.png" 
-    height="32">
+        <img loading="lazy" src="./images/social-icons/favicon.png" height="32">
     </a>&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
-        <img loading="lazy" src="https://distreau.com/github.svg" 
-    height="32">
+        <img loading="lazy" src="./images/social-icons/github.svg" height="32">
     </a>&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
-        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
-    height="32">
+        <img loading="lazy" src="./images/social-icons/linkedin.png" height="32">
     </a>&nbsp;
     <a href="https://www.youtube.com/@joseluisgs" target="_blank">
-        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
-    height="32">
+        <img loading="lazy" src="./images/social-icons/youtube.png" height="32">
     </a>&nbsp;
     <a href="https://x.com/JoseLuisGS_" target="_blank">
-        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" 
-    height="32">
+        <img loading="lazy" src="./images/social-icons/twitter.png" height="32">
     </a>&nbsp;
     <a href="https://www.instagram.com/joseluisgs.dev/" target="_blank">
-        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png" 
-    height="32">
+        <img loading="lazy" src="./images/social-icons/instagram.png" height="32">
     </a>
 </p>
 
