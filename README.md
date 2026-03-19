@@ -73,30 +73,30 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <table>
   <tr>
     <td align="center"><b>🚀 Desarrollo Backend</b><br>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" height="32" title="Kotlin">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" height="32" title="C#">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" height="32" title=".NET Core">
-      <img src="https://www.rlogical.com/wp-content/uploads/2023/03/1-1-1.webp" height="32" title="ASP.NET Core">
+      <img src="./images/tech-icons/kotlin.svg" height="32" title="Kotlin">
+      <img src="./images/tech-icons/csharp.svg" height="32" title="C#">
+      <img src="./images/tech-icons/dotnetcore.svg" height="32" title=".NET Core">
+      <img src="./images/tech-icons/aspnetcore.png" height="32" title="ASP.NET Core">
     </td>
     <td align="center"><b>🌐 Desarrollo Frontend</b><br>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" height="32" title="Vue.js">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="32" title="TypeScript">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" height="32" title="Tailwind CSS">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" height="32" title="Vite">
+      <img src="./images/tech-icons/vuejs.svg" height="32" title="Vue.js">
+      <img src="./images/tech-icons/typescript.svg" height="32" title="TypeScript">
+      <img src="./images/tech-icons/tailwindcss.svg" height="32" title="Tailwind CSS">
+      <img src="./images/tech-icons/vitejs.svg" height="32" title="Vite">
     </td>
   </tr>
   <tr>
     <td align="center"><b>🗄️ Infraestructura</b><br>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="32" title="PostgreSQL">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" height="32" title="MongoDB">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" height="32" title="Redis">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="32" title="Docker">
+      <img src="./images/tech-icons/postgresql.svg" height="32" title="PostgreSQL">
+      <img src="./images/tech-icons/mongodb.svg" height="32" title="MongoDB">
+      <img src="./images/tech-icons/redis.svg" height="32" title="Redis">
+      <img src="./images/tech-icons/docker.svg" height="32" title="Docker">
     </td>
-    <td align="center"><b>🛠️ Entornos & Productividad</b><br>
-      <img src="https://distreau.com/github.svg" height="32" title="GitHub">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" height="32" title="JetBrains">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="32" title="VS Code">
-      <img src="./images/bruno.png" height="32" title="Bruno">
+    <td align="center"><b>🛠️ Productividad</b><br>
+      <img src="./images/tech-icons/github.svg" height="32" title="GitHub">
+      <img src="./images/tech-icons/jetbrains.svg" height="32" title="JetBrains">
+      <img src="./images/tech-icons/vscode.svg" height="32" title="VS Code">
+      <img src="./images/tech-icons/warp.png" height="32" title="Warp">
     </td>
   </tr>
 </table>
