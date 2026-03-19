@@ -72,13 +72,13 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <div align="center">
 <table>
   <tr>
-    <td align="center"><b>🚀 Desarrollo Backend & Ecosistemas</b><br>
+    <td align="center"><b>🚀 Desarrollo Backend</b><br>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" height="32" title="Kotlin">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" height="32" title="C#">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" height="32" title=".NET Core">
       <img src="https://www.rlogical.com/wp-content/uploads/2023/03/1-1-1.webp" height="32" title="ASP.NET Core">
     </td>
-    <td align="center"><b>🌐 Tecnologías Frontend & UI</b><br>
+    <td align="center"><b>🌐 Desarrollo Frontend</b><br>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" height="32" title="Vue.js">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="32" title="TypeScript">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" height="32" title="Tailwind CSS">
@@ -86,13 +86,13 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
     </td>
   </tr>
   <tr>
-    <td align="center"><b>🗄️ Persistencia & Infraestructura</b><br>
+    <td align="center"><b>🗄️ Infraestructura</b><br>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="32" title="PostgreSQL">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" height="32" title="MongoDB">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" height="32" title="Redis">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="32" title="Docker">
     </td>
-    <td align="center"><b>🛠️ Entornos de Desarrollo & Productividad</b><br>
+    <td align="center"><b>🛠️ Entornos & Productividad</b><br>
       <img src="https://distreau.com/github.svg" height="32" title="GitHub">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" height="32" title="JetBrains">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="32" title="VS Code">
