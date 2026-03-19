@@ -39,22 +39,28 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 </p>
 <p align="center">
     <a href="https://joseluisgs.dev/" target="_blank">
-        <img loading="lazy" src="./images/icons/favicon.png" height="32">
+        <img loading="lazy" src="https://joseluisgs.github.io/img/favicon.png" 
+    height="32">
     </a>&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
-        <img loading="lazy" src="./images/icons/github.svg" height="32">
+        <img loading="lazy" src="https://distreau.com/github.svg" 
+    height="32">
     </a>&nbsp;
     <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
-        <img loading="lazy" src="./images/icons/linkedin.png" height="32">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
+    height="32">
     </a>&nbsp;
     <a href="https://www.youtube.com/@joseluisgs" target="_blank">
-        <img loading="lazy" src="./images/icons/youtube.png" height="32">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
+    height="32">
     </a>&nbsp;
     <a href="https://x.com/JoseLuisGS_" target="_blank">
-        <img loading="lazy" src="./images/icons/twitter.png" height="32">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" 
+    height="32">
     </a>&nbsp;
     <a href="https://www.instagram.com/joseluisgs.dev/" target="_blank">
-        <img loading="lazy" src="./images/icons/instagram.png" height="32">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png" 
+    height="32">
     </a>
 </p>
 
@@ -67,31 +73,30 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <table>
   <tr>
     <td align="center"><b>🚀 Desarrollo Backend</b><br>
-      <img src="./images/icons/kotlin.svg" height="32" title="Kotlin">
-      <img src="./images/icons/csharp.svg" height="32" title="C#">
-      <img src="./images/icons/dotnetcore.svg" height="32" title=".NET Core">
-      <img src="./images/icons/aspnetcore.png" height="32" title="ASP.NET Core">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" height="32" title="Kotlin">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" height="32" title="C#">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" height="32" title=".NET Core">
+      <img src="https://www.rlogical.com/wp-content/uploads/2023/03/1-1-1.webp" height="32" title="ASP.NET Core">
     </td>
     <td align="center"><b>🌐 Desarrollo Frontend</b><br>
-      <img src="./images/icons/vuejs.svg" height="32" title="Vue.js">
-      <img src="./images/icons/typescript.svg" height="32" title="TypeScript">
-      <img src="./images/icons/tailwindcss.svg" height="32" title="Tailwind CSS">
-      <img src="./images/icons/vitejs.svg" height="32" title="Vite">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" height="32" title="Vue.js">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="32" title="TypeScript">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" height="32" title="Tailwind CSS">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" height="32" title="Vite">
     </td>
   </tr>
   <tr>
     <td align="center"><b>🗄️ Infraestructura</b><br>
-      <img src="./images/icons/postgresql.svg" height="32" title="PostgreSQL">
-      <img src="./images/icons/mongodb.svg" height="32" title="MongoDB">
-      <img src="./images/icons/redis.svg" height="32" title="Redis">
-      <img src="./images/icons/docker.svg" height="32" title="Docker">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="32" title="PostgreSQL">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" height="32" title="MongoDB">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" height="32" title="Redis">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="32" title="Docker">
     </td>
-    <td align="center"><b>🛠️ Productividad</b><br>
-      <img src="./images/icons/github.svg" height="32" title="GitHub">
-      <img src="./images/icons/jetbrains.svg" height="32" title="JetBrains">
-      <img src="./images/icons/vscode.svg" height="32" title="VS Code">
-      <img src="./images/icons/bruno.png" height="32" title="Bruno">
-      <img src="./images/icons/warp.png" height="32" title="Warp">
+    <td align="center"><b>🛠️ Entornos & Productividad</b><br>
+      <img src="https://distreau.com/github.svg" height="32" title="GitHub">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" height="32" title="JetBrains">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="32" title="VS Code">
+      <img src="./images/bruno.png" height="32" title="Bruno">
     </td>
   </tr>
 </table>
