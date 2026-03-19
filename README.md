@@ -114,7 +114,7 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 
  - ✏️ [**Despliegue de Aplicaciones Web 03 - Arquitectura Web y Fundamentos**](https://joseluisgs.dev/blogs/2025/2025-10-20-daw_ud_03_arquitectura_web_despliegue.html) *20 Oct 2025* 
 
- - ✏️ [**Programación 03 - Aplicación de Estructuras de Almacenamiento Estáticas**](https://joseluisgs.dev/blogs/2025/2025-10-20-prog_ud_03_estructuras_estaticas.html) *20 Oct 2025* 
+ - ✏️ [**Programación 03 - Aplicación de Estructuras de Almacenamiento Estáticas**](https://joseluisgs.dev/blogs/2025/2025-10-20-prog_ud_03_estrecturas_estaticas.html) *20 Oct 2025* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
