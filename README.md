@@ -76,7 +76,7 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
       <img src="./images/tech-icons/vuejs.svg" height="32" title="Vue.js">
       <img src="./images/tech-icons/typescript.svg" height="32" title="TypeScript">
       <img src="./images/tech-icons/tailwindcss.svg" height="32" title="Tailwind CSS">
-      <img src="./images/tech-icons/vitejs.svg" height="32" title="Vite">
+      <img src="./images/tech-icons/blazor.svg" height="32" title="Blazor">
     </td>
   </tr>
   <tr>
