@@ -119,8 +119,16 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <div align="center">
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/anuraghazra/github-readme-stats"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=discord_old_blurple&hide_border=true&count_private=true&locale=es" alt="joseluisgs's GitHub stats" /></a></td>
-    <td align="center"><a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img loading="lazy" src="https://github-readme-streak-stats.herokuapp.com/?user=joseluisgs&theme=discord-old-blurple&hide_border=true&locale=es" alt="joseluisgs's GitHub streak" /></a></td>
+    <td align="center">
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=joseluisgs&show_icons=true&title_color=7289da&icon_color=7289da&text_color=ffffff&bg_color=2c2f33&hide_border=true&count_private=true&locale=es" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+        <img loading="lazy" src="https://streak-stats.demolab.com/?user=joseluisgs&ring=7289da&fire=7289da&currStreakNum=7289da&sideNums=7289da&currStreakLabel=7289da&sideLabels=ffffff&dates=ffffff&background=2c2f33&hide_border=true&locale=es" alt="joseluisgs's GitHub streak" />
+      </a>
+    </td>
   </tr>
 </table>
 </div>
