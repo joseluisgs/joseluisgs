@@ -15,8 +15,7 @@ jobs:
       
       - name: Generate Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
-        set:
-          # Usamos tu usuario y el tema Nord Dark
+        env: # <--- Cambiado de 'set' a 'env'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_NAME: joseluisgs
           THEME: nord_dark
