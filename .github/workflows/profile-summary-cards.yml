@@ -5,17 +5,14 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-# Forzamos a que todo el trabajo use Node 24 para evitar el aviso de obsolescencia
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
       
       - name: Generate Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
@@ -25,7 +22,7 @@ jobs:
           THEME: discord_old_blurple
 
       - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v4 # Actualizado a v4 para mejor soporte de Node moderno
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./profile-summary-card-output/discord_old_blurple
