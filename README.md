@@ -137,10 +137,10 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
   <table>
     <tr>
       <td align="center">
-        <img src="./profile-summary-card-output/nord_dark/0-github-stats.svg" alt="GitHub Stats" />
+        <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/0-github-stats.svg" alt="GitHub Stats" />
       </td>
       <td align="center">
-        <img src="./profile-summary-card-output/nord_dark/1-profile-details.svg" alt="Profile Details" />
+        <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/1-profile-details.svg" alt="Profile Details" />
       </td>
     </tr>
   </table>

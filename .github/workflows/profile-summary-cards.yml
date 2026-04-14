@@ -2,7 +2,7 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Se ejecuta cada medianoche
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,18 +12,20 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Generate Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
-        env: # <--- Cambiado de 'set' a 'env'
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_NAME: joseluisgs
           THEME: nord_dark
-          
-      - name: Push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile-summary-card-output/nord_dark/*.svg
-          git commit -m "Update profile summary cards" || exit 0
-          git push
+
+      # Usamos la misma lógica que en tus otros workflows:
+      # Desplegamos solo la carpeta de salida a la rama 'output'
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./profile-summary-card-output/nord_dark
+          publish_branch: output
+          commit_message: 'Update profile summary cards [skip ci]'
