@@ -1,0 +1,30 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Se ejecuta cada medianoche
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Generate Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        set:
+          # Usamos tu usuario y el tema Nord Dark
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER_NAME: joseluisgs
+          THEME: nord_dark
+          
+      - name: Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output/nord_dark/*.svg
+          git commit -m "Update profile summary cards" || exit 0
+          git push

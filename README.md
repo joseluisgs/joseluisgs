@@ -133,7 +133,18 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 </table>
 </div>
 
-
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="./profile-summary-card-output/nord_dark/0-github-stats.svg" alt="GitHub Stats" />
+      </td>
+      <td align="center">
+        <img src="./profile-summary-card-output/nord_dark/1-profile-details.svg" alt="Profile Details" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 
 
