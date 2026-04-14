@@ -117,30 +117,13 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <h2 align="center">📈 Mi Actividad</h2>
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=joseluisgs&show_icons=true&title_color=7289da&icon_color=7289da&text_color=ffffff&bg_color=2c2f33&hide_border=true&count_private=true&locale=es" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-        <img loading="lazy" src="https://streak-stats.demolab.com/?user=joseluisgs&ring=7289da&fire=7289da&currStreakNum=7289da&sideNums=7289da&currStreakLabel=7289da&sideLabels=ffffff&dates=ffffff&background=2c2f33&hide_border=true&locale=es" alt="joseluisgs's GitHub streak" />
-      </a>
-    </td>
-  </tr>
-</table>
-</div>
-
-<div align="center">
   <table>
     <tr>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/0-github-stats.svg" alt="GitHub Stats" />
+        <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/profile-summary-card-output/discord_old_blurple/0-profile-details.svg" alt="GitHub Stats" />
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/output/1-profile-details.svg" alt="Profile Details" />
+        <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/profile-summary-card-output/discord_old_blurple/3-stats.svg" alt="Profile Details" />
       </td>
     </tr>
   </table>

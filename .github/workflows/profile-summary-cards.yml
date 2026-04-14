@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+# Forzamos a que todo el trabajo use Node 24 para evitar el aviso de obsolescencia
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,14 +22,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_NAME: joseluisgs
-          # TEMA EXACTO: discord_old_blurple
           THEME: discord_old_blurple
 
       - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4 # Actualizado a v4 para mejor soporte de Node moderno
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Publicamos el contenido de la carpeta del tema específico
           publish_dir: ./profile-summary-card-output/discord_old_blurple
           publish_branch: output
           commit_message: "Update profile summary cards [skip ci]"

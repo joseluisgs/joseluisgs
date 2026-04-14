@@ -196,6 +196,26 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
 
 <h2 align="center">📈 Mi Actividad</h2>
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=joseluisgs&show_icons=true&title_color=7289da&icon_color=7289da&text_color=ffffff&bg_color=2c2f33&hide_border=true&count_private=true&locale=es" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+        <img loading="lazy" src="https://streak-stats.demolab.com/?user=joseluisgs&ring=7289da&fire=7289da&currStreakNum=7289da&sideNums=7289da&currStreakLabel=7289da&sideLabels=ffffff&dates=ffffff&background=2c2f33&hide_border=true&locale=es" alt="joseluisgs's GitHub streak" />
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
+
+
+
+
 <p align="center">
   <a href="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&theme=github_dark&show_icons=true&rank_icon=github"><img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=joseluisgs&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=27272a&hide_border=true&show_icons=true&rank_icon=github" alt="joseluisgs's GitHub stats" height="150"/></a>
 <a href="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&theme=react-dark"><img loading="lazy" src="https://github-readme-activity-graph.vercel.app/graph?username=joseluisgs&bg_color=27272a&color=ffffff&line=0891b2&point=ffffff&area_color=27272a&area=true&hide_border=true&custom_title=JoseLuisGS%20GitHub%20Commits%20Graph" alt="GitHub Commits Graph" height="150"/></a>
