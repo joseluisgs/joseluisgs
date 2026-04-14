@@ -2,7 +2,7 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -12,20 +12,20 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-
+      
       - name: Generate Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_NAME: joseluisgs
-          THEME: nord_dark
+          # TEMA EXACTO: discord_old_blurple
+          THEME: discord_old_blurple
 
-      # Usamos la misma lógica que en tus otros workflows:
-      # Desplegamos solo la carpeta de salida a la rama 'output'
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./profile-summary-card-output/nord_dark
+          # Publicamos el contenido de la carpeta del tema específico
+          publish_dir: ./profile-summary-card-output/discord_old_blurple
           publish_branch: output
-          commit_message: 'Update profile summary cards [skip ci]'
+          commit_message: "Update profile summary cards [skip ci]"
