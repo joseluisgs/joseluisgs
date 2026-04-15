@@ -27,6 +27,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_NAME: joseluisgs
           THEME: discord_old_blurple
+        with:
+          AUTO_COMMIT: false
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
