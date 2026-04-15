@@ -147,11 +147,4 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 -->
 
 
-
-
-
-
-
-
-
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=88d4bc&height=120&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=7289da&height=120&section=footer"/>
