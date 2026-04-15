@@ -13,9 +13,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create Temporary Branch
+        # Creamos una rama temporal para que la acción "ensucie" aquí y no en master
+        run: |
+          git checkout -b temp-build-cards
 
       - name: Generate Summary Cards
-        # Usamos la acción pero NO dejamos que haga commit (por defecto no debería, pero vamos a asegurar)
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -26,14 +32,15 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Esto coge la carpeta que se acaba de crear en el servidor temporal
+          # Cogemos los archivos generados en la rama temporal
           publish_dir: ./profile-summary-card-output/discord_old_blurple
           publish_branch: output
           commit_message: "Update profile summary cards [skip ci]"
-          # IMPORTANTE: Esto evita que se guarden archivos viejos
-          keep_files: false
 
-      - name: Cleanup local workspace
-        # Este paso extra borra la carpeta del servidor antes de que el workflow termine
-        # así no hay ninguna posibilidad de que GitHub intente guardarla en master
-        run: rm -rf profile-summary-card-output
+      - name: Delete Temporary Branch
+        # Volvemos a master y nos aseguramos de que no hay rastro de la carpeta
+        if: always()
+        run: |
+          git checkout master
+          git branch -D temp-build-cards
+          rm -rf profile-summary-card-output
