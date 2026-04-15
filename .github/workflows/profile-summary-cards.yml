@@ -21,6 +21,8 @@ jobs:
           USER_NAME: joseluisgs
           THEME: discord_old_blurple
 
+      # ESTE ES EL ÚNICO QUE SUBE ARCHIVOS
+      # Al usar publish_branch: output, master ni se entera de lo que ha pasado
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
