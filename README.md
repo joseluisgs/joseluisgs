@@ -67,30 +67,30 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <table>
   <tr>
     <td align="center"><b>🚀 Desarrollo Backend</b><br>
-      <img src="./images/tech-icons/kotlin.svg" height="32" title="Kotlin">
-      <img src="./images/tech-icons/csharp.svg" height="32" title="C#">
-      <img src="./images/tech-icons/dotnetcore.svg" height="32" title=".NET Core">
-      <img src="./images/tech-icons/aspnetcore.png" height="32" title="ASP.NET Core">
+      <img src="./images/tech-icons/kotlin.svg" height="40" title="Kotlin">
+      <img src="./images/tech-icons/csharp.svg" height="40" title="C#">
+      <img src="./images/tech-icons/dotnetcore.svg" height="40" title=".NET Core">
+      <img src="./images/tech-icons/aspnetcore.png" height="40" title="ASP.NET Core">
     </td>
     <td align="center"><b>🌐 Desarrollo Frontend</b><br>
-      <img src="./images/tech-icons/vuejs.svg" height="32" title="Vue.js">
-      <img src="./images/tech-icons/typescript.svg" height="32" title="TypeScript">
-      <img src="./images/tech-icons/tailwindcss.svg" height="32" title="Tailwind CSS">
-      <img src="./images/tech-icons/blazor.svg" height="32" title="Blazor">
+      <img src="./images/tech-icons/vuejs.svg" height="40" title="Vue.js">
+      <img src="./images/tech-icons/typescript.svg" height="40" title="TypeScript">
+      <img src="./images/tech-icons/tailwindcss.svg" height="40" title="Tailwind CSS">
+      <img src="./images/tech-icons/blazor.svg" height="40" title="Blazor">
     </td>
   </tr>
   <tr>
     <td align="center"><b>🗄️ Infraestructura</b><br>
-      <img src="./images/tech-icons/postgresql.svg" height="32" title="PostgreSQL">
-      <img src="./images/tech-icons/mongodb.svg" height="32" title="MongoDB">
-      <img src="./images/tech-icons/redis.svg" height="32" title="Redis">
-      <img src="./images/tech-icons/docker.svg" height="32" title="Docker">
+      <img src="./images/tech-icons/postgresql.svg" height="40" title="PostgreSQL">
+      <img src="./images/tech-icons/mongodb.svg" height="40" title="MongoDB">
+      <img src="./images/tech-icons/redis.svg" height="40" title="Redis">
+      <img src="./images/tech-icons/docker.svg" height="40" title="Docker">
     </td>
     <td align="center"><b>🛠️ Productividad</b><br>
-      <img src="./images/tech-icons/github.svg" height="32" title="GitHub">
-      <img src="./images/tech-icons/jetbrains.svg" height="32" title="JetBrains">
-      <img src="./images/tech-icons/vscode.svg" height="32" title="VS Code">
-      <img src="./images/tech-icons/warp.png" height="32" title="Warp">
+      <img src="./images/tech-icons/github.svg" height="40" title="GitHub">
+      <img src="./images/tech-icons/jetbrains.svg" height="40" title="JetBrains">
+      <img src="./images/tech-icons/vscode.svg" height="40" title="VS Code">
+      <img src="./images/tech-icons/warp.png" height="40" title="Warp">
     </td>
   </tr>
 </table>
