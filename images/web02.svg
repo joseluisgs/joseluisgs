@@ -12,24 +12,22 @@
 		</clipPath>
 	</defs>
 	<style>
-    /* El verde menta pasa al azul Blurple de Discord */
-    .s0 { fill: #5865f2 } 
-    .s1 { fill: #ffffff } 
-    .s2 { opacity: .2; fill: #23272a } 
-    .s3 { opacity: .2; fill: #000000 } 
-    /* Contornos y fondos oscuros pasan al negro de Discord */
-    .s4 { fill: #ffffff; stroke: #23272a; stroke-width: 2 } 
-    .s5 { fill: #23272a; stroke: #ffffff; stroke-width: 2 } 
-    .s6 { fill: #5865f2; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
-    .s7 { fill: #23272a } 
-    .s8 { opacity: .5; fill: #ffffff } 
-    .s9 { fill: none; stroke: #23272a; stroke-width: 2 } 
-    .s10 { fill: none; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
-    .s11 { fill: #ffffff; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
-    /* Los grises (s12, s13, s14) pasan a la gama Greyple de Discord */
-    .s12 { fill: #4f545c; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
-    .s13 { fill: #72767d; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
-    .s14 { fill: #99aab5; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
+		.s0 { fill: #5865f2 } 
+		.s1 { fill: #ffffff } 
+		.s2 { opacity: .2; fill: #23272a } 
+		.s3 { opacity: .2; fill: #23272a } 
+		.s4 { fill: #ffffff; stroke: #23272a; stroke-width: 2 } 
+		.s5 { fill: #23272a; stroke: #ffffff; stroke-width: 2 } 
+		.s6 { fill: #5865f2; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
+		.s7 { fill: #23272a } 
+		.s8 { opacity: .5; fill: #ffffff } 
+		.s9 { fill: none; stroke: #23272a; stroke-width: 2 } 
+		.s10 { fill: none; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
+		.s11 { fill: #ffffff; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
+		.s12 { fill: #4f545c; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
+		.s13 { fill: #72767d; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
+		.s14 { fill: #99aab5; stroke: #23272a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2 } 
+		.s15 { opacity: .1; fill: #ffffff } 
 	</style>
 	<g id="Background Simple">
 		<g id="&lt;Group&gt;">
