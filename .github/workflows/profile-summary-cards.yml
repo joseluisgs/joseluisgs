@@ -38,6 +38,7 @@ jobs:
           publish_dir: ./profile-summary-card-output/discord_old_blurple
           publish_branch: output
           commit_message: "Update profile summary cards [skip ci]"
+          keep_files: true
 
       - name: Delete Temporary Branch
         # Volvemos a master y nos aseguramos de que no hay rastro de la carpeta
