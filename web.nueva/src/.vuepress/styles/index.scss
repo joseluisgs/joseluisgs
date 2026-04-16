@@ -105,3 +105,40 @@ html[data-theme="dark"] {
   background-color: var(--vp-c-bg) !important;
   border-right: 1px solid var(--vp-c-border) !important;
 }
+
+// ============================================
+// Blogger Avatar - Estilo circular con efectos
+// ============================================
+.vp-blogger-avatar {
+  border-radius: 50% !important;
+  width: 8rem !important;
+  height: 8rem !important;
+  display: block !important;
+  margin: 2rem auto 1rem !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  transition: all 0.4s ease !important;
+  object-fit: cover !important;
+  border: 3px solid var(--vp-c-accent) !important;
+}
+
+.vp-blogger-avatar:hover {
+  transform: scale(1.08) !important;
+  box-shadow: 0 8px 24px rgba(114, 137, 218, 0.4) !important;
+  border-color: var(--vp-c-accent) !important;
+}
+
+// Avatar oscuro (si existe)
+.vp-blogger-avatar.light {
+  border-radius: 50% !important;
+  width: 6rem !important;
+  height: 6rem !important;
+}
+
+// En la sidebar también
+.blogger-info .vp-blogger-avatar,
+[data-theme="dark"] .blogger-info .vp-blogger-avatar {
+  border-radius: 50% !important;
+  width: 5rem !important;
+  height: 5rem !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}

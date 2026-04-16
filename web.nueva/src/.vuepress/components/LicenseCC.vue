@@ -23,16 +23,16 @@ const year = ref(new Date().getFullYear())
         <i class="fa-brands fa-github"></i>
       </a>
       &nbsp;
-      <a href="https://x.com/JoseLuisGS_" target="_blank">
+      <a href="https://x.com/JoseLuisGSDev" target="_blank">
         <i class="fa-brands fa-x-twitter"></i>
       </a>
       &nbsp;
-      <a href="https://www.linkedin.com/in/joseluisgonsan/" target="_blank">
+      <a href="https://www.linkedin.com/in/joseluisgsdev" target="_blank">
         <i class="fa-brands fa-linkedin"></i>
       </a>
       &nbsp;
-      <a href="https://g.dev/joseluisgs" target="_blank">
-        <i class="fa-solid fa-code"></i>
+      <a href="https://www.instagram.com/joseluisgs.dev" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
       </a>
       &nbsp;
       <a href="https://www.youtube.com/@joseluisgs" target="_blank">

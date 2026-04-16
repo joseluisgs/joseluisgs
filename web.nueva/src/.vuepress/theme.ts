@@ -6,12 +6,12 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://joseluisgs.dev",
 
+  logo: "/img/logo.png",
+
   author: {
     name: "José Luis González Sánchez",
     url: "https://joseluisgs.dev",
   },
-
-  logo: "/img/logo.png",
 
   repo: "joseluisgs/joseluisgs.github.io",
 
@@ -31,8 +31,8 @@ export default hopeTheme({
       </span>
       <span>
         <a href="https://github.com/joseluisgs" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://x.com/JoseLuisGS_" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://linkedin.com/in/joseluisgonsan" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://x.com/JoseLuisGSDev" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/joseluisgsdev" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://www.instagram.com/joseluisgs.dev" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.youtube.com/@joseluisgs" target="_blank"><i class="fa-brands fa-youtube"></i></a>
       </span>
@@ -42,15 +42,15 @@ export default hopeTheme({
   displayFooter: true,
 
   blog: {
+    avatar: "/img/avatar.png",
     description: "PhD - Profesor - Investigador - Desarrollador",
     intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/joseluisgs",
-      Twitter: "https://x.com/JoseLuisGS_",
-      Linkedin: "https://www.linkedin.com/in/joseluisgonsan",
+      Twitter: "https://x.com/JoseLuisGSDev",
+      Linkedin: "https://www.linkedin.com/in/joseluisgsdev",
       Instagram: "https://www.instagram.com/joseluisgs.dev",
       Youtube: "https://www.youtube.com/@joseluisgs",
-      Email: "mailto:joseluis.gonzalez@cifpvirgendegracia.com",
     },
   },
 
