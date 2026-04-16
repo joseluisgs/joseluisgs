@@ -6,6 +6,9 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://joseluisgs.dev",
 
+  fullscreen: true,
+  print: true,
+
   logo: "/img/logo.png",
 
   author: {
