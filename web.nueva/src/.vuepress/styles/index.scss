@@ -10,6 +10,15 @@ body {
   font-family: var(--font-family);
 }
 
+// Hero - Usar color del tema (Deep Navy Discord)
+html[data-theme="light"] .vp-blog-hero {
+  color: var(--vp-c-text-1) !important;
+}
+
+html[data-theme="dark"] .vp-blog-hero {
+  color: var(--vp-c-text-1) !important;
+}
+
 // Blog mask (hero background)
 .vp-blog-mask {
   background: url('/img/bg.svg') center/cover no-repeat !important;
