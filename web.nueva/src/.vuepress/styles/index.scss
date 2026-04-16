@@ -12,21 +12,62 @@ body {
 
 // Personalización del Modo Oscuro - SUTILEZA Y ELEGANCIA
 html[data-theme="dark"] {
-  --vp-c-bg: #011627 !important;           // Fondo principal (Azul Noche)
-  --vp-c-bg-soft: #051e33 !important;      // Fondo tarjeta (Sutilmente más claro)
-  --vp-c-bg-elv: #051e33 !important;       
-  --vp-c-bg-mute: #010e1a !important;      
+  --vp-c-bg: #010c18 !important;           // Fondo principal (Equilibrio Deep Navy)
+  --vp-c-bg-soft: #011221 !important;      // Fondo tarjeta (Contraste sutil y elegante)
+  --vp-c-bg-elv: #011221 !important;       
+  --vp-c-bg-mute: #010710 !important;      
   
-  // Bordes muy sutiles
-  --vp-c-border: #142d44 !important;
-  --vp-c-gutter: #142d44 !important;
+  // Bordes equilibrados
+  --vp-c-border: #0a1826 !important;
+  --vp-c-gutter: #0a1826 !important;
   
-  // Sombra suave para dar volumen sin ensuciar
-  --vp-c-shadow: rgba(0, 0, 0, 0.4) !important;
+  // Sombra equilibrada
+  --vp-c-shadow: rgba(0, 0, 0, 0.7) !important;
   
   --vp-c-text-1: #e2e8f0 !important;
   --vp-c-text-2: #94a3b8 !important;
   --vp-c-accent: #7289da !important;
+
+  // Scroll Progress Bar (Hope Theme)
+  --vp-scroll-progress-bg: var(--vp-c-accent) !important;
+
+  // Botón Volver Arriba (BackToTop) - Visibilidad Premium
+  --vp-back-to-top-bg: #1e293b !important;       // Fondo del círculo (Azul pizarra)
+  --vp-back-to-top-color: #ffffff !important;    // Color de la flecha
+  --vp-back-to-top-progress-color: var(--vp-c-accent) !important; // Color del anillo
+}
+
+// Personalización extra para el BackToTop circular
+[data-theme="dark"] .vp-back-to-top-button {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 
+              0 0 8px rgba(114, 137, 218, 0.2) !important;
+  border: 1px solid var(--vp-c-border) !important;
+  
+  &:hover {
+    --vp-back-to-top-bg: var(--vp-c-accent) !important;
+    --vp-back-to-top-color: #ffffff !important;
+    transform: scale(1.1) !important;
+  }
+}
+
+// Personalización de la barra de scroll (Navegador) - Elegancia Deep Navy
+[data-theme="dark"] ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: var(--vp-c-bg) !important;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #1e293b !important; // Azul pizarra oscuro
+  border-radius: 5px;
+  border: 2px solid var(--vp-c-bg);
+  
+  &:hover {
+    background: var(--vp-c-accent) !important; // Brillo violeta al pasar el ratón
+  }
 }
 
 // Estilo de tarjetas (VPCard) - Sutil y Premium
@@ -43,7 +84,7 @@ html[data-theme="dark"] {
   &:hover {
     transform: translateY(-4px) !important;
     border-color: var(--theme-color) !important;
-    background-color: #082642 !important; // Se ilumina un pelín más al pasar el ratón
+    background-color: #031a2e !important; // Iluminación equilibrada al hover
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 
                 0 0 12px rgba(114, 137, 218, 0.2) !important;
   }
