@@ -13,8 +13,6 @@ export default hopeTheme({
     url: "https://joseluisgs.dev",
   },
 
-  repo: "joseluisgs/joseluisgs.github.io",
-
   docsDir: "src",
 
   // navbar
