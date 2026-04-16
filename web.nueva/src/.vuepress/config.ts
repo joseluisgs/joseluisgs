@@ -32,7 +32,7 @@ export default defineUserConfig({
       {
         name: "keywords",
         content:
-          "José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Aplicaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, Embajador, GIT, GitKraken, Vuejs, móvil, jetbrains, intellij, hyperskill, docker, mongodb, nodejs, node, android, compose, backend, java, spring, springboot, instituto, test, pruebas, calidad, Luis Vives, Leganés, Madrid, Universidad de Granada, Jugabilidad, Videojuegos",
+          "José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Aplicaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, C#, csharp, .net, asp, razor, blazor, Embajador, GIT, GitKraken, Vuejs, móvil, jetbrains, intellij, hyperskill, docker, mongodb, nodejs, node, android, compose, backend, java, spring, springboot, instituto, test, pruebas, calidad, Luis Vives, Leganés, Madrid, Universidad de Granada, Jugabilidad, Videojuegos",
       },
     ],
 

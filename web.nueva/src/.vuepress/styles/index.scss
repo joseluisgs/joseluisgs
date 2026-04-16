@@ -50,24 +50,9 @@ html[data-theme="dark"] {
   }
 }
 
-// Personalización de la barra de scroll (Navegador) - Elegancia Deep Navy
-[data-theme="dark"] ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-}
-
-[data-theme="dark"] ::-webkit-scrollbar-track {
-  background: var(--vp-c-bg) !important;
-}
-
-[data-theme="dark"] ::-webkit-scrollbar-thumb {
-  background: #1e293b !important; // Azul pizarra oscuro
-  border-radius: 5px;
-  border: 2px solid var(--vp-c-bg);
-  
-  &:hover {
-    background: var(--vp-c-accent) !important; // Brillo violeta al pasar el ratón
-  }
 }
 
 // Estilo de tarjetas (VPCard) - Sutil y Premium
@@ -107,7 +92,7 @@ html[data-theme="dark"] {
 }
 
 // ============================================
-// Blogger Avatar - Estilo circular con efectos
+// Blogger Avatar - Estilo circular
 // ============================================
 .vp-blogger-avatar {
   border-radius: 50% !important;
@@ -115,30 +100,18 @@ html[data-theme="dark"] {
   height: 8rem !important;
   display: block !important;
   margin: 2rem auto 1rem !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-  transition: all 0.4s ease !important;
   object-fit: cover !important;
   border: 3px solid var(--vp-c-accent) !important;
 }
 
 .vp-blogger-avatar:hover {
   transform: scale(1.08) !important;
-  box-shadow: 0 8px 24px rgba(114, 137, 218, 0.4) !important;
-  border-color: var(--vp-c-accent) !important;
 }
 
-// Avatar oscuro (si existe)
-.vp-blogger-avatar.light {
-  border-radius: 50% !important;
-  width: 6rem !important;
-  height: 6rem !important;
-}
-
-// En la sidebar también
+// Avatar en sidebar
 .blogger-info .vp-blogger-avatar,
 [data-theme="dark"] .blogger-info .vp-blogger-avatar {
   border-radius: 50% !important;
   width: 5rem !important;
   height: 5rem !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
 }
