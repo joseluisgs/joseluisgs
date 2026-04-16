@@ -10,6 +10,20 @@ body {
   font-family: var(--font-family);
 }
 
+// Blog mask (hero background)
+.vp-blog-mask {
+  background: url('/img/bg.svg') center/cover no-repeat !important;
+}
+
+// Botón slide-down del Hero
+.vp-hero-slide-down-button {
+  color: var(--vp-c-accent) !important;
+  
+  svg {
+    fill: var(--vp-c-accent) !important;
+  }
+}
+
 // ============================================
 // FADE IN DESPUÉS DE LA CARGA (PACMAN)
 // ============================================
