@@ -1,1 +1,72 @@
-// place your custom styles here
+// Estilos globales - Identidad Deep Navy + Discord Violet
+:root {
+  --font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  
+  // Acento Discord Original (Violeta Vibrante)
+  --theme-color: #7289da;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+// Personalización del Modo Oscuro - Deep Navy
+html[data-theme="dark"] {
+  // Variables de fondo (Azul Noche)
+  --vp-c-bg: #011627 !important;           // Fondo principal
+  --vp-c-bg-soft: #0b2942 !important;      // Fondo suave (sidebar/cards)
+  --vp-c-bg-mute: #010e1a !important;      // Fondo mudo (bloques de código)
+  
+  // Variables de borde
+  --vp-c-gutter: #1d3b53 !important;
+  --vp-c-border: #1d3b53 !important;
+  
+  // Variables de texto (Gris azulado suave)
+  --vp-c-text-1: #d6deeb !important;
+  --vp-c-text-2: #b2ccd6 !important;
+  
+  // Acento (asegurar el violeta)
+  --vp-c-accent: #7289da !important;
+}
+
+// Ajustes de componentes para modo oscuro
+[data-theme="dark"] .vp-navbar,
+[data-theme="dark"] .vp-sidebar,
+[data-theme="dark"] .theme-container {
+  background-color: var(--vp-c-bg) !important;
+}
+
+[data-theme="dark"] .vp-sidebar {
+  background-color: var(--vp-c-bg-soft) !important;
+  border-right: 1px solid var(--vp-c-border) !important;
+}
+
+[data-theme="dark"] .vp-navbar {
+  border-bottom: 1px solid var(--vp-c-border) !important;
+}
+
+// Estilo de tarjetas (VPCard)
+.vp-card {
+  border-radius: 12px !important;
+  border: 1px solid transparent !important;
+  transition: all 0.3s ease !important;
+}
+
+[data-theme="dark"] .vp-card {
+  background-color: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-border) !important;
+  
+  &:hover {
+    background-color: #0f3d5e !important;
+    border-color: var(--theme-color) !important;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+  }
+}
+
+// Bloques de código
+[data-theme="dark"] div[class*="language-"] {
+  background-color: var(--vp-c-bg-mute) !important;
+  border: 1px solid var(--vp-c-border) !important;
+}

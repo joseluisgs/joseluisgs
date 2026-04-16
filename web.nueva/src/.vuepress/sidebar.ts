@@ -1,26 +1,34 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
+  "/docs/info/personal/": [
+    "",
+    "formacion",
+    "tecnologias"
+  ],
+  "/docs/info/investigacion/": [
+    "",
+    "tesis"
+  ],
   "/": [
     "",
     {
-      text: "Demo",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      text: "Info",
+      icon: "circle-info",
+      prefix: "docs/info/",
       children: "structure",
     },
     {
-      text: "Articles",
-      icon: "book",
-      prefix: "posts/",
+      text: "Docencia",
+      icon: "chalkboard-user",
+      prefix: "docs/docencia/",
       children: "structure",
     },
-    "intro",
     {
-      text: "Slides",
-      icon: "person-chalkboard",
-      link: "https://ecosystem.vuejs.press/plugins/markdown/revealjs/demo.html",
+      text: "Proyectos",
+      icon: "diagram-project",
+      prefix: "docs/proyectos/",
+      children: "structure",
     },
   ],
 });
