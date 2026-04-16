@@ -55,7 +55,7 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  blog: {
+blog: {
     avatar: "/img/avatar.png",
     description: "PhD - Profesor - Investigador - Desarrollador",
     intro: "/intro.html",
