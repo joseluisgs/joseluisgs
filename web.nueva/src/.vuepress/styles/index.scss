@@ -54,27 +54,35 @@ html[data-theme="dark"] {
 // SCROLLBAR PERSONALIZADO - DEEP NAVY DISCORD
 // ============================================
 
-// Firefox (Propiedades modernas)
-html,
-body,
-* {
+// Firefox (Propiedades modernas) - Modo Dark
+html[data-theme="dark"],
+html[data-theme="dark"] body,
+html[data-theme="dark"] * {
   scrollbar-width: thin !important;
-  scrollbar-color: #7289da #010c18 !important; // thumb track
+  scrollbar-color: #7289da #010c18 !important;
 }
 
-// Chrome, Edge, Safari (WebKit) - Global
-::-webkit-scrollbar {
+// Firefox - Modo Light
+html[data-theme="light"],
+html[data-theme="light"] body,
+html[data-theme="light"] * {
+  scrollbar-width: thin !important;
+  scrollbar-color: #304db6 #f3f4f6 !important;
+}
+
+// Chrome, Edge, Safari (WebKit) - Modo Dark
+html[data-theme="dark"] ::-webkit-scrollbar {
   width: 10px !important;
   height: 10px !important;
 }
 
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-track-piece {
+html[data-theme="dark"] ::-webkit-scrollbar-track,
+html[data-theme="dark"] ::-webkit-scrollbar-track-piece {
   background: #010c18 !important;
   border-radius: 0 !important;
 }
 
-::-webkit-scrollbar-thumb {
+html[data-theme="dark"] ::-webkit-scrollbar-thumb {
   background: #7289da !important;
   border-radius: 5px !important;
   
@@ -87,12 +95,37 @@ body,
   }
 }
 
+// Chrome, Edge, Safari (WebKit) - Modo Light
+html[data-theme="light"] ::-webkit-scrollbar {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-track,
+html[data-theme="light"] ::-webkit-scrollbar-track-piece {
+  background: #f3f4f6 !important;
+  border-radius: 0 !important;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: #304db6 !important;
+  border-radius: 5px !important;
+  
+  &:hover {
+    background: #253aa3 !important;
+  }
+  
+  &:active {
+    background: #253aa3 !important;
+  }
+}
+
 // ============================================
 // OVERRIDES ESPECÍFICOS PARA COMPONENTES HOPE
 // ============================================
 
-// Sidebar
-.vp-sidebar {
+// Sidebar - Modo Dark
+html[data-theme="dark"] .vp-sidebar {
   scrollbar-color: #7289da #010c18 !important;
   
   &::-webkit-scrollbar {
@@ -108,8 +141,25 @@ body,
   }
 }
 
-// TOC
-.vp-toc-wrapper {
+// Sidebar - Modo Light
+html[data-theme="light"] .vp-sidebar {
+  scrollbar-color: #304db6 #f3f4f6 !important;
+  
+  &::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #304db6 !important;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: #f3f4f6 !important;
+  }
+}
+
+// TOC - Modo Dark
+html[data-theme="dark"] .vp-toc-wrapper {
   scrollbar-color: #7289da #010c18 !important;
   
   &::-webkit-scrollbar {
@@ -125,9 +175,26 @@ body,
   }
 }
 
-// Timeline
-.timeline-content,
-.timeline-list-wrapper .timeline-content {
+// TOC - Modo Light
+html[data-theme="light"] .vp-toc-wrapper {
+  scrollbar-color: #304db6 #f3f4f6 !important;
+  
+  &::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  &::-webkit-scrollbar-thumb:vertical {
+    background: #304db6 !important;
+  }
+  
+  &::-webkit-scrollbar-track-piece {
+    background: #f3f4f6 !important;
+  }
+}
+
+// Timeline - Modo Dark
+html[data-theme="dark"] .timeline-content,
+html[data-theme="dark"] .timeline-list-wrapper .timeline-content {
   scrollbar-color: #7289da #010c18 !important;
   
   &::-webkit-scrollbar {
@@ -140,6 +207,24 @@ body,
   
   &::-webkit-scrollbar-thumb {
     background: #7289da !important;
+  }
+}
+
+// Timeline - Modo Light
+html[data-theme="light"] .timeline-content,
+html[data-theme="light"] .timeline-list-wrapper .timeline-content {
+  scrollbar-color: #304db6 #f3f4f6 !important;
+  
+  &::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  &::-webkit-scrollbar-track-piece {
+    background: #f3f4f6 !important;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #304db6 !important;
   }
 }
 
