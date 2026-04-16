@@ -85,9 +85,6 @@ export default hopeTheme({
     mark: true,
     mermaid: true,
     plantuml: true,
-    lineNumbers: true,
-    highlightLines: true,
-    previewLanguages: true,
     spoiler: true,
     stylize: [
       {
@@ -140,5 +137,10 @@ export default hopeTheme({
     sitemap: {
       hostname: "https://joseluisgs.dev",
     },
+  },
+
+  seo: {
+    default_image: "/img/web-social.png",
+    twitterUsername: "@JoseLuisGSDev",
   },
 });
