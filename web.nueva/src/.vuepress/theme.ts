@@ -57,7 +57,7 @@ export default hopeTheme({
 
 blog: {
     avatar: "/img/avatar.png",
-    description: "PhD - Profesor - Investigador - Desarrollador",
+    description: "PhD - Profesor<br>Investigador - Desarrollador",
     intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/joseluisgs",
