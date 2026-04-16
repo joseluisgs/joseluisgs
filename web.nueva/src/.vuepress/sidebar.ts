@@ -1,17 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/docs/info/personal/": [
-    "",
-    "formacion",
-    "tecnologias"
-  ],
-  "/docs/info/investigacion/": [
-    "",
-    "tesis"
-  ],
   "/": [
-    "",
     {
       text: "Info",
       icon: "circle-info",
