@@ -83,7 +83,11 @@ export default hopeTheme({
     imgSize: true,
     include: true,
     mark: true,
+    mermaid: true,
     plantuml: true,
+    lineNumbers: true,
+    highlightLines: true,
+    previewLanguages: true,
     spoiler: true,
     stylize: [
       {
@@ -106,6 +110,8 @@ export default hopeTheme({
   },
 
   plugins: {
+    copyright: true,
+
     slimsearch: true,
 
     blog: true,
