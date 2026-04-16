@@ -110,7 +110,7 @@ export default hopeTheme({
     },
 
     icon: {
-      assets: "iconify",
+      assets: "fontawesome-with-brands",
     },
 
     feed: {
