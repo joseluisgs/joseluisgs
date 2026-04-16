@@ -228,7 +228,10 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   }
 }
 
-// Estilo de tarjetas (VPCard) - Sutil y Premium
+// Blog - Ocultar contadores
+.vp-blog-counts {
+  display: none !important;
+}
 .vp-card {
   border-radius: 10px !important;
   border: 1px solid var(--vp-c-border) !important;
