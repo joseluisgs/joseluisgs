@@ -50,9 +50,97 @@ html[data-theme="dark"] {
   }
 }
 
+// ============================================
+// SCROLLBAR PERSONALIZADO - DEEP NAVY DISCORD
+// ============================================
+
+// Firefox (Propiedades modernas)
+html,
+body,
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: #7289da #010c18 !important; // thumb track
+}
+
+// Chrome, Edge, Safari (WebKit) - Global
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  background: #010c18 !important;
+  border-radius: 0 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7289da !important;
+  border-radius: 5px !important;
+  
+  &:hover {
+    background: #5b6eae !important;
+  }
+  
+  &:active {
+    background: #5b6eae !important;
+  }
+}
+
+// ============================================
+// OVERRIDES ESPECÍFICOS PARA COMPONENTES HOPE
+// ============================================
+
+// Sidebar
+.vp-sidebar {
+  scrollbar-color: #7289da #010c18 !important;
+  
+  &::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #7289da !important;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: #010c18 !important;
+  }
+}
+
+// TOC
+.vp-toc-wrapper {
+  scrollbar-color: #7289da #010c18 !important;
+  
+  &::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  &::-webkit-scrollbar-thumb:vertical {
+    background: #7289da !important;
+  }
+  
+  &::-webkit-scrollbar-track-piece {
+    background: #010c18 !important;
+  }
+}
+
+// Timeline
+.timeline-content,
+.timeline-list-wrapper .timeline-content {
+  scrollbar-color: #7289da #010c18 !important;
+  
+  &::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  &::-webkit-scrollbar-track-piece {
+    background: #010c18 !important;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #7289da !important;
+  }
 }
 
 // Estilo de tarjetas (VPCard) - Sutil y Premium
