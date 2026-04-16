@@ -109,7 +109,16 @@ blog: {
   plugins: {
     copyright: true,
 
-    slimsearch: true,
+    searchPro: {
+      indexContent: false,
+      autoSuggestions: true,
+      hotKeys: [
+        { key: 'k', ctrl: true },
+        { key: '/', ctrl: false }
+      ],
+      queryHistoryCount: 5,
+      resultHistoryCount: 5,
+    },
 
     blog: true,
 
