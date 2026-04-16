@@ -15,6 +15,7 @@
     "@vuepress/plugin-feed": "2.0.0-rc.128",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.128",
     "@vuepress/plugin-sitemap": "2.0.0-rc.128",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.128",
     "sass-embedded": "^1.98.0",
     "vue": "^3.5.31",
     "vuepress": "2.0.0-rc.28",

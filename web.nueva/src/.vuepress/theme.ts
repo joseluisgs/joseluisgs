@@ -93,6 +93,8 @@ export default hopeTheme({
   },
 
   plugins: {
+    slimsearch: true,
+
     blog: true,
 
     comment: {
