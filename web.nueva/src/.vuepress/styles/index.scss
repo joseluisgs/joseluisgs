@@ -291,3 +291,18 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   width: 5rem !important;
   height: 5rem !important;
 }
+
+// Título de tarjetas en el blog
+.vp-article-title {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5rem !important;
+  font-family: var(--vp-font-heading) !important;
+  line-height: 1.6;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.vp-article-title:hover {
+  color: var(--vp-c-accent) !important;
+}
