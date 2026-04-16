@@ -22,6 +22,11 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 - **Plugins del Tema (theme.ts):** Feed (RSS) y Sitemap configurados bajo la propiedad del tema para correcta generación de metadatos.
 - **Limpieza de Depreciaciones:** Movida toda la configuración de `mdEnhance` a la propiedad raíz `markdown` del tema.
 - **Giscus Nativo:** Configurado con los IDs reales extraídos del backup (`repoId: MDE9zaXRvcnkzMjg3NzQ4OTU=`, `categoryId: DIC_kwDOE5i0784CTUPm`).
+- **SEO Personalizado:** Configurado con imagen (`/img/web-social.png`) y Twitter (`@JoseLuisGSDev`).
+- **SlimSearch:** Añadido para búsqueda integrada.
+- **Mermaid:** Instalado y configurado para diagramas.
+- **Copyright:** Plugin añadido para proteger contenido.
+- **Markdown Enhanced:** plantuml, mermaid, codeTabs, component, demo, figure, imgLazyload, imgSize, include, mark, spoiler.
 
 ### 2. Componentes Portados (Vue 3 Composition API)
 - `FriendLinks.vue`: Recreado usando `VPCard` nativo con la lista completa de webs amigas.
@@ -30,12 +35,29 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 
 ### 3. Estilos (index.scss)
 - Implementada lógica de alta especificidad (`html[data-theme="dark"]`) y uso de `!important` en variables `--vp-c-bg` para sobreescribir los grises por defecto del tema Hope.
+- Fondo principal: `#010c18` (Deep Navy equilibrio)
+- Fondo tarjetas: `#011221`
+- Acento: `#7289da` (Discord Blurple)
+- Avatarblogger: circular (8rem), borde accent, hover scale.
+- Scrollbar: tamaño 10px, thumb color `#7289da`.
+
+### 4. Configuración del Tema
+- **Navbar:** Limpiada (eliminados GitHub, TimeLine).
+- **Footer:** Personalizado con autor, redes sociales (X, LinkedIn, Instagram, YouTube), tecnologías (Vue.js, Markdown), cookies.
+- **Redes Sociales:** Actualizadas URLs de X e LinkedIn.
+- **Fullscreen y Print:** Botones habilitados.
+- **Iconos:** FontAwesome con brands.
+
+### 5. Contenido
+- **Home (README.md):** Rediseñado con `layout: Blog`, `title: Home`, `heroFullScreen`.
+- **Avatar:** Descargado y configurado (`/img/avatar.png`).
+- **404:** ⚠ Pendiente de implementar (intentos fallidos con slots).
 
 ## 🚀 Próximos Pasos (Pendiente)
-1. **Migración de Contenido:** Portar los archivos Markdown de `web/blogs/` y `web/docs/` a `web.nueva/src/`.
-2. **Refinamiento de Frontmatter:** Ajustar los encabezados de los MD portados (iconos, giscus: true, etc.) al estándar de Hope.
-3. **Página de Inicio (Home):** Rediseñar la `index.md` principal para que aproveche las características de "Theme Hope" con la nueva estética azul.
-4. **Verificación de Enlaces:** Asegurar que las rutas `/docs/info/personal/`, etc., funcionan correctamente con el nuevo `sidebar.ts` y `navbar.ts`.
+1. **Verificación deEnlaces:** Asegurar que las rutas `/docs/info/personal/`, etc., funcionan correctamente con el nuevo `sidebar.ts` y `navbar.ts`.
+2. **Página 404:** Encontrar forma correcta de añadir imagen GIF animada.
+3. **Migración de Contenido:** Portar los archivos Markdown de `web/blogs/` y `web/docs/` a `web.nueva/src/`.
+4. **Refinamiento de Frontmatter:** Ajustar los encabezados de los MD portados.
 
 ---
 
