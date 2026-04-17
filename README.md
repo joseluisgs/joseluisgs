@@ -44,13 +44,13 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
     <a href="https://github.com/joseluisgs" target="_blank">
         <img loading="lazy" src="./images/social-icons/github.svg" height="32">
     </a>&nbsp;
-    <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
+    <a href="https://www.linkedin.com/in/JoseLuisGSDev" target="_blank">
         <img loading="lazy" src="./images/social-icons/linkedin.png" height="32">
     </a>&nbsp;
     <a href="https://www.youtube.com/@joseluisgs" target="_blank">
         <img loading="lazy" src="./images/social-icons/youtube.png" height="32">
     </a>&nbsp;
-    <a href="https://x.com/JoseLuisGS_" target="_blank">
+    <a href="https://x.com/JoseLuisGSDev" target="_blank">
         <img loading="lazy" src="./images/social-icons/twitter.png" height="32">
     </a>&nbsp;
     <a href="https://www.instagram.com/joseluisgs.dev/" target="_blank">
