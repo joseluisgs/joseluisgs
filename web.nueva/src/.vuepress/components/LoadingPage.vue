@@ -28,10 +28,12 @@ onMounted(() => {
     setTimeout(() => {
       show.value = false;
       document.body.classList.add('page-loaded');
+      window.scrollTo(0, 0); // ¡Magia para subir arriba!
     }, 1500);
   } else {
     show.value = false;
     document.body.classList.add('page-loaded');
+    window.scrollTo(0, 0); // También si ya había cargado
   }
 });
 </script>
