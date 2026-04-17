@@ -6,8 +6,19 @@
   --theme-color: #7289da;
 }
 
+// Forzar scroll arriba al cargar
+html {
+  scroll-behavior: auto !important;
+}
+
 body {
   font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+.vp-page {
+  scroll-margin-top: 0 !important;
 }
 
 // Hero - Usar color del tema (Deep Navy Discord)

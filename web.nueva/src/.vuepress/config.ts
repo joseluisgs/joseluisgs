@@ -10,6 +10,8 @@ export default defineUserConfig({
   title: "José Luis González",
   description: "Web personal de José Luis González Sánchez",
 
+  cleanUrls: true,
+
   head: [
     ["link", { rel: "icon", href: "/favicon.png" }],
     [
