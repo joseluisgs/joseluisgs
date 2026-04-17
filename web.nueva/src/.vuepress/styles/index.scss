@@ -432,6 +432,14 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   color: var(--vp-c-accent) !important;
 }
 
+// Títulos de estrellas, categorías, tags y timeline
+.vp-star-article-wrapper .title:hover,
+.vp-category-wrapper .title:hover,
+.vp-tag-wrapper .title:hover,
+.timeline-list-wrapper .title:hover {
+  color: var(--vp-c-accent) !important;
+}
+
 // ============================================
 // HERO LAYOUT 40/60 (Desktop) & PROGRESSIVE - FIXED
 // ============================================
