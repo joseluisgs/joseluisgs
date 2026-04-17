@@ -26,28 +26,25 @@ export default hopeTheme({
 
   footer: `
     <div class="footer-wrapper">
-      <span>
+      <div class="footer-author">
         <i class="fa-solid fa-code"></i>
         <a href="/docs/info/personal/">José Luis González Sánchez</a> &copy; ${new Date().getFullYear()}
-      </span>
-      &nbsp;&nbsp;
-      <span>
-        <a href="https://github.com/joseluisgs" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://x.com/JoseLuisGSDev" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/joseluisgsdev" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/joseluisgs.dev" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.youtube.com/@joseluisgs" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-      </span>
-      &nbsp;&nbsp;
-      <span>
-        <a href="https://vuejs.org/" target="_blank"><i class="fa-brands fa-vuejs"></i></a>
-        /
-        <a href="https://vuepress.vuejs.org/" target="_blank"><i class="fa-brands fa-markdown"></i></a>
-      </span>
-      &nbsp;&nbsp;
-      <span>
-        <a href="/docs/legal/"><i class="fa-solid fa-cookie-bite"></i></a>
-      </span>
+      </div>
+      <div class="footer-icons">
+        <div class="footer-group socials">
+          <a href="https://github.com/joseluisgs" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://x.com/JoseLuisGSDev" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/joseluisgsdev" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/joseluisgs.dev" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@joseluisgs" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footer-group tech">
+          <a href="https://vuejs.org/" target="_blank"><i class="fa-brands fa-vuejs"></i></a>
+          /
+          <a href="https://vuepress.vuejs.org/" target="_blank"><i class="fa-brands fa-markdown"></i></a>
+          <a href="/docs/legal/"><i class="fa-solid fa-cookie-bite"></i></a>
+        </div>
+      </div>
     </div>
   `,
 

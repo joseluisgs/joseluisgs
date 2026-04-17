@@ -287,9 +287,67 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   }
 }
 
-// Blog - Ocultar contadores
-.vp-blog-counts {
-  display: none !important;
+// ============================================
+// FOOTER RESPONSIVE (Altura equilibrada)
+// ============================================
+.vp-footer {
+  padding: 0 !important; 
+  min-height: auto !important;
+}
+
+.footer-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 2rem !important;
+  padding: 0.3rem 1rem !important; // Altura equilibrada
+}
+
+.footer-author {
+  font-size: 0.95rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  white-space: nowrap !important;
+}
+
+.footer-icons {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.5rem !important;
+
+  .footer-group {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.8rem !important;
+    
+    a {
+      font-size: 1.1rem !important;
+      color: inherit !important;
+      transition: all 0.3s ease !important;
+      &:hover {
+        color: var(--vp-c-accent) !important;
+        transform: translateY(-2px) !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper {
+    flex-direction: column !important;
+    gap: 0.4rem !important;
+    padding: 0.5rem 0.5rem !important;
+  }
+
+  .footer-author {
+    font-size: 0.85rem !important;
+  }
+
+  .footer-icons {
+    gap: 1rem !important;
+  }
 }
 .vp-card {
   border-radius: 10px !important;
