@@ -437,3 +437,39 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
     p { font-size: 1.4rem !important; }
   }
 }
+
+// ============================================
+// PAGE 404 - FLEXIBLE & RESPONSIVE
+// ============================================
+.vp-404-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 70vh !important;
+  text-align: center !important;
+  padding: 2rem !important;
+
+  img {
+    width: auto !important;
+    height: auto !important;
+    max-height: 50vh !important;
+    max-width: 90vw !important;
+    margin-bottom: 2rem !important;
+    // Limpio de adornos
+  }
+
+  .vp-404-btn {
+    background-color: #7289da !important;
+    color: white !important;
+    padding: 1rem 2.5rem !important;
+    border-radius: 8px !important; // Más cuadrado, estilo Discord
+    font-weight: bold !important;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease !important;
+
+    &:hover {
+      background-color: #5b6eae !important;
+    }
+  }
+}
