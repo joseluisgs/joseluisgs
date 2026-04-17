@@ -51,92 +51,45 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 ### 5. Contenido
 - **Home (README.md):** Rediseñado con `layout: Blog`, `title: Home`, `heroFullScreen`.
 - **Avatar:** Descargado y configurado (`/img/avatar.png`).
-- **404:** ⚠ Pendiente de implementar (intentos fallidos con slots).
+- **404:** ✅ Implementado con GIF escalable y diseño responsivo basado en `vh`.
 
 ## 🚀 Próximos Pasos (Pendiente)
-1. **Layout Hero FullScreen 40/60:** Implementar el diseño responsive con progresión de imagen y texto.
-2. **Banner de Cookies:** Añadir un banner funcional que gestione la aceptación de cookies con
-3. **Verificación deEnlaces:** Asegurar que las rutas `/docs/info/personal/`, etc., funcionan correctamente con el nuevo `sidebar.ts` y `navbar.ts`.
-4. **Página 404:** Encontrar forma correcta de añadir imagen GIF animada.
-5. **Migración de Contenido:** Portar los archivos Markdown de `web/blogs/` y `web/docs/` a `web.nueva/src/`.
-6. **Refinamiento de Frontmatter:** Ajustar los encabezados de los MD portados.
+1. **Banner de Cookies:** Añadir un banner funcional que gestione la aceptación de cookies con diseño Deep Navy Discord.
+2. **Verificación de Enlaces:** Asegurar que las rutas `/docs/info/personal/`, etc., funcionan correctamente con el nuevo `sidebar.ts` y `navbar.ts`.
+3. **Migración de Contenido:** Portar los archivos Markdown de `web/blogs/` y `web/docs/` a `web.nueva/src/`.
+4. **Refinamiento de Frontmatter:** Ajustar los encabezados de los MD portados.
 
 ---
 
-**Prompt de Reinicio:**
-"Hola, soy Jose Luis. Vamos a continuar con la migración de mi web. Lee el archivo `tasks.md` para recuperar todo el contexto técnico, la paleta de colores Deep Navy (#011627) y el estado de los componentes portados. No toques `node_modules`. Sigamos con [insertar siguiente tarea]."
+## 📋 TAREA: Layout Hero FullScreen 40/60 (COMPLETADA ✅)
+
+### Resultado Final
+- **Layout Horizontal:** Logrado mediante `flex-direction: row` en `.vp-blog-hero`.
+- **Desbloqueo de Escala:** Se identificó y eliminó la restricción `max-height: 15rem` del contenedor `.vp-blog-hero-image`, permitiendo escalado real.
+- **Proporcionalidad:** Uso de `max-height: 85vh/90vh/95vh` con `width: auto` para evitar deformaciones.
+- **Estilo Reco:** Integrados `border-radius: 1rem` y `box-shadow` originales.
+- **Modo Claro/Oscuro:** Respetado mediante la eliminación de `display: block !important` en las imágenes.
+
+### Especificaciones Cumplidas
+- **Resolución ≥1024px:** 85vh imagen, h1 2.5rem.
+- **Resolución ≥1800px:** 90vh imagen, h1 3rem, desc 1.5rem.
+- **Resolución ≥2400px:** 95vh imagen, h1 4rem, desc 2rem.
 
 ---
 
-## 📋 TAREA: Layout Hero FullScreen 40/60
+## 📋 TAREA: Página 404 (COMPLETADA ✅)
+
+### Resultado Final
+- **Layout:** Centrado total usando `flexbox` y `min-height: 70vh`.
+- **Escalado de GIF:** `max-height: 50vh` asegurando visibilidad en todas las resoluciones.
+- **Estilo:** Diseño sobrio, sin sombras ni bordes innecesarios, con botón estilo Discord (#7289da).
+
+---
+
+## 📋 TAREA: Banner de Cookies (PRÓXIMO PASO 🚀)
 
 ### Objetivo
-
-Hacer que el hero de la página principal tenga:
-- **Desktop (≥1024px):** Imagen a la izquierda (40%), texto a la derecha (60%)
-- **Letras progresivas:** Crecer según la resolución (≥1024, ≥1800, ≥2400)
-- **Imagen progresiva:** Crecer según la resolución (≥1024, ≥1800, ≥2400)
-- **Tablet/Móvil:** Imagen arriba, texto debajo, sin desbordarse
-
-### Especificaciones
-
-#### Progresión de imagen:
-| Resolución | Altura |
-|------------|--------|
-| ≥1024px | 85vh (default) |
-| ≥1800px | 90vh |
-| ≥2400px | 95vh |
-
-#### Progresión de texto:
-| Resolución | h1 (título) | h2 (descripción) | p |
-|------------|-------------|------------------|---|
-| ≥1024px | default | default | default |
-| ≥1800px | 3rem | 1.5rem | 1.2rem |
-| ≥2400px | 4rem | 2rem | 1.4rem |
-
-### Problemas encontrados
-
-| # | Problema | Causa |
-|---|----------|-------|
-| 1 | CSS no se aplicaba | Selectores incorrectos (`.vp-blog-mask`, `.vp-hero-info-wrapper`) |
-| 2 | Hero se sale de pantalla | Altura fija (400px, 340px) demasiado grande en tablet/móvil |
-| 3 | Imagen duplicada | Theme Hope usa `.light` y `.dark` para modo claro/oscuro |
-| 4 | Animaciones rotas | Cambiar `display` rompiendo transiciones DropTransition del tema |
-| 5 | Saltos bruscos | Al cambiar de resolución había saltos de tamaño no graduales |
-| 6 | Cambios rompían todo | Cada cambio muy grande = perder todo el trabajo anterior |
-
-### Estado actual
-
-**CSS original funciona** → La web se ve bien con el estilo por defecto de Theme Hope, pero:
-- ❌ No hay layout 40/60 personalizado
-- ❌ No hay progresión de letras
-- ❌ No hay progresión de imagen
-
----
-
-## 📋 TAREA: Banner de Cookies
-
-### Objetivo
-
 Añadir un banner de cookies al estilo original de web.back que:
-- Aparece al pie de página
-- Evita la aceptación si el usuario ya ha aceptado (localStorage)
-- Botón "Aproximar" que guarda en localStorage
-- Estilo Deep Navy Discord (fondo oscuro, botón violeta)
-
-### Archivo original参考
-
-Ubicación en web.back: `vuepress-theme-reco/components/CookiesBanner.vue`
-
-### Intentos fallidos
-
-| # | Problema | Causa |
-|---|----------|-------|
-| 1 | Vue componente no se renderizaba | rootComponents no funcionaba correctamente |
-| 2 | Inject con setup() no aparecía | Algo bloqueaba la inyección |
-| 3 | Estilos no se aplicaban | z-index insuficiente |
-| 4 | AppendChild no aparecía | Probablemente遮蔽 (oculto) por otros elementos |
-
-### Estado actual
-
-❌ PENDIENTE - Volver a intentarlo con otra aproximación más adelante.
+- Aparece al pie de página (fondo `#011221`, borde/botón `#7289da`).
+- Usa `localStorage` para persistencia.
+- Registrado en `client.ts` vía `rootComponents`.
