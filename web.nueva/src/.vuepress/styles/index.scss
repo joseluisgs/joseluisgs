@@ -578,3 +578,22 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 .vp-project-desc {
   color: var(--vp-c-text-2) !important;
 }
+
+// ============================================
+// MINIATURAS DE ARTÍCULOS - Blog Home
+// ============================================
+.vp-article-cover {
+  width: 100% !important;
+  margin: 0 0 1rem 0 !important;
+  max-height: 25vh !important;
+  object-fit: cover !important;
+  border-radius: 0.5rem !important;
+}
+
+// Imagen en página individual
+.page-cover img {
+  object-fit: cover !important;
+  width: 100% !important;
+  max-height: 25vh !important;
+  border-radius: 0.5rem !important;
+}
