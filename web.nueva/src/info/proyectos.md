@@ -68,7 +68,7 @@ En este repositorio subo proyectos que aplico a temas personales/profesionales o
 A continuación muestro proyectos destacados en estos momentos, ya sea porque se están usando a nivel docente o porque trabajo actualmente en ellos.
 
 :::tip Repositorio GitHub
-[JoseluisGS en GitHub](https://github.com/joseluisgs).
+[<i class="fa-brands fa-github"></i> JoseluisGS](https://github.com/joseluisgs).
 :::
 
 <ReposPinned/>
