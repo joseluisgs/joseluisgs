@@ -539,3 +539,12 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
     }
   }
 }
+
+// ============================================
+// PAGE COVER - Padding desde 768px
+// ============================================
+@media (min-width: 768px) {
+  .page-cover {
+    padding-top: 1rem;
+  }
+}
