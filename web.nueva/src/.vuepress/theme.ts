@@ -135,11 +135,19 @@ blog: {
 
     feed: {
       rss: true,
+      atom: true,
+      json: true,
       hostname: "https://joseluisgs.dev",
+      author: {
+        name: "José Luis González Sánchez",
+        email: "joseluis@joseluisgs.dev",
+      },
     },
 
     sitemap: {
       hostname: "https://joseluisgs.dev",
+      changefreq: "weekly",
+      priority: 0.8,
     },
   },
 
