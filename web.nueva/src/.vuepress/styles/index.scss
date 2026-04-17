@@ -367,7 +367,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 }
 
 // ============================================
-// HERO LAYOUT 40/60 (Desktop) & PROGRESSIVE
+// HERO LAYOUT 40/60 (Desktop) & PROGRESSIVE - FIXED
 // ============================================
 @media (min-width: 1024px) {
   .vp-blog-hero {
@@ -375,22 +375,28 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
     flex-direction: row !important;
     align-items: center !important;
     justify-content: center !important;
-    padding: 0 10% !important;
+    min-height: calc(100vh - var(--navbar-height, 60px)) !important;
+    padding: 0 5% !important;
 
     // Parte izquierda: Contenedor de Imagen (40%)
     .vp-blog-hero-image {
       flex: 0 0 40% !important;
       max-width: 40% !important;
+      max-height: none !important; // Desbloqueamos el límite de 15rem del tema
       margin: 0 !important;
       padding-right: 2rem !important;
-      height: 85vh !important;
       text-align: right !important;
       
       img {
-        max-height: 100% !important;
         width: auto !important;
-        display: inline-block !important; 
+        height: auto !important;
+        max-height: 85vh !important; // Ahora sí puede escalar
+        max-width: 100% !important;
         object-fit: contain !important;
+        border-radius: 1rem !important;
+        box-shadow: 0 5px 18px rgba(0,0,0,0.5) !important;
+        margin-left: auto !important;
+        // No forzamos display para permitir alternancia light/dark
       }
     }
 
@@ -398,8 +404,8 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
     .vp-blog-hero-info-wrapper {
       flex: 0 0 60% !important;
       max-width: 60% !important;
-      text-align: left !important;
       padding-left: 2rem !important;
+      text-align: left !important;
       margin: 0 !important;
       display: flex !important;
       flex-direction: column !important;
@@ -416,7 +422,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 
 @media (min-width: 1800px) {
   .vp-blog-hero {
-    .vp-blog-hero-image { height: 90vh !important; }
+    .vp-blog-hero-image img { max-height: 90vh !important; }
     .vp-blog-hero-title { font-size: 3rem !important; }
     .vp-blog-hero-description { font-size: 1.5rem !important; }
     p { font-size: 1.2rem !important; }
@@ -425,7 +431,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 
 @media (min-width: 2400px) {
   .vp-blog-hero {
-    .vp-blog-hero-image { height: 95vh !important; }
+    .vp-blog-hero-image img { max-height: 95vh !important; }
     .vp-blog-hero-title { font-size: 4rem !important; }
     .vp-blog-hero-description { font-size: 2rem !important; }
     p { font-size: 1.4rem !important; }
