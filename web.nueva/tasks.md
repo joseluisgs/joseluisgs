@@ -63,3 +63,49 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 
 **Prompt de Reinicio:**
 "Hola, soy Jose Luis. Vamos a continuar con la migración de mi web. Lee el archivo `tasks.md` para recuperar todo el contexto técnico, la paleta de colores Deep Navy (#011627) y el estado de los componentes portados. No toques `node_modules`. Sigamos con [insertar siguiente tarea]."
+
+---
+
+## 📋 TAREA: Layout Hero FullScreen 40/60
+
+### Objetivo
+
+Hacer que el hero de la página principal tenga:
+- **Desktop (≥1024px):** Imagen a la izquierda (40%), texto a la derecha (60%)
+- **Letras progresivas:** Crecer según la resolución (≥1024, ≥1800, ≥2400)
+- **Imagen progresiva:** Crecer según la resolución (≥1024, ≥1800, ≥2400)
+- **Tablet/Móvil:** Imagen arriba, texto debajo, sin desbordarse
+
+### Especificaciones
+
+#### Progresión de imagen:
+| Resolución | Altura |
+|------------|--------|
+| ≥1024px | 85vh (default) |
+| ≥1800px | 90vh |
+| ≥2400px | 95vh |
+
+#### Progresión de texto:
+| Resolución | h1 (título) | h2 (descripción) | p |
+|------------|-------------|------------------|---|
+| ≥1024px | default | default | default |
+| ≥1800px | 3rem | 1.5rem | 1.2rem |
+| ≥2400px | 4rem | 2rem | 1.4rem |
+
+### Problemas encontrados
+
+| # | Problema | Causa |
+|---|----------|-------|
+| 1 | CSS no se aplicaba | Selectores incorrectos (`.vp-blog-mask`, `.vp-hero-info-wrapper`) |
+| 2 | Hero se sale de pantalla | Altura fija (400px, 340px) demasiado grande en tablet/móvil |
+| 3 | Imagen duplicada | Theme Hope usa `.light` y `.dark` para modo claro/oscuro |
+| 4 | Animaciones rotas | Cambiar `display` rompiendo transiciones DropTransition del tema |
+| 5 | Saltos bruscos | Al cambiar de resolución había saltos de tamaño no graduales |
+| 6 | Cambios rompían todo | Cada cambio muy grande = perder todo el trabajo anterior |
+
+### Estado actual
+
+**CSS original funciona** → La web se ve bien con el estilo por defecto de Theme Hope, pero:
+- ❌ No hay layout 40/60 personalizado
+- ❌ No hay progresión de letras
+- ❌ No hay progresión de imagen
