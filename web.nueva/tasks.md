@@ -54,10 +54,12 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 - **404:** ⚠ Pendiente de implementar (intentos fallidos con slots).
 
 ## 🚀 Próximos Pasos (Pendiente)
-1. **Verificación deEnlaces:** Asegurar que las rutas `/docs/info/personal/`, etc., funcionan correctamente con el nuevo `sidebar.ts` y `navbar.ts`.
-2. **Página 404:** Encontrar forma correcta de añadir imagen GIF animada.
-3. **Migración de Contenido:** Portar los archivos Markdown de `web/blogs/` y `web/docs/` a `web.nueva/src/`.
-4. **Refinamiento de Frontmatter:** Ajustar los encabezados de los MD portados.
+1. **Layout Hero FullScreen 40/60:** Implementar el diseño responsive con progresión de imagen y texto.
+2. **Banner de Cookies:** Añadir un banner funcional que gestione la aceptación de cookies con
+3. **Verificación deEnlaces:** Asegurar que las rutas `/docs/info/personal/`, etc., funcionan correctamente con el nuevo `sidebar.ts` y `navbar.ts`.
+4. **Página 404:** Encontrar forma correcta de añadir imagen GIF animada.
+5. **Migración de Contenido:** Portar los archivos Markdown de `web/blogs/` y `web/docs/` a `web.nueva/src/`.
+6. **Refinamiento de Frontmatter:** Ajustar los encabezados de los MD portados.
 
 ---
 
@@ -109,3 +111,32 @@ Hacer que el hero de la página principal tenga:
 - ❌ No hay layout 40/60 personalizado
 - ❌ No hay progresión de letras
 - ❌ No hay progresión de imagen
+
+---
+
+## 📋 TAREA: Banner de Cookies
+
+### Objetivo
+
+Añadir un banner de cookies al estilo original de web.back que:
+- Aparece al pie de página
+- Evita la aceptación si el usuario ya ha aceptado (localStorage)
+- Botón "Aproximar" que guarda en localStorage
+- Estilo Deep Navy Discord (fondo oscuro, botón violeta)
+
+### Archivo original参考
+
+Ubicación en web.back: `vuepress-theme-reco/components/CookiesBanner.vue`
+
+### Intentos fallidos
+
+| # | Problema | Causa |
+|---|----------|-------|
+| 1 | Vue componente no se renderizaba | rootComponents no funcionaba correctamente |
+| 2 | Inject con setup() no aparecía | Algo bloqueaba la inyección |
+| 3 | Estilos no se aplicaban | z-index insuficiente |
+| 4 | AppendChild no aparecía | Probablemente遮蔽 (oculto) por otros elementos |
+
+### Estado actual
+
+❌ PENDIENTE - Volver a intentarlo con otra aproximación más adelante.
