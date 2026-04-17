@@ -590,6 +590,14 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   border-radius: 0.5rem !important;
 }
 
+// Sticky icon - Color Discord
+.vp-article-item .sticky-icon {
+  width: 2rem !important;
+  height: 2rem !important;
+  z-index: 10 !important;
+  color: #7289da !important;
+}
+
 // Imagen en página individual
 .page-cover img {
   object-fit: cover !important;
