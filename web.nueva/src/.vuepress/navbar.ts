@@ -10,8 +10,8 @@ export default navbar([
       { text: "Investigación", link: "/info/investigacion", icon: "flask" },
     ],
   },
-  { text: "Docencia", link: "/docencia/", icon: "chalkboard-user" },
-  { text: "Proyectos", link: "/proyectos/", icon: "diagram-project" },
+  { text: "Docencia", link: "info/docencia", icon: "chalkboard-user" },
+  { text: "Proyectos", link: "info/proyectos", icon: "diagram-project" },
   {
     text: "Contacto",
     icon: "envelope",

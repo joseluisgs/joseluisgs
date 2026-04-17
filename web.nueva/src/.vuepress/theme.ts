@@ -4,19 +4,19 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://joseluisgs.dev",
+  hostname: 'https://joseluisgs.dev',
 
   fullscreen: true,
   print: true,
 
-  logo: "/img/logo.png",
+  logo: '/img/logo.png',
 
   author: {
-    name: "José Luis González Sánchez",
-    url: "https://joseluisgs.dev",
+    name: 'José Luis González Sánchez',
+    url: 'https://joseluisgs.dev',
   },
 
-  docsDir: "src",
+  docsDir: 'src',
 
   // navbar
   navbar,
@@ -28,7 +28,7 @@ export default hopeTheme({
     <div class="footer-wrapper">
       <div class="footer-author">
         <i class="fa-solid fa-code"></i>
-        <a href="/docs/info/personal/">José Luis González Sánchez</a> &copy; ${new Date().getFullYear()}
+        <a href="/info/personal">José Luis González Sánchez</a> &copy; ${new Date().getFullYear()}
       </div>
       <div class="footer-icons">
         <div class="footer-group socials">
@@ -42,7 +42,7 @@ export default hopeTheme({
           <a href="https://vuejs.org/" target="_blank"><i class="fa-brands fa-vuejs"></i></a>
           /
           <a href="https://vuepress.vuejs.org/" target="_blank"><i class="fa-brands fa-markdown"></i></a>
-          <a href="/docs/legal/"><i class="fa-solid fa-cookie-bite"></i></a>
+          <a href="/info/legal"><i class="fa-solid fa-cookie-bite"></i></a>
         </div>
       </div>
     </div>
@@ -52,21 +52,21 @@ export default hopeTheme({
 
   displayFooter: true,
 
-blog: {
-    avatar: "/img/avatar.png",
-    description: "PhD - Profesor<br>Investigador - Desarrollador",
-    intro: "/intro.html",
+  blog: {
+    avatar: '/img/avatar.png',
+    description: 'PhD - Profesor<br>Investigador - Desarrollador',
+    intro: '/info/personal',
     medias: {
-      GitHub: "https://github.com/joseluisgs",
-      Twitter: "https://x.com/JoseLuisGSDev",
-      Linkedin: "https://www.linkedin.com/in/joseluisgsdev",
-      Instagram: "https://www.instagram.com/joseluisgs.dev",
-      Youtube: "https://www.youtube.com/@joseluisgs",
+      GitHub: 'https://github.com/joseluisgs',
+      Twitter: 'https://x.com/JoseLuisGSDev',
+      Linkedin: 'https://www.linkedin.com/in/joseluisgsdev',
+      Instagram: 'https://www.instagram.com/joseluisgs.dev',
+      Youtube: 'https://www.youtube.com/@joseluisgs',
     },
   },
 
   metaLocales: {
-    editLink: "Edit this page on GitHub",
+    editLink: 'Edit this page on GitHub',
   },
 
   markdown: {
@@ -86,13 +86,13 @@ blog: {
     spoiler: true,
     stylize: [
       {
-        matcher: "Recommended",
+        matcher: 'Recommended',
         replacer: ({ tag }) => {
-          if (tag === "em") {
+          if (tag === 'em') {
             return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
+              tag: 'Badge',
+              attrs: { type: 'tip' },
+              content: 'Recommended',
             };
           }
         },
@@ -111,48 +111,48 @@ blog: {
       indexContent: false,
       hotKeys: [
         { key: 'k', ctrl: true },
-        { key: '/', ctrl: false }
+        { key: '/', ctrl: false },
       ],
     },
 
     blog: true,
 
     comment: {
-      provider: "Giscus",
-      repo: "joseluisgs/joseluisgs.github.io",
-      repoId: "MDEwOlJlcG9zaXRvcnkzMjg3NzQ4OTU=",
-      category: "General",
-      categoryId: "DIC_kwDOE5i0784CTUPm",
+      provider: 'Giscus',
+      repo: 'joseluisgs/joseluisgs.github.io',
+      repoId: 'MDEwOlJlcG9zaXRvcnkzMjg3NzQ4OTU=',
+      category: 'General',
+      categoryId: 'DIC_kwDOE5i0784CTUPm',
     },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ['Badge', 'VPCard'],
     },
 
     icon: {
-      assets: "fontawesome-with-brands",
+      assets: 'fontawesome-with-brands',
     },
 
     feed: {
       rss: true,
       atom: true,
       json: true,
-      hostname: "https://joseluisgs.dev",
+      hostname: 'https://joseluisgs.dev',
       author: {
-        name: "José Luis González Sánchez",
-        email: "joseluis@joseluisgs.dev",
+        name: 'José Luis González Sánchez',
+        email: 'joseluis@joseluisgs.dev',
       },
     },
 
     sitemap: {
-      hostname: "https://joseluisgs.dev",
-      changefreq: "weekly",
+      hostname: 'https://joseluisgs.dev',
+      changefreq: 'weekly',
       priority: 0.8,
     },
   },
 
   seo: {
-    default_image: "/img/web-social.png",
-    twitterUsername: "@JoseLuisGSDev",
+    default_image: '/img/web-social.png',
+    twitterUsername: '@JoseLuisGSDev',
   },
 });
