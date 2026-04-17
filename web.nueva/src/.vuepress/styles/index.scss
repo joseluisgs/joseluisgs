@@ -386,8 +386,6 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
       height: 85vh !important;
       text-align: right !important;
       
-      // El tema Hope oculta automáticamente la imagen que no toca (light/dark)
-      // No forzamos display: flex en el contenedor hijo para no romper esa lógica.
       img {
         max-height: 100% !important;
         width: auto !important;
@@ -407,44 +405,29 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
       flex-direction: column !important;
       justify-content: center !important;
       align-items: flex-start !important;
-
-      h1 {
-        margin: 0 0 1.5rem 0 !important;
-        font-size: 2.5rem;
-      }
-
-      .vp-blog-hero-description {
-        margin: 0 0 2rem 0 !important;
-        font-size: 1.25rem;
-      }
     }
   }
 }
 
-// Progresión de resoluciones (≥1800px)
+// Progresión de resoluciones (Letras y Ajustes de Imagen)
+@media (min-width: 1440px) {
+  .vp-blog-hero-title { font-size: 2.25rem !important; }
+}
+
 @media (min-width: 1800px) {
   .vp-blog-hero {
-    .vp-blog-hero-image {
-      height: 90vh !important;
-    }
-    .vp-blog-hero-info-wrapper {
-      h1 { font-size: 3.5rem !important; }
-      .vp-blog-hero-description { font-size: 1.8rem !important; }
-      p { font-size: 1.2rem !important; }
-    }
+    .vp-blog-hero-image { height: 90vh !important; }
+    .vp-blog-hero-title { font-size: 3rem !important; }
+    .vp-blog-hero-description { font-size: 1.5rem !important; }
+    p { font-size: 1.2rem !important; }
   }
 }
 
-// Progresión de resoluciones (≥2400px)
 @media (min-width: 2400px) {
   .vp-blog-hero {
-    .vp-blog-hero-image {
-      height: 95vh !important;
-    }
-    .vp-blog-hero-info-wrapper {
-      h1 { font-size: 4.5rem !important; }
-      .vp-blog-hero-description { font-size: 2.2rem !important; }
-      p { font-size: 1.5rem !important; }
-    }
+    .vp-blog-hero-image { height: 95vh !important; }
+    .vp-blog-hero-title { font-size: 4rem !important; }
+    .vp-blog-hero-description { font-size: 2rem !important; }
+    p { font-size: 1.4rem !important; }
   }
 }
