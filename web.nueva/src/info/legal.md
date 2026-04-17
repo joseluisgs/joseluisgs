@@ -1,7 +1,7 @@
 ---
 title: Política de Cookies
 description: Política legal de cookies
-date: 2026-04-17
+date: 2022-01-01
 sidebar: false
 category:
   - Legal
