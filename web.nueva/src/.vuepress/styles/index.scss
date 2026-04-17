@@ -79,6 +79,7 @@ html[data-theme="dark"] {
   --vp-scroll-progress-bg: var(--vp-c-accent) !important;
 
   // Botón Volver Arriba (BackToTop) - Visibilidad Premium
+  --vp-back-to-top-c-accent-bg: #7289da !important;  // Discord purple
   --vp-back-to-top-bg: #1e293b !important;       // Fondo del círculo (Azul pizarra)
   --vp-back-to-top-color: #ffffff !important;    // Color de la flecha
   --vp-back-to-top-progress-color: var(--vp-c-accent) !important; // Color del anillo
@@ -91,7 +92,7 @@ html[data-theme="dark"] {
   border: 1px solid var(--vp-c-border) !important;
   
   &:hover {
-    --vp-back-to-top-bg: var(--vp-c-accent) !important;
+    --vp-back-to-top-bg: var(--vp-back-to-top-c-accent-bg) !important;
     --vp-back-to-top-color: #ffffff !important;
     transform: scale(1.1) !important;
   }
