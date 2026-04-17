@@ -74,5 +74,5 @@ Como investigador pertenezco al grupo [GEDES](https://gedes.ugr.es/miembros/) de
 
 - [Producción científica](https://gedes.ugr.es/produccion-cientifica/) (busca mi nombre)
 - [Proyectos de investigación](https://gedes.ugr.es/proyectos/)
-- [Docencia impartida](./../docencia/index.md)
+- [Docencia impartida](./docencia.md)
 - [Asociación Española de Interacción Persona Ordenador - AIPO](https://aipo.es/)

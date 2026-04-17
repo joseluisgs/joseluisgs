@@ -52,9 +52,9 @@ onMounted(async () => {
 
 .github-pinner {
   padding: 1.25rem;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--vp-c-border);
   border-radius: 8px;
-  background-color: var(--bg-color-secondary);
+  background-color: var(--vp-c-bg-soft);
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
@@ -89,7 +89,7 @@ onMounted(async () => {
 
 .gp-desc {
   font-size: 0.9rem;
-  color: var(--text-color-light);
+  color: var(--vp-c-text-2);
   margin-bottom: 1rem;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -101,7 +101,7 @@ onMounted(async () => {
   display: flex;
   gap: 1rem;
   font-size: 0.85rem;
-  color: var(--text-color-lighter);
+  color: var(--vp-c-text-3);
 }
 
 .gp-stat {
