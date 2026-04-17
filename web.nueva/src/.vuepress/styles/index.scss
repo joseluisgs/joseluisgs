@@ -287,6 +287,11 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   }
 }
 
+// Blog - Ocultar contadores
+.vp-blog-counts {
+  display: none !important;
+}
+
 // ============================================
 // FOOTER RESPONSIVE (Altura equilibrada)
 // ============================================
