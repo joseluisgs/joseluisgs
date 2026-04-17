@@ -32,6 +32,7 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 - `FriendLinks.vue`: Recreado usando `VPCard` nativo con la lista completa de webs amigas.
 - `LicenseCC.vue`: Portado con iconografía FontAwesome y estilo consistente.
 - `ReposPinned.vue`: Portado usando la API de Deno para repositorios destacados de GitHub.
+- `CookiesBanner.vue`: ✅ Implementado con diseño responsivo Discord y persistencia en `localStorage`.
 
 ### 3. Estilos (index.scss)
 - Implementada lógica de alta especificidad (`html[data-theme="dark"]`) y uso de `!important` en variables `--vp-c-bg` para sobreescribir los grises por defecto del tema Hope.
@@ -54,10 +55,9 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 - **404:** ✅ Implementado con GIF escalable y diseño responsivo basado en `vh`.
 
 ## 🚀 Próximos Pasos (Pendiente)
-1. **Banner de Cookies:** Añadir un banner funcional que gestione la aceptación de cookies con diseño Deep Navy Discord.
-2. **Verificación de Enlaces:** Asegurar que las rutas `/docs/info/personal/`, etc., funcionan correctamente con el nuevo `sidebar.ts` y `navbar.ts`.
-3. **Migración de Contenido:** Portar los archivos Markdown de `web/blogs/` y `web/docs/` a `web.nueva/src/`.
-4. **Refinamiento de Frontmatter:** Ajustar los encabezados de los MD portados.
+1. **Verificación de Enlaces:** Asegurar que las rutas `/docs/info/personal/`, etc., funcionan correctamente con el nuevo `sidebar.ts` y `navbar.ts`.
+2. **Migración de Contenido:** Portar los archivos Markdown de `web/blogs/` y `web/docs/` a `web.nueva/src/`.
+3. **Refinamiento de Frontmatter:** Ajustar los encabezados de los MD portados.
 
 ---
 
@@ -86,10 +86,10 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 
 ---
 
-## 📋 TAREA: Banner de Cookies (PRÓXIMO PASO 🚀)
+## 📋 TAREA: Banner de Cookies (COMPLETADA ✅)
 
-### Objetivo
-Añadir un banner de cookies al estilo original de web.back que:
-- Aparece al pie de página (fondo `#011221`, borde/botón `#7289da`).
-- Usa `localStorage` para persistencia.
-- Registrado en `client.ts` vía `rootComponents`.
+### Resultado Final
+- **Layout:** Barra horizontal al pie en escritorio; apilada verticalmente en móviles.
+- **Persistencia:** Uso de `localStorage` para ocultar el banner tras aceptación.
+- **Estética:** Deep Navy Discord (Fondo `#011221`, Botón/Enlaces `#7289da`).
+- **Inyección:** Registrado en `client.ts` dentro de `rootComponents` con un `z-index` de máxima prioridad (`2147483647`).
