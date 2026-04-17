@@ -365,3 +365,86 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 .vp-article-title:hover {
   color: var(--vp-c-accent) !important;
 }
+
+// ============================================
+// HERO LAYOUT 40/60 (Desktop) & PROGRESSIVE
+// ============================================
+@media (min-width: 1024px) {
+  .vp-blog-hero {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 10% !important;
+
+    // Parte izquierda: Contenedor de Imagen (40%)
+    .vp-blog-hero-image {
+      flex: 0 0 40% !important;
+      max-width: 40% !important;
+      margin: 0 !important;
+      padding-right: 2rem !important;
+      height: 85vh !important;
+      text-align: right !important;
+      
+      // El tema Hope oculta automáticamente la imagen que no toca (light/dark)
+      // No forzamos display: flex en el contenedor hijo para no romper esa lógica.
+      img {
+        max-height: 100% !important;
+        width: auto !important;
+        display: inline-block !important; 
+        object-fit: contain !important;
+      }
+    }
+
+    // Parte derecha: Texto (60%)
+    .vp-blog-hero-info-wrapper {
+      flex: 0 0 60% !important;
+      max-width: 60% !important;
+      text-align: left !important;
+      padding-left: 2rem !important;
+      margin: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: flex-start !important;
+
+      h1 {
+        margin: 0 0 1.5rem 0 !important;
+        font-size: 2.5rem;
+      }
+
+      .vp-blog-hero-description {
+        margin: 0 0 2rem 0 !important;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+// Progresión de resoluciones (≥1800px)
+@media (min-width: 1800px) {
+  .vp-blog-hero {
+    .vp-blog-hero-image {
+      height: 90vh !important;
+    }
+    .vp-blog-hero-info-wrapper {
+      h1 { font-size: 3.5rem !important; }
+      .vp-blog-hero-description { font-size: 1.8rem !important; }
+      p { font-size: 1.2rem !important; }
+    }
+  }
+}
+
+// Progresión de resoluciones (≥2400px)
+@media (min-width: 2400px) {
+  .vp-blog-hero {
+    .vp-blog-hero-image {
+      height: 95vh !important;
+    }
+    .vp-blog-hero-info-wrapper {
+      h1 { font-size: 4.5rem !important; }
+      .vp-blog-hero-description { font-size: 2.2rem !important; }
+      p { font-size: 1.5rem !important; }
+    }
+  }
+}
