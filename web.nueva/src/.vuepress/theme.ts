@@ -113,6 +113,12 @@ export default hopeTheme({
         { key: 'k', ctrl: true },
         { key: '/', ctrl: false },
       ],
+      customFields: [
+        {
+          getter: (page) => page.title,
+          formatter: 'Buscar en: [[title]]',
+        },
+      ],
     },
 
     blog: true,
