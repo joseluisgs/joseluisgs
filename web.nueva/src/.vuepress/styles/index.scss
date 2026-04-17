@@ -556,3 +556,25 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
     padding-top: 1rem;
   }
 }
+
+// ============================================
+// BLOG HOME PROJECTS - Deep Navy Discord
+// ============================================
+.vp-project-card {
+  background: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-border) !important;
+  
+  &:hover {
+    background: var(--vp-c-bg-elv) !important;
+    border-color: var(--theme-color) !important;
+    transform: scale(1.02) !important;
+  }
+}
+
+.vp-project-name {
+  color: var(--vp-c-text-1) !important;
+}
+
+.vp-project-desc {
+  color: var(--vp-c-text-2) !important;
+}
