@@ -80,6 +80,7 @@ blog: {
     imgSize: true,
     include: true,
     mark: true,
+    math: true,
     mermaid: true,
     plantuml: true,
     spoiler: true,
