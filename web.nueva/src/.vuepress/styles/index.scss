@@ -300,6 +300,10 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   min-height: auto !important;
 }
 
+.vp-footer-wrapper {
+  padding-block: 0.3rem !important; // Override definitivo del tema Hope
+}
+
 .footer-wrapper {
   display: flex !important;
   flex-direction: row !important;
@@ -343,7 +347,8 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   .footer-wrapper {
     flex-direction: column !important;
     gap: 0.4rem !important;
-    padding: 0.5rem 0.5rem !important;
+    padding: 0.3rem 0.5rem !important;
+// Más espacio vertical en móvil
   }
 
   .footer-author {
