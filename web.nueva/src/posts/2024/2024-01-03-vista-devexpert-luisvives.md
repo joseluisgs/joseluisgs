@@ -2,10 +2,9 @@
 title: Vista de Antonio Leiva y DevExpert.io al IES Luis Vives
 description: Compartiendo y aprendiendo con Antonio Leiva y DevExpert.io junto al alumnado
 date: 2024-01-03
-categories:
+category:
   - Blog
-tags:
-  - Blog
+tag:
   - Docencia
   - Personal
 cover: https://i.imgur.com/8iR6GEl.png

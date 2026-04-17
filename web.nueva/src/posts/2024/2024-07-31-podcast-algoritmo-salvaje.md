@@ -5,7 +5,6 @@ date: 2024-07-31
 category:
   - Blog
 tag:
-  - Blog
   - Docencia
   - Personal
 cover: https://i.imgur.com/RaFcO83.jpg
