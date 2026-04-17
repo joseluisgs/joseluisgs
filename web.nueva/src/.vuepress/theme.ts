@@ -121,7 +121,12 @@ export default hopeTheme({
       ],
     },
 
-    blog: true,
+    blog: {
+      filter: (page) => {
+        if (page.path.startsWith('/samples/')) return false;
+        return page.frontmatter.article ?? (Boolean(page.filePathRelative) && !page.frontmatter.home);
+      },
+    },
 
     comment: {
       provider: 'Giscus',
