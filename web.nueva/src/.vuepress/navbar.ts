@@ -6,12 +6,12 @@ export default navbar([
     text: "Info",
     icon: "circle-info",
     children: [
-      { text: "Personal", link: "/docs/info/personal/", icon: "address-card" },
-      { text: "Investigación", link: "/docs/info/investigacion/", icon: "flask" },
+      { text: "Personal", link: "/info/personal", icon: "address-card" },
+      { text: "Investigación", link: "/info/investigacion", icon: "flask" },
     ],
   },
-  { text: "Docencia", link: "/docs/docencia/", icon: "chalkboard-user" },
-  { text: "Proyectos", link: "/docs/proyectos/", icon: "diagram-project" },
+  { text: "Docencia", link: "/docencia/", icon: "chalkboard-user" },
+  { text: "Proyectos", link: "/proyectos/", icon: "diagram-project" },
   {
     text: "Contacto",
     icon: "envelope",
