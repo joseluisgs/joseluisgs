@@ -528,3 +528,49 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
     }
   }
 }
+
+// ============================================
+// ESCALADO PROGRESIVO DE IMAGEN DESDE 1024px
+// ============================================
+
+// Pantallas medianas (1300-1799px) - Imagen más grande
+@media (min-width: 1300px) {
+  .vp-blog-hero.hero-fullscreen > .vp-blog-hero-image,
+  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.light,
+  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.dark {
+    height: 90vh !important;
+    min-height: 90vh !important;
+    
+    img {
+      max-height: 90vh !important;
+    }
+  }
+}
+
+// Pantallas grandes (1800-2399px) - Imagen más grande
+@media (min-width: 1800px) {
+  .vp-blog-hero.hero-fullscreen > .vp-blog-hero-image,
+  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.light,
+  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.dark {
+    height: 95vh !important;
+    min-height: 95vh !important;
+    
+    img {
+      max-height: 95vh !important;
+    }
+  }
+}
+
+// Pantallas extra grandes (≥2400px) - Imagen al máximo
+@media (min-width: 2400px) {
+  .vp-blog-hero.hero-fullscreen > .vp-blog-hero-image,
+  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.light,
+  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.dark {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    
+    img {
+      max-height: 100vh !important;
+    }
+  }
+}
