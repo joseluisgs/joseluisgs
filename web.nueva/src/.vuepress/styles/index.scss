@@ -358,26 +358,27 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 // HERO FULLSCREEN - GRID 60/40 (IMAGEN GRANDE IZQUIERDA)
 // ============================================
 
-// Desktop (≥1024px): Grid 60% imagen / 40% texto
+// Desktop (≥1024px): Grid 40% imagen / 60% texto
 @media (min-width: 1024px) {
   .vp-blog-hero.hero-fullscreen {
     display: grid;
-    grid-template-columns: 60fr 40fr;
+    grid-template-columns: 40fr 60fr;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
     padding: 0 3rem;
   }
 
   .vp-blog-hero.hero-fullscreen .vp-blog-hero-image {
     grid-column: 1 / 2;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
 
     img {
-      max-height: 85vh;
+      max-height: 90vh;
       max-width: 100%;
     }
   }
@@ -530,11 +531,13 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 }
 
 // ============================================
-// ESCALADO PROGRESIVO DE IMAGEN DESDE 1024px
+// ESCALADO DE IMAGEN - TODOS 90VH
 // ============================================
 
-// Pantallas medianas (1300-1799px) - Imagen más grande
-@media (min-width: 1300px) {
+// Todas las pantallas grandes mantienen 90vh
+@media (min-width: 1300px),
+       (min-width: 1800px),
+       (min-width: 2400px) {
   .vp-blog-hero.hero-fullscreen > .vp-blog-hero-image,
   .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.light,
   .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.dark {
@@ -543,34 +546,6 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
     
     img {
       max-height: 90vh !important;
-    }
-  }
-}
-
-// Pantallas grandes (1800-2399px) - Imagen más grande
-@media (min-width: 1800px) {
-  .vp-blog-hero.hero-fullscreen > .vp-blog-hero-image,
-  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.light,
-  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.dark {
-    height: 95vh !important;
-    min-height: 95vh !important;
-    
-    img {
-      max-height: 95vh !important;
-    }
-  }
-}
-
-// Pantallas extra grandes (≥2400px) - Imagen al máximo
-@media (min-width: 2400px) {
-  .vp-blog-hero.hero-fullscreen > .vp-blog-hero-image,
-  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.light,
-  .vp-blog-hero.hero-fullscreen .vp-blog-hero-image.dark {
-    height: 100vh !important;
-    min-height: 100vh !important;
-    
-    img {
-      max-height: 100vh !important;
     }
   }
 }
