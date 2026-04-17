@@ -1,8 +1,10 @@
 ---
 title: Actividad Investigadora
 description: Conoce mi actividad investigadora, tesis doctoral sobre jugabilidad y experiencia del jugador
-date: 2026-04-17
+date: 2022-04-17
 sidebar: false
+article: false
+timeline: false
 category:
   - Personal
   - Investigación
@@ -13,7 +15,6 @@ cover: https://i.imgur.com/lafghys.png
 icon: fa-solid fa-flask
 author: José Luis González Sánchez
 comment: false
-article: true
 ---
 
 Siempre me he considerado una persona inquieta y con gran curiosidad, por lo que la investigación en tecnologías y metodologías forma ya parte de mi forma de ser. Siempre me ha gustado una investigación aplicada y que pueda ayudar a los demás.

@@ -13,6 +13,7 @@ author: José Luis González Sánchez
 comment: false
 sticky: 1
 article: true
+star: 1
 ---
 
 👋 Me llamo José Luis González Sánchez. Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Formación Profesional**](https://www.iesluisvives.es/) especializado en **Desarrollo de Software** 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/) y [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) 👨‍💻.

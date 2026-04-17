@@ -3,6 +3,8 @@ title: Política de Cookies
 description: Política legal de cookies
 date: 2022-01-01
 sidebar: false
+article: false
+timeline: false
 category:
   - Legal
 tag:

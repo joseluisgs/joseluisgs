@@ -1,8 +1,10 @@
 ---
 title: Actividad Docente
 description: Conoce mi actividad docente y formativa
-date: 2026-04-17
+date: 2025-09-09
 sidebar: false
+article: false
+timeline: false
 category:
   - Personal
   - Docencia
@@ -13,7 +15,6 @@ cover: https://i.imgur.com/hMmaSY2.jpg
 icon: fa-solid fa-chalkboard-user
 author: José Luis González Sánchez
 comment: false
-article: true
 ---
 En este apartado resumiré brevemente mi actividad docente y con ello sepas cómo puedo ayudarte en tu formación si se da el caso. No está todo, pero creo que así puedes conocerme un poco más con lo más relevante.
 
