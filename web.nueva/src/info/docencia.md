@@ -22,29 +22,29 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 
 <!-- more -->
 ## Actualidad
-Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. en Informática en Desarrollo de Software. Además, como formador oficial en tecnologías Kotlin certificado por JetBrains, GitHub Campus Advisor y Embajador de GitKraken.
+Soy profesor funcionario de carrera de secundaria en la especialidad de Informática y doctor en Informática en Desarrollo de Software. Además, soy formador oficial en tecnologías Kotlin certificado por JetBrains, GitHub Campus Advisor y Embajador de GitKraken.
 
 ### Mi centro
-Mi actual centro donde imparto docencia desde el curso 2021/2022 es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid) donde realizo además otras funciones para el centro y el departamento de Informática.
+Mi actual centro, donde imparto docencia desde el curso 2021/2022, es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid), donde realizo además otras funciones para el centro y el departamento de Informática.
 
-### Docencia actual en Centro
-En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialmente en DAW, Desarrollo de Aplicaciones Web, donde imparto la mayoría de la docencia. 
-- Programación. 1º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
-- Entornos de Desarrollo. 1º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
-- Desarrollo Web en Entornos Servidor. 2º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
-- Despliegue de Aplicaciones Web. 2º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
+### Docencia actual en el centro
+En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialmente en DAW, Desarrollo de Aplicaciones Web, donde imparto la mayoría de las clases:
+- Programación: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
+- Entornos de Desarrollo: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
+- Desarrollo Web en Entornos Servidor: 2.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
+- Despliegue de Aplicaciones Web: 2.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
 
 
-Además suelo impartir o he impartido en otras ocasiones:
-- Programación de 1º de DAM/DAW.
-- Entornos de Desarrollo de 1º de DAM/DAW.
-- Programación Multimedia y Dispositivos Móviles de 2º de DAM.
-- Programación de Servicios y Procesos de 2º de DAM.
-- Acceso a Datos de 2º de DAM.
-- Desarrollo Web en Entorno Servidor de 2º de DAW.
-- Despliegue de Aplicaciones Web de 2º de DAW.
-- Servicios de Red e Internet 2º de ASIR.
-- Implantación de Aplicaciones Web 2º de ASIR.
+Además, suelo impartir o he impartido en otras ocasiones:
+- Programación de 1.º de DAM/DAW.
+- Entornos de Desarrollo de 1.º de DAM/DAW.
+- Programación Multimedia y Dispositivos Móviles de 2.º de DAM.
+- Programación de Servicios y Procesos de 2.º de DAM.
+- Acceso a Datos de 2.º de DAM.
+- Desarrollo Web en Entorno Servidor de 2.º de DAW.
+- Despliegue de Aplicaciones Web de 2.º de DAW.
+- Servicios de Red e Internet de 2.º de ASIR.
+- Implantación de Aplicaciones Web de 2.º de ASIR.
 
 ### Docencia en Másteres y Doctorado
 Colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Gutiérrez Vela](https://lsi.ugr.es/lsi/fgutierr), englobada dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).

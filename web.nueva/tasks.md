@@ -87,9 +87,12 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
   - **Excerpts**: Verificación de `<!-- more -->` en todos los posts.
 - **Componentes**: Activación de `PDF`, `VidStack` (sustituye a YouTube/VideoPlayer) y `SiteInfo`. Creada guía de referencia en `src/.vuepress/components_guide.md`.
 - **Despliegue**: `deploy.sh` actualizado con emojis y Workflow de GH Actions archivado listo para uso.
+- **Detalles Finales**:
+  - [x] **Seguridad**: Desactivados enlaces de edición externa (`editLink: false`).
+  - [x] **Accesibilidad**: Añadidos `aria-label` a todos los iconos sociales del footer.
+  - [x] **Iconografía Premium**: Generada suite de iconos multirresolución y configurados para Apple (180px PNG), Android/PWA (192px/512px) y Windows Tile (192px).
 
 ---
-
 ## 🏁 Últimos Flecos para Producción (Pendiente)
 1. [ ] **Build Final**: Ejecutar `npm run docs:build` localmente para verificar que no hay 404s internos.
 3. [ ] **Verificación GA4**: Comprobar la recepción de datos tras el primer despliegue real.
@@ -97,4 +100,4 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 ---
 **ID de Sesión (Gemini):** `7d82a00d-1ea2-4479-b0f4-c3bceff3ea00`
 
-
+gemini --resume '7d82a00d-1ea2-4479-b0f4-c3bceff3ea00' 

@@ -24,16 +24,16 @@ Siempre me he considerado una persona inquieta y con gran curiosidad, por lo que
 <!-- more -->
 
 ## Perfil investigador
-A nivel investigador mi especialidad es el campo [Interacción Persona Ordenador](https://es.wikipedia.org/wiki/Interacci%C3%B3n_persona-computadora) y el desarrollo de software, siempre centrados en la calidad y la mejora de la experiencia interactiva. Además he profundizado en sistemas interactivos de ocio electrónico. Me gusta experimentar con nuevos dispositivos y tecnologías y aplicarlas a casos concretos donde he desarrollado proyectos para distintos organismos y empresas.
+A nivel investigador, mi especialidad es el campo de la [Interacción Persona-Ordenador](https://es.wikipedia.org/wiki/Interacci%C3%B3n_persona-computadora) y el desarrollo de software, siempre centrados en la calidad y la mejora de la experiencia interactiva. Además, he profundizado en sistemas interactivos de ocio electrónico. Me gusta experimentar con nuevos dispositivos y tecnologías, y aplicarlas a casos concretos donde he desarrollado proyectos para distintos organismos y empresas.
 
 ## Tesis Doctoral 👨‍🎓
 
-Uno de los principales logros personales fue mi **tesis doctoral**. En ella abordo y formalizo el concepto de **Jugabilidad** y cómo caracterizar la experiencia del jugador en sistemas interactivos de ocio electrónico (videojuegos y derivados).
+Uno de mis principales logros personales fue mi **tesis doctoral**. En ella abordo y formalizo el concepto de **jugabilidad** y cómo caracterizar la experiencia del jugador en sistemas interactivos de ocio electrónico (videojuegos y derivados).
 
-Mi tesis fue dirigida por [Dr. Francisco Luis Gutiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) y presentada y realizada en la [Universidad de Granada](https://digibug.ugr.es/handle/10481/5671) en 2010, calificada con **"Sobresaliente Cum laude"**.
+Mi tesis fue dirigida por el [Dr. Francisco Luis Gutiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) y presentada y realizada en la [Universidad de Granada](https://digibug.ugr.es/handle/10481/5671) en 2010, calificada con **«Sobresaliente *cum laude*»**.
 
 ### Objetivos
-La Jugabilidad es un concepto abstracto y difícil de definir debido a que posee características tanto funcionales, inherentes a todo sistema interactivo, como no funcionales, relacionadas con las experiencias que obtiene el jugador al jugar. Así pues, definimos la Jugabilidad como el conjunto de propiedades que describen la experiencia del jugador ante un sistema de juego determinado, cuyo principal objetivo es divertir y entretener «de forma satisfactoria y creíble», ya sea solo o en compañía.
+La jugabilidad es un concepto abstracto y difícil de definir debido a que posee características tanto funcionales, inherentes a todo sistema interactivo, como no funcionales, relacionadas con las experiencias que obtiene el jugador al jugar. Así pues, definimos la jugabilidad como el conjunto de propiedades que describen la experiencia del jugador ante un sistema de juego determinado, cuyo principal objetivo es divertir y entretener «de forma satisfactoria y creíble», ya sea solo o en compañía.
 
 ### Impacto
 Esta tesis sirvió para formalizar, por primera vez, el concepto de jugabilidad, creando un modelo del mismo con sus atributos y propiedades, así como una serie de facetas para su evaluación y análisis.
