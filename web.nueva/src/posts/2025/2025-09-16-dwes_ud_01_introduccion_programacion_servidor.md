@@ -8,8 +8,11 @@ tag:
   - Docencia
   - DAW
   - Desarrollo Web Entorno Servidor
+  - API REST
+  - HTTP
 cover: https://www.shutterstock.com/image-vector/software-development-coding-process-concept-600nw-1396210841.jpg
 comment: true
+sidebar: false
 ---
 
 La primera unidad del módulo de Desarrollo Web en Entornos Servidor es una inmersión en los conceptos fundamentales que sustentan las aplicaciones web modernas. Se centra en el backend, la parte de una aplicación que se ejecuta en el servidor y gestiona la lógica de negocio y los datos, a diferencia del front-end, que es la interfaz visible para el usuario en el navegador.

@@ -11,6 +11,7 @@ tag:
   - DevExpert
 cover: https://i.imgur.com/8iR6GEl.png
 comment: true
+sidebar: false
 ---
 
 El martes 7 de noviembre de 2023, Antonio Leiva, CEO de [DevExpert.io](https://devexpert.io/), visitó el IES Luis Vives para impartir una charla dirigida al alumnado de la familia de informática. Durante el evento, Leiva compartió nuevas tendencias y buenas prácticas en el desarrollo de software basado en arquitecturas de calidad ante un un salón de actos completo de asistes. Respondió a las preguntas de los estudiantes y brindando consejos para enfocar su aprendizaje y futura carrera profesional.

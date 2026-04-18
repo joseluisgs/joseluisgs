@@ -2,8 +2,8 @@
 title: Proyectos
 description: Te presento algunos de mis proyectos en los que trabajo
 date: 2026-04-17
-sidebar: false
-article: false
+sidebar: true
+article: true
 timeline: false
 category:
   - Proyectos
@@ -13,6 +13,8 @@ cover: https://miro.medium.com/max/2676/1*YueCwWOQuh-yqtujQrp5uA.png
 icon: fa-solid fa-code
 author: José Luis González Sánchez
 comment: false
+next: true
+prev: true
 ---
 
 En este apartado conocerás los proyectos que voy realizando, ya sea para fines docentes, personales o profesionales.

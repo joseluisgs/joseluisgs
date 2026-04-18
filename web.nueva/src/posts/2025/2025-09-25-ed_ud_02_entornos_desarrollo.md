@@ -9,10 +9,15 @@ tag:
   - Docencia
   - DAW
   - Entornos de Desarrollo
+  - IDE
+  - VS Code
+  - IntelliJ
+  - Rider
 
 cover: https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2023_07_IDE-full-form-1.jpg
 
 comment: true
+sidebar: false
 
 ---
 

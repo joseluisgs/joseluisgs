@@ -9,10 +9,14 @@ tag:
   - Docencia
   - DAW
   - Entornos de Desarrollo
+  - Git
+  - GitHub
+  - GitFlow
 
 cover: https://miro.medium.com/1*b21FyqUbowHYAOQDXH0tDw.jpeg
 
 comment: true
+sidebar: false
 
 ---
 

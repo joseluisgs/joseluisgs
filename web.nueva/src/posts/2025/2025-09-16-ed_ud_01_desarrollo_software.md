@@ -8,8 +8,11 @@ tag:
   - Docencia
   - DAW
   - Entornos de Desarrollo
+  - UML
+  - Patrones de Diseño
 cover: https://t4.ftcdn.net/jpg/04/19/26/97/360_F_419269782_9LsP3TQndMVnZ2j3ZhTPhMjaqQpFAth9.jpg
 comment: true
+sidebar: false
 ---
 
 Antes de sumergirnos en las herramientas y técnicas, es esencial entender el proceso completo que hay detrás de la creación de una aplicación. La Unidad Didáctica 1: Desarrollo de Software nos proporciona esa base sólida. Aquí no solo se aprende a escribir código, sino a entender todo el ciclo de vida de una aplicación, desde la idea inicial hasta su retirada del mercado.

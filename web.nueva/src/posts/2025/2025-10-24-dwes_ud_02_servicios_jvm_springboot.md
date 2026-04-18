@@ -9,10 +9,15 @@ tag:
   - Docencia
   - DAW
   - Desarrollo Web Entorno Servidor
+  - Java
+  - Spring Boot
+  - JPA
+  - REST
 
 cover: https://puroguramu.akcstudio.com/spring-boot.png
 
 comment: true
+sidebar: false
 
 ---
 

@@ -9,10 +9,14 @@ tag:
   - Docencia
   - DAW
   - Programación
+  - C#
+  - Arrays
+  - Algoritmos
 
 cover: https://miro.medium.com/v2/resize:fit:1400/1*XcIydJ9zewURnwQJl9yo1w.png
 
 comment: true
+sidebar: false
 
 ---
 

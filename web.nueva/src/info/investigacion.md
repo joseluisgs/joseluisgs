@@ -2,8 +2,8 @@
 title: Actividad Investigadora
 description: Conoce mi actividad investigadora, tesis doctoral sobre jugabilidad y experiencia del jugador
 date: 2022-04-17
-sidebar: false
-article: false
+sidebar: true
+article: true
 timeline: false
 category:
   - Personal

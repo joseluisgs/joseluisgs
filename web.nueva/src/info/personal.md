@@ -2,7 +2,7 @@
 title: José Luis González, PhD.
 description: Soy José Luis, y aquí podrás conocer un poco más de mi
 date: 2026-04-17
-sidebar: false
+sidebar: true
 category:
   - Personal
 tag:

@@ -8,11 +8,17 @@ tag:
   - Docencia
   - DAW
   - Entornos de Desarrollo
+  - Git
+  - GitHub
+  - IntelliJ
+  - VS Code
 cover: https://tech-radix.com/wp-content/uploads/2022/03/Mob-App.webp
 comment: true
+sidebar: false
 ---
 
 Si el módulo de Programación nos enseña a "hablar" con la máquina, el módulo de Entornos de Desarrollo nos enseña a hacerlo de forma profesional, eficiente y colaborativa. Este curso no se limita a las herramientas; se centra en el ciclo de vida completo del software, una habilidad clave en cualquier equipo de desarrollo. Veamos qué nos espera en este emocionante viaje.
+
 <!-- more -->
 El objetivo principal de este módulo es dotarte de los conocimientos y las destrezas necesarias para que puedas enfrentarte al desarrollo de aplicaciones de principio a fin, desde la planificación hasta la puesta en marcha. Se hace un gran hincapié en el diseño orientado a objetos, las mejores prácticas en pruebas de software, y el uso de sistemas de control de versiones.
 

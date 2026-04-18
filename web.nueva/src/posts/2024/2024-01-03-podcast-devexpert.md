@@ -12,6 +12,7 @@ tag:
 cover: https://i.imgur.com/icsPKsj.png
 comment: true
 article: true
+sidebar: false
 ---
 
 Una de las mejores cosas de este curso 2023-2024 es haber participado en los podcast de  [DevExpert.io](https://devexpert.io/). En este nuevo podcast hemos hablado un poco de la labor docente y de muchas cosas en general con mi amigo y mejor profesional Antonio Leiva.

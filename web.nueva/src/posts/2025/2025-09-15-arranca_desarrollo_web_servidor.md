@@ -8,8 +8,11 @@ tag:
   - Docencia
   - DAW
   - Desarrollo Web Entorno Servidor
+  - Java
+  - Spring Boot
 cover: https://media.geeksforgeeks.org/wp-content/uploads/20221123153249/SkillsRequiredtoBecomeaBackendDeveloper.png
 comment: true
+sidebar: false
 ---
 
 Desarrollo Web en Entornos Servidor (DWES) se erige como un pilar fundamental en el ciclo de Desarrollo de Aplicaciones Web, con el objetivo de dotar a los estudiantes de las habilidades y conocimientos necesarios para diseñar, construir, implementar y mantener aplicaciones del lado del servidor. Este curso profundiza en los conceptos esenciales del desarrollo web y la creación de servicios y aplicaciones que impulsan la funcionalidad de los sitios en la web. Mostramos a continuación qué nos espera en este curso académico.

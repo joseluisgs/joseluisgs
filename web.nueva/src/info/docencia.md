@@ -2,8 +2,8 @@
 title: Actividad Docente
 description: Conoce mi actividad docente y formativa
 date: 2025-09-09
-sidebar: false
-article: false
+sidebar: true
+article: true
 timeline: false
 category:
   - Personal

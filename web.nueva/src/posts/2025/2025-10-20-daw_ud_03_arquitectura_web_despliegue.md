@@ -9,10 +9,15 @@ tag:
   - Docencia
   - DAW
   - Despliegue de Aplicaciones Web
+  - CI/CD
+  - Nginx
+  - Apache
+  - SSL
 
 cover: https://thumbs.dreamstime.com/b/web-software-developer-banner-seacrh-bar-thin-line-objects-work-tools-desk-59453071.jpg
 
 comment: true
+sidebar: false
 
 ---
 

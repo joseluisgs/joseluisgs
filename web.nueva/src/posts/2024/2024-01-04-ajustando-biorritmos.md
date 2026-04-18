@@ -10,6 +10,7 @@ tag:
   - IES Luis Vives
 cover: https://i.imgur.com/tBVHqKU.jpg
 comment: true
+sidebar: false
 ---
 
 Esta primera parte del curso 2023/2024, no solo ha traído los cambios de turno de mañana  tarde en el centro, si no diversas consecuencias por ello que ha hecho que ajustemos los biorrítmos siguiendo una de de las bromas que he tenido por ello. Te comento estos cambios.

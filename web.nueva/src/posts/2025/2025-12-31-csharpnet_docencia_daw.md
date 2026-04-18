@@ -9,10 +9,17 @@ tag:
   - Docencia
   - DAW
   - Personal
+  - .NET
+  - C#
+  - ASP.NET
+  - Blazor
+  - Razor
+  - Entity Framework
 
 cover: https://www.ryadel.com/wp-content/uploads/2020/09/asp-net-core-c-sharp-logo.jpg
 
 comment: true
+sidebar: false
 
 ---
 
