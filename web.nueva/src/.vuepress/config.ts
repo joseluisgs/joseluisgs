@@ -12,6 +12,8 @@ export default defineUserConfig({
 
   cleanUrls: true,
 
+  shouldPrefetch: false,
+
   head: [
     ["link", { rel: "icon", href: "/favicon.png" }],
     ["link", { rel: "manifest", href: "/manifest.webmanifest" }],

@@ -138,7 +138,7 @@ export default hopeTheme({
     },
 
     components: {
-      components: ['Badge', 'VPCard'],
+      components: ['Badge', 'VPCard', 'PDF', 'YouTube', 'SiteInfo', 'VideoPlayer'],
     },
 
     icon: {
