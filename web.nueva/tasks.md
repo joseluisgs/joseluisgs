@@ -70,26 +70,27 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 - **Estilo Reco:** Integrados `border-radius: 1rem` y `box-shadow` originales.
 - **Modo Claro/Oscuro:** Respetado mediante la eliminación de `display: block !important` en las imágenes.
 
-### Especificaciones Cumplidas
-- **Resolución ≥1024px:** 85vh imagen, h1 2.5rem.
-- **Resolución ≥1800px:** 90vh imagen, h1 3rem, desc 1.5rem.
-- **Resolución ≥2400px:** 95vh imagen, h1 4rem, desc 2rem.
+---
+
+## 📋 TAREA: Optimización Técnica y SEO Final (COMPLETADA ✅)
+
+### Resultado Final
+- **Limpieza técnica**: Migración de `searchPro` a `slimsearch` y corrección de resaltado `razor` en posts de 2025.
+- **SEO & PWA**:
+  - Activado plugin **PWA** (instalable y offline).
+  - Creado `robots.txt` y configurado `sitemap` (excluyendo `/samples/`).
+  - Metadatos de autoría y `shouldPrefetch: false` para rendimiento.
+- **Optimización de Imágenes**: Conversión masiva a **WebP** de toda la carpeta `public` y actualización de identidad (Logo, Avatar, Favicon) para carga ultra-rápida.
+- **Normalización de Contenido**:
+  - **Tags**: Unificación estratégica (GitKraken, VuePress, .NET, API REST).
+  - **Categorías**: Implementación de multicategorías (`Blog` + `Docencia`/`Proyectos`).
+  - **Excerpts**: Verificación de `<!-- more -->` en todos los posts.
+- **Componentes**: Activación de `PDF`, `VidStack` (sustituye a YouTube/VideoPlayer) y `SiteInfo`. Creada guía de referencia en `src/.vuepress/components_guide.md`.
+- **Despliegue**: `deploy.sh` actualizado con emojis y Workflow de GH Actions archivado listo para uso.
 
 ---
 
-## 📋 TAREA: Página 404 (COMPLETADA ✅)
+## 🏁 Últimos Flecos para Producción (Pendiente)
+1. [ ] **Build Final**: Ejecutar `npm run docs:build` localmente para verificar que no hay 404s internos.
+2. [ ] **Verificación GA4**: Comprobar la recepción de datos tras el primer despliegue real.
 
-### Resultado Final
-- **Layout:** Centrado total usando `flexbox` y `min-height: 70vh`.
-- **Escalado de GIF:** `max-height: 50vh` asegurando visibilidad en todas las resoluciones.
-- **Estilo:** Diseño sobrio, sin sombras ni bordes innecesarios, con botón estilo Discord (#7289da).
-
----
-
-## 📋 TAREA: Banner de Cookies (COMPLETADA ✅)
-
-### Resultado Final
-- **Layout:** Barra horizontal al pie en escritorio; apilada verticalmente en móviles.
-- **Persistencia:** Uso de `localStorage` para ocultar el banner tras aceptación.
-- **Estética:** Deep Navy Discord (Fondo `#011221`, Botón/Enlaces `#7289da`).
-- **Inyección:** Registrado en `client.ts` dentro de `rootComponents` con un `z-index` de máxima prioridad (`2147483647`).

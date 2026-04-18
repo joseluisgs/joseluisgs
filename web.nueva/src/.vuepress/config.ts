@@ -15,7 +15,7 @@ export default defineUserConfig({
   shouldPrefetch: false,
 
   head: [
-    ["link", { rel: "icon", href: "/favicon.png" }],
+    ["link", { rel: "icon", href: "/favicon.webp" }],
     ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
     ["meta", { name: "theme-color", content: "#5c92d1" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -23,7 +23,7 @@ export default defineUserConfig({
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
-    ["link", { rel: "apple-touch-icon", href: "/assets/icon/apple-icon-152.png" }],
+    ["link", { rel: "apple-touch-icon", href: "/assets/icon/apple-icon-152.webp" }],
     [
       "meta",
       {

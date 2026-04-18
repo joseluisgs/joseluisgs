@@ -9,7 +9,7 @@ export default hopeTheme({
   fullscreen: true,
   print: true,
 
-  logo: '/img/logo.png',
+  logo: '/img/logo.webp',
 
   author: {
     name: 'José Luis González Sánchez',
@@ -53,7 +53,7 @@ export default hopeTheme({
   displayFooter: true,
 
   blog: {
-    avatar: '/img/avatar.png',
+    avatar: '/img/avatar.webp',
     description: 'PhD - Profesor<br>Investigador - Desarrollador',
     intro: '/info/personal',
     medias: {
@@ -138,7 +138,7 @@ export default hopeTheme({
     },
 
     components: {
-      components: ['Badge', 'VPCard', 'PDF', 'YouTube', 'SiteInfo', 'VideoPlayer'],
+      components: ['Badge', 'VPCard', 'PDF', 'VidStack', 'SiteInfo'],
     },
 
     icon: {
