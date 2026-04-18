@@ -13,8 +13,8 @@ cover: https://miro.medium.com/max/2676/1*YueCwWOQuh-yqtujQrp5uA.png
 icon: fa-solid fa-code
 author: José Luis González Sánchez
 comment: false
-next: true
-prev: true
+next: /info/personal.md
+prev: /info/docencia.md
 ---
 
 En este apartado conocerás los proyectos que voy realizando, ya sea para fines docentes, personales o profesionales.

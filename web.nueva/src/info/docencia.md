@@ -14,6 +14,8 @@ tag:
 cover: https://i.imgur.com/hMmaSY2.jpg
 icon: fa-solid fa-chalkboard-user
 author: José Luis González Sánchez
+next: /info/proyectos.md
+prev: /info/investigacion.md
 comment: false
 ---
 En este apartado resumiré brevemente mi actividad docente y con ello sepas cómo puedo ayudarte en tu formación si se da el caso. No está todo, pero creo que así puedes conocerme un poco más con lo más relevante.

@@ -1,24 +1,31 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/": [
+  "/info/": [
     {
-      text: "Info",
-      icon: "circle-info",
-      prefix: "docs/info/",
-      children: "structure",
+      text: "Página Principal",
+      icon: "home",
+      link: "/info/",
+    },
+    {
+      text: "Personal",
+      icon: "address-card",
+      link: "/info/personal",
+    },
+    {
+      text: "Investigación",
+      icon: "flask",
+      link: "/info/investigacion",
     },
     {
       text: "Docencia",
       icon: "chalkboard-user",
-      prefix: "docs/docencia/",
-      children: "structure",
+      link: "/info/docencia",
     },
     {
       text: "Proyectos",
-      icon: "diagram-project",
-      prefix: "docs/proyectos/",
-      children: "structure",
+      icon: "code",
+      link: "/info/proyectos",
     },
   ],
 });

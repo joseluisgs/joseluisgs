@@ -14,6 +14,8 @@ tag:
 cover: https://i.imgur.com/lafghys.png
 icon: fa-solid fa-flask
 author: José Luis González Sánchez
+next: /info/docencia.md
+prev: /info/personal.md
 comment: false
 ---
 

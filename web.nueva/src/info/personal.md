@@ -11,6 +11,8 @@ cover: /img/avatar.png
 icon: fa-solid fa-user
 author: José Luis González Sánchez
 comment: false
+next: /info/investigacion.md
+prev: /info/proyectos.md
 sticky: 1
 article: true
 star: 1
