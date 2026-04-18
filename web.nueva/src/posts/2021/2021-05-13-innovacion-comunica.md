@@ -7,9 +7,10 @@ category:
   - Docencia
   - Investigación
 tag:
-  - Docencia
-  - Tecnologías
-  - Innovación
+   - Docencia
+   - Tecnologías
+   - Innovación
+icon: fa-solid fa-lightbulb
 cover: https://i.imgur.com/LukNdoZ.jpg
 comment: true
 sidebar: false

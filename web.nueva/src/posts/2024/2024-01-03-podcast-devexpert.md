@@ -9,6 +9,7 @@ tag:
   - Personal
   - Podcast
   - DevExpert
+icon: fa-solid fa-microphone
 cover: https://i.imgur.com/icsPKsj.png
 comment: true
 article: true

@@ -10,6 +10,7 @@ tag:
   - Despliegue de Aplicaciones Web
   - Docker
   - Contenedores
+icon: fa-brands fa-docker
 cover: https://www.nextgencodingcompany.com/research/docker.png
 comment: true
 sidebar: false

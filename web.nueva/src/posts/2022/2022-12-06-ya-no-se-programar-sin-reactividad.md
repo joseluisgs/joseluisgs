@@ -8,6 +8,7 @@ tag:
   - Docencia
   - Kotlin
   - Programación Reactiva
+icon: fa-brands fa-kotlin
 cover: https://reactiveweb.org/wp-content/uploads/2024/11/Reactive-Programming-vs-Asynchronous-%E2%80%93-A-Comparison.jpg
 comment: true
 sidebar: false

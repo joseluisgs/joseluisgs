@@ -15,6 +15,7 @@ tag:
   - Blazor
   - Razor
   - Entity Framework
+icon: fa-brands fa-microsoft
 
 cover: https://www.ryadel.com/wp-content/uploads/2020/09/asp-net-core-c-sharp-logo.jpg
 

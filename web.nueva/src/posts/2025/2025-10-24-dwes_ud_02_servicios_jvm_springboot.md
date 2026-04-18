@@ -13,6 +13,7 @@ tag:
   - Spring Boot
   - JPA
   - REST
+icon: fa-solid fa-leaf
 
 cover: https://puroguramu.akcstudio.com/spring-boot.png
 

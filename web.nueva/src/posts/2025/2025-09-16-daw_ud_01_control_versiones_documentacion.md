@@ -11,6 +11,7 @@ tag:
   - Git
   - GitHub
   - Markdown
+icon: fa-brands fa-github
 cover: https://www.arcadsoftware.com/arcad/wp-content/uploads/2024/01/banner-transition-git-source-code-advantages.jpg
 comment: true
 sidebar: false

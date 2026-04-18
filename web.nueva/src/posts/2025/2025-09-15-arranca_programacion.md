@@ -9,6 +9,7 @@ tag:
   - DAW
   - Programación
   - C#
+icon: fa-brands fa-csharp
 cover: https://mytasker.com/assets/images/WD-D-banner.jpg
 comment: true
 sidebar: false

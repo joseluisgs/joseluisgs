@@ -8,6 +8,7 @@ tag:
   - Docencia
   - Personal
   - Ética
+icon: fa-solid fa-hand-holding-heart
 cover: https://cdn.setapp.com/blog/images/how-to-fix-copy-and-paste-not-working-1920-646.png
 comment: true
 sidebar: false

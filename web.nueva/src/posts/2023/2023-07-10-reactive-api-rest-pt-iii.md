@@ -9,6 +9,7 @@ tag:
   - Proyectos
   - Kotlin
   - Ktor
+icon: fa-solid fa-plug
 cover: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MNYTHm0fGgHP_UUalJuCUg.png
 comment: true
 sidebar: false

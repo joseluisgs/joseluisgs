@@ -12,6 +12,7 @@ tag:
   - GitHub
   - IntelliJ
   - VS Code
+icon: fa-solid fa-laptop-code
 cover: https://tech-radix.com/wp-content/uploads/2022/03/Mob-App.webp
 comment: true
 sidebar: false

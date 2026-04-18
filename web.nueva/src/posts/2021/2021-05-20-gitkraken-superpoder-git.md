@@ -6,11 +6,12 @@ category:
   - Blog
   - Docencia
 tag:
-  - Docencia
-  - Tecnologías
-  - Git
-  - GitHub
-  - Gitkraken
+   - Docencia
+   - Tecnologías
+   - Git
+   - GitHub
+   - Gitkraken
+icon: fa-solid fa-code-branch
 cover: https://www.dovesco.com/sites/default/files/2020-09/axosoft.jpg
 comment: true
 sidebar: false

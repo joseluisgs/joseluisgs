@@ -5,8 +5,9 @@ date: 2021-11-11
 category:
   - Blog
 tag:
-  - Docencia
-  - Competencias
+   - Docencia
+   - Competencias
+icon: fa-solid fa-school
 cover: https://buenavibra.es/wp-content/uploads/2018/04/mito22.jpg
 comment: true
 sidebar: false

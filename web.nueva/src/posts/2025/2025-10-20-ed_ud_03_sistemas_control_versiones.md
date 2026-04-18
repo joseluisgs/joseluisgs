@@ -12,6 +12,7 @@ tag:
   - Git
   - GitHub
   - GitFlow
+icon: fa-brands fa-git-alt
 
 cover: https://miro.medium.com/1*b21FyqUbowHYAOQDXH0tDw.jpeg
 

@@ -12,6 +12,7 @@ tag:
   - C#
   - Arrays
   - Algoritmos
+icon: fa-solid fa-list
 
 cover: https://miro.medium.com/v2/resize:fit:1400/1*XcIydJ9zewURnwQJl9yo1w.png
 

@@ -9,6 +9,7 @@ tag:
   - Personal
   - Podcast
   - Disco Duro de Roer
+icon: fa-solid fa-microphone
 cover: https://i.imgur.com/xJnegMC.jpg
 comment: true
 sidebar: false

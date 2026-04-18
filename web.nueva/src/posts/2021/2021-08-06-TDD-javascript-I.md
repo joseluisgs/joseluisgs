@@ -6,11 +6,12 @@ category:
   - Blog
   - Proyectos
 tag:
-  - Docencia
-  - Tecnologías
-  - JavaScript
-  - TDD
-  - Jest
+   - Docencia
+   - Tecnologías
+   - JavaScript
+   - TDD
+   - Jest
+icon: fa-solid fa-flask
 cover: https://cdn-media-1.freecodecamp.org/images/1*0jCUKud4CkbbmNrFDzIQZw.png
 comment: true
 sidebar: false

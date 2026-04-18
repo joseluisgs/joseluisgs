@@ -8,6 +8,7 @@ tag:
   - Docencia
   - IES Luis Vives
   - Personal
+icon: fa-solid fa-school
 cover: https://i.imgur.com/OYSk3iD.jpg
 comment: true
 sidebar: false

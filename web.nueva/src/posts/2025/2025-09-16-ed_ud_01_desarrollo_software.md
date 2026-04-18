@@ -10,6 +10,7 @@ tag:
   - Entornos de Desarrollo
   - UML
   - Patrones de Diseño
+icon: fa-solid fa-sitemap
 cover: https://t4.ftcdn.net/jpg/04/19/26/97/360_F_419269782_9LsP3TQndMVnZ2j3ZhTPhMjaqQpFAth9.jpg
 comment: true
 sidebar: false

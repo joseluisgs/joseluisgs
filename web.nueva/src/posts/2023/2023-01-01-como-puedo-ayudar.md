@@ -7,6 +7,7 @@ category:
 tag:
   - Docencia
   - Personal
+icon: fa-solid fa-handshake
 cover: https://lovingonme.com/2017/wp-content/uploads/2015/10/How-Can-I-Help.jpg
 comment: true
 sidebar: false

@@ -10,6 +10,7 @@ tag:
   - Desarrollo Web Entorno Servidor
   - API REST
   - HTTP
+icon: fa-solid fa-network-wired
 cover: https://www.shutterstock.com/image-vector/software-development-coding-process-concept-600nw-1396210841.jpg
 comment: true
 sidebar: false

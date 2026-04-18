@@ -9,6 +9,7 @@ tag:
   - Formación
   - Tecnologías
   - OpenWebinars
+icon: fa-solid fa-play
 cover: https://iescomercio.com/informatica/wp-content/uploads/2020/06/logo-openwebinars-colabora.png
 comment: true
 sidebar: false

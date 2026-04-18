@@ -6,11 +6,12 @@ category:
   - Blog
   - Proyectos
 tag:
-  - Docencia
-  - Tecnologías
-  - JavaScript
-  - TDD
-  - Cypress
+   - Docencia
+   - Tecnologías
+   - JavaScript
+   - TDD
+   - Cypress
+icon: fa-solid fa-flask
 cover: https://i.ytimg.com/vi/pJ349YntoIs/maxresdefault.jpg
 comment: true
 sidebar: false

@@ -5,10 +5,11 @@ date: 2021-05-24
 category:
   - Proyectos
 tag:
-  - Tecnologías
-  - Alexa
-  - JavaScript
-  - Node.js
+   - Tecnologías
+   - Alexa
+   - JavaScript
+   - Node.js
+icon: fa-brands fa-alexa
 cover: https://m.media-amazon.com/images/G/01/DeveloperBlogs/AlexaBlogs/default/ACK_blog._CB483519732_.png
 comment: true
 sidebar: false

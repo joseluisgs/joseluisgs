@@ -8,6 +8,7 @@ tag:
   - Docencia
   - Proyectos
   - Kotlin
+icon: fa-brands fa-kotlin
 cover: https://i.imgur.com/kXUCPP1.png
 comment: true
 sidebar: false

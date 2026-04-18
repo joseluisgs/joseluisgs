@@ -8,6 +8,7 @@ tag:
   - Proyectos
   - Profesional
   - Competencias
+icon: fa-solid fa-graduation-cap
 cover: https://www.x-cart.com/wp-content/uploads/2017/09/how-to-become-a-web-developer.png
 comment: true
 sidebar: false

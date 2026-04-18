@@ -8,6 +8,7 @@ category:
 tag:
   - Docencia
   - Formación
+icon: fa-solid fa-school
   - CIFP Virgen de Gracia
 cover: https://www.mexicocss.com/storage/app/uploads/public/5d6/6c1/719/5d66c17196f37063403826.png
 comment: true

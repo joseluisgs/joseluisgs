@@ -11,6 +11,7 @@ tag:
   - Kotlin
   - Android
   - JetBrains
+icon: fa-brands fa-kotlin
 cover: https://content.techgig.com/photo/82324241/5-reasons-why-you-should-learn-kotlin-in-2021.jpg
 comment: true
 sidebar: false

@@ -5,9 +5,10 @@ date: 2021-11-28
 category:
   - Blog
 tag:
-  - Profesional
-  - Tecnologías
-  - Kotlin
+   - Profesional
+   - Tecnologías
+   - Kotlin
+icon: fa-brands fa-kotlin
 cover: https://content.techgig.com/photo/82324241/5-reasons-why-you-should-learn-kotlin-in-2021.jpg
 comment: true
 sidebar: false

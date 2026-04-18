@@ -2,7 +2,7 @@
 title: Despliegue de Aplicaciones Web 03 - Arquitectura Web y Fundamentos
 description: Arquitectura web, apis, protocolos y despliegue moderno
 date: 2025-10-20
-
+ 
 category:
   - Blog
 tag:
@@ -13,12 +13,12 @@ tag:
   - Nginx
   - Apache
   - SSL
-
+icon: fa-solid fa-lock
 cover: https://thumbs.dreamstime.com/b/web-software-developer-banner-seacrh-bar-thin-line-objects-work-tools-desk-59453071.jpg
-
+ 
 comment: true
 sidebar: false
-
+ 
 ---
 
 El **Despliegue de Aplicaciones Web** es el proceso fundamental que garantiza que una aplicación pase del código fuente a un entorno de producción accesible. Este proceso no solo se trata de subir archivos, sino de asegurar la **estabilidad**, **seguridad** y **escalabilidad** del sistema para los usuarios finales.

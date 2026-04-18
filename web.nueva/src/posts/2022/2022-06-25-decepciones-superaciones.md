@@ -7,6 +7,7 @@ category:
 tag:
   - Docencia
   - Personal
+icon: fa-solid fa-chalkboard-user
 cover: https://kotlinlang.org/assets/images/twitter/general.png
 comment: true
 sidebar: false

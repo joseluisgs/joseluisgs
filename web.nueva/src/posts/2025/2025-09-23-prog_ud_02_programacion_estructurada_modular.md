@@ -10,6 +10,7 @@ tag:
   - Programación
   - C#
   - Funciones
+icon: fa-brands fa-csharp
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp_-Y7sdX-XyYQ9HUsAqExFaQ3qdLdRApItw&s
 comment: true
 sidebar: false

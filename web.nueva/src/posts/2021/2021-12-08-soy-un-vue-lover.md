@@ -5,9 +5,10 @@ date: 2021-12-08
 category:
   - Blog
 tag:
-  - Profesional
-  - Tecnologías
-  - Vue.js
+   - Profesional
+   - Tecnologías
+   - Vue.js
+icon: fa-brands fa-vuejs
 cover: https://media.publit.io/file/n0pLqGsm.png
 comment: true
 sidebar: false

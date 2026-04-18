@@ -7,6 +7,7 @@ category:
 tag:
   - Docencia
   - IES Luis Vives
+icon: fa-solid fa-school
 cover: https://i0.wp.com/wanderin.dev/wp-content/uploads/2019/12/crop-0-0-1170-390-0-about-cover.png
 comment: true
 sidebar: false

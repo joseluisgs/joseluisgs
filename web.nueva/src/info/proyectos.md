@@ -2,8 +2,8 @@
 title: Proyectos
 description: Te presento algunos de mis proyectos en los que trabajo
 date: 2026-04-17
-sidebar: true
-article: true
+sidebar: false
+article: false
 timeline: false
 category:
   - Proyectos

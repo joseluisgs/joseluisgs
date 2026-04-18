@@ -5,8 +5,9 @@ date: 2022-11-30
 category:
   - Blog
 tag:
-  - Docencia
-  - Personal
+   - Docencia
+   - Personal
+icon: fa-solid fa-user
 cover: https://img.freepik.com/premium-photo/broken-chain-with-red-weak-link_147644-166.jpg
 comment: true
 sidebar: false

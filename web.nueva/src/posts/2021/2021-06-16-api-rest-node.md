@@ -5,12 +5,13 @@ date: 2021-06-16
 category:
   - Proyectos
 tag:
-  - Tecnologías
-  - TypeScript
-  - JavaScript
-  - Node.js
-  - REST
-  - API
+   - Tecnologías
+   - TypeScript
+   - JavaScript
+   - Node.js
+   - REST
+   - API
+icon: fa-brands fa-node-js
 cover: https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/616614/0405_Building_a_Node.js-TypeScript_REST_API_Zara_Newsletter___blog-1507ad3436895bfe7cc6cf35e4efb17f.png
 comment: true
 sidebar: false

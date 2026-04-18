@@ -5,9 +5,10 @@ date: 2022-11-29
 category:
   - Blog
 tag:
-  - Docencia
-  - Kotlin
-  - Corrutinas
+   - Docencia
+   - Kotlin
+   - Corrutinas
+icon: fa-solid fa-code-branch
 cover: https://kotlin.desarrollador-android.com/wp-content/uploads/2019/04/coroutines-kotlin.jpg
 comment: true
 sidebar: false

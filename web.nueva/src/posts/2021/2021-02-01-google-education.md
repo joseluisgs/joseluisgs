@@ -8,6 +8,7 @@ tag:
   - Docencia
   - Tecnologías
   - Google
+icon: fa-brands fa-google
 cover: https://i2.wp.com/carmensallessantafe.es/wp-content/uploads/2019/12/978B9053-E936-461B-B048-47FEFCC0842E.png
 comment: true
 sidebar: false

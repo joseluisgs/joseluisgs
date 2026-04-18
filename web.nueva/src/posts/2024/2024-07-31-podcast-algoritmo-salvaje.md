@@ -9,6 +9,7 @@ tag:
   - Personal
   - Podcast
   - Algoritmo Salvaje
+icon: fa-solid fa-microphone
 cover: https://i.imgur.com/RaFcO83.jpg
 comment: true
 sidebar: false

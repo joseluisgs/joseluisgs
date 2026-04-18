@@ -5,8 +5,9 @@ date: 2022-11-02
 category:
   - Blog
 tag:
-  - Docencia
-  - IES Luis Vives
+   - Docencia
+   - IES Luis Vives
+icon: fa-solid fa-school
 cover: https://www.besthrcertification.org/Images/New-trends-to-tackle-new-challenges.jpg
 comment: true
 sidebar: false

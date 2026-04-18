@@ -9,6 +9,7 @@ tag:
   - Profesional
   - Competencias
   - Tecnologías
+icon: fa-solid fa-briefcase
 cover: https://img.freepik.com/vector-gratis/asistencia-innovacion-portatil_82574-972.jpg
 comment: true
 sidebar: false

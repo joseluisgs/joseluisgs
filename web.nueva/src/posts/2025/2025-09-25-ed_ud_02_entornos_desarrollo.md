@@ -2,7 +2,7 @@
 title: Entornos de Desarrollo 02 - Entornos de Desarrollo (IDEs)
 description: Herramientas esenciales para programar de manera eficiente
 date: 2025-09-25
-
+ 
 category:
   - Blog
 tag:
@@ -13,12 +13,12 @@ tag:
   - VS Code
   - IntelliJ
   - Rider
-
+icon: fa-solid fa-laptop-code
 cover: https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2023_07_IDE-full-form-1.jpg
-
+ 
 comment: true
 sidebar: false
-
+ 
 ---
 
 El **Entorno de Desarrollo Integrado (IDE)** es, sin duda, la herramienta más importante en el día a día de un desarrollador. Más que un simple editor de texto, es una aplicación diseñada para **facilitar la tarea de codificación** y hacer que el ciclo de vida del software sea mucho más ágil y eficiente.

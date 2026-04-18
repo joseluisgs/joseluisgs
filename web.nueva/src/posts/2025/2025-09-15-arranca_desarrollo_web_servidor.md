@@ -10,6 +10,7 @@ tag:
   - Desarrollo Web Entorno Servidor
   - Java
   - Spring Boot
+icon: fa-brands fa-java
 cover: https://media.geeksforgeeks.org/wp-content/uploads/20221123153249/SkillsRequiredtoBecomeaBackendDeveloper.png
 comment: true
 sidebar: false
