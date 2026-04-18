@@ -69,8 +69,4 @@ Instalar los Kits de Desarrollo es un paso fundamental, ya que son la base para 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_C0GPbvw1dA" frameborder="0" allowfullscreen></iframe>
 </p>
 
-
-Espero que esta entrada te sea de gran utilidad para tu web. Si necesitas algún ajuste, házmelo saber.
-
-
 **Link al repositorio del módulo:** [https://github.com/joseluisgs/EntornosDesarrollo-02-2025-2026](https://github.com/joseluisgs/EntornosDesarrollo-02-2025-2026)

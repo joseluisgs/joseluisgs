@@ -16,7 +16,7 @@ comment: true
 sidebar: false
 ---
 
-Desarrollo Web en Entornos Servidor (DWES) se erige como un pilar fundamental en el ciclo de Desarrollo de Aplicaciones Web, con el objetivo de dotar a los estudiantes de las habilidades y conocimientos necesarios para diseñar, construir, implementar y mantener aplicaciones del lado del servidor. Este curso profundiza en los conceptos esenciales del desarrollo web y la creación de servicios y aplicaciones que impulsan la funcionalidad de los sitios en la web. Mostramos a continuación qué nos espera en este curso académico.
+Desarrollo Web en Entorno Servidor (DWES) se erige como un pilar fundamental en el ciclo de Desarrollo de Aplicaciones Web, con el objetivo de dotar a los estudiantes de las habilidades y conocimientos necesarios para diseñar, construir, implementar y mantener aplicaciones del lado del servidor. Este curso profundiza en los conceptos esenciales del desarrollo web y la creación de servicios y aplicaciones que impulsan la funcionalidad de los sitios en la web. Mostramos a continuación qué nos espera en este curso académico.
 <!-- more -->
 
 # Unidades Didácticas: El camino hacia la maestría del servidor
@@ -31,9 +31,9 @@ La programación didáctica de este módulo está diseñada para un aprendizaje 
 La metodología del curso se apoya en el Aprendizaje Basado en Retos y Proyectos, con un enfoque en la resolución de problemas reales. En lugar de un libro de texto, se utilizarán recursos digitales gratuitos como videotutoriales y documentación técnica. Esto nos acostumbra a buscar información de forma autónoma, una habilidad vital en el mundo profesional.
 
 
-El módulo está diseñado para construir el conocimiento de forma iterativa, permitiendo que las habilidades se consoliden y refuercen continuamente. El módulo establece una trasversalidad vertical y horizontal con otras asignaturas del ciclo , por lo que los proyectos que se desarrollen aquí se integrarán con los de otros módulos como Desarrollo Web en Entornos Cliente y Despliegue de Aplicaciones Web.
+El módulo está diseñado para construir el conocimiento de forma iterativa, permitiendo que las habilidades se consoliden y refuercen continuamente. El módulo establece una transversalidad vertical y horizontal con otras asignaturas del ciclo, por lo que los proyectos que se desarrollen aquí se integrarán con los de otros módulos como Desarrollo Web en Entorno Cliente y Despliegue de Aplicaciones Web.
 
-Aquí puedes ver el video introductorio del módulo:
+Aquí puedes ver el vídeo introductorio del módulo:
 
 <p style="text-align:center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tlRgLmopS1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

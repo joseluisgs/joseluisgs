@@ -15,7 +15,7 @@ comment: true
 sidebar: false
 ---
 
-La programación reactiva tiene muchas aplicaciones, una de ella es poder aplicarse en cualquier parte del front y back para aprovecharse de algunas de sus ventajas. Este año también la hemos trabajado en clase. Como uno de los responsables del track de Kotlin Developer estoy escribiendo una serie de tutoriales para [Hyperskill](https://hyperskill.org/) de [Jetbrains Academy](https://lp.jetbrains.com/jba-students/), donde se explica como crear una API REST reactiva con Kotlin y Ktor y repaso una serie de conceptos en la que se basa. Os lo dejo traducido, pero recomiendo que leáis el original en inglés y votéis para que sigan saliendo más partes: [Creating Your Reactive REST API with Kotlin and Ktor Part I](https://medium.com/p/f217be55c0bf).
+La programación reactiva tiene muchas aplicaciones, una de ellas es poder aplicarse en cualquier parte del front y back para aprovecharse de algunas de sus ventajas. Este año también la hemos trabajado en clase. Como uno de los responsables del track de Kotlin Developer estoy escribiendo una serie de tutoriales para [Hyperskill](https://hyperskill.org/) de [JetBrains Academy](https://lp.jetbrains.com/jba-students/), donde se explica cómo crear una API REST reactiva con Kotlin y Ktor y repaso una serie de conceptos en los que se basa. Os lo dejo traducido, pero recomiendo que leáis el original en inglés y votéis para que sigan saliendo más partes: [Creating Your Reactive REST API with Kotlin and Ktor Part I](https://medium.com/p/f217be55c0bf).
 
 <!-- more -->
 
@@ -87,7 +87,7 @@ Ktor utiliza plugins para ampliar su funcionalidad según las necesidades del pr
   src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*4aBfRqsFco67-aiA1EFFmg.png">
 </p>
 
-Podemos crear un proyecto Ktor desde el generador web: [https://start.ktor.io/](https://start.ktor.io/) (abrir el archivo zip) o desde el complemento [IntellIjIdea](https://plugins.jetbrains.com/plugin/16008-ktor).
+Podemos crear un proyecto Ktor desde el generador web: [https://start.ktor.io/](https://start.ktor.io/) (abrir el archivo zip) o desde el complemento [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/16008-ktor).
 
 En nuestro caso, como estamos experimentando con numerosos torneos de tenis, *vamos a implementar una API REST reactiva para averiguar las raquetas más utilizadas en un torneo de tenis*.
 
@@ -433,7 +433,7 @@ Tienes el código de este proyecto en [GitHub](https://github.com/joseluisgs/kto
 
 **Puedes seguirlo commit por commit y utilizar el archivo de respaldo de Postman para probarlo.**
 
-Además, en [Hyperskill](https://hyperskill.org), puedes profundizar y aprender todos los conceptos y más a través de diferentes temas y tareas que te帮助你 mejorar como desarrollador en tecnologías Kotlin.
+Además, en [Hyperskill](https://hyperskill.org), puedes profundizar y aprender todos los conceptos y más a través de diferentes temas y tareas que te ayuden a mejorar como desarrollador en tecnologías Kotlin.
 
 Las siguientes trayectorias ofrecidas por JetBrains Academy en Hyperskill pueden ser un punto de partida perfecto. Encontrarás toda la información y explicación de los conceptos y técnicas mostradas en estos artículos. ¡No te los pierdas!
 

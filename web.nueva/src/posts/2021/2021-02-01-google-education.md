@@ -20,11 +20,11 @@ Como adelanté en mi [Twitter](https://twitter.com/joseluisgonsan/status/1355951
 ## ¿Qué me aporta?
 [Google for Education](https://edu.google.com/intl/es-419_ALL/) es una serie de herramientas que [Google](https://edu.google.com/intl/es-419/products/gsuite-for-education/) ofrece a centros educativos de manera gratuita que nos permite de manera sencilla mejorar nuestro proceso de enseñanza aprendizaje.
 
-Desde mi punto de vista fue un gran acierto solicitarla para nuestro departamento y por成份 para nuestro centro. Gracias a su agilidad y facilidad de configuración hemos trabajado con ella en los últimos (casi) tres años. Y por suerte nos ha venido realmente bien en estos tiempos tan complicados para tener una plataforma sólida con la que trabajar.
+Desde mi punto de vista fue un gran acierto solicitarla para nuestro departamento y por supuesto para nuestro centro. Gracias a su agilidad y facilidad de configuración hemos trabajado con ella en los últimos (casi) tres años. Y por suerte nos ha venido realmente bien en estos tiempos tan complicados para tener una plataforma sólida con la que trabajar.
 
-Sobre todo, en mi caso, quiero destacar el uso de Classroom para llevar distintas aulas virtuales, unido a un Drive ilimitado y a un GMail que, seamos francos, es el mejor sistema de correo. Todas las herramientas integradas en la organización. Además me parecen simples y cómodas las herramientas para móviles y tablets que me permiten poder corregir o hacer los que sea en cualquier lado. Todo ello ha permitido que mis proyectos o las entregas del alumnado las pueda trabajar muy efectivamente. Así como los nuevos sistemas para evaluar o calificar que se adaptan muy bien a las directrices de evaluación que sigo 🙋.
+Sobre todo, en mi caso, quiero destacar el uso de Classroom para llevar distintas aulas virtuales, unido a un Drive ilimitado y a un GMail que, seamos francos, es el mejor sistema de correo. Todas las herramientas integradas en la organización. Además me parecen simples y cómodas las herramientas para móviles y tablets que me permiten poder corregir o hacer lo que sea en cualquier lado. Todo ello ha permitido que mis proyectos o las entregas del alumnado las pueda trabajar muy efectivamente. Así como los nuevos sistemas para evaluar o calificar que se adaptan muy bien a las directrices de evaluación que sigo 🙋.
 
-Como administrador, también os digo, que es muy fácil de configurar, de hacer grupos, equipos, listas, etc. Además de tener un soporte stupendo.
+Como administrador, también os digo que es muy fácil de configurar, de hacer grupos, equipos, listas, etc. Además de tener un soporte estupendo.
 
 Sé que no a todos/as os convencerá, pero agradezco que esté disponible, y de manera gratis. Ya cada cual que elija lo que considere para su día a día. [Aquí](https://www.youtube.com/watch?v=JQ94DMXPKf0) os dejo algunas ideas para profesores/as.
 

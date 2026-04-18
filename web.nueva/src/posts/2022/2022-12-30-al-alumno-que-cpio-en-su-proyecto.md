@@ -24,6 +24,6 @@ Copiar no te hace más listo, te hace más dependiente. El día que tengas que e
 Si hubieras dedicado ese tiempo a entender el código, a buscar información, a preguntar, habrías aprendido de verdad. Y lo más importante, habrías desarrollado tu capacidad de resolver problemas.
 
 ## El consejo
-No te rindas. Todo el mundo comienza copiando. Lo importante esdar el paso de copiar a entender, y de entender a crear. Ese es el verdadero aprendizaje.
+No te rindas. Todo el mundo comienza copiando. Lo importante es dar el paso de copiar a entender, y de entender a crear. Ese es el verdadero aprendizaje.
 
 Recuerda: el único que sale perdiendo cuando copias eres tú mismo.

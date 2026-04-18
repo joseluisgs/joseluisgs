@@ -40,7 +40,7 @@ En las pruebas E2E detectamos principalmente:
 - Error en la definición del funcionamiento del flujo funcional: Todos los componentes y sistemas funcionan 'ok', hemos ejecutado la prueba de principio a fin sin errores, pero el resultado final es incoherente con el esperado. Esta es la gran potencia de las pruebas E2E, la detección de errores de definición y la solución suele pasar por una redefinición del proceso.
 - Que las historias de usuario se cumplen.
 
-Debido a la importancia del usuario, es importante que estos pruebas se realicen teniendo en cuenta las historias de usuario para comprobar que los resultados tras la interacción cumplen los criterios de aceptación.
+Debido a la importancia del usuario, es importante que estas pruebas se realicen teniendo en cuenta las historias de usuario para comprobar que los resultados tras la interacción cumplen los criterios de aceptación.
 
 ## E2E en BDD/TDD
 En definitiva definimos funcionalidades y escenarios de uso, que desarrollamos en distintos componentes y funciones que testeamos (test unitarios), integramos (integración) y finalmente comprobamos si todo el flujo sigue el escenario indicado desde el punto de vista del usuario. 
@@ -88,7 +88,7 @@ Por ejemplo, las historias de usuario pueden tener este aspecto:
 - Como gestor, quiero poder comprender el progreso de mis compañeros, para poder informar sobre nuestros éxitos y fallos.
 
 ## CYPRESS
-[Cypress](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell) es una de las muchas posibilidades que tenemos para testear nuestro código o proyecto en JavaScript/HTML para realizar pruebas E2E de manera automatizada con mucha potencia y nos permite muchas posibilidades para analizar que nuestro que interaccionamos con nuestro código resolviendo las [historias de usuario](https://www.atlassian.com/es/agile/project-management/user-stories) a realizar. Debo remarcar que Cypres nos permite hacer pruebas de integración y de componentes en sus últimas versiones.
+[Cypress](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell) es una de las muchas posibilidades que tenemos para testear nuestro código o proyecto en JavaScript/HTML para realizar pruebas E2E de manera automatizada con mucha potencia y nos permite muchas posibilidades para analizar que interaccionamos con nuestro código resolviendo las [historias de usuario](https://www.atlassian.com/es/agile/project-management/user-stories) a realizar. Debo remarcar que Cypress nos permite hacer pruebas de integración y de componentes en sus últimas versiones.
 
 <p style="text-align:center;">
 <img loading="lazy" style="border-radius: 0.25rem;" 
@@ -107,7 +107,7 @@ Recuerda que Cypress.io es una herramienta de testeo de front-end de código abi
 </p>
 
 ### Otras alternativas
-Existen muchas alternativas. En este tutorial me centro en Cypress, pero como he dicho hay varias ya sea para test unitarios, BDD, TDD, BDD o E2E. Te recomiendo [este artículo](https://medium.com/welldone-software/an-overview-of-javascript-testing-7ce7298b9870) para tener una visión al respecto.
+Existen muchas alternativas. En este tutorial me centro en Cypress, pero como he dicho hay varias ya sea para test unitarios, TDD, BDD o E2E. Te recomiendo [este artículo](https://medium.com/welldone-software/an-overview-of-javascript-testing-7ce7298b9870) para tener una visión al respecto.
 
 ::: tip  <i class="iconfont reco-github"></i> Proyectos y repositorios
 Esta entrada toma como punto de partida el siguiente proyecto: 
@@ -127,7 +127,7 @@ npm install cypress --save-dev
 Otras configuraciones realizadas las tienes en [Package.json](./package.json)
 
 ### Ejecutando Cypress
-Debes tener un directorio llamado tests, y en ellos ficheos .spec.test.
+Debes tener un directorio llamado tests, y en ellos ficheros .spec.test.
 ```bash
 ./node_modules/.bin/cypress open
 ```
@@ -149,7 +149,7 @@ Puedes consultarlas [aquí](https://docs.cypress.io/guides/references/assertions
 - visit: redirige a Chrome a la url que se le pasa por parámetro.
 - get: obtiene un elemento por el identificador que le pasemos, para realizar acciones sobre él. Como hemos explicado en el apartado anterior, todos los identificadores que pasemos será obtenidos del CSS.
 - children: nos permite obtener un elemento que pasamos por parámetro, que desciende del elemento que hemos obtenido con la función get.
-- click: realiza un click sobre el elemento que hayamos obtiene con la función get.
+- click: realiza un click sobre el elemento que hayamos obtenido con la función get.
 - type: escribe sobre el elemento obtenido un texto que pasamos por parámetro. Por ejemplo, usamos esta función para elementos input donde queremos introducir un texto.
 submit: permite enviar el contenido del formulario.
 - contains: para indicar el contenido del elemento.
@@ -178,17 +178,17 @@ Si nuestro test fallase, podríamos ejecutarlo en modo headed para poder depurar
 npm run cy:run --headed
 ```
 
-### Buenas pŕacticas
-Es importante que tengamos [buenas prácticas](https://docs.cypress.io/guides/references/best-practices.html) para testear sin problemas. Entre elles el manejo de selectores óptimos para nuestros elementos de la web, como pueden ser selectores de web del tipo con selectores del tipo id como son: data-testid (mi preferido para usarlo también con JEST) o data-cy.
+### Buenas prácticas
+Es importante que tengamos [buenas prácticas](https://docs.cypress.io/guides/references/best-practices.html) para testear sin problemas. Entre ellas el manejo de selectores óptimos para nuestros elementos de la web, como pueden ser selectores del tipo id como son: data-testid (mi preferido para usarlo también con JEST) o data-cy.
 
 ### Ejemplos
-En a carpeta Integrations/examples tienes muchos ejemplos para aprender todo de como usarlo. [Aquí] también (https://github.com/bhaidar/testing-workshop-cypress) puede encontrar más información de como usarlo.
+En la carpeta Integrations/examples tienes muchos ejemplos para aprender todo de cómo usarlo. [Aquí también](https://github.com/bhaidar/testing-workshop-cypress) puedes encontrar más información de cómo usarlo.
 
 
 ## Testeando un Framework: Vue.js
 Nos centraremos en ejecutar el comando test:e2e para ejecutar nuestros test e2e con Cypress. Aunque como he indicado, en las nuevas versiones de Cypress podemos testear aisladamente cada componente, así como conjuntamente.
 
-Para ello crearemos el proyecto con [Vue CLI](https://cli.vuejs.org/) indicando en la configuración manual el uso de test e2e. Puedes verlo en el proyecto todoapp del respositorio indicado, una aplicación clonada del listado de ejemplos de Vue.js y que solo nos interesa para testear. Podríamos haber cogido cualquiera nuestra :). Un ejemplo completo más profundo lo tienes [aquí](https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/).
+Para ello crearemos el proyecto con [Vue CLI](https://cli.vuejs.org/) indicando en la configuración manual el uso de test e2e. Puedes verlo en el proyecto todoapp del repositorio indicado, una aplicación clonada del listado de ejemplos de Vue.js y que solo nos interesa para testear. Podríamos haber cogido cualquiera nuestra :). Un ejemplo completo más profundo lo tienes [aquí](https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/).
 
 <p style="text-align:center;">
 <img loading="lazy" style="border-radius: 0.25rem;" 
@@ -214,7 +214,7 @@ Ejemplo para ejecutar los test
 ```bash
 npm run test:e2e
 ```
-Eiremos aplicando ATDD/TDD en Test E2E. Puedes seguir el proyecto todoapp commit a commit, así como sucesivos tests que vayan surgiendo.
+Iremos aplicando ATDD/TDD en Test E2E. Puedes seguir el proyecto todoapp commit a commit, así como sucesivos tests que vayan surgiendo.
 
 ::: tip  <i class="iconfont reco-github"></i> Proyectos y repositorios que pueden ayudarte a iniciarse con Cypress
 -  [Testing JS con Cypress](https://github.com/joseluisgs/testing-js-cypress)

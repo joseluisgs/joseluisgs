@@ -52,8 +52,4 @@ Enlaces de interés:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oO7GtR0G1AQ" frameborder="0" allowfullscreen></iframe>
 </p>
 
-
-Espero que esta entrada te sea de gran utilidad para tu web. Si necesitas algún ajuste, házmelo saber.
-
-
 **Link al repositorio del módulo:** [https://github.com/joseluisgs/Programacion-02-2025-2026](https://github.com/joseluisgs/Programacion-02-2025-2026)

@@ -86,7 +86,7 @@ La ramificación es la clave para el desarrollo no lineal en equipo.
 | :------------------------- | :------------------------------------------------------------------------------------------------------------------- |
 | `git log`                  | Muestra el historial de *commits* de la rama actual.                                                                 |
 | `git show <commit>`        | Muestra los detalles de un *commit* específico.                                                                      |
-| `git revert <hash>`        | Deshace un *commit* creando un **nuevo* *commit* inverso, preservando el historial.                                  |
+| `git revert <hash>`        | Deshace un *commit* creando un nuevo *commit* inverso, preservando el historial.                                     |
 | `git reset --hard HEAD`    | Elimina todos los cambios no confirmados del directorio de trabajo y *staging area*. **Pérdida de datos potencial**. |
 | `git push <remoto> <rama>` | Sube los *commits* de tu rama local al repositorio remoto.                                                           |
 | `git fetch <remoto>`       | Descarga los cambios del remoto, pero **sin fusionarlos** con tu rama local.                                         |

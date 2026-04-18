@@ -35,7 +35,7 @@ Esta parte es un poco larga porque creamos toda la estructura de característica
 
 ## DTOs y Mappers
 
-Nuestro primer punto es mejorar las solicitudes y respuestas. Para lograr esto, introduciremos un patrón interesante: DTO (Data Transfer Object). Los DTOs nos permiten transferir datos entre diferentes componentes de una aplicación, encapsulatedo la información de forma estandarizada.
+Nuestro primer punto es mejorar las solicitudes y respuestas. Para lograr esto, introduciremos un patrón interesante: DTO (Data Transfer Object). Los DTOs nos permiten transferir datos entre diferentes componentes de una aplicación, encapsulando la información de forma estandarizada.
 
 Gracias a los DTOs, podemos encapsular las solicitudes y respuestas mapeando entidades o diferentes tipos de datos entre ellos.
 
@@ -65,7 +65,7 @@ ROP es un concepto de programación funcional para manejar errores y componer op
 
 ## Testing
 
-Ahora entramos en una parte crucial y esencial: probar nuestro código. Para hacer esto, haremos uso de JUnit. JUnit es un ampliamente utilizado marco de pruebas de código abierto para aplicaciones Java.
+Ahora entramos en una parte crucial y esencial: probar nuestro código. Para hacer esto, haremos uso de JUnit. JUnit es un marco de pruebas de código abierto ampliamente utilizado para aplicaciones Java.
 
 Puedes encontrar el código de este proyecto en GitHub. Por favor, no olvides darle una estrella o seguirme para estar al tanto de nuevos tutoriales y noticias.
 

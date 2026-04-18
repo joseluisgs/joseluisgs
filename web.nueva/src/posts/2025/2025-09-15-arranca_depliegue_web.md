@@ -25,10 +25,10 @@ El objetivo central de este módulo es formarnos en las competencias necesarias 
 # Una ruta didáctica inspirada en el ciclo de vida profesional
 La programación de este módulo está diseñada para simular un flujo de trabajo profesional, priorizando el aprendizaje de herramientas y metodologías que son estándar en la industria. El temario va de lo general a lo específico, comenzando con las prácticas más relevantes antes de profundizar en los detalles técnicos del despliegue.
 
-Aquí tienes un vistazo a las unidades didácticas que componente el curso:
+Aquí tienes un vistazo a las unidades didácticas que componen el curso:
 
 - UD1: Introducción a la virtualización: Se sientan las bases de tecnologías como Docker y la virtualización de servidores en la nube y contenedores, fundamentales para crear entornos de trabajo aislados y replicables.
-- UD2: Control de versiones y documentación: Se aborda el uso de Git y GitHub, herramientas collaborativas que nos permiten gestionar la evolución del código y mantener una documentación precisa y accesible.
+- UD2: Control de versiones y documentación: Se aborda el uso de Git y GitHub, herramientas colaborativas que nos permiten gestionar la evolución del código y mantener una documentación precisa y accesible.
 - UD3: Arquitectura Web y Fundamentos del Despliegue: Una unidad teórica-práctica para comprender las bases de las arquitecturas web y los protocolos sobre los que se sustenta el funcionamiento de un servidor.
 - UD4: Despliegue de Páginas y Aplicaciones Web: Es el corazón del módulo. Aquí se aprende a instalar y configurar servidores web y de aplicaciones, creando sitios virtuales y asegurando las comunicaciones con certificados digitales.
 - UD5: Despliegue de Sistema de Transferencia de Ficheros: Se profundiza en la administración de servidores de archivos, aprendiendo a garantizar la disponibilidad y seguridad del servicio.

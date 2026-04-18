@@ -17,13 +17,13 @@ comment: false
 pageInfo: false
 ---
 
-La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan een esta página web.
+La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan en esta página web.
 
 ## ¿Qué son las cookies?
 Una cookie es un pequeño fragmento de texto que los sitios web que visita envían al navegador y que permite que el sitio web recuerde información sobre su visita, como su idioma preferido y otras opciones, con el fin de facilitar su próxima visita y hacer que el sitio le resulte más útil. Las cookies desempeñan un papel muy importante y contribuyen a tener una mejor experiencia de navegación para el usuario.
 
 ## Tipos de cookies
-Según quién sea la entidad que gestione el dominio desde dónde se envían las cookies y se traten los datos que se obtengan, se pueden distinguir dos tipos: cookies propias y cookies de terceros.
+Según quién sea la entidad que gestione el dominio desde donde se envían las cookies y se traten los datos que se obtengan, se pueden distinguir dos tipos: cookies propias y cookies de terceros.
 
 Existe también una segunda clasificación según el plazo de tiempo que permanecen almacenadas en el navegador del cliente, pudiendo tratarse de cookies de sesión o cookies persistentes.
 
@@ -42,7 +42,7 @@ A continuación se identifican las cookies que están siendo utilizadas en este 
 Pulsando el botón Aceptar se asume que usted acepta el uso de cookies.
 
 ## Cómo modificar la configuración de las cookies
-Usted puede restringir, bloquear o borrar las cookies del de esta web o cualquier otra página web utilizando su navegador. 
+Usted puede restringir, bloquear o borrar las cookies de esta web o cualquier otra página web utilizando su navegador. 
 En cada navegador la operativa es diferente, la función de «Ayuda» le mostrará cómo hacerlo. Ejemplos:
 
 Se pueden configurar los diferentes navegadores para avisar al usuario de la recepción de cookies y, si se desea, impedir su instalación en el equipo. Asimismo, el usuario puede revisar en su navegador qué cookies tiene instaladas y cuál es el plazo de caducidad de las mismas, pudiendo eliminarlas. Para ampliar esta información consulte las instrucciones y manuales de su navegador:

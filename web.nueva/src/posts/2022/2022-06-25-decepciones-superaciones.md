@@ -23,6 +23,6 @@ Todo comenzó cuando no pude dar una clase que tenía preparada. Pero esa situac
 Las decepciones son oportunidades de mejora. Lo importante es no rendirse y usar esa frustración como combustible para mejorar.
 
 ## Nuevo reconocimiento
-Fruto de todo este trabajo, he obtenido la certificación de Kotlin Trainer por parte de Jetbrains. Un reconocimiento que me llena de orgullo y que me compromete a seguir mejorando.
+Fruto de todo este trabajo, he obtenido la certificación de Kotlin Trainer por parte de JetBrains. Un reconocimiento que me llena de orgullo y que me compromete a seguir mejorando.
 
 Gracias a todos los que me acompañáis en este viaje.

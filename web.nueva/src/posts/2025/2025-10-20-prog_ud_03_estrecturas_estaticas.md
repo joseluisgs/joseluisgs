@@ -23,7 +23,7 @@ sidebar: false
 
 Las **Estructuras de Almacenamiento Estáticas** son la columna vertebral de la programación. En esta unidad, nos adentraremos en el manejo eficiente de datos mediante estructuras de tamaño fijo, centrándonos en los **Arrays** (vectores y matrices), la gestión avanzada de **Cadenas de Texto** y, finalmente, explorando los fundamentos de los **Algoritmos de Ordenación y Búsqueda** que nos permiten manipular y consultar estos datos.
 
-Comprender la **inmutabilidad** y el modelo de **paso por referencia** de estas estructuras en el lenguaje DAW es esencial para evitar errores comunes y escribir código robusto.
+Comprender la **inmutabilidad** y el modelo de **paso por referencia** de estas estructuras en el lenguaje C# es esencial para evitar errores comunes y escribir código robusto.
 
 <!-- more -->
 
@@ -41,9 +41,9 @@ Los arrays en DAW son estructuras de datos muy eficientes, caracterizadas por:
 
 ### 1.2. Indexación y Tipos de Referencia
 
-En el lenguaje DAW, la indexación es **Cero-basada**, es decir, el primer elemento se encuentra en el índice `0`. Acceder a un índice fuera de los límites (negativo o mayor/igual al tamaño) produce una excepción (`ArrayIndexOutOfBoundsException`).
+En C#, la indexación es **cero-basada**, es decir, el primer elemento se encuentra en el índice `0`. Acceder a un índice fuera de los límites (negativo o mayor o igual al tamaño) produce una excepción (`IndexOutOfRangeException`).
 
-Crucialmente, los arrays son **Tipos de Referencia** en DAW. Esto implica que:
+Crucialmente, los arrays son **tipos de referencia** en C#. Esto implica que:
 * Al pasar un array a una función, se pasa una **copia de su dirección de memoria** (referencia).
 * Cualquier modificación a los elementos dentro de la función afecta al array **original**.
 * Para obtener una copia verdaderamente independiente, se debe realizar una **Clonación Manual** (copia profunda), creando un nuevo array y copiando los valores elemento por elemento.

@@ -24,7 +24,7 @@ sidebar: false
 
 ---
 
-En noviembre de 2021, escribí un artículo que muchos de vosotros recordáis: **["Kotlin siempre en mi equipo"](https://joseluisgs.dev/blogs/2021/2021-11-28-kotlin-en-mi-equipo.html)**. En aquel entonces, defendía a Kotlin como la herramienta pedagógica definitiva (y lo sigue siendo). Sigo pensando que su diseño es magistral para su uso en la docencia, pero los tiempos han cambiado. La **Nueva Ley de FP**, la presión por enviar alumnos a la empresa en primero (quien pueda) y la realidad de un mercado backend en España que sigue anclado en tecnologías de "gran empresa", me han obligado realizar este cambio, con el objetivo de adaptar la enseñanza a las necesidades de esta nueva ley y su impacto en la docencia de primero (y segundo) de DAW donde tenemos que buscar el equilibrio entre la enseñanza de conceptos fundamentales (mi principal objetivo) y la preparación para el mercado laboral y la Fase de Formación en Empresas.
+En noviembre de 2021, escribí un artículo que muchos de vosotros recordáis: **["Kotlin siempre en mi equipo"](https://joseluisgs.dev/blogs/2021/2021-11-28-kotlin-en-mi-equipo.html)**. En aquel entonces, defendía a Kotlin como la herramienta pedagógica definitiva (y lo sigue siendo). Sigo pensando que su diseño es magistral para su uso en la docencia, pero los tiempos han cambiado. La **Nueva Ley de FP**, la presión por enviar alumnos a la empresa en primero (quien pueda) y la realidad de un mercado backend en España que sigue anclado en tecnologías de "gran empresa", me han obligado a realizar este cambio, con el objetivo de adaptar la enseñanza a las necesidades de esta nueva ley y su impacto en la docencia de primero (y segundo) de DAW, donde tenemos que buscar el equilibrio entre la enseñanza de conceptos fundamentales (mi principal objetivo) y la preparación para el mercado laboral y la Fase de Formación en Empresas.
 
 Este curso, he decidido pasarme a la **plataforma .NET con C#**. No es una decisión tomada a la ligera. Es una respuesta crítica y meditada a los retos que tenemos como docentes en este nuevo panorama educativo y profesional.
 
@@ -35,27 +35,27 @@ Antes de terminar este año 2025 y comenzar el 2026, quiero compartir con vosotr
 Te voy a dejar mis 20 razones para este cambio de paradigma en la docencia de DAW.
 
 
-## 1. Nueva FP ¿Por que Kotlin ya no es suficiente?
-Aunque Kotlin es un lenguaje moderno y expresivo, capaz de tocar de manera clara todos los paradigmas y conceptos de la programación, su ecosistema. Un lenguaje que ha experimentado un crecimiento significativo en los últimos años, especialmente en el desarrollo de aplicaciones Android y backend con Ktor o Spring Boot en todo el mundo. Sin embargo, su adopción en el mercado laboral español, especialmente en el ámbito empresarial, sigue siendo limitada en comparación con otras tecnologías más establecidas como .NET y JVM.
+## 1. Nueva FP: ¿Por qué Kotlin ya no es suficiente?
+Aunque Kotlin es un lenguaje moderno y expresivo, capaz de tocar de manera clara todos los paradigmas y conceptos de la programación, su ecosistema sigue siendo más limitado. Es un lenguaje que ha experimentado un crecimiento significativo en los últimos años, especialmente en el desarrollo de aplicaciones Android y backend con Ktor o Spring Boot en todo el mundo. Sin embargo, su adopción en el mercado laboral español, especialmente en el ámbito empresarial, sigue siendo limitada en comparación con otras tecnologías más establecidas como .NET y JVM.
 
-Antes, sin la fase de formación en empresas en primero, podía permitirme el lujo de enseñar Kotlin, centrándome en los conceptos fundamentales de la programación y dejando que los alumnos se adaptaran a las tecnologías específicas del mercado en segundo o durante sus prácticas. Kotlin es el mejor lenguaje puente para luego saltar a Java, C#, TypeScript, Swift o incluso Python.El objetivo era claro, enseñar a pensar en código, no en tecnologías específicas y en segundo espacializarnos en las tecnologías más demandadas con una base sólida y trabajada en primero.
+Antes, sin la fase de formación en empresas en primero, podía permitirme el lujo de enseñar Kotlin, centrándome en los conceptos fundamentales de la programación y dejando que los alumnos se adaptaran a las tecnologías específicas del mercado en segundo o durante sus prácticas. Kotlin es el mejor lenguaje puente para luego saltar a Java, C#, TypeScript, Swift o incluso Python. El objetivo era claro, enseñar a pensar en código, no en tecnologías específicas y en segundo especializarnos en las tecnologías más demandadas con una base sólida y trabajada en primero.
 
-El nuevo calendario de FP exige que los alumnos estén listos para formarse en empresas desde el primer año, con suerte. De hecho, ya no formamos tanto se cede parte de esa formación a las empresas (y perdonad que siga sin creérmelo, por lo menos en esta especialidad y en estos días, ojalá en el futuro cambie). A parte, tenemos el problema de las horas y si van todos los alumnos, si no van, a dónde van, etc. Un caos didáctico que me obliga a priorizar y buscar el equilibrio entre seguir trasmitiendo una base sólida de programación y preparar a los alumnos para que al menos puedan desenvolverse en la Fase de Formación en Empresas. Pero ya tenemos menos horas en primero y segundo, por lo que debo priorizar.
+El nuevo calendario de FP exige que los alumnos estén listos para formarse en empresas desde el primer año, con suerte. De hecho, ya no formamos tanto: se cede parte de esa formación a las empresas (y perdonad que siga sin creérmelo, por lo menos en esta especialidad y en estos días; ojalá en el futuro cambie). Aparte, tenemos el problema de las horas y si van todos los alumnos, si no van, a dónde van, etc. Un caos didáctico que me obliga a priorizar y buscar el equilibrio entre seguir transmitiendo una base sólida de programación y preparar a los alumnos para que al menos puedan desenvolverse en la Fase de Formación en Empresas. Pero ya tenemos menos horas en primero y segundo, por lo que debo priorizar.
 
-Debido a que yo no puedo asegurar la formación, ni horas ni a las empresas donde van a ir los alumnos o simplemente saber qué contenidos trabajaran en la empresa (y si los van a trabar realmente) debo asegurarme de que los conocimientos que adquieran en el aula sean directamente aplicables en el entorno laboral de una forma más directa. Y ahí es donde .NET brilla sobre Kotlin, por lo menos en España.
+Debido a que yo no puedo asegurar la formación, ni horas ni a las empresas donde van a ir los alumnos o simplemente saber qué contenidos trabajarán en la empresa (y si los van a trabajar realmente), debo asegurarme de que los conocimientos que adquieran en el aula sean directamente aplicables en el entorno laboral de una forma más directa. Y ahí es donde .NET brilla sobre Kotlin, por lo menos en España.
 
-**C# y .NET** ofrecen un equilibrio perfecto entre **modernidad, robustez y demanda laboral**. Permiten a los alumnos aprender conceptos fundamentales de programación (según mi punto de vista) mientras se preparation para un mercado que valora estas habilidades. 
+**C# y .NET** ofrecen un equilibrio perfecto entre **modernidad, robustez y demanda laboral**. Permiten a los alumnos aprender conceptos fundamentales de programación (según mi punto de vista) mientras se preparan para un mercado que valora estas habilidades. 
 
-Quiero destacar que no soy un novato de C# y .NET, de hecho gané un premio con C# junto a mi equipo, Microsoft Imagine Cup España 2007 en lae especialidad de "Software Design" [ver](https://www.eleconomista.es/empresas-finanzas/noticias/196598/04/07/Estudiantes-granadinos-representaran-a-Espana-en-la-Imagine-Cup-Microsoft.html), pasé a Kotlin porque es la leche, y soy formador/certificador con JetBrains a nivel de mundial y ahora vuelvo a C#. He visto la evolución de ambos lenguajes y plataformas, y creo que .NET ha madurado de una manera que lo hace ideal para la enseñanza en DAW actual, bajo mi filosofía de aprendizaje. Creo que mi experiencia me permite hacer esta afirmación con fundamento y objetividad.
+Quiero destacar que no soy un novato de C# y .NET, de hecho gané un premio con C# junto a mi equipo, Microsoft Imagine Cup España 2007 en la especialidad de "Software Design" [ver](https://www.eleconomista.es/empresas-finanzas/noticias/196598/04/07/Estudiantes-granadinos-representaran-a-Espana-en-la-Imagine-Cup-Microsoft.html), pasé a Kotlin porque es la leche, y soy formador/certificador con JetBrains a nivel mundial y ahora vuelvo a C#. He visto la evolución de ambos lenguajes y plataformas, y creo que .NET ha madurado de una manera que lo hace ideal para la enseñanza en DAW actual, bajo mi filosofía de aprendizaje. Creo que mi experiencia me permite hacer esta afirmación con fundamento y objetividad.
 
 # Ventajas clave de C# y .NET para 1º DAW
 
 ## 2. El "Muro de Entrada": La pedagogía del punto de entrada
 
-Sabemos que Java es poderoso, pero que le cuesta evolucionar y que otros lenguajes han tomado la delantera en términos de características modernas. Sin embargo,uno de los mayores errores de Java ha sido su incapacidad para adaptarse a una enseñanza gradual, para ir conociendo todos los paradigmas y fundamentos algorítmicos. Para que un alumno escriba su primera línea de código en Java, tiene que realizar un "acto de fe" masivo. Tiene que escribir una clase, un método estático y entender qué es un array de strings.
+Sabemos que Java es poderoso, pero que le cuesta evolucionar y que otros lenguajes han tomado la delantera en términos de características modernas. Sin embargo, uno de los mayores errores de Java ha sido su incapacidad para adaptarse a una enseñanza gradual, para ir conociendo todos los paradigmas y fundamentos algorítmicos. Para que un alumno escriba su primera línea de código en Java, tiene que realizar un "acto de fe" masivo. Tiene que escribir una clase, un método estático y entender qué es un array de strings.
 
 **Java (El peso de la herencia):**
-Para explicar esto, tengo que adelantar conceptos de Programación Orientada a Objetos (clases), Visibilidad (`public`) y Contexto Estático (`static`) y ver que hay un array de strings (`String[] args`) cuando el alumnoo aún no sabe qué es una variable y solo quiere escribir su primera línea de código.
+Para explicar esto, tengo que adelantar conceptos de Programación Orientada a Objetos (clases), Visibilidad (`public`) y Contexto Estático (`static`) y ver que hay un array de strings (`String[] args`) cuando el alumno aún no sabe qué es una variable y solo quiere escribir su primera línea de código.
 
 ```java
 public class Main {
@@ -66,7 +66,7 @@ public class Main {
 
 ```
 
-Incluso con las mejoras recientes (JEP 445), Java lucha por ocultar su complejidad, pero la estructura subyacente sigue asomando de forma prematura, enseñando lo que es un método `main` antes de que el alumnoo entienda la lógica básica.
+Incluso con las mejoras recientes (JEP 445), Java lucha por ocultar su complejidad, pero la estructura subyacente sigue asomando de forma prematura, enseñando lo que es un método `main` antes de que el alumno entienda la lógica básica.
 
 ```java
 void main() {
@@ -75,7 +75,7 @@ void main() {
 ```
 
 
-En cambio, **C# con Top-Level Statements** permite seguir el orden lógico del razonamiento humano: **Estructurada -> Modular -> Objetos -> Funcional**. Empezamos con la lógica, y el resto viene después, cuando el alumnoo está preparado. Sin duda es más eficiente pedagógicamente, no necesitas ni un método `main`.
+En cambio, **C# con Top-Level Statements** permite seguir el orden lógico del razonamiento humano: **Estructurada -> Modular -> Objetos -> Funcional**. Empezamos con la lógica, y el resto viene después, cuando el alumno está preparado. Sin duda es más eficiente pedagógicamente, no necesitas ni un método `main`.
 
 **C# (Moderno):**
 
@@ -87,7 +87,7 @@ Console.WriteLine("Aquí empieza la lógica, no la burocracia");
 
 ### Modularidad sin redundancia
 
-Mientras Java intenta simplificar su sintaxis, C# ya ofrece un ecosistema maduro donde la modularidad es limpia y potente. Un ejemplo claro es la gestión de parámetros: en lugar de obligar al alumnoo a aprender la **sobrecarga de métodos** (escribir el mismo método varias veces con distintos argumentos), C# utiliza **parámetros opcionales y nombrados**.
+Mientras Java intenta simplificar su sintaxis, C# ya ofrece un ecosistema maduro donde la modularidad es limpia y potente. Un ejemplo claro es la gestión de parámetros: en lugar de obligar al alumno a aprender la **sobrecarga de métodos** (escribir el mismo método varias veces con distintos argumentos), C# utiliza **parámetros opcionales y nombrados**.
 
 Esto no solo es más fácil de enseñar, sino que es más eficiente en el mundo real.
 
@@ -130,7 +130,7 @@ var otroTexto = "Adiós, Mundo"; // El compilador infiere que es string
 
 ## 4. Seguridad ante nulos: Compilación vs. Runtime
 
-Para mi esto es fundamental y más si este control es a nivel de compilación. El `NullPointerException` es el cáncer del aprendizaje. Java intentó solucionarlo con `Optional`, pero es un parche verboso que ensucia el código. En C#, el control de nulos es nativo y ocurre en **tiempo de compilación y de manera elegante**.
+Para mí esto es fundamental, y más aún si este control es a nivel de compilación. El `NullPointerException` es el cáncer del aprendizaje. Java intentó solucionarlo con `Optional`, pero es un parche verboso que ensucia el código. En C#, el control de nulos es nativo y ocurre en **tiempo de compilación y de manera elegante**.
 
 **La verbosidad de Java con Optional:**
 
@@ -144,13 +144,13 @@ String resultado = nombre.map(String::toUpperCase).orElse("SIN NOMBRE");
 En C#, si una variable puede ser nula, lleva un `?`. Si no, el compilador te avisa. Es el mismo poder que me enamoró de Kotlin.
 
 ```csharp
-string? nombre = alumnoo.Nombre;
+string? nombre = alumno.Nombre;
 string resultado = nombre?.ToUpper() ?? "SIN NOMBRE"; // El compilador me protege
 
 ```
 
 ## 5. Propiedades: Encapsulamiento sin el ruido
-En Java, el encapsulamiento requiere escribir métodos `get` y `set`, lo que añade ruido y complexité innecesaria, salvo que uses librerías de terceros como Lombok. C# introduce **propiedades** que permiten un acceso limpio y controlado a los campos, manteniendo el encapsulamiento sin la verbosidad, muy similar a Kotlin.
+En Java, el encapsulamiento requiere escribir métodos `get` y `set`, lo que añade ruido y complejidad innecesaria, salvo que uses librerías de terceros como Lombok. C# introduce **propiedades** que permiten un acceso limpio y controlado a los campos, manteniendo el encapsulamiento sin la verbosidad, muy similar a Kotlin.
 
 
 
@@ -176,7 +176,7 @@ public class Alumno {
 }
 ```
 
-Podemos indicar que si una Propiedad es de solo lectura o escritura, usando `get;` o `set;` según convenga, o si es inmutable usando `init;` o la visibilidad, por ejemplo que no se pueda modificar desde fuera de la clase `private set;
+Podemos indicar que una propiedad es de solo lectura o escritura, usando `get;` o `set;` según convenga, o si es inmutable usando `init;` o la visibilidad, por ejemplo, que no se pueda modificar desde fuera de la clase con `private set;`.
 
 ```csharp
 public class Alumno {
@@ -184,9 +184,9 @@ public class Alumno {
     public int Edad { get; init; } // Inmutable después de la inicialización
 }
 
-var alumnoo = new Alumno { Nombre = "Luis", Edad = 20 };
+var alumno = new Alumno { Nombre = "Luis", Edad = 20 };
 ```
-Finalmente , con las Backing Fields, podemos tener lógica adicional en las propiedades sin perder la simplicidad, o usar campos calculados si es necesario.
+Finalmente, con las Backing Fields, podemos tener lógica adicional en las propiedades sin perder la simplicidad, o usar campos calculados si es necesario.
 
 ```csharp
 public class Alumno {
@@ -218,8 +218,8 @@ public struct Punto {
 public record Alumno(string Nombre, int Edad); // Inmutable y por valor
 
 var punto = new Punto { X = 10, Y = 20 };
-var alumnoo = new Alumno("Juan", 20);
-var otroAlumno = alumnoo with { Edad = 21 }; // Nuevo objeto con cambio
+var alumno = new Alumno("Juan", 20);
+var otroAlumno = alumno with { Edad = 21 }; // Nuevo objeto con cambio
 
 // Tuplas para múltiples valores
 (int suma, int producto) Calcular(int a, int b) {
@@ -231,16 +231,16 @@ var (suma, producto) = Calcular(3, 4);
 
 ```
 
-## 7. Inicializadores de con Propiedades o constructores con parámetros nombrados y valores por defecto
+## 7. Inicializadores con propiedades o constructores con parámetros nombrados y valores por defecto
 C# permite inicializar objetos usando inicializadores de propiedades, lo que hace que el código sea más limpio y fácil de leer, similar a los data classes de Kotlin. 
 ```csharp
-var alumnoo = new Alumno {
+var alumno = new Alumno {
     Nombre = "Ana",
     Edad = 22
 };
 ```
 
-Además, los constructores en C# pueden tener parámetros nombrados y valores por defecto, lo que facilita la creación de objetos sin necesidad de m��ltiples sobrecargas de constructores, cosa que ya hemos visto antes.
+Además, los constructores en C# pueden tener parámetros nombrados y valores por defecto, lo que facilita la creación de objetos sin necesidad de múltiples sobrecargas de constructores, cosa que ya hemos visto antes.
 
 ```csharp
 public class Alumno {
@@ -253,7 +253,7 @@ public class Alumno {
     }
 }
 
-var alumnoo = new Alumno(edad: 22); // Nombre por defecto, Edad especificada
+var alumno = new Alumno(edad: 22); // Nombre por defecto, Edad especificada
 ```
 
 Finalmente, tenemos constructores primarios, ideales para ir al grano cuando queremos definir clases inmutables o registros.
@@ -263,7 +263,7 @@ public class Alumno(string nombre, int edad) {
     public string Nombre { get; } = nombre;
     public int Edad { get; } = edad;
 }
-var alumnoo = new Alumno("Luis", 20);
+var alumno = new Alumno("Luis", 20);
 ```
 
 ## 8. LINQ: El lenguaje de las colecciones que habla SQL
@@ -292,7 +292,7 @@ var aprobadas = listaAlumnos
     .ToList();
 ```
 
-A parte de todo esto, C# y .NET ofrecen muchas colecciones y estructuras de datos listas para usar, lo que facilita la enseñanza de algoritmos y estructuras fundamentales sin tener que reinventar la rueda, ya sean listas, diccionarios, conjuntos, pilas o colas, todas con una sintaxis coherente y fácil de entender, además de sus versiones inmutables y concurrentes.
+Aparte de todo esto, C# y .NET ofrecen muchas colecciones y estructuras de datos listas para usar, lo que facilita la enseñanza de algoritmos y estructuras fundamentales sin tener que reinventar la rueda, ya sean listas, diccionarios, conjuntos, pilas o colas, todas con una sintaxis coherente y fácil de entender, además de sus versiones inmutables y concurrentes.
 
 
 ## 9. Programación Funcional, Extensiones y Pattern Matching
@@ -343,9 +343,9 @@ Al contrario de Java, que requiere librerías externas para muchas tareas comune
 
 ```csharp
 // Leer y escribir JSON nativo
-var alumnoo = new Alumno { Nombre = "Luis", Edad = 23 };
-string json = JsonSerializer.Serialize(alumnoo);
-var alumnooRecuperado = JsonSerializer.Deserialize<Alumno>(json);
+var alumno = new Alumno { Nombre = "Luis", Edad = 23 };
+string json = JsonSerializer.Serialize(alumno);
+var alumnoRecuperado = JsonSerializer.Deserialize<Alumno>(json);
 ```
 
 ## 12. Bases de Datos
@@ -389,7 +389,7 @@ var alumnos = contexto.Alumnos
 ```
 
 ## 13. Interfaces de Usuario: Muchas opciones para todos los niveles
-C# y .NET ofrecen múltiples opciones para crear interfaces de usuario, desde aplicaciones de consola hasta aplicaciones web y de escritorio. Esto permite adaptar la enseñanza según el nivel del alumnoo y el contexto del proyecto trasmitiendo conceptos de estado de la interfaz, eventos y si es necesario patrones de diseño como MVVM o MVC.
+C# y .NET ofrecen múltiples opciones para crear interfaces de usuario, desde aplicaciones de consola hasta aplicaciones web y de escritorio. Esto permite adaptar la enseñanza según el nivel del alumno y el contexto del proyecto transmitiendo conceptos de estado de la interfaz, eventos y, si es necesario, patrones de diseño como MVVM o MVC.
 
 ## 14. Testing con NUnit y Moq
 C# tiene un ecosistema de testing muy maduro con frameworks como **NUnit** para pruebas unitarias y **Moq** para mocking. Esto facilita la enseñanza de buenas prácticas de desarrollo y asegura que los alumnos comprendan la importancia de las pruebas en el desarrollo de software.
@@ -408,11 +408,11 @@ public class AlumnoServiceTests {
 
 # Ventajas clave de C# y .NET para 2º DAW
 
-Aquí viene el gran cambio, pues uno de mis objetivos eran enseñar tres entornos: JVM (SpringBoot), .NET (ASP.NET Core) y PHP (Laravel). Y así fue hasta el año pasado, Este será el último año que lo haga de hecho ya ha desaparecido PHP. Por lo que solo me centraré en JVM y .NET a nivel de servicios y páginas web dinámicas. El motivo, es que no hay tiempo, puedes tener alumnos que no han hecho la fase de formación en empresas de primero y se le suman las horas a segundo. Un caos que de nuevo me obliga a priorizar. Más vale poco bien hecho que mucho mal hecho. Además, no salir de .NET me permite profundizar más y mejor en un solo ecosistema.
+Aquí viene el gran cambio, pues uno de mis objetivos eran enseñar tres entornos: JVM (SpringBoot), .NET (ASP.NET Core) y PHP (Laravel). Y así fue hasta el año pasado. Este será el último año que lo haga; de hecho, ya ha desaparecido PHP. Por lo que solo me centraré en JVM y .NET a nivel de servicios y páginas web dinámicas. El motivo es que no hay tiempo: puedes tener alumnos que no han hecho la fase de formación en empresas de primero y a los que se les suman las horas de segundo. Un caos que de nuevo me obliga a priorizar. Más vale poco bien hecho que mucho mal hecho. Además, no salir de .NET me permite profundizar más y mejor en un solo ecosistema.
 
-## 15. Asincronía, Reactividad y ROP: La bases del backend moderno
+## 15. Asincronía, Reactividad y ROP: Las bases del backend moderno
 
-Enseñarle a un alumnoo `CompletableFuture` en Java es invitarle a dejar la programación (sé que he exagerado), pero debes unirle lo que es el ExecutorService. En C#, el modelo `async/await` es tan transparente que la programación asíncrona deja de ser un "muro" para ser una herramienta más. Muy similar a lo que pueden encontrar en JavaScript/TypeScript.
+Enseñarle a un alumno `CompletableFuture` en Java es invitarle a dejar la programación (sé que he exagerado), pero debes unirle lo que es el ExecutorService. En C#, el modelo `async/await` es tan transparente que la programación asíncrona deja de ser un "muro" para ser una herramienta más. Muy similar a lo que pueden encontrar en JavaScript/TypeScript.
 
 **Asincronía limpia:**
 
@@ -433,8 +433,8 @@ Podemos usar colecciones Asíncronas o Reactivas dependiendo si queremos un patr
 public async IAsyncEnumerable<Alumno> GetAlumnosAsync() {
     var response = await _client.GetAsync("/api/alumnos");
     var alumnos = await response.Content.ReadFromJsonAsync<List<Alumno>>();
-    foreach (var alumnoo in alumnos) {
-        yield return alumnoo;
+    foreach (var alumno in alumnos) {
+        yield return alumno;
     }
 }
 
@@ -443,8 +443,8 @@ public IObservable<Alumno> GetAlumnosObservable() {
     return Observable.Create<Alumno>(async observer => {
         var response = await _client.GetAsync("/api/alumnos");
         var alumnos = await response.Content.ReadFromJsonAsync<List<Alumno>>();
-        foreach (var alumnoo in alumnos) {
-            observer.OnNext(alumnoo);
+        foreach (var alumno in alumnos) {
+            observer.OnNext(alumno);
         }
         observer.OnCompleted();
     });
@@ -453,8 +453,8 @@ public IObservable<Alumno> GetAlumnosObservable() {
 var alumnosAsync = GetAlumnosAsync().Where(a => a.Edad >= 18)
     .Select(a => new { a.Nombre, a.Edad } );
 
-await foreach (var alumnoo in alumnosAsync) {
-    Console.WriteLine($"{alumnoo.Nombre} - {alumnoo.Edad}");
+await foreach (var alumno in alumnosAsync) {
+    Console.WriteLine($"{alumno.Nombre} - {alumno.Edad}");
 }
 
 var alumnosObservable = GetAlumnosObservable()
@@ -462,10 +462,10 @@ var alumnosObservable = GetAlumnosObservable()
     .Select(a => new { a.Nombre, a.Edad });
 
 alumnosObservable.Subscribe(alumno => 
-    Console.WriteLine($"{alumnoo.Nombre} - {alumnoo.Edad}"));
+    Console.WriteLine($"{alumno.Nombre} - {alumno.Edad}"));
 ```
 
-**ROP: Adios al Try-Catch infinito**
+**ROP: Adiós al Try-Catch infinito**
 C# permite implementar el patrón de "Vía de Tren". Si algo falla, el flujo se desvía, pero el código sigue siendo una línea recta. Los errores de dominio no son excepciones, son datos.
 
 ```csharp
@@ -479,7 +479,7 @@ public Result<Alumno> Registrar(AlumnoRequest req) =>
 
 var resultado = servicio.Registrar(req)
     .Match(
-      alumnoo => Console.WriteLine($"Alumno registrado: {alumnoo.Id}"),
+    alumno => Console.WriteLine($"Alumno registrado: {alumno.Id}"),
       error => Console.WriteLine($"Error: {error.Mensaje}")
 );
 
@@ -489,7 +489,7 @@ var resultado = servicio.Registrar(req)
 
 ## 16. ASP.NET Core: El "Navío Insignia" del Backend para 2DAW
 
-ASP.NET Core no es solo un framework; es un ecosistema coherente para DAW. Permite crear APIs RESTful robustas y escalables con una curva de aprendizaje suave. Su integración nativa con Entity Framework Core, Identity para seguridad y Middleware para gestión de peticiones lo convierten en una opción completa para el desarrollo backend. Además lo podemos usar no solo para servicios sino también para aplicaciones web completas con Razor Pages o Blazor.
+ASP.NET Core no es solo un framework; es un ecosistema coherente para DAW. Permite crear APIs RESTful robustas y escalables con una curva de aprendizaje suave. Su integración nativa con Entity Framework Core, Identity para seguridad y Middleware para gestión de peticiones lo convierten en una opción completa para el desarrollo backend. Además, lo podemos usar no solo para servicios, sino también para aplicaciones web completas con Razor Pages o Blazor.
 
 ### Controladores REST con ASP.NET Core MVC
 
@@ -520,8 +520,8 @@ public class AlumnosController(IService service) : ControllerBase
 }
 ```
 
-### Minimal APIs con Minimal APIs
-ASP.NET Core permite crear APIs mínimas con una sintaxis muy concisa, ideal para microservicios o prototipos rápidos. Con `MapGroup`, mantenemos la organización del código sin necesidad de decoradores como [Route]. Al eliminar el motor de controladores, el pipeline de ASP.NET Core tiene menos capas que atravesar. El resultado es un menor consumo de memoria y un tiempo de respuesta más rápido (menor latencia), ideal para arquitecturas modernas de microservicios o aplicaciones de alto rendimiento.
+### Minimal APIs
+ASP.NET Core permite crear APIs mínimas con una sintaxis muy concisa, ideal para microservicios o prototipos rápidos. Con `MapGroup`, mantenemos la organización del código sin necesidad de decoradores como `[Route]`. Al eliminar el motor de controladores, el pipeline de ASP.NET Core tiene menos capas que atravesar. El resultado es un menor consumo de memoria y un tiempo de respuesta más rápido (menor latencia), ideal para arquitecturas modernas de microservicios o aplicaciones de alto rendimiento.
 
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
@@ -538,7 +538,7 @@ alumnosApi.MapGet("/{id:int}", async (int id, IService service) =>
         ? Results.Ok(res) 
         : Results.NotFound());
 
-// POST: Crear nuevo alumnoo
+// POST: Crear nuevo alumno
 alumnosApi.MapPost("/", async (AlumnoRequest req, IService service) =>
 {
     var resultado = await service.Save(req);
@@ -720,10 +720,10 @@ public class AlumnoService {
         if (cachedAlumno != null) {
             return JsonSerializer.Deserialize<Alumno>(cachedAlumno);
         }
-        // Lógica para obtener el alumnoo de la base de datos
-        var alumnoo = await ObtenerAlumnoDeBD(id);
+        // Lógica para obtener el alumno de la base de datos
+        var alumno = await ObtenerAlumnoDeBD(id);
         await _cache.SetStringAsync($"alumno_{id}", JsonSerializer.Serialize(alumno));
-        return alumnoo;
+        return alumno;
     }
 }
 ```
@@ -732,7 +732,7 @@ public class AlumnoService {
 
 Este es el punto donde Java (Spring Boot) pierde por goleada.
 
-¿Por qué? Porque en Java los motores de plantillas son "ciegos". No tienen ni idea de lo que pasa en el backend. Si cambias una propiedad en el modelo, el HTML sigue igual. Tienes que hacer todo a mano, y si quieres reactividad, te toca JavaScript. Por otro lado, ¿Cuál es el motor de plantillas ideal para Java y Spring Boot? Thymeleaf, Pebble, FreeMarker... todos ellos con sus pros y contras, pero ninguno perfecto. y además, ninguno con tipado fuerte y oficial dentro del Framework.
+¿Por qué? Porque en Java los motores de plantillas son "ciegos". No tienen ni idea de lo que pasa en el backend. Si cambias una propiedad en el modelo, el HTML sigue igual. Tienes que hacer todo a mano, y si quieres reactividad, te toca JavaScript. Por otro lado, ¿cuál es el motor de plantillas ideal para Java y Spring Boot? Thymeleaf, Pebble, FreeMarker... todos ellos con sus pros y contras, pero ninguno perfecto. Y además, ninguno con tipado fuerte y oficial dentro del Framework.
 
 * **Razor:** Los motores de plantillas de Java son "ciegos". En Razor, si cambias una propiedad en el modelo, **el HTML no compila**. Tienes tipado fuerte en la vista. Si tienes un modelo `Alumno` con una propiedad `Nombre`, y en la vista intentas acceder a `NombreCompleto`, el compilador te avisará de que esa propiedad no existe. Esto evita errores en tiempo de ejecución y mejora la calidad del código. Es el motor de plantillas oficial de ASP.NET Core y está profundamente integrado con el framework. 
 
@@ -749,7 +749,7 @@ Este es el punto donde Java (Spring Boot) pierde por goleada.
 <p>Mayor de edad: @mayorDeEdad</p>
 ```
 
-* **Blazor Server:** Permite crear interfaces interactivas y reactivas usando **C# en el cliente**. El estado vive en el servidor y se comunica vía SignalR (Websocket). No confundir con Blazor en WebAssembly (solo cliente). El alumnoo puede crear una SPA sin haber tocado una sola línea de JavaScript si aún no está preparado para ello. Con ello a sus páginas web dinámicas les añade reactividad y capacidad de respuesta en tiempo real. De hecho su sintaxis es muy similar a Razor, por lo que el aprendizaje es progresivo dentro del mismo ecosistema. De hecho, podríamos acceder a los servicios del backend que quedan comunicados via SignalR.
+* **Blazor Server:** Permite crear interfaces interactivas y reactivas usando **C# en el cliente**. El estado vive en el servidor y se comunica vía SignalR (Websocket). No confundir con Blazor en WebAssembly (solo cliente). El alumno puede crear una SPA sin haber tocado una sola línea de JavaScript si aún no está preparado para ello. Con ello, a sus páginas web dinámicas les añade reactividad y capacidad de respuesta en tiempo real. De hecho, su sintaxis es muy similar a Razor, por lo que el aprendizaje es progresivo dentro del mismo ecosistema. De hecho, podríamos acceder a los servicios del backend que quedan comunicados vía SignalR.
 
 **Ejemplo de Blazor (Reactividad pura):**
 
@@ -789,11 +789,11 @@ Console.WriteLine(filtrado.Description());
 
 ## 19. Fundamentos o muerte: El rol del programador en la era de la IA
 
-Hoy en día, la sintaxis ha pasado a ser una *commodity*. Es barata, casi gratuita. Si un alumnoo quiere un bucle que recorra un array y filtre los pares, la IA se lo da en segundos (si sabes escribir el prompt adecuado). Como profesor, soy plenamente consciente de que mis alumnos usan estas herramientas, y es precisamente por eso que **la exigencia en los fundamentos debe ser más feroz que nunca.**
+Hoy en día, la sintaxis ha pasado a ser una *commodity*. Es barata, casi gratuita. Si un alumno quiere un bucle que recorra un array y filtre los pares, la IA se lo da en segundos (si sabes escribir el prompt adecuado). Como profesor, soy plenamente consciente de que mis alumnos usan estas herramientas, y es precisamente por eso que **la exigencia en los fundamentos debe ser más feroz que nunca.**
 
 ### El espejismo de la productividad
 
-El gran peligro de la IA en el aula es el "programador Frankenstein": aquel que pega trozos de código que funcionan por puro azar, pero que no entiende la arquitectura que los sostiene. Sin una base sólida, el alumnoo es un rehén de la IA. Si no conoces los fundamentos, **¿cómo vas a auditar lo que la máquina te entrega?** ¿Cómo vas a saber si ese código es eficiente, seguro o si está introduciendo una deuda técnica inasumible? Esto siemprelo hemos defendido incluso antes de este "boom" de la IA, pero ahora es más crítico que nunca saber el porqué detrás del qué.
+El gran peligro de la IA en el aula es el "programador Frankenstein": aquel que pega trozos de código que funcionan por puro azar, pero que no entiende la arquitectura que los sostiene. Sin una base sólida, el alumno es un rehén de la IA. Si no conoces los fundamentos, **¿cómo vas a auditar lo que la máquina te entrega?** ¿Cómo vas a saber si ese código es eficiente, seguro o si está introduciendo una deuda técnica inasumible? Esto siempre lo hemos defendido incluso antes de este "boom" de la IA, pero ahora es más crítico que nunca saber el porqué detrás del qué.
 
 Si no sabes qué es una **Inyección de Dependencias**, no sabrás por qué la IA te está sugiriendo un constructor con cinco interfaces. Si no entiendes el **Contexto de Asincronía**, no sabrás por qué tu aplicación se bloquea a pesar de que el código "parece" correcto o cuando es mejor ser asíncrono frente a reactivo o las ventajas de algunos patrones de diseño. Si no sabes qué es un **ORM** y cómo funciona, no entenderás las implicaciones de usar Entity Framework Core frente a ADO.NET puro. Y así con todo.
 
@@ -811,9 +811,9 @@ He elegido .NET y C# no por capricho, sino porque es un ecosistema "total". Toca
 
 ### El lenguaje como medio, el fundamento como fin
 
-La IA nos permite algo maravilloso: **la capacidad de migrar.** Si un alumnoo sale de mis clases con una base sólida en C#, mañana podrá usar la IA para saltar a Java, Kotlin, TypeScript, C++, Rust, Go o Swift en una semana. ¿Por qué? Porque ya conoce los conceptos subyacentes. La IA le traducirá la sintaxis, pero el alumnoo pondrá el criterio, la estructura y el juicio crítico. Eso es parte de lo que intento enseñar y fomento en las partes de autoaprendizaje y proyectos.
+La IA nos permite algo maravilloso: **la capacidad de migrar.** Si un alumno sale de mis clases con una base sólida en C#, mañana podrá usar la IA para saltar a Java, Kotlin, TypeScript, C++, Rust, Go o Swift en una semana. ¿Por qué? Porque ya conoce los conceptos subyacentes. La IA le traducirá la sintaxis, pero el alumno pondrá el criterio, la estructura y el juicio crítico. Eso es parte de lo que intento enseñar y fomento en las partes de autoaprendizaje y proyectos.
 
-Mi objetivo no es formar "picacodigos" de C# (tampoco lo era antes con Kotlin) Mi objetivo es formar un perfil de **analistas/programadores** que usen C# como el laboratorio perfecto para entender cómo se construye software profesional. En un mundo lleno de ruido generado por código automatizado, el valor diferencial del humano es su capacidad de comprender los pilares. Si sabes cómo funciona el motor, no importa qué coche te den mañana: sabrás conducirlo. Recuerda, la tecnología cambia, pero los fundamentos permanecen.
+Mi objetivo no es formar "picacódigos" de C# (tampoco lo era antes con Kotlin). Mi objetivo es formar un perfil de **analistas/programadores** que usen C# como el laboratorio perfecto para entender cómo se construye software profesional. En un mundo lleno de ruido generado por código automatizado, el valor diferencial del humano es su capacidad de comprender los pilares. Si sabes cómo funciona el motor, no importa qué coche te den mañana: sabrás conducirlo. Recuerda, la tecnología cambia, pero los fundamentos permanecen.
 
 ---
 
@@ -823,7 +823,7 @@ La FP moderna en España se ha convertido en un campo de batalla donde el docent
 
 ### La falacia de la "Formación en Empresa"
 
-La nueva ley nos vende la "Dualidad" como la panacea, pero la realidad a pie de calle es mucho más cruda. Existe una **incertidumbre total sobre qué formación recibirá el alumnoo en la empresa**. Primero, ¿irán todos y en qué turnos? Por otro lado, mientras un alumnoo tiene la suerte de entrar en un equipo de desarrollo sólido que le enseña conceptos y fundamentos guiados, otro acaba en una empresa donde "hacer programación" consiste en maquetar tablas en HTML o cambiar colores en un CSS, sin tocar una sola línea de lógica de negocio, arquitectura o bases de datos. Otros, solo ven SQL y nada de código y otros ni eso.
+La nueva ley nos vende la "Dualidad" como la panacea, pero la realidad a pie de calle es mucho más cruda. Existe una **incertidumbre total sobre qué formación recibirá el alumno en la empresa**. Primero, ¿irán todos y en qué turnos? Por otro lado, mientras un alumno tiene la suerte de entrar en un equipo de desarrollo sólido que le enseña conceptos y fundamentos guiados, otro acaba en una empresa donde "hacer programación" consiste en maquetar tablas en HTML o cambiar colores en un CSS, sin tocar una sola línea de lógica de negocio, arquitectura o bases de datos. Otros solo ven SQL y nada de código, y otros ni eso.
 
 En segundo es más de lo mismo, pero siempre tiene el objetivo de tener alumnos productivos. Reducir el proceso de aprendizaje para tener alumnos que produzcan cual trabajadores. Es un error saltarse algunas etapas del aprendizaje. por suerte eso no pasa en este ciclo, y nuestros alumnos están bien valorados en las empresas por la formación que reciben en el aula en todos los módulos de DAW.
 
@@ -831,7 +831,7 @@ Como docente, **no puedo permitir que el azar decida la calidad profesional de m
 
 ### Un compromiso ético: No somos una fábrica de títulos
 
-Podría limitarme a seguir el currículo, poner parches en varios lenguajes o entornos, hacer la vista gorda con la IA y expedir títulos que, en el fondo, serían papel mojado. Pero **mi ética profesional me lo impide**. No quiero ser parte de una maquinaria que regala diplomas sin sentido; quiero asegurar que cuando un alumnoo mío sale al mercado laboral, lo hace con garantías reales de competencia, de capacidad de adaptación y autoaprendizaje.
+Podría limitarme a seguir el currículo, poner parches en varios lenguajes o entornos, hacer la vista gorda con la IA y expedir títulos que, en el fondo, serían papel mojado. Pero **mi ética profesional me lo impide**. No quiero ser parte de una maquinaria que regala diplomas sin sentido; quiero asegurar que cuando un alumno mío sale al mercado laboral, lo hace con garantías reales de competencia, de capacidad de adaptación y autoaprendizaje.
 
 El cambio a **Full Stack C#** es, en esencia, una decisión ética y práctica en el aula. Es un reto reescribir apuntes, prácticas y proyectos, pero es un "sacrificio" (hecho con mucho gusto) necesario para garantizar que mis alumnos no solo sobrevivan, sino que prosperen en un entorno profesional cada vez más exigente y automatizado. Les ofrezco:
 
@@ -843,8 +843,8 @@ El cambio a **Full Stack C#** es, en esencia, una decisión ética y práctica e
 
 No os voy a engañar: este cambio lo he hecho con una sonrisa. Yo venía de .NET y C# (en proyectos gordos e importantes),y volver a este ecosistema me hace sentir "en casa". Pero no vuelvo igual; vuelvo con la experiencia de haber explorado otros mundos de una manera bastante profunda y con la capacidad de importar lo mejor de ellos para aplicarlo en mi docencia.
 
-¿Qué pasará con Kotlin? Seguiré usándolo en proyectos personales y de investigación. Sigo collaborando con JetBrains en iniciativas educativas y asesorando a otros profesionales en distintos cursos y actividades formativas por todo el mundo.
+¿Qué pasará con Kotlin? Seguiré usándolo en proyectos personales y de investigación. Sigo colaborando con JetBrains en iniciativas educativas y asesorando a otros profesionales en distintos cursos y actividades formativas por todo el mundo.
 
-Deseo que este cambio sirva para que, tanto alumnos como otros docentes, entendáis que la programación no va de subirse al carro del último lenguaje "de moda". Va de **fundamentos sólidos, de criterio técnico y de respeto por la profesión**. Hoy por hoy, para mí, no existe mejor alternativa que .NET y C# para lograr este objetivo en el complejo contexto de DAW. ¿Mañana? Quién sabe. La tecnología evoluciona, y nosotros, como docentes, debemos evolucionar con ella, siempre con la mirada puesta en lo que realmente importa: **la formación integral y crítica de nuestros alumnos.** ¿y tú, qué opinas?
+Deseo que este cambio sirva para que, tanto alumnos como otros docentes, entendáis que la programación no va de subirse al carro del último lenguaje "de moda". Va de **fundamentos sólidos, de criterio técnico y de respeto por la profesión**. Hoy por hoy, para mí, no existe mejor alternativa que .NET y C# para lograr este objetivo en el complejo contexto de DAW. ¿Mañana? Quién sabe. La tecnología evoluciona, y nosotros, como docentes, debemos evolucionar con ella, siempre con la mirada puesta en lo que realmente importa: **la formación integral y crítica de nuestros alumnos.** ¿Y tú, qué opinas?
 
 >**No formamos gente que pica código; formamos a los profesionales que diseñarán el software del mañana. Y eso, pese a quien pese, se decide en el aula.**

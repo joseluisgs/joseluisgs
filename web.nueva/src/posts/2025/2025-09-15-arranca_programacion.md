@@ -23,7 +23,7 @@ sidebar: false
 Olvídate de los temarios anticuados. Nuestro plan de estudios se ha actualizado para que domines los conceptos más relevantes en el mundo del desarrollo de software. Aprenderemos a manejar las herramientas y tecnologías que realmente se usan en las empresas, y no solo teoría.
 
 # El viaje a través del temario: Las 10 unidades clave
-El temario de este módulo está diseñado como un camino evolutivo, comenzando por los fundamentos y advancements hacia la creación de software complejo y moderno. Las unidades se han secuenciado de forma lógica para que asimiles cada concepto antes de pasar al siguiente.
+El temario de este módulo está diseñado como un camino evolutivo, comenzando por los fundamentos y avanzando hacia la creación de software complejo y moderno. Las unidades se han secuenciado de forma lógica para que asimiles cada concepto antes de pasar al siguiente.
 
 A continuación, te damos más detalles sobre lo que verás en cada una de ellas:
 
@@ -39,7 +39,7 @@ A continuación, te damos más detalles sobre lo que verás en cada una de ellas
 
 - UD6: Programación funcional, Genérica y Colecciones: Un tema muy moderno y demandado. En esta unidad, trabajarás con colecciones de datos, como las listas, y utilizarás iteradores para procesar información. 
 
-- UD7: Lectura y escritura de información externa. Ficheros: En esta unidad aprenderás a interactuar con el exterior. Verás cómo leer y escribir información en ficheos, manejar diferentes formatos de intercambio de datos como CSV, JSON y XML.
+- UD7: Lectura y escritura de información externa. Ficheros: En esta unidad aprenderás a interactuar con el exterior. Verás cómo leer y escribir información en ficheros, manejar diferentes formatos de intercambio de datos como CSV, JSON y XML.
 
 - UD8: Operaciones con Bases de Datos de Objetos y Colecciones: Te introducirás en el mundo de las bases de datos. Aprenderás las características de las bases de datos orientadas a objetos, cómo instalarlas y a programar aplicaciones para almacenar, recuperar, actualizar y eliminar información.
 

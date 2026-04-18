@@ -1,6 +1,6 @@
 ---
 title: José Luis González, PhD.
-description: Soy José Luis, y aquí podrás conocer un poco más de mi
+description: Soy José Luis, y aquí podrás conocer un poco más de mí
 date: 2026-04-17
 sidebar: false
 category:
@@ -18,16 +18,16 @@ article: true
 star: 1
 ---
 
-👋 Me llamo José Luis González Sánchez. Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Formación Profesional**](https://www.iesluisvives.es/) especializado en **Desarrollo de Software** 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/) y [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) 👨‍💻.
+👋 Me llamo José Luis González Sánchez. Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Formación Profesional**](https://www.iesluisvives.es/) especializado en **Desarrollo de Software** 💻. Además, soy [**Kotlin Trainer Certified by JetBrains**](https://www.jetbrains.com/es-es/company/partners/kotlin/) y [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) 👨‍💻.
 
-Mi foco principal es el desarrollo de **aplicaciones web y multiplataforma**, desde el servidor ⚙️ hasta el cliente 📱. Imparto docencia en master's, doctorado y cursos de especialización en diseño, desarrollo y evaluación de productos software. Me apasiona el ecosistema de **Kotlin**, **.NET** y **Vue.js** 💓.
+Mi foco principal es el desarrollo de **aplicaciones web y multiplataforma**, desde el servidor ⚙️ hasta el cliente 📱. Imparto docencia en másteres, doctorado y cursos de especialización en diseño, desarrollo y evaluación de productos software. Me apasiona el ecosistema de **Kotlin**, **.NET** y **Vue.js** 💓.
 
 <!-- more -->
-A parte de mi docencia diaria, imparto formación en cursos de master's/doctorado y programas de especialización/grupos de trabajo. Mi especializad es el diseño, desarrollo y evaluación de experiencia de usuario y productos interactivos,    , usabilidad, accesibilidad y sobre todo jugabilidad. Colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de aplicaciones webm desarrollo de servicios, multiplataforma, web o móviles (siempre centradas el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.
+Aparte de mi docencia diaria, imparto formación en cursos de máster/doctorado y programas de especialización/grupos de trabajo. Mi especialidad es el diseño, desarrollo y evaluación de experiencia de usuario y productos interactivos, usabilidad, accesibilidad y sobre todo jugabilidad. Colaboro en distintos proyectos de investigación y desarrollo. Soy formador en nuevas tecnologías y metodologías de desarrollo de aplicaciones web, desarrollo de servicios, multiplataforma, web o móviles (siempre centradas en el usuario). Me encanta evaluar y poder ayudarte a mejorar tus productos interactivos y aprender de lo que haces 🙂.
 
-Personalmente he sido galardonado con distintos premios y distinciones a lo largo de mi carrera profesional, que podrás conocer en en la sección de [Investigación](../investigacion/). 
+Personalmente he sido galardonado con distintos premios y distinciones a lo largo de mi carrera profesional, que podrás conocer en la sección de [Investigación](../investigacion/). 
 
-Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors). Te puedo ayudar a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Actualmente soy uno de los responsables de contenidos en [**Hyperskill**](https://hyperskill.org/)/[**Jetbrains Academy**](https://www.jetbrains.com/academy/) para tecnologías relacionadas con Kotlin. Te puedo ayudar a aplicar super poderes para desarrollar nuestro código o cómo aplicarlas a la docencia. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
+Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrains**](https://www.jetbrains.com/es-es/company/partners/kotlin/), [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors). Te puedo ayudar a aplicar superpoderes para desarrollar nuestro código o cómo aplicarlos a la docencia. Actualmente soy uno de los responsables de contenidos en [**Hyperskill**](https://hyperskill.org/)/[**JetBrains Academy**](https://www.jetbrains.com/academy/) para tecnologías relacionadas con Kotlin. Será un placer echarte un cable con ello. ¡Cuenta conmigo! 💪
 
 <p style="text-align: center;">
   <a href="https://www.jetbrains.com/es-es/company/partners/kotlin/" target="_blank"> 
@@ -42,10 +42,10 @@ Me siento orgulloso de ser [**Kotlin Trainer Certified by JetBrain**](https://ww
   </a>
 </p>
 
-Estas página web podrás conocer un poco más de mi.
+En esta página web podrás conocer un poco más de mí.
 
 ## Aficiones
-A parte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir advancing.
+Aparte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
 ## Contacto
 <p style="text-align: center;">
@@ -73,6 +73,6 @@ A parte de enseñar y desarrollar, disfruto con la música, especialmente todo t
 </p>
 
 ## Una cita
-> "Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives". 
+> «Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives».
 > 
 > Martin Goldin

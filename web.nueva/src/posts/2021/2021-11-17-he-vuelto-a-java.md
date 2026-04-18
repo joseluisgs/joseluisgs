@@ -16,7 +16,7 @@ Aprovecho que mi alumnado está con un examen para lanzar una serie de reflexion
 <!-- more -->
 
 ## Programación y Docencia
-Está claro que cuando enseyas, buscas dos cosas, un lenguaje con el que desarrollar unas competencias demandadas por la industria, donde poder desarrollar un marco teórico práctico. A veces no es el mejor o peor, si no el más adecuado.
+Está claro que cuando enseñas, buscas dos cosas, un lenguaje con el que desarrollar unas competencias demandadas por la industria, donde poder desarrollar un marco teórico práctico. A veces no es el mejor o peor, sino el más adecuado.
 
 En mi anterior centro, el conjunto de profesores cambiábamos de lenguaje con el objetivo de que el alumnado no fuera dependiente y aprendiera a discernir entre las ventajas e inconvenientes de cada uno de ellos. Creo que esto era una gran ventaja y virtud. De hecho, se desarrollaba diversas habilidades mucho más rápido y el alumnado podría aprender en DAM: Java, Kotlin, C#, Python, Dart con Flutter, etc. Mientras en DAW tenían Java, PHP, JavaScript, TypeScript. Sin hablar de frameworks, como SpringBoot, Laravel, Express, etc. Conclusión alumnos más demandados y completos.
 
@@ -37,7 +37,7 @@ No voy a negar que Java me puede gustar más o menos, o que hay alternativas mej
   alt="Imagen">
 </p>
 
-En cualquier caso, cuando lleguen una empresa nadie les asegura que vayan a trabajar solo con Java y deben ser capaces explotar lo aprendido con cualquier lenguaje. 
+En cualquier caso, cuando lleguen a una empresa nadie les asegura que vayan a trabajar solo con Java y deben ser capaces de explotar lo aprendido con cualquier lenguaje. 
 
 No voy a negar que Java ha mejorado mucho, que cada vez es más ágil. API Stream, menos verboso, y muchas más cosas. La mayoría de ellas sacadas de su primo Kotlin y de la propia evolución de otros lenguajes. Pero sigue sin gustarme. Y no me gusta cuando veo esa imposición a usarlo docentemente para todo y sacrificar la libertad que el conocer distintos lenguajes te puede dar para expresarte como desarrollador. No me gusta el "only JAVA". Me frustra ver estadísticas de mi perfil con las horas de su uso, y ver que a mi no me motiva. Lo entiendo y lo avalo como docente, pero sé también que hay que trabajar para no depender sólo de él teniendo excelentes alternativas y que el paso de una a otra es cada vez menor. Por ejemplo, de Kotlin a Java te sirve todo y además ya existe hasta la plantilla de SpringBoot.
 
@@ -48,7 +48,7 @@ No voy a negar que Java ha mejorado mucho, que cada vez es más ágil. API Strea
 </p>
 
 ## Conclusión
-Me gusta Java, sí, es lo único que se debe aprender no. Y animo a mi alumnado a que no se sienta encorsetado ni atado a ello. Cada día es más fácil los cambios, y si tú aprendes conceptualmente a programar (o usas la cabeza) verás que el lenguaje, es solo el medio. Y más sabiendo que muchos beben la misma sintaxis del "abuelito" C.
+Me gusta Java, sí, pero no es lo único que se debe aprender. Y animo a mi alumnado a que no se sienta encorsetado ni atado a ello. Cada día son más fáciles los cambios, y si tú aprendes conceptualmente a programar (o usas la cabeza) verás que el lenguaje es solo el medio. Y más sabiendo que muchos beben de la misma sintaxis del "abuelito" C.
 
 > "Elige siempre lo que te haga ser más productivo y ágil para el problema que vas a resolver". 
  

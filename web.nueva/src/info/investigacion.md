@@ -28,12 +28,12 @@ A nivel investigador mi especialidad es el campo [Interacción Persona Ordenador
 
 ## Tesis Doctoral 👨‍🎓
 
-Uno de los principales logros personales fue mi **tesis doctoral**. En ella abordo y formalizo el concepto de **Jugabilidad** y como caracterizar la experiencia del jugador en sistemas interactivos de ocio electrónico (videojuegos y derivados).
+Uno de los principales logros personales fue mi **tesis doctoral**. En ella abordo y formalizo el concepto de **Jugabilidad** y cómo caracterizar la experiencia del jugador en sistemas interactivos de ocio electrónico (videojuegos y derivados).
 
-Mi tesis fue dirigida por [Dr. Francisco Luis Guitiérez Vela](https://lsi.ugr.es/lsi/fgutierr) y presentada y realizada en la [Universidad de Granada](https://digibug.ugr.es/handle/10481/5671) en 2010, calificada con **"Sobresaliente Cum laude"**.
+Mi tesis fue dirigida por [Dr. Francisco Luis Gutiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) y presentada y realizada en la [Universidad de Granada](https://digibug.ugr.es/handle/10481/5671) en 2010, calificada con **"Sobresaliente Cum laude"**.
 
 ### Objetivos
-La Jugabilidad es un concepto abstracto y difícil de definir debido a que posee características tanto funcionales, inherentes a todo sistema interactivo, como no funcionales, relacionadas con las experiencias que obtiene el jugador al jugar. Así pues, definimos la Jugabilidad como el conjunto de propiedades que describen la experiencia del jugador ante un sistema de juego determinado, cuyo principal objetivo es divertiry entretener "de forma satisfactoria y creíble" ya sea solo o en compañía.
+La Jugabilidad es un concepto abstracto y difícil de definir debido a que posee características tanto funcionales, inherentes a todo sistema interactivo, como no funcionales, relacionadas con las experiencias que obtiene el jugador al jugar. Así pues, definimos la Jugabilidad como el conjunto de propiedades que describen la experiencia del jugador ante un sistema de juego determinado, cuyo principal objetivo es divertir y entretener «de forma satisfactoria y creíble», ya sea solo o en compañía.
 
 ### Impacto
 Esta tesis sirvió para formalizar, por primera vez, el concepto de jugabilidad, creando un modelo del mismo con sus atributos y propiedades, así como una serie de facetas para su evaluación y análisis.
@@ -52,7 +52,7 @@ Puedes descargar la tesis doctoral en distintos formatos desde el [repositorio d
 ## Proyectos
 
 ### Proyecto de Máster
-Mi proyecto realizado dentro del [Master en Desarrollo de Software](https://masteres.ugr.es/master-desarrollo-software/) de la Universidad de Granada fue la creación de una serie de videojuegos educativos para [Nintendo DS](https://es.wikipedia.org/wiki/Nintendo_DS) para niños/as afectados de autismo o parálisis cerebral para mejorar la lectoescritura. Usando las dos pantallas, una de ellas táctil, se consegue la asociación de pictograma con el sonido indicando, de esta manera mientras juega se puede reforzar el concepto comunicativo y realizar distintas frases uniendo pictogramas con los retos del juego.
+Mi proyecto realizado dentro del [Master en Desarrollo de Software](https://masteres.ugr.es/master-desarrollo-software/) de la Universidad de Granada fue la creación de una serie de videojuegos educativos para [Nintendo DS](https://es.wikipedia.org/wiki/Nintendo_DS) para niños/as afectados de autismo o parálisis cerebral para mejorar la lectoescritura. Usando las dos pantallas, una de ellas táctil, se consigue la asociación de pictograma con el sonido indicando, de esta manera mientras juega se puede reforzar el concepto comunicativo y realizar distintas frases uniendo pictogramas con los retos del juego.
 
 ---
 

@@ -22,7 +22,7 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 
 <!-- more -->
 ## Actualidad
-Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. En Informática en Desarrollo de Software. Además como formador oficial en tecnologías Kotlin certificado por Jetbrains, GitHub Campus Advisor y Embajador de GitKraken.
+Soy Profesor Funcionario de Carrera de Secundaria en la Especialidad de Informática y Dr. en Informática en Desarrollo de Software. Además, como formador oficial en tecnologías Kotlin certificado por JetBrains, GitHub Campus Advisor y Embajador de GitKraken.
 
 ### Mi centro
 Mi actual centro donde imparto docencia desde el curso 2021/2022 es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid) donde realizo además otras funciones para el centro y el departamento de Informática.
@@ -35,7 +35,7 @@ En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialme
 - Despliegue de Aplicaciones Web. 2º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
 
 
-Además suelo impartir o impartido en otras ocasiones:
+Además suelo impartir o he impartido en otras ocasiones:
 - Programación de 1º de DAM/DAW.
 - Entornos de Desarrollo de 1º de DAM/DAW.
 - Programación Multimedia y Dispositivos Móviles de 2º de DAM.
@@ -47,18 +47,18 @@ Además suelo impartir o impartido en otras ocasiones:
 - Implantación de Aplicaciones Web 2º de ASIR.
 
 ### Docencia en Másteres y Doctorado
-Colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Guitiérrez Vela](https://lsi.ugr.es/lsi/fgutierr) englobada en dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).
+Colaboro con el [Postgrado Online en Usabilidad, UX y Diseño de Interacción](https://postgradoux.com/). Imparto la asignatura de Gamificación junto a [Dr. Francisco Luis Gutiérrez Vela](https://lsi.ugr.es/lsi/fgutierr), englobada dentro del bloque de [Diseño de interfaces usables](https://postgradoux.com/temario/#Asignatura%20U1).
 
 ### Docencia en Formación del profesorado
 Imparto formación a profesorado de Secundaria y Formación del Profesorado en temas relacionados con el desarrollo de software y sistemas interactivos.
-- [Desarrollo Web en entorno Servidor con SpringBoot. IFC03CM22_23 (A-0046)](https://innovacionyformacion.educa.madrid.org/node/85495). Curso de Formación en desarrollo de Aplicaciones Web con SrpingBoot. ISMIE Instituto Superior Madrileño de Innovación Educativa. Programas de Innovación y Formación del Profesorado. Curso 2022/2023.
+- [Desarrollo Web en entorno Servidor con SpringBoot. IFC03CM22_23 (A-0046)](https://innovacionyformacion.educa.madrid.org/node/85495). Curso de Formación en desarrollo de Aplicaciones Web con SpringBoot. ISMIE Instituto Superior Madrileño de Innovación Educativa. Programas de Innovación y Formación del Profesorado. Curso 2022/2023.
 - [Desarrollo Web en entorno Cliente con Vue.js. IFC02CM22_23 (A-0046)](https://innovacionyformacion.educa.madrid.org/node/85493). Curso de Formación en desarrollo de Aplicaciones Web con Vue.js. ISMIE Instituto Superior Madrileño de Innovación Educativa. Programas de Innovación y Formación del Profesorado. Curso 2022/2023.
 - FP-NextGen Comunidad de Madrid. Elaborador de contenidos del módulo de [Acceso a Datos](https://github.com/joseluisgs/FP-NextGen-AccesoDatos) y [Programación de Servicios y Procesos](https://github.com/joseluisgs/springboot-profesores-madrid-2022-2023). Corrector de Programación Multimedia y Dispositivos Móviles y Entornos de Desarrollo. Curso 2021/2022-2022/2023.
 
 
 ### Otra Formación en la que participo
 Actualmente imparto diversas formaciones complementarias o de especialización. También, he impartido bastante a lo largo de mi carrera. Resaltaré aquí las realizadas en el último año.
-- [Jetbrains Academy](https://www.jetbrains.com/es-es/academy/). Responsable de contenidos y revisión del track de Kotlin. Docente y preparador de diferentes temas y ejercicios prácticos para el aprendizaje de Kotlin. 
+- [JetBrains Academy](https://www.jetbrains.com/es-es/academy/). Responsable de contenidos y revisión del track de Kotlin. Docente y preparador de diferentes temas y ejercicios prácticos para el aprendizaje de Kotlin. 
 
 ## Docencia oficial anterior
 A continuación resumiré docencia/formación realizada en anteriores años:
@@ -114,10 +114,10 @@ A continuación resumiré docencia/formación realizada en anteriores años:
 
 - [Universitat de Lleida](http://www.udl.es/ca/es/), Lleida. Profesor Doctor. 2010 a 2012.
   - Fundamentos de Accesibilidad I. Master Interacción Persona-Ordenador.
-  - Especilización en Accesibilidad. Master Interacción Persona-ordenador.
+  - Especialización en Accesibilidad. Master Interacción Persona-Ordenador.
   - Iniciación a la Ingeniería del Software. Grado en Informática. 
   - Iniciación a la Interacción Persona-Ordenador. Grado en Informática.
-  - Interacción Persona.Ordenador. Grado en Informática.
+  - Interacción Persona-Ordenador. Grado en Informática.
   - Programación II. Grado en Informática. 
 
 <p></p>

@@ -28,13 +28,13 @@ El temario de este módulo está estructurado de manera progresiva, garantizando
 - UD1: Desarrollo de Software: Una introducción a los cimientos teóricos. Aquí se definen los conceptos de programa informático y se analizan las fases del ciclo de desarrollo de una aplicación, incluyendo las metodologías ágiles.
 
 - UD2: Entornos de Desarrollo de Software: Aprenderás a dominar los IDEs (Entornos de Desarrollo Integrados). Esto no es solo instalar, sino también personalizar, automatizar y usar estas herramientas para generar ejecutables.
-- UD3: Sistema y Control de Versiones: Fundamental para el trabajo en equipo. Se profundiza en el uso de Git y GitHub, los estándares de la industria para el desarrollo colaborativo y el control del código a lo largo del tiempo.
+- UD3: Sistemas de Control de Versiones: Fundamental para el trabajo en equipo. Se profundiza en el uso de Git y GitHub, los estándares de la industria para el desarrollo colaborativo y el control del código a lo largo del tiempo.
 - UD4: Diseño Orientado a Objetos: Diagrama de Clases: La planificación es clave. Utilizarás herramientas específicas para diseñar la arquitectura de tus proyectos, creando diagramas de clases y generando código a partir de ellos (y viceversa).
-- UD5: Diseño Orientado a Objetos: Diagramas de Comportamiento : Complementando al anterior, aprenderás a modelar el comportamiento de las aplicaciones a través de diagramas de casos de uso, interacción, actividades y estados.
+- UD5: Diseño Orientado a Objetos: Diagramas de Comportamiento: Complementando al anterior, aprenderás a modelar el comportamiento de las aplicaciones a través de diagramas de casos de uso, interacción, actividades y estados.
 - UD6: Optimización y Refactorización: Esta unidad se centra en mejorar la calidad y la eficiencia del código sin alterar su funcionalidad. Se abordarán patrones de refactorización y el uso de analizadores de código.
 - UD7: Diseño y Realización de Pruebas: La validación es esencial. Aprenderás a definir casos de prueba, usar herramientas de depuración y a implementar pruebas automáticas para garantizar la fiabilidad de tu software.
 
-#Un enfoque práctico y conectado con la industria
+# Un enfoque práctico y conectado con la industria
 La metodología del curso se basa en el Aprendizaje Basado en Retos y Proyectos y el concepto de Aula Invertida. Esto significa que, en lugar de clases magistrales, te enfrentarás a problemas reales del sector, utilizando tutoriales y documentación para resolverlos, mientras el tiempo en clase se dedica a la práctica y la colaboración.
 
 Aquí puedes ver el video introductorio al módulo:

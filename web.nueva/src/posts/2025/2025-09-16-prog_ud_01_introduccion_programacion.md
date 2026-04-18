@@ -16,12 +16,10 @@ comment: true
 sidebar: false
 ---
 
-El primer tema del módulo de Programación se centra en sentar las bases teóricas y prácticas del desarrollo de software. Va más allá de escribir código para introducir los conceptos esenciales que todo programador debe dominar. Ahondaremos como pasar de algo tan abstracto como una idea o un problema a una solución concreta y funcional mediante la programación y lsa bases iniciales de un lenguaje de programación.
+El primer tema del módulo de Programación se centra en sentar las bases teóricas y prácticas del desarrollo de software. Va más allá de escribir código para introducir los conceptos esenciales que todo programador debe dominar. Ahondaremos en cómo pasar de algo tan abstracto como una idea o un problema a una solución concreta y funcional mediante la programación y las bases iniciales de un lenguaje de programación.
 <!-- more -->
 
 ### **UD1 - Introducción a la Programación Software**
-
-La unidad comienza definiendo **qué es programar**: el proceso de crear software, que abarca desde la concepción de una idea hasta su implementación. Un elemento central es el **algoritmo**, una serie de pasos claros y ordenados para resolver un problema de forma genérica e independiente de cualquier lenguaje. Se exploran las características esenciales de los algoritmos, como ser finitos, precisos y definidos, y se resalta la diferencia fundamental entre un algoritmo (la idea) y un programa (la implementación en un lenguaje específico).
 
 **Fundamentos de la Programación y Algoritmos**
 La unidad comienza definiendo **qué es programar**: el proceso de crear software, que abarca desde la concepción de una idea hasta su implementación. Un elemento central es el **algoritmo**, una serie de pasos claros y ordenados para resolver un problema de forma genérica e independiente de cualquier lenguaje. Se exploran las características esenciales de los algoritmos, como ser finitos, precisos y definidos, y se resalta la diferencia fundamental entre un algoritmo (la idea) y un programa (la implementación en un lenguaje específico).

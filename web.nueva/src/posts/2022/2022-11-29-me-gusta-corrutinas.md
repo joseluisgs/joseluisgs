@@ -1,6 +1,6 @@
 ---
 title: Me encantan las Corrutinas
-description: Como manejar la asincronía, concurrencia y reactividad de forma sencilla en tus módulos
+description: Cómo manejar la asincronía, concurrencia y reactividad de forma sencilla en tus módulos
 date: 2022-11-29
 category:
   - Blog
@@ -18,9 +18,9 @@ Si hay algo de lo que he disfrutado desde hace mucho tiempo es del uso de las Co
 
 <!-- more -->
 ## Corrutinas
-Las corrutinas son une característica de Kotlin que viene a facilitar la programación asíncrona y reactividad de una manera muy sencilla. Si vienes de otros lenguajes ya conocesasync/await de JavaScript oC# o los observables de RxJavay compañía. Las corrutinas permiten escribir código asíncrono de forma secuencial, einfieren la complejidad subyacente de las callbacks y el manejo de hilos.
+Las corrutinas son una característica de Kotlin que viene a facilitar la programación asíncrona y la reactividad de una manera muy sencilla. Si vienes de otros lenguajes ya conoces async/await de JavaScript o C# o los observables de RxJava y compañía. Las corrutinas permiten escribir código asíncrono de forma secuencial, ocultando la complejidad subyacente de las callbacks y el manejo de hilos.
 
-La diferencia principal es que el hilo no se bloquea, si no que se suspende mientras espera el resultado de una operación. Esto es fundamental en aplicaciones donde la concurrencia y el rendimiento son importantes, como en aplicaciones móviles o servicios web.
+La diferencia principal es que el hilo no se bloquea, sino que se suspende mientras espera el resultado de una operación. Esto es fundamental en aplicaciones donde la concurrencia y el rendimiento son importantes, como en aplicaciones móviles o servicios web.
 
 ```kotlin
 suspend fun ejemplo() {
@@ -30,7 +30,7 @@ suspend fun ejemplo() {
 ```
 
 ## Scope y Context
-Las corrutinas necesitan un contexto y un alcance (scope) para ejecutarse. El contexto incluye elDispatcher que define en qué hilo se ejecuta la corrutina (Main, IO, etc.) y el alcance define el tiempo de vida de la corrutina.
+Las corrutinas necesitan un contexto y un alcance (scope) para ejecutarse. El contexto incluye el Dispatcher que define en qué hilo se ejecuta la corrutina (Main, IO, etc.) y el alcance define el tiempo de vida de la corrutina.
 
 ```kotlin
 val scope = CoroutineScope(Dispatchers.Main + SupervisorJob())
@@ -57,7 +57,7 @@ println(dato1.await() + dato2.await())
 ```
 
 ## Flows
-Los Flows son secuencias asíncronas que pueden emitir múltiples valores, perfect para manejo de streams de datos.
+Los Flows son secuencias asíncronas que pueden emitir múltiples valores, perfectos para el manejo de streams de datos.
 
 ```kotlin
 fun getDatosFlow(): Flow<Datos> = flow {

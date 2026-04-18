@@ -25,13 +25,13 @@ sidebar: false
 
 ## Contexto
 
-Cuando plantée este curso, quise darle un enfoque púramente práctico trabajando con documentación oficial y proyectos reales, usando tecnologías demandadas por las empresas del sector de nuestra zona. Es por ello que decidí darle un giro de tuerca a Mis Lugares 2019 adaptándo a las circunstancias actuales.
+Cuando planteé este curso, quise darle un enfoque puramente práctico trabajando con documentación oficial y proyectos reales, usando tecnologías demandadas por las empresas del sector de nuestra zona. Es por ello que decidí darle un giro de tuerca a Mis Lugares 2019 adaptándolo a las circunstancias actuales.
 
 Por un lado, trabajamos en base a un reto/proyecto real. Segundo, se suprimen los apuntes por documentación oficial. Esto al principio choca, pero a la larga se agradece. En la profesión del desarrollo móvil las tecnologías cambian y es bueno adquirir la destreza de cómo moverse por documentaciones oficiales y cómo consultarlas.
 
 Por otro lado se ha usado GitHub/Git con el objetivo de control de código, diario de clase. El alumnado puede seguir lo hecho en clase, comparar el código, ver las distintas versiones o tecnologías por rama, aportar nuevas ideas, colaborar en grupo para su desarrollo, etc. Moviéndote por las ramas puedes ver las distintas opciones y soluciones presentadas a los problemas y tecnologías vistos en clase.
 
-Finalmente se ha ido aplicando distintas tecnologías con el objetivo de abrir la puertas en el desarrollo móvil al alumnado y con ellos sean capaces de dominar los aspectos más destacados de las mismas para después desarrollar sus propias app.
+Finalmente se ha ido aplicando distintas tecnologías con el objetivo de abrir las puertas en el desarrollo móvil al alumnado y con ello sean capaces de dominar los aspectos más destacados de las mismas para después desarrollar sus propias app.
 
 :::tip Mis lugares
 - Apuntes
@@ -46,7 +46,7 @@ Finalmente se ha ido aplicando distintas tecnologías con el objetivo de abrir l
 ## Mis Lugares App
 
 2DAM PMYDM App para poner en práctica todo lo visto en este curso en la primera parte del temario relacionada con Programación Móvil
-en sistemas Android usando de lenguaje Kótlin. Podrás llevar tus momentos favoritos siempre en tu móvil.
+en sistemas Android usando de lenguaje Kotlin. Podrás llevar tus momentos favoritos siempre en tu móvil.
 
 <p style="text-align:center;">
 <img loading="lazy" style="border-radius: 0.25rem;" src="https://img.shields.io/badge/App-Android-g" alt="Logo">
@@ -59,7 +59,7 @@ en sistemas Android usando de lenguaje Kótlin. Podrás llevar tus momentos favo
 ### Descripción
 
 En esta App manejaremos conceptos como diseño de interfaces dinámicas, almacenamiento en teléfono, base de datos y el uso
-de sensores y elementos de tu móvil Android como pueden ser la cámara y el GPS, además de actualizaciones en tiempo real de la información usando como lenguaje de referencia Kotlin. La aplicación es de ámbito docente y obviante muchos aspectos son mejorables, pero hay que entender el contexto en el cual se genera y se usa en clase.
+de sensores y elementos de tu móvil Android como pueden ser la cámara y el GPS, además de actualizaciones en tiempo real de la información usando como lenguaje de referencia Kotlin. La aplicación es de ámbito docente y obviamente muchos aspectos son mejorables, pero hay que entender el contexto en el cual se genera y se usa en clase.
 
 El objetivo es poder llevar un registro de tus lugares favoritos siempre en tu móvil. A lo largo del curso avanzaremos y complementaremos el proyecto con distintas tecnologías en sus distintas versiones.
 
@@ -76,7 +76,7 @@ Las versiones no están pensadas para que el alumnado maneje distintas técnicas
   la base de datos y no es muy recomendado salvo excepciones como esta. Se puede ver versión alternativa almacenando las imágenes en sistema de almacenamiento interno y externo.
 - **v2.0.0**: Versión donde el almacenamiento de todos los datos se hace a través de una API REST con el objetivo de salir
   al exterior para enviar o recibir información. De nuevo mandaremos las imágenes en Base64, aunque lo ideal sería hacer peticiones
-  multipart. De nuevo se hace incidio en el uso docente y este es acercar la tecnología de uso de Servicios Web y de una API REST
+  multipart. De nuevo se hace hincapié en el uso docente y este es acercar la tecnología de uso de Servicios Web y de una API REST
   para poder intercambiar información con una app móvil y el exterior (otros servidores y recursos).
   Para el desarrollo de la API REST nos basaremos en el proyecto [API REST Fake](https://github.com/joseluisgs/APIRESTFake).
 - **v3.0.0**: Versión donde se integra Firebase como sistema de backend de nuestra aplicación. Con ello nos ofrece poder
@@ -119,7 +119,7 @@ Se destacan las siguientes tecnologías usadas en algún momento o versión del 
 
 ### Uso del Firebase v3.X.X
 
-En la versión 3.X.X se hace uso de Google Firebase como sistema o conjunto de servicios a usar por nuestro cliente: auntenticación,
+En la versión 3.X.X se hace uso de Google Firebase como sistema o conjunto de servicios a usar por nuestro cliente: autenticación,
 base de datos en tiempo real, almacenamiento de ficheros y notificaciones.
 Es por ello que es fundamental que asegures cómo configurar tanto Firebase, como tu proyecto Android, para que funcione
 perfectamente. Te recomiendo sigas siempre la guía oficial de [Firebase](https://firebase.google.com/docs/android/setup?hl=es)
@@ -131,7 +131,7 @@ actualizadas para ello si no será imposible que lo integres en tu propio proyec
 Para la versión 2.X.X se hace uso del servidor propio [API REST Fake](https://github.com/joseluisgs/APIRESTFake), con
 el objetivo de no complicar el asunto aprendiendo a hacer un servidor propio REST completo. Para ello se ha creado en la carpeta
 API REST todo lo necesario para correr ese servidor, usando una base de datos JSON. De esta manera no te tienes que preocupar
-en como se desarrolla este tipo de servicios, si no solo en consumirlo y usarlo en tu app móvil.
+en cómo se desarrolla este tipo de servicios, sino solo en consumirlo y usarlo en tu app móvil.
 
 Para ello es fundamental tener instalado en tu sistema operativo [NodeJS](https://nodejs.org/es/).
 La base de datos está en el directorio bd y se llama db.json, y debe tener una estructura de array de objetos por cada recurso a consumir.
@@ -149,23 +149,23 @@ $npm install --> Instala las dependencias necesarias para su uso
 $npm start   --> Inicia el servidor.
 ```
 
-Si todo haido bien obtendrás la siguiente salida:
+Si todo ha ido bien obtendrás la siguiente salida:
 
 ```bash
-⚑ Servidor JSON funcionamdo ✓ -> http://localhost:6969
+⚑ Servidor JSON funcionando ✓ -> http://localhost:6969
 ⚑ Fake API REST por joseluisgs ✓ -> https://github.com/joseluisgs/APIRESTFake
 ```
 
-Te recomiendo el uso de [Postman](https://www.postman.com/) para testear y comprender como hacer las llamadas que luego
+Te recomiendo el uso de [Postman](https://www.postman.com/) para testear y comprender cómo hacer las llamadas que luego
 realizarás en [Retrofit](https://square.github.io/retrofit/).
 
 ### Consideraciones para ver los mapas
 
 Los mapas hace uso de Google Map Api Key, es por ello que debes activar la clave de la API y activarla para tu proyecto,
-pues puede que varíe a la huella del mio, o que simplemente yo haya desactivado la mía (te recuerdo que es un proyecto para fin docente y lo activo y desactivo sobre la marcha).
+pues puede que varíe a la huella del mío, o que simplemente yo haya desactivado la mía (te recuerdo que es un proyecto para fin docente y lo activo y desactivo sobre la marcha).
 Por favor sigue [este tutorial](https://developers.google.com/maps/documentation/android-sdk/get-api-key?hl=es-419) para que puedas ver tus mapas con tu clave.
 
-Recuerda cambiar el ficheor Manifest y añadir:
+Recuerda cambiar el fichero Manifest y añadir:
 
 ```xml
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -211,5 +211,5 @@ Estas son las herramientas que más hemos usado en clase para la realización de
 
 ### Licencia
 
-Este proyecto esta licenciado bajo licencia **MIT**, si desea saber más, visite el ficheor
+Este proyecto está licenciado bajo licencia **MIT**, si deseas saber más, visita el fichero
 [LICENSE](https://github.com/joseluisgs/MisLugaresKotlinRealm/blob/master/LICENSE) para su uso docente y educativo.

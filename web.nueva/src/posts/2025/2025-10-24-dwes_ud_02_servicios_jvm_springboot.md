@@ -1,5 +1,5 @@
 ---
-title: Desarrollo Web en Entornos Servidor 02 - Servicios Web con JVM y Spring Boot
+title: Desarrollo Web en Entorno Servidor 02 - Servicios Web con JVM y Spring Boot
 description: Programación avanzada de Java y desarrollo de servicios web utilizando Spring Boot sobre la JVM
 date: 2025-10-24
 
@@ -26,7 +26,7 @@ El **Desarrollo de Servicios Web en JVM** con **Spring Boot** es el pilar del de
 
 La **Máquina Virtual de Java (JVM)** es un **estándar indiscutible** en el desarrollo empresarial y de alto tráfico gracias a su **rendimiento estable**, su capacidad de **escalabilidad horizontal** (manejo de miles de hilos) y su robusto ecosistema de herramientas.
 
-**Spring Boot** es el **framework por referencia** en este ecosistema. Ofrece una solución completa para simplificar la configuración, implementar la **Inyección de Dependencias (DI)** y abordar de forma modular aspectos complejos como la **Seguridad**, el **Acceso a Datos** y la **Comunicación Asíncrona**. Su filosofía es el **"convención sobre configuración"**, lo que acelera dramáticamente el desarrollo.
+**Spring Boot** es el **framework de referencia** en este ecosistema. Ofrece una solución completa para simplificar la configuración, implementar la **Inyección de Dependencias (DI)** y abordar de forma modular aspectos complejos como la **Seguridad**, el **Acceso a Datos** y la **Comunicación Asíncrona**. Su filosofía es la **"convención sobre la configuración"**, lo que acelera dramáticamente el desarrollo.
 
 <!-- more -->
 
@@ -42,7 +42,7 @@ El **Proyecto** es el eje central de la unidad. Aquí se integran todos los cono
 
 ## 2. Contenidos I: Lenguaje Java y Programación en el Lado del Servidor ⚙️
 
-Esta sección asegurar que se dominen los conceptos avanzados de **Java** necesarios para escribir código eficiente y escalable en la **JVM**.
+Esta sección asegura que se dominen los conceptos avanzados de **Java** necesarios para escribir código eficiente y escalable en la **JVM**.
 
 ### 2.1. Programación Concurrente, Asincrónica y Reactiva
 La diferencia fundamental radica en el manejo de la **E/S (Input/Output)**:
@@ -71,7 +71,7 @@ Se profundiza en el **Contenedor IoC (Inversion of Control)** de Spring y cómo 
 El **`SecurityFilterChain`** actúa como un "muro de defensa" interceptando cada petición. Se implementa un modelo de seguridad **Stateless** donde **JWT** es la clave: un token firmado digitalmente que contiene la identidad del usuario, eliminando la necesidad de sesiones en el servidor. Esto se protege obligatoriamente con **HTTPS/SSL**.
 
 ### 3.4. Redis y Caché Avanzada
-**Redis** es una base de datos **Key-Value en memoria (RAM)**, lo que le da una velocidad superior. Se utiliza para almacenar resultados de consultas ciertas (caching). Las anotaciones **`@Cacheable`**, **`@CachePut`** y **`@CacheEvict`** permiten a Spring gestionar automáticamente el ciclo de vida de estos datos en caché.
+**Redis** es una base de datos **Key-Value en memoria (RAM)**, lo que le da una velocidad superior. Se utiliza para almacenar resultados de consultas frecuentes (caching). Las anotaciones **`@Cacheable`**, **`@CachePut`** y **`@CacheEvict`** permiten a Spring gestionar automáticamente el ciclo de vida de estos datos en caché.
 
 ### 3.5. WebSockets, GraphQL y Emails Asíncronos
 **WebSockets** establece un **canal persistente y bidireccional (full-duplex)** sobre HTTP para el tiempo real. **GraphQL** resuelve el problema de **Over-fetching** (recibir más datos de los necesarios) permitiendo al cliente definir la estructura de la respuesta. El envío de **Emails** se realiza en un **hilo asíncrono** para evitar que la operación (que es lenta) detenga la respuesta de la API principal.

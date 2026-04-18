@@ -19,7 +19,7 @@ Hace poquito, te hablé que había [vuelto a Java](2021-11-17-he-vuelto-a-java.m
 <!-- more -->
 
 ## Un poco de historia
-Kotlin es un lenguaje de programación de tipado estático, multiparadigma y multiplataforma que se ejecuta más ágil sobre la máquina virtual de Java y que también puede ser compilado a código fuente de JavaScript. _Solamente con esto ya deberías prestarle toda la atención como desarrollador_. Te facilita a que con un solo lenguaje te muevas por el mundo de la JMV, la web y Node.js y dispositivos móviles, así como distintos sistemas operativos.
+Kotlin es un lenguaje de programación de tipado estático, multiparadigma y multiplataforma que se ejecuta más ágil sobre la máquina virtual de Java y que también puede ser compilado a código fuente de JavaScript. _Solamente con esto ya deberías prestarle toda la atención como desarrollador_. Te facilita que con un solo lenguaje te muevas por el mundo de la JVM, la web y Node.js y dispositivos móviles, así como distintos sistemas operativos.
 
 Piensa que es un lenguaje muy joven y que ha bebido de las mejores cosas que existen en los lenguajes actuales y que evoluciona rápidamente. Imagina que debes diseñar Java en el 2016. Ten por seguro que no lo harías como hace 30 años, pensando en la cantidad de programadores C/C++ que había y en hacer algo similar para ellos. Kotlin es una visión moderna de cómo debería ser un lenguaje de programación pensado para programar en los tiempos actuales.
 
@@ -41,7 +41,7 @@ Después hablaré de todas sus bondades técnicas, pero como docente que soy, y 
 ### Aprendizaje gradual
 Kotlin te permite moverte siguiendo los distintos paradigmas existentes. Puedes usarlo como lenguaje para programación estructurada y modular, exprimir la programación orientada a objetos y asentar las bases de programación funcional.
 
-Por ejemplo, cuando comenzamos un curso de programación usando Java. Un simple "Hola mundo!" tiene una carga conceptual enorme. ¿Qué hacemos? Podemos optar por pedirle al alumnado un acto de fe, obviar algunos conceptos, o intentar explicarlos hasta "donde se pueda". Esto puede dar problemas como que el alumnado no entienda el porqué de algunos conceptos, o que no entienda que es lo que hace el código, o que utilice por error o por defecto algunos elementos y adquiera vicios inapropiados, como el uso de static en todos lados.
+Por ejemplo, cuando comenzamos un curso de programación usando Java. Un simple "Hola mundo!" tiene una carga conceptual enorme. ¿Qué hacemos? Podemos optar por pedirle al alumnado un acto de fe, obviar algunos conceptos, o intentar explicarlos hasta "donde se pueda". Esto puede dar problemas como que el alumnado no entienda el porqué de algunos conceptos, o que no entienda qué es lo que hace el código, o que utilice por error o por defecto algunos elementos y adquiera vicios inapropiados, como el uso de static en todos lados.
 
 Analicemos un "Hola mundo!" en Java:
 
@@ -72,7 +72,7 @@ A partir de aquí puedes ir aprendiendo y dominando nuevos conceptos desde tipos
 Todas tus clases, librerías y programas existentes en Java son 100% compatibles con Kotlin. Es decir, si tu programa necesita una clase de Java, puedes usarla en Kotlin. Puedes hacer uso de Maven para instalar librerías de Java en tu proyecto incluso de Maven/Gradle para gestionarlo.
 
 ### Di Hola a JS
-Además, Kotlin te permite ser compilado o a JavaScript. Si necesitas aplicaciones que hagan uso de JavaScript, puedes usar Kotlin y luego convertirte a JavaScript. Además, te permite no solo aplicaciones web, si no en Node.js, o usar frameworks como Express, React, etc. Tienes NPM a tu disposición para cualquier librería.
+Además, Kotlin te permite ser compilado a JavaScript. Si necesitas aplicaciones que hagan uso de JavaScript, puedes usar Kotlin y luego convertirte a JavaScript. Además, te permite no solo aplicaciones web, sino en Node.js, o usar frameworks como Express, React, etc. Tienes NPM a tu disposición para cualquier librería.
 
 ### Lenguaje puente
 Kotlin te permite saltar de Java a JavaScript, con una sintaxis a medio camino entre el primero y TypeScript. Aprendiendo Kotlin podrás migrar fácilmente a estos dós últimos.
@@ -88,7 +88,7 @@ Kotlin te permite saltar de Java a JavaScript, con una sintaxis a medio camino e
 A continuación, voy a resumirte elementos de Kotlin que pueden interesarte
 
 ### Programación estructurada y modular
-- Kotlin es un lenguaje orientado a objetos con tipado estático. Aun así define unos [tipos como primitivos](https://kotlinlang.org/docs/basic-types.html) para facilitarnos su uso. Tambien tenemos cadenas y Arrays. Ideales para comenzar a programar. De hecho, tiene los [String Templetes](https://kotlinlang.org/docs/basic-types.html#string-templates)] vienen fantásticos para no perderte concatenando elementos.
+- Kotlin es un lenguaje orientado a objetos con tipado estático. Aun así define unos [tipos como primitivos](https://kotlinlang.org/docs/basic-types.html) para facilitarnos su uso. También tenemos cadenas y arrays, ideales para comenzar a programar. De hecho, tiene los [String Templates](https://kotlinlang.org/docs/basic-types.html#string-templates), que vienen fantásticos para no perderte concatenando elementos.
 - El [control de flujo](https://kotlinlang.org/docs/control-flow.html) se puede realizar con elementos conocidos como condicionales, bucles definidos e indefinidos. Destacamos el when, que es condicional múltiple supervitaminado, y el for, que al moverse con rangos nos facilita no usar comparaciones tediosas que pueden provocar errores.
 - Las [funciones](https://kotlinlang.org/docs/functions.html), son otro punto a favor. Podemos definir funciones con un número variable de parámetros. Además podemos definir funciones en línea, de extensión (de lo mejor que podrás encontrarte) y sobre carga de operadores de la manera más sencilla.
 - Seguridad ante Nulos: Null es un problema y desde su concepción se ha tratado de evitar de distintas maneras. Es aquí donde Kotlin tiene uno de sus puntos fuertes gracias a su facilidad para detectarlos, protegerse ante ellos y hacer instrucciones que realicen alguna acción en caso de no serlo, si recurrir a complicadas comparaciones u objetos Optionals.
@@ -164,7 +164,7 @@ public class Person {
 - [Genéricos](https://kotlinlang.org/docs/generics.html), con ello podemos dotar de toda la potencia de la programación genérica, pensando en qué queremos hacer y no con qué tipo.
 
 ### Colecciones
-Vale, podría ir en el apartado anterior. A parte de poder usar todas las de Java, Kotlin tiene una serie de colecciones que puedes usar con una característica muy importante, poder trabajar con la mutabilidad e inmutabilidad.
+Vale, podría ir en el apartado anterior. Aparte de poder usar todas las de Java, Kotlin tiene una serie de colecciones que puedes usar con una característica muy importante: poder trabajar con la mutabilidad e inmutabilidad.
 
 De esta manera podemos trabajar, por ejemplo, con listas constantes de solo lectura. Una gran ventaja para no meter la pata. Es decir, una lista de solo lectura, que sería un dolor de cabeza en Java, aquí la tienes de serie. Por supuesto todas trabaja con estructuras funcionales si se da el caso, sin recurrir a los streams, como parche o transformando los objetos.
 
@@ -214,7 +214,7 @@ Kotlin te permite trabajar con el [Back-end](https://kotlinlang.org/docs/server-
 
 Pero quizás quieras crear servicios web de una manera asíncrona y sencillas. Kotlin pone a tu disposición [Ktor](https://ktor.io/) para ello. No necesitas Spring o Express para hacer un API REST o GraphQL de manera rápida.
 
-Por otro lado, puedes usar [JPA](https://www.baeldung.com/kotlin/jpa) sobre Hibernate o Spring Data para trabajar en tu acceso a datos a cualquier tipo de base de datos. También podemos usar JABX para XML, o GSON o Jackson para JSON, Java NIO2, o las propias funciones de Kotlin para ficheos.
+Por otro lado, puedes usar [JPA](https://www.baeldung.com/kotlin/jpa) sobre Hibernate o Spring Data para trabajar en tu acceso a datos a cualquier tipo de base de datos. También podemos usar JAXB para XML, o GSON o Jackson para JSON, Java NIO2, o las propias funciones de Kotlin para ficheros.
 
 ¿Quieres más? Necesitas moverte con [Node.js](https://www.baeldung.com/kotlin/javascript). ¿Una back sobre Express?, ¿librerías de NPM. Con Kotlin puedes hacerlo. Puedes crear tus aplicaciones en Node.js
 
@@ -289,7 +289,7 @@ class FoodOrder private constructor(
   alt="Imagen">
 </p>
 
-Además, podemos usar Kotlin como lenguaje de scripting, con ficheos .kts. Un ejemplo:
+Además, podemos usar Kotlin como lenguaje de scripting, con ficheros .kts. Un ejemplo:
 
 Ejemplo de script llamado
 
@@ -310,7 +310,7 @@ $ kotlinc -script list_folders.kts -- -d <path_folder>
 
 ## <span class="iconify" data-icon="cib:kotlin"></span> Kotlin vs <span class="iconify" data-icon="cib:java"></span> Java
 
-No se trata de una guerra, si no que cad acual elija según sus intereses programando.
+No se trata de una guerra, sino que cada cual elija según sus intereses programando.
 
 <p style="text-align:center;">
 <img loading="lazy" style="border-radius: 0.25rem;"
@@ -328,7 +328,7 @@ No se trata de una guerra, si no que cad acual elija según sus intereses progra
 
 <span class="iconify" data-icon="bx:bxs-file-doc"></span> [Koans](https://play.kotlinlang.org/koans/overview)
 
-<span class="iconify" data-icon="bx:bxs-file-doc"></span> [JetBrains Coursea](https://www.coursera.org/learn/kotlin-for-java-developers).
+<span class="iconify" data-icon="bx:bxs-file-doc"></span> [JetBrains Coursera](https://www.coursera.org/learn/kotlin-for-java-developers).
 
 <span class="iconify" data-icon="bx:bxs-file-doc"></span> [JetBrains Academy](https://hyperskill.org/tracks).
 

@@ -15,16 +15,16 @@ comment: true
 sidebar: false
 ---
 
-La [Skiil del Departamento de Informática](https://www.amazon.es/JLGS-Inform%C3%A1tica-Virgen-de-Gracia/dp/B088JPBLS9/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=informatica+skill&qid=1621671069&sr=8-8) representa un proyecto de innovación docente con fines didácticos con el objetivo de cómo diseñar un asistente de voz para conocer los ciclos existentes de la familia de informática. Te comento en esta entradas las bases del desarrollo de una skill.
+La [Skill del Departamento de Informática](https://www.amazon.es/JLGS-Inform%C3%A1tica-Virgen-de-Gracia/dp/B088JPBLS9/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=informatica+skill&qid=1621671069&sr=8-8) representa un proyecto de innovación docente con fines didácticos con el objetivo de cómo diseñar un asistente de voz para conocer los ciclos existentes de la familia de informática. Te comento en esta entrada las bases del desarrollo de una skill.
 
 
 <!-- more -->
 
 ## La Skill
 
-Esta entrada voy a comenzar al revés 😉, te muestro le resultado y luego te iré comentando pasos o ideas para desarrollar una skill. 
+Esta entrada voy a comenzar al revés 😉, te muestro el resultado y luego te iré comentando pasos o ideas para desarrollar una skill. 
 
-Como he dicho esta skill es un ejemplo didáctico y no es la mejor solución técnica al 100%. Por varios motivos, pero si es muy útil para su uso docente y sobre todo para conocer el proceso de creación de una Skill de Amazón Alexa. Para ello sería interesante haber usado bases de datos o servicios webs para hacer búsquedas más potentes y no ficheros sobre todo para los datos locales, Pero se muestra el uso de y consumo de servicios web en otras partes de su funcionalidad. Pero lo importante es conocer el proceso de desarrollo y diseño de interacción de voz (front-end) ye l procesamiento de intenciones y eventos (back-end) y se propondrá como ampliación otras tecnologías como las indicadas en un futuro.
+Como he dicho esta skill es un ejemplo didáctico y no es la mejor solución técnica al 100%. Por varios motivos, pero sí es muy útil para su uso docente y sobre todo para conocer el proceso de creación de una Skill de Amazon Alexa. Para ello sería interesante haber usado bases de datos o servicios web para hacer búsquedas más potentes y no ficheros, sobre todo para los datos locales. Pero se muestra el uso y consumo de servicios web en otras partes de su funcionalidad. Lo importante es conocer el proceso de desarrollo y diseño de interacción de voz (front-end) y el procesamiento de intenciones y eventos (back-end), y se propondrá como ampliación otras tecnologías como las indicadas en un futuro.
 
 Esta skill representa un proyecto de innovación docente con fines didácticos con el objetivo de cómo diseñar un asistente de voz para conocer los ciclos existentes de la familia de informática, conocer los módulos, obtener información detallada de los mismos, saber cómo contactar, conocer las noticias del centro y del departamento, recordar tareas a realizar, cosas curiosas relacionadas con el desarrollo de software.
 
@@ -35,7 +35,7 @@ La skill se ha desarrollado dentro de los programas de formación de Desarrollo 
 * [Alexa Skill Kit](https://developer.amazon.com/es-ES/docs/alexa/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
 * [Alexa Voice Service](https://developer.amazon.com/es-ES/docs/alexa/alexa-voice-service/get-started-with-alexa-voice-service.html)
 * Node.js: en el Backend.
-* Lambda Function. Como parte del AWS Serveless.
+* Lambda Function. Como parte del AWS Serverless.
 :::
 
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://informaticacifpvg.netlify.app/assets/img/proyectos/departamento_skill.jpg" alt="Logo"></p>
@@ -44,7 +44,7 @@ La skill se ha desarrollado dentro de los programas de formación de Desarrollo 
 
 ## Desarrollando para Alexa
 
-Antes de nada, quiero presentarte el [tutorial](https://github.com/joseluisgs/alexa-skill-tutorial) que hicimos en el grupo de trabajo del [Dpto. de Informática de Virgen de Gracia](https://informaticacifpvg.netlify.app/proyectos/departamento_skill_alexa/), donde se muestra los pasos para hacer una skill de manera mas detallada y que resumo en esta entrada de la web.
+Antes de nada, quiero presentarte el [tutorial](https://github.com/joseluisgs/alexa-skill-tutorial) que hicimos en el grupo de trabajo del [Dpto. de Informática de Virgen de Gracia](https://informaticacifpvg.netlify.app/proyectos/departamento_skill_alexa/), donde se muestran los pasos para hacer una skill de manera más detallada y que resumo en esta entrada de la web.
 
 ::: tip ¿Cómo hacer una skill?
 - [Tutorial disponible en repositorio 💻](https://github.com/joseluisgs/alexa-skill-tutorial)
@@ -112,8 +112,8 @@ ver una vez generado y modificar en vez de usar los input de utterance y todo es
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/alexa-skills-programmieren-EN-20.png" alt="Logo"></p>
 
 ### Code
-CEs la pestaña donde programamos la funcionalidad, Back-end. Se implementan dentro de en un AWS Lambda. Con la ventaja que te lo
-interconecta todo automáticamente si usas Node.js o Phython. Si quieres JAVA lo tendrás que hacer de manera manual.
+Es la pestaña donde programamos la funcionalidad, Back-end. Se implementan dentro de un AWS Lambda. Con la ventaja de que te lo
+interconecta todo automáticamente si usas Node.js o Python. Si quieres Java lo tendrás que hacer de manera manual.
 Importante:
 * const Alexa = require('ask-sdk-core') -> Librería a usar
 * Tantos RequestHandler como necesitemos para manejar los intents que vengan del skill. mismo RequestHandler puede manejar más de un intent.
@@ -122,7 +122,7 @@ El método canHandle se usa para chequear si el handler puede manejar la petici�
 nombre del intent de la request.
 El método handle es el encargado de recibir el input y construir la respuesta para el usuario a partir de su request. Es el método donde irá el código más interesante del handler. En el caso del ejemplo me gustaría destacar tres cosas:
 * speak, le estamos dando a la respuesta el texto que Alexa dirá de voz al usuario.
-* simpleCard, aquí construimos una salida para Alexa que será util para dispositivos con pantalla, como la app del móviles.
+* simpleCard, aquí construimos una salida para Alexa que será útil para dispositivos con pantalla, como la app del móvil.
 * shouldEndSession, con esto le indicamos a Alexa que, una vez manejada la request, no esperamos otra interacción con el usuario y cerramos la sesión, es decir, el skill.
 
 Si queremos elaborar una respuesta de dos tipos: texto que dirá Alexa con voz y, además, información para construir una "tarjeta" que mostrará Alexa
@@ -131,8 +131,8 @@ petición concreta y sin diálogo.
 
 En el caso de que nuestro handler quiera indicar a Alexa que esperamos seguir interactuando con el usuario tenemos que construir la respuesta
 con reprompt.
-exports.handler = Alexa.SkillBuilders.custom()- > Ojo, el orden de los handlers importa a la hora de decidir cuál usará para manejar la petición del
-usuario. Irá validando los handlers en el orden que los hemos registrado y usará el primero que retorne true en la validación del método canHandle. Son los endpoits de nuestra skill.
+exports.handler = Alexa.SkillBuilders.custom() -> Ojo, el orden de los handlers importa a la hora de decidir cuál usará para manejar la petición del
+usuario. Irá validando los handlers en el orden que los hemos registrado y usará el primero que retorne true en la validación del método canHandle. Son los endpoints de nuestra skill.
 
 ``` js
 const LaunchRequestHandler = {
@@ -164,15 +164,15 @@ const LaunchRequestHandler = {
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="http://alexaskillstutorials.com/wp-content/uploads/2020/01/make-money-alexa-skill-save-deploy-code-1024x437.png" alt="Logo"></p>
 
 ### Test
-Nos vamos a la pestaña de Test, y marcamos que estamos en Development y probamos a decir open Hello World o el Invocation Name que tiene de lanzamiento, o escribiéndolo en el cuadro de diálogo. De esta manera podremos probar nuestras itents, nuestros modelos interactivos y la respuesta del back-end a nuestras peticiones.
+Nos vamos a la pestaña de Test, y marcamos que estamos en Development y probamos a decir open Hello World o el Invocation Name que tiene de lanzamiento, o escribiéndolo en el cuadro de diálogo. De esta manera podremos probar nuestras intents, nuestros modelos interactivos y la respuesta del back-end a nuestras peticiones.
 
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/alexa-skills-programmieren-EN-30.png" alt="Logo"></p>
 
 ### Internacionalización
-Copiamos nuestro JSON de interfaz en ingles o español), y nos cambiamos a la pestaña de Lenguaje en
+Copiamos nuestro JSON de interfaz en inglés o español), y nos cambiamos a la pestaña de Lenguaje en
 español y lo pegamos.
 * Traducimos nuestras frases. Le damos a construir y probamos. ¡Las respuestas siguen en inglés!
-* Hemos localizado el Front-end, pero no el Back-end. Ahora debes abrir el ficheor index.js y traducir cada
+* Hemos localizado el Front-end, pero no el Back-end. Ahora debes abrir el fichero index.js y traducir cada
 frase, si quieres. Esto es para que utilices plantillas, si no puedes usarlo todo en español desde el comienzo.
 
 ### Publicación
@@ -183,7 +183,7 @@ Para ello, ve a la sección "Distribution" (publicación) haciendo clic en el bo
 En "Skill preview", introduce toda la información que debe mostrarse en la vista previa a los usuarios en el país de destino deseado.
 
 ### Certificación
-Una vez que hayas ingresa toda la información requerida para la publicación, puedes entregar tu Skill para para su validación. Una vez que la Skill de Alexa que has programado complete con éxito el test funcional, estará lista para el paso final de la publicación, la "Submission" (enviar). Haz clic en "Submit for Review" (enviar para revisión) para certificar tu Skill.
+Una vez que hayas ingresado toda la información requerida para la publicación, puedes entregar tu Skill para su validación. Una vez que la Skill de Alexa que has programado complete con éxito el test funcional, estará lista para el paso final de la publicación, la "Submission" (enviar). Haz clic en "Submit for Review" (enviar para revisión) para certificar tu Skill.
 Una vez Amazon ha completado la revisión, recibirás un correo electrónico en la cuenta asociada a tu cuenta de desarrollador de Amazon. Existen básicamente dos escenarios posibles: 
 
 * Tu Skill se ha certificado con éxito: en este caso, se te comunicará por correo electrónico cuándo se espera que tu Skill se publique en la Alexa Skills Store.

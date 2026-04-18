@@ -1,6 +1,6 @@
 ---
 title: GitHub, mi herramienta imprescindible
-description: Te cuento cómo Octocat es mi gran amigo y aliado dentro y fueras de las aulas
+description: Te cuento cómo Octocat es mi gran amigo y aliado dentro y fuera de las aulas
 date: 2021-05-11
 category:
   - Blog
@@ -16,7 +16,7 @@ comment: true
 sidebar: false
 ---
 
-Sí, soy un enamorado de las tecnologías de mi amigo Octocat. De hecho, se han convertido en estos dos últimos cursos en mi pilar centrar en el que desarrollo mi docentes y donde concentro [apuntes y prácticas](https://github.com/joseluisgs) y proyectos personales. Me ofrece tantas ventajas, que voy a iniciar mi especial sobre tecnologías favoritas explicándola como uso GitHub en mi día a día.
+Sí, soy un enamorado de las tecnologías de mi amigo Octocat. De hecho, se han convertido en estos dos últimos cursos en mi pilar central en el que desarrollo mi docencia y donde concentro [apuntes y prácticas](https://github.com/joseluisgs) y proyectos personales. Me ofrece tantas ventajas, que voy a iniciar mi especial sobre tecnologías favoritas explicando cómo uso GitHub en mi día a día.
 
 <!-- more -->
 
@@ -24,22 +24,22 @@ Sí, soy un enamorado de las tecnologías de mi amigo Octocat. De hecho, se han 
 
 Me encanta empezar por GitHub. Es una herramienta tan importante, que nos aporta tanto, que se merece estar en el lugar que le corresponde. 
 
-Usar un sistema de control de versiones tiene muchas ventajas. No voy a entrar en explicarlo con mucho detalle, pero si eso lo unimos con las ventajas que nos ofrece GitHub como herramienta de apoyo docente, la cosa puede ser espectaular. Desde hace dos cursos uso Git y GitHub como pilar en todos los mis módulos. Primero, porque lo considero imprescindible para impartir módulos y cursos de desarrollo de software. Segundo, porque me ha tocado módulos donde entra en el temario. Tercero, y más importante, porque no imagino salir al mercado laboral si un mínimo de soltura manejándolo.
+Usar un sistema de control de versiones tiene muchas ventajas. No voy a entrar en explicarlo con mucho detalle, pero si eso lo unimos con las ventajas que nos ofrece GitHub como herramienta de apoyo docente, la cosa puede ser espectacular. Desde hace dos cursos uso Git y GitHub como pilar en todos mis módulos. Primero, porque lo considero imprescindible para impartir módulos y cursos de desarrollo de software. Segundo, porque me han tocado módulos donde entra en el temario. Tercero, y más importante, porque no imagino salir al mercado laboral sin un mínimo de soltura manejándolo.
 
-GitHub me ofrece tantas ventajas que poco a poco las iré enumerando y confirmaréis como Octocat es uno más de mis clases, y muchas veces, mucho más importante que el propio profesor 🤨. ¿Despegamos?
+GitHub me ofrece tantas ventajas que poco a poco las iré enumerando y confirmaréis cómo Octocat es uno más en mis clases, y muchas veces, mucho más importante que el propio profesor 🤨. ¿Despegamos?
 
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://i.pinimg.com/originals/ce/c6/0c/cec60c601c83652dd79980b561e65fdf.jpg" alt="Logo"></p>
 
 
-## Github en clase
+## GitHub en clase
 
-Comencemos con el propio objetivo de usar Git y GitHub, como sabemos es un sistema de control de versiones con la posibilidad de usarlo remotamente. De esta manera mi código siempre esta disponible para todo el mundo, puedo tener una copia de seguridad de las prácticas, apuntes, etc.
+Comencemos con el propio objetivo de usar Git y GitHub; como sabemos, es un sistema de control de versiones con la posibilidad de usarlo remotamente. De esta manera mi código siempre está disponible para todo el mundo, y puedo tener una copia de seguridad de las prácticas, apuntes, etc.
 
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://freeforstudents.org/img/cards/github-banner.png" alt="Logo"></p>
 
-En mi día a día, como profesor, y formador, a parte de desarrollador, es importante que cuando estamos enseñando o órgan practicar con un código llevar un diario y registro de cambios que facilite al alumnado seguir lo que se ha hecho en la clase (y a los inspectores/as de turno ver que trabajas...). De esta manera lo conseguimos de manera muy fácil. Cada **_commit_** es un momento clave en clase. De esta manera podemos seguir los distintos puntos de la clase, autocompletando y documentando lo que sucede en ella. Cada **_rama_** nos ofrece diversas alternativas de soluciones o de tecnologías aplicadas, incluso mejoras o cuestiones propuestas del alumnado. Todo lo hecho en el aula siempre quedan patente para que experimenten sobre ellas.
+En mi día a día, como profesor y formador, aparte de desarrollador, es importante que cuando estamos enseñando o practicando con un código llevemos un diario y registro de cambios que facilite al alumnado seguir lo que se ha hecho en la clase (y a los inspectores/as de turno ver que trabajas...). De esta manera lo conseguimos de manera muy fácil. Cada **_commit_** es un momento clave en clase. De esta manera podemos seguir los distintos puntos de la clase, autocompletando y documentando lo que sucede en ella. Cada **_rama_** nos ofrece diversas alternativas de soluciones o de tecnologías aplicadas, incluso mejoras o cuestiones propuestas del alumnado. Todo lo hecho en el aula siempre queda patente para que experimenten sobre ello.
 
-Además, el código siempre está disponible para el alumnado en todo momento pueda hacer un **_fork_**, pueda experimentar, puedan variarlo, ver el seguimiento, compararlo, etc. Nos permite que tanto alumnado y profesorado trabajemos conjuntamente y colaboremos. Pueden hacerme **_pull request_** para corregir errores, propuestas de mejoras, completar código entre varias personas. Incluso lo he usado en exámenes, les das la estructura de código o plantilla que deben completar, subir, ser la base de nuestro sistema de desarrollo y despliegue contínuo... ¿Qué más puedes pedir? ✌
+Además, el código siempre está disponible para el alumnado en todo momento: pueden hacer un **_fork_**, experimentar, variarlo, ver el seguimiento, compararlo, etc. Nos permite que tanto alumnado como profesorado trabajemos conjuntamente y colaboremos. Pueden hacerme **_pull request_** para corregir errores, propuestas de mejoras, completar código entre varias personas. Incluso lo he usado en exámenes: les das la estructura de código o plantilla que deben completar, subir y usar como base de nuestro sistema de desarrollo y despliegue continuo... ¿Qué más puedes pedir? ✌
 
 ::: tip Ventajas
 
@@ -53,19 +53,19 @@ Además, el código siempre está disponible para el alumnado en todo momento pu
 
 ### GitHub y COVID
 
-Si GitHub es útil en mi día a día, más lo ha sido en tiempos de COVID. Y por este motivo lo destaco un poco más. He vivido todo tipo de docentes en menos de un año. Confinamiento, telemática, presencial, semipresencial asíncrona, síncrona, con unos en un lado con otros en otro lado... A veces no sabíamos ni dónde, ni cómo 🤯. Lo que sí sabíamos es que estaba el [repositorio](https://github.com/joseluisgs) para salvarnos, para seguir las clases y "navegar" a través de ellas. Ha venido a complementar la labor que hemos intentado hacer en nuestro día a día.
+Si GitHub es útil en mi día a día, más lo ha sido en tiempos de COVID. Y por este motivo lo destaco un poco más. He vivido todo tipo de modalidades docentes en menos de un año. Confinamiento, telemática, presencial, semipresencial asíncrona, síncrona, con unos en un lado y otros en otro lado... A veces no sabíamos ni dónde, ni cómo 🤯. Lo que sí sabíamos es que estaba el [repositorio](https://github.com/joseluisgs) para salvarnos, para seguir las clases y "navegar" a través de ellas. Ha venido a complementar la labor que hemos intentado hacer en nuestro día a día.
 
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://hostgator.mx/blog/wp-content/uploads/2020/07/07-julho-github.png" alt="Logo"></p>
 
 ## GitHub Educativo
 
-Desde que el año pasado como jefe de departamento iniciamos el proceso para formalizar nuestros acuerdos con GitHub, hemos ido trabajando todas las ventajas que nos ofrece a nivel de centro para incorporarlas en el aula. Finalmente somos centro asociado de referencia, primero de Castilla-La Mancha y con ello Github tiene mucho protagonismo en nuestros módulos.
+Desde que el año pasado, como jefe de departamento, iniciamos el proceso para formalizar nuestros acuerdos con GitHub, hemos ido trabajando todas las ventajas que nos ofrece a nivel de centro para incorporarlas en el aula. Finalmente somos centro asociado de referencia, primero de Castilla-La Mancha, y con ello GitHub tiene mucho protagonismo en nuestros módulos.
 
 <p style="text-align:center;"><img loading="lazy" style="border-radius: 0.25rem;" src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-0/p320x320/37719204_1032949566864994_5259837527317020672_n.png?_nc_cat=108&ccb=1-3&_nc_sid=e3f864&_nc_ohc=8JHthO64zLoAX-wpflD&_nc_oc=AQnxsi041y2XxmZDkm5_6RQzGwuirKUF5vOPiM4vhBBRzFCvtLPb6CfjCA9lzu1HckY&_nc_ht=scontent-mad1-1.xx&tp=30&oh=0558fc54302f86840c776f5ad035e6db&oe=60BF929A" alt="Educación"></p>
 
 Como he dicho, GitHub tiene un sensacional y potente programa educativo para centros, profesorado y alumnado con muchas ventajas. Te comento:
 
-::: tip GtHub Educación
+::: tip GitHub Educación
 
 - Como [centro o campus asociado](https://education.github.com/schools) podemos tener disponible aulas virtuales para compartir código, realizar test, servidor, etc.
 - Como docentes, tenemos una [Toolbox](https://education.github.com/toolbox) increíble que nos da acceso a poder usar distintos programas con licencias especiales que son muy útiles para nuestra labor.
@@ -88,11 +88,11 @@ Este es nuestro tutorial de [Git/GitHub](https://github.com/joseluisgs/git-tutor
 
 Espero haberte convencido un poco con todo esto. Las posibilidades son infinitas. Octocat es mi gran amigo y aliado dentro y fuera de las aulas. A nivel personal, lo he usado como base para todo lo que hago, incluso para el despliegue automatizado de mi propia web como puedes ver en su dominio.
 
-Lo que más valoro es su sencillez y a la vez potencia 💪. Sé que puede haber distintas alternativas, pero nos ofrece mucho gracias a sus licencias educativas, que se hace ideal no solo por usar GitHub, si no por todo el software al que te abre las puertas .
+Lo que más valoro es su sencillez y a la vez potencia 💪. Sé que puede haber distintas alternativas, pero nos ofrece mucho gracias a sus licencias educativas, que lo hace ideal no solo por usar GitHub, sino por todo el software al que te abre las puertas.
 
-Si algo tengo claro, es que mucho tiene que cambiar las cosas para que deje de usarlo. Además, como futurible "Advisor", siempre es un placer ayudar a su integración en el aula. Si tienes alguna duda o quieres que te ayuda en algo solo tienes que contactar conmigo.
+Si algo tengo claro, es que mucho tienen que cambiar las cosas para que deje de usarlo. Además, como futurible "Advisor", siempre es un placer ayudar a su integración en el aula. Si tienes alguna duda o quieres que te ayude en algo, solo tienes que contactar conmigo.
 
-¡¡ Muchas gracias Octocat!!
+¡¡Muchas gracias, Octocat!!
 
 <p style="text-align:center;">
   <img loading="lazy" style="border-radius: 0.25rem;" 

@@ -1,5 +1,5 @@
 ---
-title: Testeando en Vue.js con  con Jest y Cypress
+title: Testeando en Vue.js con Jest y Cypress
 description: Aplicando Vue Test Utils en un ejemplo para obtener el tiempo
 date: 2021-08-05
 category:
@@ -15,16 +15,16 @@ comment: true
 sidebar: false
 ---
 
-Cuando desarrollamos cualquier aplicación es fundamental que aseguramos que todo funciona de la mejor manera posible. Para ello, debemos probar nuestra aplicación en un entorno de pruebas. En este proyecto mostramos como usar Vue Test Utils en una aplicación para consultar el tiempo usando Vue.js y OpenWeatherMap API y mostrar distintos mecanismos de la testeo bajo TDD usando Jest y Cypress dentro de Vue Test Utils. 
+Cuando desarrollamos cualquier aplicación es fundamental que aseguremos que todo funciona de la mejor manera posible. Para ello, debemos probar nuestra aplicación en un entorno de pruebas. En este proyecto mostramos cómo usar Vue Test Utils en una aplicación para consultar el tiempo usando Vue.js y OpenWeatherMap API y mostrar distintos mecanismos de testeo bajo TDD usando Jest y Cypress dentro de Vue Test Utils.
 
 
 <!-- more -->
 
 ## Vue Weather Testing
 
-El objetivo de este proyecto es partir de una simple aplicación realizada en Vue.js que consulta el tiempo de una ciudad (buscador) usando OpenWeatherMap API y en base a ella, mostrar distintos formas de realizar los test usando Jest y Cypress dentro de Vue Test Utils. 
+El objetivo de este proyecto es partir de una simple aplicación realizada en Vue.js que consulta el tiempo de una ciudad (buscador) usando OpenWeatherMap API y, en base a ella, mostrar distintas formas de realizar los test usando Jest y Cypress dentro de Vue Test Utils.
 
-No es tanto el aspecto estético si no el interno, mostrando como realizar Test Unitarios, de Integración y E2E sobre una app Vue.js, donde se pueda ver cómo testear tanto un componente aislado y dentro de este sus propiedades y métodos, como la interrelación de distintos componentes que dan forma a esta aplicación, así como la app como un todo. 
+No es tanto el aspecto estético, sino el interno, mostrando cómo realizar test unitarios, de integración y E2E sobre una app Vue.js, donde se pueda ver cómo testear tanto un componente aislado y dentro de este sus propiedades y métodos, como la interrelación de distintos componentes que dan forma a esta aplicación, así como la app como un todo.
 
 Antes de seguir, os puedo indicar que prepararé un ejemplo de aplicación de la metodología TDD donde abordaremos también el uso de Jest y Cypress para realizar pruebas de nuestros proyectos y cuyas referencias y repositorios indico a lo largo de esta entrada.
 
@@ -41,7 +41,7 @@ Este proyecto puede verse como una continuación del contenido mostrado en:
 
 ## Testeando con Vue Test Utils
 ### Jest
-[Jest](https://jestjs.io/docs/es-ES/getting-started) es una de posibilidades que tenemos para testear nuestro código o proyecto en Vue.js. Se define como la suite de "test con 0 configuración", es decir, mientras otras suite de test necesitan de de un motor (test runner) para pasar los test y de la propria suit de test como de una librería de aserciones o matchers, Jest intenta que todo esto esté ya agrupado para agilizar el procesos de test desde el principio. Esto no quiere decir que no se pueda ampliar o profundizar y personalizar con otras librerías o no tenga la potencia de otros y está pensada para test unitarios y de integración.
+[Jest](https://jestjs.io/docs/es-ES/getting-started) es una de las posibilidades que tenemos para testear nuestro código o proyecto en Vue.js. Se define como la suite de "test con 0 configuración", es decir, mientras otras suites de test necesitan de un motor (test runner) para pasar los test y de la propia suite de test, así como de una librería de aserciones o matchers, Jest intenta que todo esto esté ya agrupado para agilizar el proceso de test desde el principio. Esto no quiere decir que no se pueda ampliar o profundizar y personalizar con otras librerías o que no tenga la potencia de otros, y está pensada para test unitarios y de integración.
 
 <p style="text-align:center;">
 <img loading="lazy" style="border-radius: 0.25rem;" src="https://miro.medium.com/max/1058/1*xHwuLD0XRtfxhjV-qQjWrQ.png" alt="Jest">
@@ -66,7 +66,7 @@ El objeto wrapper nos permite probar todos los aspectos del HTML generado por el
 
 ##### Igualdad
   - .toBe: Usado para comparar valores primitivos
-  - .toEqual: Usado para comparar recursívamente todas las propiedades de un objetos, también conocido como igualdad profunda.
+  - .toEqual: Usado para comparar recursivamente todas las propiedades de un objeto, también conocido como igualdad profunda.
 
 ##### Numéricos
   - .toBeLessThan: El valor es menor que.
@@ -92,7 +92,7 @@ El objeto wrapper nos permite probar todos los aspectos del HTML generado por el
 #### Uso de Mocks
 Simulamos las llamadas a la API REST sin salir al exterior. De esta manera: 
 - Simulamos peticiones a la API REST satisfactorias
-- Simulamos llamadas a la API REST que fallán
+- Simulamos llamadas a la API REST que fallan
 Usando los mocks, podemos ver cómo reaccionan nuestros componentes sin necesidad de "gastar" tiempo en llamar constantemente al servicio externo.
 
 #### Estructura de un Test
@@ -104,7 +104,7 @@ import axios from 'axios'    // Importa la librerías a mockear
 // Mockeamos las librerías que vamos a usar
 jest.mock('axios')
 
-// Describimos la suit de test
+// Describimos la suite de test
 describe('Tests para el ... Componente', () => {
   let wrapper = null
 
@@ -116,10 +116,10 @@ describe('Tests para el ... Componente', () => {
     wrapper = shallowMount(App)
   })
 
-  // Despues de cada test
+  // Después de cada test
   afterEach(() => {
     jest.resetModules()
-    jest.clearAllMocks()  // Si estas mockeando una librería
+    jest.clearAllMocks()  // Si estás mockeando una librería
   })
 
   test('Caso de Test X', () => {
@@ -136,7 +136,7 @@ describe('Tests para el ... Componente', () => {
 })
 ```
 #### Code Coverage
-Si quieres tener un informe de la cobertura de tu código (%) añade estas líneas a tu ficheor jest.config.js
+Si quieres tener un informe de la cobertura de tu código (%) añade estas líneas a tu fichero jest.config.js
 ```js
 collectCoverage: true,
 collectCoverageFrom: [
@@ -150,7 +150,7 @@ coverageReporters: [
 ```
 
 ### Cypress
-[Cypress](https://www.cypress.io/) es una de las muchas posibilidades que tenemos para testear nuestro código o proyecto en Vue.js para realizar pruebas E2E de manera automatizada con mucha potencia y nos permite muchas posibilidades para analizar que nuestro que interaccionamos con nuestro código resolviendo las historias de usuario a realizar.
+[Cypress](https://www.cypress.io/) es una de las muchas posibilidades que tenemos para testear nuestro código o proyecto en Vue.js para realizar pruebas E2E de manera automatizada con mucha potencia y nos permite muchas posibilidades para analizar que interaccionamos correctamente con nuestro código resolviendo las historias de usuario a realizar.
 
 <p style="text-align:center;">
 <img loading="lazy" style="border-radius: 0.25rem;" src="https://miro.medium.com/max/400/1*AtCVsPmCft1K516gsb9n4Q.png" alt="Jest">
@@ -176,7 +176,7 @@ submit: permite enviar el contenido del formulario.
 
 A todas las funciones se les puede pasar un json con el elemento timeout. Este elemento nos permite incluir un tiempo que nos ayudará a esperar a que el elemento termine de cargar en la página.
 
-#### Buenas pŕacticas
+#### Buenas prácticas
 Es importante que tengamos [buenas prácticas](https://docs.cypress.io/guides/references/best-practices.html) para testear sin problemas. Entre ellas el manejo de selectores óptimos para nuestros elementos de la web, como pueden ser selectores de web del tipo con selectores del tipo id como son: data-testid (mi preferido para usarlo también con JEST) o data-cy.
 
 

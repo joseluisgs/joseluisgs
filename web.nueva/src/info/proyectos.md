@@ -27,7 +27,7 @@ Actualmente todos los [proyectos](../../categories/Proyectos/) que voy realizand
 Te recomiendo que si quieres estar al tanto de todo me sigas o pongas una estrella en aquellos que te interesen. Casi todos tienen licencia libre, por lo tanto úsalos como quieras (aunque una cita, estrella o agradecimiento si te sirven siempre se agradece 🙂).
 
 ## Proyectos como Apuntes y Recursos Didácticos
-Estos proyectos nacen principalmente de mi labor docente: **apuntes de clase** extensamente comentados y legibles, pensados para que puedas entender la arquitectura y la lógica sin ejecutar el código. **No intenta ser código de producción**. Ya seas un **alumno** o **docente**, **si te ayuda, ¡una ⭐️ es la mejor forma de apoyarlo!**
+Estos proyectos nacen principalmente de mi labor docente: **apuntes de clase** extensamente comentados y legibles, pensados para que puedas entender la arquitectura y la lógica sin ejecutar el código. **No intentan ser código de producción**. Ya seas un **alumno** o **docente**, **si te ayuda, ¡una ⭐️ es la mejor forma de apoyarlo!**
 
 En este repositorio subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y a veces no realizados de la manera más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos... o eso intento. Si te gusta algo de aquí déjame una estrella, sígueme y sobre todo ¡dame ideas para mejorar! 💪
 
