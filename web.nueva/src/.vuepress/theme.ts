@@ -107,8 +107,9 @@ export default hopeTheme({
   plugins: {
     copyright: true,
 
-    searchPro: {
+    slimsearch: {
       indexContent: false,
+      filter: (page) => !page.path.startsWith("/samples/"),
       hotKeys: [
         { key: 'k', ctrl: true },
         { key: '/', ctrl: false },

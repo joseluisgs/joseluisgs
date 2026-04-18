@@ -753,7 +753,7 @@ Este es el punto donde Java (Spring Boot) pierde por goleada.
 
 **Ejemplo de Blazor (Reactividad pura):**
 
-```cshtml
+```razor
 @page "/counter"
 @inject IServicioContadores Servicio // Inyección del servicio de BD
 
