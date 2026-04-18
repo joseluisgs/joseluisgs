@@ -4,6 +4,7 @@ description: Comienza un nuevo curso, y con ello nuevos objetivos, nuevos retos 
 date: 2023-10-27
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - IES Luis Vives

@@ -4,10 +4,11 @@ description: Las bases para un desarrollo colaborativo y sostenible
 date: 2025-09-16
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Despliegue de Aplicaciones Web
+  - Despliegue de Aplicaciones Web (DAW)
   - Git
   - GitHub
   - Markdown

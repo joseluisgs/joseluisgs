@@ -4,6 +4,7 @@ description: Asentando y mejorando lo que tenemos en nuestro día a día
 date: 2022-11-02
 category:
   - Blog
+  - Docencia
 tag:
    - Docencia
    - IES Luis Vives

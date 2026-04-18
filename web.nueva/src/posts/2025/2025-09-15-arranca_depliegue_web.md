@@ -4,10 +4,11 @@ description: Describimos el inicio del curso de Despliegue de Aplicaciones Web e
 date: 2025-09-15
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Despliegue de Aplicaciones Web
+  - Despliegue de Aplicaciones Web (DAW)
   - Docker
   - Nginx
   - Apache

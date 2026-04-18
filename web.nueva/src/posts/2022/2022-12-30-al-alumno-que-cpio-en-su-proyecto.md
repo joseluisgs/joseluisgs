@@ -4,6 +4,7 @@ description: Seguro que al mirarte te sientes satisfecho
 date: 2022-12-30
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Personal

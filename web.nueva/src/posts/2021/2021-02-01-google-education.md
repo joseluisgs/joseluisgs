@@ -4,6 +4,7 @@ description: Mi experiencia con Google Education
 date: 2021-02-01
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Tecnologías

@@ -4,6 +4,7 @@ description: Cómo manejar la asincronía, concurrencia y reactividad de forma s
 date: 2022-11-29
 category:
   - Blog
+  - Docencia
 tag:
    - Docencia
    - Kotlin

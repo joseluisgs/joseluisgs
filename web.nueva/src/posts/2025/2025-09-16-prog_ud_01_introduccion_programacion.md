@@ -4,11 +4,13 @@ description: Los pilares de la programación profesional y el desarrollo de soft
 date: 2025-09-16
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
   - Programación
   - C#
+  - .NET
   - Algoritmos
 icon: fa-solid fa-calculator
 cover: https://t3.ftcdn.net/jpg/04/57/93/78/360_F_457937822_6guyVRMr4cCdCr36zPg7Er7WRaf0FbSn.jpg

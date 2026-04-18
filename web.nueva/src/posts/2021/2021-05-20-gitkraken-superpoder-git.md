@@ -10,7 +10,7 @@ tag:
    - Tecnologías
    - Git
    - GitHub
-   - Gitkraken
+   - GitKraken
 icon: fa-solid fa-code-branch
 cover: https://www.dovesco.com/sites/default/files/2020-09/axosoft.jpg
 comment: true

@@ -8,7 +8,7 @@ category:
 tag:
   - Proyectos
   - Vue.js
-  - Vuepress
+  - VuePress
 icon: fa-brands fa-vuejs
 cover: http://elfarolillorojo.es/wp-content/uploads/2020/08/hello-world-1024x544.png
 comment: true

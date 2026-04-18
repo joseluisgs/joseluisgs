@@ -4,6 +4,7 @@ description: Compartiendo y aprendiendo con Antonio Leiva y DevExpert.io junto a
 date: 2024-01-03
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Personal

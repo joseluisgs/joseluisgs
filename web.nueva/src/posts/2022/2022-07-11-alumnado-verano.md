@@ -4,6 +4,7 @@ description: Algunas reflexiones de fin de curso con el calor de protagonista
 date: 2022-07-11
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - IES Luis Vives

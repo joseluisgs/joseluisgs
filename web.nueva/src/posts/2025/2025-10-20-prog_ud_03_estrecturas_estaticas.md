@@ -5,11 +5,13 @@ date: 2025-10-20
 
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
   - Programación
   - C#
+  - .NET
   - Arrays
   - Algoritmos
 icon: fa-solid fa-list

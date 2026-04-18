@@ -4,10 +4,11 @@ description: Describimos el inicio del curso de Entornos de Desarrollo en 1º DA
 date: 2025-09-15
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Entornos de Desarrollo
+  - Entornos de Desarrollo (ED)
   - Git
   - GitHub
   - IntelliJ

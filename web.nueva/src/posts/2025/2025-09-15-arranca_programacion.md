@@ -4,11 +4,13 @@ description: Describimos el inicio del curso de Programación en 1º DAW
 date: 2025-09-15
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
   - Programación
   - C#
+  - .NET
 icon: fa-brands fa-csharp
 cover: https://mytasker.com/assets/images/WD-D-banner.jpg
 comment: true

@@ -4,6 +4,7 @@ description: Cuando el sistema puede quemar al profesorado
 date: 2022-11-30
 category:
   - Blog
+  - Docencia
 tag:
    - Docencia
    - Personal

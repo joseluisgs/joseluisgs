@@ -5,6 +5,7 @@ date: 2025-12-31
 
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW

@@ -9,7 +9,7 @@ tag:
    - Docencia
    - Tecnologías
    - Git
-   - Gitkraken
+   - GitKraken
 icon: fa-solid fa-code-branch
 cover: https://i.imgur.com/1Dnghu1.png
 comment: true

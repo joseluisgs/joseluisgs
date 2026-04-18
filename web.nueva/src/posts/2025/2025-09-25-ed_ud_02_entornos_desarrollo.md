@@ -5,10 +5,11 @@ date: 2025-09-25
  
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Entornos de Desarrollo
+  - Entornos de Desarrollo (ED)
   - IDE
   - VS Code
   - IntelliJ

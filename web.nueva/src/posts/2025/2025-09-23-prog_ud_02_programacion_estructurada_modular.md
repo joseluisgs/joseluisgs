@@ -4,11 +4,13 @@ description: Los pilares para un desarrollo de software robusto
 date: 2025-09-23
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
   - Programación
   - C#
+  - .NET
   - Funciones
 icon: fa-brands fa-csharp
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp_-Y7sdX-XyYQ9HUsAqExFaQ3qdLdRApItw&s

@@ -4,6 +4,7 @@ description: Y fallar está permitido
 date: 2021-11-11
 category:
   - Blog
+  - Docencia
 tag:
    - Docencia
    - Competencias

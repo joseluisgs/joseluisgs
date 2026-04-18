@@ -12,7 +12,7 @@ tag:
   - Android
   - Kotlin
   - Firebase
-  - REST
+  - API REST
 icon: fa-brands fa-android
 cover: https://3.bp.blogspot.com/-E_61ZBmBlwo/XaeWvxlFvWI/AAAAAAAAMqQ/7Zc_eiWh25kznrDFwwpEvHvRHSby-P2XwCLcBGAsYHQ/s1600/Introducing_LTS_Android_NDK_r21.png
 comment: true

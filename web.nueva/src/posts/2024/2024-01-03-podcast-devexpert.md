@@ -4,6 +4,7 @@ description: Una de las mejores cosas que me trajo este año 2023
 date: 2024-01-03
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Personal

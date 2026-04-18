@@ -4,6 +4,7 @@ description: Algunas reflexiones sobre el nuevo año y los propósitos que me he
 date: 2023-01-01
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Personal

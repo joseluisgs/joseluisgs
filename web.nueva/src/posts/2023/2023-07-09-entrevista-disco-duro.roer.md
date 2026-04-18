@@ -4,6 +4,7 @@ description: Podcast donde hablo un poco de mí y de mi trabajo con Disco Duro d
 date: 2023-07-09
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Personal

@@ -4,6 +4,7 @@ description: La mejor formación para ser un todoterreno en Kotlin
 date: 2022-06-27
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Proyectos

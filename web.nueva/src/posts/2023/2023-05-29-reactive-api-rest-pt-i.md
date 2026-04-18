@@ -4,6 +4,7 @@ description: Cómo crear un servicio REST aplicando reactividad y consideracione
 date: 2023-05-29
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Proyectos

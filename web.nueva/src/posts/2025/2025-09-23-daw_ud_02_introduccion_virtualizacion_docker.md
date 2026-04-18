@@ -4,10 +4,11 @@ description: La tecnología que ha revolucionado la forma de desarrollar y despl
 date: 2025-09-23
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Despliegue de Aplicaciones Web
+  - Despliegue de Aplicaciones Web (DAW)
   - Docker
   - Contenedores
 icon: fa-brands fa-docker

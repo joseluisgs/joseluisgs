@@ -4,6 +4,7 @@ description: Tu proyecto FCT o de fin de grado es más importante de lo que pien
 date: 2021-01-26
 category:
   - Blog
+  - Proyectos
 tag:
   - Proyectos
   - Profesional

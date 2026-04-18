@@ -4,6 +4,7 @@ description: Nunca digas adiós, solo hasta luego
 date: 2021-09-05
 category:
   - Blog
+  - Docencia
 tag:
    - Docencia
 icon: fa-solid fa-school

@@ -4,6 +4,7 @@ description: O como la reactividad ayuda en determinadas aplicaciones
 date: 2022-12-06
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Kotlin

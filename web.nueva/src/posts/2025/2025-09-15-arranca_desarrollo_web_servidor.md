@@ -4,10 +4,11 @@ description: Describimos el inicio del curso de Desarrollo Web en Entorno Servid
 date: 2025-09-15
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Desarrollo Web Entorno Servidor
+  - Desarrollo Web Entorno Servidor (DWES)
   - Java
   - Spring Boot
 icon: fa-brands fa-java

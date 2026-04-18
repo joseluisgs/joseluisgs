@@ -4,6 +4,7 @@ description: Aprender es el camino, que nunca has de dejar de recorrer
 date: 2021-01-18
 category:
   - Blog
+  - Proyectos
 tag:
   - Proyectos
   - Profesional

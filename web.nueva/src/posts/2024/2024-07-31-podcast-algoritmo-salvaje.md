@@ -4,6 +4,7 @@ description: Hablando un poco de la nueva FP y de DAW-DAM
 date: 2024-07-31
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Personal

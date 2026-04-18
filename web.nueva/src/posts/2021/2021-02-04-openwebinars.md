@@ -4,6 +4,7 @@ description: Las ventajas de usar OpenWebinars en el aula
 date: 2021-02-04
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Formación

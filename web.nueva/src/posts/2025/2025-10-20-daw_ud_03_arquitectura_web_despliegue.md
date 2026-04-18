@@ -5,10 +5,11 @@ date: 2025-10-20
  
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Despliegue de Aplicaciones Web
+  - Despliegue de Aplicaciones Web (DAW)
   - CI/CD
   - Nginx
   - Apache

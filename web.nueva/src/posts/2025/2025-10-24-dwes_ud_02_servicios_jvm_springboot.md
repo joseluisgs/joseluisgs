@@ -5,14 +5,15 @@ date: 2025-10-24
 
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Desarrollo Web Entorno Servidor
+  - Desarrollo Web Entorno Servidor (DWES)
   - Java
   - Spring Boot
   - JPA
-  - REST
+  - API REST
 icon: fa-solid fa-leaf
 
 cover: https://puroguramu.akcstudio.com/spring-boot.png

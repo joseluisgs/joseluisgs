@@ -4,10 +4,11 @@ description: Los pilares de la programación profesional
 date: 2025-09-16
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Entornos de Desarrollo
+  - Entornos de Desarrollo (ED)
   - UML
   - Patrones de Diseño
 icon: fa-solid fa-sitemap

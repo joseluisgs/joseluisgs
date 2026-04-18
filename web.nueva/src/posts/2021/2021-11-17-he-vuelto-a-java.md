@@ -4,6 +4,7 @@ description: O como la dependencia a un lenguaje te puede hacer fracasar
 date: 2021-11-17
 category:
   - Blog
+  - Docencia
 tag:
    - Docencia
    - Competencias

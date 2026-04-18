@@ -4,6 +4,7 @@ description: Circunstancias inesperadas que te hacen mejorar y dar un paso más
 date: 2022-06-25
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Personal

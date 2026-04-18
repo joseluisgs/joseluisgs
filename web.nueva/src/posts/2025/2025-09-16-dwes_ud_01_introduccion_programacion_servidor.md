@@ -4,10 +4,11 @@ description: Asentando las bases del desarrollo en el lado del servidor
 date: 2025-09-16
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Desarrollo Web Entorno Servidor
+  - Desarrollo Web Entorno Servidor (DWES)
   - API REST
   - HTTP
 icon: fa-solid fa-network-wired

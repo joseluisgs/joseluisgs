@@ -5,10 +5,11 @@ date: 2025-10-20
 
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - DAW
-  - Entornos de Desarrollo
+  - Entornos de Desarrollo (ED)
   - Git
   - GitHub
   - GitFlow

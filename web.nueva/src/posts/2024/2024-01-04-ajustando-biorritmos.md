@@ -4,6 +4,7 @@ description: Los cambios no son tan fáciles como parecen
 date: 2024-01-04
 category:
   - Blog
+  - Docencia
 tag:
   - Docencia
   - Personal
