@@ -3,42 +3,44 @@
 # quitamos los errores
 set -e
 
-echo "Ejecutando deploy...🚀"
+echo "🚀 Iniciando proceso de despliegue en joseluisgs.dev..."
 
-# borramos
-rm -rf public
+# Limpieza inicial
+echo "🧹 Limpiando compilaciones anteriores..."
+rm -rf src/.vuepress/dist
 
-# build
-npm run build
+# Generación del sitio estático
+echo "🏗️  Compilando el sitio con VuePress 2..."
+npm run docs:build
 
-# copiamos readme y license
-cp README.md public
-cp LICENSE public
-cp CNAME public
+# Preparación de archivos legales y de dominio
+echo "📄 Copiando archivos de configuración (CNAME, README, LICENSE)..."
+cp README.md src/.vuepress/dist
+cp LICENSE src/.vuepress/dist
+cp CNAME src/.vuepress/dist
 
-# cambiamos al directorio
-cd public
+# Navegación al directorio de salida
+cd src/.vuepress/dist
 
-# Inicializamos el reposotorio
+# Preparación del repositorio temporal para GitHub Pages
+echo "📦 Inicializando repositorio local para el despliegue..."
 git init
-
-# Añadimos los ficheros y hacemos comit en main
 git add -A
 date=`date +%Y-%m-%d_%H:%M:%S`
-git commit -m "deploy ${date}"
+git commit -m "deploy ${date} 🚀"
 git branch -M main
 
-# Nos conectamos a remoto y subimos
+# Subida forzada al repositorio de producción
+echo "📤 Subiendo cambios a GitHub Pages (joseluisgs.github.io)..."
 git remote add origin https://github.com/joseluisgs/joseluisgs.github.io.git
 git push -u -f origin main
-# git push -u origin main
 
-# Eliminamos los cambios
-rm -rf .git
+# Limpieza final del entorno local
+echo "✨ Limpiando archivos temporales de compilación..."
 cd -
-rm -rf public
+rm -rf src/.vuepress/dist
 
-echo "Deploy realizado correctamente 👍"
-echo "Visita: https://joseluisgs.dev 🚀"
-echo "Fin del proceso de despliegue. 🎉"
+echo "✅ ¡Despliegue realizado correctamente! 👍"
+echo "🌐 Visita tu web en: https://joseluisgs.dev 🚀"
+echo "🎉 Proceso de despliegue finalizado con éxito."
 
