@@ -5,8 +5,8 @@ date: 2025-09-15
 category:
   - Blog
 tag:
-  - Blog
   - Docencia
+  - DAW
   - Entornos de Desarrollo
 cover: https://tech-radix.com/wp-content/uploads/2022/03/Mob-App.webp
 comment: true

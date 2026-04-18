@@ -3,11 +3,12 @@ title: Desarrollo Web en Entornos Servidor 02 - Servicios Web con JVM y Spring B
 description: Programación avanzada de Java y desarrollo de servicios web utilizando Spring Boot sobre la JVM
 date: 2025-10-24
 
-category: blog
-
-tags:
-  - blog
-  - doc
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Desarrollo Web Entorno Servidor
 
 cover: https://puroguramu.akcstudio.com/spring-boot.png
 

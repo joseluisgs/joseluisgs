@@ -3,11 +3,12 @@ title: Entornos de Desarrollo 02 - Entornos de Desarrollo (IDEs)
 description: Herramientas esenciales para programar de manera eficiente
 date: 2025-09-25
 
-category: blog
-
-tags:
-  - blog
-  - doc
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Entornos de Desarrollo
 
 cover: https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2023_07_IDE-full-form-1.jpg
 

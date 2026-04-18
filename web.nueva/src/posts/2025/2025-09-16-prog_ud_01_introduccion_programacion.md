@@ -2,17 +2,14 @@
 title: Programación 01 - Introducción a la Programación Software
 description: Los pilares de la programación profesional y el desarrollo de software
 date: 2025-09-16
-
-category: blog
-
-tags:
-  - blog
-  - doc
-
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Programación
 cover: https://t3.ftcdn.net/jpg/04/57/93/78/360_F_457937822_6guyVRMr4cCdCr36zPg7Er7WRaf0FbSn.jpg
-
 comment: true
-
 ---
 
 El primer tema del módulo de Programación se centra en sentar las bases teóricas y prácticas del desarrollo de software. Va más allá de escribir código para introducir los conceptos esenciales que todo programador debe dominar. Ahondaremos como pasar de algo tan abstracto como una idea o un problema a una solución concreta y funcional mediante la programación y lsa bases iniciales de un lenguaje de programación.

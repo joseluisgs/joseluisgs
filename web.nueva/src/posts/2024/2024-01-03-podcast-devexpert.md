@@ -7,6 +7,8 @@ category:
 tag:
   - Docencia
   - Personal
+  - Podcast
+  - DevExpert
 cover: https://i.imgur.com/icsPKsj.png
 comment: true
 article: true

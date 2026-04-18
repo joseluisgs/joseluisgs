@@ -6,6 +6,7 @@ category:
   - Blog
 tag:
   - Docencia
+  - DAW
   - Despliegue de Aplicaciones Web
 cover: https://www.unir.net/wp-content/uploads/2022/11/concepto-de-computaciC3B3n-en-nube-como-grupo-de-iconos.jpg_s1024x1024wisk20c2_ZA4fNdzAughsN2BhqGVRbvrVgxwJOgPyuuhS8bkJU.jpg
 comment: true

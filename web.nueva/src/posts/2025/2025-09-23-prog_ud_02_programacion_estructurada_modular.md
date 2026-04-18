@@ -2,17 +2,14 @@
 title: Programación 02 - Programación Estructurada y Modular
 description: Los pilares para un desarrollo de software robusto
 date: 2025-09-23
-
-category: blog
-
-tags:
-  - blog
-  - doc
-
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Programación
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp_-Y7sdX-XyYQ9HUsAqExFaQ3qdLdRApItw&s
-
 comment: true
-
 ---
 
 La segunda unidad didáctica del módulo de Programación se centra en dos paradigmas fundamentales para cualquier desarrollador: la Programación Estructurada y la Programación Modular. El dominio de estos conceptos es crucial para crear programas que sean no solo funcionales, sino también claros, fáciles de mantener y escalables.

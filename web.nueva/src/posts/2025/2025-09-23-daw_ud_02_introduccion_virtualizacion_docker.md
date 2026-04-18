@@ -2,17 +2,14 @@
 title: Despliegue de Aplicaciones Web 02 - Introducción a la virtualización
 description: La tecnología que ha revolucionado la forma de desarrollar y desplegar software
 date: 2025-09-23
-
-category: blog
-
-tags:
-  - blog
-  - doc
-
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Despliegue de Aplicaciones Web
 cover: https://www.nextgencodingcompany.com/research/docker.png
-
 comment: true
-
 ---
 
 La segunda unidad didáctica del módulo de Despliegue de Aplicaciones Web se centra en la virtualización con contenedores, una tecnología que ha cambiado las reglas del juego en el mundo del desarrollo y despliegue de aplicaciones. El objetivo principal es solucionar la inconsistencia de entornos que a menudo lleva a la clásica frase: "Pero si en mi máquina funciona".

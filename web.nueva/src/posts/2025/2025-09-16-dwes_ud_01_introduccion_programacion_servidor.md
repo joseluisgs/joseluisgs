@@ -2,17 +2,14 @@
 title: Desarrollo Web en Entorno Servidor 01 - Introducción a la Programación de Software en Servidor
 description: Asentando las bases del desarrollo en el lado del servidor
 date: 2025-09-16
-
-category: blog
-
-tags:
-  - blog
-  - doc
-
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Desarrollo Web Entorno Servidor
 cover: https://www.shutterstock.com/image-vector/software-development-coding-process-concept-600nw-1396210841.jpg
-
 comment: true
-
 ---
 
 La primera unidad del módulo de Desarrollo Web en Entornos Servidor es una inmersión en los conceptos fundamentales que sustentan las aplicaciones web modernas. Se centra en el backend, la parte de una aplicación que se ejecuta en el servidor y gestiona la lógica de negocio y los datos, a diferencia del front-end, que es la interfaz visible para el usuario en el navegador.

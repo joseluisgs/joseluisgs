@@ -7,6 +7,8 @@ category:
 tag:
   - Docencia
   - Personal
+  - Podcast
+  - Algoritmo Salvaje
 cover: https://i.imgur.com/RaFcO83.jpg
 comment: true
 ---

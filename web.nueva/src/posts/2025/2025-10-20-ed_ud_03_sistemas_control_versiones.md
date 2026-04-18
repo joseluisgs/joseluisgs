@@ -3,11 +3,12 @@ title: Entornos de Desarrollo 03 - Sistema de Control de Versiones con Git y Git
 description: Fundamentos, comandos esenciales y metodologías para la colaboración eficiente con Git y GitHub
 date: 2025-10-20
 
-category: blog
-
-tags:
-  - blog
-  - doc
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Entornos de Desarrollo
 
 cover: https://miro.medium.com/1*b21FyqUbowHYAOQDXH0tDw.jpeg
 

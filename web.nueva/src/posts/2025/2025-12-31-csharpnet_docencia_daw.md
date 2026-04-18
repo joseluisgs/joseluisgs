@@ -3,11 +3,12 @@ title: Regreso a .NET en DAW. 20 razones para el cambio
 description: Reflexiones sobre la transición en el contexto de la nueva Formación Profesional de DAW y el auge de la IA.
 date: 2025-12-31
 
-category: blog
-
-tags:
-  - blog
-  - doc
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Personal
 
 cover: https://www.ryadel.com/wp-content/uploads/2020/09/asp-net-core-c-sharp-logo.jpg
 

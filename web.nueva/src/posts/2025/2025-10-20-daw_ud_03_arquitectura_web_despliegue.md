@@ -3,11 +3,12 @@ title: Despliegue de Aplicaciones Web 03 - Arquitectura Web y Fundamentos
 description: Arquitectura web, apis, protocolos y despliegue moderno
 date: 2025-10-20
 
-category: blog
-
-tags:
-  - blog
-  - doc
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Despliegue de Aplicaciones Web
 
 cover: https://thumbs.dreamstime.com/b/web-software-developer-banner-seacrh-bar-thin-line-objects-work-tools-desk-59453071.jpg
 

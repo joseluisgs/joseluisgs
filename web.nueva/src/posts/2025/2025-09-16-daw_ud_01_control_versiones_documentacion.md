@@ -2,17 +2,14 @@
 title: Despliegue de Aplicaciones Web - 01 Control de Versiones y Documentación
 description: Las bases para un desarrollo colaborativo y sostenible
 date: 2025-09-16
-
-category: blog
-
-tags:
-  - blog
-  - doc
-
+category:
+  - Blog
+tag:
+  - Docencia
+  - DAW
+  - Despliegue de Aplicaciones Web
 cover: https://www.arcadsoftware.com/arcad/wp-content/uploads/2024/01/banner-transition-git-source-code-advantages.jpg
-
 comment: true
-
 ---
 
 La primera unidad didáctica del módulo de Despliegue de Aplicaciones Web se centra en dos pilares fundamentales para el desarrollo de software profesional y colaborativo: el control de versiones y la documentación del código. Estos conceptos no solo son esenciales para mantener la integridad y la calidad del software, sino que también facilitan la colaboración entre equipos de desarrollo, permitiendo un flujo de trabajo más eficiente y organizado.

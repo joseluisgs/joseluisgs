@@ -6,7 +6,8 @@ category:
   - Blog
 tag:
   - Docencia
-  - DWES
+  - DAW
+  - Desarrollo Web Entorno Servidor
 cover: https://media.geeksforgeeks.org/wp-content/uploads/20221123153249/SkillsRequiredtoBecomeaBackendDeveloper.png
 comment: true
 ---

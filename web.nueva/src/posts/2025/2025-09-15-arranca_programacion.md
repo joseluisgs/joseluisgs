@@ -5,8 +5,8 @@ date: 2025-09-15
 category:
   - Blog
 tag:
-  - Blog
   - Docencia
+  - DAW
   - Programación
 cover: https://mytasker.com/assets/images/WD-D-banner.jpg
 comment: true
