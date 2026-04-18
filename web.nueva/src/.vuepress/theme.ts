@@ -27,30 +27,30 @@ export default hopeTheme({
   footer: `
     <div class="footer-wrapper">
       <div class="footer-author">
-        <i class="fa-solid fa-code"></i>
-        <a href="/info/personal">José Luis González Sánchez</a> &copy; ${new Date().getFullYear()}
+        <i class="fa-solid fa-code" aria-hidden="true"></i>
+        <a href="/info/personal" aria-label="Sobre José Luis González Sánchez">José Luis González Sánchez</a> &copy; ${new Date().getFullYear()}
       </div>
       <div class="footer-icons">
         <div class="footer-group socials">
-          <a href="https://github.com/joseluisgs" target="_blank"><i class="fa-brands fa-github"></i></a>
-          <a href="https://x.com/JoseLuisGSDev" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/joseluisgsdev" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://www.instagram.com/joseluisgs.dev" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.youtube.com/@joseluisgs" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://github.com/joseluisgs" target="_blank" rel="noopener noreferrer" aria-label="GitHub de José Luis González Sánchez"><i class="fa-brands fa-github"></i></a>
+          <a href="https://x.com/JoseLuisGSDev" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) de José Luis González Sánchez"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/joseluisgsdev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de José Luis González Sánchez"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/joseluisgs.dev" target="_blank" rel="noopener noreferrer" aria-label="Instagram de José Luis González Sánchez"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@joseluisgs" target="_blank" rel="noopener noreferrer" aria-label="YouTube de José Luis González Sánchez"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="footer-group tech">
-          <a href="https://vuejs.org/" target="_blank"><i class="fa-brands fa-vuejs"></i></a>
+          <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" aria-label="Vue.js"><i class="fa-brands fa-vuejs"></i></a>
           /
-          <a href="https://vuepress.vuejs.org/" target="_blank"><i class="fa-brands fa-markdown"></i></a>
-          <a href="/info/legal"><i class="fa-solid fa-cookie-bite"></i></a>
+          <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer" aria-label="VuePress"><i class="fa-brands fa-markdown"></i></a>
+          <a href="/info/legal" aria-label="Información Legal y Cookies"><i class="fa-solid fa-cookie-bite"></i></a>
         </div>
       </div>
     </div>
   `,
 
-  copyright: false,
-
-  displayFooter: true,
+  editLink: false,
+  contributors: false,
+  lastUpdated: true,
 
   blog: {
     avatar: '/img/avatar.webp',
@@ -146,39 +146,27 @@ export default hopeTheme({
     },
 
     pwa: {
-      favicon: "/favicon.png",
+      favicon: "/assets/icon/favicon-32x32.webp",
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
       apple: {
-        icon: "/assets/icon/apple-icon-152.png",
+        icon: "/assets/icon/apple-icon-180-180x180.png",
         statusBarColor: "black",
       },
       msTile: {
-        image: "/assets/icon/ms-icon-144.png",
+        image: "/assets/icon/chrome-192-192x192.png",
         color: "#ffffff",
       },
       manifest: {
         icons: [
           {
-            src: "/assets/icon/chrome-mask-512.png",
-            sizes: "512x512",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-512.png",
+            src: "/assets/icon/chrome-512-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "/assets/icon/chrome-192.png",
+            src: "/assets/icon/chrome-192-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
