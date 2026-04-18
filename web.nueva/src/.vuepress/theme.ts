@@ -145,6 +145,62 @@ export default hopeTheme({
       assets: 'fontawesome-with-brands',
     },
 
+    pwa: {
+      favicon: "/favicon.png",
+      cacheHTML: true,
+      cachePic: true,
+      appendBase: true,
+      apple: {
+        icon: "/assets/icon/apple-icon-152.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        icons: [
+          {
+            src: "/assets/icon/chrome-mask-512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "Docencia",
+            short_name: "Docencia",
+            url: "/info/docencia",
+            icons: [
+              {
+                src: "/assets/icon/guide-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+            ],
+          },
+        ],
+      },
+    },
+
     feed: {
       rss: true,
       atom: true,
@@ -160,10 +216,15 @@ export default hopeTheme({
       hostname: 'https://joseluisgs.dev',
       changefreq: 'weekly',
       priority: 0.8,
+      excludePaths: ["/404.html", "/samples/"],
     },
   },
 
   seo: {
+    hostname: "https://joseluisgs.dev",
+    author: "José Luis González Sánchez",
+    twitterID: "JoseLuisGSDev",
+    canonical: (page) => `https://joseluisgs.dev${page.path}`,
     default_image: '/img/web-social.png',
     twitterUsername: '@JoseLuisGSDev',
   },

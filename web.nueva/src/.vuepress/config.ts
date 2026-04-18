@@ -14,6 +14,22 @@ export default defineUserConfig({
 
   head: [
     ["link", { rel: "icon", href: "/favicon.png" }],
+    ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
+    ["meta", { name: "theme-color", content: "#5c92d1" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
+    ["link", { rel: "apple-touch-icon", href: "/assets/icon/apple-icon-152.png" }],
+    [
+      "meta",
+      {
+        name: "msapplication-TileImage",
+        content: "/assets/icon/ms-icon-144.png",
+      },
+    ],
+    ["meta", { name: "msapplication-TileColor", content: "#ffffff" }],
     [
       "meta",
       {
