@@ -14,21 +14,19 @@
 
 # 👋 Hola, soy José Luis González 💻 
 
-Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Formación Profesional**](https://www.iesluisvives.es/) especializado en **Desarrollo de Software** 💻. Además, soy [**Kotlin Trainer Certified by JetBrain**](https://www.jetbrains.com/es-es/company/partners/kotlin/) y [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) 👨‍💻.
+Soy [**Dr. en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**Profesor de Formación Profesional**](https://www.iesluisvives.es/) especializado en **Desarrollo de Software** 💻. Además, soy [**Kotlin Trainer Certified by JetBrains**](https://www.jetbrains.com/es-es/company/partners/kotlin/) y [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) 👨‍💻.
 
 Mi foco principal es el desarrollo de **aplicaciones web y multiplataforma**, desde el servidor ⚙️ hasta el cliente 📱. Imparto docencia en máster, doctorado y cursos de especialización en diseño, desarrollo y evaluación de productos software. Me apasiona el ecosistema de **Kotlin**, **.NET** y **Vue.js** 💓.
 
-A parte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
+Aparte de enseñar y desarrollar, disfruto con la música, especialmente todo tipo de música rock :musical_note: , me encanta el tenis 🎾, tocar la guitarra 🎸, jugar a videojuegos 🎮, leer 📚 , ver series/películas/anime 📺 y compartir buenos momentos (¿una caña y una buena charla?🍺). Me encanta seguir aprendiendo y seguir avanzando.
 
 ### 🛠️ Proyectos como Apuntes y Recursos Didácticos 
-Bienvenido a mi repositorio personal. Estos proyectos nacen principalmente de mi labor docente: **apuntes de clase** extensamente comentados y legibles, pensados para que puedas entender la arquitectura y la lógica sin ejecutar el código. **No intenta ser código de producción**. Ya seas un **alumno** o **docente**, **si te ayuda, ¡una ⭐️ es la mejor forma de apoyarlo!**
+Bienvenido a mi repositorio personal. Estos proyectos nacen principalmente de mi labor docente: **apuntes de clase** extensamente comentados y legibles, pensados para que puedas entender la arquitectura y la lógica sin ejecutar el código. **No intentan ser código de producción**. Ya seas un **alumno** o **docente**, **si te ayuda, ¡una ⭐️ es la mejor forma de apoyarlo!**
 
 ### 🎓 Colaboración con JetBrains & GitHub
 Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me apasiona ayudar a otros a potenciar su carrera como desarrolladores o a innovar en la docencia. Actualmente soy responsable de contenidos en **JetBrains Academy/Hyperskill** para el ecosistema Kotlin. Si necesitas un cable para aplicar "superpoderes" a tu código o quieres integrar estas herramientas y metodologías modernas en tus clases, **¡cuenta conmigo! 💪**
 
 🚀 **También puedes conocerme un poco más en mi página web:** [**joseluisgs.dev**](https://joseluisgs.dev/)
-
-
 
 > “Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe dónde vives”. Martin Goldin
 
