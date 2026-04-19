@@ -11,7 +11,7 @@ tag:
   - Cookies
   - Legal
   - Privacidad
-cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/10/cookies-all-day.png
+cover: https://i.imgur.com/fVhIXnB.png
 icon: fa-solid fa-scale-balanced
 author: José Luis González Sánchez
 comment: false
