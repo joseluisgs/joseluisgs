@@ -17,6 +17,7 @@ author: José Luis González Sánchez
 next: /info/docencia.md
 prev: /info/personal.md
 comment: false
+footer: true
 ---
 
 Siempre me he considerado una persona inquieta y con gran curiosidad, por lo que la investigación en tecnologías y metodologías forma ya parte de mi forma de ser. Siempre me ha gustado una investigación aplicada y que pueda ayudar a los demás.

@@ -17,6 +17,7 @@ author: José Luis González Sánchez
 next: /info/proyectos.md
 prev: /info/investigacion.md
 comment: false
+footer: true
 ---
 En este apartado resumiré brevemente mi actividad docente y con ello sepas cómo puedo ayudarte en tu formación si se da el caso. No está todo, pero creo que así puedes conocerme un poco más con lo más relevante.
 
@@ -128,5 +129,3 @@ A continuación resumiré docencia/formación realizada en anteriores años:
   - Programación Dirigida a Objetos. Ingeniería Informática.
   - Diseño de Interfaces de Usuario. Ingeniería Técnica en Informática de Gestión.
   - Ingeniería del Software II. Ingeniería Técnica en Informática de Gestión.
-
-
