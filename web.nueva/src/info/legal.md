@@ -55,6 +55,7 @@ Utilizamos los siguientes elementos para el correcto funcionamiento del sitio:
 | `cookies_consent` | Propia | Técnica | Almacena tu decisión sobre el banner de cookies. | 24 meses |
 | `cookies_consent_date`| Propia | Técnica | Fecha del consentimiento para gestionar renovaciones. | 24 meses |
 | `vuepress-theme-hope-scheme-mode` | Propia | Técnica | Almacena tu preferencia de tema (claro/oscuro). | Sesión |
+| `hasLoaded` | Propia | Técnica | Indica si el sitio ha cargado para evitar mostrar el mensaje de carga. | Sesión |
 
 > **Privacidad:** Google Analytics está configurado con `anonymize_ip: true`. Tu dirección IP se trunca antes de ser procesada, garantizando que los datos sean anónimos.
 

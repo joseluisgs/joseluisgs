@@ -71,8 +71,8 @@ Los elementos clave de HTTP son:
     * **PUT**: Actualizar o reemplazar completamente un recurso.
     * **DELETE**: Borrar un recurso.
 * **Códigos de Estado**: Indican el resultado de la petición. Los más comunes son:
-    * **2XX (Éxito)**: `200 OK` (procesada correctamente).
-    * **4XX (Error del Cliente)**: `404 Not Found` (recurso no encontrado).
+    * **200 OK** (procesada correctamente).
+    * **404 Not Found** (recurso no encontrado).
     * **5XX (Error del Servidor)**: El servidor falló al completar la petición.
 
 ### 3.2. HTTPS y Servicios Web (APIs)

@@ -18,17 +18,17 @@ comment: true
 sidebar: false
 ---
 
-La primera unidad didáctica del módulo de Despliegue de Aplicaciones Web se centra en dos pilares fundamentales para el desarrollo de software profesional y colaborativo: el control de versiones y la documentación del código. Estos conceptos no solo son esenciales para mantener la integridad y la calidad del software, sino que también facilitan la colaboración entre equipos de desarrollo, permitiendo un flujo de trabajo más eficiente y organizado.
+La primera unidad didáctica del módulo de Despliegue de Aplicaciones Web se centra en dos pilares fundamentales para el desarrollo de software profesional y colaborativo: el control de versiones y la documentación del código. Estos conceptos no solo son esenciales para mantener la integridad y la calidad del *software*, sino que también facilitan la colaboración entre equipos de desarrollo, permitiendo un flujo de trabajo más eficiente y organizado.
 
 <!-- more -->
 
-### **UD1 - Desarrollo, control de versiones y documentación**
+### UD1 - Desarrollo, control de versiones y documentación
 
-El tema destaca que el control de versiones es un sistema esencial que registra los cambios en un proyecto a lo largo del tiempo, permitiendo a los desarrolladores rastrear la evolución del software, revertir errores y coordinar el trabajo en equipo de manera eficiente.
+El tema destaca que el control de versiones es un sistema esencial que registra los cambios en un proyecto a lo largo del tiempo, permitiendo a los desarrolladores rastrear la evolución del *software*, revertir errores y coordinar el trabajo en equipo de manera eficiente.
 
 **Puntos clave de la unidad:**
 
-* **Git y GitHub:** La unidad explora en profundidad el uso de **Git**, un software de control de versiones distribuido, y **GitHub**, una plataforma que facilita la colaboración.
+* **Git y GitHub:** La unidad explora en profundidad el uso de **Git**, un *software* de control de versiones distribuido, y **GitHub**, una plataforma que facilita la colaboración.
 * **Conceptos esenciales de Git:** Se explican conceptos cruciales como **repositorio**, **commit**, **rama**, **área de preparación** y el **directorio de trabajo**.
 * **Comandos de Git:** El documento detalla los comandos esenciales para la configuración inicial, creación de repositorios, gestión de cambios (`add`, `commit`, `status`), historial de revisiones (`log`, `show`), deshacer cambios (`revert`, `reset`), ramificación y fusión (`branch`, `checkout`, `merge`, `rebase`), ignorar archivos (`.gitignore`) y el trabajo con repositorios remotos (`push`, `pull`, `fetch`).
 * **Colaboración con GitHub:** Se cubren las herramientas clave de colaboración de GitHub, como las **Pull Requests**, que son esenciales para la revisión de código, y los **Forks**, que permiten a los desarrolladores contribuir a proyectos de código abierto.

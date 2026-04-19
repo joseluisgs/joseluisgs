@@ -16,7 +16,7 @@ comment: true
 sidebar: false
 ---
 
-Continuamos y finalizamos nuestro tutorial con esta tercera parte de cómo crear una API REST Reactiva, siguiendo lo aprendido en la primera parte y en la segunda parte.
+Continuamos y finalizamos nuestro tutorial con esta tercera parte de cómo crear una API REST reactiva, siguiendo lo aprendido en la primera parte y en la segunda parte.
 
 <!-- more -->
 
@@ -56,4 +56,4 @@ Puedes encontrar el código de este proyecto en GitHub. No olvides darle una est
 
 Las siguientes pistas ofrecidas por JetBrains Academy en Hyperskill pueden ser un punto de partida perfecto:
 - Desarrollador Kotlin
-- Desarrollador Backend Kotlin (Ktor)
+- Desarrollador *Backend* Kotlin (Ktor)

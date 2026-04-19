@@ -31,7 +31,7 @@ La **Máquina Virtual de Java (JVM)** es un **estándar indiscutible** en el des
 
 <!-- more -->
 
-Esta unidad de **2º DAW** te enseñará a construir APIs REST de nivel industrial, cubriendo desde la arquitectura Java hasta la optimización con caché Redis y la seguridad JWT.
+Esta unidad de **2.º DAW** te enseñará a construir APIs REST de nivel industrial, cubriendo desde la arquitectura Java hasta la optimización con caché Redis y la seguridad JWT.
 
 ## 1. Proyecto del Curso 🚀
 

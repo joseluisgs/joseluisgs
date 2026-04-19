@@ -15,11 +15,11 @@ comment: true
 sidebar: false
 ---
 
-Si hay algo de lo que he disfrutado desde hace mucho tiempo es del uso de las Corrutinas en Kotlin. Este año he decidido explotar su uso en el backend y no puedo estar más satisfecho: rapidez, sencillez y nuevas filosofías de programación fácilmente aplicables sin recurrir a otros recursos.
+Si hay algo de lo que he disfrutado desde hace mucho tiempo es del uso de las Corrutinas en Kotlin. Este año he decidido explotar su uso en el *backend* y no puedo estar más satisfecho: rapidez, sencillez y nuevas filosofías de programación fácilmente aplicables sin recurrir a otros recursos.
 
 <!-- more -->
 ## Corrutinas
-Las corrutinas son una característica de Kotlin que viene a facilitar la programación asíncrona y la reactividad de una manera muy sencilla. Si vienes de otros lenguajes ya conoces async/await de JavaScript o C# o los observables de RxJava y compañía. Las corrutinas permiten escribir código asíncrono de forma secuencial, ocultando la complejidad subyacente de las callbacks y el manejo de hilos.
+Las corrutinas son una característica de Kotlin que viene a facilitar la programación asíncrona y la reactividad de una manera muy sencilla. Si vienes de otros lenguajes ya conoces *async/await* de JavaScript o C# o los observables de RxJava y compañía. Las corrutinas permiten escribir código asíncrono de forma secuencial, ocultando la complejidad subyacente de las *callbacks* y el manejo de hilos.
 
 La diferencia principal es que el hilo no se bloquea, sino que se suspende mientras espera el resultado de una operación. Esto es fundamental en aplicaciones donde la concurrencia y el rendimiento son importantes, como en aplicaciones móviles o servicios web.
 
@@ -30,15 +30,15 @@ suspend fun ejemplo() {
 }
 ```
 
-## Scope y Context
-Las corrutinas necesitan un contexto y un alcance (scope) para ejecutarse. El contexto incluye el Dispatcher que define en qué hilo se ejecuta la corrutina (Main, IO, etc.) y el alcance define el tiempo de vida de la corrutina.
+## *Scope* y *Context*
+Las corrutinas necesitan un contexto y un alcance (*scope*) para ejecutarse. El contexto incluye el *Dispatcher* que define en qué hilo se ejecuta la corrutina (*Main*, IO, etc.) y el alcance define el tiempo de vida de la corrutina.
 
 ```kotlin
 val scope = CoroutineScope(Dispatchers.Main + SupervisorJob())
 ```
 
-## Funciones suspend
-Las funciones suspend son funciones que pueden ser pausadas y reanudadas. Solo pueden ser llamadas desde una corrutina u otra función suspend.
+## Funciones *suspend*
+Las funciones *suspend* son funciones que pueden ser pausadas y reanudadas. Solo pueden ser llamadas desde una corrutina u otra función *suspend*.
 
 ```kotlin
 suspend fun getDatos(): Datos {
@@ -48,7 +48,7 @@ suspend fun getDatos(): Datos {
 }
 ```
 
-## async/await
+## *async/await*
 Permite ejecutar varias operaciones en paralelo y esperar sus resultados.
 
 ```kotlin
@@ -57,8 +57,8 @@ val dato2 = async { getDatos2() }
 println(dato1.await() + dato2.await())
 ```
 
-## Flows
-Los Flows son secuencias asíncronas que pueden emitir múltiples valores, perfectos para el manejo de streams de datos.
+## *Flows*
+Los *Flows* son secuencias asíncronas que pueden emitir múltiples valores, perfectos para el manejo de *streams* de datos.
 
 ```kotlin
 fun getDatosFlow(): Flow<Datos> = flow {
@@ -69,8 +69,8 @@ fun getDatosFlow(): Flow<Datos> = flow {
 }
 ```
 
-## Channels
-Los channels permiten comunicación entre corrutinas de forma segura.
+## *Channels*
+Los *channels* permiten comunicación entre corrutinas de forma segura.
 
 ```kotlin
 val channel = Channel<String>()

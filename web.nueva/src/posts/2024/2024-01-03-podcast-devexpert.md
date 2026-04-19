@@ -1,5 +1,5 @@
 ---
-title: Podcast en Devexpert.io
+title: Pódcast en Devexpert.io
 description: Una de las mejores cosas que me trajo este año 2023
 date: 2024-01-03
 category:
@@ -8,7 +8,7 @@ category:
 tag:
   - Docencia
   - Personal
-  - Podcast
+  - Pódcast
   - DevExpert
 icon: fa-solid fa-microphone
 cover: https://i.imgur.com/icsPKsj.png

@@ -1,6 +1,6 @@
 ---
 title: Arranca el curso de Despliegue de Aplicaciones Web 2025-2026
-description: Describimos el inicio del curso de Despliegue de Aplicaciones Web en 2º DAW
+description: Describimos el inicio del curso de Despliegue de Aplicaciones Web en 2.º DAW
 date: 2025-09-15
 category:
   - Blog
@@ -40,7 +40,7 @@ Aquí tienes un vistazo a las unidades didácticas que componen el curso:
 
 El curso se apoya en el Aprendizaje Basado en Retos y Proyectos, donde resolveremos problemas reales del sector donde se promueve una metodología de aprendizaje iterativo e incremental. Esto significa que los conocimientos se refuerzan continuamente y cada unidad se construye sobre la base de la anterior, garantizando una comprensión profunda y aplicable.
 
-Como puedes ver en el video a continuación, la metodología se centra en que el alumno sea el protagonista de su propio aprendizaje, investigando y resolviendo desafíos prácticos.
+Como puedes ver en el vídeo a continuación, la metodología se centra en que el alumno sea el protagonista de su propio aprendizaje, investigando y resolviendo desafíos prácticos.
 
 <p style="text-align:center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/phRvxD-IdCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

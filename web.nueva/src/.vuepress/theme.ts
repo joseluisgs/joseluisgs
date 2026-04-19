@@ -54,7 +54,8 @@ export default hopeTheme({
 
   blog: {
     avatar: '/img/avatar.webp',
-    description: 'PhD - Profesor<br>Investigador - Desarrollador',
+    description:
+      'PhD - Profesor<br>Kotlin Trainer Certified by JetBrains<br>GitHub Campus Advisor<br><br>📌I.E.S. Luis Vives, Leganés, Madrid',
     intro: '/info/personal',
     medias: {
       GitHub: 'https://github.com/joseluisgs',
@@ -109,7 +110,7 @@ export default hopeTheme({
 
     slimsearch: {
       indexContent: false,
-      filter: (page) => !page.path.startsWith("/samples/"),
+      filter: (page) => !page.path.startsWith('/samples/'),
       hotKeys: [
         { key: 'k', ctrl: true },
         { key: '/', ctrl: false },
@@ -125,7 +126,9 @@ export default hopeTheme({
     blog: {
       filter: (page) => {
         if (page.path.startsWith('/samples/')) return false;
-        return page.frontmatter.article ?? (Boolean(page.filePathRelative) && !page.frontmatter.home);
+        return (
+          page.frontmatter.article ?? (Boolean(page.filePathRelative) && !page.frontmatter.home)
+        );
       },
     },
 
@@ -146,42 +149,42 @@ export default hopeTheme({
     },
 
     pwa: {
-      favicon: "/assets/icon/favicon-32x32.webp",
+      favicon: '/assets/icon/favicon-32x32.webp',
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
       apple: {
-        icon: "/assets/icon/apple-icon-180-180x180.png",
-        statusBarColor: "black",
+        icon: '/assets/icon/apple-icon-180-180x180.png',
+        statusBarColor: 'black',
       },
       msTile: {
-        image: "/assets/icon/chrome-192-192x192.png",
-        color: "#ffffff",
+        image: '/assets/icon/chrome-192-192x192.png',
+        color: '#ffffff',
       },
       manifest: {
         icons: [
           {
-            src: "/assets/icon/chrome-512-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
+            src: '/assets/icon/chrome-512-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
           },
           {
-            src: "/assets/icon/chrome-192-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
+            src: '/assets/icon/chrome-192-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
           },
         ],
         shortcuts: [
           {
-            name: "Docencia",
-            short_name: "Docencia",
-            url: "/info/docencia",
+            name: 'Docencia',
+            short_name: 'Docencia',
+            url: '/info/docencia',
             icons: [
               {
-                src: "/assets/icon/guide-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
+                src: '/assets/icon/guide-maskable.png',
+                sizes: '192x192',
+                purpose: 'maskable',
+                type: 'image/png',
               },
             ],
           },
@@ -204,14 +207,14 @@ export default hopeTheme({
       hostname: 'https://joseluisgs.dev',
       changefreq: 'weekly',
       priority: 0.8,
-      excludePaths: ["/404.html", "/samples/"],
+      excludePaths: ['/404.html', '/samples/'],
     },
   },
 
   seo: {
-    hostname: "https://joseluisgs.dev",
-    author: "José Luis González Sánchez",
-    twitterID: "JoseLuisGSDev",
+    hostname: 'https://joseluisgs.dev',
+    author: 'José Luis González Sánchez',
+    twitterID: 'JoseLuisGSDev',
     canonical: (page) => `https://joseluisgs.dev${page.path}`,
     default_image: '/img/web-social.png',
     twitterUsername: '@JoseLuisGSDev',

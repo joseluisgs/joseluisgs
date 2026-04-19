@@ -24,15 +24,15 @@ El problema fundamental es que cada entorno es un mundo, con diferentes versione
 ## Contenidos clave de la unidad
 En esta unidad, aprenderás los conceptos esenciales de Docker y cómo aplicarlos en el desarrollo y despliegue de aplicaciones, incluyendo:
 
-Diferencia entre contenedores y máquinas virtuales (VM): Los contenedores son mucho más ligeros y eficientes porque comparten el kernel del sistema operativo del anfitrión, mientras que una VM simula un ordenador completo y es más pesada.
+Diferencia entre contenedores y máquinas virtuales (VM): Los contenedores son mucho más ligeros y eficientes porque comparten el *kernel* del sistema operativo del anfitrión, mientras que una VM simula un ordenador completo y es más pesada.
 
 Componentes principales de Docker: Descubrirás los dos pilares fundamentales:
 
 - Imágenes: La plantilla o la receta inmutable que contiene todo lo necesario para la aplicación.
 - Contenedores: La instancia viva y en ejecución de una imagen, donde reside y funciona la aplicación.
-- Comandos básicos de Docker CLI: Conocerás los comandos esenciales para gestionar el ciclo de vida de los contenedores, como docker run para poner en marcha un contenedor, docker ps para ver los activos, docker pull para descargar imágenes y docker stop y docker rm para detenerlos y borrarlos.
+- Comandos básicos de Docker CLI: Conocerás los comandos esenciales para gestionar el ciclo de vida de los contenedores, como `docker run` para poner en marcha un contenedor, `docker ps` para ver los activos, `docker pull` para descargar imágenes y `docker stop` y `docker rm` para detenerlos y borrarlos.
 - Creación de imágenes con Dockerfile: Aprenderás a crear tus propias imágenes personalizadas de forma reproducible y transparente. El Dockerfile es un simple archivo de texto con una lista de instrucciones paso a paso para construir la imagen.
-- Orquestación con Docker Compose: Verás cómo Docker Compose simplifica el despliegue de aplicaciones multicontenedor (como un servidor web y una base de datos) usando un único archivo de configuración (docker-compose.yml) y un solo comando.
+- Orquestación con Docker Compose: Verás cómo Docker Compose simplifica el despliegue de aplicaciones multicontenedor (como un servidor web y una base de datos) usando un único archivo de configuración (`docker-compose.yml`) y un solo comando.
 
 Esta forma de trabajar no solo proporciona portabilidad, consistencia y eficiencia, sino que también promueve la reproducibilidad, eliminando el problema de que "solo funciona en mi máquina".
 

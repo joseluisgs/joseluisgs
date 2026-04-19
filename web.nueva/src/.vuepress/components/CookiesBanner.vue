@@ -4,7 +4,7 @@
       <div class="cookie-text">
         <span class="cookie-icon">🍪</span>
         <p>
-          Utilizamos cookies para mejorar tu experiencia. Las <strong>necesarias</strong> (estado del banner y preferencia de tema) se activan siempre. 
+          Utilizamos cookies para mejorar tu experiencia. Las <strong>necesarias</strong> (estado del banner y preferencias de tema) se activan siempre. 
           Las de <strong>análisis</strong> (Google Analytics) nos ayudan a mejorar el contenido. 
           Puedes consultar los detalles en nuestra <a href="/info/legal">Política de Cookies</a>.
         </p>
