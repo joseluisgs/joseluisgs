@@ -23,10 +23,22 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 
 <!-- more -->
 ## Actualidad
-Soy profesor funcionario de carrera de Secundaria en la especialidad de Informática y doctor en Informática en Desarrollo de Software. Además, soy formador oficial en tecnologías Kotlin certificado por JetBrains, GitHub Campus Advisor y Embajador de GitKraken.
+Soy profesor funcionario de carrera de Secundaria en la especialidad de Informática y doctor en Informática en Desarrollo de Software. Además, soy formador oficial en tecnologías Kotlin certificado por JetBrains, GitHub Campus Advisor.
 
 ### Mi centro
 Mi actual centro, donde imparto docencia desde el curso 2021/2022, es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid), donde realizo además otras funciones para el centro y el departamento de Informática.
+
+<div class="vp-card-container" style="display: flex; justify-content: center;">
+
+```component VPCard
+title: IES Luis Vives
+desc: Instituto de Secundaria, Bachillerato y Formación Profesional - Paseo de la Ermita, 15. 28918, Leganés, Madrid
+logo: https://www.iesluisvives.es/Design/Themes/IESluisvivies/Images/logo.png
+link: http://iesluisvives.es/
+background: rgba(114, 137, 218, 0.15)
+```
+
+</div>
 
 ### Docencia actual en el centro
 En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialmente en DAW, Desarrollo de Aplicaciones Web, donde imparto la mayoría de las clases:

@@ -134,4 +134,4 @@ Implementar consentimiento de cookies conforme al RGPD (europeo) y legislación 
 ---
 **ID de Sesión (Gemini):** `7d82a00d-1ea2-4479-b0f4-c3bceff3ea00`
 
-gemini --resume '7d82a00d-1ea2-4479-b0f4-c3bceff3ea00' 
+gemini --resume 'b93d356d-21bd-48b2-9a58-d1183dfb206f'
