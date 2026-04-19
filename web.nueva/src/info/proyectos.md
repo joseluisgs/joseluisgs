@@ -15,6 +15,7 @@ author: José Luis González Sánchez
 comment: false
 next: /info/personal.md
 prev: /info/docencia.md
+footer: true
 ---
 
 En este apartado conocerás los proyectos que voy realizando, ya sea para fines docentes, personales o profesionales.
@@ -22,14 +23,14 @@ En este apartado conocerás los proyectos que voy realizando, ya sea para fines 
 <!-- more -->
 
 ## Repositorio
-Actualmente todos los [proyectos](../../categories/Proyectos/) que voy realizando los tienes disponibles en mi repositorio personal de [GitHub](https://github.com/joseluisgs). 
+Actualmente, todos los [proyectos](../../categories/Proyectos/) que voy realizando los tienes disponibles en mi repositorio personal de [GitHub](https://github.com/joseluisgs). 
 
-Te recomiendo que, si quieres estar al tanto de todo, me sigas o pongas una estrella en aquellos que te interesen. Casi todos tienen licencia libre, por lo tanto, úsalos como quieras (aunque una cita, estrella o agradecimiento si te resultan útiles siempre se agradece 🙂).
+Te recomiendo que, si quieres estar al tanto de todo, me sigas o pongas una estrella en aquellos que te interesen. Casi todos tienen licencia libre; por lo tanto, úsalos como quieras (aunque una cita, estrella o agradecimiento si te resultan útiles siempre se agradece 🙂).
 
 ## Proyectos como apuntes y recursos didácticos
 Estos proyectos nacen principalmente de mi labor docente: **apuntes de clase** extensamente comentados y legibles, pensados para que puedas entender la arquitectura y la lógica sin ejecutar el código. **No intentan ser código de producción**. Ya seas un **alumno** o **docente**, **si te ayuda, ¡una ⭐️ es la mejor forma de apoyarlo!**
 
-En este repositorio subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y a veces no realizados de la manera más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos... o eso intento. Si te gusta algo de aquí, déjame una estrella, sígueme y, sobre todo, ¡dame ideas para mejorar! 💪
+En este repositorio subo proyectos que aplico a temas personales/profesionales o de clase 🛠. Generalmente están sobrecomentados y, a veces, no realizados de la manera más óptima, porque son para fines didácticos (usados en clase o en mis tutoriales). El objetivo es que sepas entenderlos con solo leerlos sin ejecutarlos... o eso intento. Si te gusta algo de aquí, déjame una estrella, sígueme y, sobre todo, ¡dame ideas para mejorar! 💪
 
 ## Tecnologías
 

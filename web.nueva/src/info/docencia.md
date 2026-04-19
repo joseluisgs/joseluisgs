@@ -23,7 +23,7 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 
 <!-- more -->
 ## Actualidad
-Soy profesor funcionario de carrera de secundaria en la especialidad de Informática y doctor en Informática en Desarrollo de Software. Además, soy formador oficial en tecnologías Kotlin certificado por JetBrains, GitHub Campus Advisor y Embajador de GitKraken.
+Soy profesor funcionario de carrera de Secundaria en la especialidad de Informática y doctor en Informática en Desarrollo de Software. Además, soy formador oficial en tecnologías Kotlin certificado por JetBrains, GitHub Campus Advisor y Embajador de GitKraken.
 
 ### Mi centro
 Mi actual centro, donde imparto docencia desde el curso 2021/2022, es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid), donde realizo además otras funciones para el centro y el departamento de Informática.
@@ -64,40 +64,40 @@ Actualmente imparto diversas formaciones complementarias o de especialización. 
 ## Docencia oficial anterior
 A continuación resumiré docencia/formación realizada en anteriores años:
 
-- [CIFP Virgen de Gracia](https://cifpvirgendegracia.com/), Puertollano (Ciudad Real) Profesor de Secundaria. 2016/2018 y 2019/2021. Siendo jefe de departamento y coordinando distintos proyectos de innovación.
-  - Programación Multimedia y Dispositivos Móviles. 2º DAM.
-  - Despliegue de Aplicaciones Web. 2º DAW
-  - Lenguajes de marcas y sistemas de gestión de información. 1º ASIR.
-  - Programación. 1º DAM.
-  - Entornos de Desarrollo de 1º DAM.
-  - Servicios de Red e Internet 2º SMR.
-  - Implantación de Aplicaciones Web. 2º ASIR.
-  - Proyectos de 2º DAM.
-  - Formación en Centro de Trabajo de 2º DAM.
-  - FP DUAL de 2º DAM.
+- [CIFP Virgen de Gracia](https://cifpvirgendegracia.com/), Puertollano (Ciudad Real). Profesor de Secundaria. 2016/2018 y 2019/2021. Siendo jefe de departamento y coordinando distintos proyectos de innovación.
+  - Programación Multimedia y Dispositivos Móviles. 2.º DAM.
+  - Despliegue de Aplicaciones Web. 2.º DAW.
+  - Lenguajes de marcas y sistemas de gestión de información. 1.º ASIR.
+  - Programación. 1.º DAM.
+  - Entornos de Desarrollo de 1.º DAM.
+  - Servicios de Red e Internet 2.º SMR.
+  - Implantación de Aplicaciones Web. 2.º ASIR.
+  - Proyectos de 2.º DAM.
+  - Formación en Centro de Trabajo de 2.º DAM.
+  - FP DUAL de 2.º DAM.
 
 <p></p>
 
 - [IES Trassierra](https://www.iestrassierra.com/), Córdoba. Profesor de Secundaria. 2018/2019.
-  - Programación de Servicios y Procesos. 2º DAM.
-  - Sistemas de Gestión Empresarial. 2º DAM
-  - Desarrollo Web en Entorno Servidor. 2º DAW.
-  - Tecnología de la Información y de la Comunicación. 2º Bach.
+  - Programación de Servicios y Procesos. 2.º DAM.
+  - Sistemas de Gestión Empresarial. 2.º DAM.
+  - Desarrollo Web en Entorno Servidor. 2.º DAW.
+  - Tecnología de la Información y de la Comunicación. 2.º Bach.
 
 <p></p>
 
 - [IES Estados del Duque](http://ies-estadosdelduque.centros.castillalamancha.es/), Malagón (Ciudad Real). Profesor de Secundaria. 2015/2016.
-  - Sistemas Operativos Monopuesto. 1º SMR.
-  - Operaciones auxiliares para la configuración y la explotación. 1º FPB.
-  - Tecnología de la Información y de la Comunicación. 1º Bach.
-  - Informática. 4º ESO.
+  - Sistemas Operativos Monopuesto. 1.º SMR.
+  - Operaciones auxiliares para la configuración y la explotación. 1.º FPB.
+  - Tecnología de la Información y de la Comunicación. 1.º Bach.
+  - Informática. 4.º ESO.
 
 <p></p>
 
 - [Escuela Superior de Comunicación Audiovisual, ESCAV](https://escav.es/), Granada. Profesor de Secundaria. 2013 a 2015. En la titulación de [Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos](https://escav.es/estudios/animaciones-3d-juegos-y-entornos-interactivos/).
-  - Proyecto de juegos y entornos interactivos. 2º Curso.
-  - Desarrollo de entornos interactivos multidispositivo. 2º Curso.
-  - Realización de proyectos multimedia interactivos. 1º Curso.
+  - Proyecto de juegos y entornos interactivos. 2.º Curso.
+  - Desarrollo de entornos interactivos multidispositivo. 2.º Curso.
+  - Realización de proyectos multimedia interactivos. 1.º Curso.
 
 <p></p>
 
@@ -114,8 +114,8 @@ A continuación resumiré docencia/formación realizada en anteriores años:
 <p></p>
 
 - [Universitat de Lleida](http://www.udl.es/ca/es/), Lleida. Profesor Doctor. 2010 a 2012.
-  - Fundamentos de Accesibilidad I. Master Interacción Persona-Ordenador.
-  - Especialización en Accesibilidad. Master Interacción Persona-Ordenador.
+  - Fundamentos de Accesibilidad I. Máster Interacción Persona-Ordenador.
+  - Especialización en Accesibilidad. Máster Interacción Persona-Ordenador.
   - Iniciación a la Ingeniería del Software. Grado en Informática. 
   - Iniciación a la Interacción Persona-Ordenador. Grado en Informática.
   - Interacción Persona-Ordenador. Grado en Informática.
