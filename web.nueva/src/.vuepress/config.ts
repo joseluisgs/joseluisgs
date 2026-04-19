@@ -47,12 +47,12 @@ export default defineUserConfig({
         content: "José Luis González Sánchez. Web Personal",
       },
     ],
-    [
+[
       "meta",
       {
         name: "keywords",
         content:
-          "José Luis González Sánchez, Profesor, Formador, Desarrollador, Investigador, Desarrollo de Aplicaciones, Web, Multiplataforma, FP, Formación Profesional, Kotlin, Trainer, Certificación, Jetbrains, rider, C#, csharp, .net, asp, razor, blazor, Embajador, GIT, GitKraken, Vuejs, móvil, jetbrains, intellij, hyperskill, docker, mongodb, nodejs, node, android, compose, backend, java, spring, springboot, instituto, test, pruebas, calidad, Luis Vives, Leganés, Madrid, Universidad de Granada, Jugabilidad, Videojuegos",
+          "Profesor Informática FP, Formador Kotlin Certificación JetBrains, Desarrollador Full Stack, Docente Desarrollo Web, C# .NET, ASP.NET Core, Blazor, Entity Framework Core, Programación Orientada Objetos, POO, Testing Unitarios, TDD, Docker, Microservicios, REST API, JWT, Clean Code, SOLID, GitHub, Leganés Madrid, DAW Desarrollo Aplicaciones Web, DAM Desarrollo Aplicaciones Multiplataforma, ASIR Administración Sistemas Informáticos Redes, SMR Sistemas Microinformáticos Redes, Formación Profesional, Instituto IES Luis Vives, Instructor Certificado JetBrains, Instructor GitHub Campus Advisor, Doctor en Informática",
       },
     ],
 
