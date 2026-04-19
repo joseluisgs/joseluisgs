@@ -42,7 +42,7 @@ export default hopeTheme({
           <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" aria-label="Vue.js"><i class="fa-brands fa-vuejs"></i></a>
           /
           <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer" aria-label="VuePress"><i class="fa-brands fa-markdown"></i></a>
-          <a href="/info/legal" aria-label="Información Legal y Cookies"><i class="fa-solid fa-cookie-bite"></i></a>
+          <a href="javascript:void(0)" class="cookie-manage" aria-label="Gestionar cookies"><i class="fa-solid fa-cookie-bite"></i></a>
         </div>
       </div>
     </div>

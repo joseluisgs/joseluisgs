@@ -4,12 +4,14 @@
       <div class="cookie-text">
         <span class="cookie-icon">🍪</span>
         <p>
-          Esta web usa <a href="/docs/legal/">cookies</a> para temas, analíticas y recursos.
-          <strong>Si sigues navegando, aceptas su uso.</strong>
+          Utilizamos cookies para mejorar tu experiencia. Las <strong>necesarias</strong> (estado del banner y preferencia de tema) se activan siempre. 
+          Las de <strong>análisis</strong> (Google Analytics) nos ayudan a mejorar el contenido. 
+          Puedes consultar los detalles en nuestra <a href="/info/legal">Política de Cookies</a>.
         </p>
       </div>
       <div class="cookie-actions">
-        <button class="cookie-accept-btn" @click="accept">Aceptar</button>
+        <button class="cookie-accept-btn" @click="accept">Aceptar todas</button>
+        <button class="cookie-reject-btn" @click="reject">Solo necesarias</button>
       </div>
     </div>
   </div>
@@ -17,19 +19,50 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { loadGA } from '../ga-utils'
 
 const visible = ref(false)
+const GA_ID = 'G-103H05W8P8'
+const CONSENT_KEY = 'cookies_consent'
+const DATE_KEY = 'cookies_consent_date'
+const EXPIRY_MS = 24 * 30 * 24 * 60 * 60 * 1000 // ~24 meses en ms
 
 onMounted(() => {
-  if (localStorage.getItem('cookies_aceptadas') !== 'true') {
+  const consent = localStorage.getItem(CONSENT_KEY)
+  const consentDate = localStorage.getItem(DATE_KEY)
+  const now = new Date().getTime()
+
+  // Si no hay decisión o ha caducado, mostrar banner
+  if (!consent || !consentDate || (now - parseInt(consentDate) > EXPIRY_MS)) {
     visible.value = true
   }
+
+  // Escuchar evento para mostrar banner desde fuera (footer)
+  window.addEventListener('show-cookie-banner', () => {
+    visible.value = true
+  })
 })
 
-const accept = () => {
-  localStorage.setItem('cookies_aceptadas', 'true')
+const saveChoice = (choice) => {
+  localStorage.setItem(CONSENT_KEY, choice)
+  localStorage.setItem(DATE_KEY, new Date().getTime().toString())
   visible.value = false
 }
+
+const accept = () => {
+  saveChoice('accepted')
+  loadGA(GA_ID)
+}
+
+const reject = () => {
+  saveChoice('rejected')
+}
+
+const showBanner = () => {
+  visible.value = true
+}
+
+defineExpose({ showBanner })
 </script>
 
 <style scoped>
@@ -38,8 +71,8 @@ const accept = () => {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #011221; /* Tu Deep Navy Soft */
-  border-top: 2px solid #7289da; /* Blurple Discord */
+  background-color: #011221;
+  border-top: 2px solid #7289da;
   color: #ffffff;
   padding: 1rem 1.5rem;
   z-index: 2147483647 !important;
@@ -54,7 +87,7 @@ const accept = () => {
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  flex-wrap: wrap; /* Permite que el botón baje si no hay sitio */
+  flex-wrap: wrap;
 }
 
 .cookie-text {
@@ -62,13 +95,17 @@ const accept = () => {
   align-items: center;
   gap: 1rem;
   flex: 1;
-  min-width: 250px; /* Asegura que el texto tenga un mínimo */
+  min-width: 250px;
 }
 
 .cookie-text p {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.4;
+}
+
+.cookie-text strong {
+  color: #7289da;
 }
 
 .cookie-text a {
@@ -84,15 +121,28 @@ const accept = () => {
 .cookie-actions {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .cookie-accept-btn {
   background-color: #7289da;
   color: white;
   border: none;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 8px;
   font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.cookie-reject-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #7289da;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: normal;
   cursor: pointer;
   transition: all 0.3s ease;
   white-space: nowrap;
@@ -103,32 +153,21 @@ const accept = () => {
   transform: translateY(-2px);
 }
 
-/* RESPONSIVE MÓVIL */
+.cookie-reject-btn:hover {
+  background-color: rgba(114, 137, 218, 0.1);
+}
+
 @media (max-width: 768px) {
-  .cookie-banner-discord {
-    padding: 1.2rem 1rem;
-  }
-  
   .cookie-container {
     flex-direction: column;
     text-align: center;
-    gap: 1rem;
   }
-
-  .cookie-text {
-    flex-direction: column;
-    gap: 0.5rem;
-    min-width: 100%;
-  }
-
   .cookie-actions {
     width: 100%;
-    justify-content: center;
+    flex-direction: column;
   }
-
-  .cookie-accept-btn {
-    width: 100%; /* Botón ancho completo en móvil */
-    padding: 0.8rem;
+  .cookie-accept-btn, .cookie-reject-btn {
+    width: 100%;
   }
 }
 </style>

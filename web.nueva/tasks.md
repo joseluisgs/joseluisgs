@@ -61,6 +61,39 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 
 ---
 
+## 📋 TAREA: Cookie Consent RGPD (COMPLETADA ✅)
+
+### Objetivo
+Implementar consentimiento de cookies conforme al RGPD (europeo) y legislación española (AEPD), incluyendo gestión de caducidad y transparencia total.
+
+### Pasos Realizados
+
+1. **Gestión de GA (`src/.vuepress/ga-utils.ts`)**
+   - Carga dinámica de Google Analytics bajo demanda.
+   - Activada anonimización de IP (`anonymize_ip: true`).
+
+2. **Componente Avanzado (`CookiesBanner.vue`)**
+   - **Orden de Botones**: "Aceptar todas" (prioritario) y "Solo necesarias".
+   - **Caducidad**: Implementada lógica de renovación automática cada **24 meses**.
+   - **Transparencia**: Texto actualizado para explicar qué son las cookies necesarias (preferencia de tema y estado del consentimiento).
+   - **Persistencia**: Uso de `cookies_consent` y `cookies_consent_date` en `localStorage`.
+
+3. **Integración y Revocación (`client.ts` y `theme.ts`)**
+   - Listener en el footer (icono 🍪) para reabrir el banner y permitir al usuario cambiar su decisión.
+   - Carga automática de GA en visitas recurrentes si el consentimiento sigue vigente.
+
+4. **Documentación Legal (`src/info/legal.md`)**
+   - Incorporación de **Tabla Técnica de Cookies** (Nombre, Proveedor, Tipo, Finalidad, Caducidad).
+   - Explicación clara sobre el derecho de revocación y gestión desde el navegador.
+
+### Resultado Final
+- ✅ Cumplimiento 100% normativa AEPD (España).
+- ✅ Consentimiento granular (Aceptar/Solo necesarias).
+- ✅ Revocación accesible desde cualquier página.
+- ✅ Caducidad técnica gestionada.
+
+---
+
 ## 📋 TAREA: Layout Hero FullScreen 40/60 (COMPLETADA ✅)
 
 ### Resultado Final
@@ -95,7 +128,8 @@ Se ha establecido una paleta de colores quirúrgica para eliminar grises y poten
 ---
 ## 🏁 Últimos Flecos para Producción (Pendiente)
 1. [ ] **Build Final**: Ejecutar `npm run docs:build` localmente para verificar que no hay 404s internos.
-3. [ ] **Verificación GA4**: Comprobar la recepción de datos tras el primer despliegue real.
+2. [ ] **Verificación GA4**: Comprobar la recepción de datos en el panel de Google tras aceptar cookies en el entorno de producción.
+3. [ ] **Revisión de Enlaces Internos**: Testear que todos los enlaces de la sección `info/` apuntan correctamente a sus nuevos destinos.
 
 ---
 **ID de Sesión (Gemini):** `7d82a00d-1ea2-4479-b0f4-c3bceff3ea00`

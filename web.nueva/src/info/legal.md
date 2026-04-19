@@ -1,7 +1,7 @@
 ---
-title: Política de Cookies
-description: Política legal de cookies
-date: 2022-01-01
+title: Aviso Legal y Cookies
+description: Información legal, propiedad intelectual y política de cookies de la web de José Luis González Sánchez
+date: 2025-04-19
 sidebar: false
 article: false
 timeline: false
@@ -10,57 +10,70 @@ category:
 tag:
   - Cookies
   - Legal
+  - Privacidad
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/10/cookies-all-day.png
-icon: fa-solid fa-cookie-bite
+icon: fa-solid fa-scale-balanced
 author: José Luis González Sánchez
 comment: false
 pageInfo: false
+footer: true
 ---
 
-La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan en esta página web.
+# Aviso Legal y Política de Cookies
 
-## ¿Qué son las cookies?
-Una cookie es un pequeño fragmento de texto que los sitios web que visita envían al navegador y que permite que el sitio web recuerde información sobre su visita, como su idioma preferido y otras opciones, con el fin de facilitar su próxima visita y hacer que el sitio le resulte más útil. Las cookies desempeñan un papel muy importante y contribuyen a tener una mejor experiencia de navegación para el usuario.
+En este espacio encontrarás toda la información relativa a los términos y condiciones legales que definen las relaciones entre los usuarios y yo, como responsable de esta web.
 
-## Tipos de cookies
-Según quién sea la entidad que gestione el dominio desde donde se envían las cookies y se traten los datos que se obtengan, se pueden distinguir dos tipos: cookies propias y cookies de terceros.
+<!-- more -->
 
-Existe también una segunda clasificación según el plazo de tiempo que permanecen almacenadas en el navegador del cliente, pudiendo tratarse de cookies de sesión o cookies persistentes.
+## 1. Información General y Titularidad
 
-Por último, existe otra clasificación con cinco tipos de cookies según la finalidad para la que se traten los datos obtenidos: cookies técnicas, cookies de personalización, cookies de análisis, cookies publicitarias y cookies de publicidad comportamental.
+En cumplimiento de lo establecido en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa que el titular de este sitio web es **José Luis González Sánchez**.
 
-Para más información a este respecto puede consultar la [Guía sobre el uso de las cookies](http://www.interior.gob.es/documents/10180/13073/Guia_Cookies.pdf/7c72c988-1e55-42b5-aeee-f7c46a319903) de la [Agencia Española de Protección de Datos](https://www.aepd.es/es).
+- **Finalidad:** Blog personal sobre tecnología, docencia e investigación.
+- **Contacto:** Puedes contactar conmigo a través de mis redes sociales indicadas en el pie de página.
 
-## Cookies utilizadas en la web
-A continuación se identifican las cookies que están siendo utilizadas en este portal así como su tipología y función:
+## 2. Propiedad Intelectual e Industrial
 
-- La página web utiliza **Google Analytics**, un servicio de analítica web desarrollada por Google, que permite la medición y análisis de la navegación en las páginas web. En su navegador podrá observar cookies de este servicio. Según la tipología anterior se trata de cookies propias, de sesión y de análisis. A través de la analítica web se obtiene información relativa al número de usuarios que acceden a la web, el número de páginas vistas, la frecuencia y repetición de las visitas, su duración, el navegador utilizado, el operador que presta el servicio, el idioma, el terminal que utiliza y la ciudad a la que está asignada su dirección IP. Información que posibilita un mejor y más apropiado servicio por parte de este portal. Para garantizar el anonimato, Google convertirá su información en anónima truncando la dirección IP antes de almacenarla, de forma que Google Analytics no se usa para localizar o recabar información personal identificable de los visitantes del sitio. Google solo podrá enviar la información recabada por Google Analytics a terceros cuanto esté legalmente obligado a ello. Con arreglo a las condiciones de prestación del servicio de Google Analytics, Google no asociará su dirección IP a ningún otro dato conservado por Google.
-- Otra de las cookies que se descargan es una cookie **mode**, propia, de tipo técnico y de sesión. Esta cookie permite almacenar el identificador del tema seleccionado por el usuario/a.
-- Por último, se descarga una cookie denominada **cookies_aceptadas**, propia, de tipo técnico y de sesión. Gestiona el consentimiento del usuario para el uso de las cookies en la página web, con el objeto de recordar aquellos usuarios que las han aceptado y aquellos que no, de modo que a los primeros no se les muestre información en la parte superior de la página al respecto.
+Todos los contenidos de este sitio (textos, imágenes, código fuente, diseño, etc.) son propiedad de José Luis González Sánchez o de sus respectivos autores.
 
-## Aceptación de la política de cookies
-Pulsando el botón Aceptar se asume que usted acepta el uso de cookies.
+- **Licencia de Contenido:** Salvo que se indique lo contrario, el contenido de este blog se publica bajo una licencia **[Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)**. 
+- **Software:** El código de ejemplo compartido en los posts suele estar bajo licencia MIT o Apache 2.0, especificado en cada caso.
 
-## Cómo modificar la configuración de las cookies
-Usted puede restringir, bloquear o borrar las cookies de esta web o cualquier otra página web utilizando su navegador. 
-En cada navegador la operativa es diferente, la función de «Ayuda» le mostrará cómo hacerlo. Ejemplos:
+## 3. Política de Cookies
 
-Se pueden configurar los diferentes navegadores para avisar al usuario de la recepción de cookies y, si se desea, impedir su instalación en el equipo. Asimismo, el usuario puede revisar en su navegador qué cookies tiene instaladas y cuál es el plazo de caducidad de las mismas, pudiendo eliminarlas. Para ampliar esta información consulte las instrucciones y manuales de su navegador:
+Este sitio web utiliza cookies para mejorar la experiencia del usuario y analizar el tráfico de forma anónima.
 
-- Para más información sobre la administración de las cookies en [Google Chrome](https://support.google.com/chrome/answer/95647?hl=es).
-- Para más información sobre la administración de las cookies en [Internet Explorer](http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions).
-- Para más información sobre la administración de las cookies en [Mozilla Firefox](http://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we).
-- Para más información sobre la administración de las cookies en [Safari](http://www.apple.com/es/privacy/use-of-cookies/).
-- Para más información sobre la administración de las cookies en [Opera](http://help.opera.com/Windows/11.50/es-ES/cookies.html).
-- Si desea dejar de ser seguido por [Google Analytics](http://tools.google.com/dlpage/gaoptout).
+### ¿Qué son las cookies?
+Una cookie es un pequeño fragmento de texto que los sitios web envían al navegador para recordar información sobre tu visita, facilitando tu próxima navegación y haciendo que el sitio te resulte más útil.
 
-Además, también puede gestionar el almacén de cookies en su navegador a través de herramientas como las siguientes:
-- [Ghostery](www.ghostery.com/).
-- [Your online choices](www.youronlinechoices.com/es/).
+### Tabla técnica de cookies y almacenamiento local
+Utilizamos los siguientes elementos para el correcto funcionamiento del sitio:
 
-## Actualizaciones y cambios en la política de privacidad/cookies
-Se puede modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos, por ello se aconseja a los usuarios que la visiten periódicamente.
+| Nombre | Proveedor | Tipo | Finalidad | Caducidad |
+| :--- | :--- | :--- | :--- | :--- |
+| `_ga`, `_ga_*` | Google Analytics | Terceros | Análisis anónimo de tráfico. | 2 años |
+| `cookies_consent` | Propia | Técnica | Almacena tu decisión sobre el banner de cookies. | 24 meses |
+| `cookies_consent_date`| Propia | Técnica | Fecha del consentimiento para gestionar renovaciones. | 24 meses |
+| `vuepress-theme-hope-scheme-mode` | Propia | Técnica | Almacena tu preferencia de tema (claro/oscuro). | Sesión |
 
-Cuando se produzcan cambios significativos en esta Política de Cookies, estos se comunicarán a los usuarios bien mediante la web.
+> **Privacidad:** Google Analytics está configurado con `anonymize_ip: true`. Tu dirección IP se trunca antes de ser procesada, garantizando que los datos sean anónimos.
 
+## 4. Gestión del Consentimiento
 
+Puedes gestionar tus preferencias en cualquier momento:
+- **Aceptar todas**: Activa las cookies de análisis.
+- **Solo necesarias**: Desactiva el seguimiento analítico, manteniendo solo las preferencias técnicas (tema oscuro/claro).
+
+**Revocación:** Haz clic en el icono de la **galleta (🍪)** en el pie de página para cambiar tu configuración en cualquier momento.
+
+## 5. Configuración del Navegador
+
+Puedes restringir o borrar las cookies desde los ajustes de tu navegador:
+- [Google Chrome](https://support.google.com/chrome/answer/95647?hl=es)
+- [Mozilla Firefox](http://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we)
+- [Safari](http://www.apple.com/es/privacy/use-of-cookies/)
+- [Microsoft Edge](https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09)
+
+## 6. Responsabilidad
+
+El titular no se hace responsable de los daños y perjuicios de cualquier naturaleza que pudieran derivarse de la falta de veracidad, exactitud o actualidad de la información publicada, ni de los contenidos de los enlaces externos que puedan aparecer en el sitio.
