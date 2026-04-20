@@ -12,7 +12,7 @@ tag:
    - TDD
    - Cypress
 icon: fa-solid fa-flask
-cover: https://i.ytimg.com/vi/pJ349YntoIs/maxresdefault.jpg
+cover: https://blog.magicpod.com/hubfs/cypress-end-to-end-test.png
 comment: true
 sidebar: false
 ---

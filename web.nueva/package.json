@@ -27,6 +27,9 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
+    ],
+    "ignoredBuiltDependencies": [
+      "vue-demi"
     ]
   }
 }

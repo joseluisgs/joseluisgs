@@ -4,10 +4,11 @@ description: Avanzando hacia una nueva etapa con una versión renovada tecnológ
 date: 2026-04-20
 category:
   - Blog
-  - Docencia
+  - Proyectos
 tag:
   - Docencia
   - Personal
+  - Proyectos
   - vuepress
   - Vue.js
   - Vite
@@ -15,6 +16,7 @@ tag:
   - GitHub Actions
   - Jamstack
   - SSR
+  - Markdown
 
 icon: fa-brands fa-vuejs
 
