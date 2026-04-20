@@ -1,6 +1,6 @@
 # Guía de Componentes Avanzados (Hope Theme)
 
-Esta guía contiene ejemplos de uso de los nuevos componentes activados en `joseluisgs.dev`.
+Esta guía contiene ejemplos de uso de los componentes activados en `joseluisgs.dev`.
 
 ---
 
@@ -14,12 +14,19 @@ El archivo debe estar en `src/.vuepress/public/`.
 
 ---
 
-## 🎥 Vídeos de YouTube
-Inserta vídeos de forma optimizada y responsive (se adaptan a móviles).
-Solo necesitas el ID del vídeo (lo que va después de `v=` en la URL).
+## 🎥 Vídeos (YouTube, locales, etc.) con VidStack
+`VidStack` es el componente unificado y moderno para cualquier tipo de vídeo. Es totalmente responsive.
 
+### YouTube
+Puedes usar el ID del vídeo:
 ```markdown
-<YouTube id="uXfJpI_2mZw" />
+<VidStack src="youtube/uXfJpI_2mZw" />
+```
+
+### Vídeo Local
+Si tienes un vídeo `.mp4` guardado en tu carpeta `public/assets/videos/`.
+```markdown
+<VidStack src="/assets/videos/demo.mp4" />
 ```
 
 ---
@@ -29,15 +36,6 @@ Muestra enlaces externos como tarjetas visuales con icono, título y descripció
 
 ```markdown
 <SiteInfo url="https://github.com/joseluisgs" />
-```
-
----
-
-## 🎞️ Reproductor de Vídeo Local
-Si tienes un vídeo `.mp4` guardado en tu carpeta `public/assets/videos/`.
-
-```markdown
-<VideoPlayer src="/assets/videos/demo.mp4" />
 ```
 
 ---
@@ -61,7 +59,7 @@ Si quieres crear una cuadrícula de proyectos manual en cualquier página:
 <VPCard
   title="Mi Proyecto"
   desc="Descripción breve del proyecto."
-  logo="/img/logo.png"
+  logo="/img/logo.webp"
   link="https://github.com/joseluisgs/mi-proyecto"
   background="rgba(114, 137, 218, 0.15)"
 />

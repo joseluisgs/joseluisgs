@@ -17,7 +17,7 @@
     "@vuepress/plugin-google-analytics": "2.0.0-rc.128",
     "@vuepress/plugin-pwa": "2.0.0-rc.128",
     "@vuepress/plugin-sitemap": "2.0.0-rc.128",
-    "@vuepress/plugin-slimsearch": "2.0.0-rc.61",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.128",
     "mermaid": "^11.4.0",
     "sass-embedded": "^1.98.0",
     "vue": "^3.5.31",
