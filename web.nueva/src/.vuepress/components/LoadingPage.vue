@@ -117,7 +117,7 @@ onMounted(() => {
     margin: 0;
     text-align: center;
     color: var(--vp-c-text-2);
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   }
   

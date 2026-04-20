@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   lang: "es-ES",
   title: "José Luis González",
-  description: "Web personal de José Luis González Sánchez",
+  description: "Web personal de José Luis González Sánchez - Profesor FP de DAW, DAM y formador certificado",
 
   cleanUrls: true,
 
