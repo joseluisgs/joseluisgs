@@ -1,5 +1,5 @@
 ---
-title: Nueva version de mi página web
+title: Nueva version de mi web
 description: Avanzando hacia una nueva etapa con una versión renovada tecnológica y visualmente.
 date: 2026-04-20
 category:
@@ -25,7 +25,9 @@ sidebar: false
 
 ---
 
-# Bienvenido a la versión 2.0 de mi página web
+A lo largo de los años, mi sitio web ha sido un espacio de aprendizaje, experimentación y compartición de conocimientos. Sin embargo, con el paso del tiempo, la tecnología que sustentaba mi web se volvió obsoleta, lo que me llevó a tomar la decisión de realizar una migración completa a una nueva versión. Esta nueva versión no solo representa una actualización tecnológica, sino también una renovación visual y funcional que busca ofrecer una mejor experiencia a los visitantes y a mis alumnos de Formación Profesional les servirá como un recurso educativo de cómo construir una web moderna usando distintas tecnologías.
+
+<!-- more -->
 
 ## De dónde partíamos: VuePress 1 y el tema Reco
 

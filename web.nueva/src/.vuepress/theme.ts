@@ -110,7 +110,6 @@ export default hopeTheme({
 
     slimsearch: {
       indexContent: false,
-      filter: (page) => !page.path.startsWith('/samples/'),
       hotKeys: [
         { key: 'k', ctrl: true },
         { key: '/', ctrl: false },
