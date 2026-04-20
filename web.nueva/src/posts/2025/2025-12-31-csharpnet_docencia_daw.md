@@ -49,7 +49,7 @@ Debido a que yo no puedo asegurar la formación, ni horas ni a las empresas adon
 
 Quiero destacar que no soy un novato de C# y .NET; de hecho gané un premio con C# junto a mi equipo, Microsoft Imagine Cup España 2007 en la especialidad de «Software Design» [ver](https://www.eleconomista.es/empresas-finanzas/noticias/196598/04/07/Estudiantes-granadinos-representaran-a-Espana-en-la-Imagine-Cup-Microsoft.html), pasé a Kotlin porque es la leche, y soy formador/certificador con JetBrains a nivel mundial y ahora vuelvo a C#. He visto la evolución de ambos lenguajes y plataformas, y creo que .NET ha madurado de una manera que lo hace ideal para la enseñanza en DAW actual, bajo mi filosofía de aprendizaje. Creo que mi experiencia me permite hacer esta afirmación con fundamento y objetividad.
 
-# Ventajas clave de C# y .NET para 1.º DAW
+## Ventajas clave de C# y .NET para 1.º DAW
 
 ## 2. El «Muro de Entrada»: La pedagogía del punto de entrada
 
@@ -407,7 +407,7 @@ public class AlumnoServiceTests {
 }
 ```
 
-# Ventajas clave de C# y .NET para 2.º DAW
+## Ventajas clave de C# y .NET para 2.º DAW
 
 Aquí viene el gran cambio, pues uno de mis objetivos era enseñar tres entornos: JVM (SpringBoot), .NET (ASP.NET Core) y PHP (Laravel). Y así fue hasta el año pasado. Este será el último año que lo haga; de hecho, ya ha desaparecido PHP. Por lo que solo me centraré en JVM y .NET a nivel de servicios y páginas web dinámicas. El motivo es que no hay tiempo: puedes tener alumnos que no han hecho la fase de formación en empresas de primero y a los que se les suman las horas de segundo. Un caos que de nuevo me obliga a priorizar. Más vale poco bien hecho que mucho mal hecho. Además, no salir de .NET me permite profundizar más y mejor en un solo ecosistema.
 
