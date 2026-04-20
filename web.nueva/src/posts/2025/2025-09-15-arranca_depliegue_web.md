@@ -1,7 +1,7 @@
 ---
 title: Arranca el curso de Despliegue de Aplicaciones Web 2025-2026
 description: Describimos el inicio del curso de Despliegue de Aplicaciones Web en 2.º DAW
-date: 2025-09-15
+date: 2025-09-07
 category:
   - Blog
   - Docencia

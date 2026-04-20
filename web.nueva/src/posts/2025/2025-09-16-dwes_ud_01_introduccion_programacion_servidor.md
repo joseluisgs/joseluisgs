@@ -1,7 +1,7 @@
 ---
 title: Desarrollo Web en Entorno Servidor 01 - Introducción a la Programación de Software en Servidor
 description: Asentando las bases del desarrollo en el lado del servidor
-date: 2025-09-16
+date: 2025-09-19
 category:
   - Blog
   - Docencia

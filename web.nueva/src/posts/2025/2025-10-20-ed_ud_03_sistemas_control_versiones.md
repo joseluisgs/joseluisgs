@@ -1,7 +1,7 @@
 ---
 title: Entornos de Desarrollo 03 - Sistema de Control de Versiones con Git y GitHub
 description: Fundamentos, comandos esenciales y metodologías para la colaboración eficiente con Git y GitHub
-date: 2025-10-20
+date: 2025-10-23
 
 category:
   - Blog

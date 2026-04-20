@@ -1,7 +1,7 @@
 ---
 title: Arranca el curso de Entornos de Desarrollo 2025-2026
 description: Describimos el inicio del curso de Entornos de Desarrollo en 1.º DAW
-date: 2025-09-15
+date: 2025-09-09
 category:
   - Blog
   - Docencia

@@ -1,7 +1,7 @@
 ---
 title: Arranca el curso de Programación 2025-2026
 description: Describimos el inicio del curso de Programación en 1.º DAW
-date: 2025-09-15
+date: 2025-09-10
 category:
   - Blog
   - Docencia

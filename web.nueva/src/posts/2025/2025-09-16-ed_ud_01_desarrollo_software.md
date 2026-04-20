@@ -1,7 +1,7 @@
 ---
 title: Entornos de Desarrollo - 01 Desarrollo de Software
 description: Los pilares de la programación profesional
-date: 2025-09-16
+date: 2025-09-18
 category:
   - Blog
   - Docencia

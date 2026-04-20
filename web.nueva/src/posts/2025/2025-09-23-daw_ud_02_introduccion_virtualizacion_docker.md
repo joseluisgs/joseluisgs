@@ -1,7 +1,7 @@
 ---
 title: Despliegue de Aplicaciones Web 02 - Introducción a la virtualización
 description: La tecnología que ha revolucionado la forma de desarrollar y desplegar software
-date: 2025-09-23
+date: 2025-09-21
 category:
   - Blog
   - Docencia

@@ -1,7 +1,7 @@
 ---
 title: Programación 01 - Introducción a la Programación Software
 description: Los pilares de la programación profesional y el desarrollo de software
-date: 2025-09-16
+date: 2025-09-17
 category:
   - Blog
   - Docencia

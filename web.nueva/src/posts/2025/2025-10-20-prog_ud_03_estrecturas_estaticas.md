@@ -1,7 +1,7 @@
 ---
 title: Programación 03 - Aplicación de Estructuras de Almacenamiento Estáticas
 description: Arrays, Cadenas (String), Expresiones Regulares, y la base de los algoritmos de Ordenación y Búsqueda
-date: 2025-10-20
+date: 2025-10-22
 
 category:
   - Blog

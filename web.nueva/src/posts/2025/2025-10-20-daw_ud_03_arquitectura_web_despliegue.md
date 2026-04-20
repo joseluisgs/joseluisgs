@@ -1,7 +1,7 @@
 ---
 title: Despliegue de Aplicaciones Web 03 - Arquitectura Web y Fundamentos
 description: Arquitectura web, APIs, protocolos y despliegue moderno
-date: 2025-10-20
+date: 2025-10-21
  
 category:
   - Blog

@@ -1,7 +1,7 @@
 ---
 title: Arranca el curso de Desarrollo Web en Entorno Servidor 2025-2026
 description: Describimos el inicio del curso de Desarrollo Web en Entorno Servidor en 2.º DAW
-date: 2025-09-15
+date: 2025-09-08
 category:
   - Blog
   - Docencia

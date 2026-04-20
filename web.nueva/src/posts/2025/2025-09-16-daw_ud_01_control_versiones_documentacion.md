@@ -1,7 +1,7 @@
 ---
 title: Despliegue de Aplicaciones Web - 01 Control de Versiones y Documentación
 description: Las bases para un desarrollo colaborativo y sostenible
-date: 2025-09-16
+date: 2025-09-26
 category:
   - Blog
   - Docencia

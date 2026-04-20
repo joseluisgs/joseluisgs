@@ -1,7 +1,7 @@
 ---
 title: Visita de Antonio Leiva y DevExpert.io al IES Luis Vives
 description: Compartiendo y aprendiendo con Antonio Leiva y DevExpert.io junto al alumnado
-date: 2024-01-03
+date: 2024-01-05
 category:
   - Blog
   - Docencia
