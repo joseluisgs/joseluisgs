@@ -111,7 +111,7 @@ export default hopeTheme({
     docsearch: {
       appId: 'FAAIQ0MAJO',
       apiKey: '5ca491da0aeaa904f8e03bcdbfa497bc',
-      indexName: 'JoseLuisGSDev_index',
+      indexName: 'joseluisgs_dev_faaiq0majo_pages',
       locales: {
         "/": {
           placeholder: "Buscar",
