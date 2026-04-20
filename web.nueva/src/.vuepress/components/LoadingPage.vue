@@ -107,18 +107,34 @@ onMounted(() => {
   .title {
     margin: 0 0 1rem;
     text-align: center;
-    color: var(--vp-c-text-1);
     font-size: 2rem;
     font-weight: 700;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    
+    html[data-theme="dark"] & {
+      color: #b8d0ff;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    }
+    
+    html[data-theme="light"] & {
+      color: #3469b8;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
   }
   
   .description {
     margin: 0;
     text-align: center;
-    color: var(--vp-c-text-2);
     font-size: 1rem;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    
+    html[data-theme="dark"] & {
+      color: #c8d8e8;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    html[data-theme="light"] & {
+      color: #4a5568;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
   }
   
   @keyframes pacman-balls {
