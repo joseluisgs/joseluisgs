@@ -16,7 +16,7 @@ tag:
   - Jamstack
   - SSR
 
-icon: fa-brands fa-microsoft
+icon: fa-brands fa-vuejs
 
 cover: https://sharklabs.com.br/assets/img/2020-04/vuepress-documentacao-markdown.png
 
@@ -25,7 +25,7 @@ sidebar: false
 
 ---
 
-A lo largo de los años, mi sitio web ha sido un espacio de aprendizaje, experimentación y compartición de conocimientos. Sin embargo, con el paso del tiempo, la tecnología que sustentaba mi web se volvió obsoleta, lo que me llevó a tomar la decisión de realizar una migración completa a una nueva versión. Esta nueva versión no solo representa una actualización tecnológica, sino también una renovación visual y funcional que busca ofrecer una mejor experiencia a los visitantes y a mis alumnos de Formación Profesional les servirá como un recurso educativo de cómo construir una web moderna usando distintas tecnologías.
+A lo largo de los años, mi sitio web ha sido un espacio de aprendizaje, experimentación y compartición de conocimientos. Sin embargo, con el paso del tiempo, la tecnología que sustentaba mi web se volvió obsoleta, lo que me llevó a tomar la decisión de realizar una migración completa a una nueva versión. Esta nueva versión no solo representa una actualización tecnológica, sino también una renovación visual y funcional que busca ofrecer una mejor experiencia a los visitantes y a mis alumnos de Formación Profesional les servirá como un recurso educativo de cómo construir una web moderna usando distintas tecnologías de desarrollo y despliegue.
 
 <!-- more -->
 
@@ -41,10 +41,11 @@ Con el tiempo, surgieron varias dificultades:
 2. **Falta de mantenimiento**: El tema Reco dejó de recibir actualizaciones activas, lo que complicaba la incorporación de nuevas funcionalidades.
 3. **Rendimiento**: Webpack, aunque potente, resultaba lento en los procesos de desarrollo.
 4. **Dependencias**: Cada actualización de paquetes planteaba riesgos de romper la configuración existente.
+5. **Limitaciones de personalización**: Modificar el tema Reco requería tocar `node_modules`, lo que era insostenible a largo plazo.
 
 ## El gran salto tecnológico: VuePress 2 con Vite y Hope Theme
 
-La solución pasaba por migrar a tecnologías modernas que ofrecieran mayor flexibilidad y rendimiento.
+La solución pasaba por migrar a tecnologías modernas que ofrecieran mayor flexibilidad y rendimiento. Así, decidí adoptar **VuePress 2** junto con el tema **vuepress-theme-hope**, y utilizar **Vite** como herramienta de construcción. La idea es no salir del ecosistema Vue, pero aprovechar las mejoras que estas nuevas herramientas ofrecen y que además se integran perfectamente con la arquitectura **Jamstack** y el renderizado del lado del servidor (SSR) que VuePress 2 implementa de forma nativa. Vue.js es una tecnología que domino y que me permite crear componentes personalizados para enriquecer la experiencia de los usuarios.
 
 ### ¿Qué es VuePress y cómo funciona?
 
@@ -53,6 +54,7 @@ VuePress es un generador de sitios web estáticos que combina **Markdown** con *
 - Utilizar componentes Vue dentro del contenido Markdown.
 - Personalizar cualquier aspecto del sitio con Vue.
 - Generar sitios web estáticos de alto rendimiento.
+- Implementar funcionalidades avanzadas como SSR, PWA y SEO de forma nativa.
 
 ### ¿Qué es el renderizado del lado del servidor (SSR)?
 
@@ -84,6 +86,7 @@ style G fill:#35495e,color:#fff
 - **SEO mejorado**: Los motores de búsqueda pueden indexar el contenido directamente.
 - **Carga más rápida**: El usuario recibe HTML listo para mostrar.
 - **Mejor experiencia**: La página es visible antes de que Vue tome el control.
+- **Accesibilidad**: Mejor soporte para lectores de pantalla.
 
 ### ¿Qué es Jamstack?
 
@@ -127,14 +130,13 @@ flowchart LR
 - **Escalabilidad**: Servir archivos estáticos es muy económica.
 - **Rendimiento**: CDN distribuida globalmente.
 - **Experiencia de desarrollador**: Flujo de trabajo moderno con Git.
+- **Flexibilidad**: Cualquier backend o API puede ser integrado.
 
-VuePress es perfectamente兼容ibile con esta arquitectura, generando archivos estáticos que pueden desplegarse en cualquier CDN.
+VuePress es perfectamente compatible con esta arquitectura, generando archivos estáticos que pueden desplegarse en cualquier CDN.
 
 ### ¿Por qué Vite?
 
-**Vite** es la herramienta de construcción de nueva generación que ha revolucionado el desarrollo frontend:
-
-
+**Vite** es la herramienta de construcción de nueva generación que ha revolucionado el desarrollo frontend. Ha sido diseñada para ser rápida, eficiente y fácil de usar, superando las limitaciones de herramientas anteriores como Webpack. Vite utiliza ES Modules nativos en el navegador durante el desarrollo, lo que permite un arranque instantáneo y una experiencia de desarrollo fluida. Además, ha sido desarrollada por el mismo creador de Vue.js, lo que garantiza una integración perfecta con VuePress y Vue.js.
 
 ```mermaid
 flowchart LR
@@ -163,7 +165,7 @@ flowchart LR
 
 ### ¿Por qué Hope Theme?
 
-El tema **vuepress-theme-hope** representa la opción más completa para VuePress 2:
+El tema **vuepress-theme-hope** representa la opción más completa para VuePress 2 que más se adapta a mis necesidades. Ofrece una gran cantidad de funcionalidades listas para usar, una personalización total sin necesidad de tocar `node_modules`, y un diseño moderno y atractivo que se alinea con la identidad visual que quería para mi sitio.
 
 - **Configuración zero**: Funciona prácticamente sin configuración.
 - **Personalización total**: Permite modificar aspectos sin tocar `node_modules`.
@@ -209,7 +211,7 @@ flowchart TB
 
 ### Diseño Deep Navy Discord
 
-Se ha establecido una identidad visual distintiva con una paleta de colores inspirada en Discord, eliminando los grises por defecto del tema:
+Se ha establecido una identidad visual distintiva con una paleta de colores inspirada en Kotlin y .NET, tecnologías con las que me siento más identificado ahora. Esta paleta se basa en tonos oscuros y acentos vibrantes, creando un contraste atractivo y moderno:
 
 ```scss
 --vp-c-bg: #010c18;        // Fondo principal (Azul noche profundo)
@@ -222,19 +224,20 @@ Esta paleta se complementa con tipografía **Ubuntu** de Google Fonts.
 
 ### Scrollbar personalizado
 
-El scrollbar del navegador también ha sido personalizado:
+El scrollbar del navegador también ha sido personalizado, siguiendo la misma estética:
 
 - Tamaño: 10px
 - Color del pulgar: `#7289da` (acento Discord)
 
 ### Sistema de cookies conforme al RGPD
 
-Se ha implementado un sistema completo de consentimiento de cookies:
+Se ha implementado un sistema completo de consentimiento de cookies. La idea es que el alumnado, al ser un público joven y digitalmente activo, entienda la importancia de la privacidad y el consentimiento informado. Además, es una buena práctica que se alinea con las normativas actuales.
 
 - Consentimiento previo a la carga de cookies analíticas.
 - Opción de rechazar cookies no esenciales.
 - Posibilidad de revocar el consentimiento desde el pie de página.
 - Google Analytics solo se carga si el usuario acepta las cookies.
+- Persistencia de la elección del usuario en localStorage.
 
 ### Componentes personalizados
 
@@ -243,19 +246,11 @@ Se han creado componentes utilizando la **API de composición de Vue 3**:
 - **CookiesBanner.vue**: Banner funcional con persistencia en localStorage.
 - **ReposPinned.vue**: Utiliza la API de Deno para mostrar repositorios de GitHub.
 
-### Problemas técnicos resueltos
-
-1. **Fechas duplicadas en SlimSearch**: El plugin de búsqueda usa la fecha como identificador único. Existían múltiples posts con la misma fecha, causando errores. La solución fue asignar fechas únicas manteniendo una cronología lógica.
-
-2. **Eliminación de páginas de ejemplo**: El tema incluye por defecto carpeta de ejemplos (samples). Se eliminó del build para obtener un sitio más ligero (de 175 a 153 páginas).
-
 ## Aplicación Web Progresiva (PWA)
 
 ### ¿Qué es una PWA?
 
-Una **Aplicación Web Progresiva (PWA)** es una aplicación web que utiliza tecnologías modernas para ofrecer una experiencia similar a una aplicación nativa:
-
-
+Una **Aplicación Web Progresiva (PWA)** es una aplicación web que utiliza tecnologías modernas para ofrecer una experiencia similar a una aplicación nativa. Con ello se busca que los usuarios puedan acceder a la web de forma rápida, incluso sin conexión, y con funcionalidades avanzadas como notificaciones push.
 
 ```mermaid
 flowchart TB
@@ -301,7 +296,7 @@ style A fill:#7289da,color:#fff
 
 ### ¿Qué es GitHub Actions?
 
-GitHub Actions es un sistema de automatización que permite crear flujos de trabajo directamente en GitHub:
+GitHub Actions es un sistema de automatización que permite crear flujos de trabajo directamente en GitHub. Lo que buscamos es integrar un proceso de **CI/CD (Integración Continua y Despliegue Continuo)** para que cada vez que se haga un push a la rama principal, el sitio se construya y despliegue automáticamente en GitHub Pages.
 
 
 
@@ -333,11 +328,11 @@ flowchart LR
 
 ## Valor didáctico para el alumnado
 
-Esta web no es solo un blog personal; es una **herramienta educativa** para mis alumnos de Formación Profesional.
+Esta web no es solo un blog personal; es una **herramienta educativa** para mis alumnos de Formación Profesional en los módulos de Desarrollo Web en Entornos Servidor y Despliegue de Aplicaciones Web. La idea es que puedan ver en acción las tecnologías que se enseñan en clase, y que además puedan usar el código como referencia para sus propios proyectos.
 
 ### Recursos para el alumnado
 
-En la página principal se muestran proyectos educativos organizados por módulos:
+En la página principal se muestran proyectos educativos organizados por módulos que actualmente imparto, con enlaces a los repositorios de GitHub donde pueden encontrar el código completo, los apuntes y ejemplos relacionados con cada módulo:
 
 | Módulo | Descripción | Enlace |
 |--------|-------------|--------|
@@ -353,8 +348,7 @@ En la página principal se muestran proyectos educativos organizados por módulo
 1. **Material de apoyo**: Apuntes y ejemplos actualizados para cada módulo.
 2. **Código real**: Proyectos completos que pueden usar como referencia.
 3. **Buenas prácticas**: El propio sitio web es un ejemplo de arquitectura moderna.
-4. **Acceso desde cualquier lugar**: Al ser una PWA, pueden acceder sin conexión.
-5. **Transparencia**: Todo el código está disponible en GitHub para aprender del proceso.
+4. **Transparencia**: Todo el código está disponible en GitHub para aprender del proceso.
 
 ### La web como ejemplo de aprendizaje
 
