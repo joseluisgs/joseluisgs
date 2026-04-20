@@ -112,6 +112,9 @@ export default hopeTheme({
       appId: 'FAAIQ0MAJO',
       apiKey: '5ca491da0aeaa904f8e03bcdbfa497bc',
       indexName: 'joseluisgs_dev_faaiq0majo_pages',
+      searchParameters: {
+        facetFilters: [],
+      },
       locales: {
         "/": {
           placeholder: "Buscar",
