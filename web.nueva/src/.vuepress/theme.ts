@@ -124,7 +124,6 @@ export default hopeTheme({
 
     blog: {
       filter: (page) => {
-        if (page.path.startsWith('/samples/')) return false;
         return (
           page.frontmatter.article ?? (Boolean(page.filePathRelative) && !page.frontmatter.home)
         );
