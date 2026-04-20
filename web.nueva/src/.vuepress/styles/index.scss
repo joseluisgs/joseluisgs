@@ -43,6 +43,25 @@ html[data-theme="dark"] .vp-blog-hero {
 }
 
 // ============================================
+// HERO TITLE - Colores sólidos por modo (Opción B)
+// ============================================
+// Modo oscuro: título más claro, descripción más clara
+html[data-theme="dark"] .vp-blog-hero-title {
+  color: #b8d0ff !important;
+}
+html[data-theme="dark"] .vp-blog-hero-description {
+  color: #c8d8e8 !important;
+}
+
+// Modo claro: título más oscuro, descripción gris oscuro
+html[data-theme="light"] .vp-blog-hero-title {
+  color: #3469b8 !important;
+}
+html[data-theme="light"] .vp-blog-hero-description {
+  color: #4a5568 !important;
+}
+
+// ============================================
 // FADE IN DESPUÉS DE LA CARGA (PACMAN)
 // ============================================
 body:not(.page-loaded) .theme-container,

@@ -110,7 +110,7 @@ onMounted(() => {
     color: var(--vp-c-text-1);
     font-size: 2rem;
     font-weight: 700;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   }
   
   .description {
