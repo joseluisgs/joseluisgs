@@ -8,7 +8,8 @@ category:
 tag:
   - Docencia
   - DAW
-  - Desarrollo Web Entorno Servidor (DWES)
+  - Desarrollo Web Entorno Servidor
+  - DWES
   - API REST
   - HTTP
 icon: fa-solid fa-network-wired

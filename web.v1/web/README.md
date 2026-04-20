@@ -52,25 +52,31 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
 <p>
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
 </p>
-<p align="center">
-    <a href="https://joseluisgs.dev/" target="_blank">
-        <img loading="lazy" src="./images/social-icons/favicon.png" height="32">
-    </a>&nbsp;
+<p>
+ <a href="https://joseluisgs.dev/" target="_blank">
+        <img src="https://joseluisgs.github.io/img/favicon.png" 
+    height="30">
+    </a>  &nbsp;&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
-        <img loading="lazy" src="./images/social-icons/github.svg" height="32">
-    </a>&nbsp;
-    <a href="https://www.linkedin.com/in/JoseLuisGSDev" target="_blank">
-        <img loading="lazy" src="./images/social-icons/linkedin.png" height="32">
-    </a>&nbsp;
-    <a href="https://www.youtube.com/@joseluisgs" target="_blank">
-        <img loading="lazy" src="./images/social-icons/youtube.png" height="32">
-    </a>&nbsp;
-    <a href="https://x.com/JoseLuisGSDev" target="_blank">
-        <img loading="lazy" src="./images/social-icons/twitter.png" height="32">
-    </a>&nbsp;
-    <a href="https://www.instagram.com/joseluisgs.dev/" target="_blank">
-        <img loading="lazy" src="./images/social-icons/instagram.png" height="32">
+        <img src="https://distreau.com/github.svg" 
+    height="30">
+    </a> &nbsp;&nbsp;
+        <a href="https://twitter.com/JoseLuisGS_" target="_blank">
+        <img src="https://i.imgur.com/U4Uiaef.png" 
+    height="30">
+    </a> &nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/joseluisgonsan" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" 
+    height="30">
+    </a>  &nbsp;&nbsp;
+    <a href="https://g.dev/joseluisgs" target="_blank">
+        <img loading="lazy" src="https://googlediscovery.com/wp-content/uploads/google-developers.png" 
+    height="30"> &nbsp;&nbsp;
     </a>
+    <a href="https://www.youtube.com/@joseluisgs" target="_blank">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
+    height="30">
+    </a>      
 </p>
 
 ## Licencia de uso

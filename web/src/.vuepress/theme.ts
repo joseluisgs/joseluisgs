@@ -108,12 +108,18 @@ export default hopeTheme({
   plugins: {
     copyright: true,
 
-    slimsearch: {
-      indexContent: false,
-      hotKeys: [
-        { key: 'k', ctrl: true },
-        { key: '/', ctrl: false },
-      ],
+    docsearch: {
+      appId: 'FAAIQ0MAJO',
+      apiKey: '5ca491da0aeaa904f8e03bcdbfa497bc',
+      indexName: 'JoseLuisGSDev_index',
+      locales: {
+        "/": {
+          placeholder: "Buscar",
+          translations: {
+            button: { buttonText: "Buscar" },
+          },
+        },
+      },
     },
 
     blog: {

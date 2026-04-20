@@ -9,7 +9,8 @@ category:
 tag:
   - Docencia
   - DAW
-  - Entornos de Desarrollo (ED)
+  - Entornos de Desarrollo
+  - ED
   - IDE
   - VS Code
   - IntelliJ

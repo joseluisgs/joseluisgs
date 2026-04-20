@@ -8,7 +8,8 @@ category:
 tag:
   - Docencia
   - DAW
-  - Entornos de Desarrollo (ED)
+  - Entornos de Desarrollo
+  - ED
   - UML
   - Patrones de Diseño
 icon: fa-solid fa-sitemap

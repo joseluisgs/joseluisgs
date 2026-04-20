@@ -28,4 +28,11 @@ export default sidebar({
       link: "/info/proyectos",
     },
   ],
+
+  "/posts/": "structure",
+  "/category/": "structure",
+  "/tag/": "structure",
+  "/article/": "structure",
+  "/star/": "structure",
+  "/timeline/": "structure",
 });

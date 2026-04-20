@@ -8,7 +8,8 @@ category:
 tag:
   - Docencia
   - DAW
-  - Despliegue de Aplicaciones Web (DAW)
+  - Despliegue de Aplicaciones Web
+  - DWEB
   - Docker
   - Contenedores
 icon: fa-brands fa-docker

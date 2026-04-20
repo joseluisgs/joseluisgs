@@ -64,6 +64,8 @@ export default defineUserConfig({
         content: "6faOYM6NoaSKvkuz4Qexps8JgYe65lIQukYB5eScb90",
       },
     ],
+    // Algolia Search
+    ["meta", { name: "algolia-site-verification", content: "134D8D65FF9C0375" }],
 
     // Google Fonts: Ubuntu
     [

@@ -9,6 +9,7 @@ tag:
   - Docencia
   - DAW
   - Programación
+  - PROG
   - C#
   - .NET
 icon: fa-brands fa-csharp

@@ -9,7 +9,8 @@ category:
 tag:
   - Docencia
   - DAW
-  - Desarrollo Web Entorno Servidor (DWES)
+  - Desarrollo Web Entorno Servidor
+  - DWES
   - Java
   - Spring Boot
   - JPA
