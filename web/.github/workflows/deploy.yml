@@ -3,9 +3,9 @@ name: 🚀 Deploy Docs (GitHub Actions)
 on:
   push:
     branches:
-      - nueva_web  # Rama de desarrollo actual
-      - main       # Rama de producción definitiva
-      - master     # Rama de producción alternativa
+      - nueva_web
+      - main
+      - master
 
 permissions:
   contents: write
@@ -44,8 +44,10 @@ jobs:
           cp LICENSE src/.vuepress/dist/ || true
           touch src/.vuepress/dist/.nojekyll
 
-      - name: 📤 Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: 📤 Deploy to GitHub Pages (joseluisgs.github.io)
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src/.vuepress/dist
+          repository-name: joseluisgs/joseluisgs.github.io
+          branch: main
+          folder: src/.vuepress/dist
+          token: ${{ secrets.ACCESS_TOKEN }}
