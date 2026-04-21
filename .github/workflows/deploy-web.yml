@@ -1,4 +1,4 @@
-name: 🚀 Deploy Docs (GitHub Actions)
+name: 🚀 Deploy JoseluisGS Web
 
 on:
   push:
