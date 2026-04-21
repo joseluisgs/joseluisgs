@@ -1,4 +1,4 @@
-name: 🚀 Deploy JoseluisGS Web
+name: Deploy JoseluisGS Web
 
 on:
   push:
