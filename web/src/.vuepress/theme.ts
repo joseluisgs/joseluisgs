@@ -111,7 +111,7 @@ export default hopeTheme({
     docsearch: {
       appId: 'FAAIQ0MAJO',
       apiKey: 'fd0a8d15686650ae765a7d5ad7f3bc83',
-      indices: ['joseluisgs_dev_faaiq0majo_pages'],
+      indexName: 'joseluisgs_dev_faaiq0majo_pages',
       disableUserPersonalization: true,
       searchParameters: {
         facetFilters: [],

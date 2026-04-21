@@ -248,6 +248,64 @@ Se han creado componentes utilizando la **API de composición de Vue 3**:
 - **CookiesBanner.vue**: Banner funcional con persistencia en localStorage.
 - **ReposPinned.vue**: Utiliza la API de Deno para mostrar repositorios de GitHub.
 
+## Sistema de búsqueda con Algolia
+
+### ¿Qué es Algolia?
+
+**Algolia** es un motor de búsqueda como servicio que permite implementar búsquedas rápidas y relevantes en aplicaciones web. A diferencia de usar un simple filtro en el contenido, Algolia ofrece:
+
+- Búsqueda en tiempo real (los resultados aparecen mientras escribes)
+- Tolerancia a errores tipográficos (encuentra "jose" aunque escribas "jozse")
+- Búsqueda facetada y filtros
+- Relevancia configurable
+- Analytics de búsquedas
+
+### ¿Por qué Algolia y no otro sistema?
+
+Para esta web evalué varias opciones:
+
+| Opción | Ventajas | Inconvenientes |
+|--------|----------|----------------|
+| **Algolia DocSearch** | Gratis para documentación/blog, fácil integración | Límite de registros |
+| Elasticsearch | Potente, autoalojado | Complejo, costoso |
+| Fuse.js | Gratis, local | Lento con mucho contenido |
+| Simple JSON | Gratis | Sin relevancia, sin características |
+| SlimSearch | Gratis, fácil | Sin relevancia, sin características |
+
+**DocSearch de Algolia** es la opción ideal porque:
+1. **Es gratis** para sitios de documentación y blogs personales
+2. **Indexación automática** mediante un crawler configurable
+3. **Sin mantenimiento** - Algolia lo gestiona todo
+4. **Integración con VuePress** mediante plugin oficial
+
+### ¿Qué ofrece esta web con Algolia?
+
+1. **Búsqueda global**: Accesible desde cualquier página
+2. **Resultados relevantes**: Ordenados por título, secciones y contenido
+3. **Navegación rápida**: Al hacer clic en un resultado, se muestra la sección exacta
+4. **Accesibilidad**: Funciona con teclado y lectores de pantalla
+5. **Multiidioma**: Configurado para español e inglés
+
+### Configuración del crawler
+
+El crawler de Algolia usa selectores CSS para extraer el contenido:
+
+- **Títulos de página**: `.vp-page-title h1`
+- **Secciones**: `#markdown-content h2`, `#markdown-content h3`
+- **Contenido**: `#markdown-content p`, `#markdown-content li`
+
+Los atributos buscables se priorizan en este orden:
+1. Jerarquía de nivel 0 (categoría)
+2. Jerarquía de nivel 1 (título de página)
+3. Jerarquía de nivel 2-3 (secciones)
+4. Contenido
+
+### Beneficios para el visitante
+
+- Encontrar información rápidamente sin navegar por menús
+- Búsqueda accesible desde cualquier dispositivo
+- Resultados relevantes que muestran el contexto
+
 ## Aplicación Web Progresiva (PWA)
 
 ### ¿Qué es una PWA?

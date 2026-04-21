@@ -7,7 +7,7 @@ category:
   - Personal
 tag:
   - Personal
-cover: /img/avatar.png
+cover: /img/avatar.webp
 icon: fa-solid fa-user
 author: José Luis González Sánchez
 comment: false
