@@ -67,6 +67,12 @@ export default defineUserConfig({
     // Algolia Search
     ["meta", { name: "algolia-site-verification", content: "134D8D65FF9C0375" }],
 
+    // Twitter Card
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["meta", { name: "twitter:image", content: "https://joseluisgs.dev/img/web-social.png" }],
+    ["meta", { name: "twitter:title", content: "José Luis González" }],
+    ["meta", { name: "twitter:description", content: "Web personal de José Luis González Sánchez - Profesor FP de DAW, DAM y formador certificado" }],
+
     // Google Fonts: Ubuntu
     [
       "link",
