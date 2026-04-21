@@ -302,6 +302,18 @@ Se han creado componentes utilizando la **API de composición de Vue 3**:
 
 - **CookiesBanner.vue**: Banner funcional con persistencia en localStorage.
 - **ReposPinned.vue**: Utiliza la API de Deno para mostrar repositorios de GitHub.
+- **LoadingPage.vue**:Pantalla de carga personalizada con diseño Deep Navy Discord.
+
+### ¿Por qué crear componentes propios?
+
+La posibilidad de crear componentes Vue personalizados ofrece ventajas enormes:
+
+1. **Reutilización**: Un componente se usa en múltiples páginas sin duplicar código.
+2. **Mantenimiento**: Si cambias algo, se actualiza en todos los sitios donde se usa.
+3. **Personalización total**: Puedes modificar cualquier aspecto sin depender de terceros.
+4. **Integración con Markdown**: Puedes usar componentes dentro de tus archivos .md directamente.
+
+Los componentes se encuentran en `src/.vuepress/components/` y se pueden usar directamente en el contenido Markdown.
 
 ## Sistema de búsqueda con Algolia
 
