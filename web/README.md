@@ -51,25 +51,25 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
 ### Contacto
 <p>
   Cualquier cosa que necesites házmelo saber por si puedo ayudarte 💬.
-</p>
-<p align="center">
+  
+<p style="text-align: center;">
     <a href="https://joseluisgs.dev/" target="_blank">
-        <img loading="lazy" src="./images/social-icons/favicon.png" height="32">
+        <img loading="lazy" src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/social-icons/favicon.png" height="32">
     </a>&nbsp;
     <a href="https://github.com/joseluisgs" target="_blank">
-        <img loading="lazy" src="./images/social-icons/github.svg" height="32">
+        <img loading="lazy" src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/social-icons/github.svg" height="32">
     </a>&nbsp;
     <a href="https://www.linkedin.com/in/JoseLuisGSDev" target="_blank">
-        <img loading="lazy" src="./images/social-icons/linkedin.png" height="32">
+        <img loading="lazy" src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/social-icons/linkedin.png" height="32">
     </a>&nbsp;
     <a href="https://www.youtube.com/@joseluisgs" target="_blank">
-        <img loading="lazy" src="./images/social-icons/youtube.png" height="32">
+        <img loading="lazy" src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/social-icons/youtube.png" height="32">
     </a>&nbsp;
     <a href="https://x.com/JoseLuisGSDev" target="_blank">
-        <img loading="lazy" src="./images/social-icons/twitter.png" height="32">
+        <img loading="lazy" src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/social-icons/twitter.png" height="32">
     </a>&nbsp;
     <a href="https://www.instagram.com/joseluisgs.dev/" target="_blank">
-        <img loading="lazy" src="./images/social-icons/instagram.png" height="32">
+        <img loading="lazy" src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/social-icons/instagram.png" height="32">
     </a>
 </p>
 
