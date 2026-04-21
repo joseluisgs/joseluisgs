@@ -265,7 +265,10 @@ flowchart TB
 
 ### Diseño Deep Navy Discord basado en mis raquetas Yonex
 
-Se ha establecido una identidad visual distintiva con una paleta de colores inspirada en Kotlin y .NET, tecnologías con las que me siento más identificado ahora. Esta paleta se basa en tonos oscuros y acentos vibrantes, creando un contraste atractivo y moderno:
+Se ha establecido una identidad visual distintiva con una paleta de colores inspirada en Kotlin y .NET, tecnologías con las que me siento más identificado ahora. Me vino inspirada por los colores de mis raquetas Yonex. El modelo 2022 de esta raqueta tiene un diseño en tonos oscuro, deep navy que ha marcado el fondo. El modelo 2025 de Yonex ha aportado los distintos azules vibrantes que se han utilizado como acentos en la nueva web tanto en el modo claro, como en el modo oscuro, muy parecidos al Blurple. Es un color que me gusta mucho. Si me gusta en la pista y fuera de la pista se queda en la web.
+
+
+Esta paleta se basa en tonos oscuros y acentos vibrantes, creando un contraste atractivo y moderno:
 
 ```scss
 --vp-c-bg: #010c18;        // Fondo principal (Azul noche profundo)
@@ -489,7 +492,7 @@ Esta web también sirve para enseñar conceptos como:
 | SSR | Básico | Completo |
 | Jamstack | Parcial | Total |
 
-## El futuro
+## Bienvenidos a la versión 2.0
 
 Esta versión 2.0 representa una base sólida para incorporar nuevas funcionalidades:
 
@@ -497,8 +500,6 @@ Esta versión 2.0 representa una base sólida para incorporar nuevas funcionalid
 - Integración con más APIs de servicios educativos.
 - Mejora continua de la experiencia de usuario.
 - Comunidad de estudiantes contribuyendo al proyecto.
-
-## Bienvenidos a la versión 2.0
 
 Este salto representa mucho más que actualizar dependencias. Es un compromiso con:
 
