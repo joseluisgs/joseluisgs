@@ -75,7 +75,7 @@ flowchart TB
         D[Md + Vue] --> E[Build Vite]
         E --> F[SSR]
         F --> G[HTML Estático]
-        G --> H[Hydration Cliente]
+        G --> H[Hidratación del Cliente]
     end
     
     style A fill:#42b883,color:#fff
@@ -135,6 +135,58 @@ flowchart LR
 - **Flexibilidad**: Cualquier backend o API puede ser integrado.
 
 VuePress es perfectamente compatible con esta arquitectura, generando archivos estáticos que pueden desplegarse en cualquier CDN.
+
+### Ventajas de Jamstack en detalle
+
+Implementar una arquitectura Jamstack (JavaScript, API & Markup) utilizando un ecosistema basado en Vue, VuePress y Markdown ofrece beneficios significativos en términos de rendimiento, seguridad y experiencia de desarrollo. Aquí tienes las ventajas clave de esta combinación:
+
+#### 1. Velocidad de Carga Extrema (Performance)
+
+Al usar VuePress, el sitio se pre-renderiza como HTML estático durante el tiempo de compilación. Sin base de datos: No hay consultas a una base de datos en tiempo real cuando un usuario visita la página. Hidratación de Vue: Una vez que el HTML carga, Vue "hidrata" la página, convirtiéndola en una Single Page Application (SPA) reactiva. Esto permite transiciones instantáneas entre rutas sin recargar el navegador.
+
+#### 2. Flujo de Trabajo Basado en Contenido (Markdown)
+
+Markdown es el corazón de esta configuración, lo que facilita enormemente la gestión de contenido:
+
+- **Simplicidad**: Escribes en archivos .md, lo que elimina la necesidad de un CMS complejo para blogs o documentación.
+- **Componentes Vue en Markdown**: VuePress permite insertar componentes de Vue directamente dentro de tus archivos Markdown. Puedes tener un texto explicativo y, justo debajo, un widget interactivo o un gráfico dinámico.
+
+#### 3. SEO Superior
+
+A diferencia de las SPAs tradicionales que renderizan todo en el cliente (lo que puede dificultar el rastreo de algunos buscadores), Jamstack con VuePress entrega contenido estático ya renderizado. Los motores de búsqueda indexan el contenido de inmediato. La estructura de metadatos (Frontmatter) se gestiona fácilmente en la parte superior de cada archivo Markdown:
+
+```markdown
+---
+title: Ventajas de Jamstack
+lang: es-ES
+meta:
+  - name: description
+    content: Guía sobre Jamstack con VuePress
+---
+```
+
+#### 4. Seguridad y Escalabilidad
+
+Al no tener un servidor de aplicaciones ni una base de datos expuesta:
+
+- **Seguridad**: Se reduce drásticamente la superficie de ataque (no hay inyecciones SQL ni vulnerabilidades de servidor comunes).
+- **Escalabilidad**: El sitio puede servirse a través de una CDN (Content Delivery Network). Esto significa que el sitio se replica en servidores de todo el mundo, reduciendo la latencia y soportando picos de tráfico masivos sin coste adicional de infraestructura.
+
+#### Comparativa: Jamstack vs. Tradicional
+
+| Característica | Jamstack (VuePress/MD) | Tradicional (WordPress/PHP) |
+|--------------|----------------------|---------------------------|
+| Alojamiento | CDN (Netlify, Vercel, S3) | Servidor dedicado / Hosting compartido |
+| Velocidad | Instantánea (Pre-renderizado) | Depende del servidor y caché |
+| Mantenimiento | Casi nulo (Serverless) | Actualizaciones de plugins/servidor |
+| Control de versiones | Git (Todo es código) | Base de datos externa |
+
+#### 5. Experiencia del Desarrollador (DX)
+
+El desarrollo es mucho más ágil:
+
+- **Hot Reload**: Los cambios en Markdown o Vue se ven reflejados al instante en el navegador.
+- **Despliegue Atómico**: Cada vez que haces un push a Git, el sitio se construye de nuevo. Si algo falla, el sitio anterior sigue online, evitando caídas durante la actualización.
 
 ### ¿Por qué Vite?
 
@@ -211,7 +263,7 @@ flowchart TB
 
 ## Mejoras implementadas
 
-### Diseño Deep Navy Discord
+### Diseño Deep Navy Discord basado en mis raquetas Yonex
 
 Se ha establecido una identidad visual distintiva con una paleta de colores inspirada en Kotlin y .NET, tecnologías con las que me siento más identificado ahora. Esta paleta se basa en tonos oscuros y acentos vibrantes, creando un contraste atractivo y moderno:
 
@@ -229,7 +281,7 @@ Esta paleta se complementa con tipografía **Ubuntu** de Google Fonts.
 El scrollbar del navegador también ha sido personalizado, siguiendo la misma estética:
 
 - Tamaño: 10px
-- Color del pulgar: `#7289da` (acento Discord)
+- Color del pulgar: `#7289da` (acento Discord/Yonex)
 
 ### Sistema de cookies conforme al RGPD
 
