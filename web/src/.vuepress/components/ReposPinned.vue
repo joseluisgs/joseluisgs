@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue'
 
 const repositorios = ref([])
+const loading = ref(true)
 
 onMounted(async () => {
   try {
@@ -10,29 +11,36 @@ onMounted(async () => {
     repositorios.value = data
   } catch (error) {
     console.error("Error fetching pinned repos:", error)
+  } finally {
+    loading.value = false
   }
 })
 </script>
 
 <template>
   <div class="github-row">
-    <div v-for="repo in repositorios" class="github-pinner" :key="repo.repo">
+    <div v-if="loading" class="github-loading">
+      <div class="loading-spinner"></div>
+      <p>Cargando repositorios...</p>
+    </div>
+
+    <div v-else v-for="repo in repositorios" class="github-pinner" :key="repo.repo">
       <div class="gp-container-repo">
         <div class="gp-header">
           <i class="fa-brands fa-github gp-icon"></i>
-          <a class="gp-title" :href="'https://github.com/joseluisgs/' + repo.repo" target="_blank">{{ repo.repo }}</a>
+          <a class="gp-title" :href="repo.link" target="_blank">{{ repo.repo }}</a>
         </div>
         <p class="gp-desc">{{ repo.description }}</p>
         <div class="gp-stats">
-          <span class="gp-stat">
-            <i class="fa-solid fa-code gp-language-icon"></i>
+          <span v-if="repo.language" class="gp-stat">
+            <span v-if="repo.languageColor" class="language-color" :style="{ backgroundColor: repo.languageColor }"></span>
             {{ repo.language }}
           </span>
-          <a class="gp-stat gp-link" :href="'https://github.com/joseluisgs/' + repo.repo + '/stargazers'" target="_blank">
+          <a class="gp-stat gp-link" :href="repo.link + '/stargazers'" target="_blank">
             <i class="fa-solid fa-star"></i>
             {{ repo.stars }}
           </a>
-          <a class="gp-stat gp-link" :href="'https://github.com/joseluisgs/' + repo.repo + '/network/members'" target="_blank">
+          <a class="gp-stat gp-link" :href="repo.link + '/network/members'" target="_blank">
             <i class="fa-solid fa-code-branch"></i>
             {{ repo.forks }}
           </a>
@@ -48,6 +56,30 @@ onMounted(async () => {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
+}
+
+.github-loading {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  color: var(--vp-c-text-2);
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--vp-c-border);
+  border-top-color: var(--vp-c-accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .github-pinner {
@@ -108,6 +140,13 @@ onMounted(async () => {
   display: flex;
   align-items: center;
   gap: 0.3rem;
+}
+
+.language-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .gp-link {
