@@ -44,10 +44,8 @@ jobs:
           cp LICENSE src/.vuepress/dist/ || true
           touch src/.vuepress/dist/.nojekyll
 
-      - name: 📤 Deploy to GitHub Pages (joseluisgs.github.io)
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: 📤 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          repository-name: joseluisgs/joseluisgs.github.io
-          branch: main
-          folder: src/.vuepress/dist
-          token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./src/.vuepress/dist
