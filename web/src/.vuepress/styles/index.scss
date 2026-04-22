@@ -610,6 +610,35 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   color: var(--vp-c-text-2) !important;
 }
 
+// Project Panel - CSS Grid para ocupar 100%
+// Breakpoints originales del tema (comentados para referencia):
+// >= 1440px: 25% (4 columnas)
+// 960px - 1439px: 33% (3 columnas)
+// <= 959px: 50% (2 columnas)
+.vp-project-panel {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important; // Máximo 3 columnas
+  gap: 16px !important;
+  width: 100% !important;
+  
+  // @media (min-width: 1440px) { grid-template-columns: repeat(4, 1fr) !important; } // 4 columnas (activar si tienes 8+ proyectos)
+  // @media (max-width: 1439px) { grid-template-columns: repeat(3, 1fr) !important; } // 3 columnas
+  @media (max-width: 959px) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+}
+
+.vp-project-card {
+  width: 100% !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
 // ============================================
 // MINIATURAS DE ARTÍCULOS - Blog Home
 // ============================================
