@@ -36,9 +36,19 @@ html[data-theme="dark"] .vp-blog-hero {
 // Botón slide-down del Hero
 .vp-hero-slide-down-button {
   color: var(--vp-c-accent) !important;
+  bottom: 2rem !important;
   
   svg {
     fill: var(--vp-c-accent) !important;
+  }
+}
+
+// Mostrar botón en móviles
+@media (max-width: 1023px) {
+  .vp-hero-slide-down-button {
+    display: block !important;
+    bottom: 2rem !important;
+    left: calc(50% - 30px) !important;
   }
 }
 
