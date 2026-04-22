@@ -41,7 +41,9 @@ background: rgba(114, 137, 218, 0.15)
 </div>
 
 ### Docencia actual en el centro
-En estos momentos imparto docencia en los ciclos de DAM/DAW/ASIR/SMR. Especialmente en DAW, Desarrollo de Aplicaciones Web, donde imparto la mayoría de las clases:
+En estos momentos imparto docencia en los ciclos de la familia profesional de Informática y Comunicaciones: DAM/DAW/ASIR/SMR. 
+
+Actualmente, mi labor docente se desarrolla en el ciclo de Grado Superior en Desarrollo de Aplicaciones Web (DAW), donde soy responsable de los siguientes módulos profesionales:
 - Programación: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
 - Entornos de Desarrollo: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
 - Desarrollo Web en Entornos Servidor: 2.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).

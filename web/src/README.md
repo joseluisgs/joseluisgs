@@ -27,11 +27,11 @@ projects:
     link: https://github.com/joseluisgs/DespliegueAplicacionesWeb-00-2025-2026
     icon: fa-solid fa-cloud-arrow-up
   - name: Tienda Daw Api
-    desc: Ejemplo de Servicios y Apis
+    desc: Ejemplo de Servicios/Apis .NET Core
     link: https://github.com/joseluisgs/TiendaDawApi-NetCore
     icon: fa-solid fa-store
   - name: Tienda Daw Web
-    desc: Ejemplo de Marketplace ASP.NET
+    desc: Ejemplo de Marketplace ASP.NET Core
     link: https://github.com/joseluisgs/TiendaDawWeb-NetCore
     icon: fa-solid fa-cart-shopping
 ---

@@ -19,7 +19,7 @@ star: 1
 footer: true
 ---
 
-👋 Me llamo José Luis González Sánchez. Soy [**doctor en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**profesor de Formación Profesional**](https://www.iesluisvives.es/) especializado en **Desarrollo de Software** 💻. Además, soy [**Kotlin Trainer Certified by JetBrains**](https://www.jetbrains.com/es-es/company/partners/kotlin/) y [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) 👨‍💻.
+👋 Me llamo José Luis González Sánchez. Soy [**doctor en Informática especializado en desarrollo de software y sistemas interactivos**](https://joseluisgs.github.io/docs/info/investigacion/tesis.html) 👨‍🎓 y [**profesor de Ciclos Formativos y Cursos de Especialización de Formación Profesional**](https://www.iesluisvives.es/) especializado en **Desarrollo de Software** 💻. Además, soy [**Kotlin Trainer Certified by JetBrains**](https://www.jetbrains.com/es-es/company/partners/kotlin/) y [**GitHub Campus Advisor**](https://education.github.com/teachers/advisors) 👨‍💻.
 
 Mi foco principal es el desarrollo de **aplicaciones web y multiplataforma**, desde el servidor ⚙️ hasta el cliente 📱. Imparto docencia en másteres, doctorado y cursos de especialización en diseño, desarrollo y evaluación de productos de software. Me apasiona el ecosistema de **Kotlin**, **.NET** y **Vue.js** 💓.
 
