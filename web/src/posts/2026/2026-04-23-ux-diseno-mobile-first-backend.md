@@ -32,7 +32,7 @@ En pleno 2026, la frontera entre el "detrás de las cámaras" y lo que el usuari
 
 Imaginad a Marta. Está intentando comprar sus productos para el "Método Curly" y, al cambiar del portátil al móvil, la web se vuelve "tímida": la cesta de la compra ha desaparecido, el menú se solapa y las notificaciones han huido de la pantalla. Entonces Marta me mira y me suelta la pregunta de fuego: "Oye, tú que sabes de esto... ¿por qué pasa esto? ¿Por qué se ve así dependiendo del dispositivo?".
 
-Y ahí se me queda cara de póquer 🫤.
+Y ahí se me queda cara de póquer 🫤 —y no porque no sepa la respuesta, que la sé, sino por lo que me pasa por la cabeza al ver ciertos desarrollos—.
 
 En el backend, si se perdiesen campos en un JSON según el dispositivo que me consulta, o si no se administraran bien los permisos y los datos se esfumaran, sería una negligencia criminal. Pero en el front, a veces parece que aceptamos como "normal" que las cosas decidan no estar donde deberían o no funcionen correctamente.
 
