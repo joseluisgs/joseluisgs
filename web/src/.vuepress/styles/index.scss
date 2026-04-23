@@ -33,23 +33,39 @@ html[data-theme="dark"] .vp-blog-hero {
   background: url('/img/bg.svg') center/cover no-repeat !important;
 }
 
+// Blog Hero - Altura dinámica para evitar que las pestañas de Chrome/Safari tapen contenido
+.vp-blog-hero {
+  height: 100vh !important;
+  height: 100dvh !important; // Altura dinámica (iOS/Android)
+  min-height: 100vh !important;
+  min-height: 100dvh !important;
+}
+
 // Botón slide-down del Hero
 .vp-hero-slide-down-button {
   color: var(--vp-c-accent) !important;
-  bottom: 2rem !important;
+  bottom: 4rem !important; // Un poco más alto por defecto para seguridad
+  animation: vp-hero-bounce 2.5s infinite; // Añadimos un pequeño rebote sutil
   
   svg {
     fill: var(--vp-c-accent) !important;
   }
 }
 
-// Mostrar botón en móviles
+// Mostrar botón en móviles y ajustar para iPads
 @media (max-width: 1023px) {
   .vp-hero-slide-down-button {
     display: block !important;
-    bottom: 2rem !important;
+    bottom: calc(4.5rem + env(safe-area-inset-bottom)) !important; // Ajuste para área segura de iOS
     left: calc(50% - 30px) !important;
   }
+}
+
+// Animación de rebote sutil
+@keyframes vp-hero-bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-8px);}
+  60% {transform: translateY(-4px);}
 }
 
 // ============================================
