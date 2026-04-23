@@ -31,23 +31,19 @@ export default hopeTheme({
         <a href="/info/personal" aria-label="Sobre José Luis González Sánchez">José Luis González Sánchez</a> &copy; ${new Date().getFullYear()}
       </div>
       <div class="footer-icons">
-        <div class="footer-group socials">
           <a href="https://github.com/joseluisgs" target="_blank" rel="noopener noreferrer" aria-label="GitHub de José Luis González Sánchez"><i class="fa-brands fa-github"></i></a>
           <a href="https://x.com/JoseLuisGSDev" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) de José Luis González Sánchez"><i class="fa-brands fa-x-twitter"></i></a>
           <a href="https://www.linkedin.com/in/joseluisgsdev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de José Luis González Sánchez"><i class="fa-brands fa-linkedin"></i></a>
           <a href="https://www.instagram.com/joseluisgs.dev" target="_blank" rel="noopener noreferrer" aria-label="Instagram de José Luis González Sánchez"><i class="fa-brands fa-instagram"></i></a>
           <a href="https://www.youtube.com/@joseluisgs" target="_blank" rel="noopener noreferrer" aria-label="YouTube de José Luis González Sánchez"><i class="fa-brands fa-youtube"></i></a>
-        </div>
-        <div class="footer-group tech">
-          <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" aria-label="Vue.js"><i class="fa-brands fa-vuejs"></i></a>
-          /
-          <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer" aria-label="VuePress"><i class="fa-brands fa-markdown"></i></a>
+          <span class="footer-separator">|</span>
+          <a href="https://joseluisgs.dev/atom" target="_blank" rel="noopener noreferrer" aria-label="Suscripción Atom"><i class="fa-solid fa-rss"></i></a>
           <a href="javascript:void(0)" class="cookie-manage" aria-label="Gestionar cookies"><i class="fa-solid fa-cookie-bite"></i></a>
-        </div>
       </div>
     </div>
   `,
 
+  copyright: false,
   editLink: false,
   contributors: false,
   lastUpdated: true,
