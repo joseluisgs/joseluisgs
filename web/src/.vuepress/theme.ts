@@ -211,14 +211,12 @@ export default hopeTheme({
       priority: 0.8,
       excludePaths: ['/404.html', '/samples/'],
     },
-  },
 
-  seo: {
-    hostname: 'https://joseluisgs.dev',
-    author: 'José Luis González Sánchez',
-    twitterID: 'JoseLuisGSDev',
-    canonical: (page) => `https://joseluisgs.dev${page.path}`,
-    default_image: '/img/web-social.png',
-    twitterUsername: '@JoseLuisGSDev',
+    seo: {
+      hostname: 'https://joseluisgs.dev',
+      author: 'José Luis González Sánchez',
+      twitterID: 'JoseLuisGSDev',
+      fallBackImage: '/img/web-social.png',
+    },
   },
 });
