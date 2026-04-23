@@ -1,6 +1,6 @@
 ---
-title: "Mobile-First: esa asignatura aún pendiente en la UX"
-description: "Reflexiones de un desarrollador de backend enfrentándose a los retos visuales del 2026: unidades dinámicas, áreas seguras y el 'mimo' en el diseño."
+title: Mobile-First esa asignatura aún pendiente en la UX
+description: Reflexiones de un desarrollador de backend enfrentándose a los retos visuales del 2026 y el mimo en el diseño
 date: 2026-04-23
 category:
   - Blog
