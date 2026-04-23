@@ -22,10 +22,23 @@ onMounted(async () => {
 
 <template>
   <div class="github-row">
-    <div v-if="loading" class="github-loading">
-      <div class="loading-spinner"></div>
-      <p>Cargando repositorios...</p>
-    </div>
+    <!-- Skeleton Screen: 6 tarjetas fantasma mientras carga -->
+    <template v-if="loading">
+      <div v-for="i in 6" :key="'skeleton-' + i" class="github-pinner skeleton">
+        <div class="gp-container-repo">
+          <div class="gp-header">
+            <div class="skeleton-item icon"></div>
+            <div class="skeleton-item title"></div>
+          </div>
+          <div class="skeleton-item desc"></div>
+          <div class="skeleton-item desc short"></div>
+          <div class="gp-stats">
+            <div class="skeleton-item stat"></div>
+            <div class="skeleton-item stat"></div>
+          </div>
+        </div>
+      </div>
+    </template>
 
     <div v-else-if="error" class="github-error">
       <i class="fa-solid fa-circle-exclamation"></i>
@@ -72,7 +85,6 @@ onMounted(async () => {
   margin: 2rem 0;
 }
 
-.github-loading,
 .github-error {
   grid-column: 1 / -1;
   display: flex;
@@ -80,27 +92,62 @@ onMounted(async () => {
   align-items: center;
   justify-content: center;
   padding: 3rem;
-  color: var(--vp-c-text-2);
-}
-
-.github-error {
   color: #ff6b6b;
 }
 
-.loading-spinner {
-  width: 40px;
-  height: 40px;
-  border: 3px solid var(--vp-c-border);
-  border-top-color: var(--vp-c-accent);
+/* Skeleton Styles */
+.skeleton {
+  pointer-events: none;
+}
+
+.skeleton-item {
+  background: var(--vp-c-bg-elv);
+  background: linear-gradient(
+    90deg,
+    var(--vp-c-bg-soft) 25%,
+    var(--vp-c-border) 50%,
+    var(--vp-c-bg-soft) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.skeleton-item.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
-  margin-bottom: 1rem;
 }
 
-@keyframes spin {
-  to { transform: rotate(360deg); }
+.skeleton-item.title {
+  width: 60%;
+  height: 1.1rem;
 }
 
+.skeleton-item.desc {
+  width: 100%;
+  height: 0.9rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.skeleton-item.desc.short {
+  width: 40%;
+}
+
+.skeleton-item.stat {
+  width: 3rem;
+  height: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+/* Card Styles */
 .github-pinner {
   padding: 1.25rem;
   border: 1px solid var(--vp-c-border);
@@ -108,6 +155,9 @@ onMounted(async () => {
   background-color: var(--vp-c-bg-soft);
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.github-pinner:not(.skeleton) {
   opacity: 0;
   transform: translateY(20px);
 }
@@ -123,14 +173,10 @@ onMounted(async () => {
   }
 }
 
-.github-pinner:hover {
+.github-pinner:hover:not(.skeleton) {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  border-color: var(--theme-color);
-}
-
-.github-pinner.loaded:hover {
-  transform: translateY(-4px);
+  border-color: var(--vp-c-accent);
 }
 
 .gp-header {
@@ -147,7 +193,7 @@ onMounted(async () => {
 .gp-title {
   font-weight: 600;
   font-size: 1.1rem;
-  color: var(--theme-color);
+  color: var(--vp-c-accent);
   text-decoration: none;
 }
 
@@ -163,6 +209,7 @@ onMounted(async () => {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  min-height: 2.7rem; /* Evitar CLS al cargar */
 }
 
 .gp-stats {
@@ -185,12 +232,6 @@ onMounted(async () => {
   display: inline-block;
 }
 
-.code-icon {
-  font-family: monospace;
-  font-weight: bold;
-  color: var(--vp-c-text-3);
-}
-
 .gp-link {
   color: inherit;
   text-decoration: none;
@@ -198,7 +239,7 @@ onMounted(async () => {
 }
 
 .gp-link:hover {
-  color: var(--theme-color);
+  color: var(--vp-c-accent);
 }
 
 @media (max-width: 640px) {
