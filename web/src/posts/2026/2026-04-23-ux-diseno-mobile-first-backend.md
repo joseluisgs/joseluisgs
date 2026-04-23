@@ -10,10 +10,11 @@ tag:
   - Mobile First
   - Frontend
   - Docencia
-  - Web Performance
+  - UX
   - Personal
   - Proyectos
-  - vuepress
+  - Vue.js
+  - VuePress
 
 icon: fa-solid fa-mobile-screen-button
 
@@ -23,19 +24,21 @@ comment: true
 sidebar: false
 ---
 
-Quienes me seguís sabéis que mi hábitat natural no son los píxeles, sino los bits. Me siento mucho más cómodo diseñando microservicios en .NET o peleándome con una API reactiva que eligiendo el padding perfecto de un botón. Soy, por definición, un "tío de Backend". Pero como especialista en IPO, sé perfectamente que tu UX puede fracasar estrepitosamente por tu falta de atención al detalle, y en esta entrada te explicaré el por qué el **Mobile-First** sigue siendo la gran asignatura pendiente de la industria, 
+Quienes me seguís sabéis que mi hábitat natural no son los píxeles, sino los bits. Me siento mucho más cómodo diseñando microservicios en .NET, usando corrutinas en Kotlin o peleándome con una API reactiva que eligiendo el padding perfecto de un botón. Soy, por definición, un "tío de Backend". Pero como especialista en IPO, sé perfectamente que tu UX puede fracasar estrepitosamente por tu falta de atención al detalle, y en esta entrada te explicaré por qué el **Mobile-First** sigue siendo la gran asignatura pendiente de la industria, a pesar de que llevamos años hablando de ello.
 
 <!-- more -->
 
-Sin embargo, en pleno 2026, la frontera entre el "detrás de las cámaras" y lo que el usuario toca con el pulgar se ha vuelto invisible. Para alguien que vive entre logs y excepciones,  si mi backend falla, tengo un error 500 que me dice dónde está el cadáver; pero en la interfaz reina la entropía y sus consecuencias pueden ser devastadoras para la experiencia del usuario.
+En pleno 2026, la frontera entre el "detrás de las cámaras" y lo que el usuario toca con el pulgar se ha vuelto invisible. Para alguien que vive entre logs y excepciones, si mi backend falla, tengo un error 500 que me dice dónde está el cadáver; pero en la interfaz reina la entropía y sus consecuencias pueden ser devastadoras para la experiencia del usuario.
 
 Imaginad a Marta. Está intentando comprar sus productos para el "Método Curly" y, al cambiar del portátil al móvil, la web se vuelve "tímida": la cesta de la compra ha desaparecido, el menú se solapa y las notificaciones han huido de la pantalla. Entonces Marta me mira y me suelta la pregunta de fuego: "Oye, tú que sabes de esto... ¿por qué pasa esto? ¿Por qué se ve así dependiendo del dispositivo?".
 
-Y ahí se me queda cara de póker 🫤.
+Y ahí se me queda cara de póquer 🫤.
 
-En el backend, si se perdiesen campos en un JSON según el dispositivo que me consulta, o si no se administraran bien los permisos y los datos se esfumaran, sería una negligencia criminal, pero en el front, a veces parece que aceptamos como "normal" que las cosas decidan no estar donde deberían o no funcionen correctamente.
+En el backend, si se perdiesen campos en un JSON según el dispositivo que me consulta, o si no se administraran bien los permisos y los datos se esfumaran, sería una negligencia criminal. Pero en el front, a veces parece que aceptamos como "normal" que las cosas decidan no estar donde deberían o no funcionen correctamente.
 
-Sin embargo, en pleno 2026, de nada sirve que mi servidor responda en 10ms si un usuario no puede realizar una acción porque un botón se ha escondido bajo la barra del navegador. La tecnología debe estar al servicio de la experiencia. Por eso, hoy os hablo de mi aventura maquetando esta web y por qué el Mobile-First sigue siendo la asignatura pendiente, incluso cuando creemos que lo tenemos todo bajo control. 
+De nada sirve que mi servidor responda en 10ms si un usuario no puede realizar una acción porque un botón se ha escondido bajo la barra del navegador. Eso sí, no te preguntes luego por qué no vendes ni un producto o tus usuarios desconfían de tu tienda y se van a la competencia. 
+
+La tecnología debe estar al servicio de la experiencia. Por eso, hoy os hablo de mi aventura maquetando esta web y por qué el Mobile-First sigue siendo la asignatura pendiente, incluso cuando creemos que lo tenemos todo bajo control. Como ya comenté en el post sobre la [nueva versión de mi web](/posts/2026/2026-04-20-nueva_version_web.html), el "mimo" técnico marca la diferencia.
 
 ## El mito del Mobile-First en 2026
 
@@ -85,7 +88,7 @@ Incluso con las mejores intenciones, existen puntos donde la UX suele romperse e
 Muchos desarrolladores prueban en "Móvil" (muy alargado) y en "Escritorio". El iPad, con su proporción 4:3, se queda en tierra de nadie. Lo que funciona en un Pixel 7 falla en el iPad porque el contenido "sube" y pisa los elementos de navegación. Si no ajustas la altura restando el navbar, el desastre está asegurado.
 
 ### 2. Touch Targets: La ley del pulgar
-En backend hablamos de IDs y punteros; en UX móvil hablamos de **Touch Targets**. Un botón debe tener, como mínimo, **44x44 píxeles** de área interactiva. Si pones dos enlaces muy juntos, el usuario "clicará" el que no quiere. Es una cuestión de física: el dedo es mucho menos preciso que un puntero láser de 1px.
+En backend hablamos de IDs y punteros; en UX móvil hablamos de **Touch Targets**. Un botón debe tener, como mínimo, **44x44 píxeles** de área interactiva. Es una cuestión de física: el dedo es mucho menos preciso que un puntero láser de 1px.
 
 ### 3. El "Peaje" de los elementos fijos (Sticky)
 Cada vez que dejamos algo fijo (navbar, avisos, botones flotantes), le estamos cobrando un "peaje" de píxeles al usuario. En una pantalla de escritorio sobra espacio, pero en móvil, tres elementos `sticky` pueden reducir el área de lectura a una pequeña rendija. **Menos es más.**
@@ -105,7 +108,7 @@ Como gente de backend, nos gusta la precisión. Por suerte, el estándar CSS ha 
 
 ### Caso práctico 1: El botón del Hero en esta web
 
-En esta misma web, tenía un botón para invitar al usuario a deslizar hacia abajo. La solución no fue "subirlo un poco a ojo", sino aplicar ingeniería y unidades relativas al área segura:
+En esta misma web, tenía un botón para invitar al usuario a deslizar hacia abajo. La solución fue aplicar ingeniería y unidades relativas al área segura:
 
 ```css
 .vp-blog-hero {
@@ -122,7 +125,7 @@ En esta misma web, tenía un botón para invitar al usuario a deslizar hacia aba
 ```
 
 ::: tip
-Siempre que uses unidades dinámicas, haz pruebas en dispositivos reales. El `dvh` puede comportarse de manera diferente según el navegador y su gestión de las barras dinámicas. No te fíes solo del "Modo Dispositivo" de Chrome DevTools.
+No te limites a probar en vertical. El verdadero reto del `dvh` aparece al girar el dispositivo: en modo **landscape**, el espacio vertical se reduce drásticamente y es donde descubrirás si tu botón está pisando el texto o desapareciendo por completo.
 :::
 
 ### Caso práctico 2: El Footer y el ruido visual
@@ -135,7 +138,27 @@ A menudo, el pie de página es el "cajón de sastre" donde tiramos todo lo que n
 Es el ejemplo perfecto de **"Menos es Más"**. Al final, todo influye: desde el `gap` entre iconos hasta el `aria-label` en el idioma correcto.
 
 ::: tip
-En el diseño Mobile-First, cada elemento debe tener un propósito claro. Si no aporta valor al usuario, es mejor eliminarlo o esconderlo en un menú secundario.
+La accesibilidad es el "Backend" del diseño. Al unificar iconos, asegúrate de que cada uno tenga un `aria-label` descriptivo y en el idioma del sitio. Un usuario con lector de pantalla debe recibir la misma claridad semántica que un usuario visual.
+:::
+
+### Caso práctico 3: Skeleton Screens en el portfolio
+
+¿Recordáis el clásico spinner (círculo dando vueltas) mientras carga una lista de elementos? En esta web lo usaba para mostrar mis repositorios de GitHub. Aplicando la filosofía de 2026, lo he sustituido por un **Skeleton Screen**.
+
+```css
+.skeleton-item {
+  background: linear-gradient(90deg, var(--vp-c-bg-soft) 25%, var(--vp-c-border) 50%, var(--vp-c-bg-soft) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+}
+```
+
+Al mostrar 6 tarjetas "fantasma" con una animación de brillo (*shimmer*) mientras los datos viajan desde la API de GitHub:
+1.  **Reducimos la ansiedad**: El usuario ve la estructura de lo que va a aparecer.
+2.  **Eliminamos el CLS**: La página ya ha reservado el espacio exacto, por lo que nada "salta" cuando la carga finaliza.
+
+::: tip
+Para que un Skeleton Screen sea efectivo, debe imitar no solo la forma, sino también el **ritmo de carga**. Usa animaciones *shimmer* suaves y asegura que el contenedor tenga una altura mínima (`min-height`) para evitar que el contenido "empuje" al resto de la página al llegar.
 :::
 
 ## Más allá de los píxeles: El rendimiento es UX
