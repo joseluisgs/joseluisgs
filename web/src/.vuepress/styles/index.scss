@@ -33,46 +33,33 @@ html[data-theme="dark"] .vp-blog-hero {
   background: url('/img/bg.svg') center/cover no-repeat !important;
 }
 
-// Blog Hero - Altura y posicionamiento optimizado por dispositivo
+// Blog Hero - Altura y posicionamiento UNIFICADO para consistencia visual (Escritorio, iPad, Móvil)
 .vp-blog-hero {
-  height: 100vh !important;
-  min-height: 100vh !important;
+  height: calc(100vh - var(--navbar-height)) !important;
+  height: calc(100dvh - var(--navbar-height)) !important; 
+  min-height: calc(100vh - var(--navbar-height)) !important;
+  min-height: calc(100dvh - var(--navbar-height)) !important;
+  padding-bottom: 5rem; // Margen interno de seguridad
 }
 
-// Botón slide-down del Hero (General / Escritorio)
+// Botón slide-down del Hero
 .vp-hero-slide-down-button {
   color: var(--vp-c-accent) !important;
-  bottom: 3rem !important; 
+  // 5rem es el valor que garantiza elegancia en PC/iPad y visibilidad total
+  bottom: calc(5rem + env(safe-area-inset-bottom)) !important; 
   animation: vp-hero-bounce 2.5s infinite;
+  display: block !important;
+  left: calc(50% - 30px) !important;
   
   svg {
     fill: var(--vp-c-accent) !important;
   }
 }
 
-// Ajuste específico para iPads y Tablets (Resolución del problema de visibilidad)
-@media (min-width: 768px) and (max-width: 1024px) {
-  .vp-blog-hero {
-    height: calc(100dvh - var(--navbar-height)) !important;
-    min-height: calc(100dvh - var(--navbar-height)) !important;
-    padding-bottom: 6rem;
-  }
+// Pequeño ajuste solo para móviles muy pequeños o landscape extremo
+@media (max-height: 450px) {
   .vp-hero-slide-down-button {
-    bottom: 5rem !important; // El valor "Perfecto" para iPad
-  }
-}
-
-// Ajuste específico para Móviles (Pixel 7, iPhone, etc.)
-@media (max-width: 767px) {
-  .vp-blog-hero {
-    height: calc(100dvh - var(--navbar-height)) !important;
-    min-height: calc(100dvh - var(--navbar-height)) !important;
-  }
-  .vp-hero-slide-down-button {
-    display: block !important;
-    // Un equilibrio para pantallas largas: ni muy bajo (que lo tapen pestañas) ni muy alto (que pise texto)
-    bottom: calc(4rem + env(safe-area-inset-bottom)) !important; 
-    left: calc(50% - 30px) !important;
+    display: none !important; // Ocultar si no hay espacio físico real
   }
 }
 
