@@ -33,21 +33,16 @@ html[data-theme="dark"] .vp-blog-hero {
   background: url('/img/bg.svg') center/cover no-repeat !important;
 }
 
-// Blog Hero - Altura dinámica restando el navbar para visibilidad total en iPads/Móviles
+// Blog Hero - Altura y posicionamiento optimizado por dispositivo
 .vp-blog-hero {
-  height: calc(100vh - var(--navbar-height)) !important;
-  height: calc(100dvh - var(--navbar-height)) !important; 
-  min-height: calc(100vh - var(--navbar-height)) !important;
-  min-height: calc(100dvh - var(--navbar-height)) !important;
-  
-  // Espacio interno para que el texto no pise al botón
-  padding-bottom: 6rem;
+  height: 100vh !important;
+  min-height: 100vh !important;
 }
 
-// Botón slide-down del Hero
+// Botón slide-down del Hero (General / Escritorio)
 .vp-hero-slide-down-button {
   color: var(--vp-c-accent) !important;
-  bottom: 5rem !important; // Subimos a 5rem para máxima seguridad en iPads
+  bottom: 3rem !important; 
   animation: vp-hero-bounce 2.5s infinite;
   
   svg {
@@ -55,11 +50,28 @@ html[data-theme="dark"] .vp-blog-hero {
   }
 }
 
-// Mostrar botón en móviles y ajustar para iPads (Safe Area)
-@media (max-width: 1023px) {
+// Ajuste específico para iPads y Tablets (Resolución del problema de visibilidad)
+@media (min-width: 768px) and (max-width: 1024px) {
+  .vp-blog-hero {
+    height: calc(100dvh - var(--navbar-height)) !important;
+    min-height: calc(100dvh - var(--navbar-height)) !important;
+    padding-bottom: 6rem;
+  }
+  .vp-hero-slide-down-button {
+    bottom: 5rem !important; // El valor "Perfecto" para iPad
+  }
+}
+
+// Ajuste específico para Móviles (Pixel 7, iPhone, etc.)
+@media (max-width: 767px) {
+  .vp-blog-hero {
+    height: calc(100dvh - var(--navbar-height)) !important;
+    min-height: calc(100dvh - var(--navbar-height)) !important;
+  }
   .vp-hero-slide-down-button {
     display: block !important;
-    bottom: calc(5rem + env(safe-area-inset-bottom)) !important;
+    // Un equilibrio para pantallas largas: ni muy bajo (que lo tapen pestañas) ni muy alto (que pise texto)
+    bottom: calc(4rem + env(safe-area-inset-bottom)) !important; 
     left: calc(50% - 30px) !important;
   }
 }
