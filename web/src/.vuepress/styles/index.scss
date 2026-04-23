@@ -33,30 +33,33 @@ html[data-theme="dark"] .vp-blog-hero {
   background: url('/img/bg.svg') center/cover no-repeat !important;
 }
 
-// Blog Hero - Altura dinámica para evitar que las pestañas de Chrome/Safari tapen contenido
+// Blog Hero - Altura dinámica restando el navbar para visibilidad total en iPads/Móviles
 .vp-blog-hero {
-  height: 100vh !important;
-  height: 100dvh !important; // Altura dinámica (iOS/Android)
-  min-height: 100vh !important;
-  min-height: 100dvh !important;
+  height: calc(100vh - var(--navbar-height)) !important;
+  height: calc(100dvh - var(--navbar-height)) !important; 
+  min-height: calc(100vh - var(--navbar-height)) !important;
+  min-height: calc(100dvh - var(--navbar-height)) !important;
+  
+  // Espacio interno para que el texto no pise al botón
+  padding-bottom: 6rem;
 }
 
 // Botón slide-down del Hero
 .vp-hero-slide-down-button {
   color: var(--vp-c-accent) !important;
-  bottom: 4rem !important; // Un poco más alto por defecto para seguridad
-  animation: vp-hero-bounce 2.5s infinite; // Añadimos un pequeño rebote sutil
+  bottom: 5rem !important; // Subimos a 5rem para máxima seguridad en iPads
+  animation: vp-hero-bounce 2.5s infinite;
   
   svg {
     fill: var(--vp-c-accent) !important;
   }
 }
 
-// Mostrar botón en móviles y ajustar para iPads
+// Mostrar botón en móviles y ajustar para iPads (Safe Area)
 @media (max-width: 1023px) {
   .vp-hero-slide-down-button {
     display: block !important;
-    bottom: calc(4.5rem + env(safe-area-inset-bottom)) !important; // Ajuste para área segura de iOS
+    bottom: calc(5rem + env(safe-area-inset-bottom)) !important;
     left: calc(50% - 30px) !important;
   }
 }
