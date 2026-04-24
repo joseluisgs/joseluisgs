@@ -98,6 +98,8 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Mobile-First esa asignatura aún pendiente en la UX**](https://joseluisgs.dev/posts/2026/2026-04-23-ux-diseno-mobile-first-backend.html) *23 Apr 2026* 
+
  - ✏️ [**Nueva version de mi web**](https://joseluisgs.dev/posts/2026/2026-04-20-nueva_version_web.html) *20 Apr 2026* 
 
  - ✏️ [**José Luis González, PhD.**](https://joseluisgs.dev/info/personal.html) *17 Apr 2026* 
@@ -105,8 +107,6 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
  - ✏️ [**[No Title] - 404.html**](https://joseluisgs.dev/404.html) *16 Apr 2026* 
 
  - ✏️ [**Regreso a .NET en DAW. 20 razones para el cambio**](https://joseluisgs.dev/posts/2025/2025-12-31-csharpnet_docencia_daw.html) *31 Dec 2025* 
-
- - ✏️ [**Desarrollo Web en Entorno Servidor 02 - Servicios Web con JVM y Spring Boot**](https://joseluisgs.dev/posts/2025/2025-10-24-dwes_ud_02_servicios_jvm_springboot.html) *24 Oct 2025* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
