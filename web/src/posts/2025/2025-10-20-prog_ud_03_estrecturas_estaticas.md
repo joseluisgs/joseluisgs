@@ -21,7 +21,7 @@ cover: https://miro.medium.com/v2/resize:fit:1400/1*XcIydJ9zewURnwQJl9yo1w.png
 
 comment: true
 sidebar: false
-
+footer: true
 ---
 
 Las **Estructuras de Almacenamiento Estáticas** son la columna vertebral de la programación. En esta unidad, nos adentraremos en el manejo eficiente de datos mediante estructuras de tamaño fijo, centrándonos en los **Arrays** (vectores y matrices), la gestión avanzada de **Cadenas de Texto** y, finalmente, explorando los fundamentos de los **Algoritmos de Ordenación y Búsqueda** que nos permiten manipular y consultar estos datos.

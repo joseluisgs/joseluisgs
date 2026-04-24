@@ -13,6 +13,7 @@ icon: fa-solid fa-school
 cover: https://www.mexicocss.com/storage/app/uploads/public/5d6/6c1/719/5d66c17196f37063403826.png
 comment: true
 sidebar: false
+footer: true
 ---
 En esta entrada te voy a intentar explicar y, si puedo, convencerte de por qué estudiar algunos de nuestros ciclos en nuestro centro es una opción más que recomendable. No sé si lo conseguiré, pero por intentarlo que no quede. Y ya de paso te presento la [web del departamento](https://informaticacifpvg.netlify.app/). Aún no está terminada, pero poco a poco tendrás en ella todo lo que necesitas para conocernos.
 

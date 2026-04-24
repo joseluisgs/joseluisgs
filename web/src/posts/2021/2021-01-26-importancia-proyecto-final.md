@@ -14,6 +14,7 @@ icon: fa-solid fa-briefcase
 cover: https://img.freepik.com/vector-gratis/asistencia-innovacion-portatil_82574-972.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 Esta semana han expuesto parte de mi alumnado de 2.º DAM sus proyectos finales. En esta entrada quiero mostrar mis reflexiones de la importancia de este proyecto para proyectarte profesionalmente.
 

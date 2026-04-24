@@ -12,6 +12,7 @@ icon: fa-brands fa-java
 cover: https://www.teahub.io/photos/full/22-220143_java-java-wallpaper-hd.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 Aprovecho que mi alumnado está con un examen para lanzar una serie de reflexiones. Como docente y desarrollador que soy, trabajo con distintos lenguajes. Es por ello por lo que para cada proyecto analizo pros y contras, y siempre elijo el que me ofrezca mayor productividad y seguridad para el desarrollo. ¿Odio JAVA? Por supuesto que no. Pero el título es sugerente para captar tu atención y para advertirte que no dependas de una sola opción.
 <!-- more -->

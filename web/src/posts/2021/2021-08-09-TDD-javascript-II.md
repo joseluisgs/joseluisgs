@@ -15,6 +15,7 @@ icon: fa-solid fa-flask
 cover: https://blog.magicpod.com/hubfs/cypress-end-to-end-test.png
 comment: true
 sidebar: false
+footer: true
 ---
 Como ya comenzamos en [anteriores publicaciones](2021-08-06-TDD-javascript-I.md), vamos a seguir con una serie de apuntes y miniproyectos para iniciarse en TDD y BDD para realizar pruebas unitarias, de integración o E2E. En esta segunda parte nos centraremos en el uso de Cypress para usarla en los test E2E, usándola en todo tipo de aplicaciones web y remarcando, por supuesto, su uso en Vue.js.
 <!-- more -->

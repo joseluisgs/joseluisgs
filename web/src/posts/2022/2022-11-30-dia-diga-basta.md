@@ -12,6 +12,7 @@ icon: fa-solid fa-user
 cover: https://img.freepik.com/premium-photo/broken-chain-with-red-weak-link_147644-166.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Este curso está siendo un poco atípico por muchas circunstancias. A veces es bueno reflexionar qué está pasando con el sistema donde te mueves y realizas tu labor diaria y saber qué puedes cambiar y qué no.

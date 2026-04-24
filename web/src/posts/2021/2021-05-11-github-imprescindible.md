@@ -14,6 +14,7 @@ icon: fa-brands fa-github
 cover: https://res.cloudinary.com/practicaldev/image/fetch/s--Nrzp31zz--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kml9j34p9taplrnqtcez.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Sí, soy un enamorado de las tecnologías de mi amigo *Octocat*. De hecho, se han convertido en estos dos últimos cursos en mi pilar central en el que desarrollo mi docencia y donde concentro [apuntes y prácticas](https://github.com/joseluisgs) y proyectos personales. Me ofrece tantas ventajas, que voy a iniciar mi especial sobre tecnologías favoritas explicando cómo uso GitHub en mi día a día.

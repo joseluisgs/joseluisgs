@@ -13,6 +13,7 @@ icon: fa-solid fa-school
 cover: https://i.imgur.com/OYSk3iD.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Comenzamos un nuevo curso, y con ello nuevos objetivos, nuevos retos y nuevas ilusiones. También ha habido cambios en mi vida profesional. Te cuento algunas cosas que me han pasado y que me van a pasar. ¿Te apuntas?

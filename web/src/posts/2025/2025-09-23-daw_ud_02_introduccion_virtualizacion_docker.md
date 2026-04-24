@@ -16,6 +16,7 @@ icon: fa-brands fa-docker
 cover: https://www.nextgencodingcompany.com/research/docker.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 La segunda unidad didáctica del módulo de Despliegue de Aplicaciones Web se centra en la virtualización con contenedores, una tecnología que ha cambiado las reglas del juego en el mundo del desarrollo y despliegue de aplicaciones. El objetivo principal es solucionar la inconsistencia de entornos que a menudo lleva a la clásica frase: "Pero si en mi máquina funciona".

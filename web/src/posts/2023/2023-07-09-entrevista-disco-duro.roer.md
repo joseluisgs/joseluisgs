@@ -14,6 +14,7 @@ icon: fa-solid fa-microphone
 cover: https://i.imgur.com/xJnegMC.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Estos días he tenido la inmensa fortuna de que la gente de [Disco Duro de Roer](https://www.discoduroderoer.es/) se ha interesado por mi labor y hemos pasado un rato genial y muy agradable hablando de ello.

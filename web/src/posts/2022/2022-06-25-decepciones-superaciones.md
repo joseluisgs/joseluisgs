@@ -12,6 +12,7 @@ icon: fa-solid fa-chalkboard-user
 cover: https://kotlinlang.org/assets/images/twitter/general.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 A veces las decepciones te hacen crecer. Este año me ha pasado con Kotlin. Una decepción me ha llevado a profundizar más en el lenguaje y convertirme en mejor profesor.

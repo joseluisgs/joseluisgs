@@ -13,6 +13,7 @@ icon: fa-brands fa-kotlin
 cover: https://reactiveweb.org/wp-content/uploads/2024/11/Reactive-Programming-vs-Asynchronous-%E2%80%93-A-Comparison.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 La frase no es mía, es del gran Antonio Leiva 👈, en una de las charlas que tenemos a menudo. Pero me ha dado pie a escribir esta entrada, que no es más que una reflexión sobre la programación reactiva y su uso en determinadas aplicaciones y cómo llevarla al terreno de la docencia para explicar sus beneficios al alumnado. ¡Ya somos dos, mi admirado DevExperto! 💪

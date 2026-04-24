@@ -15,6 +15,7 @@ cover: https://i.imgur.com/icsPKsj.png
 comment: true
 article: true
 sidebar: false
+footer: true
 ---
 
 Una de las mejores cosas de este curso 2023-2024 es haber participado en el pódcast de [DevExpert.io](https://devexpert.io/). En este nuevo pódcast hemos hablado un poco de la labor docente y de muchas cosas en general con mi amigo y gran profesional Antonio Leiva.

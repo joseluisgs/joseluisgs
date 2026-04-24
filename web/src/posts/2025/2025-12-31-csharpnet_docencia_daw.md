@@ -22,7 +22,7 @@ cover: https://www.ryadel.com/wp-content/uploads/2020/09/asp-net-core-c-sharp-lo
 
 comment: true
 sidebar: false
-
+footer: true
 ---
 
 En noviembre de 2021, escribí un artículo que muchos de vosotros recordáis: **[«Kotlin siempre en mi equipo»](https://joseluisgs.dev/blogs/2021/2021-11-28-kotlin-en-mi-equipo.html)**. En aquel entonces, defendía a Kotlin como la herramienta pedagógica definitiva (y lo sigue siendo). Sigo pensando que su diseño es magistral para su uso en la docencia, pero los tiempos han cambiado. La **Nueva Ley de FP**, la presión por enviar alumnos a la empresa en primero (quien pueda) y la realidad de un mercado *backend* en España que sigue anclado en tecnologías de «gran empresa», me han obligado a realizar este cambio, con el objetivo de adaptar la enseñanza a las necesidades de esta nueva ley y su impacto en la docencia de primero (y segundo) de DAW, donde tenemos que buscar el equilibrio entre la enseñanza de conceptos fundamentales (mi principal objetivo) y la preparación para el mercado laboral y la Fase de Formación en Empresas.

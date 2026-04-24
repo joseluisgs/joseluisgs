@@ -12,6 +12,7 @@ icon: fa-brands fa-vuejs
 cover: https://media.publit.io/file/n0pLqGsm.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 Confieso, soy un Vue Lover y estoy orgulloso de serlo. Hace poco os hablé de cómo [Kotlin siempre estaba en mi equipo](2021-11-28-kotlin-en-mi-equipo.md). Hoy me toca una de las entradas que más deseaba escribir. Vue.js es imprescindible para mí. Aunque lo he ido adelantando a lo largo de esta web y distintas entradas y proyectos. Creo que no quedan dudas de que me encanta Vue.js y poco a poco te voy a mostrar a qué se debe que sea parte fundamental de mi [stack como desarrollador y profesor](2021-11-27-mi-stack.md).

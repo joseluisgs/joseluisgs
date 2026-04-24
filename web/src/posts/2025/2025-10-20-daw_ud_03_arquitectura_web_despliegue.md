@@ -20,7 +20,7 @@ cover: https://thumbs.dreamstime.com/b/web-software-developer-banner-seacrh-bar-
  
 comment: true
 sidebar: false
- 
+footer: true
 ---
 
 El **Despliegue de Aplicaciones Web** es el proceso fundamental que garantiza que una aplicación pase del código fuente a un entorno de producción accesible. Este proceso no solo se trata de subir archivos, sino de asegurar la **estabilidad**, **seguridad** y **escalabilidad** del sistema para los usuarios finales.

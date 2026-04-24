@@ -14,6 +14,7 @@ icon: fa-solid fa-plug
 cover: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MNYTHm0fGgHP_UUalJuCUg.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 Continuamos y finalizamos nuestro tutorial con esta tercera parte de cómo crear una API REST reactiva, siguiendo lo aprendido en la primera parte y en la segunda parte.

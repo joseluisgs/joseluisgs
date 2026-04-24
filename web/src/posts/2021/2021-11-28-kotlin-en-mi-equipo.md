@@ -12,6 +12,7 @@ icon: fa-brands fa-kotlin
 cover: https://content.techgig.com/photo/82324241/5-reasons-why-you-should-learn-kotlin-in-2021.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Hace poquito te hablé de que había [vuelto a Java](2021-11-17-he-vuelto-a-java.md) y de que lo seguía odiando. En esta entrada entenderás parte del porqué. Quiero presentarte a Kotlin, uno de los lenguajes que más uso y que es pilar de mi [stack de desarrollo](2021-11-27-mi-stack.md). Es elegante y es potente. Me facilita la vida tanto a nivel docente como a nivel de desarrollador. Quiero que conozcas a uno de los lenguajes más completos que existen en el mercado y, después de conocerlo, quizás te pueda servir para tu desarrollo dada su versatilidad.

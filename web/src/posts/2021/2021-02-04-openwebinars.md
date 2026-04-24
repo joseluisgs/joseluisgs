@@ -14,6 +14,7 @@ icon: fa-solid fa-play
 cover: https://iescomercio.com/informatica/wp-content/uploads/2020/06/logo-openwebinars-colabora.png
 comment: true
 sidebar: false
+footer: true
 ---
 Quiero seguir haciendo un repaso de las herramientas o entidades que colaboran con el departamento y nos ayudan en la formación del alumnado. Hoy quiero dar mi opinión de [OpenWebinars](https://openwebinars.net/).
 

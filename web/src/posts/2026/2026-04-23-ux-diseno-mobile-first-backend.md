@@ -22,6 +22,7 @@ cover: https://i.imgur.com/jxF8U15.png
 
 comment: true
 sidebar: false
+footer: true
 ---
 
 Quienes me seguís sabéis que mi hábitat natural no son los píxeles, sino los bits. Me siento mucho más cómodo diseñando microservicios en .NET, usando corrutinas en Kotlin o peleándome con una API reactiva que eligiendo el padding perfecto de un botón. Soy, por definición, un "tío de Backend". Pero como especialista en IPO, sé perfectamente que tu UX puede fracasar estrepitosamente por tu falta de atención al detalle, y en esta entrada te explicaré por qué el **Mobile-First** sigue siendo la gran asignatura pendiente de la industria, a pesar de que llevamos años hablando de ello.

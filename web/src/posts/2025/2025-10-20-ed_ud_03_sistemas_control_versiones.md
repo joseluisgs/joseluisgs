@@ -20,7 +20,7 @@ cover: https://miro.medium.com/1*b21FyqUbowHYAOQDXH0tDw.jpeg
 
 comment: true
 sidebar: false
-
+footer: true
 ---
 
 En el dinámico mundo del desarrollo de software, un pilar esencial para la eficiencia, la calidad y la colaboración es el **Control de Versiones**. Un sistema de control de versiones registra los cambios realizados en un conjunto de archivos a lo largo del tiempo, permitiendo a los desarrolladores recuperar versiones específicas de sus proyectos, rastrear la evolución del software y coordinar el trabajo de múltiples personas en archivos compartidos.

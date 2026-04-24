@@ -13,6 +13,7 @@ icon: fa-brands fa-vuejs
 cover: http://elfarolillorojo.es/wp-content/uploads/2020/08/hello-world-1024x544.png
 comment: true
 sidebar: false
+footer: true
 ---
 Este es mi primer mensaje del blog y de mi web. Poco a poco la iré completando.
 

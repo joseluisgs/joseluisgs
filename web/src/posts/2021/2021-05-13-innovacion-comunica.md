@@ -14,6 +14,7 @@ icon: fa-solid fa-lightbulb
 cover: https://i.imgur.com/LukNdoZ.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Una de las cosas que más me gusta de mi profesión es la parte de innovación. No solo se trata de dar clase, sino de crear nuevos mecanismos para impartirla y con ellos intentar resolver problemas que existen en la sociedad. Te comento uno de los proyectos que tengo la suerte de coordinar este año.

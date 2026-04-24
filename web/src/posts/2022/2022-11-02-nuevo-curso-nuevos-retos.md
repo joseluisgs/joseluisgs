@@ -12,6 +12,7 @@ icon: fa-solid fa-school
 cover: https://www.besthrcertification.org/Images/New-trends-to-tackle-new-challenges.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Nuevo curso, nuevos retos. Y es que un año más toca empezar con ilusión y ganas de mejorar. Este curso vamos a intentar consolidar lo aprendido el año anterior y añadir nuevas tecnologías y metodologías.

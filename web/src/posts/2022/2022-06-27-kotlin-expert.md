@@ -13,6 +13,7 @@ icon: fa-brands fa-kotlin
 cover: https://i.imgur.com/kXUCPP1.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 Hoy te vengo a presentar una formación que seguro que te gustará: *Kotlin Expert*. A mí me ha encantado la idea y me está encantando el curso. Sí, lo estoy cursando. No suelo hacer recomendaciones vacías, sino basadas en mi propia experiencia.

@@ -13,6 +13,7 @@ icon: fa-solid fa-code-branch
 cover: https://kotlin.desarrollador-android.com/wp-content/uploads/2019/04/coroutines-kotlin.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Si hay algo de lo que he disfrutado desde hace mucho tiempo es del uso de las Corrutinas en Kotlin. Este año he decidido explotar su uso en el *backend* y no puedo estar más satisfecho: rapidez, sencillez y nuevas filosofías de programación fácilmente aplicables sin recurrir a otros recursos.

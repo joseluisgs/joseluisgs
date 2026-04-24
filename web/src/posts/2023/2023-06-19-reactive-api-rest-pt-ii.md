@@ -14,6 +14,7 @@ icon: fa-solid fa-plug
 cover: https://miro.medium.com/v2/resize:fit:720/format:webp/1*0f7cDW-SPHD23LtnVi2Bgw.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 Continuamos con nuestro tutorial de cómo crear una API REST reactiva y cómo asentar las bases de este paradigma en el desarrollo de servicios como ya vimos en la primera parte. Te recuerdo que esta serie de artículos forman parte de mis actividades con Hyperskill de JetBrains Academy.

@@ -14,6 +14,7 @@ icon: fa-brands fa-github
 cover: https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 Hace un tiempo comenté cómo GitHub se había convertido en mi [herramienta imprescindible](https://joseluisgs.github.io/blog/2021-05-11-github-imprescindible.html#github-educativo). Desde hace unos días, soy *GitHub Campus Advisor* y con ello se me presenta otro nuevo reto: ayudar a profesores y alumnos/as a cómo usar GitHub para el desarrollo de *software* y aprovecharlo a nivel docente.
 

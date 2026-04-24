@@ -11,6 +11,7 @@ icon: fa-solid fa-school
 cover: https://www.irishtimes.com/polopoly_fs/1.2904309.1482173186!/image/image_gen/derivatives/box_620_330/image.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 A veces la vida te va empujando por caminos que nunca tenías pensados e incluso a tener que poner un paréntesis a uno de los mejores puestos de trabajo que uno puede tener. Pero es bueno salir de la zona de confort y empezar a explorar nuevas aventuras. Hay que crecer y avanzar, siempre agradeciendo lo vivido y aprendido.
 Te comento mi nuevo camino. 

@@ -21,7 +21,7 @@ cover: https://puroguramu.akcstudio.com/spring-boot.png
 
 comment: true
 sidebar: false
-
+footer: true
 ---
 
 El **Desarrollo de Servicios Web en JVM** con **Spring Boot** es el pilar del desarrollo *backend* moderno.

@@ -20,7 +20,7 @@ cover: https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/
  
 comment: true
 sidebar: false
- 
+footer: true
 ---
 
 El **Entorno de Desarrollo Integrado (IDE)** es, sin duda, la herramienta más importante en el día a día de un desarrollador. Más que un simple editor de texto, es una aplicación diseñada para **facilitar la tarea de codificación** y hacer que el ciclo de vida del software sea mucho más ágil y eficiente.

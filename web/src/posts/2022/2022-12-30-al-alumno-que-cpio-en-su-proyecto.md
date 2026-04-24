@@ -13,6 +13,7 @@ icon: fa-solid fa-hand-holding-heart
 cover: https://cdn.setapp.com/blog/images/how-to-fix-copy-and-paste-not-working-1920-646.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 Sé que copiaste. Lo sé porque el código es demasiado bueno para ser verdad. Y lo más triste es que te has perdido la oportunidad de aprender de verdad.

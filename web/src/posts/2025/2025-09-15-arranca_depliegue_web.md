@@ -17,6 +17,7 @@ icon: fa-brands fa-docker
 cover: https://www.unir.net/wp-content/uploads/2022/11/concepto-de-computaciC3B3n-en-nube-como-grupo-de-iconos.jpg_s1024x1024wisk20c2_ZA4fNdzAughsN2BhqGVRbvrVgxwJOgPyuuhS8bkJU.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 El ciclo de Desarrollo de Aplicaciones Web va mucho más allá de escribir código funcional. El verdadero desafío y el broche de oro de cualquier proyecto es el despliegue. Aquí es donde el módulo de Despliegue de Aplicaciones Web se convierte en la pieza fundamental para cualquier futuro profesional del sector. Describimos a continuación qué nos espera en este curso académico.

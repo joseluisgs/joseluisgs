@@ -17,6 +17,7 @@ icon: fa-brands fa-android
 cover: https://3.bp.blogspot.com/-E_61ZBmBlwo/XaeWvxlFvWI/AAAAAAAAMqQ/7Zc_eiWh25kznrDFwwpEvHvRHSby-P2XwCLcBGAsYHQ/s1600/Introducing_LTS_Android_NDK_r21.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 [Mis Lugares](https://github.com/joseluisgs/MisLugares) es la *app* que resume todo lo trabajado en Programación Multimedia y Dispositivos Móviles. El objetivo principal es tener una *app* que cubra la mayoría de la funcionalidad y contenidos que se ven en este módulo de DAM, donde simulamos ser una empresa desarrollando un producto real. A continuación te comento los aspectos más importantes.

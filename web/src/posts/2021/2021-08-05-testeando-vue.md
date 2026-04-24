@@ -13,6 +13,7 @@ icon: fa-brands fa-vuejs
 cover: https://i.imgur.com/gV4LZJZ.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Cuando desarrollamos cualquier aplicación es fundamental que aseguremos que todo funciona de la mejor manera posible. Para ello, debemos probar nuestra aplicación en un entorno de pruebas. En este proyecto mostramos cómo usar *Vue Test Utils* en una aplicación para consultar el tiempo usando Vue.js y *OpenWeatherMap API* y mostrar distintos mecanismos de testeo bajo TDD usando Jest y Cypress dentro de *Vue Test Utils*.

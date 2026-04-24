@@ -15,6 +15,7 @@ icon: fa-brands fa-kotlin
 cover: https://content.techgig.com/photo/82324241/5-reasons-why-you-should-learn-kotlin-in-2021.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 Hace ya unos días que recibí un pequeño pero valioso detalle por parte de JetBrains y el equipo de Kotlin por mi labor docente este año aplicando sus tecnologías en el desarrollo móvil. En esta entrada te comento detalles al respecto 🙂.
 

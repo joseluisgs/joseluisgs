@@ -15,6 +15,7 @@ icon: fa-solid fa-code-branch
 cover: https://www.dovesco.com/sites/default/files/2020-09/axosoft.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 [GitKraken](https://www.gitkraken.com/invite/wdJ7HntT) es para mí el mejor complemento existente para trabajar con Git y GitHub. Nos ayuda a mejorar nuestra productividad diaria con los repositorios y, además, a nivel docente es insuperable con muchas ventajas. Nos ofrece todo aquello para hacer tu trabajo más fácil, intuitivo y divertido. ¡Superpoder para tus proyectos! 

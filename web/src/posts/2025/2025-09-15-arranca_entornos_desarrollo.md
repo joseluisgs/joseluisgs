@@ -18,6 +18,7 @@ icon: fa-solid fa-laptop-code
 cover: https://tech-radix.com/wp-content/uploads/2022/03/Mob-App.webp
 comment: true
 sidebar: false
+footer: true
 ---
 
 Si el módulo de Programación nos enseña a "hablar" con la máquina, el módulo de Entornos de Desarrollo nos enseña a hacerlo de forma profesional, eficiente y colaborativa. Este curso no se limita a las herramientas; se centra en el ciclo de vida completo del *software*, una habilidad clave en cualquier equipo de desarrollo. Veamos qué nos espera en este emocionante viaje.

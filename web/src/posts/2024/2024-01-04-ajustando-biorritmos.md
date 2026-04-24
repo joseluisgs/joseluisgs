@@ -13,6 +13,7 @@ icon: fa-solid fa-school
 cover: https://i.imgur.com/tBVHqKU.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Esta primera parte del curso 2023/2024 no solo ha traído los cambios de turno de mañana a tarde en el centro, sino diversas consecuencias que han hecho que ajustemos los biorritmos, siguiendo una de las bromas que he tenido por ello. Te comento estos cambios.

@@ -16,6 +16,7 @@ icon: fa-brands fa-csharp
 cover: https://mytasker.com/assets/images/WD-D-banner.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 ¡Hola a todos! Estamos emocionados de comenzar un nuevo curso en el ciclo de Desarrollo de Aplicaciones Web. Este año, el módulo de Programación se presenta más interesante que nunca, con un enfoque fresco y alineado con las últimas tendencias del sector tecnológico.

@@ -13,6 +13,7 @@ icon: fa-brands fa-alexa
 cover: https://m.media-amazon.com/images/G/01/DeveloperBlogs/AlexaBlogs/default/ACK_blog._CB483519732_.png
 comment: true
 sidebar: false
+footer: true
 ---
 
 La [Skill del Departamento de Informática](https://www.amazon.es/JLGS-Inform%C3%A1tica-Virgen-de-Gracia/dp/B088JPBLS9/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=informatica+skill&qid=1621671069&sr=8-8) representa un proyecto de innovación docente con fines didácticos con el objetivo de cómo diseñar un asistente de voz para conocer los ciclos existentes de la familia de informática. Te comento en esta entrada las bases del desarrollo de una *skill*.

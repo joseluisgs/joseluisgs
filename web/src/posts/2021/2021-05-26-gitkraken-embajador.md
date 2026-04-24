@@ -14,6 +14,7 @@ icon: fa-solid fa-code-branch
 cover: https://i.imgur.com/1Dnghu1.png
 comment: true
 sidebar: false
+footer: true
 ---
 Como ya habréis visto en mi *banner* y redes sociales, aparece un nuevo icono conmigo. Es un orgullo, placer y responsabilidad comunicar que he sido nombrado este mes de mayo embajador de [GitKraken](https://www.gitkraken.com/invite/wdJ7HntT). Para mí es una alegría inmensa que confíen para esta labor y así reconozcan el trabajo que se ha realizado estos dos últimos años aplicando *GitKraken Suite* en la enseñanza del desarrollo de *software*.
 

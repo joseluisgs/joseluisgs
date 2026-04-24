@@ -12,6 +12,7 @@ icon: fa-solid fa-handshake
 cover: https://lovingonme.com/2017/wp-content/uploads/2015/10/How-Can-I-Help.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Año que acaba y año que comienza. Es tiempo de hacer balance y de pensar en el futuro. En este caso, en el futuro inmediato. El 2023 ya está aquí. No soy muy amante de los propósitos de año nuevo, pero este año me he marcado cambiar algunas cosas con respecto al año pasado, pues hay situaciones que no han terminado de encajar y me gustaría poner de mi parte para mejorarlas. Mi primer *deploy* de 2023.

@@ -12,6 +12,7 @@ icon: fa-solid fa-school
 cover: https://buenavibra.es/wp-content/uploads/2018/04/mito22.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 En esta nueva etapa estoy experimentando muchas cosas nuevas, y otras no tan nuevas, como las que se repiten con el alumnado en los primeros meses: frustración, rendición o simplemente asimilar que no todo sale a la primera. A continuación te cuento lo que pienso de esta situación.
 <!-- more -->

@@ -14,6 +14,7 @@ icon: fa-solid fa-microphone
 cover: https://i.imgur.com/RaFcO83.jpg
 comment: true
 sidebar: false
+footer: true
 ---
 
 Hace muy poquito tuve el placer de conocer y hablar con la gente de [Algoritmo Salvaje](https://www.algoritmosalvaje.com/). En este pódcast hemos hablado un poco de la nueva FP con lo que conocemos y de cómo serán las novedades DAW-DAM en este nuevo curso 2024-2025. Ha sido un placer poder compartir un rato con ellos y poder hablar de la nueva FP y mostrar, con lo que conocemos actualmente y mi visión personal, cómo será el nuevo ciclo de DAW-DAM.
