@@ -30,6 +30,15 @@ export default defineClientConfig({
           window.dispatchEvent(new CustomEvent("show-cookie-banner"));
         });
       }
+
+      // Personalizar el título del héroe para resaltar el nombre
+      const heroTitle = document.querySelector(".vp-blog-hero-title");
+      if (heroTitle && heroTitle.textContent?.includes("José Luis González")) {
+        heroTitle.innerHTML = heroTitle.innerHTML.replace(
+          "José Luis González",
+          '<span class="hero-name-gradient">José Luis González</span>'
+        );
+      }
     });
   }
 });

@@ -695,3 +695,12 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   display: none !important;
 }
 
+// ============================================
+// PERSONALIZACIÓN DEL NOMBRE EN EL HERO
+// ============================================
+.hero-name-gradient {
+  display: inline-block !important;
+  font-weight: 700 !important; // Negrita elegante
+  color: inherit !important;   // Mantiene el color original del título
+}
+
