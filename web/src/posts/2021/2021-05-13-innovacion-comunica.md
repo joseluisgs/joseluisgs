@@ -9,7 +9,7 @@ category:
 tag:
   - Docencia
   - Tecnologias
-  - Innovación
+  - Innovacion
 icon: fa-solid fa-lightbulb
 cover: https://i.imgur.com/LukNdoZ.jpg
 comment: true

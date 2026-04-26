@@ -7,7 +7,7 @@ category:
   - Docencia
 tag:
   - Docencia
-  - Tecnologías
+  - Tecnologias
   - Git
   - GitHub
   - GitKraken
