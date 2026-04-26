@@ -36,7 +36,7 @@ export default defineClientConfig({
       if (heroTitle && heroTitle.textContent?.includes("José Luis González")) {
         heroTitle.innerHTML = heroTitle.innerHTML.replace(
           "José Luis González",
-          '<span class="hero-name-gradient">José Luis González</span>'
+          '<span class="hero-name-special">José Luis González</span>'
         );
       }
     });
