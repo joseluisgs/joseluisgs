@@ -6,11 +6,11 @@ category:
   - Blog
   - Proyectos
 tag:
-   - Docencia
-   - Tecnologías
-   - JavaScript
-   - TDD
-   - Cypress
+  - Docencia
+  - Tecnologias
+  - JavaScript
+  - TDD
+  - Cypress
 icon: fa-solid fa-flask
 cover: https://blog.magicpod.com/hubfs/cypress-end-to-end-test.png
 comment: true

@@ -5,11 +5,11 @@ date: 2021-05-13
 category:
   - Proyectos
   - Docencia
-  - Investigación
+  - Investigacion
 tag:
-   - Docencia
-   - Tecnologías
-   - Innovación
+  - Docencia
+  - Tecnologias
+  - Innovación
 icon: fa-solid fa-lightbulb
 cover: https://i.imgur.com/LukNdoZ.jpg
 comment: true

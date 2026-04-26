@@ -6,11 +6,11 @@ category:
   - Blog
   - Proyectos
 tag:
-   - Docencia
-   - Tecnologías
-   - JavaScript
-   - TypeScript
-   - Node.js
+  - Docencia
+  - Tecnologias
+  - JavaScript
+  - TypeScript
+  - Node.js
 icon: fa-brands fa-js
 cover: https://i.pinimg.com/originals/71/ee/32/71ee32577432648f9e45fbd63b2cf261.jpg
 comment: true

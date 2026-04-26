@@ -6,10 +6,10 @@ category:
   - Blog
   - Docencia
 tag:
-   - Docencia
-   - Tecnologías
-   - Git
-   - GitHub
+  - Docencia
+  - Tecnologias
+  - Git
+  - GitHub
 icon: fa-brands fa-github
 cover: https://i.ytimg.com/vi/uWsXEmaM3PA/maxresdefault.jpg
 comment: true

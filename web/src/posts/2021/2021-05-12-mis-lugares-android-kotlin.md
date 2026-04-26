@@ -7,7 +7,7 @@ category:
   - Docencia
 tag:
   - Docencia
-  - Tecnologías
+  - Tecnologias
   - Proyectos
   - Android
   - Kotlin

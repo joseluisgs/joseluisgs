@@ -6,10 +6,10 @@ category:
   - Blog
   - Docencia
 tag:
-   - Docencia
-   - Tecnologías
-   - Git
-   - GitKraken
+  - Docencia
+  - Tecnologias
+  - Git
+  - GitKraken
 icon: fa-solid fa-code-branch
 cover: https://i.imgur.com/1Dnghu1.png
 comment: true

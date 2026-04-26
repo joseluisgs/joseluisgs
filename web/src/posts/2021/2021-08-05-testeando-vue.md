@@ -5,10 +5,10 @@ date: 2021-08-05
 category:
   - Proyectos
 tag:
-   - Tecnologías
-   - Vue.js
-   - Jest
-   - Cypress
+  - Tecnologias
+  - Vue.js
+  - Jest
+  - Cypress
 icon: fa-brands fa-vuejs
 cover: https://i.imgur.com/gV4LZJZ.jpg
 comment: true

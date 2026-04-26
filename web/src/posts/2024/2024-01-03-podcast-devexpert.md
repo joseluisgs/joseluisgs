@@ -8,7 +8,7 @@ category:
 tag:
   - Docencia
   - Personal
-  - Pódcast
+  - Podcast
   - DevExpert
 icon: fa-solid fa-microphone
 cover: https://i.imgur.com/icsPKsj.png

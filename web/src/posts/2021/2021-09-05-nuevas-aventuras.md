@@ -6,7 +6,7 @@ category:
   - Blog
   - Docencia
 tag:
-   - Docencia
+  - Docencia
 icon: fa-solid fa-school
 cover: https://www.irishtimes.com/polopoly_fs/1.2904309.1482173186!/image/image_gen/derivatives/box_620_330/image.jpg
 comment: true

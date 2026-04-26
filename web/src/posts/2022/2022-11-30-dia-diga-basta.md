@@ -6,8 +6,8 @@ category:
   - Blog
   - Docencia
 tag:
-   - Docencia
-   - Personal
+  - Docencia
+  - Personal
 icon: fa-solid fa-user
 cover: https://img.freepik.com/premium-photo/broken-chain-with-red-weak-link_147644-166.jpg
 comment: true

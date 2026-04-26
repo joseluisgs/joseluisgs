@@ -8,7 +8,7 @@ category:
 tag:
   - Docencia
   - DAW
-  - Programación
+  - Programacion
   - PROG
   - C#
   - .NET

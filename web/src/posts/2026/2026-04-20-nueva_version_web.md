@@ -9,7 +9,7 @@ tag:
   - Docencia
   - Personal
   - Proyectos
-  - vuepress
+  - VuePress
   - Vue.js
   - Vite
   - PWA

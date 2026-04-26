@@ -6,8 +6,8 @@ category:
   - Blog
   - Docencia
 tag:
-   - Docencia
-   - Competencias
+  - Docencia
+  - Competencias
 icon: fa-brands fa-java
 cover: https://www.teahub.io/photos/full/22-220143_java-java-wallpaper-hd.jpg
 comment: true
