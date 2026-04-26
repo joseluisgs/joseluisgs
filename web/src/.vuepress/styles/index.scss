@@ -702,6 +702,15 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   display: inline-block !important;
   font-weight: 700 !important;
   font-size: 1.1em !important;
-  color: inherit !important;
+
+  // Modo oscuro - un poco más claro
+  html[data-theme="dark"] & {
+    color: #c8e0ff !important;
+  }
+
+  // Modo claro - un poco más oscuro
+  html[data-theme="light"] & {
+    color: #2a5aa0 !important;
+  }
 }
 
