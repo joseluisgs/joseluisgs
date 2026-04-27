@@ -1,8 +1,9 @@
 // Estilos globales - Identidad Deep Navy + Sutil Profundidad
 :root {
-  --font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  
+  --font-family:
+    'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+
   --theme-color: #7289da;
 }
 
@@ -17,14 +18,12 @@ body {
   padding: 0;
 }
 
-
-
 // Hero - Usar color del tema (Deep Navy Discord)
-html[data-theme="light"] .vp-blog-hero {
+html[data-theme='light'] .vp-blog-hero {
   color: var(--vp-c-text-1) !important;
 }
 
-html[data-theme="dark"] .vp-blog-hero {
+html[data-theme='dark'] .vp-blog-hero {
   color: var(--vp-c-text-1) !important;
 }
 
@@ -36,7 +35,7 @@ html[data-theme="dark"] .vp-blog-hero {
 // Blog Hero - Altura y posicionamiento UNIFICADO para consistencia visual (Escritorio, iPad, Móvil)
 .vp-blog-hero {
   height: calc(100vh - var(--navbar-height)) !important;
-  height: calc(100dvh - var(--navbar-height)) !important; 
+  height: calc(100dvh - var(--navbar-height)) !important;
   min-height: calc(100vh - var(--navbar-height)) !important;
   min-height: calc(100dvh - var(--navbar-height)) !important;
   padding-bottom: 5rem; // Margen interno de seguridad
@@ -46,11 +45,11 @@ html[data-theme="dark"] .vp-blog-hero {
 .vp-hero-slide-down-button {
   color: var(--vp-c-accent) !important;
   // 5rem es el valor que garantiza elegancia en PC/iPad y visibilidad total
-  bottom: calc(5rem + env(safe-area-inset-bottom)) !important; 
+  bottom: calc(5rem + env(safe-area-inset-bottom)) !important;
   animation: vp-hero-bounce 2.5s infinite;
   display: block !important;
   left: calc(50% - 30px) !important;
-  
+
   svg {
     fill: var(--vp-c-accent) !important;
   }
@@ -65,29 +64,42 @@ html[data-theme="dark"] .vp-blog-hero {
 
 // Animación de rebote sutil
 @keyframes vp-hero-bounce {
-  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-  40% {transform: translateY(-8px);}
-  60% {transform: translateY(-4px);}
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-8px);
+  }
+  60% {
+    transform: translateY(-4px);
+  }
 }
 
 // ============================================
 // HERO TITLE - Colores sólidos por modo (Opción B)
 // ============================================
 // Modo oscuro: título más claro, descripción más clara
-html[data-theme="dark"] .vp-blog-hero-title {
-  color: #b8d0ff !important;
+html[data-theme='dark'] .vp-blog-hero-title {
+  //  color: #b8d0ff !important;
+  color: #a9c4f8 !important;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
-html[data-theme="dark"] .vp-blog-hero-description {
-  color: #c8d8e8 !important;
+html[data-theme='dark'] .vp-blog-hero-description {
+  // color: #c8d8e8 !important;
+  color: #a2afbc !important;
 }
 
 // Modo claro: título más oscuro, descripción gris oscuro
-html[data-theme="light"] .vp-blog-hero-title {
-  color: #3469b8 !important;
+html[data-theme='light'] .vp-blog-hero-title {
+  // color: #3469b8 !important;
+  color: #4775ba !important;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-html[data-theme="light"] .vp-blog-hero-description {
+html[data-theme='light'] .vp-blog-hero-description {
   color: #4a5568 !important;
 }
 
@@ -116,19 +128,19 @@ body:not(.page-loaded) .main-content {
 }
 
 // Personalización del Modo Oscuro - SUTILEZA Y ELEGANCIA
-html[data-theme="dark"] {
-  --vp-c-bg: #010c18 !important;           // Fondo principal (Equilibrio Deep Navy)
-  --vp-c-bg-soft: #011221 !important;      // Fondo tarjeta (Contraste sutil y elegante)
-  --vp-c-bg-elv: #011221 !important;       
-  --vp-c-bg-mute: #010710 !important;      
-  
+html[data-theme='dark'] {
+  --vp-c-bg: #010c18 !important; // Fondo principal (Equilibrio Deep Navy)
+  --vp-c-bg-soft: #011221 !important; // Fondo tarjeta (Contraste sutil y elegante)
+  --vp-c-bg-elv: #011221 !important;
+  --vp-c-bg-mute: #010710 !important;
+
   // Bordes equilibrados
   --vp-c-border: #0a1826 !important;
   --vp-c-gutter: #0a1826 !important;
-  
+
   // Sombra equilibrada
   --vp-c-shadow: rgba(0, 0, 0, 0.7) !important;
-  
+
   --vp-c-text-1: #e2e8f0 !important;
   --vp-c-text-2: #94a3b8 !important;
   --vp-c-accent: #7289da !important;
@@ -137,18 +149,19 @@ html[data-theme="dark"] {
   --vp-scroll-progress-bg: var(--vp-c-accent) !important;
 
   // Botón Volver Arriba (BackToTop) - Visibilidad Premium
-  --vp-back-to-top-c-accent-bg: #7289da !important;  // Discord purple
-  --vp-back-to-top-bg: #1e293b !important;       // Fondo del círculo (Azul pizarra)
-  --vp-back-to-top-color: #ffffff !important;    // Color de la flecha
+  --vp-back-to-top-c-accent-bg: #7289da !important; // Discord purple
+  --vp-back-to-top-bg: #1e293b !important; // Fondo del círculo (Azul pizarra)
+  --vp-back-to-top-color: #ffffff !important; // Color de la flecha
   --vp-back-to-top-progress-color: var(--vp-c-accent) !important; // Color del anillo
 }
 
 // Personalización extra para el BackToTop circular
-[data-theme="dark"] .vp-back-to-top-button {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 
-              0 0 8px rgba(114, 137, 218, 0.2) !important;
+[data-theme='dark'] .vp-back-to-top-button {
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.5),
+    0 0 8px rgba(114, 137, 218, 0.2) !important;
   border: 1px solid var(--vp-c-border) !important;
-  
+
   &:hover {
     --vp-back-to-top-bg: var(--vp-back-to-top-c-accent-bg) !important;
     --vp-back-to-top-color: #ffffff !important;
@@ -161,66 +174,66 @@ html[data-theme="dark"] {
 // ============================================
 
 // Firefox (Propiedades modernas) - Modo Dark
-html[data-theme="dark"],
-html[data-theme="dark"] body,
-html[data-theme="dark"] * {
+html[data-theme='dark'],
+html[data-theme='dark'] body,
+html[data-theme='dark'] * {
   scrollbar-width: thin !important;
   scrollbar-color: #7289da #010c18 !important;
 }
 
 // Firefox - Modo Light
-html[data-theme="light"],
-html[data-theme="light"] body,
-html[data-theme="light"] * {
+html[data-theme='light'],
+html[data-theme='light'] body,
+html[data-theme='light'] * {
   scrollbar-width: thin !important;
   scrollbar-color: #304db6 #f3f4f6 !important;
 }
 
 // Chrome, Edge, Safari (WebKit) - Modo Dark
-html[data-theme="dark"] ::-webkit-scrollbar {
+html[data-theme='dark'] ::-webkit-scrollbar {
   width: 10px !important;
   height: 10px !important;
 }
 
-html[data-theme="dark"] ::-webkit-scrollbar-track,
-html[data-theme="dark"] ::-webkit-scrollbar-track-piece {
+html[data-theme='dark'] ::-webkit-scrollbar-track,
+html[data-theme='dark'] ::-webkit-scrollbar-track-piece {
   background: #010c18 !important;
   border-radius: 0 !important;
 }
 
-html[data-theme="dark"] ::-webkit-scrollbar-thumb {
+html[data-theme='dark'] ::-webkit-scrollbar-thumb {
   background: #7289da !important;
   border-radius: 5px !important;
-  
+
   &:hover {
     background: #5b6eae !important;
   }
-  
+
   &:active {
     background: #5b6eae !important;
   }
 }
 
 // Chrome, Edge, Safari (WebKit) - Modo Light
-html[data-theme="light"] ::-webkit-scrollbar {
+html[data-theme='light'] ::-webkit-scrollbar {
   width: 10px !important;
   height: 10px !important;
 }
 
-html[data-theme="light"] ::-webkit-scrollbar-track,
-html[data-theme="light"] ::-webkit-scrollbar-track-piece {
+html[data-theme='light'] ::-webkit-scrollbar-track,
+html[data-theme='light'] ::-webkit-scrollbar-track-piece {
   background: #f3f4f6 !important;
   border-radius: 0 !important;
 }
 
-html[data-theme="light"] ::-webkit-scrollbar-thumb {
+html[data-theme='light'] ::-webkit-scrollbar-thumb {
   background: #304db6 !important;
   border-radius: 5px !important;
-  
+
   &:hover {
     background: #253aa3 !important;
   }
-  
+
   &:active {
     background: #253aa3 !important;
   }
@@ -231,104 +244,104 @@ html[data-theme="light"] ::-webkit-scrollbar-thumb {
 // ============================================
 
 // Sidebar - Modo Dark
-html[data-theme="dark"] .vp-sidebar {
+html[data-theme='dark'] .vp-sidebar {
   scrollbar-color: #7289da #010c18 !important;
-  
+
   &::-webkit-scrollbar {
     width: 10px !important;
   }
-  
+
   &::-webkit-scrollbar-thumb {
     background: #7289da !important;
   }
-  
+
   &::-webkit-scrollbar-track {
     background: #010c18 !important;
   }
 }
 
 // Sidebar - Modo Light
-html[data-theme="light"] .vp-sidebar {
+html[data-theme='light'] .vp-sidebar {
   scrollbar-color: #304db6 #f3f4f6 !important;
-  
+
   &::-webkit-scrollbar {
     width: 10px !important;
   }
-  
+
   &::-webkit-scrollbar-thumb {
     background: #304db6 !important;
   }
-  
+
   &::-webkit-scrollbar-track {
     background: #f3f4f6 !important;
   }
 }
 
 // TOC - Modo Dark
-html[data-theme="dark"] .vp-toc-wrapper {
+html[data-theme='dark'] .vp-toc-wrapper {
   scrollbar-color: #7289da #010c18 !important;
-  
+
   &::-webkit-scrollbar {
     width: 10px !important;
   }
-  
+
   &::-webkit-scrollbar-thumb:vertical {
     background: #7289da !important;
   }
-  
+
   &::-webkit-scrollbar-track-piece {
     background: #010c18 !important;
   }
 }
 
 // TOC - Modo Light
-html[data-theme="light"] .vp-toc-wrapper {
+html[data-theme='light'] .vp-toc-wrapper {
   scrollbar-color: #304db6 #f3f4f6 !important;
-  
+
   &::-webkit-scrollbar {
     width: 10px !important;
   }
-  
+
   &::-webkit-scrollbar-thumb:vertical {
     background: #304db6 !important;
   }
-  
+
   &::-webkit-scrollbar-track-piece {
     background: #f3f4f6 !important;
   }
 }
 
 // Timeline - Modo Dark
-html[data-theme="dark"] .timeline-content,
-html[data-theme="dark"] .timeline-list-wrapper .timeline-content {
+html[data-theme='dark'] .timeline-content,
+html[data-theme='dark'] .timeline-list-wrapper .timeline-content {
   scrollbar-color: #7289da #010c18 !important;
-  
+
   &::-webkit-scrollbar {
     width: 10px !important;
   }
-  
+
   &::-webkit-scrollbar-track-piece {
     background: #010c18 !important;
   }
-  
+
   &::-webkit-scrollbar-thumb {
     background: #7289da !important;
   }
 }
 
 // Timeline - Modo Light
-html[data-theme="light"] .timeline-content,
-html[data-theme="light"] .timeline-list-wrapper .timeline-content {
+html[data-theme='light'] .timeline-content,
+html[data-theme='light'] .timeline-list-wrapper .timeline-content {
   scrollbar-color: #304db6 #f3f4f6 !important;
-  
+
   &::-webkit-scrollbar {
     width: 10px !important;
   }
-  
+
   &::-webkit-scrollbar-track-piece {
     background: #f3f4f6 !important;
   }
-  
+
   &::-webkit-scrollbar-thumb {
     background: #304db6 !important;
   }
@@ -343,7 +356,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 // FOOTER RESPONSIVE (Altura equilibrada)
 // ============================================
 .vp-footer {
-  padding: 0 !important; 
+  padding: 0 !important;
   min-height: auto !important;
 }
 
@@ -377,7 +390,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
     font-size: 1.1rem !important;
     color: inherit !important;
     transition: all 0.3s ease !important;
-    
+
     &:hover {
       color: var(--vp-c-accent) !important;
       transform: translateY(-2px) scale(1.1) !important;
@@ -405,7 +418,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 
   .footer-icons {
     gap: 1rem !important;
-    
+
     .footer-separator {
       display: none !important; // Ocultar en móvil si prefieres una lista corrida
     }
@@ -418,30 +431,31 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   transition: all 0.3s ease !important;
 }
 
-[data-theme="dark"] .vp-card {
+[data-theme='dark'] .vp-card {
   background-color: var(--vp-c-bg-soft) !important;
-  
+
   &:hover {
     transform: translateY(-4px) !important;
     border-color: var(--theme-color) !important;
     background-color: #031a2e !important; // Iluminación equilibrada al hover
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 
-                0 0 12px rgba(114, 137, 218, 0.2) !important;
+    box-shadow:
+      0 8px 24px rgba(0, 0, 0, 0.5),
+      0 0 12px rgba(114, 137, 218, 0.2) !important;
   }
 }
 
 // Forzar el fondo del sitio para máxima consistencia
-[data-theme="dark"] .theme-container {
+[data-theme='dark'] .theme-container {
   background-color: var(--vp-c-bg) !important;
 }
 
 // Navbar y Sidebar consistentes con la nueva sutileza
-[data-theme="dark"] .vp-navbar {
+[data-theme='dark'] .vp-navbar {
   background-color: var(--vp-c-bg) !important;
   border-bottom: 1px solid var(--vp-c-border) !important;
 }
 
-[data-theme="dark"] .vp-sidebar {
+[data-theme='dark'] .vp-sidebar {
   background-color: var(--vp-c-bg) !important;
   border-right: 1px solid var(--vp-c-border) !important;
 }
@@ -465,7 +479,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 
 // Avatar en sidebar
 .blogger-info .vp-blogger-avatar,
-[data-theme="dark"] .blogger-info .vp-blogger-avatar {
+[data-theme='dark'] .blogger-info .vp-blogger-avatar {
   border-radius: 50% !important;
   width: 5rem !important;
   height: 5rem !important;
@@ -514,7 +528,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
       margin: 0 !important;
       padding-right: 2rem !important;
       text-align: right !important;
-      
+
       img {
         width: auto !important;
         height: auto !important;
@@ -522,7 +536,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
         max-width: 100% !important;
         object-fit: contain !important;
         border-radius: 1rem !important;
-        box-shadow: 0 5px 18px rgba(0,0,0,0.5) !important;
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.5) !important;
         margin-left: auto !important;
         // No forzamos display para permitir alternancia light/dark
       }
@@ -545,24 +559,42 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 
 // Progresión de resoluciones (Letras y Ajustes de Imagen)
 @media (min-width: 1440px) {
-  .vp-blog-hero-title { font-size: 2.25rem !important; }
+  .vp-blog-hero-title {
+    font-size: 2.25rem !important;
+  }
 }
 
 @media (min-width: 1800px) {
   .vp-blog-hero {
-    .vp-blog-hero-image img { max-height: 90vh !important; }
-    .vp-blog-hero-title { font-size: 3rem !important; }
-    .vp-blog-hero-description { font-size: 1.5rem !important; }
-    p { font-size: 1.2rem !important; }
+    .vp-blog-hero-image img {
+      max-height: 90vh !important;
+    }
+    .vp-blog-hero-title {
+      font-size: 3rem !important;
+    }
+    .vp-blog-hero-description {
+      font-size: 1.5rem !important;
+    }
+    p {
+      font-size: 1.2rem !important;
+    }
   }
 }
 
 @media (min-width: 2400px) {
   .vp-blog-hero {
-    .vp-blog-hero-image img { max-height: 95vh !important; }
-    .vp-blog-hero-title { font-size: 4rem !important; }
-    .vp-blog-hero-description { font-size: 2rem !important; }
-    p { font-size: 1.4rem !important; }
+    .vp-blog-hero-image img {
+      max-height: 95vh !important;
+    }
+    .vp-blog-hero-title {
+      font-size: 4rem !important;
+    }
+    .vp-blog-hero-description {
+      font-size: 2rem !important;
+    }
+    p {
+      font-size: 1.4rem !important;
+    }
   }
 }
 
@@ -617,7 +649,7 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
 .vp-project-card {
   background: var(--vp-c-bg-soft) !important;
   border: 1px solid var(--vp-c-border) !important;
-  
+
   &:hover {
     background: var(--vp-c-bg-elv) !important;
     border-color: var(--theme-color) !important;
@@ -643,13 +675,13 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   grid-template-columns: repeat(3, 1fr) !important; // Máximo 3 columnas
   gap: 16px !important;
   width: 100% !important;
-  
+
   // @media (min-width: 1440px) { grid-template-columns: repeat(4, 1fr) !important; } // 4 columnas (activar si tienes 8+ proyectos)
   // @media (max-width: 1439px) { grid-template-columns: repeat(3, 1fr) !important; } // 3 columnas
   @media (max-width: 959px) {
     grid-template-columns: repeat(2, 1fr) !important;
   }
-  
+
   @media (max-width: 400px) {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px !important;
@@ -704,13 +736,12 @@ html[data-theme="light"] .timeline-list-wrapper .timeline-content {
   font-size: 1.1em !important;
 
   // Modo oscuro - un poco más claro
-  html[data-theme="dark"] & {
+  html[data-theme='dark'] & {
     color: #c8e0ff !important;
   }
 
   // Modo claro - un poco más oscuro
-  html[data-theme="light"] & {
+  html[data-theme='light'] & {
     color: #2a5aa0 !important;
   }
 }
-
