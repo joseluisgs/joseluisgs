@@ -566,7 +566,7 @@ Estos documentos son apuntes vivos. No son solo para el proyecto, sino para que 
 
 ## Reflexiones Finales
 
-Lo que más me satisfacción de este enfoque es ver cómo los alumnos pasan de "no sé qué es esto" a "esto lo sé aplicar". No aprenden tecnologías sueltas; aprenden a resolver problemas. Cuando un aluno puede explicar por qué usa Blazor en lugar de MVC para cierto caso, ha entendido algo que va más allá del código: ha aprendido a pensar como un desarrollador.
+Lo que más satisfacción me produce de este enfoque es ver cómo los alumnos pasan de "no sé qué es esto" a "esto lo sé aplicar". No aprenden tecnologías sueltas; aprenden a resolver problemas. Cuando un alumno puede explicar por qué usa Blazor en lugar de MVC para cierto caso, ha entendido algo que va más allá del código: ha aprendido a pensar como un desarrollador.
 
 Este proyecto no pretende ser perfecto. Tiene fallos intencionados para que los detecten. Porque en la vida profesional no siempre tendrán código limpio; tendrán que mantener código de otros, arreglar desastres, entender decisiones que no tienen sentido. Este proyecto los prepara para eso.
 
@@ -587,4 +587,4 @@ El módulo de Desarrollo Web en Entornos Servidor no es solo "aprender ASP.NET".
 
 ---
 
-*¿Qué aspecto del desarrollo web en entorno servidor te gustaría que profundizáramos en próximos artículos? Deja tu comentario.*
+*¿Qué aspecto del desarrollo web en entorno servidor te gustaría que profundizáramos en próximos artículos? Deja tu comentario.*? Deja tu comentario.*
