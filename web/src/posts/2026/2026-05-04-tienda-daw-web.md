@@ -102,7 +102,7 @@ El feedback en clase no es "corregir errores". Es un diálogo donde analizamos q
 
 2. **Cada tecnología tiene su momento**: Cuando enseño MVC, el alumno ve por qué existe. Cuando llega Blazor, entiende qué problema resuelve. No son palabras vacías.
 
-3. **Sirve como apuntes**: El código del proyecto es el mejor material de estudio. No hace falta mis transparencias cuando tienes el proyecto completo con todo documentado en el repo.
+3. **Sirve como apuntes**: El código del proyecto es el mejor material de estudio. No hace falta mis transparencias cuando tienes el proyecto completo con todo documentado en el repositorio.
 
 4. **Pueden partir de aquí**: Los alumnos pueden tomar este proyecto como base para sus propios trabajos. Les ahorro el "desde cero" y les reto a mejorarlo.
 
@@ -203,7 +203,7 @@ flowchart TD
 | Característica          | MVC                 | Razor Pages        | Blazor Server         |
 | ----------------------- | ------------------- | ------------------ | --------------------- |
 | **Paradigma**           | Separación estricta | Página como unidad | Componentes           |
-| **Curva aprendizaje**   | Media               | Baja               | Media                 |
+| **Curva de aprendizaje**   | Media               | Baja               | Media                 |
 | **Estado**              | Sin estado          | Sin estado         | Con estado (circuito) |
 | **Interactividad**      | JavaScript          | JavaScript/AJAX    | C# nativo             |
 | **Rendimiento inicial** | Alto                | Alto               | Medio                 |
@@ -278,7 +278,7 @@ La seguridad en FP suele parecer "aburrida". Pero este proyecto hace que sea tan
 Usamos **SQLite In-Memory** para desarrollo y testing:
 
 - Sin instalación: no necesitas MySQL ni PostgreSQL
-- Base de datos volátil: ideal para demos y tests
+- Base de datos volátil: ideal para demostraciones y pruebas
 - Todo en RAM: rendimiento máximo
 - Transacciones reales con Entity Framework Core
 
@@ -346,7 +346,7 @@ Las vistas Razor (.cshtml) son el ejemplo perfecto: HTML con código C# embebido
 
 ### 3. Análisis, diferenciación y clasificación de características y funcionalidades de entornos y lenguajes de programación de servidores web
 
-El proyecto usa **.NET 10 con C#** como único lenguaje para servidor y cliente (Blazor). Los alumnos ven que pueden hacer todo - desde controladores hasta componentes interactivos - con el mismo lenguaje. Esto les ayuda a entender la ventajas de un ecosistema integrado.
+El proyecto usa **.NET 10 con C#** como único lenguaje para servidor y cliente (Blazor). Los alumnos ven que pueden hacer todo - desde controladores hasta componentes interactivos - con el mismo lenguaje. Esto les ayuda a entender las ventajas de un ecosistema integrado.
 
 ### 4. Utilización de características y funcionalidades específicas de los lenguajes de programación seleccionados
 
@@ -377,7 +377,7 @@ Estas líneas de actuación no son apartados teóricos. Cada una se trabaja en c
 
 ## Análisis Curricular (Módulo 0613)
 
-El proyecto está diseñado para cubrir el 100% del currículo. Pero, ¿qué significa esto en la práctica? Aquí te explico cada resultado de aprendizaje y cómo se trabaja en el proyecto.
+El proyecto está diseñado para cubrir casi el 100% del currículo del módulo de Desarrollo de Aplicaciones Web en Entorno Servidor. Pero, ¿qué significa esto en la práctica? Aquí te explico cada resultado de aprendizaje y cómo se trabaja en el proyecto.
 
 ---
 
@@ -409,7 +409,7 @@ Aquí se trabaja la sintaxis básica de Razor: cómo escribir código C# dentro 
 |----|-------------|---------------------------|
 | **a** | Se han reconocido los mecanismos de generación de páginas web a partir de lenguajes de marcas con código embebido | Todas las vistas Razor (.cshtml) son exactamente esto: HTML con código C# embebido. |
 | **b** | Se han identificado las principales tecnologías asociadas | Sintaxis Razor, Tag Helpers, componentes de vista. |
-| **c** | Se han utilizado etiquetas para la inclusión de código en el lenguaje de marcas | Las etiquetas Razor como `@{}`, `@Model`, `@{}`, `@Html`. |
+| **c** | Se han utilizado etiquetas para la inclusión de código en el lenguaje de marcas | Las etiquetas Razor como `@{ }`, `@Model`, `@Html`. |
 | **d** | Se ha reconocido la sintaxis del lenguaje de programación que se ha de utilizar | Se usa C# dentro de las vistas. Los alumnos practican la sintaxis continuamente. |
 | **e** | Se han escrito sentencias simples y se han comprobado sus efectos en el documento resultante | Mostrar variables (`@producto.Nombre`), condiciones (`@if`), bucles (`@foreach`). |
 | **f** | Se han utilizado directivas para modificar el comportamiento predeterminado | `@model`, `@using`, `@namespace`, `_ViewImports.cshtml`. |
@@ -434,7 +434,7 @@ Programación básica: condicionales, bucles, funciones, formularios.
 | **d** | Se han creado y utilizado funciones | Métodos en controladores, funciones en servicios, métodos en componentes Blazor. |
 | **e** | Se han utilizado formularios web para interactuar con el usuario del navegador web | Formularios de login, registro, añadir producto, finalizar compra. |
 | **f** | Se han empleado métodos para recuperar la información introducida en el formulario | Enlace de modelo en controladores, `[BindProperty]` en Razor Pages. |
-| **g** | Se han añadido comentarios al código | El código incluye comentarios explicativos, y en la documentación se explica el por qué. |
+| **g** | Se han añadido comentarios al código | El código incluye comentarios explicativos, y en la documentación se explica el porqué. |
 
 ::: tip
 El proyecto usa constantemente bloques de decisión (`@if`, `@else`, `@switch`) y bucles (`@foreach`) en todas las vistas. Los listados de productos, las condiciones de visibilidad según el rol del usuario, y los formularios dinámicos son ejemplos concretos de este RA en acción.
@@ -444,19 +444,19 @@ El proyecto usa constantemente bloques de decisión (`@if`, `@else`, `@switch`) 
 
 ### RA4: Desarrolla aplicaciones web embebidas en lenguajes de marcas analizando e incorporando funcionalidades según especificaciones.
 
-Aquí entran sesiones, cookies, autentificación y estado.
+Aquí entran sesiones, cookies, autenticación y estado.
 
 | CE | Descripción | Cómo se trabaja en WalaDaw |
 |----|-------------|---------------------------|
 | **a** | Se han identificado los mecanismos disponibles para el mantenimiento de la información que concierne a un cliente web concreto y se han señalado sus ventajas | El carrito de la compra necesita recordar qué productos ha seleccionado el usuario. Se usa sesión. |
 | **b** | Se han utilizado mecanismos para mantener el estado de las aplicaciones web | Sesiones ASP.NET Core para el carrito, TempData para mensajes entre peticiones. |
 | **c** | Se han utilizado mecanismos para almacenar información en el cliente web y para recuperar su contenido | Cookies para preferencias de idioma, localStorage para consentimientos de cookies. |
-| **d** | Se han identificado y caracterizado los mecanismos disponibles para la autentificación de usuarios | ASP.NET Core Identity con cookies de autentificación. |
-| **e** | Se han escrito aplicaciones que integren mecanismos de autentificación de usuarios | Todo el sistema de registro/login, protección de rutas con `[Authorize]`. |
+| **d** | Se han identificado y caracterizado los mecanismos disponibles para la autenticación de usuarios | ASP.NET Core Identity con cookies de autenticación. |
+| **e** | Se han escrito aplicaciones que integren mecanismos de autenticación de usuarios | Todo el sistema de registro/login, protección de rutas con `[Authorize]`. |
 | **f** | Se han utilizado herramientas y entornos para facilitar la programación, prueba y depuración del código | Visual Studio depurador, herramientas de desarrollo del navegador, logs con Serilog. |
 
 ::: tip
-El proyecto implementa todo el manejo de estado: sesiones para el carrito de compra, cookies para preferencias de idioma, TempData para mensajes entre peticiones, y ASP.NET Core Identity para autentificación. Los alumnos pueden ver cómo funciona cada mecanismo en un caso real y tangible.
+El proyecto implementa todo el manejo de estado: sesiones para el carrito de compra, cookies para preferencias de idioma, TempData para mensajes entre peticiones, y ASP.NET Core Identity para autenticación. Los alumnos pueden ver cómo funciona cada mecanismo en un caso real y tangible.
 :::
 
 ---
@@ -507,7 +507,7 @@ Este RA se trabaja con Entity Framework Core y SQLite In-Memory. Los alumnos apr
 
 > ⚠️ **Este resultado de aprendizaje NO se cubre en este proyecto**.
 
-Crear y consumir APIs RESTful es tan importante que merece su propio proyecto dedicado. WalaDaw se centra en la parte de "páginas web dinámicas", pero los servicios web los trataremos en otro proyecto: **TiendaDawApi-NetCore** ([GitHub](https://github.com/joseluisgs/TiendaDawApi-NetCore)), en ellos nos centramos en el desarrollo de servicios, apis RESTful, WebSockets, GraphQL, autenticación con JWT, documentación con Swagger, y testing de APIs, etc.
+Crear y consumir APIs RESTful es tan importante que merece su propio proyecto dedicado. WalaDaw se centra en la parte de "páginas web dinámicas", pero los servicios web los trataremos en otro proyecto: **TiendaDawApi-NetCore** ([GitHub](https://github.com/joseluisgs/TiendaDawApi-NetCore)), donde nos centramos en el desarrollo de servicios, APIs RESTful, WebSockets, GraphQL, autenticación con JWT, documentación con Swagger, y pruebas de APIs, entre otros.
 
 ::: tip
 ¿Por qué un proyecto dedicado a APIs? Porque en el mercado actual, las APIs son fundamentales. Un desarrollador que sabe hacer páginas pero no sabe crear y consumir APIs está a medias. Por eso dedicamos un proyecto entero a esto. Desde mi punto de vista, es tan importante como el desarrollo de páginas web dinámicas o más en el contexto actual del desarrollo web.
@@ -554,9 +554,28 @@ Aquí entramos en librerías externas, Big Data básico, análisis.
 El RA9.g es uno de los favoritos de los alumnos. Les encanta hacer el dashboard de admin con gráficos. Escriben consultas LINQ que agrupan datos (group by), hacen sumas, cuentan, ordenan. Luego lo pintan en gráficos con ApexCharts. No es "Big Data" de verdad, pero es la base: transformar datos en información útil.
 :::
 
+## Librerías del Proyecto
+
+Aparte de las tecnologías principales, el proyecto usa librerías que aportan valor educativo profesional.
+
+| Librería | Uso en el proyecto | Aportación didáctica |
+|----------|-------------------|---------------------|
+| **Serilog** | Registro de peticiones, errores y operaciones | Enseña logging estructurado, niveles, configuración por entorno. Cubierto en RA4.f |
+| **CSharpFunctionalExtensions** | Tipo `Result<T>` para manejar errores sin excepciones | Introduce programación funcional, código más testeable |
+| **MailKit** | Envío de correos de confirmación y notificaciones | Comprensión de SMTP, configuración por entorno |
+| **AspNetCoreRateLimit** | Limitación de peticiones para proteger el login | Seguridad práctica: previene ataques de fuerza bruta |
+| **SixLabors.ImageSharp** | Redimensionado de imágenes de productos | Procesamiento de archivos subidos por usuarios |
+| **QuestPDF** | Generación de facturas en PDF | Generación de documentos dinámicos con datos de BD |
+| **Blazor-ApexCharts** | Gráficos en el dashboard de admin | Cubierto en RA9.g: transformar datos en información visual |
+| **System.Reactive** | Flujos de datos reactivos entre componentes | Programación reactiva |
+
+::: tip
+No todas las librerías deben enseñarse a todos los alumnos. Usa las obligatorias siempre, las importantes para la mayoría, y las complementarias/avanzadas solo para quien quiera profundizar en su proyecto final.
+:::
+
 ## Documentación
 
-A lo largo del proyecto, cada commit incluye documentación técnica detallada. Desde la configuración de Docker hasta la implementación de Identity, cada paso está documentado en el repo en formato Markdown, con explicaciones claras y enlaces a recursos adicionales en el directorio `docs/`.
+A lo largo del proyecto, cada commit incluye documentación técnica detallada. Desde la configuración de Docker hasta la implementación de Identity, cada paso está documentado en el repositorio en formato Markdown, con explicaciones claras y enlaces a recursos adicionales en el directorio `docs/`.
 
 ::: tip
 Estos documentos son apuntes vivos. No son solo para el proyecto, sino para que los alumnos los usen como referencia en sus propios proyectos. La documentación es parte del aprendizaje y la construimos juntos a medida que avanzamos.
