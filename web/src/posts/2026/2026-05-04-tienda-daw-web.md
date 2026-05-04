@@ -473,15 +473,12 @@ El corazón del módulo: el patrón MVC, inyección de dependencias, testing.
 | **e** | Se han identificado y aplicado los parámetros relativos a la configuración de la aplicación web | appsettings.json, configuración de Identity, configuración de servicios en Startup/Program.cs. |
 | **f** | Se han escrito aplicaciones web con mantenimiento de estado y separación de la lógica de negocio | El proyecto completo: estado gestionado por sesiones, lógica en servicios separados. |
 | **g** | Se han aplicado los principios y patrones de diseño de la programación orientada a objetos | Clases, interfaces, herencia, encapsulamiento. Servicios que implementan interfaces. |
-| **h** | Se ha probado y documentado el código | El proyecto incluye tests unitarios con NUnit para lógica de negocio, tests de integración con SQLite In-Memory, y tests E2E con Playwright. Además, el código usa **XMLDoc** en todos los métodos públicos: resúmenes (summary) que explican qué hace cada método, parámetros y valor de retorno. Esto permite generar documentación automática y aparece en IntelliSense. La documentación adicional está en la carpeta doc/. |
+| **h** | Se ha probado y documentado el código | El proyecto incluye tests unitarios con NUnit para lógica de negocio, tests de integración con SQLite In-Memory, y tests E2E con Playwright. Además, el código usa XMLDoc en todos los métodos públicos: resúmenes (summary) que explican qué hace cada método, parámetros y valor de retorno. Esto permite generar documentación automática y aparece en IntelliSense. La documentación adicional está en la carpeta doc/. |
 
 ::: tip
 El proyecto cubre este RA con separación total de responsabilidades: la lógica de negocio está en servicios separados, las vistas solo presentan datos, y todo se conecta mediante inyección de dependencias. Los tests unitarios con NUnit prueban cada servicio de forma aislada, los tests E2E con Playwright prueban flujos completos, y XMLDoc documenta cada método público. Esto es exactamente lo que se espera en un proyecto profesional.
 :::
 
-::: tip
-XMLDoc no es solo "comentarios". Es el estándar de documentación en .NET. Cuando escribes `///` antes de un método, obtienes IntelliSense automatic en otros proyectos que referencien el tuyo. En clase insisto: "Si otro desarrollador tiene que abrir tu código para entender qué hace tu método, la documentación ha fallado".
-:::
 
 ---
 
@@ -518,21 +515,21 @@ Crear y consumir APIs RESTful es tan importante que merece su propio proyecto de
 ---
 
 ### RA8: Genera páginas web dinámicas analizando y utilizando tecnologías y frameworks del servidor web que añadan código al lenguaje de marcas.
-
-Aquí es donde el proyecto brilla: Blazor Server permite interactividad sin JavaScript.
-
+ 
+Este resultado se trabaja con las tres tecnologías del proyecto: MVC, Razor Pages y Blazor Server, todas ellas generan código que se mezcla con el lenguaje de marcas (HTML) en el servidor.
+ 
 | CE | Descripción | Cómo se trabaja en WalaDaw |
 |----|-------------|---------------------------|
-| **a** | Se han identificado las diferencias entre la ejecución de código en el servidor y en el cliente web | Blazor Server ejecuta C# en servidor, solo envía HTML/JS al cliente. Los alumnos ven la diferencia con Razor tradicional. |
-| **b** | Se han reconocido las ventajas de unir ambas tecnologías en el proceso de desarrollo de programas | Blazor permite interactividad sin escribir JavaScript, pero usando la misma lógica de servidor. |
-| **c** | Se han identificado las tecnologías y frameworks relacionadas con la generación por parte del servidor de páginas web con guiones embebidos | Blazor Server, SignalR para comunicación en tiempo real. |
-| **d** | Se han utilizado estas tecnologías y frameworks para generar páginas web que incluyan interacción con el usuario | Filtros de productos en tiempo real, componentes interactivos que reaccionan sin recargar. |
-| **e** | Se han utilizado estas tecnologías y frameworks, para generar páginas web que incluyan verificación de formularios | Validación en cliente con DataAnnotations, componentes Blazor con EditForm. |
-| **f** | Se han utilizado estas tecnologías y frameworks para generar páginas web que incluyan modificación dinámica de su contenido y su estructura | Actualización del carrito sin recargar la página, notificaciones en tiempo real. |
-| **g** | Se han aplicado estas tecnologías y frameworks en la programación de aplicaciones web | El proyecto usa componentes Blazor para partes de la interfaz: dashboard, gestión de productos. |
-
+| **a** | Se han identificado las diferencias entre la ejecución de código en el servidor y en el cliente web | En MVC y Razor Pages, el código C# se ejecuta en el servidor y genera HTML que se envía al cliente. En Blazor Server, aunque hay interactividad, el código C# sigue ejecutándose en el servidor mediante SignalR. |
+| **b** | Se han reconocido las ventajas de unir ambas tecnologías en el proceso de desarrollo de programas | Las tres tecnologías permiten combinar HTML con C# en el mismo archivo (.cshtml para MVC/Razor, .razor para Blazor), facilitando el desarrollo de páginas dinámicas. |
+| **c** | Se han identificado las tecnologías y frameworks relacionadas con la generación por parte del servidor de páginas web con guiones embebidos | ASP.NET Core MVC (vistas Razor), Razor Pages y Blazor Server son las tecnologías utilizadas para generar páginas web con código embebido en el lenguaje de marcas. |
+| **d** | Se han utilizado estas tecnologías y frameworks para generar páginas web que incluyan interacción con el usuario | En MVC y Razor Pages se usa JavaScript/jQuery para interactividad; en Blazor Server se usan componentes C# que actualizan la UI sin recargar la página (ej: filtros de productos). |
+| **e** | Se han utilizado estas tecnologías y frameworks, para generar páginas web que incluyan verificación de formularios | Las tres tecnologías usan DataAnnotations para validación: en MVC y Razor Pages con atributos en los modelos, en Blazor Server con EditForm y Validations. |
+| **f** | Se han utilizado estas tecnologías y frameworks para generar páginas web que incluyan modificación dinámica de su contenido y su estructura | En MVC/Razor Pages se logra mediante AJAX o form submissions; en Blazor Server mediante actualizaciones de estado en componentes que se reflejan en la UI. |
+| **g** | Se han aplicado estas tecnologías y frameworks en la programación de aplicaciones web | El proyecto usa MVC para el catálogo de productos, Razor Pages para páginas informativas, y Blazor Server para el dashboard de admin. |
+ 
 ::: tip
-Blazor Server es la tecnología estrella de este proyecto para este RA. Permite crear interactividad sin escribir JavaScript: componentes que se actualizan solos, filtros en tiempo real, dashboard con gráficos, notificaciones push. El servidor mantiene un "circuito" con el navegador y le envía actualizaciones automáticas.
+En este RA, los alumnos experimentan cómo las tres tecnologías (MVC, Razor Pages y Blazor Server) permiten generar páginas web dinámicas al mezclar código C# con HTML. Cada una tiene sus ventajas: MVC ofrece separación clara de responsabilidades, Razor Pages es ideal para páginas centradas en la vista, y Blazor Server permite interactividad rica sin escribir JavaScript. La elección depende del caso de uso específico.
 :::
 
 ---
@@ -587,4 +584,4 @@ El módulo de Desarrollo Web en Entornos Servidor no es solo "aprender ASP.NET".
 
 ---
 
-*¿Qué aspecto del desarrollo web en entorno servidor te gustaría que profundizáramos en próximos artículos? Deja tu comentario.*? Deja tu comentario.*
+*¿Qué aspecto del desarrollo web en entorno servidor te gustaría que profundizáramos en próximos artículos? Deja tu comentario.*
