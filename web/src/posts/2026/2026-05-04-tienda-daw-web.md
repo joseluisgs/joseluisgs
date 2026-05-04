@@ -33,6 +33,12 @@ Como profesor del ciclo de DAW, me gusta que el alumnado trabaje con proyectos c
 
 <!-- more -->
 
+::: warning Una aclaración importante
+Este proyecto es **código de aprendizaje, no código de producción**. No pretende ser un sistema real de comercio electrónico. Es un ejemplo didáctico que muestra cómo aplicar las tecnologías del currículo de DWES. 
+
+**Los fallos son intencionados**: forman parte del aprendizaje. Un alumno que solo ve código "perfecto" no aprende a detectar problemas. En clase analizamos estos "fallos" y discutimos cómo mejorarían en un sistema real.
+:::
+
 Imaginad a Víctor, un alumno de 2º DAW que en marzo está buscando empresa. Tiene su CV con las prácticas en empresa, pero necesita algo que le diferencie. Cuando muestra este proyecto en una entrevista técnica, no solo demuestra que sabe hacer un CRUD: demuestra que entiende **arquitectura**, **testing**, **seguridad** y **tiempo real**. Eso es lo que marca la diferencia.
 
 En esta serie de post vamos a mostrar distintos proyectos que he desarrollado para mis clases, cada uno con un enfoque diferente. Este es el primero, y uno de los que más me gusta. ¡Vamos allá!
@@ -99,7 +105,7 @@ El feedback en clase no es "corregir errores". Es un diálogo donde analizamos q
 
 4. **Pueden partir de aquí**: Los alumnos pueden tomar este proyecto como base para sus propios trabajos. Les ahorro el "desde cero" y les reto a mejorarlo.
 
-5. **Errores controlados**: En un sistema real, un error puede tener consecuencias graves. En aprendizaje, los errores son oro. Este proyecto tiene fallos intentionalmente placed para que los detecten y aprendan a evitarlos.
+5. **Errores controlados**: En un sistema real, un error puede tener consecuencias graves. En aprendizaje, los errores son oro. Este proyecto tiene fallos para que los detecten y aprendan a evitarlos.
 
 ::: tip
 En FP no tenemos tiempo de hacer "la teoría primero y la práctica después". El ABP funde ambas: aprendes la teoría cuando la necesitas para avanzar. Eso es lo que pasa en el mundo real, y eso es lo que preparamos.
@@ -115,12 +121,6 @@ En mi metodología para **DWES (Desarrollo Web en Entornos Servidor)**, divido e
 **WalaDaw** es el puente entre ambos bloques, demostrando la versatilidad de **.NET** para dominar ambas etapas con un único lenguaje: C#, aunque se centra sobre todo en la segunda parte: la construcción de la interfaz con MVC, Razor Pages y Blazor Server, es decir, páginas web dinámicas con distintas tecnologías.
 
 Si quieres ver el proyecto en acción, échale un vistazo al **[demo en Render](https://tiendadawweb-netcore.onrender.com/)**. Y si te interesa el código, todo está en **[GitHub](https://github.com/joseluisgs/TiendaDawWeb-NetCore)**.
-
-::: warning Una aclaración importante
-Este proyecto es **código de aprendizaje, no código de producción**. No pretende ser un sistema real de comercio electrónico. Es un ejemplo didáctico que muestra cómo aplicar las tecnologías del currículo de DWES. 
-
-**Los fallos son intencionados**: forman parte del aprendizaje. Un alumno que solo ve código "perfecto" no aprende a detectar problemas. En clase analizamos estos "fallos" y discutimos cómo mejorarían en un sistema real.
-:::
 
 ## Tecnología: .NET
 
@@ -509,10 +509,10 @@ Este RA se trabaja con Entity Framework Core y SQLite In-Memory. Los alumnos apr
 
 > ⚠️ **Este resultado de aprendizaje NO se cubre en este proyecto**.
 
-Crear y consumir APIs RESTful es tan importante que merece su propio proyecto dedicado. WalaDaw se centra en la parte de "páginas web dinámicas", pero los servicios web los trataremos en otro proyecto: **TiendaDawApi**, una API RESTful completa que consumirá este proyecto y que servirá como ejemplo de cómo crear y documentar APIs profesionales.
+Crear y consumir APIs RESTful es tan importante que merece su propio proyecto dedicado. WalaDaw se centra en la parte de "páginas web dinámicas", pero los servicios web los trataremos en otro proyecto: **TiendaDawApi-NetCore** ([GitHub](https://github.com/joseluisgs/TiendaDawApi-NetCore)), en ellos nos centramos en el desarrollo de servicios, apis RESTful, WebSockets, GraphQL, autenticación con JWT, documentación con Swagger, y testing de APIs, etc.
 
 ::: tip
-¿Por qué un proyecto dedicado a APIs? Porque en el mercado actual, las APIs son fundamentales. Un desarrollador que sabe hacer páginas pero no sabe crear y consumir APIs está a medias. Por eso dedicamos un proyecto entero a esto.
+¿Por qué un proyecto dedicado a APIs? Porque en el mercado actual, las APIs son fundamentales. Un desarrollador que sabe hacer páginas pero no sabe crear y consumir APIs está a medias. Por eso dedicamos un proyecto entero a esto. Desde mi punto de vista, es tan importante como el desarrollo de páginas web dinámicas o más en el contexto actual del desarrollo web.
 :::
 
 ---
