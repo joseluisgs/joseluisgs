@@ -42,7 +42,7 @@ Este proyecto es **código de aprendizaje, no código de producción**. No prete
 
 Imaginad a Víctor, un alumno de 2º DAW que en marzo está buscando empresa. Tiene su CV con las prácticas en empresa, pero necesita algo que le diferencie. Cuando muestra este proyecto en una entrevista técnica, no solo demuestra que sabe hacer un CRUD: demuestra que entiende **arquitectura**, **testing**, **seguridad** y **tiempo real**. Eso es lo que marca la diferencia.
 
-En esta serie de post vamos a mostrar distintos proyectos que he desarrollado para mis clases, cada uno con un enfoque diferente. Este es el primero, y uno de los que más me gusta. ¡Vamos allá!
+En esta serie de artículos vamos a mostrar distintos proyectos que he desarrollado para mis clases, cada uno con un enfoque diferente. Este es el primero, y uno de los que más me gusta. ¡Vamos allá!
 
 ## Aprendizaje Basado en Proyectos: Por qué este enfoque
 
@@ -98,7 +98,7 @@ El feedback en clase no es "corregir errores". Es un diálogo donde analizamos q
 
 ### ¿Qué aporta este proyecto como ejemplo?
 
-1. **Es real, no artificial**: No es un ejercicio fabricado artificialmente para aprender "el tema 3". Es una aplicación que funciona, con datos que se persistentes, usuarios que se registran, carritos que funcionan.
+1. **Es real, no artificial**: No es un ejercicio fabricado artificialmente para aprender "el tema 3". Es una aplicación que funciona, con datos persistentes, usuarios que se registran, carritos que funcionan.
 
 2. **Cada tecnología tiene su momento**: Cuando enseño MVC, el alumno ve por qué existe. Cuando llega Blazor, entiende qué problema resuelve. No son palabras vacías.
 
@@ -151,7 +151,7 @@ El patrón **Model-View-Controller** es la aproximación más conocida. Separa c
 
 ### 2. Razor Pages: La agilidad centrada en página
 
-**Razor Pages** agrupa la lógica y la vista en el mismo archivo. Es como si cada página fosse "su propia mini-app".
+**Razor Pages** agrupa la lógica y la vista en el mismo archivo. Es como si cada página fuera "su propia mini-app".
 
 **¿Cuándo usarlo?** Para páginas más independientes (sobre nosotros, contacto, políticas). Reduce el "boilerplate" y es más rápido de desarrollar.
 
@@ -258,7 +258,7 @@ En desarrollo web, la seguridad no es opcional. Cualquier aplicación que maneje
 
 En clase explico la diferencia así: los **roles** son como el carnet de identidad (admin, usuario, moderador), y los **claims** son como los datos de ese carnet (nombre, email, preferencias).
 
-- **Roles**: Para control de acceso grosso ("solo los admins pueden entrar aquí")
+- **Roles**: Para control de acceso general ("solo los admins pueden entrar aquí")
 - **Claims**: Para información específica ("mostrar solo los pedidos de este usuario")
 
 En la práctica se usan ambos: `[Authorize(Roles = "ADMIN")]` para proteger rutas, y claims para personalizar la experiencia.
@@ -267,7 +267,7 @@ En la práctica se usan ambos: `[Authorize(Roles = "ADMIN")]` para proteger ruta
 
 Identity usa **BCrypt** por defecto, que incluye salt automático. En clase explico: no es lo mismo que cifrar. El hash es unidireccional: puedes convertir "password123" en un hash, pero no puedes recuperar "password123" a partir del hash. Se guarda el hash, nunca la contraseña. Cuando el usuario inicia sesión, se hashea lo que escribe y se compara con el hash guardado. Si coincide, acceso concedido.
 
-Además, BCrypt es adaptive: permite aumentar el coste computacional con el tiempo. Esto significa que un ataque de fuerza bruta se vuelve cada vez más lento y costoso. Los sitios que usan BCrypt hace 10 años pueden aumentar el "work factor" y seguir protegidos.
+Además, BCrypt es adaptive: permite aumentar el coste computacional con el tiempo. Esto significa que un ataque de fuerza bruta se vuelve cada vez más lento y costoso. Los sitios que usan BCrypt desde hace 10 años pueden aumentar el "work factor" y seguir protegidos.
 
 ::: tip
 La seguridad en FP suele parecer "aburrida". Pero este proyecto hace que sea tangible: cada feature de Identity protege algo real. Los alumnos ven el resultado. "Si no pongo [Authorize], cualquiera entra al dashboard" - y lo ven funcionando.
@@ -370,7 +370,7 @@ Los alumnos analizan qué aporta cada framework y cuándo usarlo.
 Aquí es donde **Blazor Server** brilla. No es necesario escribir JavaScript para tener interactividad: los componentes Blazor actualizan el contenido sin recargar la página. Los filtros de productos, el carrito reactivo, el dashboard con gráficos en tiempo real son ejemplos de esto.
 
 ::: tip
-Estas líneas de actuación no son apartados teóricos. Cada una se trabaja en clase mientras los alunos trabajan en el proyecto. No aprenden "sobre" interactividad: la implementan con Blazor.
+Estas líneas de actuación no son apartados teóricos. Cada una se trabaja en clase mientras los alumnos trabajan en el proyecto. No aprenden "sobre" interactividad: la implementan con Blazor.
 :::
 
 ---
