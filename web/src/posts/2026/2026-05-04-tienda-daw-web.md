@@ -35,14 +35,14 @@ Como profesor del ciclo de DAW, me gusta que el alumnado trabaje con proyectos c
 <!-- more -->
 
 ::: warning Una aclaración importante
-Este proyecto es **código de aprendizaje, no código de producción**. No pretende ser un sistema real de comercio electrónico. Es un ejemplo didáctico que muestra cómo aplicar las tecnologías del currículo de DWES. 
+Este proyecto es **código de aprendizaje, no código de producción**. No pretende ser un sistema real de comercio electrónico. Es un ejemplo didáctico que muestra cómo aplicar las tecnologías del currículo de DWES (Desarrollo Web en Entornos Servidor). 
 
 **Los fallos son intencionados**: forman parte del aprendizaje. Un alumno que solo ve código "perfecto" no aprende a detectar problemas. En clase analizamos estos "fallos" y discutimos cómo mejorarían en un sistema real.
 :::
 
-Imaginad a Víctor, un alumno de 2º DAW que en marzo está buscando empresa. Tiene su CV con las prácticas en empresa, pero necesita algo que le diferencie. Cuando muestra este proyecto en una entrevista técnica, no solo demuestra que sabe hacer un CRUD: demuestra que entiende **arquitectura**, **testing**, **seguridad** y **tiempo real**. Eso es lo que marca la diferencia.
+Imaginad a Víctor, un alumno de 2º DAW que en marzo está buscando empresa. Tiene su CV con las prácticas en empresa, pero necesita algo que le diferencie. Cuando muestra este tipo de proyectos en una entrevista técnica, no solo demuestra que sabe hacer un CRUD: demuestra que entiende **arquitectura**, **testing**, **seguridad** y **tiempo real**. Eso es lo que marca la diferencia.
 
-En esta serie de artículos vamos a mostrar distintos proyectos que he desarrollado para mis clases, cada uno con un enfoque diferente. Este es el primero, y uno de los que más me gusta. ¡Vamos allá!
+En esta serie de artículos vamos a mostrar distintos proyectos que he desarrollado para en nuestras clases, cada uno con un enfoque diferente. Este es el primero, y uno de los que más me gusta. ¡Vamos allá!
 
 ## Aprendizaje Basado en Proyectos: Por qué este enfoque
 
@@ -50,15 +50,16 @@ Antes de nada, quiero explicar por qué hago esto. No soy fan de las clases dond
 
 El **Aprendizaje Basado en Proyectos (ABP)** consiste en eso: aprender haciendo un proyecto real, con problemas reales, donde las tecnologías se usan porque son necesarias, no porque yo lo diga.
 
-### Mi metodología en clase
+### Metodología en clase
 
-Así funciona una sesión típica conmigo:
+Así funciona una sesión típica de nuestra clase de DWES:
 
 1. **Planteo un problema**: "Necesitamos que el usuario pueda filtrar productos por categoría sin recargar la página"
-2. **Exploramos soluciones**: ¿Ajax? ¿JavaScript puro? ¿Blazor?
+2. **Exploramos soluciones**: ¿MVC o Razor Pages? ¿Qué permisos necesita el usuario?
 3. **Implementamos**: Los alumnos trabajan en su copia del proyecto
 4. **Revisamos**: Analizamos qué ha funcionado y qué no
 5. **Mejoramos**: Entre todos buscamos una solución mejor
+6. **Repetimos**: Se plantea un nuevo proyecto similar que deben resolver en equipos, con sus sprints de planificación, desarrollo y revisión
 
 No soy el que tiene todas las respuestas. Soy el que guía el proceso.
 
@@ -100,7 +101,7 @@ El feedback en clase no es "corregir errores". Es un diálogo donde analizamos q
 
 1. **Es real, no artificial**: No es un ejercicio fabricado artificialmente para aprender "el tema 3". Es una aplicación que funciona, con datos persistentes, usuarios que se registran, carritos que funcionan.
 
-2. **Cada tecnología tiene su momento**: Cuando enseño MVC, el alumno ve por qué existe. Cuando llega Blazor, entiende qué problema resuelve. No son palabras vacías.
+2. **Cada tecnología tiene su momento**: Cuando enseño MVC, el alumno ve por qué existe. Analizamos las diferencias con Razor Pages. Cuando llega Blazor, entiende qué problema resuelve. No son palabras vacías.
 
 3. **Sirve como apuntes**: El código del proyecto es el mejor material de estudio. No hace falta mis transparencias cuando tienes el proyecto completo con todo documentado en el repositorio.
 
@@ -114,10 +115,11 @@ En FP no tenemos tiempo de hacer "la teoría primero y la práctica después". E
 
 ## Estructura del módulo DWES
 
-En mi metodología para **DWES (Desarrollo Web en Entornos Servidor)**, divido el curso en dos grandes bloques:
+Cuando imparto **DWES (Desarrollo Web en Entornos Servidor)**, divido el curso en dos grandes bloques:
 
-1.  **Bloque de Servicios y APIs**: Nos centramos en la lógica de negocio, el acceso a datos y los servicios RESTful.
-2.  **Bloque de Páginas Web Dinámicas**: Recuperamos esa lógica y le damos vida mediante distintas tecnologías de renderizado.
+1.  **Bloque de Fundamentos**: Programación asíncrona y reactiva, consumo de servicios, seguridad, testing, acceso a datos, arquitectura de software y patrones de diseño.
+2.  **Bloque de Servicios y APIs**: Nos centramos en la lógica de negocio, el acceso a datos y los servicios web.
+3.  **Bloque de Páginas Web Dinámicas**: Recuperamos parte de esa lógica y le damos vida mediante distintas tecnologías de renderizado.
 
 **WalaDaw** es el puente entre ambos bloques, demostrando la versatilidad de **.NET** para dominar ambas etapas con un único lenguaje: C#, aunque se centra sobre todo en la segunda parte: la construcción de la interfaz con MVC, Razor Pages y Blazor Server, es decir, páginas web dinámicas con distintas tecnologías.
 
@@ -125,8 +127,9 @@ Si quieres ver el proyecto en acción, échale un vistazo al **[demo en Render](
 
 ## Tecnología: .NET
 
-Este proyecto usa **.NET**, la versión más reciente. ¿Por qué? Ofrece un ecosistema completo para desarrollo web, con herramientas de primera clase para cada capa:
-- **Backend**: ASP.NET Core con MVC, Razor Pages y Blazor Server
+Este proyecto usa **.NET**. ¿Por qué? Ofrece un ecosistema completo para desarrollo web, con herramientas de primera clase para cada capa:
+- **Backend**: Con acceso a servicios, lógica de negocio, seguridad y datos, caché, y más.
+- **Frontend**: Con MVC, Razor Pages y Blazor Server para interfaces dinámicas.
 - **Data Access**: Entity Framework Core con SQLite In-Memory
 - **Testing**: NUnit para unit e integración, bUnit para componentes Blazor, Playwright para E2E
 - **Contenerización**: Docker para desarrollo y despliegue
@@ -136,7 +139,7 @@ Este proyecto usa **.NET**, la versión más reciente. ¿Por qué? Ofrece un eco
 
 Lo que hace especial a este proyecto es su **arquitectura híbrida**: comparte el núcleo (servicios, repositorios, modelos) pero despliega tres aproximaciones distintas para la interfaz.
 
-En clase, explico esto así: "Imaginad que vais a construir una casa. Podéis usar ladrillo, bloques de hormigón o madera. Cada material tiene sus ventajas. Un buen arquitecto sabe cuándo usar cada uno. Aquí pasa igual: MVC, Razor y Blazor son herramientas diferentes para problemas diferentes."
+En clase, usamos esta metáfora: "Imaginad que vais a construir una casa. Podéis usar ladrillo, bloques de hormigón o madera. Cada material tiene sus ventajas. Un buen arquitecto sabe cuándo usar cada uno. Aquí pasa igual: MVC, Razor y Blazor son herramientas diferentes para problemas diferentes."
 
 ### 1. ASP.NET Core MVC: La separación clásica
 
@@ -146,28 +149,20 @@ El patrón **Model-View-Controller** es la aproximación más conocida. Separa c
 - **View**: Lo que ve el usuario (vistas Razor)
 - **Controller**: Coordina todo, recibe peticiones y decide qué devolver
 
-**¿Cuándo usarlo?** Cuando necesitas una estructura clara para aplicaciones grandes y empresariales. Enseña al alumno a pensar en términos de responsabilidades.
+**¿Cuándo usarlo?** Cuando necesitas una estructura clara para aplicaciones grandes y empresariales. Enseña al alumno a pensar en términos de responsabilidades. O quieres hacer una aplicación que devuelva una página o una API según la petición o recursos disponibles.
 
 
 ### 2. Razor Pages: La agilidad centrada en página
 
 **Razor Pages** agrupa la lógica y la vista en el mismo archivo. Es como si cada página fuera "su propia mini-app".
 
-**¿Cuándo usarlo?** Para páginas más independientes (sobre nosotros, contacto, políticas). Reduce el "boilerplate" y es más rápido de desarrollar.
-
-Mi truco: Uso Razor Pages para las páginas "estáticas con dinamismo" - las que apenas necesitan lógica pero necesitan datos (aviso legal con datos de empresa, página de contacto con horarios).
+**¿Cuándo usarlo?** Cuando la página es relativamente simple y no necesita mucha lógica, pero sí datos dinámicos. Es ideal para páginas de contenido, formularios sencillos, o cualquier cosa que no requiera la complejidad de MVC.
 
 ### 3. Blazor Server: La interactividad en tiempo real
 
 Aquí está el salto cualitativo. **Blazor Server** permite escribir componentes interactivos **todo en C#** - nada de JavaScript. Usa **SignalR** para comunicación en tiempo real entre el navegador y el servidor.
 
-**¿Qué aporta?**
-- Filtros de productos que se actualizan sin recargar
-- Dashboard de admin con gráficos en vivo
-- Notificaciones push del servidor
-
-
-La primera vez que pongo un ejemplo de Blazor en clase, los alumnos se quedan mirando. "¿Esto es JavaScript?" - "No, es C#. El servidor está ejecutando código C# en el navegador del usuario". Hay un momento de confusión, luego de interés, luego de "¿esto funciona de verdad?". Y sí, funciona.
+**¿Cuándo usarlo?** Cuando necesitas interactividad sin recargar la página, pero quieres evitar JavaScript. Es perfecto para dashboards, filtros dinámicos, carritos de compra reactivos, y cualquier cosa que se beneficie de actualizaciones en tiempo real.
 
 ::: tip
 Blazor no es "JavaScript hecho en C#". Es una forma diferente de pensar: el servidor mantiene una conexión con el navegador y envía actualizaciones. Eso tiene implicaciones importantes en seguridad y rendimiento.
@@ -220,19 +215,14 @@ Un proyecto "de referencia" no puede fallar. La suite de pruebas incluye:
 | **3** | Component   | bUnit (para Blazor) |
 | **4** | E2E         | Playwright          |
 
-### ¿Qué es Playwright y por qué es importante?
+### ¿Por qué es importante asegurar la calidad con testing?
 
-En clase explico Playwright así: "Unit tests prueban funciones sueltas. Los tests E2E prueban como un usuario real: abre el navegador, hace clic, navega, rellena formularios." Playwright hace exactamente eso: automatiza un navegador real (Chrome, Firefox, Safari) y simula interacciones de usuario.
+En clase lo vemos de la siguiente manera: "Unit tests prueban funciones sueltas. Los tests E2E prueban como un usuario real: abre el navegador, hace clic, navega, rellena formularios." Playwright hace exactamente eso: automatiza un navegador real (Chrome, Firefox, Safari) y simula interacciones de usuario.
 
-**¿Por qué es importante?**
+**¿Por qué es importante ver E2E?**
 - **Prueba lo que el usuario ve**: No basta con que el código funcione; el usuario debe poder usarlo. Playwright detecta problemas visuales y de interacción que los tests unitarios no ven.
 - **Detecta regresiones**: Si cambias algo y rompes algo, Playwright lo detecta antes de que el usuario lo vea.
 - **Automatización real**: Es lo mismo que hacen las herramientas de integración continua (CI/CD). Si funciona en Playwright, funciona en producción.
-
-**En el proyecto:**
-- Tests de login: ¿el usuario puede iniciar sesión?
-- Tests de navegación: ¿los menús funcionan?
-- Tests de carrito: ¿se añaden productos correctamente?
 
 ::: tip
 Enseñar testing no es solo "saber escribir tests". Es entender la pirámide: muchos tests pequeños y rápidos (unit), algunos de integración, y muy pocos E2E (lentos). Los unit tests se ejecutan en milisegundos, los E2E pueden tardar minutos. Por eso la pirámide tiene muchos abajo y pocos arriba.
@@ -252,35 +242,20 @@ El proyecto implementa **ASP.NET Core Identity** con:
 
 ### Por qué la seguridad es clave en DWES
 
-En desarrollo web, la seguridad no es opcional. Cualquier aplicación que maneje datos de usuarios necesita protección. Pero en FP suele costar vender esto. "¿Por qué necesito seguridad si hago una tienda de libros?" - Les dejo probar a hacer un panel de admin sin protección y en 5 minutos tienen un desastre: cualquier usuario puede entrar, borrar lo que quiere, ver datos de otros. Entonces lo entienden.
+En desarrollo web, la seguridad no es opcional. Cualquier aplicación que maneje datos de usuarios necesita protección. Pero en FP suele costar vender esto. "¿Por qué necesito seguridad si hago una tienda de libros?". Basta con que usemos un panel de admin sin protección y en 5 minutos se vee el desastre: cualquier usuario puede entrar, borrar lo que quiere, ver datos de otros.
 
 ### Roles vs Claims: ¿cuándo usar cada uno?
 
-En clase explico la diferencia así: los **roles** son como el carnet de identidad (admin, usuario, moderador), y los **claims** son como los datos de ese carnet (nombre, email, preferencias).
+Los **roles** son como el carnet de identidad (admin, usuario, moderador), y los **claims** son como los datos de ese carnet (nombre, email, preferencias).
 
 - **Roles**: Para control de acceso general ("solo los admins pueden entrar aquí")
 - **Claims**: Para información específica ("mostrar solo los pedidos de este usuario")
 
 En la práctica se usan ambos: `[Authorize(Roles = "ADMIN")]` para proteger rutas, y claims para personalizar la experiencia.
 
-### Password hashing
-
-Identity usa **BCrypt** por defecto, que incluye salt automático. En clase explico: no es lo mismo que cifrar. El hash es unidireccional: puedes convertir "password123" en un hash, pero no puedes recuperar "password123" a partir del hash. Se guarda el hash, nunca la contraseña. Cuando el usuario inicia sesión, se hashea lo que escribe y se compara con el hash guardado. Si coincide, acceso concedido.
-
-Además, BCrypt es adaptive: permite aumentar el coste computacional con el tiempo. Esto significa que un ataque de fuerza bruta se vuelve cada vez más lento y costoso. Los sitios que usan BCrypt desde hace 10 años pueden aumentar el "work factor" y seguir protegidos.
-
 ::: tip
-La seguridad en FP suele parecer "aburrida". Pero este proyecto hace que sea tangible: cada feature de Identity protege algo real. Los alumnos ven el resultado. "Si no pongo [Authorize], cualquiera entra al dashboard" - y lo ven funcionando.
+La seguridad en FP suele parecer "aburrida". Pero este proyecto hace que sea tangible: cada funcionalidad de Identity protege algo real. Los alumnos ven el resultado. "Si no pongo [Authorize], cualquiera entra al dashboard" - y lo ven funcionando.
 :::
-
-## Persistencia con SQLite In-Memory
-
-Usamos **SQLite In-Memory** para desarrollo y testing:
-
-- Sin instalación: no necesitas MySQL ni PostgreSQL
-- Base de datos volátil: ideal para demostraciones y pruebas
-- Todo en RAM: rendimiento máximo
-- Transacciones reales con Entity Framework Core
 
 ## Docker y Despliegue
 
@@ -310,7 +285,7 @@ El repositorio de GitHub no es solo donde se guarda el código. Es:
 El proyecto está desplegado en **[Render](https://tiendadawweb-netcore.onrender.com/)** y el código disponible en **[GitHub](https://github.com/joseluisgs/TiendaDawWeb-NetCore)**.
 
 ::: tip
-En clase les digo: "Tu GitHub es tu CV técnico. Un repositorio ordenado, con commits claros y buena documentación dice mucho de ti como profesional."
+Nunca olvides: "Tu GitHub es tu CV técnico. Un repositorio ordenado, con commits claros y buena documentación dice mucho de ti como profesional."
 :::
 
 ## CI/CD con GitHub Actions
@@ -319,7 +294,7 @@ Cada vez que alguien hace un push a la rama principal, pasa esto:
 
 1. **Se ejecutan los tests**: NUnit, bUnit y Playwright
 2. **Si pasan**: Se construye la aplicación
-3. **Si la build funciona**: Se despliega automáticamente en Render
+3. **Si la build funciona**: Se despliega automáticamente. Si algo falla, se notifica al equipo para que lo arregle.
 
 Esto cierra el ciclo de vida profesional del software. Los alumnos ven cómo se trabaja en el mundo real: el código no se sube "a mano", se automatiza todo.
 
@@ -346,11 +321,11 @@ Las vistas Razor (.cshtml) son el ejemplo perfecto: HTML con código C# embebido
 
 ### 3. Análisis, diferenciación y clasificación de características y funcionalidades de entornos y lenguajes de programación de servidores web
 
-El proyecto usa **.NET 10 con C#** como único lenguaje para servidor y cliente (Blazor). Los alumnos ven que pueden hacer todo - desde controladores hasta componentes interactivos - con el mismo lenguaje. Esto les ayuda a entender las ventajas de un ecosistema integrado.
+El proyecto usa **.NET con C#** como único lenguaje para servidor y cliente. Los alumnos ven que pueden hacer todo - desde controladores hasta componentes interactivos - con el mismo lenguaje. Esto les ayuda a entender las ventajas de un ecosistema integrado.
 
 ### 4. Utilización de características y funcionalidades específicas de los lenguajes de programación seleccionados
 
-C# en este proyecto usa características modernas: sintaxis moderna con type safety, LINQ para consultas, async/await para operaciones asíncronas, patrón MVC con inyección de dependencias. Los alumnos no solo aprenden la teoría, usan estas características en código real.
+C# en este proyecto usa características modernas: sintaxis moderna con seguridad de tipos y manejo de nulos, LINQ para consultas, async/await para operaciones asíncronas, patrón MVC con inyección de dependencias. Los alumnos no solo aprenden la teoría, usan estas características en código real.
 
 ### 5. Modificación del código existente y análisis de datos en soluciones web heterogéneas para su adaptación a entornos específicos
 
@@ -369,15 +344,11 @@ Los alumnos analizan qué aporta cada framework y cuándo usarlo.
 
 Aquí es donde **Blazor Server** brilla. No es necesario escribir JavaScript para tener interactividad: los componentes Blazor actualizan el contenido sin recargar la página. Los filtros de productos, el carrito reactivo, el dashboard con gráficos en tiempo real son ejemplos de esto.
 
-::: tip
-Estas líneas de actuación no son apartados teóricos. Cada una se trabaja en clase mientras los alumnos trabajan en el proyecto. No aprenden "sobre" interactividad: la implementan con Blazor.
-:::
-
 ---
 
 ## Análisis Curricular (Módulo 0613)
 
-El proyecto está diseñado para cubrir casi el 100% del currículo del módulo de Desarrollo de Aplicaciones Web en Entorno Servidor. Pero, ¿qué significa esto en la práctica? Aquí te explico cada resultado de aprendizaje y cómo se trabaja en el proyecto.
+El proyecto está diseñado para cubrir casi el 100% del currículo del módulo de Desarrollo de Aplicaciones Web en Entorno Servidor. Pero, ¿qué significa esto en la práctica? Aquí te explico cada resultado de aprendizaje y cómo se trabaja en el proyecto. De hecho, parte del núcleo de conocimientos de este proyecto es compartido con otros realizados durante el curso, sobretodo la parte del "back".
 
 ---
 
@@ -391,9 +362,9 @@ Este resultado aborda la comprensión de cómo funcionan las arquitecturas web. 
 | **b** | Se han reconocido las ventajas que proporciona la generación dinámica de páginas | Las páginas de productos muestran datos de la base de datos en tiempo real. No son HTML estático, se genera cada vez según los datos. |
 | **c** | Se han identificado los mecanismos de ejecución de código en los servidores web | El proyecto usa Kestrel como servidor. Los controladores reciben peticiones HTTP, procesan y devuelven respuestas. |
 | **d** | Se han reconocido las funcionalidades que aportan los servidores de aplicaciones y su integración con los servidores web | El proyecto se ejecuta sobre ASP.NET Core, que hace de servidor de aplicaciones integrándose con Kestrel. |
-| **e** | Se han identificado y caracterizado los principales lenguajes y tecnologías relacionados con la programación web en entorno servidor | C# como lenguaje principal, Razor como motor de plantillas, Blazor como framework. |
+| **e** | Se han identificado y caracterizado los principales lenguajes y tecnologías relacionados con la programación web en entorno servidor | C# como lenguaje principal, ASP.NET Core como framework, Razor como motor de plantillas. |
 | **f** | Se han verificado los mecanismos de integración de los lenguajes de marcas con los lenguajes de programación en entorno servidor | Las vistas Razor (HTML con código C# embebido) son el ejemplo perfecto. Etiquetas @model, @inject, @using. |
-| **g** | Se han reconocido y evaluado las herramientas y frameworks de programación en entorno servidor | Visual Studio, dotnet CLI, GitHub Actions, Docker. Las herramientas reales del mercado. |
+| **g** | Se han reconocido y evaluado las herramientas y frameworks de programación en entorno servidor | JetBrain Rider, dotnet CLI, GitHub Actions, Docker. Las herramientas reales del mercado. |
 
 ::: tip
 Este RA se cubre con la propia arquitectura del proyecto. Los alumnos pueden comparar el código fuente de una página (ver > código fuente) con las vistas Razor del proyecto, viendo la diferencia entre lo que se ejecuta en servidor y lo que llega al navegador. La arquitectura híbrida (MVC + Razor Pages + Blazor) permite ver distintos modelos de ejecución.
@@ -450,10 +421,10 @@ Aquí entran sesiones, cookies, autenticación y estado.
 |----|-------------|---------------------------|
 | **a** | Se han identificado los mecanismos disponibles para el mantenimiento de la información que concierne a un cliente web concreto y se han señalado sus ventajas | El carrito de la compra necesita recordar qué productos ha seleccionado el usuario. Se usa sesión. |
 | **b** | Se han utilizado mecanismos para mantener el estado de las aplicaciones web | Sesiones ASP.NET Core para el carrito, TempData para mensajes entre peticiones. |
-| **c** | Se han utilizado mecanismos para almacenar información en el cliente web y para recuperar su contenido | Cookies para preferencias de idioma, localStorage para consentimientos de cookies. |
-| **d** | Se han identificado y caracterizado los mecanismos disponibles para la autenticación de usuarios | ASP.NET Core Identity con cookies de autenticación. |
+| **c** | Se han utilizado mecanismos para almacenar información en el cliente web y para recuperar su contenido | Cookies para preferencias de idioma, sesiones y cookies para el carrito. |
+| **d** | Se han identificado y caracterizado los mecanismos disponibles para la autenticación de usuarios | ASP.NET Core Identity con sesiones/cookies de autenticación. |
 | **e** | Se han escrito aplicaciones que integren mecanismos de autenticación de usuarios | Todo el sistema de registro/login, protección de rutas con `[Authorize]`. |
-| **f** | Se han utilizado herramientas y entornos para facilitar la programación, prueba y depuración del código | Visual Studio depurador, herramientas de desarrollo del navegador, logs con Serilog. |
+| **f** | Se han utilizado herramientas y entornos para facilitar la programación, prueba y depuración del código | Depurador, herramientas de desarrollo del navegador, logs con Serilog, testing. |
 
 ::: tip
 El proyecto implementa todo el manejo de estado: sesiones para el carrito de compra, cookies para preferencias de idioma, TempData para mensajes entre peticiones, y ASP.NET Core Identity para autenticación. Los alumnos pueden ver cómo funciona cada mecanismo en un caso real y tangible.
@@ -467,13 +438,13 @@ El corazón del módulo: el patrón MVC, inyección de dependencias, testing.
 
 | CE | Descripción | Cómo se trabaja en WalaDaw |
 |----|-------------|---------------------------|
-| **a** | Se han identificado las ventajas de separar la lógica de negocio de los aspectos de presentación de la aplicación | El proyecto demuestra esto: servicios separados de las vistas, lógica de negocio en capa de servicios. |
+| **a** | Se han identificado las ventajas de separar la lógica de negocio de los aspectos de presentación de la aplicación | El proyecto demuestra esto: servicios separados de las vistas, lógica de negocio en capa de servicios compartida. |
 | **b** | Se han analizado y utilizado mecanismos y frameworks que permiten realizar esta separación y sus características principales | El propio ASP.NET Core MVC con su flujo de procesamiento, inyección de dependencias nativa. |
 | **c** | Se han utilizado objetos y controles en el servidor para generar el aspecto visual de la aplicación web en el cliente | Modelos de vista, Tag Helpers personalizados, Componentes de vista. |
 | **d** | Se han utilizado formularios generados de forma dinámica para responder a los eventos de la aplicación web | Formularios que se generan según datos de la base de datos, validación dinámica. |
-| **e** | Se han identificado y aplicado los parámetros relativos a la configuración de la aplicación web | appsettings.json, configuración de Identity, configuración de servicios en Startup/Program.cs. |
+| **e** | Se han identificado y aplicado los parámetros relativos a la configuración de la aplicación web | appsettings.json, configuración de Identity, configuración de servicios e infraestructuras en Startup/Program.cs. |
 | **f** | Se han escrito aplicaciones web con mantenimiento de estado y separación de la lógica de negocio | El proyecto completo: estado gestionado por sesiones, lógica en servicios separados. |
-| **g** | Se han aplicado los principios y patrones de diseño de la programación orientada a objetos | Clases, interfaces, herencia, encapsulamiento. Servicios que implementan interfaces. |
+| **g** | Se han aplicado los principios y patrones de diseño de la programación orientada a objetos | Clases, interfaces, herencia, encapsulamiento. Servicios que implementan interfaces. Patrones como Repository, Singleton, Factory o arquitectónicos como Clean Architecture o Onion Architecture. |
 | **h** | Se ha probado y documentado el código | El proyecto incluye tests unitarios con NUnit para lógica de negocio, tests de integración con SQLite In-Memory, y tests E2E con Playwright. Además, el código usa XMLDoc en todos los métodos públicos: resúmenes (summary) que explican qué hace cada método, parámetros y valor de retorno. Esto permite generar documentación automática y aparece en IntelliSense. La documentación adicional está en la carpeta doc/. |
 
 ::: tip
@@ -498,7 +469,7 @@ Entity Framework Core, consultas, transacciones, seguridad.
 | **g** | Se han probado y documentado las aplicaciones web | Tests de integración con SQLite In-Memory, documentación de Entity Framework. |
 
 ::: tip
-Este RA se trabaja con Entity Framework Core y SQLite In-Memory. Los alumnos aprenden a hacer consultas LINQ (filtros, ordenaciones, agrupaciones), relaciones entre entidades (uno a muchos, muchos a muchos), y transacciones. El dashboard de admin con gráficos es un ejemplo práctico de análisis de datos (Big Data a pequeña escala).
+Este RA se trabaja con Entity Framework Core. Los alumnos aprenden a hacer consultas LINQ (filtros, ordenaciones, agrupaciones), relaciones entre entidades (uno a muchos, muchos a muchos), y transacciones. El dashboard de admin con gráficos es un ejemplo práctico de análisis de datos (Big Data a pequeña escala).
 :::
 
 ---
@@ -551,7 +522,7 @@ Aquí entramos en librerías externas, Big Data básico, análisis.
 | **h** | Se han probado, depurado y documentado las aplicaciones generadas | Tests completos, código documentado, documentación del proyecto. |
 
 ::: tip
-El RA9.g es uno de los favoritos de los alumnos. Les encanta hacer el dashboard de admin con gráficos. Escriben consultas LINQ que agrupan datos (group by), hacen sumas, cuentan, ordenan. Luego lo pintan en gráficos con ApexCharts. No es "Big Data" de verdad, pero es la base: transformar datos en información útil.
+Este RA se cubre con la integración de librerías externas (Serilog, Blazor-ApexCharts), el análisis de datos para el dashboard de admin, y la reutilización de código en servicios y controladores. El proyecto muestra cómo aprovechar lo que ya existe para crear aplicaciones más ricas y funcionales.
 :::
 
 ## Librerías del Proyecto
@@ -560,13 +531,13 @@ Aparte de las tecnologías principales, el proyecto usa librerías que aportan v
 
 | Librería | Uso en el proyecto | Aportación didáctica |
 |----------|-------------------|---------------------|
-| **Serilog** | Registro de peticiones, errores y operaciones | Enseña logging estructurado, niveles, configuración por entorno. Cubierto en RA4.f |
+| **Serilog** | Registro de peticiones, errores y operaciones | Enseña logging estructurado, niveles, configuración por entorno |
 | **CSharpFunctionalExtensions** | Tipo `Result<T>` para manejar errores sin excepciones | Introduce programación funcional, código más testeable |
 | **MailKit** | Envío de correos de confirmación y notificaciones | Comprensión de SMTP, configuración por entorno |
 | **AspNetCoreRateLimit** | Limitación de peticiones para proteger el login | Seguridad práctica: previene ataques de fuerza bruta |
 | **SixLabors.ImageSharp** | Redimensionado de imágenes de productos | Procesamiento de archivos subidos por usuarios |
 | **QuestPDF** | Generación de facturas en PDF | Generación de documentos dinámicos con datos de BD |
-| **Blazor-ApexCharts** | Gráficos en el dashboard de admin | Cubierto en RA9.g: transformar datos en información visual |
+| **Blazor-ApexCharts** | Gráficos en el dashboard de admin | Transformación y análisis de datos en información visual |
 | **System.Reactive** | Flujos de datos reactivos entre componentes | Programación reactiva |
 
 ::: tip
@@ -575,7 +546,7 @@ No todas las librerías deben enseñarse a todos los alumnos. Usa las obligatori
 
 ## Documentación
 
-A lo largo del proyecto, cada commit incluye documentación técnica detallada. Desde la configuración de Docker hasta la implementación de Identity, cada paso está documentado en el repositorio en formato Markdown, con explicaciones claras y enlaces a recursos adicionales en el directorio `docs/`.
+A lo largo del proyecto, cada commit incluye documentación técnica detallada. Desde la configuración de Docker hasta la implementación de Identity, cada paso está documentado en el repositorio en formato Markdown, con explicaciones claras y enlaces a recursos adicionales en el directorio [`docs/`](https://github.com/joseluisgs/TiendaDawWeb-NetCore/tree/main/doc).
 
 ::: tip
 Estos documentos son apuntes vivos. No son solo para el proyecto, sino para que los alumnos los usen como referencia en sus propios proyectos. La documentación es parte del aprendizaje y la construimos juntos a medida que avanzamos.
@@ -583,7 +554,7 @@ Estos documentos son apuntes vivos. No son solo para el proyecto, sino para que 
 
 ## Reflexiones Finales
 
-Lo que más satisfacción me produce de este enfoque es ver cómo los alumnos pasan de "no sé qué es esto" a "esto lo sé aplicar". No aprenden tecnologías sueltas; aprenden a resolver problemas. Cuando un alumno puede explicar por qué usa Blazor en lugar de MVC para cierto caso, ha entendido algo que va más allá del código: ha aprendido a pensar como un desarrollador.
+Lo que más valor aporta este tipo de proyectos en el aula es pasar de "no sé qué es esto" a "esto lo sé aplicar". No aprenden tecnologías sueltas; aprenden a resolver problemas. Cuando un alumno puede explicar por qué usa Blazor en lugar de MVC para cierto caso, ha entendido algo que va más allá del código: ha aprendido a pensar como un desarrollador.
 
 Este proyecto no pretende ser perfecto. Tiene fallos intencionados para que los detecten. Porque en la vida profesional no siempre tendrán código limpio; tendrán que mantener código de otros, arreglar desastres, entender decisiones que no tienen sentido. Este proyecto los prepara para eso.
 
