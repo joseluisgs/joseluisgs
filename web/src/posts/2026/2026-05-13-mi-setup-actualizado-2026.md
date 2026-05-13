@@ -1,6 +1,6 @@
 ---
 title: "Mi Setup 2026: El equilibrio entre potencia, fluidez y docencia"
-description: "Así ha evolucionado mi entorno de trabajo y personal para este 2026"
+description: "De picar código en C# a pegar palos con la Yonex. Así ha evolucionado mi setup para este 2026"
 date: 2026-05-13
 category:
   - Blog
