@@ -140,7 +140,7 @@ La IA sigue siendo un pilar fundamental en mi día a día, pero su uso ha evoluc
 
 Para el alumnado, **NotebookLM** se ha convertido en una herramienta de estudio revolucionaria. Les permite subir mis apuntes o el código de los proyectos y generar resúmenes, guías de estudio o incluso podcasts explicativos. Es una manera increíble de profundizar en los conceptos complejos de .NET o arquitecturas limpias de forma personalizada.
 
-Además, he volcado mucho esfuerzo en mi **[canal de YouTube](https://www.youtube.com/@joseluisgs)**. He ido subiendo nuevos vídeos donde explico paso a paso todo este nuevo stack, desde cómo configurar Rider hasta el despliegue con Docker, integrando siempre consejos sobre cómo usar la IA de manera ética y productiva en el aula.
+Además, he volcado mucho esfuerzo en mi **[canal de YouTube](https://www.youtube.com/@joseluisgs)**. He ido resumiendo los apuntes del repositorio en vídeos cortos y podcasts. Es una forma de llegar a al alumnado de una manera más dinámica y accesible, complementando el material escrito con explicaciones visuales y auditivas. 
 
 ## Los clásicos que no fallan
 
