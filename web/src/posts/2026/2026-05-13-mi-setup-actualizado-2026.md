@@ -190,7 +190,7 @@ Mejores gráficos. La portabilidad sigue siendo el punto fuerte. Es el dispositi
 ![Nintendo Switch 2](https://i.blogs.es/c3c86a/nintendo-switch-2/500_333.jpeg)
 
 ::: info Mario Kart 🚗
-Lo mejor esta siendo las partidas de Mario Kart en compañía. ¡Lo mejor siempre es compartirlo y con quien lo haces!
+Lo mejor esta siendo las partidas de Mario Kart en compañía. ¡Lo mejor siempre es compartirlo y con quien lo haces! 🐥😏
 :::
 
 Por cierto, nunca juego en el ordenador (ya paso bastante tiempo en él), salvo ahora con el port de **The Legend of Zelda: Twilight Princess** que han hecho para Windows. Es una maravilla poder jugar a este título de nuevo con gráficos mejorados. ¡Nintendo a qué esperas para hacerlo tú oficialmente!
