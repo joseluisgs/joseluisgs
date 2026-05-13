@@ -148,6 +148,7 @@ Hay cosas que no cambian porque funcionan demasiado bien:
 - **Docker:** El estándar para aislar entornos. No se entiende el despliegue moderno sin contenedores.
 - **GitHub & Git:** Mi segunda casa y la de mis alumnos. Si no está en GitHub, no existe.
 - **GitKraken:** Sigue siendo mi superpoder para visualizar ramas cuando la cosa se pone fea. Un clásico que nunca falta en mi barra de tareas.
+- **VS Code:** Para proyectos rápidos o cuando quiero algo más ligero, sigue siendo mi editor de cabecera. 
 
 ::: info ¿Has visto la nueva web?
 Hablando de web, este año hemos actualizado el sitio a la **Versión 2.0**. VuePress 2, Vite y una arquitectura Jamstack/SSR que vuela. Tienes todos los detalles técnicos en **[este post](2026-04-20-nueva_version_web.md)**.
@@ -168,7 +169,7 @@ El cambio no ha sido muy drástico en cuanto a modelo, porque yo usaba una Yonex
 
 Este azul Yonex no es solo una elección estética para la pista. Es un color que transmite energía y precisión, y por eso decidí que debía ser el hilo conductor de mi presencia digital en 2026. Al final, tu setup es una extensión de tu personalidad, y el tenis es una parte fundamental de la mía.
 
-![Yonex Ezone 2025](https://tennisshopen.se/images/zoom/e988.jpg)
+![Yonex Ezone 2025](https://cdn.courtside.se/_files/productmedia/14036_50381.jpg)
 
 ### Música: La guitarra y el Quad Cortex
 Cuando no estoy frente a la pantalla, suelo estar con una guitarra entre las manos. Me encanta la guitarra y la tecnología que la rodea. He sustituido el Kemper por el **Neural DSP Quad Cortex Mini**. 
@@ -179,7 +180,7 @@ La capacidad de procesamiento de este Quad Cortex Mini es absurda para su tamañ
 
 La facilidad para crear "scenes" y cambiar entre ellas con un simple toque hace que centrarse en tocar sea lo único importante. Es como tener un estudio de grabación profesional que cabe en la funda de la guitarra. ¡Una auténtica locura tecnológica!
 
-![Neural DSP Quad Cortex](https://www.woodbrass.com/images/woodbrass/V1+MUSIFACTS+QCMINI.JPG?frz-v=218)
+![Neural DSP Quad Cortex](https://soundgale.com/wp-content/uploads/Neural-DSP-Quad-Cortex-mini-side-view-1024x632.webp)
 
 ### Gaming: Nintendo Switch 2
 La **Switch 2** es mi compañera ideal para esos ratos de desconexión total. Se nota el salto de potencia, y para los que viajamos o aprovechamos huecos entre clases, es una bendición. Es como pasar de un HDD a un SSD, ¡una vez que lo pruebas no puedes volver atrás!
