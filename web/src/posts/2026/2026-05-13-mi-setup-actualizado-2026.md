@@ -51,8 +51,8 @@ Este 2026 hemos consolidado una ruta pedagógica que permite al alumno evolucion
 ```mermaid
 timeline
     title Ruta Pedagógica C# (DAW)
-    1º Curso (Fundamentos) : Sintaxis Moderna (Top-level statements) : POO y Tipado Fuerte : LINQ Universal : Testing Unitario (NUnit)
-    2º Curso (Especialización) : ASP.NET Core MVC & Minimal APIs : Entity Framework Core (SQL/NoSQL) : Blazor (C# Fullstack) : Arquitecturas Limpias
+    1º Curso (Fundamentos) : Sintaxis Moderna (Top-level statements) : POO y Tipado Fuerte : Programación Funcional y Genéricos : Colecciones : LINQ Universal : Ficheros : Bases de Datos : Testing Unitario y Mocking (NUnit)
+    2º Curso (Especialización) : ASP.NET Core MVC & Minimal APIs : GraphQL : WebSockets y SignalR : Entity Framework Core (SQL/NoSQL) : Razor y Blazor (C# Fullstack) : Testing de Integración y End-to-End (Playwright) : Despliegue con Docker y CI/CD : Arquitectura Limpia y Buenas Prácticas
 ```
 
 1. **En 1º de DAW:** Nos centramos en los fundamentos. Gracias a los *Top-level statements*, eliminamos el ruido inicial y vamos directos a la lógica. El **tipado fuerte** de C# es nuestro mejor aliado para que el alumno entienda cómo fluyen los datos sin las ambigüedades de otros lenguajes.
@@ -93,6 +93,7 @@ Seguimos en Jetbrains. Los mejores IDEs. Mismo corazón, distinto lenguaje. Aunq
 Además de eso, Rider vuela. Es mucho más ligero en la gestión de proyectos grandes y su integración con Docker y las bases de datos (Datagrip vive dentro de él) hace que no tenga que salir del IDE para casi nada.
 
 ![JetBrains Rider](https://resources.jetbrains.com/storage/products/rider/img/meta/rider_logo_300x300.png)
+![JetBrains Rider](https://resources.jetbrains.com/help/img/rider/2026.1/linq_visualizer_popup.png)
 
 ## Documentación y Diseño: Mermaid como estándar
 
@@ -116,17 +117,29 @@ He pasado a **Bruno** para todo lo relacionado con el testeo de APIs. Es ligero,
 
 Además, su interfaz es tan limpia que hace que el proceso de testeo sea mucho más fluido, especialmente para los alumnos que están empezando a entender cómo funcionan las APIs REST. Es una herramienta que se integra perfectamente en el flujo de trabajo sin añadir complejidad. Su CLI también es un plus para automatizar pruebas o integrarlo en scripts de desarrollo.
 
-![Bruno API](https://raw.githubusercontent.com/usebruno/bruno/main/packages/bruno-app/public/logo.png)
+![Bruno API](https://www.usebruno.com/_next/image?url=%2Fbruno_app%2Fbruno-homepage.png&w=2048&q=75)
 
 ## Playwright: El nuevo estándar para testing de aplicaciones web
 
 En el ámbito del testing, he dado el salto a **Playwright** desde Cypress para las pruebas de integración y end-to-end. Es una herramienta que ha revolucionado la forma en que abordamos el testing de aplicaciones web, ofreciendo una experiencia mucho más fluida y potente que otras opciones como Selenium o Cypress. Playwright es compatible con múltiples navegadores (Chromium, Firefox y WebKit) y permite escribir pruebas en varios lenguajes, incluido C#, lo que lo hace ideal para nuestro stack. Además, su capacidad para manejar escenarios complejos de interacción con la interfaz de usuario y su integración con herramientas de CI/CD lo convierten en una opción imprescindible para garantizar la calidad de nuestras aplicaciones web.
 
+![Playwright](https://www.mm-software.com/fileadmin/user_upload/05_more-newsroom/blogbeitraege/mm-software-playwright.jpg)
+
 ## Warp: La terminal inteligente que me ha ganado
 
 Este año también he cambiado mi terminal por **Warp**. Es una terminal basada en GPU que incluye IA nativa para ayudarte con los comandos. Lo que más me gusta es cómo organiza la salida de los comandos en "bloques", permitiéndote copiar la salida de un comando o compartirlo de manera súper sencilla. Para dar clase es una maravilla, porque los alumnos ven claramente dónde empieza y termina cada ejecución. ¡Se acabó el scroll infinito buscando el principio de un log!
 
-![Warp Terminal](https://www.warp.dev/img/warp-logo.svg)
+Me ha encantado su enfoque en la productividad desde ver los repositorios, control de versiones, hasta la integración con herramientas de desarrollo. Es una terminal que no solo es rápida, sino que también te ayuda a ser más eficiente con sus sugerencias inteligentes. Para alguien que pasa tanto tiempo en la terminal, es un cambio de juego total.
+
+![Warp Terminal](https://www.omgubuntu.co.uk/wp-content/uploads/2024/02/warp-terminal-linux.jpg)
+
+## Ecosistema IA: De Copilot a NotebookLM
+
+La IA sigue siendo un pilar fundamental en mi día a día, pero su uso ha evolucionado. **GitHub Copilot** sigue siendo el estándar en el editor, pero este año la gran sorpresa ha sido **NotebookLM**.
+
+Para el alumnado, **NotebookLM** se ha convertido en una herramienta de estudio revolucionaria. Les permite subir mis apuntes o el código de los proyectos y generar resúmenes, guías de estudio o incluso podcasts explicativos. Es una manera increíble de profundizar en los conceptos complejos de .NET o arquitecturas limpias de forma personalizada.
+
+Además, he volcado mucho esfuerzo en mi **[canal de YouTube](https://www.youtube.com/@joseluisgs)**. He ido subiendo nuevos vídeos donde explico paso a paso todo este nuevo stack, desde cómo configurar Rider hasta el despliegue con Docker, integrando siempre consejos sobre cómo usar la IA de manera ética y productiva en el aula.
 
 ## Los clásicos que no fallan
 
@@ -154,25 +167,27 @@ El cambio no ha sido muy drástico en cuanto a modelo, porque yo usaba una Yonex
 
 Este azul Yonex no es solo una elección estética para la pista. Es un color que transmite energía y precisión, y por eso decidí que debía ser el hilo conductor de mi presencia digital en 2026. Al final, tu setup es una extensión de tu personalidad, y el tenis es una parte fundamental de la mía.
 
-![Yonex Ezone 2025](https://yonex.com/media/catalog/product/cache/2681432f7f9e8631b67f13955d5069f0/e/z/ezone_98_2024_01.png)
+![Yonex Ezone 2025](https://tennisshopen.se/images/zoom/e988.jpg)
 
 ### Música: La guitarra y el Quad Cortex
 Cuando no estoy frente a la pantalla, suelo estar con una guitarra entre las manos. Me encanta la guitarra y la tecnología que la rodea. He sustituido el Kemper por el **Neural DSP Quad Cortex Mini**. 
 
 ¡Qué barbaridad de bicho! Es increíble tener tanta potencia en un formato tan compacto. Soy de pantallas táctiles para editar rápidamente y este cacharro te deja hacerlo con una fluidez que aburre. He podido clonar mi equipo real o usar lo que ya hay en su nube, aparte de sus propias capturas y modelados que son crema pura. Si te descuidas, suena mejor que el amplificador real.
 
-La capacidad de procesamiento de este Quad Cortex Mini es absurda para su tamaño. Puedes encadenar amplificadores, efectos y capturas sin que el sistema pestañee. Además, la comunidad de Neural DSP es oro puro; siempre hay alguien que ha capturado ese amplificador boutique que tanto te gusta y lo ha compartido. Para un apasionado de la guitarra y la tecnología como yo, es el juguete definitivo.
+La capacidad de procesamiento de este Quad Cortex Mini es absurda para su tamaño. Puedes encadenar amplificadores, efectos y capturas sin que el sistema pestañee. Para un apasionado de la guitarra y la tecnología como yo, es el juguete definitivo.
 
-![Neural DSP Quad Cortex](https://neuraldsp.com/cdn/shop/files/QuadCortex_Top_01_1000x.png)
+La facilidad para crear "scenes" y cambiar entre ellas con un simple toque hace que centrarse en tocar sea lo único importante. Es como tener un estudio de grabación profesional que cabe en la funda de la guitarra. ¡Una auténtica locura tecnológica!
+
+![Neural DSP Quad Cortex](https://www.woodbrass.com/images/woodbrass/V1+MUSIFACTS+QCMINI.JPG?frz-v=218)
 
 ### Gaming: Nintendo Switch 2
 La **Switch 2** es mi compañera ideal para esos ratos de desconexión total. Se nota el salto de potencia, y para los que viajamos o aprovechamos huecos entre clases, es una bendición. Es como pasar de un HDD a un SSD, ¡una vez que lo pruebas no puedes volver atrás!
 
- La portabilidad sigue siendo el punto fuerte, pero ahora no tienes que sacrificar tanto detalle gráfico. Es el dispositivo perfecto para "limpiar el caché" mental después de una jornada intensa de depuración de código o de corregir prácticas de alumnos.
+Mejores gráficos. La portabilidad sigue siendo el punto fuerte. Es el dispositivo perfecto para "limpiar el caché" mental después de una jornada intensa de depuración de código o de corregir prácticas de alumnos. Además, la retrocompatibilidad me permite seguir disfrutando de mi biblioteca anterior, pero con tiempos de carga que parecen cosa de magia. De hecho, es lo que suelo usar cuando viajo, la PlayStation 5 se ha quedado en casa para esos momentos de gaming más "serio", porque además es demasiado grande y pesada para llevarla de un lado a otro.
 
- De hecho, es lo que suelo usar cuando viajo, la PlayStation se ha quedado en casa para esos momentos de gaming más "serio". 
+![Nintendo Switch 2](https://i.blogs.es/c3c86a/nintendo-switch-2/500_333.jpeg)
 
- Por cierto, nunca juego en el ordenador, salvo ahora con el port de **The Legend of Zelda: Twilight Princess** que han hecho para Windows. Es una maravilla poder jugar a este título de nuevo con gráficos mejorados. ¡Nintendo a qué esperas para hacerlo tú oficialmente!
+Por cierto, nunca juego en el ordenador (ya paso bastante tiempo en él), salvo ahora con el port de **The Legend of Zelda: Twilight Princess** que han hecho para Windows. Es una maravilla poder jugar a este título de nuevo con gráficos mejorados. ¡Nintendo a qué esperas para hacerlo tú oficialmente!
 
 
 ---
@@ -190,4 +205,4 @@ La vida avanza, la tecnología evoluciona, y aquí seguiremos, adaptándonos y d
 ---
 
 ### ¿Y tú?
-¿Cómo ha evolucionado tu setup este año? ¿Has sentido esa necesidad de simplificar o de adaptarte a nuevos estándares? ¡Hablemos en los comentarios!
+*¿Cómo ha evolucionado tu setup este año? ¿Has sentido esa necesidad de simplificar o de adaptarte a nuevos estándares?* 
