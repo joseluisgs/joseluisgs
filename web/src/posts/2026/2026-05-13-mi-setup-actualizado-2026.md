@@ -19,7 +19,7 @@ tag:
   - Warp
   - Playwright
 icon: fa-solid fa-laptop-code
-cover: https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2072
+cover: https://i.imgur.com/jK2hXyw.png
 
 comment: true
 sidebar: false
@@ -93,7 +93,8 @@ Seguimos en Jetbrains. Los mejores IDEs. Mismo corazón, distinto lenguaje. Aunq
 Además de eso, Rider vuela. Es mucho más ligero en la gestión de proyectos grandes y su integración con Docker y las bases de datos (Datagrip vive dentro de él) hace que no tenga que salir del IDE para casi nada.
 
 ![JetBrains Rider](https://resources.jetbrains.com/storage/products/rider/img/meta/rider_logo_300x300.png)
-![JetBrains Rider](https://resources.jetbrains.com/help/img/rider/2026.1/linq_visualizer_popup.png)
+
+![Depurando LINQ](https://resources.jetbrains.com/help/img/rider/2026.1/linq_visualizer_popup.png)
 
 ## Documentación y Diseño: Mermaid como estándar
 
@@ -115,7 +116,7 @@ graph TD
 
 He pasado a **Bruno** para todo lo relacionado con el testeo de APIs. Es ligero, de código abierto y sus colecciones son simples archivos en disco que puedo versionar en Git junto al proyecto. Sin nubes obligatorias ni registros innecesarios.
 
-Además, su interfaz es tan limpia que hace que el proceso de testeo sea mucho más fluido, especialmente para los alumnos que están empezando a entender cómo funcionan las APIs REST. Es una herramienta que se integra perfectamente en el flujo de trabajo sin añadir complejidad. Su CLI también es un plus para automatizar pruebas o integrarlo en scripts de desarrollo.
+Además, su interfaz es tan limpia que hace que el proceso de testeo sea mucho más fluido, especialmente para los alumnos que están empezando a entender cómo funcionan las APIs REST. Es una herramienta que se integra perfectamente en el flujo de trabajo sin añadir complejidad. Su CLI también es un plus para automatizar pruebas o integrarlo en scripts de desarrollo. De hecho, lo uso para probar APIs y generar documentación de mis APIs directamente desde el código, lo que es un win total en términos de mantenimiento y claridad.
 
 ![Bruno API](https://www.usebruno.com/_next/image?url=%2Fbruno_app%2Fbruno-homepage.png&w=2048&q=75)
 
@@ -172,7 +173,7 @@ Este azul Yonex no es solo una elección estética para la pista. Es un color qu
 ### Música: La guitarra y el Quad Cortex
 Cuando no estoy frente a la pantalla, suelo estar con una guitarra entre las manos. Me encanta la guitarra y la tecnología que la rodea. He sustituido el Kemper por el **Neural DSP Quad Cortex Mini**. 
 
-¡Qué barbaridad de bicho! Es increíble tener tanta potencia en un formato tan compacto. Soy de pantallas táctiles para editar rápidamente y este cacharro te deja hacerlo con una fluidez que aburre. He podido clonar mi equipo real o usar lo que ya hay en su nube, aparte de sus propias capturas y modelados que son crema pura. Si te descuidas, suena mejor que el amplificador real.
+¡Qué barbaridad de bicho! Es increíble tener tanta potencia en un formato tan compacto. Soy de pantallas táctiles para editar rápidamente y este cacharro te deja hacerlo con una fluidez que aburre. He podido clonar mi equipo real o usar lo que ya hay en su nube, aparte de sus propias capturas y modelados, que son crema pura. Si te descuidas, suena mejor que el amplificador real.
 
 La capacidad de procesamiento de este Quad Cortex Mini es absurda para su tamaño. Puedes encadenar amplificadores, efectos y capturas sin que el sistema pestañee. Para un apasionado de la guitarra y la tecnología como yo, es el juguete definitivo.
 
@@ -183,9 +184,13 @@ La facilidad para crear "scenes" y cambiar entre ellas con un simple toque hace 
 ### Gaming: Nintendo Switch 2
 La **Switch 2** es mi compañera ideal para esos ratos de desconexión total. Se nota el salto de potencia, y para los que viajamos o aprovechamos huecos entre clases, es una bendición. Es como pasar de un HDD a un SSD, ¡una vez que lo pruebas no puedes volver atrás!
 
-Mejores gráficos. La portabilidad sigue siendo el punto fuerte. Es el dispositivo perfecto para "limpiar el caché" mental después de una jornada intensa de depuración de código o de corregir prácticas de alumnos. Además, la retrocompatibilidad me permite seguir disfrutando de mi biblioteca anterior, pero con tiempos de carga que parecen cosa de magia. De hecho, es lo que suelo usar cuando viajo, la PlayStation 5 se ha quedado en casa para esos momentos de gaming más "serio", porque además es demasiado grande y pesada para llevarla de un lado a otro.
+Mejores gráficos. La portabilidad sigue siendo el punto fuerte. Es el dispositivo perfecto para "limpiar el caché" mental después de una jornada intensa de depuración de código o de corregir prácticas de alumnos. Además, la retrocompatibilidad me permite seguir disfrutando de mi biblioteca anterior, pero con tiempos de carga que parecen cosa de magia. De hecho, es lo que suelo usar cuando viajo; la PlayStation 5 se ha quedado en casa para esos momentos de gaming más "serio", porque además es demasiado grande y pesada para llevarla de un lado a otro.
 
 ![Nintendo Switch 2](https://i.blogs.es/c3c86a/nintendo-switch-2/500_333.jpeg)
+
+::: info Mario Kart 🚗
+Lo mejor esta siendo las partidas de Mario Kart en compañía. ¡Lo mejor siempre es compartirlo y con quien lo haces!
+:::
 
 Por cierto, nunca juego en el ordenador (ya paso bastante tiempo en él), salvo ahora con el port de **The Legend of Zelda: Twilight Princess** que han hecho para Windows. Es una maravilla poder jugar a este título de nuevo con gráficos mejorados. ¡Nintendo a qué esperas para hacerlo tú oficialmente!
 
