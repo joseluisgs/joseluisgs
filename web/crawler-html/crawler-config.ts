@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ['https://joseluisgs.dev/'],
   sitemaps: ['https://joseluisgs.dev/sitemap.xml'],
   ignoreCanonicalTo: false,
-  exclusionPatterns: [],
+  exclusionPatterns: ['**/*%22*'],
   discoveryPatterns: ['https://joseluisgs.dev/**'],
   schedule: 'at 02:00 every 1 day',
   actions: [
