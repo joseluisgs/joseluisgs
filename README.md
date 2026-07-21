@@ -98,6 +98,8 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Arquitectura de Datos: Por qué elegir mal tu base de datos puede costarte el éxito**](https://joseluisgs.dev/posts/2026/2026-07-20-arquitectura-datos-mal-enfoque.html) *20 Jul 2026* 
+
  - ✏️ [**Mi Setup 2026: El equilibrio entre potencia, fluidez y docencia**](https://joseluisgs.dev/posts/2026/2026-05-13-mi-setup-actualizado-2026.html) *13 May 2026* 
 
  - ✏️ [**Tienda Daw Web: Arquitectura Híbrida en .NET para DAW**](https://joseluisgs.dev/posts/2026/2026-05-04-tienda-daw-web.html) *4 May 2026* 
@@ -105,8 +107,6 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
  - ✏️ [**Mobile-First esa asignatura aún pendiente en la UX**](https://joseluisgs.dev/posts/2026/2026-04-23-ux-diseno-mobile-first-backend.html) *23 Apr 2026* 
 
  - ✏️ [**Nueva version de mi web**](https://joseluisgs.dev/posts/2026/2026-04-20-nueva_version_web.html) *20 Apr 2026* 
-
- - ✏️ [**José Luis González, PhD.**](https://joseluisgs.dev/info/personal.html) *17 Apr 2026* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
