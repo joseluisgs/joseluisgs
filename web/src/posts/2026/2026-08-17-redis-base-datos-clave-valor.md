@@ -14,7 +14,7 @@ tag:
 
 icon: fa-solid fa-database
 
-cover: https://i.imgur.com/fPgWTSo.jpg
+cover: https://i.imgur.com/zUutU5q.jpg
 
 comment: true
 sidebar: false
@@ -43,7 +43,7 @@ La diferencia con una base de datos tradicional es brutal: Redis opera en milise
 | Operaciones por segundo | 1.000-10.000 | 100.000-1.000.000 |
 | Latencia p99 | 50-200ms | < 1ms |
 
-Redis no guarda solo cadenas de texto. Tiene estructuras pensadas para problemas concretos: hashes para perfiles, listas para colas, conjuntos para tags, y sorted sets para rankings en tiempo real. Cada estructura es una herramienta distinta.
+Redis no guarda solo cadenas de texto. Tiene estructuras pensadas para problemas concretos: hashes para perfiles, listas para colas, conjuntos para etiquetas, y sorted sets para rankings en tiempo real. Cada estructura es una herramienta distinta.
 
 Pero lo verdaderamente interesante no es qué es Redis. Es lo que hace.
 
@@ -57,8 +57,8 @@ Cada usuario tiene su timeline cacheada como un Sorted Set con los 800 posts má
 
 | Métrica | Valor |
 |---------|-------|
-| Timeline updates/día | 30 billion |
-| Commands/segundo | 40M - 100M |
+| Actualizaciones de timeline/día | 30.000 millones |
+| Comandos/segundo | 40M - 100M |
 | IDs de timeline por usuario | 800 (máximo) |
 | Factor de replicación | 3x (tolerancia a fallos) |
 
@@ -100,7 +100,7 @@ Los likes se gestionan con contadores atómicos. Cada like ejecuta un `INCR` en 
 | Operación | Qué hace Redis | Frecuencia |
 |-----------|----------------|------------|
 | Like | Contador atómico con `INCR` | ~1M/día |
-| Story view | Registro único con HyperLogLog | ~500M/día |
+| Vista de Story | Registro único con HyperLogLog | ~500M/día |
 | Hashtag trending | Ranking ordenado con Sorted Set | ~100M/día |
 
 Lo fascinante es el caso de los hashtags trending. Instagram mantiene un Sorted Set por cada hashtag. Cuando publicas una foto con #sunset, Redis ordena tu foto por timestamp dentro de ese hashtag. Cuando alguien busca #sunset, Instagram ejecuta un `ZREVRANGE` y obtiene las fotos más recientes en milisegundos. Con millones de fotos publicadas al día, esto sería imposible sin Redis.
@@ -138,7 +138,7 @@ El caso más interesante es la homepage personalizada. Cada noche, Netflix calcu
 
 | Caso de uso | Qué hace Redis | Beneficio |
 |-------------|----------------|-----------|
-| Homepage personalizada | Pre-cómputo nocturno | Carga instantánea |
+| Homepage personalizada | Precomputo nocturno | Carga instantánea |
 | Catálogo de contenido | Caché del catálogo completo | Latencia sub-milisegundo |
 | Sesiones de reproducción | Datos temporales con TTL | Limpieza automática |
 | Strings de UI | Caché de textos e idiomas | Alta disponibilidad |
@@ -169,7 +169,7 @@ Discord usa Redis para caché de mensajes de chat: colores de usuario, badges, b
 
 Pero Discord descubrió algo sorprendente: el cuello de botella no era Redis. Era el disco.
 
-Redis estaba funcionando perfecto. La latencia de las operaciones en memoria era excellent. Pero cuando Redis necesitaba persistir datos en disco (para backups o recuperación), el disco era tan lento que bloqueaba todo.
+Redis estaba funcionando perfecto. La latencia de las operaciones en memoria era excelente. Pero cuando Redis necesitaba persistir datos en disco (para backups o recuperación), el disco era tan lento que bloqueaba todo.
 
 La solución fue "super-disk": Local SSD RAID0 combinado con Persistent Disk RAID1. Un sistema de disco híbrido que resolvía el problema de I/O sin cambiar Redis.
 
@@ -289,6 +289,8 @@ volumes:
   redis-data:
 ```
 
+Y lo arrancas con:
+
 ```bash
 docker-compose up -d
 redis-cli ping    # → PONG
@@ -300,7 +302,7 @@ Para desarrollo, Redis con Docker es perfecto. Para producción, considera servi
 
 ## Reflexión
 
-Redis no es una base de datos. Es una capa que resuelve problemas que aparecen cuando tu aplicación crece. Latencia, concurrencia, distribución. Problemas que no existen cuando tienes 100 usuarios, pero que te destruyen cuando tienes 100.000.
+Redis no es una base de datos. Es una capa que resuelve problemas que aparecen cuando tu aplicación crece. Latencia, concurrencia, distribución. Problemas que no existen cuando tienes 100 usuarios, pero que te destruyen cuando tienes 100.000 usuarios.
 
 Twitter procesa 100 millones de comandos por segundo en Redis. Instagram gestiona 500 millones de vistas de Stories al día. GitHub ejecuta rate limiting distribuido con Lua scripts. Netflix carga homepages personalizadas antes de que las pidas.
 
