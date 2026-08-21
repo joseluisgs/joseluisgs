@@ -26,13 +26,13 @@ footer: true
 
 Suena el «tu-tum». Abres Netflix. En menos de un segundo ves las recomendaciones, el Top 10 y el catálogo completo. Pulsas «Reproducir» en Stranger Things y el vídeo empieza a cargarse sin *buffering*. ¿Alguna vez te has preguntado qué pasa detrás de esos 200 milisegundos?
 
-No es magia. Son más de 6 servicios, 5 bases de datos y una infraestructura que cuesta más que el PIB de muchos países. Hoy quiero explicarte qué pasa cuando pulsas ese botón. Y por qué Netflix no es una empresa de televisión: es una empresa de datos.
+No es magia. Son más de 6 servicios, 5 bases de datos y una infraestructura que cuesta más que el PIB de muchos países. Hoy quiero explicarte qué pasa cuando pulsas ese botón. Y por qué Netflix no es una empresa de televisión: es una empresa de servicios y datos.
 
 <!-- more -->
 
 ## El «tu-tum»: 200 milisegundos de pura arquitectura
 
-Imagina a Marta. Viene de trabajar, se tira en el sofá y abre Netflix. En menos de un segundo ve las recomendaciones, el Top 10 y el catálogo completo. Pulsas «Reproducir» y el vídeo empieza a cargarse sin *buffering*. ¿Alguna vez te has preguntado qué pasa detrás de esos 200 milisegundos?
+Imagina a Marta. Viene de trabajar, se tira en el sofá y abre Netflix. En menos de un segundo ve las recomendaciones, el Top 10 y el catálogo completo. Pulsa «Reproducir» en Stranger Things y el vídeo empieza a cargarse sin *buffering*. ¿Alguna vez te has preguntado qué pasa detrás de esos 200 milisegundos?
 
 La respuesta está en la arquitectura de datos de Netflix. Cuando Marta pulsa «Reproducir», pasa esto:
 
@@ -74,6 +74,10 @@ Netflix tiene 260 millones de usuarios en más de 190 países. Genera 4 petabyte
 | Inversión en contenido | 17.000 millones USD | Cada dólar se optimiza con datos |
 
 Cada decisión que toma Netflix —qué serie producir, qué *thumbnail* mostrar, qué posición en el Top 10— se basa en análisis de datos a escala masiva. Netflix no es exitoso por usar Cassandra o Redis. Es exitoso por entender qué datos necesita y por qué.
+
+::: tip
+Dato *wow*: Netflix ejecuta más de 1.000 experimentos A/B simultáneos. Cada vez que ves un *thumbnail* diferente en un amigo, es porque Netflix está probando qué imagen genera más clics. Cada pixel se optimiza con datos.
+:::
 
 ## La arquitectura completa de Netflix
 
@@ -143,7 +147,7 @@ Como ves, no es un sistema monolítico. Cada componente tiene un rol específico
 
 ## El sueño del catálogo regional
 
-Viajas a Japón. Abres Netflix. ¿Ves lo mismo que en España? No. Friends puede tener solo 3 temporadas en Japón, mientras que en España está completa. El anime tiene un catálogo muchísimo más amplio. ¿Por qué?
+Viajas a Japón. Abres Netflix. ¿Ves lo mismo que en España? No. Puede que Friends solo tenga 3 temporadas allí, mientras que en España está completa. O que el anime tenga un catálogo muchísimo más amplio. ¿Por qué?
 
 Las licencias de contenido se negocian por región. Una serie puede estar completa en un país, pero solo parcial en otro. Cada país tiene su propia vista del catálogo. Netflix invierte 17.000 millones de dólares en contenido original adaptado a cada mercado: «La Casa de Papel» es español, «Sacred Games» es indio, «Dark» es alemán.
 
@@ -298,7 +302,7 @@ El modelo de datos en Cassandra se diseña por consulta, no por entidad. Cada ta
 
 ## Redis/EVCache: La velocidad
 
-Cuando Marta abre Netflix, en menos de 200 milisegundos ve las recomendaciones, el Top 10 y su historial. ¿Cómo es posible? Redis/EVCache reduce un 95 % las llamadas a Cassandra.
+Cuando Marta abre Netflix, en menos de 200 milisegundos ve las recomendaciones, el Top 10 y su historial. ¿Cómo es posible? Redis/EVCache reduce un 95 % las llamadas a Cassandra. Sin esa caché, Netflix necesitaría 20 veces más servidores de Cassandra, lo que supondría cientos de millones de dólares al año en infraestructura.
 
 | Dato | TTL | Por qué Redis |
 |------|-----|---------------|
@@ -380,7 +384,7 @@ Sin Open Connect, cada usuario tendría que descargar el vídeo desde un *data c
 
 ## Kafka: Los eventos en tiempo real
 
-Cada vez que Marta reproduce, pausa, salta o termina un vídeo, Netflix genera un evento. Estos eventos fluyen por Apache Kafka como un río de datos. Netflix genera **1 petabyte de datos de eventos al día**.
+Cada vez que Marta reproduce, pausa, salta o termina un vídeo, Netflix genera un evento. Estos eventos fluyen por Apache Kafka como un río de datos. Netflix genera **1 petabyte de datos de eventos al día**. Eso son unos 12.000 millones de eventos diarios, o lo que es lo mismo, más de 100.000 eventos por segundo en horario punta.
 
 ¿Para qué sirven estos eventos? Para tres cosas principales:
 
@@ -420,9 +424,9 @@ flowchart LR
 Kafka no es solo una cola de mensajes. Es un sistema de *streaming* persistente. Los eventos no se pierden nunca: puedes re-leerlos, re-procesarlos y analizarlos después. Netflix usa esto para entrenar modelos de recomendación con historial completo de reproducción.
 :::
 
-## Service Topology: El mapa en tiempo real
+## Service Topology: El mapa de tus microservicios
 
-Netflix tiene más de 1.000 microservicios. Cuando algo falla, necesitas saber qué servicios dependen de ese componente para estimar el impacto. Esto es **Service Topology**: un mapa en tiempo real de todas las dependencias.
+Si trabajas con microservicios, sabes que el mayor dolor de cabeza no es construir un servicio, sino entender qué pasa cuando algo falla. Netflix tiene más de 1.000 microservicios. Cuando algo cae, necesitas saber qué servicios dependen de ese componente para estimar el impacto. Esto es **Service Topology**: un mapa en tiempo real de todas las dependencias entre servicios.
 
 ```mermaid
 graph TB
