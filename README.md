@@ -98,6 +98,8 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**Netflix: Lo que pasa cuando pulsas &amp;apos;Reproducir&amp;apos;**](https://joseluisgs.dev/posts/2026/2026-08-24-netflix-arquitectura-datos.html) *24 Aug 2026* 
+
  - ✏️ [**Redis: La base de datos que no sabías que necesitabas**](https://joseluisgs.dev/posts/2026/2026-08-17-redis-base-datos-clave-valor.html) *17 Aug 2026* 
 
  - ✏️ [**Arquitectura de Datos: Por qué elegir mal tu base de datos puede costarte el éxito**](https://joseluisgs.dev/posts/2026/2026-07-20-arquitectura-datos-mal-enfoque.html) *20 Jul 2026* 
@@ -105,8 +107,6 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
  - ✏️ [**Mi Setup 2026: El equilibrio entre potencia, fluidez y docencia**](https://joseluisgs.dev/posts/2026/2026-05-13-mi-setup-actualizado-2026.html) *13 May 2026* 
 
  - ✏️ [**Tienda Daw Web: Arquitectura Híbrida en .NET para DAW**](https://joseluisgs.dev/posts/2026/2026-05-04-tienda-daw-web.html) *4 May 2026* 
-
- - ✏️ [**Mobile-First esa asignatura aún pendiente en la UX**](https://joseluisgs.dev/posts/2026/2026-04-23-ux-diseno-mobile-first-backend.html) *23 Apr 2026* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
