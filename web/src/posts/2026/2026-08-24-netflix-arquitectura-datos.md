@@ -9,8 +9,10 @@ tag:
   - Netflix
   - Arquitectura de Datos
   - Cassandra
-  - Redis
-  - MySQL
+  - EVCache
+  - Aurora PostgreSQL
+  - CockroachDB
+  - Elasticsearch
   - Kafka
   - CDN
   - Microservicios
@@ -41,10 +43,10 @@ flowchart TD
     A[Marta pulsa Reproducir] --> B[API Gateway]
     B --> C[Streaming Service]
     C --> D{¿Sesión válida?}
-    D -->|Redis| E[Sí, TTL 30 min]
+    D -->|EVCache| E[Sí, TTL 30 min]
     E --> F{¿Metadatos en caché?}
-    F -->|Redis| G[Cache hit ~1ms]
-    F -->|MongoDB| H[Cache miss ~10ms]
+    F -->|EVCache| G[Cache hit ~1ms]
+    F -->|Cassandra| H[Cache miss ~10ms]
     G --> I[Generar URL firmada]
     H --> I
     I --> J[Open Connect CDN ~5ms]
@@ -57,7 +59,7 @@ flowchart TD
 En menos de 200 milisegundos, Netflix verifica la sesión de Marta, busca los metadatos del vídeo, genera una URL firmada y la conecta al CDN más cercano. Todo esto mientras Marta se acomoda en el sofá.
 
 ::: tip
-¿Por qué tan rápido? Porque la mayor parte de los datos están en caché. Redis almacena sesiones, Top 10 y recomendaciones con latencia sub-milisegundo. Si tuviera que consultar Cassandra en cada petición, el «tu-tum» se convertiría en un «tu... tu... tu... tum».
+¿Por qué tan rápido? Porque la mayor parte de los datos están en caché. EVCache almacena sesiones, Top 10 y recomendaciones con latencia sub-milisegundo. Si tuviera que consultar Cassandra en cada petición, el «tu-tum» se convertiría en un «tu... tu... tu... tum».
 :::
 
 ## Netflix no es TV. Es datos
@@ -73,7 +75,7 @@ Netflix tiene 260 millones de usuarios en más de 190 países. Genera 4 petabyte
 | Peticiones/segundo (pico) | 100.000+ | Latencia sub-milisegundo obligatoria |
 | Inversión en contenido | 17.000 millones USD | Cada dólar se optimiza con datos |
 
-Cada decisión que toma Netflix —qué serie producir, qué *thumbnail* mostrar, qué posición en el Top 10— se basa en análisis de datos a escala masiva. Netflix no es exitoso por usar Cassandra o Redis. Es exitoso por entender qué datos necesita y por qué.
+Cada decisión que toma Netflix —qué serie producir, qué *thumbnail* mostrar, qué posición en el Top 10— se basa en análisis de datos a escala masiva. Netflix no es exitoso por usar Cassandra o EVCache. Es exitoso por entender qué datos necesita y por qué.
 
 ::: tip
 Dato *wow*: Netflix ejecuta más de 1.000 experimentos A/B simultáneos. Cada vez que ves un *thumbnail* diferente en un amigo, es porque Netflix está probando qué imagen genera más clics. Cada pixel se optimiza con datos.
@@ -106,10 +108,10 @@ graph TB
     end
 
     subgraph "Persistencia políglota"
-        MySQL[(MySQL\nPagos)]
-        Redis[(Redis\nSesiones/Caché)]
-        Mongo[(MongoDB\nCatálogo)]
-        Cass[(Cassandra\nHistorial)]
+        Aurora[(Aurora PostgreSQL\nPagos)]
+        Cockroach[(CockroachDB\nMulti-región)]
+        EVCache[(EVCache\nSesiones/Caché)]
+        Cass[(Cassandra\nHistorial/Catálogo)]
         ES[Elasticsearch\nBúsquedas]
     end
 
@@ -121,11 +123,10 @@ graph TB
 
     M & TV & W --> LB --> GW
     GW --> US & CS & SS & RS & Search & NS
-    US --> MySQL
-    US --> Redis
-    CS --> Mongo
+    US --> Aurora
+    US --> EVCache
     CS --> Cass
-    SS --> Redis
+    SS --> EVCache
     RS --> Cass
     Search --> ES
     SS --> CDN
@@ -133,9 +134,9 @@ graph TB
     NS --> Kafka
     Kafka --> RS
 
-    style MySQL fill:#4479A1,color:#fff
-    style Redis fill:#DC382D,color:#fff
-    style Mongo fill:#4DB33D,color:#fff
+    style Aurora fill:#4479A1,color:#fff
+    style Cockroach fill:#6933FF,color:#fff
+    style EVCache fill:#DC382D,color:#fff
     style Cass fill:#1287A8,color:#fff
     style ES fill:#FED10A,color:#000
     style Kafka fill:#231F20,color:#fff
@@ -172,36 +173,37 @@ flowchart LR
 Si Netflix usara una sola base de datos para todo el catálogo, tendría que verificar la disponibilidad regional en cada consulta. Con 260 millones de usuarios y miles de títulos, eso sería un cuello de botella imposible. Por eso usan Cassandra: permite réplicas por región con consistencia eventual.
 :::
 
-## Las 5 bases de datos de Netflix
+## Las bases de datos de Netflix
 
-Netflix usa lo que se llama **persistencia políglota**: cada tipo de dato se almacena en la tecnología que mejor se adapta a sus necesidades. No hay una base de datos que haga todo bien.
+Netflix usa lo que se llama **persistencia políglota**: cada tipo de dato se almacena en la tecnología que mejor se adapta a sus necesidades. No hay una base de datos que haga todo bien. De hecho, Netflix descartó MongoDB por su complejidad operativa: *«Consideramos y experimentamos con MongoDB, pero la sobrecarga operativa y la complejidad lo hacían ingobernable, así que nos apartamos rápidamente de él»* — Christos Kalantzis y Jason Brown, ingenieros de Netflix.
 
 | Tecnología | Componente | ¿Por qué? |
 |------------|------------|-----------|
-| **MySQL** | Pagos, facturación | Integridad referencial, transacciones ACID |
-| **Redis/EVCache** | Sesiones, caché, Top 10 | Latencia sub-milisegundo, expiración automática |
-| **MongoDB** | Catálogo de películas/series | Esquema flexible, documentos anidados |
+| **Aurora PostgreSQL** | Pagos, facturación | Integridad referencial, transacciones ACID |
+| **CockroachDB** | Transacciones multi-región | SQL global, ACID distribuido |
+| **EVCache (Memcached)** | Sesiones, caché, Top 10 | Latencia sub-milisegundo, expiración automática |
 | **Cassandra** | Historial, perfiles, catálogo distribuido | Escritura masiva, multi-región, consistencia eventual |
+| **Elasticsearch** | Búsqueda y descubrimiento | Índice invertido, búsqueda *fuzzy* |
 | **Kafka** | Eventos de reproducción en tiempo real | *Streaming* masivo, durabilidad, *replay* |
 
 **Analogía:** En tu cocina tienes un horno para asar, una freidora para freír, una encimera para cortar y un microondas para calentar rápido. No intentas hacer todo con una sola herramienta. Lo mismo ocurre con las bases de datos.
 
 ::: tip
-El patrón de persistencia políglota no es un defecto de diseño: es una decisión arquitectónica consciente. Si Netflix usara solo MySQL, las sesiones serían lentas. Si usara solo Redis, no tendría transacciones para pagos. Si usara solo Cassandra, el catálogo sería difícil de modelar. La combinación es la clave.
+El patrón de persistencia políglota no es un defecto de diseño: es una decisión arquitectónica consciente. Si Netflix usara solo Aurora PostgreSQL, las sesiones serían lentas. Si usara solo EVCache, no tendría transacciones ACID. Si usara solo Cassandra, las búsquedas serían lentas. La combinación es la clave.
 :::
 
 ## El buscador: ¿cómo localiza Netflix series tan rápido?
 
-Cuando Marta escribe «stren» en el buscador de Netflix, en menos de 100 milisegundos aparece «Stranger Things». ¿Cómo es posible? La respuesta está en **Elasticsearch**, un motor de búsqueda basado en índices invertidos, combinado con **Redis** para cachear las búsquedas más populares.
+Cuando Marta escribe «stren» en el buscador de Netflix, en menos de 100 milisegundos aparece «Stranger Things». ¿Cómo es posible? La respuesta está en **Elasticsearch**, un motor de búsqueda basado en índices invertidos, combinado con **EVCache** para cachear las búsquedas más populares.
 
 ```mermaid
 sequenceDiagram
     participant M as Marta
     participant API as API Gateway
-    participant R as Redis (Caché)
+    participant R as EVCache (Caché)
     participant Search as Search Service
     participant ES as Elasticsearch
-    participant Mongo as MongoDB (Catálogo)
+    participant Cass as Cassandra (Catálogo)
 
     M->>API: Buscar "stren"
     API->>R: ¿Búsqueda en caché?
@@ -211,8 +213,8 @@ sequenceDiagram
         API->>Search: Consulta de búsqueda
         Search->>ES: Query full-text + fuzzy
         ES-->>Search: IDs relevantes
-        Search->>Mongo: Metadatos de resultados
-        Mongo-->>Search: Títulos, imágenes, géneros
+        Search->>Cass: Metadatos de resultados
+        Cass-->>Search: Títulos, imágenes, géneros
         Search->>R: Guardar en caché (TTL 5 min)
         Search-->>API: Resultados enriquecidos
     end
@@ -228,42 +230,46 @@ Un **índice invertido** es como el índice al final de un libro: en lugar de bu
 | **Índice invertido** | Mapea cada término a los documentos que lo contienen | «thriller» → [Breaking Bad, Money Heist, Dark...] |
 | **Autocomplete (Trie)** | Árbol de prefijos para sugerencias en tiempo real | «stran» → «Stranger Things», «Stranded» |
 | **Búsqueda *fuzzy*** | Tolerancia a errores de escritura y tildes | «stren» → «Stranger Things» |
-| **Caché de búsquedas** | Redis almacena las consultas más populares | «netflix top 10» se cachea 5 min |
+| **Caché de búsquedas** | EVCache almacena las consultas más populares | «netflix top 10» se cachea 5 min |
 
 ### Por qué es tan rápido
 
-Elasticsearch no busca en los documentos: busca en el índice invertido, que es una estructura en memoria optimizada. Buscar «thriller» en 100.000 títulos con un índice invertido toma ~5 ms. Sin índice, tomaría varios segundos. Además, Redis cachea las búsquedas más populares, evitando incluso la consulta a Elasticsearch.
+Elasticsearch no busca en los documentos: busca en el índice invertido, que es una estructura en memoria optimizada. Buscar «thriller» en 100.000 títulos con un índice invertido toma ~5 ms. Sin índice, tomaría varios segundos. Además, EVCache cachea las búsquedas más populares, evitando incluso la consulta a Elasticsearch.
 
 ::: tip
-El truco del buscador de Netflix no es solo Elasticsearch. Es la combinación de índice invertido (búsqueda rápida), búsqueda *fuzzy* (tolerancia a errores) y caché Redis (respuestas instantáneas para consultas populares). Los tres juntos consiguen menos de 100 milisegundos.
+El truco del buscador de Netflix no es solo Elasticsearch. Es la combinación de índice invertido (búsqueda rápida), búsqueda *fuzzy* (tolerancia a errores) y caché EVCache (respuestas instantáneas para consultas populares). Los tres juntos consiguen menos de 100 milisegundos.
 :::
 
-## MySQL: Los pagos que no pueden fallar
+## Aurora PostgreSQL: Los pagos que no pueden fallar
 
-Cuando Marta cambia su plan de Básico a Premium, Netflix ejecuta una transacción ACID en MySQL. Si el pago falla, toda la operación se revierte. No hay margen para inconsistencias.
+Cuando Marta cambia su plan de Básico a Premium, Netflix ejecuta una transacción ACID en Aurora PostgreSQL. Si el pago falla, toda la operación se revierte. No hay margen para inconsistencias.
 
 ```mermaid
 sequenceDiagram
     participant M as Marta
     participant API as API Netflix
-    participant MySQL as MySQL (Pagos)
-    participant Redis as Redis (Sesión)
+    participant Aurora as Aurora PostgreSQL (Pagos)
+    participant EVCache as EVCache (Sesión)
     M->>API: Cambiar plan a Premium
-    API->>Redis: Verificar sesión
-    Redis-->>API: Sesión válida
-    API->>MySQL: START TRANSACTION
-    MySQL->>MySQL: INSERT pago (13,99 EUR)
-    MySQL->>MySQL: UPDATE usuario (plan=premium)
+    API->>EVCACHE: Verificar sesión
+    EVCache-->>API: Sesión válida
+    API->>Aurora: START TRANSACTION
+    Aurora->>Aurora: INSERT pago (13,99 EUR)
+    Aurora->>Aurora: UPDATE usuario (plan=premium)
     alt Todo OK
-        MySQL-->>API: COMMIT
+        Aurora-->>API: COMMIT
         API-->>M: Plan actualizado
     else Error
-        MySQL-->>API: ROLLBACK
+        Aurora-->>API: ROLLBACK
         API-->>M: Error en el pago
     end
 ```
 
-¿Por qué MySQL y no Cassandra? Porque Cassandra no tiene transacciones ACID completas. Si un pago falla a mitad de la operación en Cassandra, no puedes revertir todo de forma automática. Para datos financieros, la consistencia fuerte es innegociable.
+¿Por qué Aurora PostgreSQL y no Cassandra? Porque Cassandra no tiene transacciones ACID completas. Si un pago falla a mitad de la operación en Cassandra, no puedes revertir todo de forma automática. Para datos financieros, la consistencia fuerte es innegociable.
+
+::: tip
+Netflix también usa **CockroachDB** para transacciones multi-región que requieren ACID distribuido. Mientras Aurora PostgreSQL trabaja en una región, CockroachDB permite transacciones consistentes entre múltiples regiones. Son más de 100 *clusters* en producción.
+:::
 
 ## Cassandra: El historial masivo
 
@@ -300,14 +306,16 @@ Si un usuario en España busca «Stranger Things», la consulta se resuelve en E
 
 El modelo de datos en Cassandra se diseña por consulta, no por entidad. Cada tabla está desnormalizada para una *query* específica. Esto es lo opuesto a la normalización SQL, pero es lo correcto a escala masiva.
 
-## Redis/EVCache: La velocidad
+## EVCache: La velocidad
 
-Cuando Marta abre Netflix, en menos de 200 milisegundos ve las recomendaciones, el Top 10 y su historial. ¿Cómo es posible? Redis/EVCache reduce un 95 % las llamadas a Cassandra. Sin esa caché, Netflix necesitaría 20 veces más servidores de Cassandra, lo que supondría cientos de millones de dólares al año en infraestructura.
+Cuando Marta abre Netflix, en menos de 200 milisegundos ve las recomendaciones, el Top 10 y su historial. ¿Cómo es posible? **EVCache** reduce un 95 % las llamadas a Cassandra. Sin esa caché, Netflix necesitaría 20 veces más servidores de Cassandra, lo que supondría cientos de millones de dólares al año en infraestructura.
 
-| Dato | TTL | Por qué Redis |
-|------|-----|---------------|
+EVCache es un sistema de caché distribuido **basado en Memcached**, no en Redis. Aunque conceptualmente similar —ambas son cachés en memoria con expiración automática— EVCache está optimizado para el entorno de AWS de Netflix. La diferencia clave: Redis es un almacén de datos rico ( *strings*, *hashes*, *sorted sets*, *lists* ), mientras que Memcached/EVCache se centra en caché *key-value* simple con alta disponibilidad.
+
+| Dato | TTL | Por qué EVCache |
+|------|-----|------------------|
 | Sesiones de usuario | 30 minutos | Expiración automática, latencia sub-ms |
-| Top 10 por país | 5 minutos | Sorted Sets, lecturas ultrarrápidas |
+| Top 10 por país | 5 minutos | Lecturas ultrarrápidas |
 | Recomendaciones personalizadas | 15 minutos | Reduce carga en el motor de recomendaciones |
 | Detalles de perfil | 1 hora | Cachea información que cambia poco |
 
@@ -315,24 +323,24 @@ Cuando Marta abre Netflix, en menos de 200 milisegundos ve las recomendaciones, 
 sequenceDiagram
     participant M as Marta
     participant API as Netflix API
-    participant R as Redis/EVCache
+    participant EV as EVCache (Memcached)
     participant C as Cassandra
     M->>API: Abrir Netflix
-    API->>R: ¿Sesión válida?
-    R-->>API: Sí (TTL 30 min)
-    API->>R: ¿Top 10 en caché?
+    API->>EV: ¿Sesión válida?
+    EV-->>API: Sí (TTL 30 min)
+    API->>EV: ¿Top 10 en caché?
     alt Cache hit
-        R-->>API: Top 10 (latencia < 1ms)
+        EV-->>API: Top 10 (latencia < 1ms)
     else Cache miss
         API->>C: Consultar Top 10
         C-->>API: Resultado
-        API->>R: Guardar en caché (TTL 5 min)
+        API->>EV: Guardar en caché (TTL 5 min)
     end
     API-->>M: Catálogo listo (< 200ms)
 ```
 
 ::: tip
-EVCache es la extensión de Netflix basada en Memcached con extensiones Redis. Gestiona automáticamente la distribución de datos entre múltiples nodos y la replicación. Reduce un 95 % las llamadas a Cassandra, ahorrando millones de dólares en infraestructura.
+EVCache es la extensión de Netflix basada en Memcached con extensiones propias para replicación y tolerancia a fallos. Gestiona automáticamente la distribución de datos entre múltiples nodos. Reduce un 95 % las llamadas a Cassandra, ahorrando millones de dólares en infraestructura.
 :::
 
 ## Open Connect: El 90 % del tráfico
@@ -437,18 +445,18 @@ graph TB
         Catalog[Catalog Service]
         Recs[Recommendations]
         Player[Player Service]
-        MySQL[(MySQL)]
-        Redis[(Redis)]
+        Aurora[(Aurora PostgreSQL)]
+        EVCache[(EVCache)]
         Cassandra[(Cassandra)]
         API --> Auth
         API --> Billing
         API --> Catalog
         API --> Recs
         API --> Player
-        Auth --> Redis
-        Billing --> MySQL
+        Auth --> EVCache
+        Billing --> Aurora
         Catalog --> Cassandra
-        Recs --> Redis
+        Recs --> EVCache
         Player --> Cassandra
     end
     style API fill:#DC382D,color:#fff
@@ -457,12 +465,12 @@ graph TB
     style Catalog fill:#6c757d,color:#fff
     style Recs fill:#6c757d,color:#fff
     style Player fill:#6c757d,color:#fff
-    style MySQL fill:#00758F,color:#fff
-    style Redis fill:#DC382D,color:#fff
+    style Aurora fill:#4479A1,color:#fff
+    style EVCache fill:#DC382D,color:#fff
     style Cassandra fill:#1287A8,color:#fff
 ```
 
-Si Redis cae, Netflix sabe inmediatamente que 3 servicios se ven afectados: Auth, Recommendations y Player. Si Cassandra cae, son Catalog y Player. Esto permite estimar el **blast radius** de cada fallo.
+Si EVCache cae, Netflix sabe inmediatamente que 3 servicios se ven afectados: Auth, Recommendations y Player. Si Cassandra cae, son Catalog y Player. Esto permite estimar el **blast radius** de cada fallo.
 
 ::: warning
 Sin Service Topology, cuando un servicio falla, los ingenieros tendrían que revisar manualmente qué dependencias tiene. Con 1.000+ microservicios, eso puede tardar horas. Con el mapa en tiempo real, el impacto se evalúa en segundos.
@@ -470,12 +478,12 @@ Sin Service Topology, cuando un servicio falla, los ingenieros tendrían que rev
 
 ## Reflexión: Netflix como referencia
 
-Netflix no inventó Cassandra, Redis ni Kafka. Lo que hizo fue entender que cada problema tiene una solución técnica adecuada. Y que la combinación correcta de tecnologías es más poderosa que cualquier herramienta individual.
+Netflix no inventó Cassandra, EVCache ni Kafka. Lo que hizo fue entender que cada problema tiene una solución técnica adecuada. Y que la combinación correcta de tecnologías es más poderosa que cualquier herramienta individual.
 
 | Lección | Aplicación en Netflix |
 |---------|----------------------|
-| Persistencia políglota | 5+ bases de datos, cada una para un uso específico |
-| Caché agresivo | Redis/EVCache reduce 95 % las llamadas a Cassandra |
+| Persistencia políglota | 6+ tecnologías, cada una para un uso específico |
+| Caché agresivo | EVCache reduce 95 % las llamadas a Cassandra |
 | CDN en el borde | 90 % del tráfico se sirve desde Open Connect |
 | Eventos en tiempo real | Kafka procesa 1 PB/día para recomendaciones y analítica |
 | Topología de servicios | 1.000+ microservicios con mapa de dependencias en tiempo real |
