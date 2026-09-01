@@ -197,8 +197,8 @@ export default hopeTheme({
       hostname: 'https://joseluisgs.dev',
       author: {
         name: 'José Luis González Sánchez',
+        email: 'joseluis@joseluisgs.dev',
       },
-      filter: (page) => !page.path.includes('404'),
     },
 
     sitemap: {
