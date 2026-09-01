@@ -49,4 +49,4 @@ jobs:
           repository-name: joseluisgs/joseluisgs.github.io
           branch: main
           folder: web/src/.vuepress/dist
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.GH_PAGES_TOKEN }}
