@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: 'https://joseluisgs.github.io/rss'
           date_format: 'd mmm yyyy'
