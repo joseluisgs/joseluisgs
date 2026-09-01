@@ -44,9 +44,9 @@ jobs:
           touch src/.vuepress/dist/.nojekyll
 
       - name: 📤 Deploy to GitHub Pages (joseluisgs.github.io)
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          repository-name: joseluisgs/joseluisgs.github.io
-          branch: main
-          folder: web/src/.vuepress/dist
-          token: ${{ secrets.GH_PAGES_TOKEN }}
+          external_repository: joseluisgs/joseluisgs.github.io
+          publish_branch: main
+          publish_dir: web/src/.vuepress/dist
+          github_token: ${{ secrets.GH_PAGES_TOKEN }}
