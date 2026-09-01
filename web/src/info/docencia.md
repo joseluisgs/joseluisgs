@@ -47,8 +47,6 @@ Actualmente, mi labor docente se desarrolla en el ciclo de Grado Superior en Des
 - Programación: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
 - Entornos de Desarrollo: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
 - Desarrollo Web en Entornos Servidor: 2.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
-- Despliegue de Aplicaciones Web: 2.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
-
 
 Además, suelo impartir o he impartido en otras ocasiones:
 - Programación de 1.º de DAM/DAW.
