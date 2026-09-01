@@ -49,4 +49,4 @@ jobs:
           external_repository: joseluisgs/joseluisgs.github.io
           publish_branch: main
           publish_dir: web/src/.vuepress/dist
-          github_token: ${{ secrets.GH_PAGES_TOKEN }}
+          personal_token: ${{ secrets.GH_PAGES_TOKEN }}
