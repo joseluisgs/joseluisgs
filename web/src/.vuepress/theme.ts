@@ -199,6 +199,7 @@ export default hopeTheme({
         name: 'José Luis González Sánchez',
         email: 'joseluis@joseluisgs.dev',
       },
+      filter: (page) => !page.path.includes('404'),
     },
 
     sitemap: {
