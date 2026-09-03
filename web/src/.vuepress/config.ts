@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   lang: "es-ES",
   title: "José Luis González",
-  description: "Web personal de José Luis González Sánchez - Profesor en DAW, DAM y formador certificado",
+  description: "Web personal de José Luis González Sánchez - Profesor de Desarrollo de Software en FP y Universidad",
 
   cleanUrls: true,
 
@@ -52,7 +52,7 @@ export default defineUserConfig({
       {
         name: "keywords",
         content:
-          "Profesor Informática, FP, Ciclos Formativos, Cursos de Especialización, Formador Kotlin Certificación JetBrains, Desarrollador Full Stack, Docente Desarrollo Web, C# .NET, ASP.NET Core, Blazor, Entity Framework Core, Programación Orientada Objetos, POO, Testing Unitarios, TDD, Docker, Microservicios, REST API, JWT, Clean Code, SOLID, GitHub, Leganés Madrid, DAW Desarrollo Aplicaciones Web, DAM Desarrollo Aplicaciones Multiplataforma, ASIR Administración Sistemas Informáticos Redes, SMR Sistemas Microinformáticos Redes, Formación Profesional, Instituto IES Luis Vives, Instructor Certificado JetBrains, Instructor GitHub Campus Advisor, Doctor en Informática",
+          "Profesor Informática, FP, Ciclos Formativos, Cursos de Especialización, Formador Kotlin Certificación JetBrains, Desarrollador Full Stack, Backend, Docente Desarrollo Web, C# .NET, ASP.NET Core, Blazor, Entity Framework Core, Programación Orientada Objetos, POO, Testing Unitarios, TDD, Docker, Microservicios, REST API, JWT, Clean Code, SOLID, GitHub, Leganés Madrid, DAW Desarrollo Aplicaciones Web, DAM Desarrollo Aplicaciones Multiplataforma, Formación Profesional, Instituto IES Luis Vives, Universidad Carlos III de Madrid, UC3M, Profesor Universidad, Grado Informática, Desarrollo de Software, Arquitectura de Datos, Doctor en Informática",
       },
     ],
 
