@@ -8,8 +8,7 @@ export default defineUserConfig({
 
   lang: "es-ES",
   title: "José Luis González",
-  description: "Web personal de José Luis González Sánchez - Profesor de Desarrollo de Software en FP y Universidad",
-
+  description: "Web personal de José Luis González Sánchez - Profesor de Desarrollo de Software en Ciclos Formativos de FP y Universidad",
   cleanUrls: true,
 
   shouldPrefetch: false,
