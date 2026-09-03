@@ -46,4 +46,4 @@ José Luis González Sánchez
 
 🔗 GitHub: https://github.com/joseluisgs
 
-📍 I.E.S. Luis Vives, Leganés, Madrid, España
+📍 Leganés, Madrid, España
