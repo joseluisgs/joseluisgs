@@ -25,9 +25,30 @@ Siempre me he considerado una persona inquieta y con gran curiosidad, por lo que
 <!-- more -->
 
 ## Perfil investigador
-A nivel investigador, mi especialidad es el campo de la [Interacción Persona-Ordenador](https://es.wikipedia.org/wiki/Interacci%C3%B3n_persona-computadora) y el desarrollo de software, siempre centrados en la calidad y la mejora de la experiencia interactiva. Además, he profundizado en sistemas interactivos de ocio electrónico. Me gusta experimentar con nuevos dispositivos y tecnologías, y aplicarlas a casos concretos donde he desarrollado proyectos para distintos organismos y empresas.
+Mi campo de investigación es la [Interacción Persona-Ordenador](https://es.wikipedia.org/wiki/Interacci%C3%B3n_persona-computadora), con un enfoque especial en usabilidad y experiencia de usuario. Soy un apasionado de la accesibilidad y de hacer que la tecnología y el software sean más amables, satisfactorios y accesibles para todos. Me motiva darle a la gente la oportunidad de usar la tecnología de forma natural, mejorando su día a día y su calidad de vida. Todo ello aplicado al desarrollo de software, siempre centrado en las personas.
 
-## Tesis Doctoral 👨‍🎓
+Además, me especializo en el desarrollo de productos novedosos y en ayudar a las empresas a innovar. Soy experto en calidad de software en todas sus fases, con especial énfasis en las pruebas, los patrones y las arquitecturas. Domino la arquitectura de la información y de datos para diseñar sistemas complejos, escalables y distribuidos que fomenten la productividad de la empresa.
+
+---
+
+## Grupo de Investigación
+
+Como investigador pertenezco al grupo [GEDES](https://gedes.ugr.es/miembros/) de la Universidad de Granada desde 2007 y al Laboratorio de Investigación en Videojuegos y E-Learning (LIVE) de la Universidad de Granada. Colaborador del grupo [Griho](http://griho.udl.cat/en/) entre 2010-2012.
+
+---
+
+## Premios y Distinciones
+
+- **Premio Jesús Llorés 2012** al mejor trabajo nacional de Interacción Persona-Ordenador por *"Evaluación de Emociones en Videojuegos Educativos. El caso particular de los Niños"*.
+- **Premio Jesús Llorés 2011** al mejor trabajo internacional de Interacción Persona-Ordenador por *"Enriqueciendo la Evaluación en Videojuegos"*. XII Congreso Internacional de Interacción Persona-Ordenador (Lisboa, Portugal).
+- **Distinción** de la [Escuela Técnica Superior de Ingeniería Informática y de Telecomunicación de Granada](https://etsiit.ugr.es/).
+- **Premio Granada Joven 2009**. X Edición de los Premios Granada Joven, dentro de la categoría "Universidad". Concedido por el **Instituto Andaluz de la Juventud**.
+- **Ganador nacional** de [**Microsoft Imagine Cup**](https://imaginecup.microsoft.com/es-es/Events?id=0) en 2007 por el sistema [Sc@ut](http://asistic.ugr.es/scaut/), participando en la final internacional en Seúl, Corea del Sur.
+- **Primer premio** en la Tercera edición del **premio bienal Ángel Rivière** a la investigación e innovación en autismo, dentro de la categoría *"Experiencias o prácticas profesionales innovadoras"*. Otorgado por [AETAPI](http://aetapi.org/) y la *Obra Social de Caja Madrid* (2006).
+
+---
+
+## Tesis Doctoral
 
 Uno de mis principales logros personales fue mi **tesis doctoral**. En ella abordo y formalizo el concepto de **jugabilidad** y cómo caracterizar la experiencia del jugador en sistemas interactivos de ocio electrónico (videojuegos y derivados).
 
@@ -54,23 +75,6 @@ Puedes descargar la tesis doctoral en distintos formatos desde el [repositorio d
 
 ### Proyecto de Máster
 Mi proyecto realizado dentro del [Máster en Desarrollo de Software](https://masteres.ugr.es/master-desarrollo-software/) de la Universidad de Granada fue la creación de una serie de videojuegos educativos para [Nintendo DS](https://es.wikipedia.org/wiki/Nintendo_DS) para niños/as afectados de autismo o parálisis cerebral para mejorar la lectoescritura. Usando las dos pantallas, una de ellas táctil, se consigue la asociación de pictograma con el sonido indicando; de esta manera, mientras juega se puede reforzar el concepto comunicativo y realizar distintas frases uniendo pictogramas con los retos del juego.
-
----
-
-## Grupo de Investigación
-
-Como investigador pertenezco al grupo [GEDES](https://gedes.ugr.es/miembros/) de la Universidad de Granada desde 2007 y al Laboratorio de Investigación en Videojuegos y E-Learning (LIVE) de la Universidad de Granada. Colaborador del grupo [Griho](http://griho.udl.cat/en/) entre 2010-2012.
-
----
-
-## Premios y Distinciones
-
-- **Primer premio** en la Tercera edición del **premio bienal Ángel Rivière** a la investigación e innovación en autismo, dentro de la categoría *"Experiencias o prácticas profesionales innovadoras"*. Otorgado por [AETAPI](http://aetapi.org/) y la *Obra Social de Caja Madrid* (2006).
-- **Ganador nacional** de [**Microsoft Imagine Cup**](https://imaginecup.microsoft.com/es-es/Events?id=0) en 2007 por el sistema [Sc@ut](http://asistic.ugr.es/scaut/), participando en la final internacional en Seúl, Corea del Sur.
-- **Premio Granada Joven 2009**. X Edición de los Premios Granada Joven, dentro de la categoría "Universidad". Concedido por el **Instituto Andaluz de la Juventud**.
-- **Distinción** de la [Escuela Técnica Superior de Ingeniería Informática y de Telecomunicación de Granada](https://etsiit.ugr.es/).
-- **Premio Jesús Llorés 2011** al mejor trabajo internacional de Interacción Persona-Ordenador por *"Enriqueciendo la Evaluación en Videojuegos"*. XII Congreso Internacional de Interacción Persona-Ordenador (Lisboa, Portugal).
-- **Premio Jesús Llorés 2012** al mejor trabajo nacional de Interacción Persona-Ordenador por *"Evaluación de Emociones en Videojuegos Educativos. El caso particular de los Niños"*.
 
 ---
 
