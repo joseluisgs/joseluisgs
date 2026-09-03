@@ -51,7 +51,7 @@ export default hopeTheme({
   blog: {
     avatar: '/img/avatar.webp',
     description:
-      'Doctor - PhD - Profesor<br>Kotlin Trainer Certified by JetBrains<br>GitHub Campus Advisor<br><br><i class="fa-solid fa-location-dot"></i> I.E.S. Luis Vives, Leganés, Madrid',
+      'Doctor - PhD - Profesor<br>Kotlin Trainer Certified by JetBrains<br>GitHub Campus Advisor<br><br><i class="fa-solid fa-location-dot"></i> I.E.S. Luis Vives / UC3M, Madrid',
     intro: '/info/personal',
     medias: {
       GitHub: 'https://github.com/joseluisgs',
