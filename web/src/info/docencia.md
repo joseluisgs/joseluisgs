@@ -23,16 +23,23 @@ En este apartado resumiré brevemente mi actividad docente y con ello sepas cóm
 
 <!-- more -->
 ## Actualidad
-Soy profesor funcionario de carrera de Secundaria en la especialidad de Informática y doctor en Informática en Desarrollo de Software. Además, soy formador oficial en tecnologías Kotlin certificado por JetBrains, GitHub Campus Advisor.
+Soy profesor funcionario de carrera de Secundaria en la especialidad de Informática, profesor en la Universidad Carlos III de Madrid y doctor en Informática en Desarrollo de Software. Además, soy formador oficial en tecnologías Kotlin certificado por JetBrains y GitHub Campus Advisor.
 
-### Mi centro
-Mi actual centro, donde imparto docencia desde el curso 2021/2022, es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid), donde realizo además otras funciones para el centro y el departamento de Informática.
+### Mis centros
 
-<div class="vp-card-container" style="display: flex; justify-content: center;">
+<div class="vp-card-container" style="display: flex; justify-content: center; flex-wrap: wrap;">
+
+```component VPCard
+title: Universidad Carlos III de Madrid
+desc: Profesor - Grado en Ingeniería Informática - Avenida de la Universidad, 30. 28911, Leganés, Madrid
+logo: https://pbs.twimg.com/profile_images/2074042761171369984/JQhgIbsK_400x400.jpg
+link: https://www.uc3m.es/grado/informatica
+background: rgba(114, 137, 218, 0.15)
+```
 
 ```component VPCard
 title: IES Luis Vives
-desc: Instituto de Secundaria, Bachillerato y Formación Profesional - Paseo de la Ermita, 15. 28918, Leganés, Madrid
+desc: Profesor de Secundaria - Ciclos Formativos y Cursos de Especialización - Paseo de la Ermita, 15. 28918, Leganés, Madrid
 logo: https://www.iesluisvives.es/Design/Themes/IESluisvivies/Images/logo.png
 link: http://iesluisvives.es/
 background: rgba(114, 137, 218, 0.15)
@@ -40,8 +47,16 @@ background: rgba(114, 137, 218, 0.15)
 
 </div>
 
-### Docencia actual en el centro
-En estos momentos imparto docencia en Ciclos Formativos y Cursos de Especialización de Formación Profesional.
+### Docencia en la Universidad
+Imparto como profesor asociado en el Grado de Ingeniería Informática de la [Universidad Carlos III de Madrid](https://www.uc3m.es/grado/informatica) (Campus de Leganés). Mis asignaturas pertenecen al [Plan 570](https://www.uc3m.es/inf_plan_estudios/plan_570) de la titulación:
+
+- **Arquitectura de Datos** — 4.º curso, 1.º cuatrimestre, asignatura obligatoria (6 ECTS). Almacenamiento estructurado y no estructurado, sistemas distribuidos, bases de datos NoSQL, diseño basado en calidad, escalabilidad y alta disponibilidad ([ficha](https://aplicaciones.uc3m.es/cpa/generaFicha?est=218&plan=570&asig=19473&idioma=1)).
+- **Desarrollo de Software** — 2.º curso, 2.º cuatrimestre, asignatura obligatoria (6 ECTS). Prácticas ágiles, TDD, pruebas funcionales y estructurales, refactoring, principios de diseño simple y patrones de diseño ([ficha](https://aplicaciones.uc3m.es/cpa/generaFicha?est=218&plan=570&asig=18179&idioma=1)).
+
+Ambas asignaturas están dentro del [Departamento de Informática](https://www.uc3m.es/informatica) de la universidad.
+
+### Docencia en Formación Profesional
+Mi actual centro de FP, donde imparto docencia desde el curso 2021/2022, es el [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid), donde realizo además otras funciones para el centro y el departamento de Informática.
 
 Actualmente, mi labor docente se desarrolla en el ciclo de Grado Superior en Desarrollo de Aplicaciones Web (DAW), donde soy responsable de los siguientes módulos profesionales:
 - Programación: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html).
