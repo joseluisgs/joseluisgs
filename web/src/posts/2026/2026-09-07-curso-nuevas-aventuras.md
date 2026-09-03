@@ -19,7 +19,7 @@ sidebar: false
 footer: true
 ---
 
-Septiembre. El verano se fue, el calor todavía no, pero el instituto ya ha puesto el calendario en el tablón y aquí estamos, preparando las clases como cada año. Pero este curso viene distinto. Y no porque haya cambiado el ratón (que sigo con el mismo de siempre), sino porque hay **nuevos retos que me hacen mucha ilusión**.
+Septiembre. El verano se fue, el calor todavía no, pero el instituto ya ha puesto el calendario en el tablón y aquí estamos, preparando las clases como cada año. Pero este curso viene distinto. Y no porque haya cambiado el ratón (que sigo con el mismo de siempre), sino porque hay **nuevos retos que me hacen mucha ilusión** y mi "compi positivo" siempre está ahí para ayudarme a dar lo mejor de mi.
 
 <!-- more -->
 
