@@ -50,17 +50,17 @@ background: rgba(114, 137, 218, 0.15)
 ### Docencia en la Universidad
 Imparto como profesor en el [Grado de Ingeniería Informática](https://www.uc3m.es/grado/informatica) de la Universidad Carlos III de Madrid (Campus de Leganés):
 
-- **Arquitectura de Datos** — 4.º curso, 1.º cuatrimestre, asignatura obligatoria (6 ECTS). Almacenamiento estructurado y no estructurado, sistemas distribuidos, bases de datos NoSQL, diseño basado en calidad, escalabilidad y alta disponibilidad ([ficha](https://aplicaciones.uc3m.es/cpa/generaFicha?est=218&plan=570&asig=19473&idioma=1)).
-- **Desarrollo de Software** — 2.º curso, 2.º cuatrimestre, asignatura obligatoria (6 ECTS). Prácticas ágiles, TDD, pruebas funcionales y estructurales, refactoring, principios de diseño simple y patrones de diseño ([ficha](https://aplicaciones.uc3m.es/cpa/generaFicha?est=218&plan=570&asig=18179&idioma=1)).
+- **Arquitectura de Datos** — 4.º curso, 1.º cuatrimestre, asignatura obligatoria (6 ECTS). Almacenamiento estructurado y no estructurado, sistemas distribuidos, bases de datos NoSQL, gobernanza, escalabilidad y alta disponibilidad ([ficha](https://aplicaciones.uc3m.es/cpa/generaFicha?est=218&plan=570&asig=19473&idioma=1)).
+- **Desarrollo de Software** — 2.º curso, 2.º cuatrimestre, asignatura obligatoria (6 ECTS). Prácticas ágiles, TDD, pruebas funcionales y estructurales, integración continua, refactorización, arquitecturas y patrones de diseño ([ficha](https://aplicaciones.uc3m.es/cpa/generaFicha?est=218&plan=570&asig=18179&idioma=1)).
 
 Ambas asignaturas están dentro del [Departamento de Informática](https://www.uc3m.es/informatica) de la universidad.
 
 ### Docencia en Formación Profesional
-Imparto en el ciclo de Grado Superior en Desarrollo de Aplicaciones Web (DAW) del [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid), desde el curso 2021/2022:
+Imparto en el ciclo de Grado Superior en Desarrollo de Aplicaciones Web (DAW) del [IES Luis Vives](http://iesluisvives.es/), en Leganés (Madrid):
 
-- **Programación**: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html) (15 ECTS). Fundamentos, POO, programación genérica y funcional, estructuras de datos, ficheros y bases de datos con .NET y C#.
+- **Programación**: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html) (15 ECTS). Fundamentos, POO, programación genérica y funcional, estructuras de datos, ficheros y acceso a bases de datos.
 - **Entornos de Desarrollo**: 1.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html) (6 ECTS). IDEs, control de versiones (Git), diseño con UML, patrones, documentación, testing (TDD) y refactorización.
-- **Desarrollo Web en Entornos Servidor**: 2.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html) (13 ECTS). APIs REST, GraphQL, WebSockets, tiempo real, MVC, Razor Pages, Blazor, asíncronia, reactividad, concurrencia, Entity Framework Core, SQL y NoSQL con .NET y Java/Spring Boot.
+- **Desarrollo Web en Entornos Servidor**: 2.º curso de [Técnico Superior en Desarrollo de Aplicaciones Web](https://www.todofp.es/que-estudiar/loe/informatica-comunicaciones/des-aplicaciones-web.html) (13 ECTS). APIs REST, GraphQL, WebSockets, MVC, páginas dinámicas, componentes de servidor, asíncronia, reactividad, concurrencia, persistencia SQL y NoSQL.
 
 Además, suelo impartir o he impartido en otras ocasiones:
 - Programación de 1.º de DAM/DAW.
