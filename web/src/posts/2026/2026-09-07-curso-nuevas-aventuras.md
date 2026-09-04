@@ -72,7 +72,7 @@ Esto es algo que veníamos pidiendo desde hace años. La FFE en primero era un d
 
 ## Universidad: vuelta a la docencia continua
 
-Este año también vuelvo a la [Universidad Carlos III de Madrid](https://www.uc3m.es/). Y no es una colaboración puntual, sino docencia continua en el **Grado de Ingeniería Informática**. Como soy un culo inquieto, mis compis me han liado para sacarme de mi zona de confort y desempolvarme un poco para volver. Quizás las decepciones del pasado, una vez ya transcurrido el tiempo, se miran de otra manera.
+Este año también vuelvo a la [Universidad Carlos III de Madrid](https://www.uc3m.es/). Y no es una colaboración puntual, sino docencia continua en el **Grado de Ingeniería Informática**. Como soy un culo inquieto, mis compis me han liado para sacarme de mi zona de confort y desempolvarme un poco para volver. ¡Ojo! Que yo también me dejo liar. Volver a la universidad es un reto que me hace mucha ilusión, para recordar y volver a experimentar experiencias pasadas que tanto me hicieron disfrutar.
 
 ### Arquitectura de Datos (4º curso)
 
