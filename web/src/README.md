@@ -12,15 +12,15 @@ footer: true
 projects:
   - name: Programación
     desc: Apuntes y Ejemplos 1º DAW
-    link: https://github.com/joseluisgs/Programacion-00-2025-2026
+    link: https://github.com/joseluisgs/Programacion-00-2026-2027
     icon: fa-solid fa-code
   - name: Entornos de Desarrollo
     desc: Apuntes y Ejemplos 1º DAW
-    link: https://github.com/joseluisgs/EntornosDesarrollo-00-2025-2026
+    link: https://github.com/joseluisgs/EntornosDesarrollo-00-2026-2027
     icon: fa-solid fa-cogs
   - name: Desarrollo Web en Entornos Servidor
     desc: Apuntes y Ejemplos 2º DAW
-    link: https://github.com/joseluisgs/DesarrolloWebEntornosServidor-00-2025-2026
+    link: https://github.com/joseluisgs/DesarrolloWebEntornosServidor-00-2026-2027
     icon: fa-solid fa-server
   - name: Tienda Daw Api
     desc: Servicios backend con .NET Core con REST, GraphQL, WebSockets y multi-base de datos
