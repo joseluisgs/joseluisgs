@@ -70,6 +70,10 @@ Y por fin, una buena noticia legislativa. Gracias a la resolución de la Direcci
 
 Esto es algo que veníamos pidiendo desde hace años. La FFE en primero era un desastre: los alumnos llegaban sin bases, las empresas no sabían qué hacer con ellos, y el resultado era una experiencia que no aportaba nada. Ahora, aprovechando esas horas en segundo, con un total de 500 horas, los alumnos llegarán **más maduros, con más conocimientos y con la capacidad de profundizar en un nicho tecnológico y conceptual del desarrollo** que en primero era simplemente imposible.
 
+::: tip Segundo DAW 2025-2026
+No os preocupéis, el espíritu del "compi positivo" sigue ahí. Es un homenaje a todos vosotros, seguirá presente para que vuestros nuevos compañeros/as tengan la mejor motivación posible 🤘.
+:::
+
 ## Universidad: vuelta a la docencia continua
 
 Este año también vuelvo a la [Universidad Carlos III de Madrid](https://www.uc3m.es/). Y no es una colaboración puntual, sino docencia continua en el **Grado de Ingeniería Informática**. Como soy un culo inquieto, mis compis me han liado para sacarme de mi zona de confort y desempolvarme un poco para volver. ¡Ojo! Que yo también me dejo liar. Volver a la universidad es un reto que me hace mucha ilusión, para recordar y volver a experimentar experiencias pasadas que tanto me hicieron disfrutar.
