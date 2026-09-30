@@ -139,9 +139,10 @@ Para que las siglas dejen de ser un muro, este es todo el glosario que necesitas
 | **Modelo de escritura** (*write model*) | El esquema pensado para guardar con integridad | PostgreSQL normalizado |
 | **Modelo de lectura** (*read model*) | El esquema pensado para responder rápido | Documento, vista o caché |
 | **Proyección** | Cómo se transforma un dato de escritura en uno de lectura | `ProductoRead` con la categoría embebida |
+| **Notificación** (*notification*) | El nombre que MediatR da a un evento de dominio | `ProductoCreadoNotification` |
 | **Consistencia eventual** | El desfase entre escribir y verlo reflejado al leer | De milisegundos a segundos |
 
-Fíjate en la cuarta fila, que es la que más discusiones ahorrará: **CQRS no exige ningún despachador**. Si mañana tiras de MediatR y luego lo cambias por un `switch` o por llamadas directas a los handlers, sigues haciendo exactamente lo mismo.
+Fíjate en la fila del despachador, que es la que más discusiones ahorrará: **CQRS no exige ningún despachador**. Si mañana tiras de MediatR y luego lo cambias por un `switch` o por llamadas directas a los handlers, sigues haciendo exactamente lo mismo.
 
 ### Lo que ocurre cuando llega una petición
 
@@ -301,14 +302,7 @@ Cuando el tráfico crece, solo hay tres formas de aguantar: **hacer menos trabaj
 
 Las otras dos se pagan a precio de catálogo, y con un matiz que casi nunca se cuenta: **cada réplica que añades vuelve a calcular exactamente lo mismo que calculaba la anterior**. Si no reduces el trabajo por consulta, estás comprando hardware para repetir un cálculo que casi no cambia.
 
-Aquí hay que ser honestos, porque todo se paga:
-
-- Si **desnormalizas**, pagas con escrituras más caras, redundancia y una ventana de consistencia.
-- Si **cacheas**, pagas con invalidaciones y con una ventana de 60 segundos.
-- Si **añades réplicas**, pagas con infraestructura, copias de seguridad y monitorización.
-- Si **compras servidores**, pagas con la factura del mes, cada mes.
-
-Pero fíjate en el orden: **las tres primeras son trabajo que puedes optimizar con el código y el esquema que ya tienes; la cuarta requiere tarjeta de crédito.** De ahí la regla: *escala el trabajo antes que las máquinas*.
+Y aquí hay que ser honestos, porque todo se paga: desnormalizar cuesta en escrituras y en consistencia; cachear, en invalidaciones; añadir réplicas o servidores, en factura —la tabla completa está más abajo, en «El precio»—. Lo que sí importa es el orden: **optimizar el trabajo es código y esquema que ya tienes; comprar servidores es tarjeta de crédito.** De ahí la regla: *escala el trabajo antes que las máquinas*.
 
 Y un matiz para no venderte la moto: **no necesitas una segunda base de datos solo porque lleguen miles de peticiones por segundo**. Si el problema es la carga y la forma de la respuesta sigue siendo la de siempre, se resuelve con una caché, un índice que cubra la consulta o una réplica de solo lectura del mismo esquema. El almacén de lectura separado aparece cuando, junto con la avalancha, **la respuesta necesita otra forma** o cuando quieres dejar de pagar ese cálculo en cada lectura.
 
@@ -452,7 +446,7 @@ La lista completa de la factura, por si te la cobran:
 
 Y fíjate: **los tres primeros son exactamente los que asumes si decides montar ese modelo de lectura aparte**, que es el último paso de la escalera de la sección anterior. Si no puedes justificarlos con métricas, no estás comprando rendimiento, estás comprando complejidad.
 
-Y ojo con la trampa más silenciosa: **la caché**. Si una lectura concurrente se cuela entre la invalidación de caché y la réplica del modelo de lectura, puede repoblar la caché con el dato antiguo y mantenerlo hasta su tiempo de vida. En muchos proyectos, la ventana que más duele no es la de la base de datos: es la de 60 segundos de caché de salida.
+Y ojo con la trampa más silenciosa: **la caché**. Si una lectura concurrente se cuela entre la invalidación de caché y la réplica del modelo de lectura, puede repoblar la caché con el dato antiguo y mantenerlo hasta su tiempo de vida. En proyectos como el de este artículo, la ventana PostgreSQL → MongoDB dura milisegundos —el `Publish` se espera antes de devolver el `201`—, y la que más puede doler es la de la caché: 60 segundos de caché de salida y hasta 10 minutos en la caché de fachada. Por eso el tiempo de vida no es un accesorio: es la red de seguridad final.
 
 Con esta factura encima de la mesa, la pregunta es evidente: si esto cuesta tanto, ¿por qué se usa tanto? Pues precisamente porque se ha convertido en costumbre, y ahí está la moda.
 
@@ -546,7 +540,7 @@ public class CreateProductoCommandHandler(
 
 El detalle del paso 3 es el que más se ignora: **replicar primero, invalidar después y esperar**. Los listados paginados no se pueden enumerar uno a uno para invalidarlos, así que caducan solos con su TTL —o se cierran del todo con claves versionadas—; si un lector concurrente llegara a rellenar la caché con datos viejos en esa ventana diminuta, el TTL pone el techo del daño.
 
-**2. El modelo de lectura se replica con el propio evento** — sin una consulta de vuelta, porque la notificación ya viaja con el DTO. Y con una decisión importante en el codo: **PostgreSQL es la fuente de verdad**. El *handler* envuelve la réplica en un `try/catch`: si MongoDB falla, la escritura ya está commiteada y no se tumba — la réplica atrasada la repara el seeder de arranque. Lo mismo con los actualizados, los eliminados y los cambios de categoría.
+**2. El modelo de lectura se replica con el propio evento** — sin una consulta de vuelta, porque la notificación ya viaja con el DTO. Y con una decisión importante en el codo: **PostgreSQL es la fuente de verdad**. El *handler* envuelve la réplica en un `try/catch`: si MongoDB falla, la escritura ya está commiteada y no se tumba — la réplica atrasada la repara algo de mantenimiento, y más abajo verás cómo se arregla sola incluso sin reiniciar. Lo mismo con los actualizados, los eliminados y los cambios de categoría.
 
 ```csharp
 public class ProductoReadSyncHandler(
@@ -595,25 +589,7 @@ public class GetProductoByIdQueryHandler(IProductoService service)
 }
 ```
 
-**4. Los comportamientos de canalización** (*pipeline behaviors*) ponen el registro —y también la validación o la caché— en un único sitio, sin tocar *handlers*; aquí va el de registro, que es el más corto:
-
-```csharp
-public class LoggingBehavior<TRequest, TResponse>(
-    ILogger<LoggingBehavior<TRequest, TResponse>> logger)
-    : IPipelineBehavior<TRequest, TResponse>
-{
-    public async Task<TResponse> Handle(
-        TRequest request,
-        RequestHandlerDelegate<TResponse> next,
-        CancellationToken ct)
-    {
-        logger.LogInformation("Handling {Type}", typeof(TRequest).Name);
-        var response = await next();
-        logger.LogInformation("Handled {Type}", typeof(TRequest).Name);
-        return response;
-    }
-}
-```
+**4. Los comportamientos de canalización** (*pipeline behaviors*) son el sitio donde va lo transversal —registro, validación, caché— sin tocar los *handlers*: un middleware para MediatR. Y CQRS no depende de ninguno: si mañana lo cambias por decoradores, el patrón sigue igual.
 
 Y el flujo completo, con el canalizar (*pipeline*) alrededor:
 
@@ -642,16 +618,40 @@ sequenceDiagram
 ```
 
 ::: tip
-**En producción, esto no basta.** Si el proceso muere justo entre guardar y publicar, el evento se pierde y la réplica se queda atrás. La solución profesional es el patrón ***outbox***: guardar el evento en la misma transacción que el dato y publicarlo desde un servicio en segundo plano. Para enseñar, persistir-primero-y-publicar-después es suficiente; para producción, no.
+**En producción, esto no basta.** Si el proceso muere justo entre guardar y publicar, el evento se pierde y la réplica se queda atrás. La solución profesional es el patrón ***outbox***: no publicar el evento, sino **escribirlo** —una fila más en una tabla `outbox_events`, en la misma transacción que el dato— y que un servicio en segundo plano lo lea, lo publique y lo marque como enviado. Para enseñar, persistir-primero-y-publicar-después es suficiente; para producción, no.
 :::
+
+### El paso intermedio: réplica que se repara sola
+
+Hay un escalón entre «publicar y rezar» y el outbox, y es justo el que tiene implementado el proyecto del enlace: el **grado 1.5**. El command no cambia ni una línea —sigue publicando en memoria tras el commit—; lo que se añade es un proceso de fondo que cada cinco minutos vuelve sobre «lo que se quedó atrás» y lo vuelca en la réplica con un *upsert* por id, así repetir no rompe nada. Si el `Publish` falló —MongoDB caído, proceso muerto—, la réplica **se repara en minutos, no en el próximo arranque**. Y en clase queda demostración para rato: «mata el Mongo a mano, espera cinco minutos, vuelve a mirar».
+
+Esto **no** es subir de nivel de CQRS —el patrón sigue siendo el mismo—, es darle más fiabilidad a la réplica. Los tres grados, de menor a mayor:
+
+| Grado de la réplica | Qué hace | Cuándo |
+|---|---|---|
+| **1. Publicar en memoria** | El evento se pierde con una caída; la réplica la repara el seeder al arrancar | Aprendizaje y prototipos |
+| **1.5. + job reparador** | Un proceso de fondo vuelca cada pocos minutos lo que se quedó atrás | Cuando quieras demostrar consistencia eventual y auto-reparación |
+| **2. Outbox transaccional** | El evento se guarda como fila en la misma transacción que el dato; un despachador lo publica con reintentos | Cuando estés perdiendo eventos de verdad en producción —no en teoría— |
+
+El criterio es el de siempre: **sube de grado cuando te duelan los datos, no cuando te suene la teoría**. En una tienda de clase, el 1.5 es suficiente; el outbox llega con la producción.
 
 ::: warning
 **Antes de que abras el repo, la nota de honestidad:**
 
-- Solo **Productos** sube al nivel 2; categorías, usuarios y pedidos se quedan en el 1 —misma base de datos, código separado y caché—. El proyecto hace justo lo que defiende este artículo: CQRS por porciones, no de sistema entero.
+El mapa real del proyecto es este —solo Productos sube al nivel 2—:
+
+| Dato | Se escribe en | Se lee en | ¿Ventana de inconsistencia? |
+|------|---------------|-----------|------------------------------|
+| **Productos** | PostgreSQL | MongoDB `productos_read` + caché | **Sí**: PG → Mongo → caché |
+| **Categorías** | PostgreSQL | PostgreSQL + caché | Solo la caché |
+| **Pedidos** | MongoDB | MongoDB, misma fuente | No |
+| **Usuarios** | PostgreSQL | PostgreSQL | No |
+
+El proyecto hace justo lo que defiende este artículo: CQRS por porciones, no de sistema entero. Y el resto de detalles que conviene saber antes de compararlo con el texto:
+
 - Ese nivel 2 es sobre todo **didáctico**: con el volumen de un aula no lo pide el rendimiento. Lo que demuestra de verdad es la forma —documento ya montado, 0 JOINs— y cómo un command reparte efectos sin que el *handler* sepa quién escucha.
 - **GraphQL no pasa por MediatR**: entra directo por la fachada de lectura. CQRS es separar los modelos, no amarrarse a un despachador concreto.
-- Las invalidaciones de caché del **repo real** se lanzan en segundo plano y sin esperar a replicar — aquí las ves corregidas: esperadas y después del sync—. Lo que sigue sin estar en el proyecto es el *outbox* del aviso anterior: el evento se publica en memoria, así que una caída entre guardar y publicar deja la réplica de MongoDB desincronizada sin límite de tiempo. En producción, obligatorio.
+- Las invalidaciones de caché del **repo real** se lanzan en segundo plano y sin esperar a replicar —aquí las ves corregidas: esperadas y después del sync—. Y lo que se pierde en caliente ya no depende del próximo arranque: el *job reparador* del grado 1.5 lo cura en minutos. Lo que sigue sin estar es el ***outbox***, que es lo que convierte «se repara solo» en «no se pierde nunca» — en producción, obligatorio.
 :::
 
 Con el código a la vista, la última pregunta es la que de verdad importa en un proyecto: ¿cuándo lo pongo en marcha y cuándo no?
@@ -715,6 +715,16 @@ Vamos al fallo del tribunal:
 | **REALIDAD** ✓ | La separación de responsabilidades entre leer y escribir es real, útil y demostrable. Y en su nivel fundacional —misma base de datos, código separado— es casi gratis. |
 
 La respuesta, como casi todo en arquitectura de datos, es **«depende»**. Pero depende de algo concreto: de que sepas *qué* estás aplicando y *por qué*.
+
+## Y ahora, ¿qué hago yo?
+
+Tres puertas de salida, según por dónde hayas entrado:
+
+**Si eres alumno:** no montes CQRS todavía —da un paso gratis primero: separa `Commands/` y `Queries/`, un *handler* por operación. Después compara las carpetas `Features/` y `Services/` de los dos repos del enlace: ahí está todo el artículo.
+
+**Si eres profesor:** úsalo como pre-lectura y pon el reto que falta: *implementa el nivel 1 y defiende por qué no subes al 2*. La demo que no falla en clase: rompe la réplica y esperad cinco minutos.
+
+**Si eres desarrollador:** mide antes de tocar nada —cuánto tarda la consulta y cuántas veces por segundo la ejecutas—; sube la escalera —índice, proyección, caché— antes que el nivel; y si dudas, no lo hagas: un CRUD con caché bien hecha gana, casi siempre, a un CQRS mal llevado.
 
 ## Reflexión
 
