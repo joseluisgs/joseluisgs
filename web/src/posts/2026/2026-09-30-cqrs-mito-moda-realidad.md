@@ -650,8 +650,8 @@ El mapa real del proyecto es este —solo Productos sube al nivel 2—:
 El proyecto hace justo lo que defiende este artículo: CQRS por porciones, no de sistema entero. Y el resto de detalles que conviene saber antes de compararlo con el texto:
 
 - Ese nivel 2 es sobre todo **didáctico**: con el volumen de un aula no lo pide el rendimiento. Lo que demuestra de verdad es la forma —documento ya montado, 0 JOINs— y cómo un command reparte efectos sin que el *handler* sepa quién escucha.
-- **GraphQL no pasa por MediatR**: entra directo por la fachada de lectura. CQRS es separar los modelos, no amarrarse a un despachador concreto.
-- Las invalidaciones de caché del **repo real** se lanzan en segundo plano y sin esperar a replicar —aquí las ves corregidas: esperadas y después del sync—. Y lo que se pierde en caliente ya no depende del próximo arranque: el *job reparador* del grado 1.5 lo cura en minutos. Lo que sigue sin estar es el ***outbox***, que es lo que convierte «se repara solo» en «no se pierde nunca» — en producción, obligatorio.
+- Las invalidaciones de caché ya siguen el mismo orden que el código de arriba —replicar, invalidar después y esperar—, y lo que se pierde en caliente no depende del próximo arranque: el *job reparador* del grado 1.5 lo cura en minutos. Lo que sigue sin estar es el ***outbox***, que es lo que convierte «se repara solo» en «no se pierde nunca» — en producción, obligatorio.
+- Un riesgo conocido que el TTL tapa: al renombrar una categoría, los productos cacheados siguen enseñando el nombre antiguo hasta que caduquen — invalidar esas claves una a una no es viable. Justo por eso la caché no es un adorno: es la red de seguridad final.
 :::
 
 Con el código a la vista, la última pregunta es la que de verdad importa en un proyecto: ¿cuándo lo pongo en marcha y cuándo no?
