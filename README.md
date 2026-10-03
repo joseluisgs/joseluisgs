@@ -109,7 +109,7 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
  - ✏️ [**Arquitectura de Datos: Por qué elegir mal tu base de datos puede costarte el éxito**](https://joseluisgs.dev/posts/2026/2026-07-20-arquitectura-datos-mal-enfoque.html) *20 Jul 2026* 
 <!-- BLOG-POST-LIST:END -->
 
-➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
+➡️ [Leer más...](https://joseluisgs.dev/category/blog/)
 
 
 <h2 align="center">📈 Mi Actividad</h2>

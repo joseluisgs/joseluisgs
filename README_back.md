@@ -191,7 +191,7 @@ Estas son solo algunas de las tecnologías 💻 que más suelo usar/trabajar o c
  - ✏️ [**Programación 03 - Aplicación de Estructuras de Almacenamiento Estáticas**](https://joseluisgs.dev/blogs/2025/2025-10-20-prog_ud_03_estrecturas_estaticas.html) *20 Oct 2025* 
 <!-- BLOG-POST-LIST:END -->
 
-➡️ [Leer más...](https://joseluisgs.github.io/categories/Blog/)
+➡️ [Leer más...](https://joseluisgs.dev/category/blog/)
 
 
 <h2 align="center">📈 Mi Actividad</h2>
