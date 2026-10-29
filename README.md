@@ -98,6 +98,8 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
 <h2 align="center">📕 Mi web: últimas entradas </h2>
 
 <!-- BLOG-POST-LIST:START -->
+ - ✏️ [**MongoDB: La base de datos sin esquema fijo, donde viven tus documentos**](https://joseluisgs.dev/posts/2026/2026-10-28-mongodb-sin-esquema-fijo.html) *28 Oct 2026* 
+
  - ✏️ [**CQRS: ¿mito, moda o realidad?**](https://joseluisgs.dev/posts/2026/2026-09-30-cqrs-mito-moda-realidad.html) *30 Sep 2026* 
 
  - ✏️ [**Curso nuevo, nuevas aventuras**](https://joseluisgs.dev/posts/2026/2026-09-07-curso-nuevas-aventuras.html) *7 Sep 2026* 
@@ -105,8 +107,6 @@ Como **Kotlin Trainer Certified by JetBrains** y **GitHub Campus Advisor**, me a
  - ✏️ [**Netflix: Lo que pasa cuando pulsas &amp;apos;Reproducir&amp;apos;**](https://joseluisgs.dev/posts/2026/2026-08-24-netflix-arquitectura-datos.html) *24 Aug 2026* 
 
  - ✏️ [**Redis: La base de datos que no sabías que necesitabas**](https://joseluisgs.dev/posts/2026/2026-08-17-redis-base-datos-clave-valor.html) *17 Aug 2026* 
-
- - ✏️ [**Arquitectura de Datos: Por qué elegir mal tu base de datos puede costarte el éxito**](https://joseluisgs.dev/posts/2026/2026-07-20-arquitectura-datos-mal-enfoque.html) *20 Jul 2026* 
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Leer más...](https://joseluisgs.dev/category/blog/)
