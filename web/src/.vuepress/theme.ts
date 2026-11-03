@@ -152,10 +152,12 @@ export default hopeTheme({
       // versión al servidor en vez de servirla desde la caché del Service Worker.
       cacheHTML: false,
       cacheImage: true,
-      // "hint": avisa con un popup cuando hay contenido nuevo y el usuario
-      // decide cuándo recargar (sin recargas sorpresa).
-      // Alternativas: 'force' (recarga automática) | 'available' (popup al terminar).
-      update: 'hint',
+      // "available": muestra un popup en español cuando hay contenido nuevo y,
+      // al pulsarlo, el Service Worker se activa al instante (SKIP_WAITING) y la
+      // página se recarga sola. Es el único modo que actualiza sin cerrar pestañas.
+      // Alternativas: 'hint' (aviso temprano, pero el SW no se activa hasta
+      // cerrar todas las pestañas) | 'force' (recarga automática, tampoco activa el SW).
+      update: 'available',
       // Textos del popup de actualización en español (por defecto salen en inglés).
       locales: {
         '/': {
