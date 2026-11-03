@@ -148,8 +148,21 @@ export default hopeTheme({
 
     pwa: {
       favicon: '/assets/icon/favicon-32x32.webp',
-      cacheHTML: true,
-      cachePic: true,
+      // No cacheamos todo el HTML: así el navegador siempre pide la última
+      // versión al servidor en vez de servirla desde la caché del Service Worker.
+      cacheHTML: false,
+      cacheImage: true,
+      // "hint": avisa con un popup cuando hay contenido nuevo y el usuario
+      // decide cuándo recargar (sin recargas sorpresa).
+      // Alternativas: 'force' (recarga automática) | 'available' (popup al terminar).
+      update: 'hint',
+      // Textos del popup de actualización en español (por defecto salen en inglés).
+      locales: {
+        '/': {
+          hint: 'Hay contenido nuevo disponible',
+          update: 'Nuevo contenido disponible',
+        },
+      },
       appendBase: true,
       apple: {
         icon: '/assets/icon/apple-icon-180-180x180.png',
