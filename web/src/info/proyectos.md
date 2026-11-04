@@ -62,6 +62,7 @@ En este repositorio subo proyectos que aplico a temas personales/profesionales o
       <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/tech-icons/github.svg" height="32" title="GitHub">
       <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/tech-icons/jetbrains.svg" height="32" title="JetBrains">
       <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/tech-icons/vscode.svg" height="32" title="VS Code">
+      <img src="https://raw.githubusercontent.com/joseluisgs/joseluisgs/master/images/tech-icons/warp.png" height="32" title="Warp">
     </td>
   </tr>
   </tbody>
