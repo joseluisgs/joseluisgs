@@ -25,7 +25,7 @@ Todo el mundo te enseñó a modelar igual: miras los datos que guardas, dibujas 
 
 Hay sistemas donde ese orden se invierte, y no por capricho: la pregunta ya se conoce de antemano. Qué mensajes tiene el canal 42, qué compró el cliente 17, qué vio el usuario ayer. Si sabes exactamente qué te van a preguntar, ¿para qué diseñar para lo impredecible?
 
-Ahí es donde entra Cassandra.
+Ahí es donde entra Cassandra para ayudarnos.
 
 <!-- more -->
 
